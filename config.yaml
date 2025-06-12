@@ -1,5 +1,6 @@
 arguments:
   format: json
+  reverse: True
 git_services:
   - host: github.com
     repos:
