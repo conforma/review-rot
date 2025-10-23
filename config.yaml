@@ -41,3 +41,10 @@ git_services:
       - tektoncd/chains
     token: "${GITHUB_TOKEN}"
     type: github
+labels:
+  - XS
+  - S
+  - M
+  - L
+  - XL
+  - XXL
