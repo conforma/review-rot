@@ -42,9 +42,9 @@ git_services:
     token: "${GITHUB_TOKEN}"
     type: github
 labels:
-  - size: XS
-  - size: S
-  - size: M
-  - size: L
-  - size: XL
-  - size: XXL
+  - "size: XS"
+  - "size: S"
+  - "size: M"
+  - "size: L"
+  - "size: XL"
+  - "size: XXL"
