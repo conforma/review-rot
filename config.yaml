@@ -7,25 +7,30 @@ git_services:
     repos:
       - conforma/.github
       - conforma/action-validate-image
+      - conforma/build-definitions
+      - conforma/claude-skills
       - conforma/cli
       - conforma/community
+      - conforma/config
       - conforma/conforma.github.io
       - conforma/crds
-      - conforma/knative-service
       - conforma/demos
       - conforma/github-workflows
       - conforma/go-containerregistry
       - conforma/go-gather
       - conforma/golden-container
-      - conforma/infra-deployments-ci
-      - conforma/policy
       - conforma/hacks
       - conforma/hooks
+      - conforma/infra-deployments
+      - conforma/infra-deployments-ci
+      - conforma/knative-service
+      - conforma/policy
       - conforma/policy-builder
+      - conforma/pr-agents-settings
+      - conforma/pr-size-label-action
       - conforma/review-rot
       - conforma/tekton-catalog
       - conforma/user-guide
-      - conforma/config
       - enterprise-contract/enterprise-contract-controller
       - enterprise-contract/.github 
       - konflux-ci/build-definitions
