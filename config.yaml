@@ -26,7 +26,7 @@ git_services:
       - conforma/knative-service
       - conforma/policy
       - conforma/policy-builder
-      - conforma/pr-agents-settings
+      - conforma/pr-agent-settings
       - conforma/pr-size-label-action
       - conforma/review-rot
       - conforma/tekton-catalog
