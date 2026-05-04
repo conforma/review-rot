@@ -19,6 +19,7 @@ git_services:
       - conforma/go-containerregistry
       - conforma/go-gather
       - conforma/golden-container
+      - conforma/golden-rpm
       - conforma/hacks
       - conforma/hooks
       - conforma/infra-deployments
