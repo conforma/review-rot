@@ -32,6 +32,7 @@ async function init() {
         updateFooter();
         attachEventListeners();
     } catch (err) {
+        console.error('Failed to load data:', err);
         document.getElementById('error-banner').hidden = false;
         document.querySelector('.table-container').hidden = true;
     }
@@ -193,18 +194,23 @@ function ageColorClass(isoDate) {
 }
 
 function avatarUrl(url) {
+    if (!/^https?:\/\//i.test(url)) return '';
     const sep = url.includes('?') ? '&' : '?';
     return `${url}${sep}s=40`;
 }
 
+function safeClass(str) {
+    return str.replace(/[^a-z0-9-]/g, '');
+}
+
 function renderCIStatus(status) {
-    const cls = 'ci-' + (status || 'unknown').toLowerCase();
+    const cls = 'ci-' + safeClass((status || 'unknown').toLowerCase());
     return `<span class="ci-dot ${cls}"></span>`;
 }
 
 function renderSize(size) {
     if (!size) return '';
-    const cls = 'size-' + size.toLowerCase();
+    const cls = 'size-' + safeClass(size.toLowerCase());
     return `<span class="size-badge ${cls}">${escapeHtml(size)}</span>`;
 }
 
