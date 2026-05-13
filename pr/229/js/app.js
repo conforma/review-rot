@@ -232,7 +232,7 @@ function renderRow(pr) {
                 ${renderSize(pr.size)}${draftBadge}
             </div>
             <div class="pr-info-line">
-                <span class="pr-repo">${escapeHtml(pr.repo)}</span>, by
+                <span class="pr-repo">${escapeHtml(pr.repo)}</span>
                 <img class="avatar-sm" src="${escapeHtml(avatarUrl(pr.author.avatar_url))}" alt="${escapeHtml(pr.author.login)}" width="16" height="16">
                 ${escapeHtml(pr.author.login)}
             </div>
