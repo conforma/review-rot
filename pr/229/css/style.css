@@ -57,14 +57,32 @@ body {
 .header {
     background: var(--accent-dark);
     color: var(--text-on-primary);
-    padding: var(--spacing-lg) var(--spacing-xl);
+    padding: var(--spacing-sm) var(--spacing-md);
 }
 
-.header-top h1 {
-    font-size: var(--font-size-xl);
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--spacing-lg);
+}
+
+.header-title {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.header-logo {
+    height: 32px;
+    width: auto;
+}
+
+.header-title h1 {
+    font-size: var(--font-size-lg);
     font-weight: 600;
-    margin-bottom: var(--spacing-md);
     color: var(--text-on-primary);
+    white-space: nowrap;
 }
 
 .stats {
@@ -93,7 +111,7 @@ body {
     display: flex;
     align-items: center;
     gap: var(--spacing-lg);
-    padding: var(--spacing-md) var(--spacing-xl);
+    padding: var(--spacing-sm) var(--spacing-md);
     background: var(--bg);
     border-bottom: 2px solid var(--accent-light);
     flex-wrap: wrap;
@@ -176,7 +194,7 @@ select:focus {
 }
 
 .table-container {
-    margin: var(--spacing-md) var(--spacing-xl);
+    margin: var(--spacing-sm) var(--spacing-md);
     background: var(--bg);
     border: 1px solid var(--border);
     border-radius: var(--radius);
@@ -211,7 +229,7 @@ select:focus {
 }
 
 .pr-table th .sort-arrow {
-    margin-left: var(--spacing-xs);
+    margin-right: var(--spacing-xs);
     font-size: 10px;
 }
 
@@ -244,6 +262,11 @@ select:focus {
 
 .pr-table tbody tr:last-child td {
     border-bottom: none;
+}
+
+.pr-table th:first-child,
+.pr-table td:first-child {
+    width: 50%;
 }
 
 .pr-cell {
@@ -354,13 +377,16 @@ select:focus {
     white-space: nowrap;
 }
 
-.new-commits-yes {
+.re-review-yes {
     color: var(--age-old);
-    font-weight: 500;
+    font-size: var(--font-size-lg);
+    line-height: 1;
 }
 
-.new-commits-no {
+.re-review-no {
     color: var(--text-secondary);
+    font-size: var(--font-size-lg);
+    line-height: 1;
 }
 
 .age-cell {
@@ -412,7 +438,7 @@ select:focus {
 
 .footer {
     text-align: center;
-    padding: var(--spacing-md) var(--spacing-xl);
+    padding: var(--spacing-sm) var(--spacing-md);
     color: var(--text-secondary);
     font-size: var(--font-size-sm);
 }

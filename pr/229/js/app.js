@@ -197,10 +197,10 @@ function renderSize(size) {
     return `<span class="size-badge ${cls}">${escapeHtml(size)}</span>`;
 }
 
-function renderNewCommits(reviews) {
-    if (reviews.count === 0) return '<span class="new-commits-no">—</span>';
-    if (reviews.has_new_commits) return '<span class="new-commits-yes">Yes</span>';
-    return '<span class="new-commits-no">No</span>';
+function renderReReview(reviews) {
+    if (reviews.count === 0) return '<span class="re-review-no">—</span>';
+    if (reviews.has_new_commits) return '<span class="re-review-yes" title="New commits since last review">&#x25cf;</span>';
+    return '<span class="re-review-no" title="No new commits since last review">&#x25cb;</span>';
 }
 
 function renderRow(pr) {
@@ -224,7 +224,7 @@ function renderRow(pr) {
         <td class="age-cell${ageClass}">${formatElapsed(pr.created_at)}</td>
         <td>${pr.unresolved_conversations}</td>
         <td class="reviews-cell">${pr.reviews.count}</td>
-        <td>${renderNewCommits(pr.reviews)}</td>
+        <td>${renderReReview(pr.reviews)}</td>
     </tr>`;
 }
 
@@ -237,7 +237,7 @@ function updateSortIndicators() {
             const arrow = document.createElement('span');
             arrow.className = 'sort-arrow';
             arrow.textContent = state.sort.direction === 'asc' ? '▲' : '▼';
-            th.appendChild(arrow);
+            th.prepend(arrow);
         }
     });
 }
@@ -267,11 +267,22 @@ function render() {
     updateSortIndicators();
 }
 
+function formatRelativeTime(date) {
+    const seconds = Math.floor((Date.now() - date) / 1000);
+    if (seconds < 60) return 'just now';
+    const minutes = Math.floor(seconds / 60);
+    if (minutes < 60) return `~${minutes}m ago`;
+    const hours = Math.floor(minutes / 60);
+    if (hours < 24) return `~${hours}h ago`;
+    const days = Math.floor(hours / 24);
+    return `~${days}d ago`;
+}
+
 function updateFooter() {
     if (!state.generatedAt) return;
     const el = document.getElementById('last-updated');
     const date = new Date(state.generatedAt);
-    el.textContent = `Data last updated: ${date.toLocaleString()}`;
+    el.textContent = `Data last updated: ${date.toLocaleString()} (${formatRelativeTime(date)})`;
 }
 
 document.addEventListener('DOMContentLoaded', init);

@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Review Rot</title>
+    <title>Conforma Review Rot</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="header">
-        <div class="header-top">
-            <h1>Review Rot</h1>
-        </div>
-        <div class="stats">
-            <div class="stat">
-                <span class="stat-value" id="total-count">0</span>
-                <span class="stat-label">PRs shown</span>
+        <div class="header-row">
+            <div class="header-title">
+                <img src="images/logo.svg" alt="Conforma" class="header-logo">
+                <h1>Conforma Review Rot</h1>
             </div>
-            <div class="stat">
-                <span class="stat-value" id="avg-age">—</span>
-                <span class="stat-label">Avg. age of visible PRs</span>
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-value" id="total-count">0</span>
+                    <span class="stat-label">PRs shown</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="avg-age">—</span>
+                    <span class="stat-label">Avg. age</span>
+                </div>
             </div>
         </div>
     </header>
@@ -63,7 +66,7 @@
                     <th class="sortable" data-sort="created_at">Age <span class="col-tooltip" title="Time since PR was created">?</span></th>
                     <th>Threads <span class="col-tooltip" title="Unresolved review threads">?</span></th>
                     <th class="sortable" data-sort="reviews">Reviews <span class="col-tooltip" title="Number of completed reviews">?</span></th>
-                    <th>New commits <span class="col-tooltip" title="New commits pushed after the last review">?</span></th>
+                    <th>Re-review <span class="col-tooltip" title="New commits pushed since the last review — needs another look">?</span></th>
                 </tr>
             </thead>
             <tbody id="pr-table-body">
