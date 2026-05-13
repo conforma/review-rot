@@ -277,6 +277,13 @@ select:focus {
     color: var(--text-secondary);
 }
 
+.pr-author-line {
+    margin-top: 1px;
+    margin-left: 28px;
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+}
+
 .pr-repo {
     white-space: nowrap;
 }

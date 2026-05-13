@@ -8,8 +8,8 @@ const state = {
         readyForReview: false
     },
     sort: {
-        field: null,
-        direction: 'asc'
+        field: 'updated_at',
+        direction: 'desc'
     }
 };
 
@@ -217,13 +217,14 @@ function renderRow(pr) {
             <div class="pr-info-line">
                 <span class="pr-repo">${escapeHtml(pr.repo)}</span>
             </div>
+            <div class="pr-author-line">${escapeHtml(pr.author.login)}</div>
         </td>
         <td>${renderCIStatus(pr.ci_status)}</td>
+        <td class="age-cell">${formatElapsed(pr.updated_at)}</td>
+        <td class="age-cell${ageClass}">${formatElapsed(pr.created_at)}</td>
+        <td>${pr.unresolved_conversations}</td>
         <td class="reviews-cell">${pr.reviews.count}</td>
         <td>${renderNewCommits(pr.reviews)}</td>
-        <td>${pr.unresolved_conversations}</td>
-        <td class="age-cell${ageClass}">${formatElapsed(pr.created_at)}</td>
-        <td class="age-cell">${formatElapsed(pr.updated_at)}</td>
     </tr>`;
 }
 

@@ -2,61 +2,149 @@
   "generated_at": "2026-05-13T10:30:00Z",
   "pull_requests": [
     {
-      "title": "Add new policy rule for container signing",
-      "url": "https://github.com/conforma/policy/pull/42",
-      "number": 42,
-      "repo": "conforma/policy",
+      "title": "[troubleshooting] Add ryuk troubleshooting section to README",
+      "url": "https://github.com/conforma/cli/pull/3298",
+      "number": 3298,
+      "repo": "conforma/cli",
       "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/150077?v=4"
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
-      "created_at": "2026-05-10T08:15:00Z",
-      "updated_at": "2026-05-13T09:30:00Z",
+      "created_at": "2026-05-12T11:10:11Z",
+      "updated_at": "2026-05-13T08:32:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 1,
-      "labels": ["size: M", "lgtm"]
-    },
-    {
-      "title": "Fix build pipeline for trusted artifacts",
-      "url": "https://github.com/konflux-ci/build-trusted-artifacts/pull/87",
-      "number": 87,
-      "repo": "konflux-ci/build-trusted-artifacts",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/4923025?v=4"
-      },
-      "created_at": "2026-05-12T14:00:00Z",
-      "updated_at": "2026-05-13T08:00:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "S",
+      "size": "XS",
       "reviews": {
         "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": ["size: S"]
+      "labels": ["size: XS"]
     },
     {
-      "title": "WIP: Refactor verification engine",
-      "url": "https://github.com/enterprise-contract/ec-cli/pull/301",
-      "number": 301,
-      "repo": "enterprise-contract/ec-cli",
+      "title": "Remove Pipelines as Code configuration for cli-v06",
+      "url": "https://github.com/conforma/cli/pull/3297",
+      "number": 3297,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?v=4"
+      },
+      "created_at": "2026-05-12T09:13:56Z",
+      "updated_at": "2026-05-12T09:21:22Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": ["size: XXL"]
+    },
+    {
+      "title": "Update module github.com/in-toto/in-toto-golang to v0.11.0 (release-v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3295",
+      "number": 3295,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate[bot]",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-05-11T18:58:35Z",
+      "updated_at": "2026-05-11T19:07:00Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": ["renovate", "release-v0.7", "size: XS"]
+    },
+    {
+      "title": "Update go modules (main) (minor)",
+      "url": "https://github.com/conforma/cli/pull/3285",
+      "number": 3285,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux[bot]",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-05-11T03:00:37Z",
+      "updated_at": "2026-05-13T03:30:01Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": ["renovate", "main", "size: XXL"]
+    },
+    {
+      "title": "feat: add direct OPA evaluator with shared base infrastructure",
+      "url": "https://github.com/conforma/cli/pull/3276",
+      "number": 3276,
+      "repo": "conforma/cli",
       "author": {
         "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16267722?v=4"
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?v=4"
       },
-      "created_at": "2026-05-05T10:00:00Z",
-      "updated_at": "2026-05-11T16:45:00Z",
-      "is_draft": true,
+      "created_at": "2026-05-06T23:07:00Z",
+      "updated_at": "2026-05-08T16:00:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XXL",
+      "reviews": {
+        "count": 2,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 3,
+      "labels": ["size: XXL"]
+    },
+    {
+      "title": "Update module github.com/tektoncd/pipeline to v1.9.3 (main)",
+      "url": "https://github.com/conforma/cli/pull/3280",
+      "number": 3280,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux[bot]",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-05-09T03:11:21Z",
+      "updated_at": "2026-05-13T03:38:15Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": ["renovate", "main", "size: XS"]
+    },
+    {
+      "title": "feat(EC-1774): verify chain of trust for in-toto statements",
+      "url": "https://github.com/conforma/policy/pull/1725",
+      "number": 1725,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?v=4"
+      },
+      "created_at": "2026-05-11T20:45:30Z",
+      "updated_at": "2026-05-12T18:39:51Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": "XL",
@@ -68,60 +156,104 @@
       "labels": ["size: XL"]
     },
     {
-      "title": "Update dependency: tekton-results to v0.9.0",
-      "url": "https://github.com/conforma/config/pull/156",
-      "number": 156,
-      "repo": "conforma/config",
-      "author": {
-        "login": "renovate[bot]",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-05-13T06:00:00Z",
-      "updated_at": "2026-05-13T06:05:00Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": ["size: XS"]
-    },
-    {
-      "title": "Add e2e test for golden container verification",
-      "url": "https://github.com/conforma/golden-container/pull/19",
-      "number": 19,
-      "repo": "conforma/golden-container",
+      "title": "feat(EC-1683): Run existing task policies against task bundle images",
+      "url": "https://github.com/conforma/policy/pull/1713",
+      "number": 1713,
+      "repo": "conforma/policy",
       "author": {
         "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/59606528?v=4"
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?v=4"
       },
-      "created_at": "2026-04-28T09:30:00Z",
-      "updated_at": "2026-05-08T11:00:00Z",
+      "created_at": "2026-04-20T12:58:58Z",
+      "updated_at": "2026-05-05T04:05:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 3,
+        "count": 2,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
-      "labels": ["size: L", "approved"]
+      "unresolved_conversations": 1,
+      "labels": ["size: L"]
     },
     {
-      "title": "Bump golang.org/x/crypto from 0.23.0 to 0.24.0",
-      "url": "https://github.com/conforma/cli/pull/445",
-      "number": 445,
-      "repo": "conforma/cli",
+      "title": "Check for TEST_OUTPUT in RPM build tasks",
+      "url": "https://github.com/conforma/policy/pull/1709",
+      "number": 1709,
+      "repo": "conforma/policy",
       "author": {
-        "login": "dependabot[bot]",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+        "login": "jorris",
+        "avatar_url": "https://avatars.githubusercontent.com/u/2124087?v=4"
       },
-      "created_at": "2026-05-12T00:00:00Z",
-      "updated_at": "2026-05-12T00:05:00Z",
+      "created_at": "2026-04-06T18:56:18Z",
+      "updated_at": "2026-04-29T16:57:59Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "count": 1,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": ["size: S"]
+    },
+    {
+      "title": "Increase regal line length lint limit to 200",
+      "url": "https://github.com/conforma/policy/pull/1702",
+      "number": 1702,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?v=4"
+      },
+      "created_at": "2026-03-24T19:26:09Z",
+      "updated_at": "2026-03-24T19:35:42Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": ["size: XL"]
+    },
+    {
+      "title": "add option for trusted registries",
+      "url": "https://github.com/conforma/policy/pull/1693",
+      "number": 1693,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?v=4"
+      },
+      "created_at": "2026-03-06T17:38:52Z",
+      "updated_at": "2026-03-06T17:46:41Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": ["size: L"]
+    },
+    {
+      "title": "Update dependency golang to v1.25.10 (main)",
+      "url": "https://github.com/conforma/policy/pull/1695",
+      "number": 1695,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate[bot]",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-03-07T00:41:10Z",
+      "updated_at": "2026-05-12T16:51:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -131,88 +263,66 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": ["size: XS", "dependencies"]
+      "labels": ["renovate", "main", "size: XS"]
     },
     {
-      "title": "Implement OCI artifact signing support",
-      "url": "https://github.com/tektoncd/chains/pull/892",
-      "number": 892,
-      "repo": "tektoncd/chains",
+      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to 1ef916d (main)",
+      "url": "https://github.com/conforma/golden-container/pull/1489",
+      "number": 1489,
+      "repo": "conforma/golden-container",
       "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17174062?v=4"
+        "login": "red-hat-konflux[bot]",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
-      "created_at": "2026-05-01T13:00:00Z",
-      "updated_at": "2026-05-12T10:30:00Z",
+      "created_at": "2026-05-13T04:12:00Z",
+      "updated_at": "2026-05-13T04:25:00Z",
       "is_draft": false,
-      "is_automated": false,
+      "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 5,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 3,
-      "labels": ["size: XXL", "needs-rebase"]
-    },
-    {
-      "title": "Update infra-deployments for staging",
-      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/4201",
-      "number": 4201,
-      "repo": "redhat-appstudio/infra-deployments",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/22710295?v=4"
-      },
-      "created_at": "2026-05-13T07:00:00Z",
-      "updated_at": "2026-05-13T09:15:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "S",
+      "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": ["size: S"]
+      "labels": ["main", "renovate", "size: XS"]
     },
     {
-      "title": "Fix flaky integration test in e2e suite",
-      "url": "https://github.com/konflux-ci/e2e-tests/pull/1523",
-      "number": 1523,
-      "repo": "konflux-ci/e2e-tests",
-      "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/74268742?v=4"
-      },
-      "created_at": "2026-05-11T15:30:00Z",
-      "updated_at": "2026-05-13T07:45:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "ERROR",
-      "size": "M",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 1,
-      "labels": ["size: M", "bug"]
-    },
-    {
-      "title": "Improve CRD validation for release policies",
-      "url": "https://github.com/conforma/crds/pull/95",
-      "number": 95,
+      "title": "Update go modules (main) (minor)",
+      "url": "https://github.com/conforma/crds/pull/17",
+      "number": 17,
       "repo": "conforma/crds",
       "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/150077?v=4"
+        "login": "renovate[bot]",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
-      "created_at": "2026-05-09T11:00:00Z",
-      "updated_at": "2026-05-12T14:00:00Z",
+      "created_at": "2025-10-23T03:27:17Z",
+      "updated_at": "2026-05-13T01:42:17Z",
       "is_draft": false,
-      "is_automated": false,
+      "is_automated": true,
       "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": ["main", "renovate"]
+    },
+    {
+      "title": "chore(deps): update quay.io/opdev/preflight:stable Docker digest to 6dc9402",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3518",
+      "number": 3518,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "renovate[bot]",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-05-12T21:59:38Z",
+      "updated_at": "2026-05-12T22:18:06Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -222,290 +332,92 @@
       "labels": []
     },
     {
-      "title": "Migrate build definitions to new format",
-      "url": "https://github.com/konflux-ci/build-definitions/pull/2100",
-      "number": 2100,
+      "title": "task(operator-sdk-generate-bundle): set floor resources for the step",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3514",
+      "number": 3514,
       "repo": "konflux-ci/build-definitions",
       "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/4923025?v=4"
+        "login": "smodak-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/231088367?v=4"
       },
-      "created_at": "2026-05-07T08:00:00Z",
-      "updated_at": "2026-05-13T10:00:00Z",
+      "created_at": "2026-05-11T17:26:49Z",
+      "updated_at": "2026-05-12T15:44:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": ["size: L"]
-    },
-    {
-      "title": "Update Konflux documentation for v2.0",
-      "url": "https://github.com/konflux-ci/docs/pull/340",
-      "number": 340,
-      "repo": "konflux-ci/docs",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/59606528?v=4"
-      },
-      "created_at": "2026-05-13T08:00:00Z",
-      "updated_at": "2026-05-13T10:15:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "S",
+      "size": null,
       "reviews": {
         "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": ["size: S", "documentation"]
+      "labels": []
     },
     {
-      "title": "WIP: Explore new attestation format",
-      "url": "https://github.com/conforma/policy/pull/43",
-      "number": 43,
-      "repo": "conforma/policy",
+      "title": "chore: archive expired buildah 0.8 and push-dockerfile 0.1/0.2 tasks",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3513",
+      "number": 3513,
+      "repo": "konflux-ci/build-definitions",
       "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16267722?v=4"
+        "login": "sfowl",
+        "avatar_url": "https://avatars.githubusercontent.com/u/9766446?v=4"
       },
-      "created_at": "2026-05-12T16:00:00Z",
-      "updated_at": "2026-05-12T16:30:00Z",
+      "created_at": "2026-05-08T04:33:50Z",
+      "updated_at": "2026-05-11T08:26:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": ["size: XS"]
-    },
-    {
-      "title": "Update component nudges for conforma",
-      "url": "https://github.com/conforma/github-workflows/pull/88",
-      "number": 88,
-      "repo": "conforma/github-workflows",
-      "author": {
-        "login": "red-hat-konflux[bot]",
-        "avatar_url": "https://avatars.githubusercontent.com/in/404032?v=4"
-      },
-      "created_at": "2026-05-11T03:00:00Z",
-      "updated_at": "2026-05-11T03:05:00Z",
-      "is_draft": false,
-      "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": ["size: XS"]
-    },
-    {
-      "title": "Add hooks for pre-commit validation",
-      "url": "https://github.com/conforma/hooks/pull/12",
-      "number": 12,
-      "repo": "conforma/hooks",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/22710295?v=4"
-      },
-      "created_at": "2026-04-20T14:00:00Z",
-      "updated_at": "2026-05-06T09:00:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": ["size: M", "approved", "lgtm"]
-    },
-    {
-      "title": "Upgrade ec-automation bot token handling",
-      "url": "https://github.com/conforma/config/pull/157",
-      "number": 157,
-      "repo": "conforma/config",
-      "author": {
-        "login": "ec-automation[bot]",
-        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
-      },
-      "created_at": "2026-05-13T02:00:00Z",
-      "updated_at": "2026-05-13T02:10:00Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": ["size: XS"]
-    },
-    {
-      "title": "Refactor release service catalog templates",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/567",
-      "number": 567,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17174062?v=4"
-      },
-      "created_at": "2026-05-06T09:00:00Z",
-      "updated_at": "2026-05-12T17:30:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
+      "size": null,
       "reviews": {
         "count": 2,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
-      "labels": ["size: L"]
+      "labels": []
     },
     {
-      "title": "Add sample templates for TSSC workflow",
-      "url": "https://github.com/redhat-appstudio/tssc-sample-templates/pull/89",
-      "number": 89,
-      "repo": "redhat-appstudio/tssc-sample-templates",
+      "title": "internal-services update",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11784",
+      "number": 11784,
+      "repo": "redhat-appstudio/infra-deployments",
       "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/74268742?v=4"
+        "login": "rh-tap-build-team[bot]",
+        "avatar_url": "https://avatars.githubusercontent.com/u/89927105?v=4"
       },
-      "created_at": "2026-05-13T09:00:00Z",
-      "updated_at": "2026-05-13T09:45:00Z",
+      "created_at": "2026-05-13T12:07:13Z",
+      "updated_at": "2026-05-13T12:07:52Z",
       "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "WIP: Fix the use of note variable",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3519",
+      "number": 3519,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "chandwanitulsi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17147736?v=4"
+      },
+      "created_at": "2026-05-13T04:02:59Z",
+      "updated_at": "2026-05-13T04:02:59Z",
+      "is_draft": true,
       "is_automated": false,
       "ci_status": "PENDING",
-      "size": "S",
+      "size": null,
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": ["size: S"]
-    },
-    {
-      "title": "Update Tekton task bundle references",
-      "url": "https://github.com/conforma/cli/pull/3295",
-      "number": 3295,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux[bot]",
-        "avatar_url": "https://avatars.githubusercontent.com/in/404032?v=4"
-      },
-      "created_at": "2026-05-13T04:00:00Z",
-      "updated_at": "2026-05-13T04:15:00Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": ["size: XS"]
-    },
-    {
-      "title": "Update build pipeline definitions",
-      "url": "https://github.com/conforma/cli/pull/3290",
-      "number": 3290,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux[bot]",
-        "avatar_url": "https://avatars.githubusercontent.com/in/404032?v=4"
-      },
-      "created_at": "2026-05-12T18:00:00Z",
-      "updated_at": "2026-05-12T18:10:00Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "S",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": ["size: S"]
-    },
-    {
-      "title": "Bump github.com/sigstore/cosign from 2.2.0 to 2.3.0",
-      "url": "https://github.com/conforma/policy/pull/50",
-      "number": 50,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate[bot]",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-05-13T05:00:00Z",
-      "updated_at": "2026-05-13T05:10:00Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": ["size: XS"]
-    },
-    {
-      "title": "Add support for OPA v1 policy evaluation",
-      "url": "https://github.com/conforma/cli/pull/3136",
-      "number": 3136,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "lcarva",
-        "avatar_url": "https://avatars.githubusercontent.com/u/796895?v=4"
-      },
-      "created_at": "2026-05-08T10:00:00Z",
-      "updated_at": "2026-05-12T15:20:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 2,
-      "labels": ["size: L"]
-    },
-    {
-      "title": "Fix SBOM validation for multi-arch images",
-      "url": "https://github.com/conforma/golden-container/pull/25",
-      "number": 25,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "mbestavros",
-        "avatar_url": "https://avatars.githubusercontent.com/u/37078846?v=4"
-      },
-      "created_at": "2026-05-11T09:30:00Z",
-      "updated_at": "2026-05-13T08:00:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": ["size: M"]
+      "labels": []
     }
   ]
 }
