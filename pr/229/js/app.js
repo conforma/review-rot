@@ -303,7 +303,11 @@ function updateFooter() {
     if (!state.generatedAt) return;
     const el = document.getElementById('last-updated');
     const date = new Date(state.generatedAt);
-    el.textContent = `Data last updated: ${date.toLocaleString()} (${formatRelativeTime(date)})`;
+    const timeStr = date.toLocaleString(undefined, {
+        year: 'numeric', month: 'numeric', day: 'numeric',
+        hour: 'numeric', minute: '2-digit', timeZoneName: 'short'
+    });
+    el.textContent = `Last updated: ${timeStr} (${formatRelativeTime(date)})`;
 }
 
 document.addEventListener('DOMContentLoaded', init);
