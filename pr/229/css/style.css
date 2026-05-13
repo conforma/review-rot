@@ -20,8 +20,9 @@
     --size-xl: #d73a49;
     --size-xxl: #d73a49;
 
-    --new-commits: #e36209;
-    --unresolved: #d73a49;
+    --age-warn: #b08800;
+    --age-old: #e36209;
+    --age-critical: #d73a49;
 
     --radius: 6px;
     --spacing-xs: 4px;
@@ -204,6 +205,23 @@ select {
     font-size: 10px;
 }
 
+.col-tooltip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--border);
+    color: var(--text-secondary);
+    font-size: 10px;
+    font-weight: 700;
+    cursor: help;
+    margin-left: 3px;
+    vertical-align: middle;
+    line-height: 1;
+}
+
 .pr-table td {
     padding: var(--spacing-sm) var(--spacing-md);
     border-bottom: 1px solid var(--border);
@@ -216,6 +234,10 @@ select {
 
 .pr-table tbody tr:last-child td {
     border-bottom: none;
+}
+
+.pr-cell {
+    min-width: 300px;
 }
 
 .pr-title {
@@ -231,9 +253,16 @@ select {
     text-decoration: underline;
 }
 
-.pr-repo {
-    color: var(--text-secondary);
+.pr-info-line {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-top: 2px;
     font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+}
+
+.pr-repo {
     white-space: nowrap;
 }
 
@@ -245,8 +274,8 @@ select {
 }
 
 .avatar {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
 }
 
@@ -280,11 +309,12 @@ select {
 
 .size-badge {
     display: inline-block;
-    padding: 1px 8px;
+    padding: 0 6px;
     border-radius: 10px;
-    font-size: var(--font-size-sm);
+    font-size: 11px;
     font-weight: 500;
     color: #fff;
+    line-height: 18px;
 }
 
 .size-badge.size-xs,
@@ -310,30 +340,30 @@ select {
     white-space: nowrap;
 }
 
-.new-commits-dot {
-    display: inline-block;
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--new-commits);
-    margin-left: var(--spacing-xs);
-    vertical-align: middle;
+.new-commits-yes {
+    color: var(--age-old);
+    font-weight: 500;
 }
 
-.unresolved-count {
-    font-weight: 600;
-    color: var(--unresolved);
-}
-
-.zero {
+.new-commits-no {
     color: var(--text-secondary);
-    font-weight: normal;
 }
 
 .age-cell {
     white-space: nowrap;
     font-size: var(--font-size-sm);
-    color: var(--text-secondary);
+}
+
+.age-warn {
+    color: var(--age-warn);
+}
+
+.age-old {
+    color: var(--age-old);
+}
+
+.age-critical {
+    color: var(--age-critical);
 }
 
 .draft-badge {

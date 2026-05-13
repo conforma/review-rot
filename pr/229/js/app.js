@@ -2,19 +2,25 @@ const state = {
     data: [],
     generatedAt: null,
     filters: {
-        type: 'all',
+        type: 'regular',
         author: 'all',
         repo: 'all',
         readyForReview: false
     },
     sort: {
-        field: 'created_at',
+        field: null,
         direction: 'asc'
     }
 };
 
 async function init() {
     try {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('ready') === '1') {
+            state.filters.readyForReview = true;
+            document.getElementById('ready-filter').checked = true;
+        }
+
         const response = await fetch('data.json');
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const json = await response.json();
@@ -51,6 +57,16 @@ function populateFilters() {
     });
 }
 
+function updateReadyParam(checked) {
+    const url = new URL(window.location);
+    if (checked) {
+        url.searchParams.set('ready', '1');
+    } else {
+        url.searchParams.delete('ready');
+    }
+    history.replaceState(null, '', url);
+}
+
 function attachEventListeners() {
     document.querySelectorAll('.type-btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -73,6 +89,7 @@ function attachEventListeners() {
 
     document.getElementById('ready-filter').addEventListener('change', e => {
         state.filters.readyForReview = e.target.checked;
+        updateReadyParam(e.target.checked);
         render();
     });
 
@@ -80,7 +97,12 @@ function attachEventListeners() {
         th.addEventListener('click', () => {
             const field = th.dataset.sort;
             if (state.sort.field === field) {
-                state.sort.direction = state.sort.direction === 'asc' ? 'desc' : 'asc';
+                if (state.sort.direction === 'asc') {
+                    state.sort.direction = 'desc';
+                } else {
+                    state.sort.field = null;
+                    state.sort.direction = 'asc';
+                }
             } else {
                 state.sort.field = field;
                 state.sort.direction = 'asc';
@@ -111,14 +133,13 @@ function filterPRs(prs, filters) {
 }
 
 function sortPRs(prs, sort) {
+    if (!sort.field) return [...prs];
     return [...prs].sort((a, b) => {
         let cmp = 0;
         switch (sort.field) {
             case 'created_at': cmp = new Date(a.created_at) - new Date(b.created_at); break;
             case 'updated_at': cmp = new Date(a.updated_at) - new Date(b.updated_at); break;
             case 'reviews': cmp = a.reviews.count - b.reviews.count; break;
-            case 'repo': cmp = a.repo.localeCompare(b.repo); break;
-            case 'author': cmp = a.author.login.localeCompare(b.author.login); break;
             case 'title': cmp = a.title.localeCompare(b.title); break;
         }
         return sort.direction === 'asc' ? cmp : -cmp;
@@ -152,39 +173,50 @@ function escapeHtml(str) {
     return div.innerHTML;
 }
 
+function ageColorClass(isoDate) {
+    const days = (Date.now() - new Date(isoDate)) / 86400000;
+    if (days >= 30) return 'age-critical';
+    if (days >= 7) return 'age-old';
+    if (days >= 3) return 'age-warn';
+    return '';
+}
+
 function renderCIStatus(status) {
     const title = status || 'No checks';
     return `<span class="ci-dot" title="${escapeHtml(title)}"></span>`;
 }
 
 function renderSize(size) {
-    if (!size) return '—';
+    if (!size) return '';
     const cls = 'size-' + size.toLowerCase();
     return `<span class="size-badge ${cls}">${escapeHtml(size)}</span>`;
 }
 
-function renderReviews(reviews) {
-    const dot = reviews.has_new_commits ? '<span class="new-commits-dot" title="New commits since last review"></span>' : '';
-    return `<span class="reviews-cell">${reviews.count}${dot}</span>`;
-}
-
-function renderUnresolved(count) {
-    if (count === 0) return '<span class="zero">0</span>';
-    return `<span class="unresolved-count">${count}</span>`;
+function renderNewCommits(reviews) {
+    if (reviews.count === 0) return '<span class="new-commits-no">—</span>';
+    if (reviews.has_new_commits) return '<span class="new-commits-yes">Yes</span>';
+    return '<span class="new-commits-no">No</span>';
 }
 
 function renderRow(pr) {
     const draftBadge = pr.is_draft ? '<span class="draft-badge">Draft</span>' : '';
     const botBadge = pr.is_automated ? '<span class="bot-badge">Bot</span>' : '';
+    const ageCls = ageColorClass(pr.created_at);
+    const ageClass = ageCls ? ` ${ageCls}` : '';
     return `<tr>
-        <td class="pr-title"><a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener">${escapeHtml(pr.title)}</a>${draftBadge}${botBadge}</td>
-        <td class="pr-repo">${escapeHtml(pr.repo)}</td>
-        <td><div class="pr-author"><img class="avatar" src="${escapeHtml(pr.author.avatar_url)}&s=48" alt="" width="24" height="24"><span class="author-name">${escapeHtml(pr.author.login)}</span></div></td>
+        <td class="pr-cell">
+            <div class="pr-title"><a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener">${escapeHtml(pr.title)}</a>${draftBadge}${botBadge}</div>
+            <div class="pr-info-line">
+                <span class="pr-repo">${escapeHtml(pr.repo)}</span>
+                <span class="pr-author"><img class="avatar" src="${escapeHtml(pr.author.avatar_url)}&s=40" alt="" width="20" height="20"><span class="author-name">${escapeHtml(pr.author.login)}</span></span>
+                ${renderSize(pr.size)}
+            </div>
+        </td>
         <td>${renderCIStatus(pr.ci_status)}</td>
-        <td>${renderSize(pr.size)}</td>
-        <td>${renderReviews(pr.reviews)}</td>
-        <td>${renderUnresolved(pr.unresolved_conversations)}</td>
-        <td class="age-cell">${formatElapsed(pr.created_at)}</td>
+        <td class="reviews-cell">${pr.reviews.count}</td>
+        <td>${renderNewCommits(pr.reviews)}</td>
+        <td>${pr.unresolved_conversations}</td>
+        <td class="age-cell${ageClass}">${formatElapsed(pr.created_at)}</td>
         <td class="age-cell">${formatElapsed(pr.updated_at)}</td>
     </tr>`;
 }
@@ -194,7 +226,7 @@ function updateSortIndicators() {
         const existing = th.querySelector('.sort-arrow');
         if (existing) existing.remove();
 
-        if (th.dataset.sort === state.sort.field) {
+        if (state.sort.field && th.dataset.sort === state.sort.field) {
             const arrow = document.createElement('span');
             arrow.className = 'sort-arrow';
             arrow.textContent = state.sort.direction === 'asc' ? '▲' : '▼';
