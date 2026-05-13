@@ -181,6 +181,11 @@ function ageColorClass(isoDate) {
     return '';
 }
 
+function avatarUrl(url) {
+    const sep = url.includes('?') ? '&' : '?';
+    return `${url}${sep}s=40`;
+}
+
 function renderCIStatus(status) {
     const title = status || 'No checks';
     return `<span class="ci-dot" title="${escapeHtml(title)}"></span>`;
@@ -200,16 +205,17 @@ function renderNewCommits(reviews) {
 
 function renderRow(pr) {
     const draftBadge = pr.is_draft ? '<span class="draft-badge">Draft</span>' : '';
-    const botBadge = pr.is_automated ? '<span class="bot-badge">Bot</span>' : '';
     const ageCls = ageColorClass(pr.created_at);
     const ageClass = ageCls ? ` ${ageCls}` : '';
     return `<tr>
         <td class="pr-cell">
-            <div class="pr-title"><a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener">${escapeHtml(pr.title)}</a>${draftBadge}${botBadge}</div>
+            <div class="pr-title-row">
+                <img class="avatar" src="${escapeHtml(avatarUrl(pr.author.avatar_url))}" alt="${escapeHtml(pr.author.login)}" title="${escapeHtml(pr.author.login)}" width="20" height="20">
+                <a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener">${escapeHtml(pr.title)}</a>
+                ${renderSize(pr.size)}${draftBadge}
+            </div>
             <div class="pr-info-line">
                 <span class="pr-repo">${escapeHtml(pr.repo)}</span>
-                <span class="pr-author"><img class="avatar" src="${escapeHtml(pr.author.avatar_url)}&s=40" alt="" width="20" height="20"><span class="author-name">${escapeHtml(pr.author.login)}</span></span>
-                ${renderSize(pr.size)}
             </div>
         </td>
         <td>${renderCIStatus(pr.ci_status)}</td>
@@ -263,8 +269,8 @@ function render() {
 function updateFooter() {
     if (!state.generatedAt) return;
     const el = document.getElementById('last-updated');
-    const elapsed = formatElapsed(state.generatedAt);
-    el.textContent = `Data last updated: ${elapsed} ago`;
+    const date = new Date(state.generatedAt);
+    el.textContent = `Data last updated: ${date.toLocaleString()}`;
 }
 
 document.addEventListener('DOMContentLoaded', init);

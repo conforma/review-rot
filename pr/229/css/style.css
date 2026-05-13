@@ -1,12 +1,14 @@
 :root {
     --bg: #ffffff;
-    --bg-secondary: #f8f9fa;
+    --bg-secondary: #f5f5f5;
     --bg-hover: #f1f3f5;
     --text: #1a1a2e;
     --text-secondary: #555;
+    --text-on-primary: #ffffff;
     --border: #dee2e6;
-    --accent: #0366d6;
-    --accent-hover: #0250a9;
+    --accent: #785fa9;
+    --accent-dark: #634f8b;
+    --accent-light: #f0ecf5;
 
     --ci-success: #28a745;
     --ci-failure: #d73a49;
@@ -53,8 +55,8 @@ body {
 }
 
 .header {
-    background: var(--bg);
-    border-bottom: 1px solid var(--border);
+    background: var(--accent-dark);
+    color: var(--text-on-primary);
     padding: var(--spacing-lg) var(--spacing-xl);
 }
 
@@ -62,6 +64,7 @@ body {
     font-size: var(--font-size-xl);
     font-weight: 600;
     margin-bottom: var(--spacing-md);
+    color: var(--text-on-primary);
 }
 
 .stats {
@@ -78,10 +81,11 @@ body {
 .stat-value {
     font-size: var(--font-size-lg);
     font-weight: 600;
+    color: var(--text-on-primary);
 }
 
 .stat-label {
-    color: var(--text-secondary);
+    color: rgba(255, 255, 255, 0.75);
     font-size: var(--font-size-sm);
 }
 
@@ -91,7 +95,7 @@ body {
     gap: var(--spacing-lg);
     padding: var(--spacing-md) var(--spacing-xl);
     background: var(--bg);
-    border-bottom: 1px solid var(--border);
+    border-bottom: 2px solid var(--accent-light);
     flex-wrap: wrap;
 }
 
@@ -131,7 +135,7 @@ body {
 }
 
 .type-btn:hover {
-    background: var(--bg-hover);
+    background: var(--accent-light);
 }
 
 .type-btn.active {
@@ -151,6 +155,11 @@ select {
     min-width: 140px;
 }
 
+select:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: -1px;
+}
+
 .toggle-label {
     display: flex;
     align-items: center;
@@ -163,6 +172,7 @@ select {
 
 .toggle-label input[type="checkbox"] {
     cursor: pointer;
+    accent-color: var(--accent);
 }
 
 .table-container {
@@ -183,10 +193,10 @@ select {
     padding: var(--spacing-sm) var(--spacing-md);
     font-size: var(--font-size-sm);
     font-weight: 600;
-    color: var(--text-secondary);
-    border-bottom: 2px solid var(--border);
+    color: var(--accent-dark);
+    border-bottom: 2px solid var(--accent-light);
     white-space: nowrap;
-    background: var(--bg);
+    background: var(--accent-light);
     position: sticky;
     top: 0;
 }
@@ -212,8 +222,8 @@ select {
     width: 14px;
     height: 14px;
     border-radius: 50%;
-    background: var(--border);
-    color: var(--text-secondary);
+    background: var(--accent);
+    color: #fff;
     font-size: 10px;
     font-weight: 700;
     cursor: help;
@@ -240,17 +250,21 @@ select {
     min-width: 300px;
 }
 
-.pr-title {
+.pr-title-row {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+}
+
+.pr-title-row a {
+    color: var(--accent);
+    text-decoration: none;
     font-weight: 500;
 }
 
-.pr-title a {
-    color: var(--accent);
-    text-decoration: none;
-}
-
-.pr-title a:hover {
+.pr-title-row a:hover {
     text-decoration: underline;
+    color: var(--accent-dark);
 }
 
 .pr-info-line {
@@ -258,6 +272,7 @@ select {
     align-items: center;
     gap: var(--spacing-sm);
     margin-top: 2px;
+    margin-left: 28px;
     font-size: var(--font-size-sm);
     color: var(--text-secondary);
 }
@@ -266,21 +281,11 @@ select {
     white-space: nowrap;
 }
 
-.pr-author {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-xs);
-    white-space: nowrap;
-}
-
 .avatar {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-}
-
-.author-name {
-    font-size: var(--font-size-sm);
+    flex-shrink: 0;
 }
 
 .ci-dot {
@@ -315,6 +320,8 @@ select {
     font-weight: 500;
     color: #fff;
     line-height: 18px;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .size-badge.size-xs,
@@ -375,17 +382,8 @@ select {
     background: var(--ci-unknown);
     color: #fff;
     margin-left: var(--spacing-xs);
-}
-
-.bot-badge {
-    display: inline-block;
-    padding: 1px 6px;
-    border-radius: 10px;
-    font-size: 11px;
-    font-weight: 500;
-    background: #6f42c1;
-    color: #fff;
-    margin-left: var(--spacing-xs);
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .empty-state {
