@@ -114,9 +114,10 @@ function attachEventListeners() {
 
 function filterPRs(prs, filters) {
     return prs.filter(pr => {
-        if (filters.type === 'regular' && (pr.is_automated || /\bWIP\b/i.test(pr.title))) return false;
+        const isWip = pr.is_draft || /\bWIP\b/i.test(pr.title);
+        if (filters.type === 'regular' && (pr.is_automated || isWip)) return false;
         if (filters.type === 'automated' && !pr.is_automated) return false;
-        if (filters.type === 'wip' && !/\bWIP\b/i.test(pr.title)) return false;
+        if (filters.type === 'wip' && !isWip) return false;
 
         if (filters.author !== 'all' && pr.author.login !== filters.author) return false;
         if (filters.repo !== 'all' && pr.repo !== filters.repo) return false;
