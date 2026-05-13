@@ -198,9 +198,11 @@ function renderSize(size) {
 }
 
 function renderReReview(reviews) {
-    if (reviews.count === 0) return '<span class="re-review-no">—</span>';
-    if (reviews.has_new_commits) return '<span class="re-review-yes" title="New commits since last review">&#x25cf;</span>';
-    return '<span class="re-review-no" title="No new commits since last review">&#x25cb;</span>';
+    if (reviews.count === 0 || reviews.has_new_commits) {
+        const title = reviews.count === 0 ? 'Not yet reviewed' : 'New commits since last review';
+        return `<span class="re-review-yes" title="${title}">&#x1F440;</span>`;
+    }
+    return '';
 }
 
 function renderRow(pr) {

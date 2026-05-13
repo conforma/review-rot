@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conforma Review Rot</title>
+    <title>Review Rot</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -28,6 +28,12 @@
 
     <div class="filters">
         <div class="filter-group">
+            <label class="toggle-label">
+                <input type="checkbox" id="ready-filter">
+                <span>Ready for review</span>
+            </label>
+        </div>
+        <div class="filter-group">
             <label class="filter-label">Type</label>
             <div class="type-buttons" id="type-filter">
                 <button class="type-btn active" data-type="regular">Regular</button>
@@ -47,12 +53,6 @@
             <select id="repo-filter">
                 <option value="all">All repos</option>
             </select>
-        </div>
-        <div class="filter-group">
-            <label class="toggle-label">
-                <input type="checkbox" id="ready-filter">
-                <span>Ready for review</span>
-            </label>
         </div>
     </div>
 
