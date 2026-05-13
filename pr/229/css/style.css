@@ -302,15 +302,6 @@ select:focus {
     color: var(--text-secondary);
 }
 
-.pr-author-line {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-xs);
-    margin-top: 1px;
-    font-size: var(--font-size-sm);
-    color: var(--text-secondary);
-}
-
 .pr-repo {
     white-space: nowrap;
 }
