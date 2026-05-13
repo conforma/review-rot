@@ -33,7 +33,7 @@ git_services:
       - conforma/tekton-catalog
       - conforma/user-guide
       - enterprise-contract/enterprise-contract-controller
-      - enterprise-contract/.github 
+      - enterprise-contract/.github
       - konflux-ci/build-definitions
       - konflux-ci/build-trusted-artifacts
       - konflux-ci/docs
