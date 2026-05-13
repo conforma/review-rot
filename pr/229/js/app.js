@@ -27,6 +27,7 @@ async function init() {
         state.data = json.pull_requests || [];
         state.generatedAt = json.generated_at;
         populateFilters();
+        initSortArrows();
         render();
         updateFooter();
         attachEventListeners();
@@ -137,11 +138,20 @@ function sortPRs(prs, sort) {
     if (!sort.field) return [...prs];
     return [...prs].sort((a, b) => {
         let cmp = 0;
+        const ciOrder = { SUCCESS: 0, PENDING: 1, ERROR: 1, FAILURE: 2 };
         switch (sort.field) {
             case 'created_at': cmp = new Date(a.created_at) - new Date(b.created_at); break;
             case 'updated_at': cmp = new Date(a.updated_at) - new Date(b.updated_at); break;
             case 'reviews': cmp = a.reviews.count - b.reviews.count; break;
             case 'title': cmp = a.title.localeCompare(b.title); break;
+            case 'ci_status': cmp = (ciOrder[a.ci_status] ?? 3) - (ciOrder[b.ci_status] ?? 3); break;
+            case 'threads': cmp = a.unresolved_conversations - b.unresolved_conversations; break;
+            case 're_review': {
+                const needsA = (a.reviews.count === 0 || a.reviews.has_new_commits) ? 1 : 0;
+                const needsB = (b.reviews.count === 0 || b.reviews.has_new_commits) ? 1 : 0;
+                cmp = needsA - needsB;
+                break;
+            }
         }
         return sort.direction === 'asc' ? cmp : -cmp;
     });
@@ -188,8 +198,8 @@ function avatarUrl(url) {
 }
 
 function renderCIStatus(status) {
-    const title = status || 'No checks';
-    return `<span class="ci-dot" title="${escapeHtml(title)}"></span>`;
+    const cls = 'ci-' + (status || 'unknown').toLowerCase();
+    return `<span class="ci-dot ${cls}"></span>`;
 }
 
 function renderSize(size) {
@@ -200,8 +210,7 @@ function renderSize(size) {
 
 function renderReReview(reviews) {
     if (reviews.count === 0 || reviews.has_new_commits) {
-        const title = reviews.count === 0 ? 'Not yet reviewed' : 'New commits since last review';
-        return `<span class="re-review-yes" title="${title}">&#x1F440;</span>`;
+        return '<span class="re-review-yes">&#x1F440;</span>';
     }
     return '';
 }
@@ -213,14 +222,16 @@ function renderRow(pr) {
     return `<tr>
         <td class="pr-cell">
             <div class="pr-title-row">
-                <img class="avatar" src="${escapeHtml(avatarUrl(pr.author.avatar_url))}" alt="${escapeHtml(pr.author.login)}" title="${escapeHtml(pr.author.login)}" width="20" height="20">
                 <a href="${escapeHtml(pr.url)}" target="_blank" rel="noopener">${escapeHtml(pr.title)}</a>
                 ${renderSize(pr.size)}${draftBadge}
             </div>
             <div class="pr-info-line">
                 <span class="pr-repo">${escapeHtml(pr.repo)}</span>
             </div>
-            <div class="pr-author-line">${escapeHtml(pr.author.login)}</div>
+            <div class="pr-author-line">
+                <img class="avatar-sm" src="${escapeHtml(avatarUrl(pr.author.avatar_url))}" alt="${escapeHtml(pr.author.login)}" width="16" height="16">
+                ${escapeHtml(pr.author.login)}
+            </div>
         </td>
         <td>${renderCIStatus(pr.ci_status)}</td>
         <td class="age-cell">${formatElapsed(pr.updated_at)}</td>
@@ -231,16 +242,23 @@ function renderRow(pr) {
     </tr>`;
 }
 
+function initSortArrows() {
+    document.querySelectorAll('th.sortable').forEach(th => {
+        const arrow = document.createElement('span');
+        arrow.className = 'sort-arrow';
+        arrow.textContent = '▲';
+        th.prepend(arrow);
+    });
+}
+
 function updateSortIndicators() {
     document.querySelectorAll('th.sortable').forEach(th => {
-        const existing = th.querySelector('.sort-arrow');
-        if (existing) existing.remove();
-
+        const arrow = th.querySelector('.sort-arrow');
         if (state.sort.field && th.dataset.sort === state.sort.field) {
-            const arrow = document.createElement('span');
-            arrow.className = 'sort-arrow';
             arrow.textContent = state.sort.direction === 'asc' ? '▲' : '▼';
-            th.prepend(arrow);
+            arrow.style.visibility = 'visible';
+        } else {
+            arrow.style.visibility = 'hidden';
         }
     });
 }

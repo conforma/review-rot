@@ -229,8 +229,11 @@ select:focus {
 }
 
 .pr-table th .sort-arrow {
+    display: inline-block;
+    width: 10px;
     margin-right: var(--spacing-xs);
     font-size: 10px;
+    text-align: center;
 }
 
 .col-tooltip {
@@ -295,14 +298,15 @@ select:focus {
     align-items: center;
     gap: var(--spacing-sm);
     margin-top: 2px;
-    margin-left: 28px;
     font-size: var(--font-size-sm);
     color: var(--text-secondary);
 }
 
 .pr-author-line {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xs);
     margin-top: 1px;
-    margin-left: 28px;
     font-size: var(--font-size-sm);
     color: var(--text-secondary);
 }
@@ -311,9 +315,9 @@ select:focus {
     white-space: nowrap;
 }
 
-.avatar {
-    width: 20px;
-    height: 20px;
+.avatar-sm {
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     flex-shrink: 0;
 }
@@ -325,20 +329,20 @@ select:focus {
     border-radius: 50%;
 }
 
-.ci-dot[title="SUCCESS"] {
+.ci-dot.ci-success {
     background: var(--ci-success);
 }
 
-.ci-dot[title="FAILURE"] {
+.ci-dot.ci-failure {
     background: var(--ci-failure);
 }
 
-.ci-dot[title="PENDING"],
-.ci-dot[title="ERROR"] {
+.ci-dot.ci-pending,
+.ci-dot.ci-error {
     background: var(--ci-pending);
 }
 
-.ci-dot[title="No checks"] {
+.ci-dot.ci-unknown {
     background: var(--ci-unknown);
 }
 
@@ -378,14 +382,7 @@ select:focus {
 }
 
 .re-review-yes {
-    color: var(--age-old);
-    font-size: var(--font-size-lg);
-    line-height: 1;
-}
-
-.re-review-no {
-    color: var(--text-secondary);
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-base);
     line-height: 1;
 }
 

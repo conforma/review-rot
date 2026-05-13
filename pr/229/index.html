@@ -61,12 +61,12 @@
             <thead>
                 <tr>
                     <th class="sortable" data-sort="title">PR</th>
-                    <th>CI</th>
+                    <th class="sortable" data-sort="ci_status">CI</th>
                     <th class="sortable" data-sort="updated_at">Updated <span class="col-tooltip" title="Time since last activity">?</span></th>
                     <th class="sortable" data-sort="created_at">Age <span class="col-tooltip" title="Time since PR was created">?</span></th>
-                    <th>Threads <span class="col-tooltip" title="Unresolved review threads">?</span></th>
+                    <th class="sortable" data-sort="threads">Threads <span class="col-tooltip" title="Unresolved review threads">?</span></th>
                     <th class="sortable" data-sort="reviews">Reviews <span class="col-tooltip" title="Number of completed reviews">?</span></th>
-                    <th>Re-review <span class="col-tooltip" title="New commits pushed since the last review — needs another look">?</span></th>
+                    <th class="sortable" data-sort="re_review">Needs re-review <span class="col-tooltip" title="New commits pushed since the last review">?</span></th>
                 </tr>
             </thead>
             <tbody id="pr-table-body">
