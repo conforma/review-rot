@@ -1,0 +1,17 @@
+# Dashboard appearance
+title: Conforma Review Rot
+
+# Path to logo image, relative to the frontend directory.
+# Remove or leave empty to hide the logo.
+logo: images/logo.svg
+
+# Path to favicon, relative to the frontend directory.
+# Remove or leave empty for no favicon.
+favicon: images/favicon.ico
+
+# Accent colors for the dashboard theme.
+# These override the neutral defaults in the CSS.
+palette:
+  accent: "#785fa9"
+  accent_dark: "#634f8b"
+  accent_light: "#f0ecf5"
