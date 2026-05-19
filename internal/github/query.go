@@ -37,6 +37,7 @@ type prNode struct {
 	HeadRefOid string
 
 	Author struct {
+		TypeName  string       `graphql:"__typename"`
 		Login     string
 		AvatarURL githubv4.URI `graphql:"avatarUrl"`
 	} `graphql:"author"`
@@ -124,6 +125,7 @@ func transformPR(node prNode, repo string) model.PullRequest {
 			Login:     node.Author.Login,
 			AvatarURL: node.Author.AvatarURL.String(),
 		},
+		IsAutomated: node.Author.TypeName == "Bot",
 	}
 
 	pr.CIStatus = extractCIStatus(node)

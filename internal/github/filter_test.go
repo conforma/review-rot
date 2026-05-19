@@ -67,37 +67,3 @@ func TestFilterPRsNilInputs(t *testing.T) {
 	}
 }
 
-func TestMarkBots(t *testing.T) {
-	prs := []model.PullRequest{
-		makePR("conforma/policy", "simonbaird"),
-		makePR("conforma/policy", "renovate[bot]"),
-		makePR("conforma/policy", "dependabot[bot]"),
-	}
-
-	MarkBots(prs, []string{"renovate[bot]", "dependabot[bot]"})
-
-	for _, pr := range prs {
-		switch pr.Author.Login {
-		case "simonbaird":
-			if pr.IsAutomated {
-				t.Error("simonbaird should not be automated")
-			}
-		case "renovate[bot]":
-			if !pr.IsAutomated {
-				t.Error("renovate[bot] should be automated")
-			}
-		case "dependabot[bot]":
-			if !pr.IsAutomated {
-				t.Error("dependabot[bot] should be automated")
-			}
-		}
-	}
-}
-
-func TestMarkBotsEmpty(t *testing.T) {
-	prs := []model.PullRequest{makePR("a/b", "user")}
-	MarkBots(prs, nil)
-	if prs[0].IsAutomated {
-		t.Error("should not be automated with empty bots list")
-	}
-}
