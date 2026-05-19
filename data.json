@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T16:33:56.481112168Z",
+  "generated_at": "2026-05-19T17:46:37.312997608Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1190,7 +1190,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-05-19T13:04:37Z",
+      "updated_at": "2026-05-19T17:44:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1899,7 +1899,7 @@
       ]
     },
     {
-      "title": "Update module github.com/go-git/go-git/v5 to v5.19.0 [SECURITY] (main)",
+      "title": "Update module github.com/go-git/go-git/v5 to v5.19.1 [SECURITY] (main)",
       "url": "https://github.com/conforma/cli/pull/3250",
       "number": 3250,
       "repo": "conforma/cli",
@@ -1908,10 +1908,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-18T00:52:23Z",
-      "updated_at": "2026-05-18T10:55:30Z",
+      "updated_at": "2026-05-19T17:44:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "L",
       "reviews": {
         "count": 0,
@@ -4359,7 +4359,7 @@
       ]
     },
     {
-      "title": "fix(deps): update module github.com/go-git/go-git/v5 to v5.19.0 [security] (main)",
+      "title": "fix(deps): update module github.com/go-git/go-git/v5 to v5.19.1 [security] (main)",
       "url": "https://github.com/conforma/go-gather/pull/327",
       "number": 327,
       "repo": "conforma/go-gather",
@@ -4368,7 +4368,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T15:39:45Z",
-      "updated_at": "2026-05-19T00:30:40Z",
+      "updated_at": "2026-05-19T16:46:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
