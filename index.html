@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Review Rot</title>
+    <link rel="icon" id="favicon" href="data:,">
+    <meta name="description" content="Dashboard showing open pull requests across monitored repositories">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-row">
+            <div class="header-title">
+                <img id="header-logo" src="" alt="" class="header-logo" hidden>
+                <h1 id="header-title">Review Rot</h1>
+            </div>
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-value" id="total-count">0</span>
+                    <span class="stat-label">PRs shown</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-value" id="avg-age">—</span>
+                    <span class="stat-label">Avg. age</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="filters">
+        <div class="filter-group">
+            <label class="toggle-label" title="Show only PRs that are not drafts, have passing CI, and have unreviewed changes">
+                <input type="checkbox" id="ready-filter">
+                <span>Ready for review</span>
+            </label>
+        </div>
+        <div class="filter-group">
+            <label class="filter-label">Type</label>
+            <div class="type-buttons" id="type-filter">
+                <button class="type-btn active" data-type="regular">Regular</button>
+                <button class="type-btn" data-type="automated">Automated</button>
+                <button class="type-btn" data-type="wip">WIP</button>
+                <button class="type-btn" data-type="all">All</button>
+            </div>
+        </div>
+        <div class="filter-group">
+            <label class="filter-label" for="author-filter">Author</label>
+            <select id="author-filter">
+                <option value="all">All authors</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <label class="filter-label" for="repo-filter">Repository</label>
+            <select id="repo-filter">
+                <option value="all">All repos</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="table-container">
+        <table class="pr-table">
+            <thead>
+                <tr>
+                    <th class="sortable" data-sort="title">PR</th>
+                    <th class="sortable" data-sort="ci_status">CI</th>
+                    <th class="sortable" data-sort="updated_at"><span class="col-tooltip-wrap">Updated <span class="col-tooltip" title="Time since last activity">?</span></span></th>
+                    <th class="sortable" data-sort="created_at"><span class="col-tooltip-wrap">Age <span class="col-tooltip" title="Time since PR was created">?</span></span></th>
+                    <th class="sortable" data-sort="threads">Unresolved <span class="col-tooltip-wrap">threads <span class="col-tooltip" title="Unresolved review threads">?</span></span></th>
+                    <th class="sortable" data-sort="reviews"><span class="col-tooltip-wrap">Reviews <span class="col-tooltip" title="Number of completed reviews">?</span></span></th>
+                    <th class="sortable" data-sort="re_review">Unreviewed <span class="col-tooltip-wrap">changes <span class="col-tooltip" title="PR has no reviews yet, or new commits were pushed since the last review">?</span></span></th>
+                </tr>
+            </thead>
+            <tbody id="pr-table-body">
+            </tbody>
+        </table>
+    </div>
+
+    <div id="empty-state" class="empty-state" hidden>
+        No pull requests match the current filters.
+    </div>
+
+    <div id="error-banner" class="error-banner" hidden>
+        Failed to load PR data. Try refreshing.
+    </div>
+
+    <footer class="footer">
+        <span id="last-updated">Loading...</span>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
