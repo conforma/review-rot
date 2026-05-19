@@ -22,9 +22,6 @@ sources:
 authors:
   - simonbaird
   - st3penta
-bots:
-  - renovate[bot]
-  - dependabot[bot]
 `
 	path := writeFile(t, "config.yaml", content)
 
@@ -51,10 +48,6 @@ bots:
 	if len(cfg.Authors) != 2 {
 		t.Errorf("Authors count = %d, want 2", len(cfg.Authors))
 	}
-	if len(cfg.Bots) != 2 {
-		t.Errorf("Bots count = %d, want 2", len(cfg.Bots))
-	}
-
 	orgNames := cfg.OrgNames()
 	if len(orgNames) != 2 || orgNames[0] != "conforma" || orgNames[1] != "enterprise-contract" {
 		t.Errorf("OrgNames() = %v, want [conforma enterprise-contract]", orgNames)
@@ -73,8 +66,6 @@ sources:
     - name: myorg
 authors:
   - alice
-bots:
-  - bot[bot]
 `
 	ui := `
 title: My Dashboard

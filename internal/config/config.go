@@ -12,7 +12,6 @@ type Config struct {
 	GitHub  GitHubConfig  `yaml:"github"`
 	Sources SourcesConfig `yaml:"sources"`
 	Authors []string      `yaml:"authors"`
-	Bots    []string      `yaml:"bots"`
 	UI      UIConfig      `yaml:"-"`
 }
 

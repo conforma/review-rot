@@ -30,8 +30,8 @@ func main() {
 		log.Fatalf("Failed to load config: %v", err)
 	}
 
-	log.Printf("Loaded config: %d orgs, %d explicit repos, %d authors, %d bots",
-		len(cfg.Sources.Orgs), len(cfg.Sources.Repos), len(cfg.Authors), len(cfg.Bots))
+	log.Printf("Loaded config: %d orgs, %d explicit repos, %d authors",
+		len(cfg.Sources.Orgs), len(cfg.Sources.Repos), len(cfg.Authors))
 
 	client, err := gh.NewClient(cfg.GitHub.AppID, cfg.GitHub.InstallationID)
 	if err != nil {
@@ -56,8 +56,6 @@ func main() {
 
 	filtered := gh.FilterPRs(allPRs, cfg.OrgNames(), cfg.Authors)
 	log.Printf("After filtering: %d PRs", len(filtered))
-
-	gh.MarkBots(filtered, cfg.Bots)
 
 	if filtered == nil {
 		filtered = []model.PullRequest{}

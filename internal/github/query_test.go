@@ -165,6 +165,7 @@ func TestTransformPR(t *testing.T) {
 		UpdatedAt:  updated,
 	}
 	node.URL = makeURI("https://github.com/conforma/policy/pull/42")
+	node.Author.TypeName = "User"
 	node.Author.Login = "simonbaird"
 	node.Author.AvatarURL = makeURI("https://avatars.githubusercontent.com/u/123")
 
@@ -181,6 +182,9 @@ func TestTransformPR(t *testing.T) {
 	if !pr.IsDraft {
 		t.Error("IsDraft should be true")
 	}
+	if pr.IsAutomated {
+		t.Error("IsAutomated should be false for User author")
+	}
 	if pr.Labels == nil {
 		t.Error("Labels should be non-nil empty slice")
 	}
@@ -189,6 +193,24 @@ func TestTransformPR(t *testing.T) {
 	}
 	if pr.UpdatedAt != "2025-03-16T14:00:00Z" {
 		t.Errorf("UpdatedAt = %q, want 2025-03-16T14:00:00Z", pr.UpdatedAt)
+	}
+}
+
+func TestTransformPRBotAuthor(t *testing.T) {
+	node := prNode{
+		Title:     "Update dependency",
+		Number:    99,
+		CreatedAt: time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC),
+		UpdatedAt: time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC),
+	}
+	node.URL = makeURI("https://github.com/conforma/policy/pull/99")
+	node.Author.TypeName = "Bot"
+	node.Author.Login = "renovate"
+	node.Author.AvatarURL = makeURI("https://avatars.githubusercontent.com/in/2740")
+
+	pr := transformPR(node, "conforma/policy")
+	if !pr.IsAutomated {
+		t.Error("IsAutomated should be true for Bot author")
 	}
 }
 
