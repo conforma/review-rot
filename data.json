@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T19:33:48.890397334Z",
+  "generated_at": "2026-05-19T20:34:14.940340762Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -856,6 +856,30 @@
         "renovate",
         "size: XS",
         "release-v0.8"
+      ]
+    },
+    {
+      "title": "feat: fix Codecov configuration with OIDC and flags",
+      "url": "https://github.com/conforma/policy/pull/1733",
+      "number": 1733,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-05-19T20:06:30Z",
+      "updated_at": "2026-05-19T20:33:34Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 2,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -3317,6 +3341,30 @@
       ]
     },
     {
+      "title": "feat: add Codecov coverage reporting",
+      "url": "https://github.com/conforma/review-rot/pull/235",
+      "number": 235,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-05-19T20:09:14Z",
+      "updated_at": "2026-05-19T20:33:37Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 4,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update github actions (main) (minor)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/198",
       "number": 198,
@@ -4368,7 +4416,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T15:39:45Z",
-      "updated_at": "2026-05-19T16:46:28Z",
+      "updated_at": "2026-05-19T20:04:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4406,6 +4454,30 @@
       "labels": [
         "size: S",
         "security"
+      ]
+    },
+    {
+      "title": "feat: add Codecov coverage reporting",
+      "url": "https://github.com/conforma/go-gather/pull/329",
+      "number": 329,
+      "repo": "conforma/go-gather",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-05-19T20:03:49Z",
+      "updated_at": "2026-05-19T20:33:48Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 7,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -4797,6 +4869,28 @@
         "renovate",
         "major"
       ]
+    },
+    {
+      "title": "feat: add Codecov coverage reporting",
+      "url": "https://github.com/conforma/crds/pull/26",
+      "number": 26,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-05-19T20:01:57Z",
+      "updated_at": "2026-05-19T20:33:29Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 4,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "Update dependency @actions/core to v2.0.3 (main)",
