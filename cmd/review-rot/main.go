@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 	"time"
 
 	"github.com/conforma/review-rot/internal/config"
@@ -71,6 +72,10 @@ func main() {
 	data, err := json.MarshalIndent(output, "", "  ")
 	if err != nil {
 		log.Fatalf("Failed to marshal JSON: %v", err)
+	}
+
+	if err := os.MkdirAll(filepath.Dir(*outputPath), 0755); err != nil {
+		log.Fatalf("Failed to create output directory: %v", err)
 	}
 
 	if err := os.WriteFile(*outputPath, data, 0644); err != nil {
