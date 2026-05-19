@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T12:15:50.145643256Z",
+  "generated_at": "2026-05-19T13:34:36.542905218Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1164,7 +1164,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-05-19T09:01:40Z",
+      "updated_at": "2026-05-19T13:04:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1190,7 +1190,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-05-19T09:01:47Z",
+      "updated_at": "2026-05-19T13:04:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1216,7 +1216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-05-19T09:01:49Z",
+      "updated_at": "2026-05-19T13:04:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1294,7 +1294,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-05-19T09:01:59Z",
+      "updated_at": "2026-05-19T13:04:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1372,7 +1372,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-05-19T09:02:05Z",
+      "updated_at": "2026-05-19T13:04:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1703,7 +1703,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-26T13:37:15Z",
-      "updated_at": "2026-05-19T09:01:33Z",
+      "updated_at": "2026-05-19T13:04:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1730,7 +1730,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-26T13:45:07Z",
-      "updated_at": "2026-05-19T09:01:53Z",
+      "updated_at": "2026-05-19T13:04:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1757,7 +1757,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-26T13:46:20Z",
-      "updated_at": "2026-05-19T09:02:08Z",
+      "updated_at": "2026-05-19T13:05:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3277,7 +3277,7 @@
       "updated_at": "2026-05-19T12:15:12Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3314,6 +3314,30 @@
         "main",
         "renovate",
         "size: XS"
+      ]
+    },
+    {
+      "title": "Detect bot authors via GraphQL __typename",
+      "url": "https://github.com/conforma/review-rot/pull/234",
+      "number": 234,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-05-19T12:53:29Z",
+      "updated_at": "2026-05-19T13:02:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M"
       ]
     },
     {
@@ -4731,7 +4755,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-05-19T11:09:07Z",
+      "updated_at": "2026-05-19T13:16:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
