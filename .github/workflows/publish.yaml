@@ -17,12 +17,11 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      pages: write
-      id-token: write
+      contents: write
 
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b # v2.15.0
+        uses: step-security/harden-runner@ab7a9404c0f3da075243ca237b5fac12c98deaa5 # v2.19.3
         with:
           egress-policy: audit
           disable-telemetry: true
@@ -30,57 +29,23 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
-      - name: Process config
+      - name: Setup Go
+        uses: actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5 # v5.5.0
+        with:
+          go-version-file: go.mod
+
+      - name: Build and run review-rot
+        run: |
+          go build -o review-rot ./cmd/review-rot
+          ./review-rot --config-dir=config --output=web/data.json
         env:
-          EC_AUTOMATION_KEY: ${{ secrets.EC_AUTOMATION_KEY }}
-          APP_INSTALL_ID: 59973090
-        run: |-
-          set -euo pipefail
-          function createJWT() {
-            local header=$(echo -n '{"alg":"RS256","typ":"JWT"}' | base64 | sed s/\+/-/ | sed -E s/=+$//)
-            local now_utc=$(date --utc +%s)
-            local payload=$(echo -n '{"iat":'$((now_utc - 60))',"exp":'$((now_utc + 120))',"iss":245286}' | base64 | sed s/\+/-/ | sed -E s/=+$//)
-            local signature=$(echo -n "${header}.${payload}" | openssl dgst -sha256 -binary -sign <(echo "${EC_AUTOMATION_KEY}")| base64 | tr -d '\n=' | tr -- '+/' '-_')
-            echo "${header}.${payload}.${signature}"
-          }
+          GITHUB_PRIVATE_KEY: ${{ secrets.EC_AUTOMATION_KEY }}
 
-          export GITHUB_TOKEN=$(curl -s -X POST -H "Authorization: Bearer $(createJWT)" -H "Accept: application/vnd.github+json" https://api.github.com/app/installations/${APP_INSTALL_ID}/access_tokens | jq -r .token)
-          < ./config.yaml envsubst > config-with-token.yaml
-          cat config-with-token.yaml
+      - name: Copy frontend files
+        run: cp -r frontend/* web/
 
-      - name: Run review-rot
-        uses: lcarva/review-rot-action/run@cb3c7455d9489ac76d1366076d19d1b91e9384a6 # main
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@d92aa235d04922e8f08b40ce78cc5442fcfbfa2f # v4.8.0
         with:
-          config: config-with-token.yaml
-          output: output.json
-
-      - name: Process data
-        run: |-
-          set -euo pipefail
-          echo '=== START OF FULL DATA ==='
-          cat output.json
-          echo '==== END OF FULL DATA ===='
-
-          mkdir web
-
-          < output.json ./filter-data.sh > web/data.json
-          echo '=== START OF FILTERED DATA ==='
-          cat web/data.json
-          echo '==== END OF FILTERED DATA ===='
-
-      - name: Fetch review-rot web
-        uses: lcarva/review-rot-action/web@cb3c7455d9489ac76d1366076d19d1b91e9384a6 # main
-        with:
-          output: web
-
-      - name: Configure pages
-        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
-
-      - name: Upload pages artifact
-        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
-        with:
-          path: web
-
-      - name: Deploy pages
-        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5
-        id: deployment
+          folder: web
+          branch: gh-pages

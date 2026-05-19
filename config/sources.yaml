@@ -1,0 +1,43 @@
+# GitHub App credentials for API access
+github:
+  app_id: 245286
+  installation_id: 59973090
+
+sources:
+  # All repos under these orgs are included automatically
+  orgs:
+    - name: conforma
+    - name: enterprise-contract
+
+  # Additional repos outside the orgs above
+  repos:
+    - konflux-ci/build-definitions
+    - konflux-ci/build-trusted-artifacts
+    - konflux-ci/docs
+    - konflux-ci/e2e-tests
+    - konflux-ci/konflux-ci.github.io
+    - konflux-ci/konflux-test
+    - konflux-ci/release-service-catalog
+    - konflux-ci/tektor
+    - redhat-appstudio/infra-deployments
+    - redhat-appstudio/tssc-dev-multi-ci
+    - redhat-appstudio/tssc-sample-templates
+    - tektoncd/chains
+
+# Team members — PRs from these authors are always shown,
+# even in repos outside the orgs above
+authors:
+  - Acepresso
+  - cuipinghuo
+  - dheerajodha
+  - joejstuart
+  - robnester-rh
+  - simonbaird
+  - st3penta
+
+# PRs from these authors are flagged as automated
+bots:
+  - renovate[bot]
+  - dependabot[bot]
+  - red-hat-konflux[bot]
+  - ec-automation[bot]
