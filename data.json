@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T06:23:12.207706971Z",
+  "generated_at": "2026-05-20T07:45:35.395843509Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2583,6 +2583,30 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "[KONFLUX-13286] Replace appstudio-utils image with task-runner",
+      "url": "https://github.com/conforma/cli/pull/3316",
+      "number": 3316,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-05-20T07:28:22Z",
+      "updated_at": "2026-05-20T07:38:13Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
       "labels": [
         "size: XS"
       ]
