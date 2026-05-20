@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T13:01:45.531538425Z",
+  "generated_at": "2026-05-20T14:20:39.609523191Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1188,7 +1188,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-05-20T03:24:40Z",
+      "updated_at": "2026-05-20T13:36:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2609,6 +2609,84 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "Refresh RPM lockfiles (main) [SECURITY]",
+      "url": "https://github.com/conforma/cli/pull/3317",
+      "number": 3317,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-05-20T13:29:32Z",
+      "updated_at": "2026-05-20T13:41:00Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: S"
+      ]
+    },
+    {
+      "title": "Refresh RPM lockfiles (release-v0.7) [SECURITY]",
+      "url": "https://github.com/conforma/cli/pull/3318",
+      "number": 3318,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-05-20T13:32:33Z",
+      "updated_at": "2026-05-20T13:42:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "release-v0.7",
+        "size: M"
+      ]
+    },
+    {
+      "title": "Refresh RPM lockfiles (release-v0.8) [SECURITY]",
+      "url": "https://github.com/conforma/cli/pull/3319",
+      "number": 3319,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-05-20T13:36:12Z",
+      "updated_at": "2026-05-20T13:57:14Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: S",
+        "release-v0.8"
       ]
     },
     {
