@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T15:44:54.023292187Z",
+  "generated_at": "2026-05-20T17:04:08.881409864Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2666,6 +2666,30 @@
       ]
     },
     {
+      "title": "Freshen pinned policy digest",
+      "url": "https://github.com/conforma/cli/pull/3320",
+      "number": 3320,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-05-20T16:59:05Z",
+      "updated_at": "2026-05-20T17:01:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -3619,6 +3643,30 @@
         "main",
         "renovate",
         "size: M"
+      ]
+    },
+    {
+      "title": "Update POLICY_BUNDLE_DIGEST in tekton-task bundle and catalog",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/217",
+      "number": 217,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-05-20T16:32:32Z",
+      "updated_at": "2026-05-20T16:41:42Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "L",
+      "reviews": {
+        "count": 7,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: L"
       ]
     },
     {
