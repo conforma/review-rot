@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T22:55:56.304224528Z",
+  "generated_at": "2026-05-20T23:28:09.614439969Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1986,7 +1986,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-04-18T07:33:36Z",
-      "updated_at": "2026-05-20T20:45:40Z",
+      "updated_at": "2026-05-20T23:18:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2010,7 +2010,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-04-18T07:34:50Z",
-      "updated_at": "2026-05-20T21:32:08Z",
+      "updated_at": "2026-05-20T23:12:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2072,32 +2072,6 @@
       "unresolved_conversations": 11,
       "labels": [
         "size: XL"
-      ]
-    },
-    {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 2465031 (main)",
-      "url": "https://github.com/conforma/cli/pull/3270",
-      "number": 3270,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-05-05T03:04:45Z",
-      "updated_at": "2026-05-20T03:33:39Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS"
       ]
     },
     {
@@ -2549,7 +2523,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-20T13:29:32Z",
-      "updated_at": "2026-05-20T20:02:53Z",
+      "updated_at": "2026-05-20T23:09:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2575,7 +2549,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-20T13:32:33Z",
-      "updated_at": "2026-05-20T19:51:58Z",
+      "updated_at": "2026-05-20T23:12:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
