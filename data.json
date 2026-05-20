@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T17:04:08.881409864Z",
+  "generated_at": "2026-05-20T18:16:24.922372549Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2549,18 +2549,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/11721363?u=5d5c4ec244d8c0007b49886b43dc013b26cc4eba\u0026v=4"
       },
       "created_at": "2026-05-19T09:40:07Z",
-      "updated_at": "2026-05-20T15:21:19Z",
+      "updated_at": "2026-05-20T17:50:27Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "XS",
+      "ci_status": "PENDING",
+      "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
+        "size: L"
       ]
     },
     {
@@ -2675,10 +2675,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-05-20T16:59:05Z",
-      "updated_at": "2026-05-20T17:01:14Z",
+      "updated_at": "2026-05-20T17:11:17Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 1,
@@ -5069,6 +5069,28 @@
         "renovate",
         "major"
       ]
+    },
+    {
+      "title": "Add Renovate PR triage skill",
+      "url": "https://github.com/conforma/claude-skills/pull/9",
+      "number": 9,
+      "repo": "conforma/claude-skills",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-05-20T17:55:24Z",
+      "updated_at": "2026-05-20T18:14:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 7,
+      "labels": []
     },
     {
       "title": "Configure Renovate",
