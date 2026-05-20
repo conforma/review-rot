@@ -14,6 +14,9 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
     steps:
       - name: Harden Runner
         uses: step-security/harden-runner@ab7a9404c0f3da075243ca237b5fac12c98deaa5 # v2.19.3
@@ -33,7 +36,15 @@ jobs:
         run: go vet ./...
 
       - name: Test
-        run: go test ./...
+        run: go test -coverprofile=coverage.out -covermode=atomic ./...
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe # v5.5.4
+        with:
+          use_oidc: true
+          flags: unit-tests
+          files: ./coverage.out
+          fail_ci_if_error: false
 
       - name: Build
         run: go build ./cmd/review-rot
