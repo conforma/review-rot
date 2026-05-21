@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T12:03:05.422666447Z",
+  "generated_at": "2026-05-21T13:06:51.183605886Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -234,8 +234,8 @@
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 1,
-        "has_new_commits": true
+        "count": 0,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -646,7 +646,7 @@
       "ci_status": "FAILURE",
       "size": "S",
       "reviews": {
-        "count": 3,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -670,7 +670,7 @@
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 25,
+        "count": 18,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -746,7 +746,7 @@
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 7,
+        "count": 5,
         "has_new_commits": false
       },
       "unresolved_conversations": 6,
@@ -1046,7 +1046,7 @@
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 3,
+        "count": 1,
         "has_new_commits": true
       },
       "unresolved_conversations": 9,
@@ -1276,8 +1276,8 @@
       "ci_status": "FAILURE",
       "size": "L",
       "reviews": {
-        "count": 6,
-        "has_new_commits": false
+        "count": 2,
+        "has_new_commits": true
       },
       "unresolved_conversations": 2,
       "labels": [
@@ -1404,7 +1404,7 @@
       "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
-        "count": 3,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 8,
@@ -1428,7 +1428,7 @@
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 15,
+        "count": 7,
         "has_new_commits": false
       },
       "unresolved_conversations": 3,
@@ -1583,8 +1583,8 @@
       "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
-        "count": 24,
-        "has_new_commits": false
+        "count": 10,
+        "has_new_commits": true
       },
       "unresolved_conversations": 3,
       "labels": [
@@ -1633,7 +1633,7 @@
       "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
-        "count": 7,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 4,
@@ -1790,7 +1790,7 @@
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 3,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1864,8 +1864,8 @@
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 2,
-        "has_new_commits": true
+        "count": 0,
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
@@ -2066,8 +2066,8 @@
       "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
-        "count": 9,
-        "has_new_commits": false
+        "count": 5,
+        "has_new_commits": true
       },
       "unresolved_conversations": 11,
       "labels": [
@@ -2116,7 +2116,7 @@
       "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
-        "count": 6,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 13,
@@ -2557,7 +2557,7 @@
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 2,
+        "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -2653,18 +2653,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/11721363?u=5d5c4ec244d8c0007b49886b43dc013b26cc4eba\u0026v=4"
       },
       "created_at": "2026-05-21T10:09:01Z",
-      "updated_at": "2026-05-21T10:29:42Z",
+      "updated_at": "2026-05-21T12:56:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "XS",
+      "ci_status": "FAILURE",
+      "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
+        "size: L"
       ]
     },
     {
@@ -3395,40 +3395,16 @@
       ]
     },
     {
-      "title": "Exclude bot reviews from review count and re-review logic",
-      "url": "https://github.com/conforma/review-rot/pull/236",
-      "number": 236,
+      "title": "fix: use Codecov token instead of OIDC for coverage upload",
+      "url": "https://github.com/conforma/review-rot/pull/240",
+      "number": 240,
       "repo": "conforma/review-rot",
       "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
-      "created_at": "2026-05-20T08:13:46Z",
-      "updated_at": "2026-05-20T11:03:04Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
-      ]
-    },
-    {
-      "title": "Add new team members",
-      "url": "https://github.com/conforma/review-rot/pull/239",
-      "number": 239,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-05-21T09:37:51Z",
-      "updated_at": "2026-05-21T09:39:10Z",
+      "created_at": "2026-05-21T13:02:14Z",
+      "updated_at": "2026-05-21T13:05:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3437,7 +3413,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "size: XS"
       ]
@@ -3563,7 +3539,7 @@
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "count": 3,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
@@ -3639,7 +3615,7 @@
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 7,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5067,7 +5043,7 @@
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 7,
+        "count": 1,
         "has_new_commits": true
       },
       "unresolved_conversations": 0,
@@ -5111,7 +5087,7 @@
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 3,
+        "count": 1,
         "has_new_commits": true
       },
       "unresolved_conversations": 0,
@@ -5133,7 +5109,7 @@
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 24,
+        "count": 10,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
@@ -5155,7 +5131,7 @@
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 4,
+        "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 8,
@@ -5465,7 +5441,7 @@
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 4,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
