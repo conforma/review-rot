@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T01:40:00.256026269Z",
+  "generated_at": "2026-05-21T03:06:51.849068862Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1088,7 +1088,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-05-20T03:37:01Z",
+      "updated_at": "2026-05-21T02:56:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1446,7 +1446,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-03-05T02:08:52Z",
-      "updated_at": "2026-05-19T02:33:18Z",
+      "updated_at": "2026-05-21T02:43:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1472,7 +1472,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-03-05T02:09:00Z",
-      "updated_at": "2026-05-19T02:33:36Z",
+      "updated_at": "2026-05-21T02:43:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2075,6 +2075,32 @@
       ]
     },
     {
+      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 2465031 (main)",
+      "url": "https://github.com/conforma/cli/pull/3270",
+      "number": 3270,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-05-05T03:04:45Z",
+      "updated_at": "2026-05-21T02:56:16Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
       "title": "feat: add direct OPA evaluator with shared base infrastructure",
       "url": "https://github.com/conforma/cli/pull/3276",
       "number": 3276,
@@ -2108,10 +2134,36 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-09T02:54:07Z",
-      "updated_at": "2026-05-19T02:43:16Z",
+      "updated_at": "2026-05-21T02:54:16Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update module github.com/tektoncd/pipeline to v1.9.3 (main)",
+      "url": "https://github.com/conforma/cli/pull/3280",
+      "number": 3280,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-05-09T03:11:21Z",
+      "updated_at": "2026-05-21T03:01:08Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2134,7 +2186,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-09T03:11:29Z",
-      "updated_at": "2026-05-19T02:48:35Z",
+      "updated_at": "2026-05-21T03:01:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2213,7 +2265,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-05-20T03:39:33Z",
+      "updated_at": "2026-05-21T03:02:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
