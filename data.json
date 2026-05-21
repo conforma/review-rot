@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T18:10:27.487484125Z",
+  "generated_at": "2026-05-21T19:11:14.25392678Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -859,6 +859,30 @@
       ]
     },
     {
+      "title": "chore(EC-1852): trim AGENTS.md to follow agentic SDLC best practices",
+      "url": "https://github.com/conforma/policy/pull/1734",
+      "number": 1734,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-05-21T18:50:34Z",
+      "updated_at": "2026-05-21T18:54:30Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XL"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1349,7 +1373,7 @@
       "updated_at": "2026-05-21T18:06:16Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2653,10 +2677,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/11721363?u=5d5c4ec244d8c0007b49886b43dc013b26cc4eba\u0026v=4"
       },
       "created_at": "2026-05-21T10:09:01Z",
-      "updated_at": "2026-05-21T16:48:59Z",
+      "updated_at": "2026-05-21T18:17:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -2665,6 +2689,30 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XXL"
+      ]
+    },
+    {
+      "title": "chore(EC-1851): trim AGENTS.md and add design docs per agentic SDLC best practices",
+      "url": "https://github.com/conforma/cli/pull/3322",
+      "number": 3322,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-05-21T19:09:54Z",
+      "updated_at": "2026-05-21T19:10:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XL"
       ]
     },
     {
@@ -2751,7 +2799,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:49Z",
-      "updated_at": "2026-05-15T14:17:47Z",
+      "updated_at": "2026-05-21T19:03:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2777,7 +2825,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:54Z",
-      "updated_at": "2026-05-21T13:45:17Z",
+      "updated_at": "2026-05-21T19:01:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3172,7 +3220,7 @@
       "updated_at": "2026-05-21T18:02:35Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3276,7 +3324,7 @@
       "updated_at": "2026-05-21T18:02:28Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3343,7 +3391,7 @@
       ]
     },
     {
-      "title": "Update github/codeql-action action to v4.32.6 (main)",
+      "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/review-rot/pull/226",
       "number": 226,
       "repo": "conforma/review-rot",
@@ -3352,7 +3400,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-05-21T14:27:12Z",
+      "updated_at": "2026-05-21T18:27:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3404,7 +3452,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:39:54Z",
-      "updated_at": "2026-05-21T18:04:20Z",
+      "updated_at": "2026-05-21T18:18:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3430,7 +3478,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T02:06:05Z",
-      "updated_at": "2026-05-13T01:24:51Z",
+      "updated_at": "2026-05-21T18:18:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3457,7 +3505,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-05-18T14:48:06Z",
+      "updated_at": "2026-05-21T18:18:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3483,7 +3531,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-05-18T14:48:15Z",
+      "updated_at": "2026-05-21T18:18:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3533,7 +3581,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-05-18T14:48:26Z",
+      "updated_at": "2026-05-21T18:18:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3573,30 +3621,6 @@
         "main",
         "renovate",
         "size: M"
-      ]
-    },
-    {
-      "title": "Update POLICY_BUNDLE_DIGEST in tekton-task bundle and catalog",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/217",
-      "number": 217,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-05-20T16:32:32Z",
-      "updated_at": "2026-05-21T14:53:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 8,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "size: XXL"
       ]
     },
     {
@@ -3662,7 +3686,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:33:03Z",
-      "updated_at": "2026-05-15T13:54:27Z",
+      "updated_at": "2026-05-21T18:48:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3998,7 +4022,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T03:44:47Z",
-      "updated_at": "2026-05-15T13:10:24Z",
+      "updated_at": "2026-05-21T18:31:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4444,7 +4468,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-02T01:54:55Z",
-      "updated_at": "2026-05-20T19:50:52Z",
+      "updated_at": "2026-05-21T19:05:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
