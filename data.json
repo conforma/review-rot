@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T13:35:02.620809147Z",
+  "generated_at": "2026-05-21T13:49:40.456134154Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2768,7 +2768,7 @@
       ]
     },
     {
-      "title": "Update dependency node to v24.15.0 (main)",
+      "title": "Update dependency node to v24.16.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/514",
       "number": 514,
       "repo": "conforma/conforma.github.io",
@@ -2777,10 +2777,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:54Z",
-      "updated_at": "2026-04-16T09:08:53Z",
+      "updated_at": "2026-05-21T13:45:17Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2794,7 +2794,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.93.0 (main)",
+      "title": "Update dependency wrangler to v4.93.1 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -2803,10 +2803,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-05-19T10:48:44Z",
+      "updated_at": "2026-05-21T13:45:40Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -3391,30 +3391,6 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "fix: use Codecov token instead of OIDC for coverage upload",
-      "url": "https://github.com/conforma/review-rot/pull/240",
-      "number": 240,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-05-21T13:02:14Z",
-      "updated_at": "2026-05-21T13:05:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
         "size: XS"
       ]
     },
