@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T16:26:46.194279573Z",
+  "generated_at": "2026-05-21T17:22:12.844651419Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2110,14 +2110,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-05-06T23:07:00Z",
-      "updated_at": "2026-05-20T15:33:39Z",
+      "updated_at": "2026-05-21T17:20:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
-        "count": 2,
-        "has_new_commits": false
+        "count": 14,
+        "has_new_commits": true
       },
       "unresolved_conversations": 13,
       "labels": [
@@ -2653,18 +2653,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/11721363?u=5d5c4ec244d8c0007b49886b43dc013b26cc4eba\u0026v=4"
       },
       "created_at": "2026-05-21T10:09:01Z",
-      "updated_at": "2026-05-21T14:29:34Z",
+      "updated_at": "2026-05-21T16:48:59Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "L",
+      "ci_status": "PENDING",
+      "size": "XXL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: L"
+        "size: XXL"
       ]
     },
     {
@@ -4835,7 +4835,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:26:43Z",
-      "updated_at": "2026-05-15T13:31:08Z",
+      "updated_at": "2026-05-21T16:47:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
