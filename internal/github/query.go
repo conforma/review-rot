@@ -59,13 +59,15 @@ type prNode struct {
 	} `graphql:"commits(last: 1)"`
 
 	Reviews struct {
-		TotalCount int
-		Nodes      []struct {
+		Nodes []struct {
+			Author struct {
+				TypeName string `graphql:"__typename"`
+			} `graphql:"author"`
 			Commit struct {
 				OID string `graphql:"oid"`
 			}
 		}
-	} `graphql:"reviews(last: 1, states: [APPROVED, CHANGES_REQUESTED, COMMENTED])"`
+	} `graphql:"reviews(last: 100, states: [APPROVED, CHANGES_REQUESTED, COMMENTED])"`
 
 	ReviewThreads struct {
 		Nodes []struct {
@@ -160,12 +162,17 @@ func extractSize(node prNode) *string {
 }
 
 func extractReviews(node prNode) model.Reviews {
-	r := model.Reviews{
-		Count: node.Reviews.TotalCount,
+	var r model.Reviews
+	var lastHumanReviewOID string
+	for _, review := range node.Reviews.Nodes {
+		if review.Author.TypeName == "Bot" {
+			continue
+		}
+		r.Count++
+		lastHumanReviewOID = review.Commit.OID
 	}
-	if r.Count > 0 && len(node.Reviews.Nodes) > 0 {
-		lastReviewOID := node.Reviews.Nodes[0].Commit.OID
-		r.HasNewCommits = lastReviewOID != node.HeadRefOid
+	if r.Count > 0 {
+		r.HasNewCommits = lastHumanReviewOID != node.HeadRefOid
 	}
 	return r
 }
