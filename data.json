@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T09:07:25.406145585Z",
+  "generated_at": "2026-05-21T10:44:50.934713651Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1164,7 +1164,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-05-20T19:20:16Z",
+      "updated_at": "2026-05-21T09:14:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1190,7 +1190,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-05-20T20:43:56Z",
+      "updated_at": "2026-05-21T09:17:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1216,7 +1216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-05-20T20:44:00Z",
+      "updated_at": "2026-05-21T09:17:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1372,7 +1372,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-05-20T20:45:01Z",
+      "updated_at": "2026-05-21T09:18:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2644,6 +2644,30 @@
       ]
     },
     {
+      "title": "chore(deps): Bump Go from 1.25.8 to 1.25.9 and spdystream to v0.5.1",
+      "url": "https://github.com/conforma/cli/pull/3321",
+      "number": 3321,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "ompushkara",
+        "avatar_url": "https://avatars.githubusercontent.com/u/11721363?u=5d5c4ec244d8c0007b49886b43dc013b26cc4eba\u0026v=4"
+      },
+      "created_at": "2026-05-21T10:09:01Z",
+      "updated_at": "2026-05-21T10:29:42Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -3392,6 +3416,30 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: M"
+      ]
+    },
+    {
+      "title": "Add new team members",
+      "url": "https://github.com/conforma/review-rot/pull/239",
+      "number": 239,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-05-21T09:37:51Z",
+      "updated_at": "2026-05-21T09:39:10Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -4678,11 +4726,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:35:59Z",
-      "updated_at": "2026-05-21T05:41:12Z",
+      "updated_at": "2026-05-21T09:49:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "L",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -4691,7 +4739,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: L"
+        "size: XL"
       ]
     },
     {
@@ -4731,11 +4779,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-05-21T05:42:28Z",
+      "updated_at": "2026-05-21T09:50:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "S",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -4744,7 +4792,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: S"
+        "size: M"
       ]
     },
     {
