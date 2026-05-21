@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T13:06:51.183605886Z",
+  "generated_at": "2026-05-21T13:07:17.542481449Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3312,109 +3312,6 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "🚨 Update github actions (main) (major)",
-      "url": "https://github.com/conforma/review-rot/pull/223",
-      "number": 223,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-02-27T01:09:46Z",
-      "updated_at": "2026-05-20T20:11:52Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "major",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.32.6 (main)",
-      "url": "https://github.com/conforma/review-rot/pull/226",
-      "number": 226,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-05-20T20:23:14Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/review-rot/pull/227",
-      "number": 227,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-17T01:55:02Z",
-      "updated_at": "2026-05-19T08:18:09Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "fix: use Codecov token instead of OIDC for coverage upload",
-      "url": "https://github.com/conforma/review-rot/pull/240",
-      "number": 240,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-05-21T13:02:14Z",
-      "updated_at": "2026-05-21T13:05:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
         "size: XS"
       ]
     },
