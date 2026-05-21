@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T07:46:33.455941477Z",
+  "generated_at": "2026-05-21T09:07:25.406145585Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2554,7 +2554,7 @@
       "updated_at": "2026-05-21T07:44:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 2,
