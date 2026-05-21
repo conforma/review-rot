@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T14:21:47.694429635Z",
+  "generated_at": "2026-05-21T15:04:47.04009477Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2653,10 +2653,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/11721363?u=5d5c4ec244d8c0007b49886b43dc013b26cc4eba\u0026v=4"
       },
       "created_at": "2026-05-21T10:09:01Z",
-      "updated_at": "2026-05-21T14:20:39Z",
+      "updated_at": "2026-05-21T14:29:34Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "L",
       "reviews": {
         "count": 0,
@@ -3325,7 +3325,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:09:46Z",
-      "updated_at": "2026-05-21T14:04:33Z",
+      "updated_at": "2026-05-21T14:26:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3352,7 +3352,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-05-21T14:04:26Z",
+      "updated_at": "2026-05-21T14:27:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3585,18 +3585,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-05-20T16:32:32Z",
-      "updated_at": "2026-05-21T14:18:11Z",
+      "updated_at": "2026-05-21T14:53:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": "L",
+      "size": "XXL",
       "reviews": {
-        "count": 3,
+        "count": 8,
         "has_new_commits": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
-        "size: L"
+        "size: XXL"
       ]
     },
     {
@@ -4535,6 +4535,32 @@
         "renovate",
         "major",
         "size: XS"
+      ]
+    },
+    {
+      "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
+      "url": "https://github.com/conforma/demos/pull/7",
+      "number": 7,
+      "repo": "conforma/demos",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-04-19T03:41:08Z",
+      "updated_at": "2026-04-30T01:41:21Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
       ]
     },
     {
