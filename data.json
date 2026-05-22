@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T19:05:50.215424683Z",
+  "generated_at": "2026-05-22T20:09:06.555125495Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1240,10 +1240,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-05-22T00:59:49Z",
+      "updated_at": "2026-05-22T19:18:22Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -1344,7 +1344,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-05-20T19:52:01Z",
+      "updated_at": "2026-05-22T19:09:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1718,7 +1718,7 @@
       ]
     },
     {
-      "title": "Update module github.com/tektoncd/pipeline to v1.11.1 [SECURITY] (main)",
+      "title": "Update module github.com/tektoncd/pipeline to v1.9.3 [SECURITY] (main)",
       "url": "https://github.com/conforma/cli/pull/3201",
       "number": 3201,
       "repo": "conforma/cli",
@@ -1727,11 +1727,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-26T13:37:15Z",
-      "updated_at": "2026-05-22T00:59:33Z",
+      "updated_at": "2026-05-22T19:18:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XL",
+      "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -1741,11 +1741,11 @@
         "renovate",
         "major",
         "main",
-        "size: XL"
+        "size: XS"
       ]
     },
     {
-      "title": "Update module github.com/tektoncd/pipeline to v1.11.1 [SECURITY] (release-v0.7)",
+      "title": "Update module github.com/tektoncd/pipeline to v1.9.3 [SECURITY] (release-v0.7)",
       "url": "https://github.com/conforma/cli/pull/3203",
       "number": 3203,
       "repo": "conforma/cli",
@@ -1754,11 +1754,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-26T13:45:07Z",
-      "updated_at": "2026-05-22T00:59:51Z",
+      "updated_at": "2026-05-22T19:17:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XL",
+      "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -1768,11 +1768,11 @@
         "renovate",
         "major",
         "release-v0.7",
-        "size: XL"
+        "size: XS"
       ]
     },
     {
-      "title": "Update module github.com/tektoncd/pipeline to v1.11.1 [SECURITY] (release-v0.8)",
+      "title": "Update module github.com/tektoncd/pipeline to v1.9.3 [SECURITY] (release-v0.8)",
       "url": "https://github.com/conforma/cli/pull/3204",
       "number": 3204,
       "repo": "conforma/cli",
@@ -1781,11 +1781,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-26T13:46:20Z",
-      "updated_at": "2026-05-22T01:00:05Z",
+      "updated_at": "2026-05-22T19:42:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XL",
+      "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -1794,7 +1794,7 @@
       "labels": [
         "renovate",
         "major",
-        "size: XL",
+        "size: XS",
         "release-v0.8"
       ]
     },
@@ -3269,7 +3269,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-07T03:53:01Z",
-      "updated_at": "2026-05-22T15:59:21Z",
+      "updated_at": "2026-05-22T19:33:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4833,7 +4833,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:30:55Z",
-      "updated_at": "2026-05-22T15:15:55Z",
+      "updated_at": "2026-05-22T19:43:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4884,7 +4884,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-05-22T08:42:51Z",
+      "updated_at": "2026-05-22T19:15:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
