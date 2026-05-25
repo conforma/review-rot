@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T11:22:45.239063635Z",
+  "generated_at": "2026-05-25T12:41:41.139208195Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3130,32 +3130,6 @@
       ]
     },
     {
-      "title": "build(deps): bump mermaid from 11.12.1 to 11.15.0 in /antora",
-      "url": "https://github.com/conforma/conforma.github.io/pull/542",
-      "number": 542,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-05-11T22:07:57Z",
-      "updated_at": "2026-05-11T22:09:43Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript",
-        "size: XL"
-      ]
-    },
-    {
       "title": "Update dependency mermaid to v11.15.0 [SECURITY] (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/543",
       "number": 543,
@@ -3179,6 +3153,33 @@
         "main",
         "renovate",
         "size: L"
+      ]
+    },
+    {
+      "title": "build(deps): bump uuid and mermaid in /antora",
+      "url": "https://github.com/conforma/conforma.github.io/pull/544",
+      "number": 544,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-05-25T11:28:56Z",
+      "updated_at": "2026-05-25T11:30:17Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript",
+        "major",
+        "size: XL"
       ]
     },
     {
