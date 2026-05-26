@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T09:08:59.146806168Z",
+  "generated_at": "2026-05-26T13:30:08.805216991Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1188,7 +1188,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-05-26T06:52:14Z",
+      "updated_at": "2026-05-26T12:44:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1214,7 +1214,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-05-26T01:05:44Z",
+      "updated_at": "2026-05-26T12:44:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1318,7 +1318,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-05-26T06:54:58Z",
+      "updated_at": "2026-05-26T12:44:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1396,7 +1396,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-05-26T01:05:58Z",
+      "updated_at": "2026-05-26T12:45:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2575,7 +2575,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-05-20T07:28:22Z",
-      "updated_at": "2026-05-21T07:44:38Z",
+      "updated_at": "2026-05-26T11:01:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2713,6 +2713,30 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XL"
+      ]
+    },
+    {
+      "title": "  Fix blocking CVEs: update RPM lockfiles and tektoncd/pipeline to v1.9.3",
+      "url": "https://github.com/conforma/cli/pull/3323",
+      "number": 3323,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-05-26T12:15:39Z",
+      "updated_at": "2026-05-26T13:19:57Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M"
       ]
     },
     {
@@ -3313,7 +3337,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to 03b6788 (main)",
+      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to dbee6dd (main)",
       "url": "https://github.com/conforma/golden-container/pull/1488",
       "number": 1488,
       "repo": "conforma/golden-container",
@@ -3322,7 +3346,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-05T01:55:24Z",
-      "updated_at": "2026-05-26T05:38:46Z",
+      "updated_at": "2026-05-26T09:40:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
