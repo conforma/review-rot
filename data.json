@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T20:14:59.372438853Z",
+  "generated_at": "2026-05-26T21:03:49.249409498Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1188,7 +1188,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-05-26T12:44:45Z",
+      "updated_at": "2026-05-26T20:48:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1214,7 +1214,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-05-26T12:44:52Z",
+      "updated_at": "2026-05-26T20:48:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1318,7 +1318,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-05-26T12:44:59Z",
+      "updated_at": "2026-05-26T20:48:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1396,7 +1396,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-05-26T12:45:08Z",
+      "updated_at": "2026-05-26T20:48:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1772,33 +1772,6 @@
       ]
     },
     {
-      "title": "Update module github.com/tektoncd/pipeline to v1.9.3 [SECURITY] (release-v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3204",
-      "number": 3204,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-26T13:46:20Z",
-      "updated_at": "2026-05-22T21:59:48Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "major",
-        "size: XS",
-        "release-v0.8"
-      ]
-    },
-    {
       "title": "Add comprehensive architecture improvement backlog",
       "url": "https://github.com/conforma/cli/pull/3207",
       "number": 3207,
@@ -1984,11 +1957,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-18T01:12:19Z",
-      "updated_at": "2026-05-20T01:31:00Z",
+      "updated_at": "2026-05-26T20:50:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "S",
+      "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -1996,7 +1969,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "renovate",
-        "size: S",
+        "size: XS",
         "release-v0.8"
       ]
     },
@@ -2421,7 +2394,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T19:00:18Z",
-      "updated_at": "2026-05-18T10:51:09Z",
+      "updated_at": "2026-05-26T20:50:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2668,30 +2641,6 @@
       ]
     },
     {
-      "title": "chore(deps): Bump Go from 1.25.8 to 1.25.9 and spdystream to v0.5.1",
-      "url": "https://github.com/conforma/cli/pull/3321",
-      "number": 3321,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "ompushkara",
-        "avatar_url": "https://avatars.githubusercontent.com/u/11721363?u=5d5c4ec244d8c0007b49886b43dc013b26cc4eba\u0026v=4"
-      },
-      "created_at": "2026-05-21T10:09:01Z",
-      "updated_at": "2026-05-26T20:08:38Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XXL"
-      ]
-    },
-    {
       "title": "chore(EC-1851): trim AGENTS.md and add design docs per agentic SDLC best practices",
       "url": "https://github.com/conforma/cli/pull/3322",
       "number": 3322,
@@ -2797,16 +2746,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-05-26T19:53:28Z",
-      "updated_at": "2026-05-26T20:11:22Z",
+      "updated_at": "2026-05-26T20:35:07Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "size: XXL"
       ]
