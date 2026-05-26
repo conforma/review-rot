@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T18:17:39.231466422Z",
+  "generated_at": "2026-05-26T19:16:53.308232681Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2740,6 +2740,30 @@
       ]
     },
     {
+      "title": "Add pin-policy-bundle acceptance tests for TA task",
+      "url": "https://github.com/conforma/cli/pull/3324",
+      "number": 3324,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-05-26T18:30:57Z",
+      "updated_at": "2026-05-26T18:46:01Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -3530,7 +3554,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-05-21T18:18:02Z",
+      "updated_at": "2026-05-26T19:10:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3556,7 +3580,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-05-21T18:18:11Z",
+      "updated_at": "2026-05-26T19:10:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3606,7 +3630,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-05-21T18:18:40Z",
+      "updated_at": "2026-05-26T19:11:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3646,30 +3670,6 @@
         "main",
         "renovate",
         "size: M"
-      ]
-    },
-    {
-      "title": "Fix tekton-task-bundle and tekton-catalog skipping when run independently",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/218",
-      "number": 218,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-05-26T18:08:56Z",
-      "updated_at": "2026-05-26T18:09:51Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
       ]
     },
     {
