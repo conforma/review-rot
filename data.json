@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T19:16:53.308232681Z",
+  "generated_at": "2026-05-26T20:14:59.372438853Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2677,13 +2677,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/11721363?u=5d5c4ec244d8c0007b49886b43dc013b26cc4eba\u0026v=4"
       },
       "created_at": "2026-05-21T10:09:01Z",
-      "updated_at": "2026-05-21T18:17:02Z",
+      "updated_at": "2026-05-26T20:08:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2749,7 +2749,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-05-26T18:30:57Z",
-      "updated_at": "2026-05-26T18:46:01Z",
+      "updated_at": "2026-05-26T19:27:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2761,6 +2761,54 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: M"
+      ]
+    },
+    {
+      "title": "Bump ubi base image and tektoncd/pipeline module (v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3325",
+      "number": 3325,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-05-26T19:36:53Z",
+      "updated_at": "2026-05-26T20:02:36Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image",
+      "url": "https://github.com/conforma/cli/pull/3326",
+      "number": 3326,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-05-26T19:53:28Z",
+      "updated_at": "2026-05-26T20:11:22Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
       ]
     },
     {
