@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T09:46:20.331341866Z",
+  "generated_at": "2026-05-27T11:12:00.741774391Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5183,7 +5183,7 @@
       "labels": []
     },
     {
-      "title": "Update registry.access.redhat.com/ubi8/ubi-micro:latest Docker digest to e36f1f1 (main)",
+      "title": "Update registry.access.redhat.com/ubi8/ubi-micro:latest Docker digest to 41d8053 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/627",
       "number": 627,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -5192,7 +5192,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:48:52Z",
-      "updated_at": "2026-05-26T05:50:00Z",
+      "updated_at": "2026-05-27T10:00:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5487,6 +5487,28 @@
       "size": null,
       "reviews": {
         "count": 3,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Serialize push pipeline to prevent data-acceptable-bundles race",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3554",
+      "number": 3554,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-05-27T10:07:14Z",
+      "updated_at": "2026-05-27T10:15:13Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
