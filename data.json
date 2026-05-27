@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T12:35:27.057190935Z",
+  "generated_at": "2026-05-27T14:07:53.142243956Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5170,14 +5170,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-05-13T18:11:58Z",
-      "updated_at": "2026-05-27T06:55:47Z",
+      "updated_at": "2026-05-27T12:45:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 8,
       "labels": []
@@ -5487,28 +5487,6 @@
       "size": null,
       "reviews": {
         "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "Serialize push pipeline to prevent data-acceptable-bundles race",
-      "url": "https://github.com/konflux-ci/build-definitions/pull/3554",
-      "number": 3554,
-      "repo": "konflux-ci/build-definitions",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-05-27T10:07:14Z",
-      "updated_at": "2026-05-27T10:15:13Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
