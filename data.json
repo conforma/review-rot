@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T11:12:00.741774391Z",
+  "generated_at": "2026-05-27T12:35:27.057190935Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2647,7 +2647,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-05-26T12:15:39Z",
-      "updated_at": "2026-05-26T13:34:33Z",
+      "updated_at": "2026-05-27T12:11:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3307,7 +3307,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to dbee6dd (main)",
+      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to b498b3e (main)",
       "url": "https://github.com/conforma/golden-container/pull/1488",
       "number": 1488,
       "repo": "conforma/golden-container",
@@ -3316,7 +3316,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-05T01:55:24Z",
-      "updated_at": "2026-05-26T09:40:37Z",
+      "updated_at": "2026-05-27T11:33:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
