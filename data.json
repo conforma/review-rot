@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T07:47:32.227934279Z",
+  "generated_at": "2026-05-28T09:13:21.631312986Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1164,11 +1164,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-05-28T05:47:56Z",
+      "updated_at": "2026-05-28T08:45:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XXL",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -1177,7 +1177,7 @@
       "labels": [
         "renovate",
         "main",
-        "size: XXL"
+        "size: XL"
       ]
     },
     {
@@ -1190,7 +1190,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-05-27T22:19:35Z",
+      "updated_at": "2026-05-28T08:41:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1243,7 +1243,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:48Z",
-      "updated_at": "2026-05-18T10:45:41Z",
+      "updated_at": "2026-05-28T08:41:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1294,7 +1294,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-05-28T05:48:14Z",
+      "updated_at": "2026-05-28T08:42:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1372,7 +1372,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-05-28T05:48:22Z",
+      "updated_at": "2026-05-28T08:42:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1498,7 +1498,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:31Z",
-      "updated_at": "2026-05-20T19:18:31Z",
+      "updated_at": "2026-05-28T08:37:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1524,7 +1524,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:37Z",
-      "updated_at": "2026-05-20T19:18:37Z",
+      "updated_at": "2026-05-28T08:37:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1550,11 +1550,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:50:01Z",
-      "updated_at": "2026-05-28T05:51:26Z",
+      "updated_at": "2026-05-28T08:44:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XL",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -1564,7 +1564,7 @@
         "renovate",
         "major",
         "release-v0.7",
-        "size: XL"
+        "size: M"
       ]
     },
     {
@@ -1694,33 +1694,6 @@
       ]
     },
     {
-      "title": "Update module github.com/tektoncd/pipeline to v1.9.3 [SECURITY] (main)",
-      "url": "https://github.com/conforma/cli/pull/3201",
-      "number": 3201,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-26T13:37:15Z",
-      "updated_at": "2026-05-22T21:59:31Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "major",
-        "main",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Add comprehensive architecture improvement backlog",
       "url": "https://github.com/conforma/cli/pull/3207",
       "number": 3207,
@@ -1754,11 +1727,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-10T21:52:25Z",
-      "updated_at": "2026-05-16T10:01:30Z",
+      "updated_at": "2026-05-28T08:53:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "M",
+      "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -1767,7 +1740,7 @@
       "labels": [
         "renovate",
         "main",
-        "size: M"
+        "size: XS"
       ]
     },
     {
@@ -1854,11 +1827,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-18T00:52:23Z",
-      "updated_at": "2026-05-20T01:25:20Z",
+      "updated_at": "2026-05-28T08:35:31Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "L",
+      "ci_status": "FAILURE",
+      "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -1867,7 +1840,7 @@
       "labels": [
         "renovate",
         "main",
-        "size: L"
+        "size: XS"
       ]
     },
     {
@@ -2291,7 +2264,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T18:51:52Z",
-      "updated_at": "2026-05-18T10:55:24Z",
+      "updated_at": "2026-05-28T08:35:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2393,11 +2366,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-13T17:56:27Z",
-      "updated_at": "2026-05-18T10:53:22Z",
+      "updated_at": "2026-05-28T08:34:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "S",
+      "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -2406,7 +2379,7 @@
       "labels": [
         "renovate",
         "main",
-        "size: S"
+        "size: XS"
       ]
     },
     {
@@ -2497,10 +2470,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-05-20T07:28:22Z",
-      "updated_at": "2026-05-26T11:01:51Z",
+      "updated_at": "2026-05-28T08:50:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2614,30 +2587,6 @@
       ]
     },
     {
-      "title": "  Fix blocking CVEs: update RPM lockfiles and tektoncd/pipeline to v1.9.3",
-      "url": "https://github.com/conforma/cli/pull/3323",
-      "number": 3323,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-05-26T12:15:39Z",
-      "updated_at": "2026-05-27T12:11:20Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
-      ]
-    },
-    {
       "title": "Add pin-policy-bundle acceptance tests for TA task",
       "url": "https://github.com/conforma/cli/pull/3324",
       "number": 3324,
@@ -2659,30 +2608,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: M"
-      ]
-    },
-    {
-      "title": "chore(deps): Update ubi-minimal base image",
-      "url": "https://github.com/conforma/cli/pull/3326",
-      "number": 3326,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-05-26T19:53:28Z",
-      "updated_at": "2026-05-27T15:04:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XXL"
       ]
     },
     {
