@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T01:35:30.873377174Z",
+  "generated_at": "2026-05-28T03:07:27.937765005Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1088,7 +1088,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-05-27T03:02:49Z",
+      "updated_at": "2026-05-28T02:59:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1164,7 +1164,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-05-27T22:15:54Z",
+      "updated_at": "2026-05-28T02:49:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2211,7 +2211,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-05-27T03:04:21Z",
+      "updated_at": "2026-05-28T02:58:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3309,7 +3309,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to dbee6dd (main)",
+      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to b498b3e (main)",
       "url": "https://github.com/conforma/golden-container/pull/1489",
       "number": 1489,
       "repo": "conforma/golden-container",
@@ -3318,7 +3318,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T02:44:16Z",
-      "updated_at": "2026-05-27T02:35:24Z",
+      "updated_at": "2026-05-28T02:52:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
