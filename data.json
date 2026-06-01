@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T18:01:28.178001506Z",
+  "generated_at": "2026-06-01T20:00:58.373765719Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2547,7 +2547,7 @@
       "updated_at": "2026-06-01T17:47:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 2,
@@ -4878,28 +4878,6 @@
       "labels": []
     },
     {
-      "title": "feat: migrate enterprise-contract e2e tests from konflux-ci/e2e-tests",
-      "url": "https://github.com/conforma/e2e-tests/pull/1",
-      "number": 1,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-05-13T18:11:58Z",
-      "updated_at": "2026-06-01T14:31:06Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 7,
-      "labels": []
-    },
-    {
       "title": "Update registry.access.redhat.com/ubi8/ubi-micro:latest Docker digest to 41d8053 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/627",
       "number": 627,
@@ -4961,7 +4939,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-06-01T04:16:19Z",
+      "updated_at": "2026-06-01T19:08:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
