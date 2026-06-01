@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T11:17:21.902441952Z",
+  "generated_at": "2026-06-01T13:19:44.502725897Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -655,30 +655,6 @@
       ]
     },
     {
-      "title": "feat(EC-1683): Run existing task policies against task bundle images",
-      "url": "https://github.com/conforma/policy/pull/1713",
-      "number": 1713,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-04-20T12:58:58Z",
-      "updated_at": "2026-05-14T21:26:57Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 18,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: L"
-      ]
-    },
-    {
       "title": "Update dependency golang to v1.25.10 (release-v0.8)",
       "url": "https://github.com/conforma/policy/pull/1726",
       "number": 1726,
@@ -1294,7 +1270,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-06-01T00:27:50Z",
+      "updated_at": "2026-06-01T11:38:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2532,6 +2508,30 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: M"
+      ]
+    },
+    {
+      "title": "fix(EC-1778): use go-gather WithTransport options for HTTP transports",
+      "url": "https://github.com/conforma/cli/pull/3327",
+      "number": 3327,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-06-01T13:15:25Z",
+      "updated_at": "2026-06-01T13:15:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
       ]
     },
     {
@@ -4849,28 +4849,6 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 8,
-      "labels": []
-    },
-    {
-      "title": "chore: update fullsend configuration",
-      "url": "https://github.com/conforma/.fullsend/pull/2",
-      "number": 2,
-      "repo": "conforma/.fullsend",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-06-01T08:29:32Z",
-      "updated_at": "2026-06-01T11:08:48Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
       "labels": []
     },
     {
