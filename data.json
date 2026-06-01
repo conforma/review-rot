@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T07:14:03.770751448Z",
+  "generated_at": "2026-06-01T09:17:14.137648368Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4849,6 +4849,28 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 8,
+      "labels": []
+    },
+    {
+      "title": "chore: update fullsend configuration",
+      "url": "https://github.com/conforma/.fullsend/pull/2",
+      "number": 2,
+      "repo": "conforma/.fullsend",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-06-01T08:29:32Z",
+      "updated_at": "2026-06-01T08:48:47Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
