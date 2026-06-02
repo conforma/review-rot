@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T15:23:31.371196262Z",
+  "generated_at": "2026-06-02T17:01:18.257428289Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -358,11 +358,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-06-01T13:52:02Z",
+      "updated_at": "2026-06-02T16:18:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": "XS",
+      "size": "S",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -371,7 +371,7 @@
       "labels": [
         "renovate",
         "main",
-        "size: XS"
+        "size: S"
       ]
     },
     {
@@ -384,7 +384,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-06-01T13:52:09Z",
+      "updated_at": "2026-06-02T16:18:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -436,11 +436,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:06:13Z",
-      "updated_at": "2026-05-28T21:00:07Z",
+      "updated_at": "2026-06-02T16:20:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": "XS",
+      "size": "S",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -449,7 +449,7 @@
       "labels": [
         "renovate",
         "release-v0.7",
-        "size: XS"
+        "size: S"
       ]
     },
     {
@@ -564,7 +564,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-06-01T13:56:24Z",
+      "updated_at": "2026-06-02T16:22:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -590,7 +590,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-06-01T13:51:59Z",
+      "updated_at": "2026-06-02T16:18:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -690,11 +690,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-15T00:44:30Z",
-      "updated_at": "2026-05-28T21:00:31Z",
+      "updated_at": "2026-06-02T16:20:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": "XS",
+      "size": "S",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -702,7 +702,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "renovate",
-        "size: XS",
+        "size: S",
         "release-v0.8"
       ]
     },
@@ -808,30 +808,6 @@
         "renovate",
         "size: XS",
         "release-v0.8"
-      ]
-    },
-    {
-      "title": "chore(EC-1852): trim AGENTS.md to follow agentic SDLC best practices",
-      "url": "https://github.com/conforma/policy/pull/1734",
-      "number": 1734,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-05-21T18:50:34Z",
-      "updated_at": "2026-05-29T20:27:55Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XL"
       ]
     },
     {
@@ -1498,7 +1474,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:31Z",
-      "updated_at": "2026-05-28T10:35:11Z",
+      "updated_at": "2026-06-02T16:57:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1524,7 +1500,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:37Z",
-      "updated_at": "2026-05-28T10:35:17Z",
+      "updated_at": "2026-06-02T16:57:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2487,30 +2463,6 @@
       ]
     },
     {
-      "title": "chore(EC-1851): trim AGENTS.md and add design docs per agentic SDLC best practices",
-      "url": "https://github.com/conforma/cli/pull/3322",
-      "number": 3322,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-05-21T19:09:54Z",
-      "updated_at": "2026-05-27T16:24:55Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "XL",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XL"
-      ]
-    },
-    {
       "title": "Add pin-policy-bundle acceptance tests for TA task",
       "url": "https://github.com/conforma/cli/pull/3324",
       "number": 3324,
@@ -2544,7 +2496,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-01T13:15:25Z",
-      "updated_at": "2026-06-02T14:28:03Z",
+      "updated_at": "2026-06-02T17:00:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3360,7 +3312,7 @@
       ]
     },
     {
-      "title": "🚨 Update actions/upload-artifact action to v7 (main)",
+      "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/user-guide/pull/233",
       "number": 233,
       "repo": "conforma/user-guide",
@@ -3369,7 +3321,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:47:02Z",
-      "updated_at": "2026-04-21T19:57:25Z",
+      "updated_at": "2026-06-02T15:40:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3396,7 +3348,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T00:47:54Z",
-      "updated_at": "2026-05-28T23:02:30Z",
+      "updated_at": "2026-06-02T15:40:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3775,7 +3727,7 @@
       ]
     },
     {
-      "title": "🚨 Update actions/upload-artifact action to v7 (main)",
+      "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/config/pull/229",
       "number": 229,
       "repo": "conforma/config",
@@ -3784,7 +3736,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T02:36:24Z",
-      "updated_at": "2026-05-12T12:42:18Z",
+      "updated_at": "2026-06-02T16:32:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3854,7 +3806,7 @@
       ]
     },
     {
-      "title": "🚨 Update softprops/action-gh-release action to v3 (main)",
+      "title": "🚨 Update github actions to v3 (main)",
       "url": "https://github.com/conforma/action-validate-image/pull/440",
       "number": 440,
       "repo": "conforma/action-validate-image",
@@ -3863,7 +3815,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-13T00:52:51Z",
-      "updated_at": "2026-05-12T10:55:42Z",
+      "updated_at": "2026-06-02T15:31:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4621,7 +4573,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:26:43Z",
-      "updated_at": "2026-05-22T15:55:59Z",
+      "updated_at": "2026-06-02T16:58:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4671,7 +4623,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-05-28T18:33:52Z",
+      "updated_at": "2026-06-02T16:58:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4878,7 +4830,29 @@
       "labels": []
     },
     {
-      "title": "Update registry.access.redhat.com/ubi8/ubi-micro:latest Docker digest to 41d8053 (main)",
+      "title": "Flatten directory structure and fix QUAY_TOKEN handling",
+      "url": "https://github.com/conforma/e2e-tests/pull/3",
+      "number": 3,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-06-02T16:59:46Z",
+      "updated_at": "2026-06-02T17:00:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Update docker images (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/627",
       "number": 627,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -4887,7 +4861,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:48:52Z",
-      "updated_at": "2026-05-27T10:00:32Z",
+      "updated_at": "2026-06-02T15:41:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5010,7 +4984,7 @@
       ]
     },
     {
-      "title": "Update module github.com/enterprise-contract/enterprise-contract-controller/api to v0.1.281 (main)",
+      "title": "Update go modules to v0.1.281 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/751",
       "number": 751,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -5019,7 +4993,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-11T01:41:52Z",
-      "updated_at": "2026-05-28T20:55:14Z",
+      "updated_at": "2026-06-02T15:41:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5140,7 +5114,7 @@
       ]
     },
     {
-      "title": "Update codecov/codecov-action action to v5.5.4 (main)",
+      "title": "Update github actions (main) (patch)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/756",
       "number": 756,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -5149,7 +5123,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:54:34Z",
-      "updated_at": "2026-05-28T20:55:09Z",
+      "updated_at": "2026-06-02T15:41:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
