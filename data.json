@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T12:19:12.156386806Z",
+  "generated_at": "2026-06-02T13:48:23.358423961Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1318,7 +1318,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-06-02T04:59:11Z",
+      "updated_at": "2026-06-02T13:37:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1370,10 +1370,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-05-28T18:01:25Z",
+      "updated_at": "2026-06-02T13:45:53Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -1410,30 +1410,6 @@
         "renovate",
         "release-v0.7",
         "size: XXL"
-      ]
-    },
-    {
-      "title": "refactor: use explicit octal notation (0oNNN) for file permissions",
-      "url": "https://github.com/conforma/cli/pull/3161",
-      "number": 3161,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "aicontentcreate2023-star",
-        "avatar_url": "https://avatars.githubusercontent.com/u/259026231?v=4"
-      },
-      "created_at": "2026-03-04T22:37:36Z",
-      "updated_at": "2026-03-05T15:18:37Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "XL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 8,
-      "labels": [
-        "size: XL"
       ]
     },
     {
@@ -4880,25 +4856,25 @@
       "labels": []
     },
     {
-      "title": "Add RPM build infrastructure",
-      "url": "https://github.com/conforma/golden-rpm/pull/1",
-      "number": 1,
+      "title": "Initial setup for building a basic RPM package in Konflux",
+      "url": "https://github.com/conforma/golden-rpm/pull/2",
+      "number": 2,
       "repo": "conforma/golden-rpm",
       "author": {
         "login": "Acepresso",
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
-      "created_at": "2026-04-30T19:46:29Z",
-      "updated_at": "2026-05-20T10:03:40Z",
+      "created_at": "2026-06-02T13:15:54Z",
+      "updated_at": "2026-06-02T13:36:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 10,
+        "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 5,
       "labels": []
     },
     {
