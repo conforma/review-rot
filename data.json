@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T17:01:18.257428289Z",
+  "generated_at": "2026-06-02T18:45:02.065610578Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -859,6 +859,30 @@
       ]
     },
     {
+      "title": "Update proxy rules to support Hermeto SBOM format",
+      "url": "https://github.com/conforma/policy/pull/1737",
+      "number": 1737,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "taylormadore",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6090712?v=4"
+      },
+      "created_at": "2026-06-02T18:09:55Z",
+      "updated_at": "2026-06-02T18:28:42Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XL"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1164,7 +1188,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-02T02:46:30Z",
+      "updated_at": "2026-06-02T17:01:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1216,7 +1240,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-05-30T02:45:47Z",
+      "updated_at": "2026-06-02T17:16:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1294,7 +1318,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-06-02T13:37:19Z",
+      "updated_at": "2026-06-02T17:02:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1320,7 +1344,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-05-30T02:45:51Z",
+      "updated_at": "2026-06-02T17:10:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1346,7 +1370,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-06-02T13:45:53Z",
+      "updated_at": "2026-06-02T17:02:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1372,7 +1396,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-06-02T02:43:54Z",
+      "updated_at": "2026-06-02T17:02:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2496,16 +2520,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-01T13:15:25Z",
-      "updated_at": "2026-06-02T17:00:29Z",
+      "updated_at": "2026-06-02T17:11:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "count": 2,
         "has_new_commits": true
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "size: XXL"
       ]
@@ -2661,7 +2685,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.96.0 (main)",
+      "title": "Update npm dependencies to v4.97.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -2670,7 +2694,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-06-01T21:05:37Z",
+      "updated_at": "2026-06-02T17:49:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2896,7 +2920,7 @@
       ]
     },
     {
-      "title": "🚨 Update dependency toml to v4 (main)",
+      "title": "🚨 Update npm dependencies to v4 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/538",
       "number": 538,
       "repo": "conforma/conforma.github.io",
@@ -2905,7 +2929,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-01T00:40:44Z",
-      "updated_at": "2026-04-29T13:54:40Z",
+      "updated_at": "2026-06-02T17:47:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3088,7 +3112,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-05-29T20:27:59Z",
+      "updated_at": "2026-06-02T18:44:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3594,7 +3618,7 @@
       ]
     },
     {
-      "title": "🚨 Update actions/upload-artifact action to v7 (main)",
+      "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/tekton-catalog/pull/239",
       "number": 239,
       "repo": "conforma/tekton-catalog",
@@ -3603,7 +3627,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T01:05:01Z",
-      "updated_at": "2026-05-12T09:56:47Z",
+      "updated_at": "2026-06-02T18:27:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3674,7 +3698,7 @@
       ]
     },
     {
-      "title": "🚨 Update actions/upload-artifact action to v7 (release-v0.7)",
+      "title": "🚨 Update github actions to v7 (release-v0.7)",
       "url": "https://github.com/conforma/tekton-catalog/pull/243",
       "number": 243,
       "repo": "conforma/tekton-catalog",
@@ -3683,7 +3707,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-15T00:43:28Z",
-      "updated_at": "2026-05-12T09:56:53Z",
+      "updated_at": "2026-06-02T18:27:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4328,7 +4352,7 @@
       ]
     },
     {
-      "title": "🚨 Update actions/upload-artifact action to v7 (main)",
+      "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/.github/pull/75",
       "number": 75,
       "repo": "conforma/.github",
@@ -4337,7 +4361,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T02:12:43Z",
-      "updated_at": "2026-05-14T16:26:37Z",
+      "updated_at": "2026-06-02T18:32:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4666,7 +4690,7 @@
       ]
     },
     {
-      "title": "Update dependency @actions/core to v2.0.3 (main)",
+      "title": "Update npm dependencies to v2.0.3 (main)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/14",
       "number": 14,
       "repo": "conforma/pr-size-label-action",
@@ -4675,7 +4699,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-06-02T03:42:01Z",
+      "updated_at": "2026-06-02T18:36:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4691,7 +4715,7 @@
       ]
     },
     {
-      "title": "Update dependency jest to v30.4.2 (main)",
+      "title": "Update npm dependencies to v30.4.2 (main)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/15",
       "number": 15,
       "repo": "conforma/pr-size-label-action",
@@ -4700,7 +4724,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:50Z",
-      "updated_at": "2026-06-01T21:39:26Z",
+      "updated_at": "2026-06-02T18:36:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4839,10 +4863,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-06-02T16:59:46Z",
-      "updated_at": "2026-06-02T17:00:00Z",
+      "updated_at": "2026-06-02T18:10:15Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -5123,7 +5147,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:54:34Z",
-      "updated_at": "2026-06-02T15:41:33Z",
+      "updated_at": "2026-06-02T17:45:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
