@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T21:30:57.118350486Z",
+  "generated_at": "2026-06-02T22:23:14.154897493Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "title": "Update go toolchain directive to v1.26.3 (main)",
+      "title": "Update go toolchain directive to v1.26.4 (main)",
       "url": "https://github.com/conforma/policy/pull/1663",
       "number": 1663,
       "repo": "conforma/policy",
@@ -125,7 +125,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-12T02:33:26Z",
-      "updated_at": "2026-05-28T16:25:47Z",
+      "updated_at": "2026-06-02T21:40:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -358,10 +358,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-06-02T21:30:02Z",
+      "updated_at": "2026-06-02T21:33:15Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -384,7 +384,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-06-02T19:43:26Z",
+      "updated_at": "2026-06-02T21:34:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -555,7 +555,7 @@
       ]
     },
     {
-      "title": "Update go toolchain directive to v1.25.10 (main)",
+      "title": "Update go toolchain directive to v1.25.11 (main)",
       "url": "https://github.com/conforma/policy/pull/1694",
       "number": 1694,
       "repo": "conforma/policy",
@@ -564,7 +564,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-06-02T16:22:53Z",
+      "updated_at": "2026-06-02T21:39:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -590,10 +590,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-06-02T21:29:55Z",
+      "updated_at": "2026-06-02T21:33:19Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -664,7 +664,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-15T00:44:21Z",
-      "updated_at": "2026-06-02T19:45:02Z",
+      "updated_at": "2026-06-02T21:36:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -733,7 +733,7 @@
       ]
     },
     {
-      "title": "Update go toolchain directive to v1.25.10 (release-v0.8)",
+      "title": "Update go toolchain directive to v1.25.11 (release-v0.8)",
       "url": "https://github.com/conforma/policy/pull/1730",
       "number": 1730,
       "repo": "conforma/policy",
@@ -742,7 +742,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-16T00:51:35Z",
-      "updated_at": "2026-05-28T21:00:46Z",
+      "updated_at": "2026-06-02T21:37:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2766,7 +2766,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.3 (main)",
+      "title": "Update dependency golang to v1.26.4 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/531",
       "number": 531,
       "repo": "conforma/conforma.github.io",
@@ -2775,7 +2775,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-05-07T21:30:14Z",
+      "updated_at": "2026-06-02T21:40:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2792,7 +2792,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.25.10 (main)",
+      "title": "Update dependency golang to v1.25.11 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/532",
       "number": 532,
       "repo": "conforma/conforma.github.io",
@@ -2801,7 +2801,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:10:39Z",
-      "updated_at": "2026-05-08T06:10:35Z",
+      "updated_at": "2026-06-02T21:39:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4095,7 +4095,7 @@
       ]
     },
     {
-      "title": "fix(deps): update go version to v1.25.10 (main)",
+      "title": "fix(deps): update go version to v1.25.11 (main)",
       "url": "https://github.com/conforma/go-gather/pull/314",
       "number": 314,
       "repo": "conforma/go-gather",
@@ -4104,7 +4104,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-08T00:47:32Z",
-      "updated_at": "2026-05-28T21:45:31Z",
+      "updated_at": "2026-06-02T22:08:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4121,7 +4121,7 @@
       ]
     },
     {
-      "title": "fix(deps): update go version to v1.26.3 (main)",
+      "title": "fix(deps): update go version to v1.26.4 (main)",
       "url": "https://github.com/conforma/go-gather/pull/315",
       "number": 315,
       "repo": "conforma/go-gather",
@@ -4130,7 +4130,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-09T01:31:46Z",
-      "updated_at": "2026-05-28T15:38:01Z",
+      "updated_at": "2026-06-02T22:08:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4156,7 +4156,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-02T01:54:55Z",
-      "updated_at": "2026-06-02T19:08:07Z",
+      "updated_at": "2026-06-02T22:05:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
