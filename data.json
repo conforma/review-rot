@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T20:02:15.301256219Z",
+  "generated_at": "2026-06-02T21:30:57.118350486Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -358,10 +358,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-06-02T19:40:26Z",
+      "updated_at": "2026-06-02T21:30:02Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -590,10 +590,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-06-02T19:44:14Z",
+      "updated_at": "2026-06-02T21:29:55Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -851,30 +851,6 @@
       "size": "XL",
       "reviews": {
         "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XL"
-      ]
-    },
-    {
-      "title": "Update proxy rules to support Hermeto SBOM format",
-      "url": "https://github.com/conforma/policy/pull/1737",
-      "number": 1737,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "taylormadore",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6090712?v=4"
-      },
-      "created_at": "2026-06-02T18:09:55Z",
-      "updated_at": "2026-06-02T18:47:48Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1188,7 +1164,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-02T17:01:40Z",
+      "updated_at": "2026-06-02T21:13:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1214,7 +1190,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-05-30T02:45:45Z",
+      "updated_at": "2026-06-02T21:17:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1240,7 +1216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-06-02T17:16:33Z",
+      "updated_at": "2026-06-02T21:17:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1318,7 +1294,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-06-02T17:02:11Z",
+      "updated_at": "2026-06-02T21:17:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1344,7 +1320,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-06-02T17:10:15Z",
+      "updated_at": "2026-06-02T21:17:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1370,7 +1346,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-06-02T17:02:18Z",
+      "updated_at": "2026-06-02T21:17:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1396,7 +1372,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-06-02T17:02:26Z",
+      "updated_at": "2026-06-02T21:18:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1489,7 +1465,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.25.10 (main)",
+      "title": "Update dependency golang to v1.25.11 (main)",
       "url": "https://github.com/conforma/cli/pull/3165",
       "number": 3165,
       "repo": "conforma/cli",
@@ -1498,7 +1474,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:31Z",
-      "updated_at": "2026-06-02T16:57:35Z",
+      "updated_at": "2026-06-02T21:13:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2520,10 +2496,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-01T13:15:25Z",
-      "updated_at": "2026-06-02T20:00:55Z",
+      "updated_at": "2026-06-02T20:14:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 4,
@@ -3112,7 +3088,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-06-02T18:44:06Z",
+      "updated_at": "2026-06-02T20:56:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4545,7 +4521,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:01:04Z",
-      "updated_at": "2026-06-02T19:48:42Z",
+      "updated_at": "2026-06-02T21:05:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4571,7 +4547,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:30:55Z",
-      "updated_at": "2026-06-02T19:48:58Z",
+      "updated_at": "2026-06-02T21:05:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5086,7 +5062,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.3 (main)",
+      "title": "Update dependency golang to v1.26.4 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/754",
       "number": 754,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -5095,7 +5071,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:47:19Z",
-      "updated_at": "2026-05-07T22:09:08Z",
+      "updated_at": "2026-06-02T20:52:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
