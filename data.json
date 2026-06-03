@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T09:06:48.936389991Z",
+  "generated_at": "2026-06-03T11:14:56.041795171Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -358,7 +358,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-06-02T21:33:15Z",
+      "updated_at": "2026-06-03T11:00:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -384,7 +384,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-06-02T21:34:40Z",
+      "updated_at": "2026-06-03T11:07:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -397,7 +397,8 @@
       "labels": [
         "renovate",
         "main",
-        "size: XXL"
+        "size: XXL",
+        "ready-for-merge"
       ]
     },
     {
@@ -564,7 +565,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-06-03T01:11:40Z",
+      "updated_at": "2026-06-03T11:06:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -577,7 +578,8 @@
       "labels": [
         "renovate",
         "main",
-        "size: S"
+        "size: S",
+        "ready-for-merge"
       ]
     },
     {
@@ -590,7 +592,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-06-02T21:33:19Z",
+      "updated_at": "2026-06-03T10:59:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -808,30 +810,6 @@
         "renovate",
         "size: XS",
         "release-v0.8"
-      ]
-    },
-    {
-      "title": "chore: update fullsend shim workflow",
-      "url": "https://github.com/conforma/policy/pull/1735",
-      "number": 1735,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "fullsend-ai-fullsend",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478487?v=4"
-      },
-      "created_at": "2026-06-01T15:57:50Z",
-      "updated_at": "2026-06-01T16:01:40Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
       ]
     },
     {
@@ -1164,7 +1142,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-02T21:13:23Z",
+      "updated_at": "2026-06-03T10:54:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1190,7 +1168,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-06-03T02:17:36Z",
+      "updated_at": "2026-06-03T10:16:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1372,7 +1350,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-06-02T21:18:59Z",
+      "updated_at": "2026-06-03T10:17:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1474,7 +1452,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:31Z",
-      "updated_at": "2026-06-03T02:14:27Z",
+      "updated_at": "2026-06-03T10:50:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1500,7 +1478,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:37Z",
-      "updated_at": "2026-06-03T02:18:55Z",
+      "updated_at": "2026-06-03T10:50:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2005,14 +1983,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-05-06T23:07:00Z",
-      "updated_at": "2026-06-01T15:10:42Z",
+      "updated_at": "2026-06-03T09:29:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 17,
-        "has_new_commits": true
+        "count": 18,
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
@@ -2529,30 +2507,6 @@
       "size": "M",
       "reviews": {
         "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
-      ]
-    },
-    {
-      "title": "chore: update fullsend shim workflow",
-      "url": "https://github.com/conforma/cli/pull/3328",
-      "number": 3328,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "fullsend-ai-fullsend",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478487?v=4"
-      },
-      "created_at": "2026-06-01T15:57:43Z",
-      "updated_at": "2026-06-01T16:08:21Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "M",
-      "reviews": {
-        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3997,7 +3951,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-11T01:35:02Z",
-      "updated_at": "2026-06-02T19:35:48Z",
+      "updated_at": "2026-06-03T11:07:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
