@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T11:14:56.041795171Z",
+  "generated_at": "2026-06-03T12:57:43.428976881Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2512,6 +2512,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: M"
+      ]
+    },
+    {
+      "title": "style(#3160): use explicit 0o octal notation for file permissions",
+      "url": "https://github.com/conforma/cli/pull/3329",
+      "number": 3329,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-06-03T11:27:54Z",
+      "updated_at": "2026-06-03T11:41:46Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XL",
+        "ready-for-merge"
       ]
     },
     {
