@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T14:35:48.1510929Z",
+  "generated_at": "2026-06-03T16:33:30.653748477Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1142,34 +1142,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-03T14:12:59Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XXL",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XXL",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Update go modules (main) (minor)",
-      "url": "https://github.com/conforma/cli/pull/3131",
-      "number": 3131,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-06-03T14:17:57Z",
+      "updated_at": "2026-06-03T15:09:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1187,6 +1160,33 @@
       ]
     },
     {
+      "title": "Update go modules (main) (minor)",
+      "url": "https://github.com/conforma/cli/pull/3131",
+      "number": 3131,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-02-27T01:18:14Z",
+      "updated_at": "2026-06-03T15:11:56Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 4,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XXL",
+        "ready-for-merge"
+      ]
+    },
+    {
       "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/cli/pull/3132",
       "number": 3132,
@@ -1196,7 +1196,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-06-03T14:09:20Z",
+      "updated_at": "2026-06-03T15:04:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1274,7 +1274,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-06-03T14:19:56Z",
+      "updated_at": "2026-06-03T15:12:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1301,7 +1301,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-06-03T14:09:25Z",
+      "updated_at": "2026-06-03T15:04:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1327,7 +1327,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-06-03T14:12:22Z",
+      "updated_at": "2026-06-03T15:06:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1353,7 +1353,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-06-03T14:13:23Z",
+      "updated_at": "2026-06-03T15:07:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1455,7 +1455,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:31Z",
-      "updated_at": "2026-06-03T13:58:10Z",
+      "updated_at": "2026-06-03T15:03:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1468,7 +1468,8 @@
       "labels": [
         "renovate",
         "main",
-        "size: XS"
+        "size: XS",
+        "ready-for-merge"
       ]
     },
     {
@@ -1481,7 +1482,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:37Z",
-      "updated_at": "2026-06-03T13:58:12Z",
+      "updated_at": "2026-06-03T15:03:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1494,7 +1495,8 @@
       "labels": [
         "renovate",
         "main",
-        "size: XS"
+        "size: XS",
+        "ready-for-merge"
       ]
     },
     {
@@ -1974,30 +1976,6 @@
         "renovate",
         "main",
         "size: XS"
-      ]
-    },
-    {
-      "title": "feat: add direct OPA evaluator with shared base infrastructure",
-      "url": "https://github.com/conforma/cli/pull/3276",
-      "number": 3276,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-05-06T23:07:00Z",
-      "updated_at": "2026-06-03T13:15:34Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 18,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XXL"
       ]
     },
     {
@@ -3970,7 +3948,7 @@
       ]
     },
     {
-      "title": "Update github actions (main) (minor)",
+      "title": "Update github actions (main)",
       "url": "https://github.com/conforma/action-validate-image/pull/439",
       "number": 439,
       "repo": "conforma/action-validate-image",
@@ -3979,7 +3957,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-11T01:35:02Z",
-      "updated_at": "2026-06-03T11:07:27Z",
+      "updated_at": "2026-06-03T15:54:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
