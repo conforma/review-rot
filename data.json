@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T15:23:35.601508067Z",
+  "generated_at": "2026-06-04T15:39:55.704760677Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3062,7 +3062,7 @@
       "updated_at": "2026-06-04T15:15:16Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4404,7 +4404,7 @@
       ]
     },
     {
-      "title": "fix(deps): update github actions to v4.36.1 (main)",
+      "title": "fix(deps): update github actions to v4.36.2 (main)",
       "url": "https://github.com/conforma/go-gather/pull/331",
       "number": 331,
       "repo": "conforma/go-gather",
@@ -4413,7 +4413,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-23T02:14:14Z",
-      "updated_at": "2026-06-02T19:06:26Z",
+      "updated_at": "2026-06-04T15:31:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
