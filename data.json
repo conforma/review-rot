@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T15:39:55.704760677Z",
+  "generated_at": "2026-06-04T17:02:07.072504969Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1381,19 +1381,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-03-04T22:39:36Z",
-      "updated_at": "2026-06-03T22:14:18Z",
-      "is_draft": true,
+      "updated_at": "2026-06-04T17:00:07Z",
+      "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "L",
+      "ci_status": "PENDING",
+      "size": "XL",
       "reviews": {
         "count": 7,
         "has_new_commits": true
       },
       "unresolved_conversations": 3,
       "labels": [
-        "size: L",
-        "requires-manual-review"
+        "size: XL",
+        "ready-for-merge"
       ]
     },
     {
@@ -2507,6 +2507,31 @@
       ]
     },
     {
+      "title": "chore(EC-1833): update task descriptions to use Conforma naming",
+      "url": "https://github.com/conforma/cli/pull/3332",
+      "number": 3332,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-06-04T16:35:47Z",
+      "updated_at": "2026-06-04T16:46:36Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "ready-for-merge"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -2590,7 +2615,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:49Z",
-      "updated_at": "2026-06-02T11:02:10Z",
+      "updated_at": "2026-06-04T16:33:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2633,7 +2658,7 @@
       ]
     },
     {
-      "title": "Update npm dependencies to v4.97.0 (main)",
+      "title": "Update npm dependencies to v4.98.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -2642,7 +2667,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-06-02T17:49:14Z",
+      "updated_at": "2026-06-04T16:33:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3164,7 +3189,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:55:02Z",
-      "updated_at": "2026-06-02T11:38:15Z",
+      "updated_at": "2026-06-04T16:45:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3838,7 +3863,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T03:44:47Z",
-      "updated_at": "2026-06-02T10:53:12Z",
+      "updated_at": "2026-06-04T16:47:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4465,7 +4490,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T02:52:39Z",
-      "updated_at": "2026-06-02T10:35:11Z",
+      "updated_at": "2026-06-04T15:59:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
