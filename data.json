@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T03:08:19.822107538Z",
+  "generated_at": "2026-06-04T05:07:31.115728725Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3987,7 +3987,7 @@
       ]
     },
     {
-      "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
+      "title": "Update github actions to v1.2.0 (main)",
       "url": "https://github.com/conforma/community/pull/76",
       "number": 76,
       "repo": "conforma/community",
@@ -3996,7 +3996,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-19T03:34:06Z",
-      "updated_at": "2026-04-30T01:05:27Z",
+      "updated_at": "2026-06-04T03:51:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4430,7 +4430,7 @@
       ]
     },
     {
-      "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
+      "title": "Update github actions to v1.2.0 (main)",
       "url": "https://github.com/conforma/demos/pull/7",
       "number": 7,
       "repo": "conforma/demos",
@@ -4439,7 +4439,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-19T03:41:08Z",
-      "updated_at": "2026-04-30T01:41:21Z",
+      "updated_at": "2026-06-04T04:03:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
