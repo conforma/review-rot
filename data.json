@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T21:05:27.447923044Z",
+  "generated_at": "2026-06-04T22:00:59.456852792Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -385,7 +385,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-06-04T19:18:25Z",
+      "updated_at": "2026-06-04T21:11:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4646,11 +4646,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:35:59Z",
-      "updated_at": "2026-06-04T19:00:34Z",
+      "updated_at": "2026-06-04T21:57:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "L",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -4659,7 +4659,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: L"
+        "size: XL"
       ]
     },
     {
@@ -4699,7 +4699,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-06-04T19:01:21Z",
+      "updated_at": "2026-06-04T21:58:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5437,6 +5437,30 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "feat(EC-1868): use conforma/tekton-catalog for verify-conforma task",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2271",
+      "number": 2271,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-06-04T21:10:22Z",
+      "updated_at": "2026-06-04T22:00:51Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 8,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "Review effort 3/5"
+      ]
     }
   ]
 }
