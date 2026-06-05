@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T04:59:12.683650875Z",
+  "generated_at": "2026-06-05T06:35:01.0838965Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1192,7 +1192,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-05T04:54:56Z",
+      "updated_at": "2026-06-05T05:01:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1206,7 +1206,7 @@
         "renovate",
         "main",
         "size: XXL",
-        "requires-manual-review"
+        "ready-for-merge"
       ]
     },
     {
@@ -1324,7 +1324,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-06-05T03:21:19Z",
+      "updated_at": "2026-06-05T05:08:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1377,7 +1377,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-06-05T03:14:50Z",
+      "updated_at": "2026-06-05T04:59:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1403,7 +1403,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-06-05T03:15:36Z",
+      "updated_at": "2026-06-05T05:00:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1893,7 +1893,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-18T01:12:19Z",
-      "updated_at": "2026-06-05T03:15:38Z",
+      "updated_at": "2026-06-05T05:00:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
