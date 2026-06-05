@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T09:46:44.77639631Z",
+  "generated_at": "2026-06-05T11:06:17.04749839Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1192,7 +1192,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-05T05:01:54Z",
+      "updated_at": "2026-06-05T10:46:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1324,7 +1324,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-06-05T05:08:01Z",
+      "updated_at": "2026-06-05T10:46:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3461,6 +3461,85 @@
       ]
     },
     {
+      "title": "🚨 Update github actions to v7 (main)",
+      "url": "https://github.com/conforma/user-guide/pull/233",
+      "number": 233,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-02-27T02:47:02Z",
+      "updated_at": "2026-06-02T15:40:59Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "major"
+      ]
+    },
+    {
+      "title": "Update github actions (main) (patch)",
+      "url": "https://github.com/conforma/user-guide/pull/234",
+      "number": 234,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-03-03T00:47:54Z",
+      "updated_at": "2026-06-02T19:45:59Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github actions (main) (minor)",
+      "url": "https://github.com/conforma/user-guide/pull/235",
+      "number": 235,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-03-17T01:33:03Z",
+      "updated_at": "2026-06-04T19:12:31Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Scripts to create and test fetching attestations",
       "url": "https://github.com/conforma/hacks/pull/162",
       "number": 162,
@@ -3978,6 +4057,32 @@
         "major",
         "renovate",
         "size: XS"
+      ]
+    },
+    {
+      "title": "Update github actions to v1.2.0 (main)",
+      "url": "https://github.com/conforma/community/pull/76",
+      "number": 76,
+      "repo": "conforma/community",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-04-19T03:34:06Z",
+      "updated_at": "2026-06-04T03:51:32Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
       ]
     },
     {
