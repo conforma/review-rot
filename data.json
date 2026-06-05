@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T18:08:27.111695596Z",
+  "generated_at": "2026-06-05T19:08:10.253270034Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -73,7 +73,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-06-04T19:19:04Z",
+      "updated_at": "2026-06-05T18:57:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -87,7 +87,7 @@
         "renovate",
         "release-v0.7",
         "size: XS",
-        "ready-for-merge"
+        "requires-manual-review"
       ]
     },
     {
@@ -385,7 +385,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-06-04T21:11:31Z",
+      "updated_at": "2026-06-05T18:55:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -398,7 +398,8 @@
       "labels": [
         "renovate",
         "main",
-        "size: XXL"
+        "size: XXL",
+        "ready-for-merge"
       ]
     },
     {
