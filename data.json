@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05T13:31:59.879341708Z",
+  "generated_at": "2026-06-05T15:01:07.901209504Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -846,19 +846,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-04T17:52:25Z",
-      "updated_at": "2026-06-04T18:06:11Z",
+      "updated_at": "2026-06-05T14:13:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 0,
-        "has_new_commits": false
+        "count": 1,
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
         "size: XL",
-        "requires-manual-review"
+        "ready-for-merge"
       ]
     },
     {
@@ -871,13 +871,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-06-04T23:06:08Z",
-      "updated_at": "2026-06-04T23:13:34Z",
+      "updated_at": "2026-06-05T14:07:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
@@ -1192,7 +1192,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-05T10:46:00Z",
+      "updated_at": "2026-06-05T14:15:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1324,7 +1324,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-06-05T10:46:30Z",
+      "updated_at": "2026-06-05T14:07:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1509,7 +1509,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:31Z",
-      "updated_at": "2026-06-05T04:50:43Z",
+      "updated_at": "2026-06-05T14:08:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1536,7 +1536,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:37Z",
-      "updated_at": "2026-06-05T04:50:45Z",
+      "updated_at": "2026-06-05T14:08:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2555,31 +2555,6 @@
       ]
     },
     {
-      "title": "chore(EC-1833): update task descriptions to use Conforma naming",
-      "url": "https://github.com/conforma/cli/pull/3332",
-      "number": 3332,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-06-04T16:35:47Z",
-      "updated_at": "2026-06-04T20:21:48Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -2715,7 +2690,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-06-04T16:33:59Z",
+      "updated_at": "2026-06-05T14:08:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4016,7 +3991,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-11T01:35:02Z",
-      "updated_at": "2026-06-04T18:01:42Z",
+      "updated_at": "2026-06-05T14:58:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
