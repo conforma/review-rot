@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T00:37:09.113605562Z",
+  "generated_at": "2026-06-09T01:37:29.568372162Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -360,7 +360,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-06-03T11:00:02Z",
+      "updated_at": "2026-06-09T00:43:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -439,7 +439,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:06:13Z",
-      "updated_at": "2026-06-02T19:44:03Z",
+      "updated_at": "2026-06-09T00:44:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -694,7 +694,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-15T00:44:30Z",
-      "updated_at": "2026-06-02T19:45:05Z",
+      "updated_at": "2026-06-09T00:45:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -873,14 +873,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-06-04T23:06:08Z",
-      "updated_at": "2026-06-08T23:00:34Z",
+      "updated_at": "2026-06-09T01:05:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
         "count": 3,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -3031,7 +3031,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T22:08:34Z",
-      "updated_at": "2026-05-28T19:36:18Z",
+      "updated_at": "2026-06-09T01:12:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
