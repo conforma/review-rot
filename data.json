@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T17:40:46.500090107Z",
+  "generated_at": "2026-06-09T18:43:26.5667719Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -73,7 +73,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-06-05T18:57:00Z",
+      "updated_at": "2026-06-09T18:23:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -87,7 +87,7 @@
         "renovate",
         "release-v0.7",
         "size: XS",
-        "requires-manual-review"
+        "ready-for-merge"
       ]
     },
     {
@@ -386,7 +386,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-06-05T23:09:17Z",
+      "updated_at": "2026-06-09T18:27:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -400,7 +400,7 @@
         "renovate",
         "main",
         "size: XXL",
-        "ready-for-merge"
+        "requires-manual-review"
       ]
     },
     {
@@ -923,16 +923,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/22090997?u=dc6378c4147cdf49169a3d5f42241237305eb6e3\u0026v=4"
       },
       "created_at": "2026-06-09T16:11:06Z",
-      "updated_at": "2026-06-09T17:35:03Z",
+      "updated_at": "2026-06-09T18:10:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 1,
+        "count": 3,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": [
         "size: L",
         "ready-for-merge"
@@ -5050,7 +5050,7 @@
       ]
     },
     {
-      "title": "Update npm dependencies to v30.4.2 (main)",
+      "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/15",
       "number": 15,
       "repo": "conforma/pr-size-label-action",
@@ -5059,7 +5059,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:50Z",
-      "updated_at": "2026-06-02T18:36:14Z",
+      "updated_at": "2026-06-09T18:07:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
