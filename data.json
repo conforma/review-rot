@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T15:32:50.716139186Z",
+  "generated_at": "2026-06-09T16:54:03.311070265Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -908,6 +908,31 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 5,
+      "labels": [
+        "size: L",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "accept wildcard in NetworkPolicy RBAC apiGroups and resources ",
+      "url": "https://github.com/conforma/policy/pull/1742",
+      "number": 1742,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "yashvardhannanavati",
+        "avatar_url": "https://avatars.githubusercontent.com/u/22090997?u=dc6378c4147cdf49169a3d5f42241237305eb6e3\u0026v=4"
+      },
+      "created_at": "2026-06-09T16:11:06Z",
+      "updated_at": "2026-06-09T16:22:13Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
       "labels": [
         "size: L",
         "ready-for-merge"
@@ -2710,7 +2735,7 @@
       ]
     },
     {
-      "title": "Update npm dependencies to v4.98.0 (main)",
+      "title": "Update npm dependencies to v4.99.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -2719,7 +2744,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-06-05T14:08:45Z",
+      "updated_at": "2026-06-09T16:40:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3007,7 +3032,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T22:08:34Z",
-      "updated_at": "2026-06-09T01:12:08Z",
+      "updated_at": "2026-06-09T16:38:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5154,16 +5179,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-05-13T22:26:41Z",
-      "updated_at": "2026-06-08T18:15:34Z",
+      "updated_at": "2026-06-09T16:14:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 5,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
