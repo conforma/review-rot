@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T20:40:40.586352948Z",
+  "generated_at": "2026-06-09T21:34:09.322955755Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -360,7 +360,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-06-09T04:35:16Z",
+      "updated_at": "2026-06-09T21:33:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -386,7 +386,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-06-09T18:27:57Z",
+      "updated_at": "2026-06-09T21:29:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -567,10 +567,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-06-03T11:06:48Z",
+      "updated_at": "2026-06-09T21:33:22Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -594,7 +594,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-06-03T10:59:51Z",
+      "updated_at": "2026-06-09T21:31:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -607,7 +607,8 @@
       "labels": [
         "renovate",
         "main",
-        "size: XS"
+        "size: XS",
+        "ready-for-merge"
       ]
     },
     {
@@ -908,31 +909,6 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 5,
-      "labels": [
-        "size: L",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "accept wildcard in NetworkPolicy RBAC apiGroups and resources ",
-      "url": "https://github.com/conforma/policy/pull/1742",
-      "number": 1742,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "yashvardhannanavati",
-        "avatar_url": "https://avatars.githubusercontent.com/u/22090997?u=dc6378c4147cdf49169a3d5f42241237305eb6e3\u0026v=4"
-      },
-      "created_at": "2026-06-09T16:11:06Z",
-      "updated_at": "2026-06-09T19:58:56Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
       "labels": [
         "size: L",
         "ready-for-merge"
@@ -5575,18 +5551,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-06-04T21:10:22Z",
-      "updated_at": "2026-06-09T19:20:49Z",
+      "updated_at": "2026-06-09T21:14:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 15,
-        "has_new_commits": false
+        "count": 18,
+        "has_new_commits": true
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 3,
       "labels": [
-        "Review effort 3/5"
+        "Review effort 3/5",
+        "ai-assisted"
       ]
     }
   ]
