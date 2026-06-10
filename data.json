@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T14:32:34.073989355Z",
+  "generated_at": "2026-06-10T16:16:49.01457939Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -360,7 +360,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-06-09T21:33:34Z",
+      "updated_at": "2026-06-10T14:57:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -386,7 +386,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-06-09T21:36:02Z",
+      "updated_at": "2026-06-10T15:02:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -567,7 +567,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-06-09T21:35:12Z",
+      "updated_at": "2026-06-10T15:02:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -594,7 +594,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-06-09T21:31:35Z",
+      "updated_at": "2026-06-10T14:57:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -865,31 +865,6 @@
       ]
     },
     {
-      "title": "fix: use RFC 3339 format for trusted_task_rules effective_on field",
-      "url": "https://github.com/conforma/policy/pull/1740",
-      "number": 1740,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-06-04T23:06:08Z",
-      "updated_at": "2026-06-09T15:26:01Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 3,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: L",
-        "requires-manual-review"
-      ]
-    },
-    {
       "title": "feat(EC-1797): support version constraints for git resolver task references",
       "url": "https://github.com/conforma/policy/pull/1741",
       "number": 1741,
@@ -899,19 +874,43 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-08T13:07:14Z",
-      "updated_at": "2026-06-08T18:25:38Z",
+      "updated_at": "2026-06-10T16:12:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 5,
-        "has_new_commits": true
+        "count": 6,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 6,
       "labels": [
         "size: L",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "fix: use glob.match for pattern matching in trusted_task_rules",
+      "url": "https://github.com/conforma/policy/pull/1743",
+      "number": 1743,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-06-10T15:16:28Z",
+      "updated_at": "2026-06-10T16:15:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: L"
       ]
     },
     {
@@ -1221,7 +1220,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-09T21:55:12Z",
+      "updated_at": "2026-06-10T15:11:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1450,31 +1449,6 @@
       ]
     },
     {
-      "title": "Improve signature and attestation detail output for v3 style sigstore bundles",
-      "url": "https://github.com/conforma/cli/pull/3162",
-      "number": 3162,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-03-04T22:39:36Z",
-      "updated_at": "2026-06-10T14:08:18Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 10,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: XL",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Update dependency golang to v1.25.11 (main)",
       "url": "https://github.com/conforma/cli/pull/3163",
       "number": 3163,
@@ -1538,7 +1512,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:31Z",
-      "updated_at": "2026-06-09T13:43:17Z",
+      "updated_at": "2026-06-10T14:59:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1565,7 +1539,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:37Z",
-      "updated_at": "2026-06-09T13:42:55Z",
+      "updated_at": "2026-06-10T15:05:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5240,13 +5214,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-06-10T12:37:45Z",
-      "updated_at": "2026-06-10T13:20:52Z",
+      "updated_at": "2026-06-10T14:45:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
