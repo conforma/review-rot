@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T13:08:13.976271018Z",
+  "generated_at": "2026-06-10T14:32:34.073989355Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1459,14 +1459,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-03-04T22:39:36Z",
-      "updated_at": "2026-06-04T18:16:57Z",
+      "updated_at": "2026-06-10T14:08:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 9,
-        "has_new_commits": true
+        "count": 10,
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": [
@@ -5108,13 +5108,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-06-10T12:35:07Z",
-      "updated_at": "2026-06-10T12:39:24Z",
+      "updated_at": "2026-06-10T13:13:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -5174,13 +5174,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-06-10T12:40:26Z",
-      "updated_at": "2026-06-10T12:46:36Z",
+      "updated_at": "2026-06-10T13:13:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
@@ -5240,13 +5240,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-06-10T12:37:45Z",
-      "updated_at": "2026-06-10T12:41:43Z",
+      "updated_at": "2026-06-10T13:20:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -5284,13 +5284,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-06-10T12:42:39Z",
-      "updated_at": "2026-06-10T12:46:18Z",
+      "updated_at": "2026-06-10T13:13:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
