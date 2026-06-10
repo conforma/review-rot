@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T11:44:34.109674439Z",
+  "generated_at": "2026-06-10T12:52:42.293764505Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -229,8 +229,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
       },
       "created_at": "2026-02-27T21:32:00Z",
-      "updated_at": "2026-05-09T12:18:40Z",
-      "is_draft": false,
+      "updated_at": "2026-06-10T12:42:29Z",
+      "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
@@ -1328,8 +1328,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
       },
       "created_at": "2026-02-27T21:31:46Z",
-      "updated_at": "2026-05-15T13:42:45Z",
-      "is_draft": false,
+      "updated_at": "2026-06-10T12:42:36Z",
+      "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "L",
@@ -1592,7 +1592,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:50:01Z",
-      "updated_at": "2026-06-09T19:26:30Z",
+      "updated_at": "2026-06-10T11:50:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3348,8 +3348,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-03-26T15:51:24Z",
-      "updated_at": "2026-04-13T14:38:09Z",
-      "is_draft": false,
+      "updated_at": "2026-06-10T12:42:57Z",
+      "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "S",
@@ -5099,6 +5099,28 @@
       "labels": []
     },
     {
+      "title": "Add PR size labeling workflow",
+      "url": "https://github.com/conforma/claude-skills/pull/10",
+      "number": 10,
+      "repo": "conforma/claude-skills",
+      "author": {
+        "login": "dheerajodha",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
+      },
+      "created_at": "2026-06-10T12:35:07Z",
+      "updated_at": "2026-06-10T12:39:24Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
       "title": "Configure Renovate",
       "url": "https://github.com/conforma/step-actions/pull/2",
       "number": 2,
@@ -5140,6 +5162,28 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Add PR size labeling workflow",
+      "url": "https://github.com/conforma/step-actions/pull/4",
+      "number": 4,
+      "repo": "conforma/step-actions",
+      "author": {
+        "login": "dheerajodha",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
+      },
+      "created_at": "2026-06-10T12:40:26Z",
+      "updated_at": "2026-06-10T12:46:36Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
       "labels": []
     },
     {
@@ -5187,6 +5231,28 @@
       "labels": []
     },
     {
+      "title": "Add PR size labeling workflow",
+      "url": "https://github.com/conforma/golden-rpm/pull/4",
+      "number": 4,
+      "repo": "conforma/golden-rpm",
+      "author": {
+        "login": "dheerajodha",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
+      },
+      "created_at": "2026-06-10T12:37:45Z",
+      "updated_at": "2026-06-10T12:41:43Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
       "title": "Replace default ECP with Red Hat Konflux policy",
       "url": "https://github.com/conforma/e2e-tests/pull/4",
       "number": 4,
@@ -5206,6 +5272,28 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Add PR size labeling workflow",
+      "url": "https://github.com/conforma/e2e-tests/pull/5",
+      "number": 5,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "dheerajodha",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
+      },
+      "created_at": "2026-06-10T12:42:39Z",
+      "updated_at": "2026-06-10T12:46:18Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
