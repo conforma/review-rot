@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T15:10:55.462800263Z",
+  "generated_at": "2026-06-11T16:25:54.805417322Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3209,30 +3209,6 @@
       ]
     },
     {
-      "title": "Include tracking for releng policy repo",
-      "url": "https://github.com/conforma/review-rot/pull/244",
-      "number": 244,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-06-11T14:33:13Z",
-      "updated_at": "2026-06-11T15:07:22Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update github actions (main) (minor)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/198",
       "number": 198,
@@ -3423,7 +3399,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:38:27Z",
-      "updated_at": "2026-06-03T00:38:36Z",
+      "updated_at": "2026-06-11T15:46:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5553,7 +5529,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-06-04T21:10:22Z",
-      "updated_at": "2026-06-11T14:28:41Z",
+      "updated_at": "2026-06-11T15:19:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5568,6 +5544,116 @@
         "ai-assisted",
         "prod/needs-approval"
       ]
+    },
+    {
+      "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
+      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/195",
+      "number": 195,
+      "repo": "release-engineering/rhtap-ec-policy",
+      "author": {
+        "login": "Acepresso",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
+      },
+      "created_at": "2025-12-10T12:31:38Z",
+      "updated_at": "2026-06-04T20:03:35Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 4,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": []
+    },
+    {
+      "title": "Add rust builder to allowed base image list",
+      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/203",
+      "number": 203,
+      "repo": "release-engineering/rhtap-ec-policy",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-02-17T16:49:00Z",
+      "updated_at": "2026-02-19T16:39:18Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
+      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/209",
+      "number": 209,
+      "repo": "release-engineering/rhtap-ec-policy",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-03-26T09:32:44Z",
+      "updated_at": "2026-06-04T20:02:59Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Seed new trusted task data",
+      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/218",
+      "number": 218,
+      "repo": "release-engineering/rhtap-ec-policy",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-05-08T22:02:42Z",
+      "updated_at": "2026-06-11T16:11:24Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 8,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 3,
+      "labels": []
+    },
+    {
+      "title": "Add workflow to push OPA data bundle to Quay ",
+      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/223",
+      "number": 223,
+      "repo": "release-engineering/rhtap-ec-policy",
+      "author": {
+        "login": "BohdanMar",
+        "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
+      },
+      "created_at": "2026-05-25T11:34:33Z",
+      "updated_at": "2026-06-11T12:20:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 8,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 1,
+      "labels": []
     }
   ]
 }
