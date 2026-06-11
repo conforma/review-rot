@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T13:48:37.923339521Z",
+  "generated_at": "2026-06-11T15:10:55.462800263Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -849,16 +849,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-04T17:52:25Z",
-      "updated_at": "2026-06-05T14:13:57Z",
+      "updated_at": "2026-06-11T15:09:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 1,
-        "has_new_commits": true
+        "count": 2,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 7,
       "labels": [
         "size: XL",
         "ready-for-merge"
@@ -3209,6 +3209,30 @@
       ]
     },
     {
+      "title": "Include tracking for releng policy repo",
+      "url": "https://github.com/conforma/review-rot/pull/244",
+      "number": 244,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-06-11T14:33:13Z",
+      "updated_at": "2026-06-11T15:07:22Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update github actions (main) (minor)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/198",
       "number": 198,
@@ -4833,7 +4857,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:26:43Z",
-      "updated_at": "2026-06-04T17:30:10Z",
+      "updated_at": "2026-06-11T14:06:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4883,7 +4907,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-06-07T05:55:47Z",
+      "updated_at": "2026-06-11T14:06:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4935,7 +4959,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T01:43:51Z",
-      "updated_at": "2026-06-09T01:46:13Z",
+      "updated_at": "2026-06-11T14:05:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4960,7 +4984,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-06-02T18:36:06Z",
+      "updated_at": "2026-06-11T13:54:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4985,7 +5009,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:50Z",
-      "updated_at": "2026-06-09T18:07:27Z",
+      "updated_at": "2026-06-11T13:54:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5036,7 +5060,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:38:14Z",
-      "updated_at": "2026-06-03T02:38:15Z",
+      "updated_at": "2026-06-11T13:54:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5173,17 +5197,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-06-09T14:27:24Z",
-      "updated_at": "2026-06-11T08:37:31Z",
+      "updated_at": "2026-06-11T14:50:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": null,
+      "size": "XS",
       "reviews": {
         "count": 2,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "size: XS"
+      ]
     },
     {
       "title": "Update docker images (main)",
@@ -5527,10 +5553,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-06-04T21:10:22Z",
-      "updated_at": "2026-06-11T13:30:06Z",
+      "updated_at": "2026-06-11T14:28:41Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 21,
