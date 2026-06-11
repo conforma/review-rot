@@ -22,6 +22,7 @@ sources:
     - redhat-appstudio/infra-deployments
     - redhat-appstudio/tssc-dev-multi-ci
     - redhat-appstudio/tssc-sample-templates
+    - release-engineering/rhtap-ec-policy
     - tektoncd/chains
 
 # Team members — PRs from these authors are always shown,
