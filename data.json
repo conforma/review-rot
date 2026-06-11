@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T10:38:12.389235721Z",
+  "generated_at": "2026-06-11T12:21:21.584390194Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3166,7 +3166,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-06-07T10:08:21Z",
+      "updated_at": "2026-06-11T11:15:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3814,7 +3814,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:24Z",
-      "updated_at": "2026-06-03T00:51:32Z",
+      "updated_at": "2026-06-11T10:52:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3840,7 +3840,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:32Z",
-      "updated_at": "2026-06-03T00:51:40Z",
+      "updated_at": "2026-06-11T10:52:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4364,7 +4364,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-02T01:54:55Z",
-      "updated_at": "2026-06-09T06:13:48Z",
+      "updated_at": "2026-06-11T11:58:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4440,7 +4440,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-21T01:16:19Z",
-      "updated_at": "2026-06-07T04:25:20Z",
+      "updated_at": "2026-06-11T11:59:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5074,28 +5074,6 @@
       "labels": []
     },
     {
-      "title": "Add PR size labeling workflow",
-      "url": "https://github.com/conforma/claude-skills/pull/10",
-      "number": 10,
-      "repo": "conforma/claude-skills",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-06-10T12:35:07Z",
-      "updated_at": "2026-06-10T13:13:06Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
       "title": "Configure Renovate",
       "url": "https://github.com/conforma/step-actions/pull/2",
       "number": 2,
@@ -5149,16 +5127,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-06-10T12:40:26Z",
-      "updated_at": "2026-06-10T13:13:22Z",
+      "updated_at": "2026-06-11T11:02:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 3,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -5171,17 +5149,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-06-02T13:15:54Z",
-      "updated_at": "2026-06-08T19:57:24Z",
+      "updated_at": "2026-06-11T12:14:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": null,
+      "size": "XL",
       "reviews": {
-        "count": 5,
+        "count": 13,
         "has_new_commits": true
       },
-      "unresolved_conversations": 9,
-      "labels": []
+      "unresolved_conversations": 3,
+      "labels": [
+        "size: XL"
+      ]
     },
     {
       "title": "Add Konflux pipelines",
@@ -5193,39 +5173,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-06-08T12:57:44Z",
-      "updated_at": "2026-06-08T12:57:52Z",
+      "updated_at": "2026-06-11T11:49:29Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": null,
+      "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "Add PR size labeling workflow",
-      "url": "https://github.com/conforma/golden-rpm/pull/4",
-      "number": 4,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-06-10T12:37:45Z",
-      "updated_at": "2026-06-10T14:45:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "size: XL"
+      ]
     },
     {
       "title": "Replace default ECP with Red Hat Konflux policy",
@@ -5244,28 +5204,6 @@
       "size": null,
       "reviews": {
         "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
-    },
-    {
-      "title": "Add PR size labeling workflow",
-      "url": "https://github.com/conforma/e2e-tests/pull/5",
-      "number": 5,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-06-10T12:42:39Z",
-      "updated_at": "2026-06-10T13:13:31Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -5613,13 +5551,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-06-04T21:10:22Z",
-      "updated_at": "2026-06-10T22:56:05Z",
+      "updated_at": "2026-06-11T10:49:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 22,
+        "count": 23,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
