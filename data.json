@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T18:03:02.215570268Z",
+  "generated_at": "2026-06-11T19:23:35.423055678Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -176,7 +176,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T00:39:12Z",
-      "updated_at": "2026-06-04T19:16:31Z",
+      "updated_at": "2026-06-11T18:16:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -185,7 +185,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "renovate",
         "main",
@@ -202,7 +202,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T00:39:19Z",
-      "updated_at": "2026-06-07T06:19:17Z",
+      "updated_at": "2026-06-11T18:15:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -211,7 +211,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 8,
       "labels": [
         "major",
         "renovate",
@@ -332,7 +332,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:13Z",
-      "updated_at": "2026-06-07T06:20:33Z",
+      "updated_at": "2026-06-11T18:07:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -360,7 +360,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-06-10T14:57:39Z",
+      "updated_at": "2026-06-11T18:06:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -439,7 +439,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:06:13Z",
-      "updated_at": "2026-06-09T04:35:34Z",
+      "updated_at": "2026-06-11T18:06:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -695,7 +695,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-15T00:44:30Z",
-      "updated_at": "2026-06-09T04:35:47Z",
+      "updated_at": "2026-06-11T18:07:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -912,6 +912,30 @@
       "labels": [
         "size: L",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "feat: Ignore local go dependencies when using proxy",
+      "url": "https://github.com/conforma/policy/pull/1745",
+      "number": 1745,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "a-ovchinnikov",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3851560?v=4"
+      },
+      "created_at": "2026-06-11T18:53:11Z",
+      "updated_at": "2026-06-11T19:03:22Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 4,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -2556,6 +2580,30 @@
       "labels": [
         "size: L",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Trigger conforma e2e tests on cli pull requests",
+      "url": "https://github.com/conforma/cli/pull/3334",
+      "number": 3334,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-06-11T19:21:33Z",
+      "updated_at": "2026-06-11T19:22:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S"
       ]
     },
     {
@@ -5502,7 +5550,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-06-04T21:10:22Z",
-      "updated_at": "2026-06-11T15:19:10Z",
+      "updated_at": "2026-06-11T19:13:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
