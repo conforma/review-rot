@@ -23,6 +23,7 @@ sources:
     - redhat-appstudio/tssc-dev-multi-ci
     - redhat-appstudio/tssc-sample-templates
     - tektoncd/chains
+    - release-engineering/rhtap-ec-policy
 
 # Team members — PRs from these authors are always shown,
 # even in repos outside the orgs above
