@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T20:15:12.811138362Z",
+  "generated_at": "2026-06-12T21:06:47.622704475Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1513,7 +1513,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:31Z",
-      "updated_at": "2026-06-10T14:59:56Z",
+      "updated_at": "2026-06-12T21:05:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1540,7 +1540,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:37Z",
-      "updated_at": "2026-06-10T15:05:20Z",
+      "updated_at": "2026-06-12T21:06:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2580,31 +2580,6 @@
       "unresolved_conversations": 4,
       "labels": [
         "size: S"
-      ]
-    },
-    {
-      "title": "Update go git module (main)",
-      "url": "https://github.com/conforma/cli/pull/3335",
-      "number": 3335,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-06-12T18:29:55Z",
-      "updated_at": "2026-06-12T19:20:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M",
-        "requires-manual-review"
       ]
     },
     {
@@ -5669,14 +5644,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
       },
       "created_at": "2026-05-25T11:34:33Z",
-      "updated_at": "2026-06-11T12:20:14Z",
+      "updated_at": "2026-06-12T20:53:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 8,
-        "has_new_commits": true
+        "count": 9,
+        "has_new_commits": false
       },
       "unresolved_conversations": 1,
       "labels": []
