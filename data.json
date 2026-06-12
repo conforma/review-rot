@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T18:16:33.117083818Z",
+  "generated_at": "2026-06-12T19:14:30.361807487Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2568,8 +2568,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-06-11T19:21:33Z",
-      "updated_at": "2026-06-12T14:00:29Z",
-      "is_draft": false,
+      "updated_at": "2026-06-12T18:51:05Z",
+      "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "S",
@@ -2580,6 +2580,31 @@
       "unresolved_conversations": 4,
       "labels": [
         "size: S"
+      ]
+    },
+    {
+      "title": "Update go git module (main)",
+      "url": "https://github.com/conforma/cli/pull/3335",
+      "number": 3335,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-06-12T18:29:55Z",
+      "updated_at": "2026-06-12T18:51:25Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M",
+        "requires-manual-review"
       ]
     },
     {
@@ -5196,13 +5221,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-06-09T14:27:24Z",
-      "updated_at": "2026-06-12T16:40:23Z",
+      "updated_at": "2026-06-12T18:50:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 5,
+        "count": 6,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
