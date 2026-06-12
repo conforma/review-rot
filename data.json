@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T17:28:11.731031472Z",
+  "generated_at": "2026-06-12T18:16:33.117083818Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -899,7 +899,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3851560?v=4"
       },
       "created_at": "2026-06-11T18:53:11Z",
-      "updated_at": "2026-06-11T20:30:35Z",
+      "updated_at": "2026-06-12T17:41:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1248,7 +1248,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-06-12T17:19:23Z",
+      "updated_at": "2026-06-12T17:36:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1433,7 +1433,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-06-12T17:21:38Z",
+      "updated_at": "2026-06-12T17:32:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1442,7 +1442,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "renovate",
         "release-v0.7",
@@ -5552,7 +5552,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-06-04T21:10:22Z",
-      "updated_at": "2026-06-12T16:24:52Z",
+      "updated_at": "2026-06-12T17:55:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
