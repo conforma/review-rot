@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T21:02:30.820062302Z",
+  "generated_at": "2026-06-15T22:16:42.564399904Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -882,7 +882,7 @@
         "count": 7,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 0,
       "labels": [
         "size: L",
         "ready-for-merge"
@@ -2283,7 +2283,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-20T13:29:32Z",
-      "updated_at": "2026-05-20T23:09:12Z",
+      "updated_at": "2026-06-15T21:02:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2335,7 +2335,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-20T13:36:12Z",
-      "updated_at": "2026-05-20T19:52:02Z",
+      "updated_at": "2026-06-15T21:03:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2593,10 +2593,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-15T13:38:01Z",
-      "updated_at": "2026-06-15T15:16:56Z",
+      "updated_at": "2026-06-15T21:49:18Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
         "count": 2,
@@ -3320,7 +3320,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-06-15T05:44:22Z",
+      "updated_at": "2026-06-15T21:48:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3337,7 +3337,7 @@
       ]
     },
     {
-      "title": "Update tektoncd pipelines to v1.10.2 (main)",
+      "title": "Update tektoncd pipelines to v1.10.3 (main)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/210",
       "number": 210,
       "repo": "conforma/infra-deployments-ci",
@@ -3346,7 +3346,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-06-02T19:08:49Z",
+      "updated_at": "2026-06-15T21:48:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3387,7 +3387,7 @@
       ]
     },
     {
-      "title": "Update tektoncd pipelines to v1.13.0 (main)",
+      "title": "Update tektoncd pipelines to v1.13.1 (main)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/215",
       "number": 215,
       "repo": "conforma/infra-deployments-ci",
@@ -3396,7 +3396,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-06-02T19:09:44Z",
+      "updated_at": "2026-06-15T21:48:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3422,7 +3422,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-06-15T00:50:29Z",
+      "updated_at": "2026-06-15T21:48:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5101,28 +5101,6 @@
       ]
     },
     {
-      "title": "Add Renovate PR triage skill",
-      "url": "https://github.com/conforma/claude-skills/pull/9",
-      "number": 9,
-      "repo": "conforma/claude-skills",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-05-20T17:55:24Z",
-      "updated_at": "2026-06-08T19:06:39Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "Configure Renovate",
       "url": "https://github.com/conforma/step-actions/pull/2",
       "number": 2,
@@ -5646,13 +5624,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-05-08T22:02:42Z",
-      "updated_at": "2026-06-11T16:11:24Z",
+      "updated_at": "2026-06-15T21:49:46Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 8,
+        "count": 9,
         "has_new_commits": true
       },
       "unresolved_conversations": 3,
