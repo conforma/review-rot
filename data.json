@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T16:36:48.202184085Z",
+  "generated_at": "2026-06-15T18:30:41.300697481Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -898,16 +898,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3851560?v=4"
       },
       "created_at": "2026-06-11T18:53:11Z",
-      "updated_at": "2026-06-12T17:41:13Z",
+      "updated_at": "2026-06-15T17:34:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "count": 2,
+        "count": 6,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 4,
       "labels": [
         "size: S",
         "ready-for-merge"
@@ -5602,7 +5602,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-06-04T21:10:22Z",
-      "updated_at": "2026-06-15T15:51:54Z",
+      "updated_at": "2026-06-15T18:05:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
