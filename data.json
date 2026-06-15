@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T12:02:11.770921472Z",
+  "generated_at": "2026-06-15T14:37:15.994176389Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -848,16 +848,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-04T17:52:25Z",
-      "updated_at": "2026-06-11T17:59:47Z",
+      "updated_at": "2026-06-15T13:51:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 4,
-        "has_new_commits": false
+        "count": 10,
+        "has_new_commits": true
       },
-      "unresolved_conversations": 7,
+      "unresolved_conversations": 1,
       "labels": [
         "size: XL",
         "ready-for-merge"
@@ -873,16 +873,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-08T13:07:14Z",
-      "updated_at": "2026-06-10T16:12:57Z",
+      "updated_at": "2026-06-15T13:38:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 6,
+        "count": 7,
         "has_new_commits": false
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 3,
       "labels": [
         "size: L",
         "ready-for-merge"
@@ -910,6 +910,31 @@
       "unresolved_conversations": 2,
       "labels": [
         "size: S",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "refactor(EC-1836): centralize blob parsing via oci.parsed_blob",
+      "url": "https://github.com/conforma/policy/pull/1746",
+      "number": 1746,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-06-15T13:38:14Z",
+      "updated_at": "2026-06-15T14:17:46Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M",
         "ready-for-merge"
       ]
     },
@@ -2410,10 +2435,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-06-11T19:21:33Z",
-      "updated_at": "2026-06-12T18:51:05Z",
+      "updated_at": "2026-06-15T14:26:07Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2556,6 +2581,30 @@
         "main",
         "size: XS",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "feat(EC-1836): add ec.oci.parsed_blob builtin for cached JSON parsing",
+      "url": "https://github.com/conforma/cli/pull/3341",
+      "number": 3341,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-06-15T13:38:01Z",
+      "updated_at": "2026-06-15T14:09:27Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 5,
+      "labels": [
+        "size: L"
       ]
     },
     {
@@ -5139,6 +5188,30 @@
       "labels": []
     },
     {
+      "title": "Add source tarball workflow with CI validation",
+      "url": "https://github.com/conforma/golden-rpm/pull/5",
+      "number": 5,
+      "repo": "conforma/golden-rpm",
+      "author": {
+        "login": "Acepresso",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
+      },
+      "created_at": "2026-06-15T14:20:05Z",
+      "updated_at": "2026-06-15T14:23:30Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: M"
+      ]
+    },
+    {
       "title": "Replace default ECP with Red Hat Konflux policy",
       "url": "https://github.com/conforma/e2e-tests/pull/4",
       "number": 4,
@@ -5148,7 +5221,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-06-09T14:27:24Z",
-      "updated_at": "2026-06-15T09:02:20Z",
+      "updated_at": "2026-06-15T14:29:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
