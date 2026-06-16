@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T18:48:48.902821005Z",
+  "generated_at": "2026-06-16T20:02:47.055906622Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -873,16 +873,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/3851560?v=4"
       },
       "created_at": "2026-06-11T18:53:11Z",
-      "updated_at": "2026-06-16T13:08:38Z",
+      "updated_at": "2026-06-16T19:49:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
-        "count": 13,
+        "count": 19,
         "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 5,
       "labels": [
         "size: M",
         "ready-for-merge"
@@ -898,16 +898,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-15T13:38:14Z",
-      "updated_at": "2026-06-16T17:00:54Z",
+      "updated_at": "2026-06-16T19:36:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 3,
+        "count": 8,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 3,
       "labels": [
         "size: L",
         "requires-manual-review"
@@ -2570,14 +2570,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-15T13:38:01Z",
-      "updated_at": "2026-06-16T15:49:49Z",
+      "updated_at": "2026-06-16T19:35:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 2,
-        "has_new_commits": true
+        "count": 4,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -5075,42 +5075,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-06-15T14:20:05Z",
-      "updated_at": "2026-06-16T15:09:14Z",
+      "updated_at": "2026-06-16T19:10:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
-        "count": 1,
-        "has_new_commits": true
+        "count": 2,
+        "has_new_commits": false
       },
       "unresolved_conversations": 3,
       "labels": [
         "size: M"
-      ]
-    },
-    {
-      "title": "Replace default ECP with Red Hat Konflux policy",
-      "url": "https://github.com/conforma/e2e-tests/pull/4",
-      "number": 4,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-06-09T14:27:24Z",
-      "updated_at": "2026-06-16T18:47:02Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 11,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
       ]
     },
     {
@@ -5123,7 +5099,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T23:38:52Z",
-      "updated_at": "2026-06-14T23:39:00Z",
+      "updated_at": "2026-06-16T18:56:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
