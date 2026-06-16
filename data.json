@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-16T11:15:20.580619655Z",
+  "generated_at": "2026-06-16T13:06:14.431947537Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -848,16 +848,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-04T17:52:25Z",
-      "updated_at": "2026-06-16T10:13:23Z",
+      "updated_at": "2026-06-16T12:48:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 12,
+        "count": 13,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XL",
         "ready-for-merge"
@@ -2412,19 +2412,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-06-04T13:28:32Z",
-      "updated_at": "2026-06-11T13:14:09Z",
-      "is_draft": true,
+      "updated_at": "2026-06-16T12:45:32Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
-      "size": "L",
+      "size": "XL",
       "reviews": {
-        "count": 0,
-        "has_new_commits": false
+        "count": 3,
+        "has_new_commits": true
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 8,
       "labels": [
-        "size: L",
-        "ready-for-merge"
+        "size: XL",
+        "requires-manual-review"
       ]
     },
     {
@@ -5178,16 +5178,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-06-15T14:20:05Z",
-      "updated_at": "2026-06-15T14:23:30Z",
+      "updated_at": "2026-06-16T12:52:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
-        "count": 0,
-        "has_new_commits": false
+        "count": 1,
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: M"
       ]
@@ -5202,7 +5202,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-06-09T14:27:24Z",
-      "updated_at": "2026-06-15T19:44:22Z",
+      "updated_at": "2026-06-16T13:03:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5211,7 +5211,7 @@
         "count": 10,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XS"
       ]
@@ -5527,28 +5527,6 @@
         "main",
         "size: XS"
       ]
-    },
-    {
-      "title": "Build-time param defaults in in tkn-bundle",
-      "url": "https://github.com/konflux-ci/build-definitions/pull/3490",
-      "number": 3490,
-      "repo": "konflux-ci/build-definitions",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-05-01T15:17:59Z",
-      "updated_at": "2026-05-11T17:19:58Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "new policy source param",
