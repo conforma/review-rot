@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T11:34:15.904339977Z",
+  "generated_at": "2026-06-17T13:14:24.279983788Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1220,7 +1220,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-12T21:25:35Z",
+      "updated_at": "2026-06-17T13:13:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1512,7 +1512,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:31Z",
-      "updated_at": "2026-06-12T21:11:17Z",
+      "updated_at": "2026-06-17T13:11:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1539,7 +1539,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:37Z",
-      "updated_at": "2026-06-12T21:09:40Z",
+      "updated_at": "2026-06-17T13:11:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2489,10 +2489,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-06-14T01:11:34Z",
+      "updated_at": "2026-06-17T13:11:24Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2515,10 +2515,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:44Z",
-      "updated_at": "2026-06-14T01:07:06Z",
+      "updated_at": "2026-06-17T13:13:15Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2557,31 +2557,6 @@
         "main",
         "size: XS",
         "requires-manual-review"
-      ]
-    },
-    {
-      "title": "feat(EC-1836): add ec.oci.parsed_blob builtin for cached JSON parsing",
-      "url": "https://github.com/conforma/cli/pull/3341",
-      "number": 3341,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-06-15T13:38:01Z",
-      "updated_at": "2026-06-16T19:35:22Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: L",
-        "ready-for-merge"
       ]
     },
     {
