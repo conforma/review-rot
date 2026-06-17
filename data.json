@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T07:49:16.469275783Z",
+  "generated_at": "2026-06-17T09:37:27.737438463Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5063,30 +5063,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "Add source tarball workflow with CI validation",
-      "url": "https://github.com/conforma/golden-rpm/pull/5",
-      "number": 5,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
-      },
-      "created_at": "2026-06-15T14:20:05Z",
-      "updated_at": "2026-06-16T19:10:02Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "size: M"
-      ]
     },
     {
       "title": "Configure Renovate",
