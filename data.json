@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T21:17:16.249783241Z",
+  "generated_at": "2026-06-18T22:15:06.60673454Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3346,7 +3346,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:47:02Z",
-      "updated_at": "2026-06-02T15:40:59Z",
+      "updated_at": "2026-06-18T21:43:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3373,7 +3373,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T00:47:54Z",
-      "updated_at": "2026-06-12T02:07:32Z",
+      "updated_at": "2026-06-18T21:43:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3399,7 +3399,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:33:03Z",
-      "updated_at": "2026-06-04T19:12:31Z",
+      "updated_at": "2026-06-18T21:43:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3909,7 +3909,7 @@
       ]
     },
     {
-      "title": "🚨 Update github actions to v3 (main)",
+      "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/action-validate-image/pull/440",
       "number": 440,
       "repo": "conforma/action-validate-image",
@@ -3918,7 +3918,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-13T00:52:51Z",
-      "updated_at": "2026-06-02T15:31:26Z",
+      "updated_at": "2026-06-18T21:39:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4285,7 +4285,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-02T01:54:55Z",
-      "updated_at": "2026-06-11T22:10:56Z",
+      "updated_at": "2026-06-18T21:33:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4361,7 +4361,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-21T01:16:19Z",
-      "updated_at": "2026-06-11T11:59:08Z",
+      "updated_at": "2026-06-18T21:35:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4388,7 +4388,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-23T02:14:14Z",
-      "updated_at": "2026-06-04T15:31:14Z",
+      "updated_at": "2026-06-18T21:34:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4490,7 +4490,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T02:52:39Z",
-      "updated_at": "2026-06-04T15:59:32Z",
+      "updated_at": "2026-06-18T22:06:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4516,7 +4516,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T02:12:43Z",
-      "updated_at": "2026-06-02T18:32:25Z",
+      "updated_at": "2026-06-18T22:06:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4543,7 +4543,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:39:24Z",
-      "updated_at": "2026-06-13T17:09:45Z",
+      "updated_at": "2026-06-18T22:06:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4752,7 +4752,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:30:55Z",
-      "updated_at": "2026-06-18T15:06:36Z",
+      "updated_at": "2026-06-18T21:53:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4778,7 +4778,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:26:43Z",
-      "updated_at": "2026-06-11T14:06:03Z",
+      "updated_at": "2026-06-18T21:56:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4803,7 +4803,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-06-18T12:57:05Z",
+      "updated_at": "2026-06-18T21:57:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4828,7 +4828,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-06-11T14:06:12Z",
+      "updated_at": "2026-06-18T22:00:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4880,7 +4880,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T01:43:51Z",
-      "updated_at": "2026-06-12T01:03:45Z",
+      "updated_at": "2026-06-18T21:56:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5207,30 +5207,6 @@
       ]
     },
     {
-      "title": "  Add debug log output to redhat release policy test and remove unnec…",
-      "url": "https://github.com/conforma/e2e-tests/pull/7",
-      "number": 7,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-06-18T19:47:49Z",
-      "updated_at": "2026-06-18T20:17:41Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update docker images (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/627",
       "number": 627,
@@ -5266,7 +5242,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:37:28Z",
-      "updated_at": "2026-06-04T19:17:17Z",
+      "updated_at": "2026-06-18T21:40:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5345,7 +5321,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-14T02:49:05Z",
-      "updated_at": "2026-06-11T19:43:38Z",
+      "updated_at": "2026-06-18T21:41:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5502,7 +5478,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:54:34Z",
-      "updated_at": "2026-06-12T01:57:41Z",
+      "updated_at": "2026-06-18T21:40:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
