@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T12:11:55.643956711Z",
+  "generated_at": "2026-06-18T13:40:21.527607971Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2410,7 +2410,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-06-11T19:21:33Z",
-      "updated_at": "2026-06-16T18:20:06Z",
+      "updated_at": "2026-06-18T13:33:18Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4803,7 +4803,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-06-12T19:51:53Z",
+      "updated_at": "2026-06-18T12:57:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5063,7 +5063,7 @@
       "labels": []
     },
     {
-      "title": "Small refactor of tekton pipelines",
+      "title": "Refactor tekton pipelines",
       "url": "https://github.com/conforma/golden-rpm/pull/7",
       "number": 7,
       "repo": "conforma/golden-rpm",
@@ -5072,7 +5072,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-06-18T10:08:35Z",
-      "updated_at": "2026-06-18T10:24:54Z",
+      "updated_at": "2026-06-18T12:19:57Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5452,17 +5452,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-06-17T19:36:20Z",
-      "updated_at": "2026-06-17T21:35:58Z",
+      "updated_at": "2026-06-18T13:33:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "prod/approved"
+      ]
     },
     {
       "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
