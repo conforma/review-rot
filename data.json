@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T09:11:27.00798722Z",
+  "generated_at": "2026-06-19T11:02:05.903757082Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -823,19 +823,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-06-02T11:18:40Z",
-      "updated_at": "2026-06-19T07:29:52Z",
+      "updated_at": "2026-06-19T10:55:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 2,
-        "has_new_commits": true
+        "count": 3,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XL",
-        "requires-manual-review"
+        "ready-for-merge"
       ]
     },
     {
@@ -911,6 +911,81 @@
       "labels": [
         "size: L",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "docs(#1750): document result format and result_helper functions",
+      "url": "https://github.com/conforma/policy/pull/1754",
+      "number": 1754,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-06-19T10:28:13Z",
+      "updated_at": "2026-06-19T10:43:46Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: L",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "docs(#1748): add exclusion info to per-rule documentation",
+      "url": "https://github.com/conforma/policy/pull/1755",
+      "number": 1755,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-06-19T10:29:36Z",
+      "updated_at": "2026-06-19T10:43:28Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: L",
+        "requires-manual-review"
+      ]
+    },
+    {
+      "title": "docs(#1753): add default values section to CVE package docs",
+      "url": "https://github.com/conforma/policy/pull/1756",
+      "number": 1756,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-06-19T10:42:39Z",
+      "updated_at": "2026-06-19T10:55:17Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M",
+        "ready-for-merge"
       ]
     },
     {
@@ -2559,6 +2634,80 @@
         "main",
         "size: XS",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "docs(#3343): add prerequisites section to README",
+      "url": "https://github.com/conforma/cli/pull/3348",
+      "number": 3348,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-06-19T10:24:09Z",
+      "updated_at": "2026-06-19T10:38:26Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "docs(#3344): add \"Why Conforma?\" documentation page",
+      "url": "https://github.com/conforma/cli/pull/3349",
+      "number": 3349,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-06-19T10:25:31Z",
+      "updated_at": "2026-06-19T10:39:35Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: M",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "docs: add system requirements section to README",
+      "url": "https://github.com/conforma/cli/pull/3350",
+      "number": 3350,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "ded-furby",
+        "avatar_url": "https://avatars.githubusercontent.com/u/190979964?u=c6b532be670d847aefd49e43a0315d6e52639b61\u0026v=4"
+      },
+      "created_at": "2026-06-19T10:27:43Z",
+      "updated_at": "2026-06-19T10:36:30Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: XS"
       ]
     },
     {
