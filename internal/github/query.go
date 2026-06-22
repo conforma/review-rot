@@ -62,6 +62,7 @@ type prNode struct {
 		Nodes []struct {
 			Author struct {
 				TypeName string `graphql:"__typename"`
+				Login    string
 			} `graphql:"author"`
 			Commit struct {
 				OID string `graphql:"oid"`
@@ -166,6 +167,9 @@ func extractReviews(node prNode) model.Reviews {
 	var lastHumanReviewOID string
 	for _, review := range node.Reviews.Nodes {
 		if review.Author.TypeName == "Bot" {
+			continue
+		}
+		if review.Author.Login == node.Author.Login {
 			continue
 		}
 		r.Count++
