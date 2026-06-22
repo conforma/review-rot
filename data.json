@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T22:12:15.333443836Z",
+  "generated_at": "2026-06-22T23:00:58.511979198Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5676,7 +5676,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-28T02:09:34Z",
-      "updated_at": "2026-06-14T21:09:43Z",
+      "updated_at": "2026-06-22T22:47:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5930,7 +5930,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-06-22T17:21:55Z",
-      "updated_at": "2026-06-22T20:15:01Z",
+      "updated_at": "2026-06-22T22:12:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
