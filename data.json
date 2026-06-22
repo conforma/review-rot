@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T17:11:12.945604452Z",
+  "generated_at": "2026-06-22T18:46:04.88656631Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2790,7 +2790,7 @@
       ]
     },
     {
-      "title": "Update npm dependencies to v4.103.0 (main)",
+      "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -2799,7 +2799,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-06-19T16:05:25Z",
+      "updated_at": "2026-06-22T18:31:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3025,7 +3025,7 @@
       ]
     },
     {
-      "title": "🚨 Update npm dependencies to v4 (main)",
+      "title": "🚨 Update npm dependencies (main) (major)",
       "url": "https://github.com/conforma/conforma.github.io/pull/538",
       "number": 538,
       "repo": "conforma/conforma.github.io",
@@ -3034,7 +3034,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-01T00:40:44Z",
-      "updated_at": "2026-06-02T17:47:53Z",
+      "updated_at": "2026-06-22T18:31:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3131,7 +3131,7 @@
       ]
     },
     {
-      "title": "Update github actions to v6.0.3 (main)",
+      "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/conforma.github.io/pull/545",
       "number": 545,
       "repo": "conforma/conforma.github.io",
@@ -3140,7 +3140,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:25:30Z",
-      "updated_at": "2026-06-19T03:30:28Z",
+      "updated_at": "2026-06-22T18:31:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3157,7 +3157,7 @@
       ]
     },
     {
-      "title": "🚨 Update github actions to v7 (main)",
+      "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/golden-container/pull/1495",
       "number": 1495,
       "repo": "conforma/golden-container",
@@ -3166,7 +3166,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-19T01:45:29Z",
-      "updated_at": "2026-06-19T01:45:40Z",
+      "updated_at": "2026-06-22T18:16:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3445,7 +3445,7 @@
       ]
     },
     {
-      "title": "Update tektoncd pipelines to v1.10.3 (main)",
+      "title": "Update tektoncd pipelines (main) (patch)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/210",
       "number": 210,
       "repo": "conforma/infra-deployments-ci",
@@ -3454,7 +3454,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-06-16T05:41:53Z",
+      "updated_at": "2026-06-22T17:45:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3495,7 +3495,7 @@
       ]
     },
     {
-      "title": "Update tektoncd pipelines to v1.13.1 (main)",
+      "title": "Update tektoncd pipelines (main) (minor)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/215",
       "number": 215,
       "repo": "conforma/infra-deployments-ci",
@@ -3504,7 +3504,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-06-19T00:37:40Z",
+      "updated_at": "2026-06-22T17:45:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3547,7 +3547,7 @@
       ]
     },
     {
-      "title": "Update github actions to v6.0.3 (main)",
+      "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/220",
       "number": 220,
       "repo": "conforma/infra-deployments-ci",
@@ -3556,7 +3556,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:38:27Z",
-      "updated_at": "2026-06-19T00:37:20Z",
+      "updated_at": "2026-06-22T17:45:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4067,7 +4067,7 @@
       ]
     },
     {
-      "title": "Update github actions to v6.0.3 (main)",
+      "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/config/pull/234",
       "number": 234,
       "repo": "conforma/config",
@@ -4076,7 +4076,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:26:50Z",
-      "updated_at": "2026-06-19T01:07:55Z",
+      "updated_at": "2026-06-22T18:36:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4794,7 +4794,7 @@
       ]
     },
     {
-      "title": "Update github actions to v6.0.3 (main)",
+      "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/.github/pull/83",
       "number": 83,
       "repo": "conforma/.github",
@@ -4803,7 +4803,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:39:24Z",
-      "updated_at": "2026-06-19T04:39:02Z",
+      "updated_at": "2026-06-22T18:09:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5156,7 +5156,7 @@
       ]
     },
     {
-      "title": "Update npm dependencies to v2.0.3 (main)",
+      "title": "Update npm dependencies (main) (patch)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/14",
       "number": 14,
       "repo": "conforma/pr-size-label-action",
@@ -5165,7 +5165,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-06-12T00:46:13Z",
+      "updated_at": "2026-06-22T18:29:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5232,7 +5232,7 @@
       ]
     },
     {
-      "title": "Update github actions to v6.0.3 (main)",
+      "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/24",
       "number": 24,
       "repo": "conforma/pr-size-label-action",
@@ -5241,7 +5241,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:38:14Z",
-      "updated_at": "2026-06-19T05:38:07Z",
+      "updated_at": "2026-06-22T18:29:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5257,7 +5257,7 @@
       ]
     },
     {
-      "title": "🚨 Update github actions to v7 (main)",
+      "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/25",
       "number": 25,
       "repo": "conforma/pr-size-label-action",
@@ -5266,7 +5266,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-20T01:14:43Z",
-      "updated_at": "2026-06-20T01:14:44Z",
+      "updated_at": "2026-06-22T18:29:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5697,7 +5697,7 @@
       ]
     },
     {
-      "title": "Update go modules to v0.1.281 (main)",
+      "title": "Update go modules (main) (patch)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/751",
       "number": 751,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -5706,7 +5706,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-11T01:41:52Z",
-      "updated_at": "2026-06-02T15:41:37Z",
+      "updated_at": "2026-06-22T18:03:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5897,6 +5897,28 @@
       "labels": []
     },
     {
+      "title": "chore: bump verify-conforma-konflux-ta task revision",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2313",
+      "number": 2313,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-06-22T17:21:55Z",
+      "updated_at": "2026-06-22T17:42:20Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
       "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/195",
       "number": 195,
@@ -5950,7 +5972,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-05-08T22:02:42Z",
-      "updated_at": "2026-06-18T20:33:33Z",
+      "updated_at": "2026-06-22T17:42:08Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
