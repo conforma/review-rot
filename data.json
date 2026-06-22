@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T18:46:04.88656631Z",
+  "generated_at": "2026-06-22T20:03:11.179474313Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3289,7 +3289,7 @@
       ]
     },
     {
-      "title": "Update go modules to v2.19.0 (main)",
+      "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/review-rot/pull/246",
       "number": 246,
       "repo": "conforma/review-rot",
@@ -3298,7 +3298,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-06-12T01:45:32Z",
+      "updated_at": "2026-06-22T19:01:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3315,7 +3315,7 @@
       ]
     },
     {
-      "title": "🚨 Update github actions to v7 (main)",
+      "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/review-rot/pull/247",
       "number": 247,
       "repo": "conforma/review-rot",
@@ -3324,7 +3324,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-19T00:57:25Z",
-      "updated_at": "2026-06-19T00:58:54Z",
+      "updated_at": "2026-06-22T19:01:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4128,7 +4128,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-11T01:35:02Z",
-      "updated_at": "2026-06-18T00:07:35Z",
+      "updated_at": "2026-06-22T19:47:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5906,7 +5906,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-06-22T17:21:55Z",
-      "updated_at": "2026-06-22T17:42:20Z",
+      "updated_at": "2026-06-22T19:43:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6016,16 +6016,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-06-18T19:51:05Z",
-      "updated_at": "2026-06-22T08:13:01Z",
+      "updated_at": "2026-06-22T19:30:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     }
   ]
