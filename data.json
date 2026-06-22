@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T13:21:25.506215341Z",
+  "generated_at": "2026-06-22T15:17:10.734350831Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -384,7 +384,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-06-22T13:15:52Z",
+      "updated_at": "2026-06-22T13:31:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -565,10 +565,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-06-22T13:17:19Z",
+      "updated_at": "2026-06-22T13:28:49Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -592,7 +592,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-06-22T13:14:54Z",
+      "updated_at": "2026-06-22T13:21:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1271,7 +1271,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-22T11:17:57Z",
+      "updated_at": "2026-06-22T13:55:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1284,8 +1284,7 @@
       "labels": [
         "renovate",
         "main",
-        "size: XXL",
-        "ready-for-merge"
+        "size: XXL"
       ]
     },
     {
@@ -1298,7 +1297,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-06-22T11:33:21Z",
+      "updated_at": "2026-06-22T13:59:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1307,12 +1306,11 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 24,
+      "unresolved_conversations": 27,
       "labels": [
         "renovate",
         "main",
-        "size: XXL",
-        "requires-manual-review"
+        "size: XXL"
       ]
     },
     {
@@ -1325,7 +1323,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-06-22T11:21:14Z",
+      "updated_at": "2026-06-22T13:47:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1564,7 +1562,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:31Z",
-      "updated_at": "2026-06-17T18:54:31Z",
+      "updated_at": "2026-06-22T13:51:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1591,7 +1589,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:09:37Z",
-      "updated_at": "2026-06-17T18:57:10Z",
+      "updated_at": "2026-06-22T13:50:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2430,31 +2428,6 @@
       ]
     },
     {
-      "title": "Trigger conforma e2e tests on cli pull requests",
-      "url": "https://github.com/conforma/cli/pull/3334",
-      "number": 3334,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-06-11T19:21:33Z",
-      "updated_at": "2026-06-22T12:07:14Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 9,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: S",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Update docker images (main)",
       "url": "https://github.com/conforma/cli/pull/3336",
       "number": 3336,
@@ -2518,7 +2491,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-06-22T11:17:50Z",
+      "updated_at": "2026-06-22T13:57:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2544,7 +2517,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:44Z",
-      "updated_at": "2026-06-17T18:58:10Z",
+      "updated_at": "2026-06-22T13:51:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4615,7 +4588,7 @@
       ]
     },
     {
-      "title": "fix(deps): update github actions to v4.36.2 (main)",
+      "title": "fix(deps): update github actions (main) (minor)",
       "url": "https://github.com/conforma/go-gather/pull/331",
       "number": 331,
       "repo": "conforma/go-gather",
@@ -4624,7 +4597,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-23T02:14:14Z",
-      "updated_at": "2026-06-18T21:34:18Z",
+      "updated_at": "2026-06-22T13:55:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4641,7 +4614,7 @@
       ]
     },
     {
-      "title": "fix(deps): update go modules to v2.6.1 (main)",
+      "title": "fix(deps): update go modules (main) (patch)",
       "url": "https://github.com/conforma/go-gather/pull/332",
       "number": 332,
       "repo": "conforma/go-gather",
@@ -4650,7 +4623,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T02:47:21Z",
-      "updated_at": "2026-06-09T02:48:54Z",
+      "updated_at": "2026-06-22T13:55:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4676,18 +4649,42 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-17T14:11:59Z",
-      "updated_at": "2026-06-17T14:31:25Z",
+      "updated_at": "2026-06-22T14:50:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "size: XXL"
+      ]
+    },
+    {
+      "title": "fix(EC-1866): replace gh repo sync with merge-based upstream sync",
+      "url": "https://github.com/conforma/go-containerregistry/pull/5",
+      "number": 5,
+      "repo": "conforma/go-containerregistry",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-06-22T13:40:33Z",
+      "updated_at": "2026-06-22T13:43:57Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: M"
       ]
     },
     {
@@ -5107,7 +5104,7 @@
       ]
     },
     {
-      "title": "Update github actions to v5.5.5 (main)",
+      "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/crds/pull/27",
       "number": 27,
       "repo": "conforma/crds",
@@ -5116,7 +5113,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T01:43:51Z",
-      "updated_at": "2026-06-19T05:02:14Z",
+      "updated_at": "2026-06-22T15:06:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
