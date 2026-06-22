@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T11:24:44.736645999Z",
+  "generated_at": "2026-06-22T13:21:25.506215341Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -358,7 +358,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-06-19T05:35:19Z",
+      "updated_at": "2026-06-22T13:19:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -384,7 +384,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-06-18T11:08:59Z",
+      "updated_at": "2026-06-22T13:15:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -565,10 +565,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-06-16T14:28:28Z",
+      "updated_at": "2026-06-22T13:17:19Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -592,7 +592,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-06-16T14:25:11Z",
+      "updated_at": "2026-06-22T13:14:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -823,16 +823,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-06-02T11:18:40Z",
-      "updated_at": "2026-06-22T11:21:27Z",
+      "updated_at": "2026-06-22T11:25:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 3,
+        "count": 4,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "size: XL",
         "ready-for-merge"
@@ -886,31 +886,6 @@
       "labels": [
         "size: M",
         "ready-for-merge"
-      ]
-    },
-    {
-      "title": "refactor(EC-1836): centralize blob parsing via oci.parsed_blob",
-      "url": "https://github.com/conforma/policy/pull/1746",
-      "number": 1746,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-06-15T13:38:14Z",
-      "updated_at": "2026-06-18T19:44:28Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 14,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: L",
-        "requires-manual-review"
       ]
     },
     {
@@ -1323,7 +1298,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-06-22T11:23:59Z",
+      "updated_at": "2026-06-22T11:33:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2464,7 +2439,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-06-11T19:21:33Z",
-      "updated_at": "2026-06-22T10:53:48Z",
+      "updated_at": "2026-06-22T12:07:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5973,16 +5948,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
       },
       "created_at": "2026-05-25T11:34:33Z",
-      "updated_at": "2026-06-12T20:53:15Z",
+      "updated_at": "2026-06-22T12:00:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 9,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
