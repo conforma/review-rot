@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T18:41:27.70452783Z",
+  "generated_at": "2026-06-23T19:36:35.434619609Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1325,21 +1325,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-06-23T02:55:37Z",
+      "updated_at": "2026-06-23T18:55:59Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "S",
+      "ci_status": "FAILURE",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 9,
+      "unresolved_conversations": 10,
       "labels": [
         "renovate",
         "major",
         "main",
-        "size: S"
+        "size: M"
       ]
     },
     {
@@ -6102,7 +6102,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-05-08T22:02:42Z",
-      "updated_at": "2026-06-22T17:42:08Z",
+      "updated_at": "2026-06-23T19:36:15Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -6131,28 +6131,6 @@
       "size": null,
       "reviews": {
         "count": 9,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "Several minor CI fixes and tweaks",
-      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/232",
-      "number": 232,
-      "repo": "release-engineering/rhtap-ec-policy",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-06-18T19:51:05Z",
-      "updated_at": "2026-06-23T17:14:52Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
         "has_new_commits": true
       },
       "unresolved_conversations": 0,
