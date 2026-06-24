@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T10:30:59.051609828Z",
+  "generated_at": "2026-06-24T11:54:59.373454674Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2731,7 +2731,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/158172821?v=4"
       },
       "created_at": "2026-06-23T13:38:09Z",
-      "updated_at": "2026-06-23T13:45:19Z",
+      "updated_at": "2026-06-24T11:52:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2744,6 +2744,30 @@
       "labels": [
         "size: S",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "fix cve-2026-42499: Upgrade Go to 1.26.3",
+      "url": "https://github.com/conforma/cli/pull/3356",
+      "number": 3356,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fghanmi",
+        "avatar_url": "https://avatars.githubusercontent.com/u/158172821?v=4"
+      },
+      "created_at": "2026-06-24T11:38:40Z",
+      "updated_at": "2026-06-24T11:53:05Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -3484,7 +3508,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T02:06:05Z",
-      "updated_at": "2026-06-24T05:48:45Z",
+      "updated_at": "2026-06-24T10:35:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4307,7 +4331,7 @@
       ]
     },
     {
-      "title": "Update github actions to v1.2.0 (main)",
+      "title": "Update github actions (main) (minor)",
       "url": "https://github.com/conforma/github-workflows/pull/6",
       "number": 6,
       "repo": "conforma/github-workflows",
@@ -4316,7 +4340,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-30T02:06:34Z",
-      "updated_at": "2026-06-06T12:06:51Z",
+      "updated_at": "2026-06-24T11:46:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
