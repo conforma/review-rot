@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T13:42:51.009410069Z",
+  "generated_at": "2026-06-24T14:57:15.207533331Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -360,7 +360,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-06-24T02:55:40Z",
+      "updated_at": "2026-06-24T14:36:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -371,10 +371,11 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
+        "github_actions",
         "renovate",
         "main",
-        "size: S",
-        "requires-manual-review"
+        "size: S"
       ]
     },
     {
@@ -387,7 +388,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-06-24T03:02:20Z",
+      "updated_at": "2026-06-24T14:44:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -396,12 +397,13 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 9,
+      "unresolved_conversations": 10,
       "labels": [
+        "dependencies",
+        "go",
         "renovate",
         "main",
-        "size: XXL",
-        "requires-manual-review"
+        "size: XXL"
       ]
     },
     {
@@ -568,7 +570,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-06-24T02:58:10Z",
+      "updated_at": "2026-06-24T14:40:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -579,6 +581,8 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
+        "go",
         "renovate",
         "main",
         "size: S",
@@ -595,7 +599,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-06-24T02:55:11Z",
+      "updated_at": "2026-06-24T14:35:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -817,31 +821,6 @@
       ]
     },
     {
-      "title": "feat: deny releases using experimental Hermeto backends",
-      "url": "https://github.com/conforma/policy/pull/1736",
-      "number": 1736,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-06-02T11:18:40Z",
-      "updated_at": "2026-06-24T13:15:37Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 7,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XL",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "docs(#1750): document result format and result_helper functions",
       "url": "https://github.com/conforma/policy/pull/1754",
       "number": 1754,
@@ -938,6 +917,30 @@
       "unresolved_conversations": 3,
       "labels": [
         "size: S"
+      ]
+    },
+    {
+      "title": "docs(#1760): add effective_on review checklist to AGENTS.md",
+      "url": "https://github.com/conforma/policy/pull/1761",
+      "number": 1761,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-06-24T14:44:13Z",
+      "updated_at": "2026-06-24T14:46:56Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -2213,7 +2216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-05-12T11:10:11Z",
-      "updated_at": "2026-06-24T08:10:12Z",
+      "updated_at": "2026-06-24T13:59:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2222,7 +2225,7 @@
         "count": 2,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XS",
         "ready-for-merge"
@@ -4784,7 +4787,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-17T14:11:59Z",
-      "updated_at": "2026-06-23T12:58:50Z",
+      "updated_at": "2026-06-24T13:54:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4808,7 +4811,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-22T13:40:33Z",
-      "updated_at": "2026-06-23T13:17:14Z",
+      "updated_at": "2026-06-24T13:54:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6114,28 +6117,6 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 2,
-      "labels": []
-    },
-    {
-      "title": "Add workflow to push OPA data bundle to Quay ",
-      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/223",
-      "number": 223,
-      "repo": "release-engineering/rhtap-ec-policy",
-      "author": {
-        "login": "BohdanMar",
-        "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
-      },
-      "created_at": "2026-05-25T11:34:33Z",
-      "updated_at": "2026-06-24T08:52:59Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 9,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
       "labels": []
     }
   ]
