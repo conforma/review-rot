@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T15:47:55.355957746Z",
+  "generated_at": "2026-06-24T16:44:11.240170163Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4827,7 +4827,7 @@
       ]
     },
     {
-      "title": "Update github actions to v1.2.0 (main)",
+      "title": "Update github actions (main) (minor)",
       "url": "https://github.com/conforma/demos/pull/7",
       "number": 7,
       "repo": "conforma/demos",
@@ -4836,7 +4836,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-19T03:41:08Z",
-      "updated_at": "2026-06-04T04:03:44Z",
+      "updated_at": "2026-06-24T16:03:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
