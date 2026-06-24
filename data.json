@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T14:57:15.207533331Z",
+  "generated_at": "2026-06-24T15:47:55.355957746Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -929,7 +929,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-06-24T14:44:13Z",
-      "updated_at": "2026-06-24T14:46:56Z",
+      "updated_at": "2026-06-24T14:57:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -938,8 +938,9 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
+        "documentation",
         "size: XS"
       ]
     },
@@ -4283,7 +4284,7 @@
       ]
     },
     {
-      "title": "Update github actions to v1.2.0 (main)",
+      "title": "Update github actions (main) (minor)",
       "url": "https://github.com/conforma/community/pull/76",
       "number": 76,
       "repo": "conforma/community",
@@ -4292,7 +4293,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-19T03:34:06Z",
-      "updated_at": "2026-06-04T03:51:32Z",
+      "updated_at": "2026-06-24T15:46:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4787,13 +4788,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-17T14:11:59Z",
-      "updated_at": "2026-06-24T13:54:19Z",
+      "updated_at": "2026-06-24T15:28:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4811,16 +4812,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-22T13:40:33Z",
-      "updated_at": "2026-06-24T13:54:40Z",
+      "updated_at": "2026-06-24T15:33:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
-        "count": 5,
+        "count": 6,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "size: M"
       ]
@@ -6041,17 +6042,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-06-22T17:21:55Z",
-      "updated_at": "2026-06-23T14:40:36Z",
+      "updated_at": "2026-06-24T15:18:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "prod/needs-approval"
+      ]
     },
     {
       "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
