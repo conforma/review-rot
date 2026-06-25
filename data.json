@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T11:24:12.431731557Z",
+  "generated_at": "2026-06-25T12:16:35.268848568Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3406,7 +3406,7 @@
       ]
     },
     {
-      "title": "Update go modules (main) (minor)",
+      "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
       "url": "https://github.com/conforma/review-rot/pull/246",
       "number": 246,
       "repo": "conforma/review-rot",
@@ -3415,7 +3415,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-06-22T19:01:55Z",
+      "updated_at": "2026-06-25T11:41:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3432,7 +3432,7 @@
       ]
     },
     {
-      "title": "🚨 Update github actions (main) (major)",
+      "title": "🚨 Update actions/checkout action to v7 (main)",
       "url": "https://github.com/conforma/review-rot/pull/247",
       "number": 247,
       "repo": "conforma/review-rot",
@@ -3441,7 +3441,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-19T00:57:25Z",
-      "updated_at": "2026-06-22T19:01:58Z",
+      "updated_at": "2026-06-25T11:41:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
