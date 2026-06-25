@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T07:45:41.483647096Z",
+  "generated_at": "2026-06-25T09:05:32.868843379Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4758,7 +4758,7 @@
       ]
     },
     {
-      "title": "fix(deps): update go modules (main) (patch)",
+      "title": "fix(deps): update module oras.land/oras-go/v2 to v2.6.1 (main)",
       "url": "https://github.com/conforma/go-gather/pull/332",
       "number": 332,
       "repo": "conforma/go-gather",
@@ -4767,7 +4767,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T02:47:21Z",
-      "updated_at": "2026-06-22T13:55:22Z",
+      "updated_at": "2026-06-25T09:04:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5273,7 +5273,7 @@
       ]
     },
     {
-      "title": "Update npm dependencies (main) (patch)",
+      "title": "Update dependency @actions/core to v2.0.3 (main)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/14",
       "number": 14,
       "repo": "conforma/pr-size-label-action",
@@ -5282,7 +5282,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-06-22T18:29:23Z",
+      "updated_at": "2026-06-25T09:03:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5349,7 +5349,7 @@
       ]
     },
     {
-      "title": "Update github actions (main) (patch)",
+      "title": "Update actions/checkout action to v6.0.3 (main)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/24",
       "number": 24,
       "repo": "conforma/pr-size-label-action",
@@ -5358,7 +5358,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:38:14Z",
-      "updated_at": "2026-06-22T18:29:15Z",
+      "updated_at": "2026-06-25T09:03:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5374,7 +5374,7 @@
       ]
     },
     {
-      "title": "🚨 Update github actions (main) (major)",
+      "title": "🚨 Update actions/checkout action to v7 (main)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/25",
       "number": 25,
       "repo": "conforma/pr-size-label-action",
@@ -5383,7 +5383,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-20T01:14:43Z",
-      "updated_at": "2026-06-22T18:29:31Z",
+      "updated_at": "2026-06-25T09:04:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
