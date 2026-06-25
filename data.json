@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-25T12:16:35.268848568Z",
+  "generated_at": "2026-06-25T13:15:58.094088084Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -12,7 +12,7 @@
   },
   "pull_requests": [
     {
-      "title": "Update go modules (main) (minor)",
+      "title": "Update go modules (main)",
       "url": "https://github.com/conforma/policy/pull/1632",
       "number": 1632,
       "repo": "conforma/policy",
@@ -21,11 +21,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-06-08T23:40:17Z",
+      "updated_at": "2026-06-25T13:15:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "M",
+      "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -34,7 +34,7 @@
       "labels": [
         "renovate",
         "main",
-        "size: M"
+        "size: L"
       ]
     },
     {
@@ -1279,7 +1279,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-06-24T06:30:38Z",
+      "updated_at": "2026-06-25T13:13:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1463,7 +1463,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-06-24T06:32:29Z",
+      "updated_at": "2026-06-25T13:15:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4784,51 +4784,27 @@
       ]
     },
     {
-      "title": "chore: sync with upstream google/go-containerregistry",
-      "url": "https://github.com/conforma/go-containerregistry/pull/4",
-      "number": 4,
+      "title": "fix: remove persist-credentials to allow repo-sync push",
+      "url": "https://github.com/conforma/go-containerregistry/pull/6",
+      "number": 6,
       "repo": "conforma/go-containerregistry",
       "author": {
         "login": "robnester-rh",
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
-      "created_at": "2026-06-17T14:11:59Z",
-      "updated_at": "2026-06-24T15:28:46Z",
+      "created_at": "2026-06-25T12:59:48Z",
+      "updated_at": "2026-06-25T13:01:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
-      "size": "XXL",
+      "size": "XS",
       "reviews": {
-        "count": 1,
+        "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XXL"
-      ]
-    },
-    {
-      "title": "fix(EC-1866): replace gh repo sync with merge-based upstream sync",
-      "url": "https://github.com/conforma/go-containerregistry/pull/5",
-      "number": 5,
-      "repo": "conforma/go-containerregistry",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-06-22T13:40:33Z",
-      "updated_at": "2026-06-24T15:33:11Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "M",
-      "reviews": {
-        "count": 6,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
+        "size: XS"
       ]
     },
     {
