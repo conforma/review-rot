@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T00:41:44.229894737Z",
+  "generated_at": "2026-06-26T01:43:29.589035701Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1177,7 +1177,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-06-25T02:58:34Z",
+      "updated_at": "2026-06-26T01:42:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1281,7 +1281,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-06-25T21:26:06Z",
+      "updated_at": "2026-06-26T01:37:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1388,7 +1388,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-06-23T02:55:48Z",
+      "updated_at": "2026-06-26T01:41:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1523,7 +1523,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-03-05T02:09:00Z",
-      "updated_at": "2026-06-25T02:30:44Z",
+      "updated_at": "2026-06-26T01:36:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1831,10 +1831,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-04-17T02:41:30Z",
-      "updated_at": "2026-06-20T02:51:11Z",
+      "updated_at": "2026-06-26T01:39:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -1924,7 +1924,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 8501432 (main)",
+      "title": "Update docker images (main)",
       "url": "https://github.com/conforma/cli/pull/3270",
       "number": 3270,
       "repo": "conforma/cli",
@@ -1933,10 +1933,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T03:04:45Z",
-      "updated_at": "2026-06-24T02:24:30Z",
+      "updated_at": "2026-06-26T01:39:54Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2403,7 +2403,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-13T00:49:57Z",
-      "updated_at": "2026-06-25T10:20:15Z",
+      "updated_at": "2026-06-26T01:37:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3338,7 +3338,7 @@
       ]
     },
     {
-      "title": "🚨 Update actions/checkout action to v7 (main)",
+      "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/golden-container/pull/1497",
       "number": 1497,
       "repo": "conforma/golden-container",
@@ -3347,7 +3347,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-21T02:56:45Z",
-      "updated_at": "2026-06-21T02:56:53Z",
+      "updated_at": "2026-06-26T00:48:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3362,6 +3362,58 @@
         "renovate",
         "size: XS",
         "major"
+      ]
+    },
+    {
+      "title": "Update docker images (main)",
+      "url": "https://github.com/conforma/golden-container/pull/1498",
+      "number": 1498,
+      "repo": "conforma/golden-container",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-06-26T00:48:27Z",
+      "updated_at": "2026-06-26T00:48:36Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to fdf68a4 (main)",
+      "url": "https://github.com/conforma/golden-container/pull/1499",
+      "number": 1499,
+      "repo": "conforma/golden-container",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-06-26T00:48:52Z",
+      "updated_at": "2026-06-26T00:49:01Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
       ]
     },
     {
@@ -4666,31 +4718,6 @@
       ]
     },
     {
-      "title": "fix(deps): update module github.com/go-git/go-git/v5 to v5.19.1 [security] (main)",
-      "url": "https://github.com/conforma/go-gather/pull/327",
-      "number": 327,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-05-11T15:39:45Z",
-      "updated_at": "2026-06-09T02:46:41Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "security",
-        "size: M"
-      ]
-    },
-    {
       "title": "fix(deps): update module github.com/go-git/go-billy/v5 to v5.9.0 [security] (main)",
       "url": "https://github.com/conforma/go-gather/pull/328",
       "number": 328,
@@ -4778,7 +4805,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T02:47:21Z",
-      "updated_at": "2026-06-25T09:04:50Z",
+      "updated_at": "2026-06-26T01:16:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
