@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T11:52:17.156068408Z",
+  "generated_at": "2026-06-26T12:42:39.208252986Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2721,10 +2721,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-06-25T18:25:40Z",
-      "updated_at": "2026-06-25T22:05:51Z",
+      "updated_at": "2026-06-26T12:41:33Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 1,
@@ -4139,6 +4139,30 @@
       "labels": [
         "renovate",
         "release-v0.7",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "docs: remove experimental label and update README",
+      "url": "https://github.com/conforma/tekton-catalog/pull/259",
+      "number": 259,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-06-26T12:30:17Z",
+      "updated_at": "2026-06-26T12:32:40Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
         "size: XS"
       ]
     },
