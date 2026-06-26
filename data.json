@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T04:55:26.206929734Z",
+  "generated_at": "2026-06-26T06:24:21.074468595Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4721,6 +4721,31 @@
       ]
     },
     {
+      "title": "fix(deps): update module github.com/go-git/go-git/v5 to v5.19.1 [security] (main)",
+      "url": "https://github.com/conforma/go-gather/pull/327",
+      "number": 327,
+      "repo": "conforma/go-gather",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-05-11T15:39:45Z",
+      "updated_at": "2026-06-26T06:07:43Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "security",
+        "size: M"
+      ]
+    },
+    {
       "title": "fix(deps): update module github.com/go-git/go-billy/v5 to v5.9.0 [security] (main)",
       "url": "https://github.com/conforma/go-gather/pull/328",
       "number": 328,
@@ -4808,7 +4833,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T02:47:21Z",
-      "updated_at": "2026-06-26T01:16:34Z",
+      "updated_at": "2026-06-26T06:06:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
