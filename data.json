@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T20:34:24.295548404Z",
+  "generated_at": "2026-06-26T21:29:31.106213869Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1256,11 +1256,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-26T20:32:28Z",
+      "updated_at": "2026-06-26T20:54:31Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
-      "size": "XXL",
+      "ci_status": "FAILURE",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -1271,7 +1271,7 @@
         "go",
         "renovate",
         "main",
-        "size: XXL",
+        "size: XL",
         "ready-for-merge"
       ]
     },
@@ -1285,7 +1285,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-06-26T20:31:18Z",
+      "updated_at": "2026-06-26T20:54:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1294,7 +1294,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 32,
+      "unresolved_conversations": 33,
       "labels": [
         "dependencies",
         "go",
@@ -1314,10 +1314,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-06-26T20:31:28Z",
+      "updated_at": "2026-06-26T20:54:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -1325,10 +1325,12 @@
       },
       "unresolved_conversations": 10,
       "labels": [
+        "github_actions",
         "renovate",
         "major",
         "main",
-        "size: M"
+        "size: M",
+        "ci"
       ]
     },
     {
@@ -1341,7 +1343,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:48Z",
-      "updated_at": "2026-06-26T20:31:41Z",
+      "updated_at": "2026-06-26T20:44:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1350,8 +1352,10 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 4,
       "labels": [
+        "dependencies",
+        "go",
         "renovate",
         "major",
         "main",
@@ -1371,7 +1375,7 @@
       "updated_at": "2026-06-26T20:20:06Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "count": 2,
@@ -1395,11 +1399,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-06-26T20:31:51Z",
+      "updated_at": "2026-06-26T21:06:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XXL",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -1410,7 +1414,7 @@
         "go",
         "renovate",
         "release-v0.7",
-        "size: XXL",
+        "size: XL",
         "ready-for-merge"
       ]
     },
@@ -1451,7 +1455,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-06-24T03:10:48Z",
+      "updated_at": "2026-06-26T21:07:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1462,9 +1466,11 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "github_actions",
         "renovate",
         "release-v0.7",
-        "size: S"
+        "size: S",
+        "ci"
       ]
     },
     {
@@ -1477,7 +1483,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-06-26T17:40:13Z",
+      "updated_at": "2026-06-26T20:58:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2077,10 +2083,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T18:51:52Z",
-      "updated_at": "2026-06-26T20:30:18Z",
+      "updated_at": "2026-06-26T20:45:48Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2088,9 +2094,12 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
+        "go",
         "renovate",
         "main",
-        "size: XS"
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -2358,10 +2367,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-06-26T20:30:25Z",
+      "updated_at": "2026-06-26T20:45:37Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2369,6 +2378,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "github_actions",
         "renovate",
         "main",
         "size: S"
@@ -2553,6 +2563,118 @@
         "go",
         "docker",
         "size: XS"
+      ]
+    },
+    {
+      "title": "fix(#3360): add missing \"go version\" group to Renovate config",
+      "url": "https://github.com/conforma/cli/pull/3361",
+      "number": 3361,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-06-26T20:50:13Z",
+      "updated_at": "2026-06-26T21:01:34Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "dependencies",
+        "size: XS",
+        "config",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update module github.com/sigstore/rekor to v1.5.2 [SECURITY] (main)",
+      "url": "https://github.com/conforma/cli/pull/3362",
+      "number": 3362,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-06-26T20:52:51Z",
+      "updated_at": "2026-06-26T21:09:29Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go",
+        "renovate",
+        "main",
+        "size: XXL",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update module github.com/sigstore/rekor to v1.5.2 [SECURITY] (release-v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3363",
+      "number": 3363,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-06-26T20:55:45Z",
+      "updated_at": "2026-06-26T21:07:39Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "renovate",
+        "release-v0.7",
+        "size: XL",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update module github.com/sigstore/rekor to v1.5.2 [SECURITY] (release-v0.8)",
+      "url": "https://github.com/conforma/cli/pull/3364",
+      "number": 3364,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-06-26T20:58:48Z",
+      "updated_at": "2026-06-26T21:09:03Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "renovate",
+        "size: XL",
+        "release-v0.8",
+        "ready-for-merge"
       ]
     },
     {
@@ -4799,7 +4921,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T01:02:53Z",
-      "updated_at": "2026-06-24T13:39:08Z",
+      "updated_at": "2026-06-26T21:17:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4825,11 +4947,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:35:59Z",
-      "updated_at": "2026-06-26T12:51:55Z",
+      "updated_at": "2026-06-26T21:16:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "L",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -4838,7 +4960,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: L"
+        "size: XL"
       ]
     },
     {
@@ -4851,7 +4973,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:47:48Z",
-      "updated_at": "2026-06-24T13:39:10Z",
+      "updated_at": "2026-06-26T21:18:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4878,7 +5000,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-06-26T12:53:19Z",
+      "updated_at": "2026-06-26T21:16:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
