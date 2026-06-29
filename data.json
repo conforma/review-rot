@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T09:08:11.487337334Z",
+  "generated_at": "2026-06-29T11:14:47.058784964Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1287,7 +1287,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-06-26T21:36:18Z",
+      "updated_at": "2026-06-29T11:02:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1485,7 +1485,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-06-26T21:36:42Z",
+      "updated_at": "2026-06-29T11:06:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2337,7 +2337,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/158172821?v=4"
       },
       "created_at": "2026-06-23T13:38:09Z",
-      "updated_at": "2026-06-29T09:00:07Z",
+      "updated_at": "2026-06-29T11:13:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2352,33 +2352,6 @@
         "go",
         "size: XXL",
         "ready-for-merge"
-      ]
-    },
-    {
-      "title": "fix cve-2026-42499: Upgrade Go to 1.26.3",
-      "url": "https://github.com/conforma/cli/pull/3356",
-      "number": 3356,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "fghanmi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/158172821?v=4"
-      },
-      "created_at": "2026-06-24T11:38:40Z",
-      "updated_at": "2026-06-29T09:04:52Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 9,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "dependencies",
-        "go",
-        "docker",
-        "size: XS"
       ]
     },
     {
@@ -2475,7 +2448,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-26T20:58:48Z",
-      "updated_at": "2026-06-26T21:36:43Z",
+      "updated_at": "2026-06-29T11:13:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6145,6 +6118,28 @@
         "has_new_commits": true
       },
       "unresolved_conversations": 2,
+      "labels": []
+    },
+    {
+      "title": "Switch push-data-bundle workflow to task-runner image",
+      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/235",
+      "number": 235,
+      "repo": "release-engineering/rhtap-ec-policy",
+      "author": {
+        "login": "BohdanMar",
+        "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
+      },
+      "created_at": "2026-06-29T09:52:38Z",
+      "updated_at": "2026-06-29T09:52:39Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
       "labels": []
     }
   ]
