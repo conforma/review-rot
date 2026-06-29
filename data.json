@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T14:23:20.725159821Z",
+  "generated_at": "2026-06-29T15:45:53.837207019Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-06-29T14:17:55Z",
+      "updated_at": "2026-06-29T14:26:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1311,7 +1311,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-06-29T11:30:16Z",
+      "updated_at": "2026-06-29T15:42:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1509,7 +1509,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-06-29T11:31:50Z",
+      "updated_at": "2026-06-29T15:44:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2328,58 +2328,6 @@
       ]
     },
     {
-      "title": "fix: cve-2026-39829, upgrade golang.org/x/crypto",
-      "url": "https://github.com/conforma/cli/pull/3354",
-      "number": 3354,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "fghanmi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/158172821?v=4"
-      },
-      "created_at": "2026-06-23T12:49:29Z",
-      "updated_at": "2026-06-29T14:11:41Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "S",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: S",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "fix: cve-2026-39821, upgrade golang.org/x/net",
-      "url": "https://github.com/conforma/cli/pull/3355",
-      "number": 3355,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "fghanmi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/158172821?v=4"
-      },
-      "created_at": "2026-06-23T13:38:09Z",
-      "updated_at": "2026-06-29T11:58:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "dependencies",
-        "go",
-        "size: XXL",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "fix(#3360): add missing \"go version\" group to Renovate config",
       "url": "https://github.com/conforma/cli/pull/3361",
       "number": 3361,
@@ -2473,7 +2421,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-26T20:58:48Z",
-      "updated_at": "2026-06-29T11:13:48Z",
+      "updated_at": "2026-06-29T15:45:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5709,8 +5657,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-06-22T22:07:10Z",
-      "updated_at": "2026-06-25T20:03:15Z",
-      "is_draft": true,
+      "updated_at": "2026-06-29T15:39:03Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
@@ -5718,7 +5666,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 4,
       "labels": [
         "size: L"
       ]
