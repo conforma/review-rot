@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T21:31:20.803588929Z",
+  "generated_at": "2026-06-29T22:24:02.43116122Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1284,7 +1284,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-29T21:15:01Z",
+      "updated_at": "2026-06-29T21:54:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1426,7 +1426,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-06-29T21:17:19Z",
+      "updated_at": "2026-06-29T21:54:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2664,35 +2664,6 @@
         "main",
         "size: XS",
         "requires-manual-review"
-      ]
-    },
-    {
-      "title": "Update tektoncd pipelines to v1.12.2 (main)",
-      "url": "https://github.com/conforma/cli/pull/3373",
-      "number": 3373,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-06-29T01:22:52Z",
-      "updated_at": "2026-06-29T01:32:43Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XL",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "renovate",
-        "main",
-        "size: XL",
-        "ready-for-merge"
       ]
     },
     {
