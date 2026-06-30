@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T12:40:31.303034462Z",
+  "generated_at": "2026-06-30T13:35:59.431900719Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -958,20 +958,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-29T13:35:24Z",
-      "updated_at": "2026-06-29T16:50:47Z",
+      "updated_at": "2026-06-30T13:17:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 8,
-        "has_new_commits": true
+        "count": 11,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 1,
       "labels": [
         "enhancement",
         "size: L",
-        "requires-manual-review"
+        "ready-for-merge"
       ]
     },
     {
@@ -2212,19 +2212,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-06-04T13:28:32Z",
-      "updated_at": "2026-06-22T11:09:53Z",
+      "updated_at": "2026-06-30T13:19:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
-        "count": 5,
-        "has_new_commits": false
+        "count": 10,
+        "has_new_commits": true
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 4,
       "labels": [
+        "go",
         "size: XL",
-        "requires-manual-review"
+        "testing",
+        "ready-for-merge"
       ]
     },
     {
@@ -3435,13 +3437,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-06-22T08:28:34Z",
-      "updated_at": "2026-06-22T09:59:05Z",
+      "updated_at": "2026-06-30T12:55:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
