@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T01:41:23.267665149Z",
+  "generated_at": "2026-06-30T03:06:29.443813421Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1205,7 +1205,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-06-29T02:02:20Z",
+      "updated_at": "2026-06-30T02:40:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1284,7 +1284,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-06-29T21:54:16Z",
+      "updated_at": "2026-06-30T02:23:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1313,7 +1313,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-06-29T15:54:12Z",
+      "updated_at": "2026-06-30T02:23:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1779,6 +1779,34 @@
       ]
     },
     {
+      "title": "Update docker images (main)",
+      "url": "https://github.com/conforma/cli/pull/3270",
+      "number": 3270,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-05-05T03:04:45Z",
+      "updated_at": "2026-06-30T02:00:04Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "dependencies",
+        "docker",
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/cli/pull/3279",
       "number": 3279,
@@ -1815,10 +1843,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-09T03:12:04Z",
-      "updated_at": "2026-06-28T02:03:34Z",
+      "updated_at": "2026-06-30T02:19:36Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -1826,6 +1854,8 @@
       },
       "unresolved_conversations": 3,
       "labels": [
+        "dependencies",
+        "github_actions",
         "renovate",
         "main",
         "size: S"
@@ -1868,7 +1898,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-06-29T02:19:37Z",
+      "updated_at": "2026-06-30T02:54:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1877,14 +1907,13 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 37,
+      "unresolved_conversations": 41,
       "labels": [
         "dependencies",
         "go",
         "renovate",
         "main",
-        "size: XXL",
-        "requires-manual-review"
+        "size: XXL"
       ]
     },
     {
@@ -2526,7 +2555,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.3-1782377916 (main)",
+      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.4-1782736563 (main)",
       "url": "https://github.com/conforma/cli/pull/3368",
       "number": 3368,
       "repo": "conforma/cli",
@@ -2535,7 +2564,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-06-27T02:18:06Z",
+      "updated_at": "2026-06-30T02:17:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2544,7 +2573,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 3,
       "labels": [
         "dependencies",
         "docker",
@@ -5245,7 +5274,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:50Z",
-      "updated_at": "2026-06-11T13:54:53Z",
+      "updated_at": "2026-06-30T02:28:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
