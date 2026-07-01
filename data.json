@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T14:17:25.471660059Z",
+  "generated_at": "2026-07-01T15:24:58.279573773Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1001,6 +1001,32 @@
       ]
     },
     {
+      "title": "fix(EC-1972): add missing trusted_task_rules_enabled toggle to tests",
+      "url": "https://github.com/conforma/policy/pull/1764",
+      "number": 1764,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-01T14:46:39Z",
+      "updated_at": "2026-07-01T14:57:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "bug",
+        "size: XS",
+        "ready-for-merge"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1310,7 +1336,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-01T02:35:33Z",
+      "updated_at": "2026-07-01T14:51:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1326,7 +1352,7 @@
         "renovate",
         "main",
         "size: XL",
-        "ready-for-merge"
+        "requires-manual-review"
       ]
     },
     {
@@ -1368,16 +1394,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-06-26T21:36:22Z",
+      "updated_at": "2026-07-01T14:53:34Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 10,
+      "unresolved_conversations": 12,
       "labels": [
         "github_actions",
         "renovate",
@@ -2268,7 +2294,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-06-26T20:45:37Z",
+      "updated_at": "2026-07-01T14:48:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2454,7 +2480,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-26T20:52:51Z",
-      "updated_at": "2026-06-26T21:35:57Z",
+      "updated_at": "2026-07-01T14:49:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2540,7 +2566,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-06-27T01:21:16Z",
+      "updated_at": "2026-07-01T14:43:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2569,7 +2595,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-06-27T01:23:26Z",
+      "updated_at": "2026-07-01T14:45:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2578,7 +2604,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "docker",
         "renovate",
@@ -2653,7 +2679,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-06-27T02:13:28Z",
+      "updated_at": "2026-07-01T14:47:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2786,33 +2812,6 @@
       ]
     },
     {
-      "title": "Update https://github.com/conforma/e2e-tests digest to f49f4a2 (main)",
-      "url": "https://github.com/conforma/cli/pull/3374",
-      "number": 3374,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-07-01T01:39:39Z",
-      "updated_at": "2026-07-01T01:52:49Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "🚨 Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v9 (main)",
       "url": "https://github.com/conforma/cli/pull/3375",
       "number": 3375,
@@ -2837,6 +2836,32 @@
         "major",
         "main",
         "size: XS"
+      ]
+    },
+    {
+      "title": "Pass custom CLI params to e2e pipeline for pull requests",
+      "url": "https://github.com/conforma/cli/pull/3376",
+      "number": 3376,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-07-01T14:26:53Z",
+      "updated_at": "2026-07-01T15:01:58Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "ci",
+        "ready-for-merge"
       ]
     },
     {
@@ -5790,6 +5815,30 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "feat: add Claude Code AI skills for conforma e2e-tests",
+      "url": "https://github.com/conforma/e2e-tests/pull/10",
+      "number": 10,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-07-01T15:13:43Z",
+      "updated_at": "2026-07-01T15:13:54Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
       ]
     },
     {
