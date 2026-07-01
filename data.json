@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T17:15:44.901946845Z",
+  "generated_at": "2026-07-01T18:10:57.945553373Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -946,32 +946,6 @@
       "labels": [
         "documentation",
         "size: XS"
-      ]
-    },
-    {
-      "title": "feat(EC-1798): per-task effective_on resolution for multi-build-type pipelines",
-      "url": "https://github.com/conforma/policy/pull/1762",
-      "number": 1762,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-06-29T13:35:24Z",
-      "updated_at": "2026-07-01T16:39:37Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "enhancement",
-        "size: L",
-        "ready-for-merge"
       ]
     },
     {
@@ -2813,7 +2787,7 @@
       ]
     },
     {
-      "title": "Pass custom CLI params to e2e pipeline for pull requests",
+      "title": "feat:  pass custom cli params to e2e pipeline for pull requests",
       "url": "https://github.com/conforma/cli/pull/3376",
       "number": 3376,
       "repo": "conforma/cli",
@@ -2822,13 +2796,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-07-01T14:26:53Z",
-      "updated_at": "2026-07-01T15:01:58Z",
+      "updated_at": "2026-07-01T18:00:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
