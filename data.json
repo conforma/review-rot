@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T08:25:22.792375012Z",
+  "generated_at": "2026-07-01T08:58:40.208081631Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -964,7 +964,7 @@
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 11,
+        "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -984,13 +984,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-06-30T22:06:10Z",
-      "updated_at": "2026-06-30T22:14:47Z",
+      "updated_at": "2026-07-01T08:53:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1432,7 +1432,7 @@
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 2,
+        "count": 1,
         "has_new_commits": true
       },
       "unresolved_conversations": 9,
@@ -1599,8 +1599,8 @@
       "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
-        "count": 10,
-        "has_new_commits": true
+        "count": 0,
+        "has_new_commits": false
       },
       "unresolved_conversations": 3,
       "labels": [
@@ -1623,7 +1623,7 @@
       "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
-        "count": 3,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 4,
@@ -2241,14 +2241,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-06-04T13:28:32Z",
-      "updated_at": "2026-06-30T13:19:22Z",
+      "updated_at": "2026-07-01T08:38:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
-        "count": 10,
-        "has_new_commits": true
+        "count": 3,
+        "has_new_commits": false
       },
       "unresolved_conversations": 4,
       "labels": [
@@ -3567,30 +3567,6 @@
         "renovate",
         "major",
         "size: XS"
-      ]
-    },
-    {
-      "title": "Exclude PR author's own reviews from review count",
-      "url": "https://github.com/conforma/review-rot/pull/248",
-      "number": 248,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-06-22T08:28:34Z",
-      "updated_at": "2026-06-30T12:55:35Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
       ]
     },
     {
@@ -5596,7 +5572,7 @@
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 6,
+        "count": 5,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5618,7 +5594,7 @@
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 3,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6120,7 +6096,7 @@
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 3,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6164,7 +6140,7 @@
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 4,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -6208,7 +6184,7 @@
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 9,
+        "count": 4,
         "has_new_commits": true
       },
       "unresolved_conversations": 2,
