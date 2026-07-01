@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T03:07:41.162409087Z",
+  "generated_at": "2026-07-01T05:02:15.339544142Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4552,7 +4552,7 @@
       ]
     },
     {
-      "title": "Update dependency vite to v6.4.2 [SECURITY] (main)",
+      "title": "Update dependency vite to v6.4.3 [SECURITY] (main)",
       "url": "https://github.com/conforma/policy-builder/pull/41",
       "number": 41,
       "repo": "conforma/policy-builder",
@@ -4561,7 +4561,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-21T22:08:06Z",
-      "updated_at": "2026-06-05T03:45:24Z",
+      "updated_at": "2026-07-01T04:14:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
