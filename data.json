@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T16:17:39.995896913Z",
+  "generated_at": "2026-07-01T17:15:44.901946845Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -958,13 +958,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-29T13:35:24Z",
-      "updated_at": "2026-06-30T13:17:40Z",
+      "updated_at": "2026-07-01T16:39:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -998,32 +998,6 @@
         "github_actions",
         "size: XS",
         "requires-manual-review"
-      ]
-    },
-    {
-      "title": "fix(EC-1972): add missing trusted_task_rules_enabled toggle to tests",
-      "url": "https://github.com/conforma/policy/pull/1764",
-      "number": 1764,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-01T14:46:39Z",
-      "updated_at": "2026-07-01T15:38:54Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "bug",
-        "size: XS",
-        "ready-for-merge"
       ]
     },
     {
