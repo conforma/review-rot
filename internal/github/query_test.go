@@ -85,9 +85,10 @@ func TestExtractSize(t *testing.T) {
 	}
 }
 
-func makeReviewNode(authorType, oid string) struct {
+func makeReviewNode(authorType, login, oid string) struct {
 	Author struct {
 		TypeName string `graphql:"__typename"`
+		Login    string
 	} `graphql:"author"`
 	Commit struct {
 		OID string `graphql:"oid"`
@@ -96,22 +97,25 @@ func makeReviewNode(authorType, oid string) struct {
 	var n struct {
 		Author struct {
 			TypeName string `graphql:"__typename"`
+			Login    string
 		} `graphql:"author"`
 		Commit struct {
 			OID string `graphql:"oid"`
 		}
 	}
 	n.Author.TypeName = authorType
+	n.Author.Login = login
 	n.Commit.OID = oid
 	return n
 }
 
 func TestExtractReviews(t *testing.T) {
 	node := prNode{HeadRefOid: "abc123"}
+	node.Author.Login = "author"
 	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("User", "aaa"),
-		makeReviewNode("User", "bbb"),
-		makeReviewNode("User", "def456"),
+		makeReviewNode("User", "reviewer", "aaa"),
+		makeReviewNode("User", "reviewer", "bbb"),
+		makeReviewNode("User", "reviewer", "def456"),
 	)
 
 	r := extractReviews(node)
@@ -122,7 +126,7 @@ func TestExtractReviews(t *testing.T) {
 		t.Error("HasNewCommits should be true when last review OID differs from head")
 	}
 
-	node.Reviews.Nodes[2] = makeReviewNode("User", "abc123")
+	node.Reviews.Nodes[2] = makeReviewNode("User", "reviewer", "abc123")
 	r = extractReviews(node)
 	if r.HasNewCommits {
 		t.Error("HasNewCommits should be false when last review OID matches head")
@@ -139,10 +143,11 @@ func TestExtractReviewsZero(t *testing.T) {
 
 func TestExtractReviewsExcludesBots(t *testing.T) {
 	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
 	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("User", "aaa"),
-		makeReviewNode("Bot", "bbb"),
-		makeReviewNode("Bot", "head"),
+		makeReviewNode("User", "reviewer", "aaa"),
+		makeReviewNode("Bot", "botuser", "bbb"),
+		makeReviewNode("Bot", "botuser", "head"),
 	)
 
 	r := extractReviews(node)
@@ -154,8 +159,8 @@ func TestExtractReviewsExcludesBots(t *testing.T) {
 	}
 
 	node.Reviews.Nodes = append(node.Reviews.Nodes[:0],
-		makeReviewNode("User", "head"),
-		makeReviewNode("Bot", "other"),
+		makeReviewNode("User", "reviewer", "head"),
+		makeReviewNode("Bot", "botuser", "other"),
 	)
 	r = extractReviews(node)
 	if r.Count != 1 {
@@ -168,9 +173,10 @@ func TestExtractReviewsExcludesBots(t *testing.T) {
 
 func TestExtractReviewsOnlyBots(t *testing.T) {
 	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
 	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("Bot", "head"),
-		makeReviewNode("Bot", "old"),
+		makeReviewNode("Bot", "botuser", "head"),
+		makeReviewNode("Bot", "botuser", "old"),
 	)
 
 	r := extractReviews(node)
@@ -179,6 +185,50 @@ func TestExtractReviewsOnlyBots(t *testing.T) {
 	}
 	if r.HasNewCommits {
 		t.Error("HasNewCommits should be false when there are no human reviews")
+	}
+}
+
+func TestExtractReviewsExcludesPRAuthor(t *testing.T) {
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	node.Reviews.Nodes = append(node.Reviews.Nodes,
+		makeReviewNode("User", "author", "head"),
+		makeReviewNode("User", "author", "old"),
+	)
+
+	r := extractReviews(node)
+	if r.Count != 0 {
+		t.Errorf("Count = %d, want 0 (PR author reviews excluded)", r.Count)
+	}
+	if r.HasNewCommits {
+		t.Error("HasNewCommits should be false when there are no peer reviews")
+	}
+}
+
+func TestExtractReviewsAuthorAndBotsMixed(t *testing.T) {
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	node.Reviews.Nodes = append(node.Reviews.Nodes,
+		makeReviewNode("Bot", "fullsend", "head"),
+		makeReviewNode("User", "author", "head"),
+		makeReviewNode("Bot", "coderabbit", "old"),
+		makeReviewNode("User", "author", "old"),
+	)
+
+	r := extractReviews(node)
+	if r.Count != 0 {
+		t.Errorf("Count = %d, want 0 (only bot and PR author reviews)", r.Count)
+	}
+
+	node.Reviews.Nodes = append(node.Reviews.Nodes,
+		makeReviewNode("User", "teammate", "head"),
+	)
+	r = extractReviews(node)
+	if r.Count != 1 {
+		t.Errorf("Count = %d, want 1 (one peer review)", r.Count)
+	}
+	if r.HasNewCommits {
+		t.Error("HasNewCommits should be false: peer review matches head")
 	}
 }
 
