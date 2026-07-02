@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T13:08:14.150130395Z",
+  "generated_at": "2026-07-02T14:15:05.917585711Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -951,6 +951,30 @@
       "labels": [
         "documentation",
         "size: XS"
+      ]
+    },
+    {
+      "title": "feat(EC-1950): bring test_attestation to feature parity with test package",
+      "url": "https://github.com/conforma/policy/pull/1765",
+      "number": 1765,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-07-02T14:00:34Z",
+      "updated_at": "2026-07-02T14:12:33Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
       ]
     },
     {
@@ -2195,7 +2219,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-06-04T13:28:32Z",
-      "updated_at": "2026-07-01T08:38:42Z",
+      "updated_at": "2026-07-02T14:01:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2204,7 +2228,7 @@
         "count": 3,
         "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 1,
       "labels": [
         "go",
         "size: XL",
@@ -4908,13 +4932,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-06-29T14:10:46Z",
-      "updated_at": "2026-06-29T14:14:00Z",
+      "updated_at": "2026-07-02T13:37:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5524,35 +5548,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-16T02:12:56Z",
-      "updated_at": "2026-05-13T12:59:30Z",
+      "updated_at": "2026-07-02T13:47:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
       "size": null,
       "reviews": {
         "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat: add testName and timestamp annotations to oras attach",
-      "url": "https://github.com/conforma/step-actions/pull/3",
-      "number": 3,
-      "repo": "conforma/step-actions",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-05-13T22:26:41Z",
-      "updated_at": "2026-06-11T09:48:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 5,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
