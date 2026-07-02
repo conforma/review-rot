@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T06:17:06.339690939Z",
+  "generated_at": "2026-07-02T07:40:39.375103752Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1263,10 +1263,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-02T06:14:04Z",
+      "updated_at": "2026-07-02T06:22:03Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -1406,7 +1406,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-02T01:42:16Z",
+      "updated_at": "2026-07-02T06:24:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2775,10 +2775,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:12:37Z",
-      "updated_at": "2026-07-02T06:15:23Z",
+      "updated_at": "2026-07-02T06:27:51Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2786,9 +2786,12 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
+        "go",
         "renovate",
         "main",
-        "size: XS"
+        "size: XS",
+        "ready-for-merge"
       ]
     },
     {
@@ -2801,7 +2804,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:15:30Z",
-      "updated_at": "2026-07-02T06:15:39Z",
+      "updated_at": "2026-07-02T06:23:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2814,7 +2817,37 @@
       "labels": [
         "renovate",
         "release-v0.7",
-        "size: XS"
+        "size: XS",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update module oras.land/oras-go/v2 to v2.6.1 [SECURITY] (release-v0.8)",
+      "url": "https://github.com/conforma/cli/pull/3380",
+      "number": 3380,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-07-02T06:17:44Z",
+      "updated_at": "2026-07-02T06:25:08Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go",
+        "renovate",
+        "size: XS",
+        "release-v0.8",
+        "ready-for-merge"
       ]
     },
     {
@@ -4871,16 +4904,16 @@
       ]
     },
     {
-      "title": "fix(deps): update module oras.land/oras-go/v2 to v2.6.1 (main)",
-      "url": "https://github.com/conforma/go-gather/pull/332",
-      "number": 332,
+      "title": "fix(deps): update module oras.land/oras-go/v2 to v2.6.1 [security] (main)",
+      "url": "https://github.com/conforma/go-gather/pull/333",
+      "number": 333,
       "repo": "conforma/go-gather",
       "author": {
         "login": "renovate",
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
-      "created_at": "2026-06-09T02:47:21Z",
-      "updated_at": "2026-06-26T06:06:16Z",
+      "created_at": "2026-07-02T06:43:42Z",
+      "updated_at": "2026-07-02T06:45:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4891,9 +4924,8 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "main",
-        "renovate",
-        "size: XS"
+        "size: XS",
+        "security"
       ]
     },
     {
@@ -5269,7 +5301,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-06-30T21:05:53Z",
+      "updated_at": "2026-07-02T06:56:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
