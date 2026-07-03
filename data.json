@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T17:34:34.52636758Z",
+  "generated_at": "2026-07-03T18:27:59.295708626Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1321,7 +1321,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-03T09:11:22Z",
+      "updated_at": "2026-07-03T17:41:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1350,7 +1350,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-03T13:58:19Z",
+      "updated_at": "2026-07-03T17:41:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1379,7 +1379,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-07-03T09:13:40Z",
+      "updated_at": "2026-07-03T17:41:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1464,7 +1464,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-03T09:13:52Z",
+      "updated_at": "2026-07-03T17:42:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1520,7 +1520,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-03T09:13:56Z",
+      "updated_at": "2026-07-03T17:42:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1548,7 +1548,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-03T14:02:12Z",
+      "updated_at": "2026-07-03T17:42:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2373,36 +2373,6 @@
       ]
     },
     {
-      "title": "Update tektoncd pipelines to v1.13.1 (main)",
-      "url": "https://github.com/conforma/cli/pull/3352",
-      "number": 3352,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-06-20T03:08:59Z",
-      "updated_at": "2026-07-03T02:20:38Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "L",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "renovate",
-        "main",
-        "size: L",
-        "Review effort 1/5",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Migrate Renovate config",
       "url": "https://github.com/conforma/cli/pull/3353",
       "number": 3353,
@@ -2770,35 +2740,6 @@
       ]
     },
     {
-      "title": "Update tektoncd pipelines to v1.12.2 (main)",
-      "url": "https://github.com/conforma/cli/pull/3373",
-      "number": 3373,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-06-29T01:22:52Z",
-      "updated_at": "2026-07-03T02:21:46Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XL",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "renovate",
-        "main",
-        "size: XL",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "🚨 Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v9 (main)",
       "url": "https://github.com/conforma/cli/pull/3375",
       "number": 3375,
@@ -2865,7 +2806,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:12:37Z",
-      "updated_at": "2026-07-03T09:11:08Z",
+      "updated_at": "2026-07-03T17:41:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2894,7 +2835,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:15:30Z",
-      "updated_at": "2026-07-03T09:13:42Z",
+      "updated_at": "2026-07-03T17:41:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2921,7 +2862,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:17:44Z",
-      "updated_at": "2026-07-03T09:15:45Z",
+      "updated_at": "2026-07-03T17:42:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
