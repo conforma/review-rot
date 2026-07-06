@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T20:37:52.672712676Z",
+  "generated_at": "2026-07-06T21:31:27.142927988Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1321,7 +1321,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-06T13:07:48Z",
+      "updated_at": "2026-07-06T21:28:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2940,6 +2940,30 @@
         "go",
         "size: XS",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "fix(EC-1977): migrate tenant-release SA to konflux-bot-0",
+      "url": "https://github.com/conforma/cli/pull/3385",
+      "number": 3385,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-07-06T20:41:14Z",
+      "updated_at": "2026-07-06T21:11:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -5947,6 +5971,28 @@
       "labels": [
         "size: XXL"
       ]
+    },
+    {
+      "title": "chore: add agents repo to allowed_remote_resources",
+      "url": "https://github.com/conforma/.fullsend/pull/6",
+      "number": 6,
+      "repo": "conforma/.fullsend",
+      "author": {
+        "login": "ggallen",
+        "avatar_url": "https://avatars.githubusercontent.com/u/6012561?v=4"
+      },
+      "created_at": "2026-07-06T20:42:32Z",
+      "updated_at": "2026-07-06T21:03:46Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "Update registry.access.redhat.com/ubi8/ubi-micro:latest Docker digest to a75feff (main)",
