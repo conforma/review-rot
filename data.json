@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T10:32:54.928751049Z",
+  "generated_at": "2026-07-06T12:18:15.302975479Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2232,16 +2232,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-06-04T13:28:32Z",
-      "updated_at": "2026-07-03T11:06:10Z",
+      "updated_at": "2026-07-06T12:17:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
-        "count": 4,
-        "has_new_commits": false
+        "count": 3,
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "go",
         "size: XL",
@@ -2262,7 +2262,7 @@
       "updated_at": "2026-07-06T09:55:09Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2938,6 +2938,33 @@
       "labels": [
         "documentation",
         "size: XL",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Bump conforma/go-containerregistry",
+      "url": "https://github.com/conforma/cli/pull/3384",
+      "number": 3384,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-07-06T11:05:13Z",
+      "updated_at": "2026-07-06T11:21:47Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go",
+        "size: XS",
         "ready-for-merge"
       ]
     },
