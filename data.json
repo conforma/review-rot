@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T08:31:18.82548913Z",
+  "generated_at": "2026-07-06T10:32:54.928751049Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1321,7 +1321,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-06T05:47:22Z",
+      "updated_at": "2026-07-06T09:49:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2223,31 +2223,6 @@
       ]
     },
     {
-      "title": "style(#3160): use explicit 0o octal notation for file permissions",
-      "url": "https://github.com/conforma/cli/pull/3329",
-      "number": 3329,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "fullsend-ai-coder",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
-      },
-      "created_at": "2026-06-03T11:27:54Z",
-      "updated_at": "2026-07-06T08:20:04Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XL",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "feat(EC-1816): add multi-component stress benchmark",
       "url": "https://github.com/conforma/cli/pull/3331",
       "number": 3331,
@@ -2284,10 +2259,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-01T20:01:19Z",
+      "updated_at": "2026-07-06T09:55:09Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2298,7 +2273,8 @@
         "github_actions",
         "renovate",
         "main",
-        "size: S"
+        "size: S",
+        "requires-manual-review"
       ]
     },
     {
@@ -2440,7 +2416,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-26T20:52:51Z",
-      "updated_at": "2026-07-01T20:04:51Z",
+      "updated_at": "2026-07-06T09:50:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2526,7 +2502,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-01T19:55:38Z",
+      "updated_at": "2026-07-06T09:46:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2535,7 +2511,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "dependencies",
         "go",
@@ -2555,7 +2531,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-01T19:59:12Z",
+      "updated_at": "2026-07-06T09:45:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2566,10 +2542,12 @@
       },
       "unresolved_conversations": 3,
       "labels": [
+        "go",
         "docker",
         "renovate",
         "main",
-        "size: XS"
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -2639,7 +2617,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-01T20:01:15Z",
+      "updated_at": "2026-07-06T09:50:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2810,7 +2788,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:12:37Z",
-      "updated_at": "2026-07-04T12:41:00Z",
+      "updated_at": "2026-07-06T09:50:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2882,6 +2860,84 @@
         "renovate",
         "size: XS",
         "release-v0.8",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "feat(#3345): improve error messages for Rego compilation failures",
+      "url": "https://github.com/conforma/cli/pull/3381",
+      "number": 3381,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-07-06T08:49:00Z",
+      "updated_at": "2026-07-06T08:59:36Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XL",
+        "ux"
+      ]
+    },
+    {
+      "title": "feat(#1313): accept positional args for validate input",
+      "url": "https://github.com/conforma/cli/pull/3382",
+      "number": 3382,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-07-06T08:57:40Z",
+      "updated_at": "2026-07-06T09:21:08Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: L",
+        "cli",
+        "ux",
+        "feature"
+      ]
+    },
+    {
+      "title": "feat(#1512): remove abandoned generated documentation files",
+      "url": "https://github.com/conforma/cli/pull/3383",
+      "number": 3383,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-07-06T09:51:14Z",
+      "updated_at": "2026-07-06T10:07:10Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "documentation",
+        "size: XL",
         "ready-for-merge"
       ]
     },
@@ -5013,6 +5069,30 @@
       "labels": [
         "size: XS",
         "security"
+      ]
+    },
+    {
+      "title": "chore: sync with upstream google/go-containerregistry",
+      "url": "https://github.com/conforma/go-containerregistry/pull/11",
+      "number": 11,
+      "repo": "conforma/go-containerregistry",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-07-06T09:51:22Z",
+      "updated_at": "2026-07-06T09:53:31Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
       ]
     },
     {
