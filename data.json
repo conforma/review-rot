@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T00:34:19.425165733Z",
+  "generated_at": "2026-07-06T01:34:46.093457818Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3520,6 +3520,32 @@
       },
       "created_at": "2026-07-03T02:29:22Z",
       "updated_at": "2026-07-03T02:29:31Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github actions to v4.36.3 (main)",
+      "url": "https://github.com/conforma/golden-container/pull/1501",
+      "number": 1501,
+      "repo": "conforma/golden-container",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-07-06T01:24:26Z",
+      "updated_at": "2026-07-06T01:24:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
