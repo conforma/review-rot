@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T12:18:15.302975479Z",
+  "generated_at": "2026-07-06T13:45:52.605490917Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1321,7 +1321,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-06T09:49:28Z",
+      "updated_at": "2026-07-06T13:07:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1437,11 +1437,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
       },
       "created_at": "2026-02-27T21:31:46Z",
-      "updated_at": "2026-06-26T20:20:06Z",
+      "updated_at": "2026-07-06T13:43:21Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
+      "ci_status": "PENDING",
+      "size": "L",
       "reviews": {
         "count": 1,
         "has_new_commits": true
@@ -1451,7 +1451,7 @@
         "dependencies",
         "go",
         "docker",
-        "size: XXL"
+        "size: L"
       ]
     },
     {
@@ -2223,33 +2223,6 @@
       ]
     },
     {
-      "title": "feat(EC-1816): add multi-component stress benchmark",
-      "url": "https://github.com/conforma/cli/pull/3331",
-      "number": 3331,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-06-04T13:28:32Z",
-      "updated_at": "2026-07-06T12:17:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "XL",
-      "reviews": {
-        "count": 3,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "go",
-        "size: XL",
-        "testing",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/cli/pull/3338",
       "number": 3338,
@@ -2259,7 +2232,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-06T09:55:09Z",
+      "updated_at": "2026-07-06T13:14:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2416,7 +2389,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-26T20:52:51Z",
-      "updated_at": "2026-07-06T09:50:04Z",
+      "updated_at": "2026-07-06T13:15:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2502,7 +2475,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-06T09:46:39Z",
+      "updated_at": "2026-07-06T13:06:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2531,7 +2504,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-06T09:45:36Z",
+      "updated_at": "2026-07-06T13:04:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2617,7 +2590,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-06T09:50:54Z",
+      "updated_at": "2026-07-06T13:07:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2788,7 +2761,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:12:37Z",
-      "updated_at": "2026-07-06T09:50:13Z",
+      "updated_at": "2026-07-06T13:14:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2804,7 +2777,7 @@
         "renovate",
         "main",
         "size: XS",
-        "ready-for-merge"
+        "requires-manual-review"
       ]
     },
     {
@@ -6316,13 +6289,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-02T14:37:47Z",
-      "updated_at": "2026-07-02T15:51:41Z",
+      "updated_at": "2026-07-06T13:27:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
