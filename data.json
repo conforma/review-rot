@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T18:37:52.730873105Z",
+  "generated_at": "2026-07-06T19:33:20.274203135Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1437,7 +1437,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
       },
       "created_at": "2026-02-27T21:31:46Z",
-      "updated_at": "2026-07-06T17:55:37Z",
+      "updated_at": "2026-07-06T19:26:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1446,7 +1446,7 @@
         "count": 2,
         "has_new_commits": true
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 0,
       "labels": [
         "dependencies",
         "go",
@@ -5934,7 +5934,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-07-01T15:13:43Z",
-      "updated_at": "2026-07-02T03:04:22Z",
+      "updated_at": "2026-07-06T18:50:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5943,7 +5943,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XXL"
       ]
