@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T13:48:13.956797075Z",
+  "generated_at": "2026-07-07T15:00:05.169352752Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2930,13 +2930,13 @@
       "updated_at": "2026-07-07T12:53:05Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
         "count": 2,
         "has_new_commits": true
       },
-      "unresolved_conversations": 14,
+      "unresolved_conversations": 13,
       "labels": [
         "size: XL",
         "cli",
@@ -4167,6 +4167,30 @@
       ]
     },
     {
+      "title": "Fix broken links to Konflux documentation",
+      "url": "https://github.com/conforma/user-guide/pull/237",
+      "number": 237,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-07-07T14:24:20Z",
+      "updated_at": "2026-07-07T14:24:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Scripts to create and test fetching attestations",
       "url": "https://github.com/conforma/hacks/pull/162",
       "number": 162,
@@ -4604,6 +4628,30 @@
       "labels": [
         "main",
         "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Fix broken links to Konflux documentation",
+      "url": "https://github.com/conforma/config/pull/235",
+      "number": 235,
+      "repo": "conforma/config",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-07-07T14:24:15Z",
+      "updated_at": "2026-07-07T14:25:40Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
         "size: XS"
       ]
     },
@@ -5424,7 +5472,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-07-04T13:06:05Z",
+      "updated_at": "2026-07-07T14:18:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6442,16 +6490,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-05-08T22:02:42Z",
-      "updated_at": "2026-06-26T15:13:34Z",
-      "is_draft": true,
+      "updated_at": "2026-07-07T14:45:47Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 4,
+        "count": 5,
         "has_new_commits": true
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": []
     }
   ]
