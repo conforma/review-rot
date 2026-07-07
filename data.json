@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T15:57:37.93799158Z",
+  "generated_at": "2026-07-07T16:51:22.369551788Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2927,16 +2927,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-06T08:57:40Z",
-      "updated_at": "2026-07-07T15:47:20Z",
+      "updated_at": "2026-07-07T16:15:35Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 3,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 8,
       "labels": [
         "size: XL",
         "cli",
@@ -2955,14 +2955,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-06T09:51:14Z",
-      "updated_at": "2026-07-07T15:49:58Z",
+      "updated_at": "2026-07-07T16:27:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 6,
       "labels": [
@@ -3035,7 +3035,7 @@
       "updated_at": "2026-07-07T15:50:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -3085,10 +3085,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-07T15:15:14Z",
-      "updated_at": "2026-07-07T15:32:55Z",
+      "updated_at": "2026-07-07T16:22:47Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3892,7 +3892,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:39:54Z",
-      "updated_at": "2026-07-07T09:54:26Z",
+      "updated_at": "2026-07-07T16:31:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3945,7 +3945,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-07-07T09:54:13Z",
+      "updated_at": "2026-07-07T16:31:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4047,11 +4047,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-07-07T09:54:58Z",
+      "updated_at": "2026-07-07T16:32:06Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
+      "ci_status": "SUCCESS",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -4060,7 +4060,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
+        "size: M"
       ]
     },
     {
@@ -4377,7 +4377,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:36:46Z",
-      "updated_at": "2026-07-02T10:49:21Z",
+      "updated_at": "2026-07-07T16:35:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4483,7 +4483,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-15T00:43:24Z",
-      "updated_at": "2026-07-02T10:49:32Z",
+      "updated_at": "2026-07-07T16:35:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6192,7 +6192,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-07-07T11:52:35Z",
+      "updated_at": "2026-07-07T16:49:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
