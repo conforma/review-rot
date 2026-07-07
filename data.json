@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T07:45:12.782287519Z",
+  "generated_at": "2026-07-07T09:06:15.482736541Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1012,6 +1012,32 @@
       ]
     },
     {
+      "title": "chore: update fullsend shim workflow",
+      "url": "https://github.com/conforma/policy/pull/1767",
+      "number": 1767,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "fullsend-ai-fullsend",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478487?v=4"
+      },
+      "created_at": "2026-07-07T08:47:27Z",
+      "updated_at": "2026-07-07T08:54:10Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "github_actions",
+        "size: XS",
+        "requires-manual-review"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1321,7 +1347,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-06T21:28:56Z",
+      "updated_at": "2026-07-07T08:48:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1350,7 +1376,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-07T01:52:50Z",
+      "updated_at": "2026-07-07T08:56:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1359,7 +1385,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 38,
+      "unresolved_conversations": 39,
       "labels": [
         "dependencies",
         "go",
@@ -1437,14 +1463,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
       },
       "created_at": "2026-02-27T21:31:46Z",
-      "updated_at": "2026-07-06T19:26:19Z",
+      "updated_at": "2026-07-07T08:27:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 2,
-        "has_new_commits": true
+        "count": 3,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -1548,7 +1574,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-07T01:55:10Z",
+      "updated_at": "2026-07-07T08:59:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1557,7 +1583,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 23,
+      "unresolved_conversations": 25,
       "labels": [
         "dependencies",
         "go",
@@ -3020,6 +3046,31 @@
       ]
     },
     {
+      "title": "chore: update fullsend shim workflow",
+      "url": "https://github.com/conforma/cli/pull/3387",
+      "number": 3387,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-fullsend",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478487?v=4"
+      },
+      "created_at": "2026-07-07T08:47:19Z",
+      "updated_at": "2026-07-07T09:05:08Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "github_actions",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -4431,7 +4482,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:24Z",
-      "updated_at": "2026-06-25T09:34:14Z",
+      "updated_at": "2026-07-07T08:25:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4470,30 +4521,6 @@
       "labels": [
         "renovate",
         "release-v0.7",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "docs: remove experimental label and update README",
-      "url": "https://github.com/conforma/tekton-catalog/pull/259",
-      "number": 259,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-06-26T12:30:17Z",
-      "updated_at": "2026-06-29T07:11:16Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -6024,28 +6051,6 @@
       "labels": [
         "size: XXL"
       ]
-    },
-    {
-      "title": "chore: add agents repo to allowed_remote_resources",
-      "url": "https://github.com/conforma/.fullsend/pull/6",
-      "number": 6,
-      "repo": "conforma/.fullsend",
-      "author": {
-        "login": "ggallen",
-        "avatar_url": "https://avatars.githubusercontent.com/u/6012561?v=4"
-      },
-      "created_at": "2026-07-06T20:42:32Z",
-      "updated_at": "2026-07-06T21:03:46Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "Update registry.access.redhat.com/ubi8/ubi-micro:latest Docker digest to a75feff (main)",
