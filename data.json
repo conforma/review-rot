@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T20:35:31.094505623Z",
+  "generated_at": "2026-07-07T21:30:12.826524279Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -236,7 +236,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
       },
       "created_at": "2026-02-27T21:32:00Z",
-      "updated_at": "2026-06-23T16:41:13Z",
+      "updated_at": "2026-07-07T21:01:44Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -245,10 +245,11 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
+        "enhancement",
         "size: XL",
-        "requires-manual-review"
+        "ready-for-merge"
       ]
     },
     {
@@ -1349,7 +1350,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-07T16:58:03Z",
+      "updated_at": "2026-07-07T20:56:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1378,7 +1379,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-07T16:53:36Z",
+      "updated_at": "2026-07-07T20:48:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1456,33 +1457,6 @@
       ]
     },
     {
-      "title": "sigstore: Cache verify_image results across policy evaluations",
-      "url": "https://github.com/conforma/cli/pull/3136",
-      "number": 3136,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "arewm",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
-      },
-      "created_at": "2026-02-27T21:31:46Z",
-      "updated_at": "2026-07-07T08:27:43Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "docker",
-        "size: L"
-      ]
-    },
-    {
       "title": "Update go modules (release-v0.7) (patch)",
       "url": "https://github.com/conforma/cli/pull/3146",
       "number": 3146,
@@ -1492,7 +1466,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-07T17:03:32Z",
+      "updated_at": "2026-07-07T20:48:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1548,7 +1522,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-07T17:05:54Z",
+      "updated_at": "2026-07-07T20:48:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1577,7 +1551,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-07T16:57:53Z",
+      "updated_at": "2026-07-07T20:48:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2261,7 +2235,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-06T13:14:25Z",
+      "updated_at": "2026-07-07T21:03:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2418,7 +2392,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-26T20:52:51Z",
-      "updated_at": "2026-07-06T13:15:35Z",
+      "updated_at": "2026-07-07T21:04:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2495,7 +2469,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.4 (main)",
+      "title": "Update dependency golang to v1.26.5 (main)",
       "url": "https://github.com/conforma/cli/pull/3365",
       "number": 3365,
       "repo": "conforma/cli",
@@ -2504,7 +2478,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-06T13:06:14Z",
+      "updated_at": "2026-07-07T20:50:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2513,7 +2487,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "dependencies",
         "go",
@@ -2533,7 +2507,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-06T13:04:15Z",
+      "updated_at": "2026-07-07T20:51:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2619,7 +2593,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-06T13:07:50Z",
+      "updated_at": "2026-07-07T21:01:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2819,7 +2793,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:12:37Z",
-      "updated_at": "2026-07-06T13:14:32Z",
+      "updated_at": "2026-07-07T21:03:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3035,10 +3009,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-06T21:39:41Z",
-      "updated_at": "2026-07-07T20:34:44Z",
+      "updated_at": "2026-07-07T20:35:39Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -3230,7 +3204,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.107.0 (main)",
+      "title": "Update dependency wrangler to v4.108.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -3239,7 +3213,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-07-02T18:57:45Z",
+      "updated_at": "2026-07-07T20:53:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3335,7 +3309,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.4 (main)",
+      "title": "Update dependency golang to v1.26.5 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/531",
       "number": 531,
       "repo": "conforma/conforma.github.io",
@@ -3344,7 +3318,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-06-02T21:40:09Z",
+      "updated_at": "2026-07-07T20:52:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3361,7 +3335,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.25.11 (main)",
+      "title": "Update dependency golang to v1.25.12 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/532",
       "number": 532,
       "repo": "conforma/conforma.github.io",
@@ -3370,7 +3344,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:10:39Z",
-      "updated_at": "2026-06-03T02:25:20Z",
+      "updated_at": "2026-07-07T20:52:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3948,7 +3922,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-07-07T16:31:26Z",
+      "updated_at": "2026-07-07T20:37:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5052,7 +5026,7 @@
       ]
     },
     {
-      "title": "fix(deps): update go version to v1.25.11 (main)",
+      "title": "fix(deps): update go version to v1.25.12 (main)",
       "url": "https://github.com/conforma/go-gather/pull/314",
       "number": 314,
       "repo": "conforma/go-gather",
@@ -5061,7 +5035,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-08T00:47:32Z",
-      "updated_at": "2026-06-03T01:54:53Z",
+      "updated_at": "2026-07-07T20:38:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5078,7 +5052,7 @@
       ]
     },
     {
-      "title": "fix(deps): update go version to v1.26.4 (main)",
+      "title": "fix(deps): update go version to v1.26.5 (main)",
       "url": "https://github.com/conforma/go-gather/pull/315",
       "number": 315,
       "repo": "conforma/go-gather",
@@ -5087,7 +5061,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-09T01:31:46Z",
-      "updated_at": "2026-06-02T22:08:43Z",
+      "updated_at": "2026-07-07T20:39:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
