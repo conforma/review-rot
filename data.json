@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T15:00:05.169352752Z",
+  "generated_at": "2026-07-07T15:57:37.93799158Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2927,16 +2927,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-06T08:57:40Z",
-      "updated_at": "2026-07-07T12:53:05Z",
+      "updated_at": "2026-07-07T15:47:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
-        "count": 2,
-        "has_new_commits": true
+        "count": 3,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 13,
+      "unresolved_conversations": 5,
       "labels": [
         "size: XL",
         "cli",
@@ -2955,16 +2955,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-06T09:51:14Z",
-      "updated_at": "2026-07-07T13:11:54Z",
+      "updated_at": "2026-07-07T15:49:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 6,
       "labels": [
         "documentation",
         "size: XL",
@@ -3032,18 +3032,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-06T21:39:41Z",
-      "updated_at": "2026-07-07T11:25:01Z",
+      "updated_at": "2026-07-07T15:50:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XXL",
+        "Possible security concern",
         "cli",
         "requires-manual-review",
         "feature"
@@ -3071,6 +3072,31 @@
       "unresolved_conversations": 2,
       "labels": [
         "github_actions",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "update to test",
+      "url": "https://github.com/conforma/cli/pull/3388",
+      "number": 3388,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-07T15:15:14Z",
+      "updated_at": "2026-07-07T15:32:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 3,
+      "labels": [
+        "documentation",
         "size: XS"
       ]
     },
@@ -6476,28 +6502,6 @@
       "reviews": {
         "count": 0,
         "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "Seed new trusted task data",
-      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/218",
-      "number": 218,
-      "repo": "release-engineering/rhtap-ec-policy",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-05-08T22:02:42Z",
-      "updated_at": "2026-07-07T14:45:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 5,
-        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": []
