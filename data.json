@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T19:33:19.143292271Z",
+  "generated_at": "2026-07-07T20:35:31.094505623Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3011,7 +3011,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-07-06T20:41:14Z",
-      "updated_at": "2026-07-06T21:11:04Z",
+      "updated_at": "2026-07-07T19:37:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3020,7 +3020,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XS"
       ]
@@ -3035,10 +3035,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-06T21:39:41Z",
-      "updated_at": "2026-07-07T15:50:03Z",
+      "updated_at": "2026-07-07T20:34:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -5501,7 +5501,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-07-07T14:18:07Z",
+      "updated_at": "2026-07-07T19:50:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5518,7 +5518,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.4 (main)",
+      "title": "Update dependency golang to v1.26.5 (main)",
       "url": "https://github.com/conforma/knative-service/pull/101",
       "number": 101,
       "repo": "conforma/knative-service",
@@ -5527,7 +5527,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:25:43Z",
-      "updated_at": "2026-06-02T19:48:58Z",
+      "updated_at": "2026-07-07T19:52:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5544,7 +5544,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.25.11 (main)",
+      "title": "Update dependency golang to v1.25.12 (main)",
       "url": "https://github.com/conforma/knative-service/pull/102",
       "number": 102,
       "repo": "conforma/knative-service",
@@ -5553,7 +5553,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:01:04Z",
-      "updated_at": "2026-06-02T21:05:26Z",
+      "updated_at": "2026-07-07T19:52:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
