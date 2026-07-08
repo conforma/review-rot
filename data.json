@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T00:29:04.912123027Z",
+  "generated_at": "2026-07-08T01:03:25.691270571Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2484,7 +2484,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-07T20:50:11Z",
+      "updated_at": "2026-07-08T00:51:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2504,7 +2504,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.26.4 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.26.5 (main)",
       "url": "https://github.com/conforma/cli/pull/3366",
       "number": 3366,
       "repo": "conforma/cli",
@@ -2513,7 +2513,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-07T20:51:42Z",
+      "updated_at": "2026-07-08T00:57:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
