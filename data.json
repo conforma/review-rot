@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T21:25:04.279192668Z",
+  "generated_at": "2026-07-08T21:51:14.718088344Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2842,36 +2842,6 @@
       ]
     },
     {
-      "title": "Update module oras.land/oras-go/v2 to v2.6.1 [SECURITY] (main)",
-      "url": "https://github.com/conforma/cli/pull/3378",
-      "number": 3378,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-07-02T06:12:37Z",
-      "updated_at": "2026-07-08T15:40:52Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "renovate",
-        "main",
-        "size: XS",
-        "Possible security concern",
-        "requires-manual-review"
-      ]
-    },
-    {
       "title": "Update module oras.land/oras-go/v2 to v2.6.1 [SECURITY] (release-v0.7)",
       "url": "https://github.com/conforma/cli/pull/3379",
       "number": 3379,
@@ -3055,6 +3025,30 @@
         "documentation",
         "size: XS",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "chore(deps): Update oras.land/oras-go/v2",
+      "url": "https://github.com/conforma/cli/pull/3391",
+      "number": 3391,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-07-08T21:30:36Z",
+      "updated_at": "2026-07-08T21:42:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
       ]
     },
     {
