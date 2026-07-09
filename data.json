@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T16:50:24.335245234Z",
+  "generated_at": "2026-07-09T17:37:21.68713228Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1082,16 +1082,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-08T19:27:15Z",
-      "updated_at": "2026-07-08T21:08:07Z",
+      "updated_at": "2026-07-09T17:29:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 0,
+        "count": 12,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 9,
       "labels": [
         "size: XXL",
         "requires-manual-review"
@@ -1549,7 +1549,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-09T16:11:56Z",
+      "updated_at": "2026-07-09T16:56:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2900,13 +2900,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-06T21:39:41Z",
-      "updated_at": "2026-07-08T17:34:02Z",
+      "updated_at": "2026-07-09T17:34:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2916,31 +2916,6 @@
         "cli",
         "ready-for-merge",
         "feature"
-      ]
-    },
-    {
-      "title": "update to test",
-      "url": "https://github.com/conforma/cli/pull/3388",
-      "number": 3388,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-07T15:15:14Z",
-      "updated_at": "2026-07-08T20:26:48Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "documentation",
-        "size: XS"
       ]
     },
     {
