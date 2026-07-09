@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T06:19:41.185255634Z",
+  "generated_at": "2026-07-09T07:44:39.707323858Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1408,7 +1408,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-08T23:51:01Z",
+      "updated_at": "2026-07-09T06:51:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1437,7 +1437,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-08T23:44:20Z",
+      "updated_at": "2026-07-09T06:55:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1453,7 +1453,7 @@
         "renovate",
         "main",
         "size: XXL",
-        "ready-for-merge"
+        "requires-manual-review"
       ]
     },
     {
@@ -1524,7 +1524,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-08T04:43:12Z",
+      "updated_at": "2026-07-09T06:57:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1580,7 +1580,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-08T13:52:06Z",
+      "updated_at": "2026-07-09T06:52:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1609,7 +1609,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-09T00:07:01Z",
+      "updated_at": "2026-07-09T07:01:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2535,7 +2535,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-08T23:41:22Z",
+      "updated_at": "2026-07-09T06:40:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2564,7 +2564,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-08T23:41:27Z",
+      "updated_at": "2026-07-09T06:40:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5860,35 +5860,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-16T02:12:56Z",
-      "updated_at": "2026-07-02T13:47:17Z",
+      "updated_at": "2026-07-09T06:56:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
       "size": null,
       "reviews": {
         "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "Add PR size labeling workflow",
-      "url": "https://github.com/conforma/step-actions/pull/4",
-      "number": 4,
-      "repo": "conforma/step-actions",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-06-10T12:40:26Z",
-      "updated_at": "2026-06-11T11:02:51Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
