@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T07:44:39.707323858Z",
+  "generated_at": "2026-07-09T09:06:05.659736043Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4130,7 +4130,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T00:47:54Z",
-      "updated_at": "2026-06-19T04:14:42Z",
+      "updated_at": "2026-07-09T08:06:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4169,30 +4169,6 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Fix broken links to Konflux documentation",
-      "url": "https://github.com/conforma/user-guide/pull/237",
-      "number": 237,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-07-07T14:24:20Z",
-      "updated_at": "2026-07-08T20:31:35Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -4621,7 +4597,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:26:50Z",
-      "updated_at": "2026-06-25T11:08:08Z",
+      "updated_at": "2026-07-09T08:22:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4634,30 +4610,6 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Fix broken links to Konflux documentation",
-      "url": "https://github.com/conforma/config/pull/235",
-      "number": 235,
-      "repo": "conforma/config",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-07-07T14:24:15Z",
-      "updated_at": "2026-07-08T20:27:56Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
