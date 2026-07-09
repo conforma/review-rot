@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T09:06:05.659736043Z",
+  "generated_at": "2026-07-09T10:37:03.402840946Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1030,7 +1030,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478487?v=4"
       },
       "created_at": "2026-07-07T08:47:27Z",
-      "updated_at": "2026-07-08T15:17:40Z",
+      "updated_at": "2026-07-09T10:14:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1039,11 +1039,10 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "github_actions",
-        "size: XS",
-        "requires-manual-review"
+        "size: XS"
       ]
     },
     {
@@ -1408,7 +1407,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-09T06:51:36Z",
+      "updated_at": "2026-07-09T10:11:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1437,7 +1436,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-09T06:55:36Z",
+      "updated_at": "2026-07-09T10:06:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1524,7 +1523,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-09T06:57:17Z",
+      "updated_at": "2026-07-09T10:15:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1580,7 +1579,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-09T06:52:26Z",
+      "updated_at": "2026-07-09T10:08:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1609,7 +1608,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-09T07:01:40Z",
+      "updated_at": "2026-07-09T10:16:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1624,7 +1623,8 @@
         "go",
         "renovate",
         "release-v0.7",
-        "size: XXL"
+        "size: XXL",
+        "requires-manual-review"
       ]
     },
     {
@@ -2535,7 +2535,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-09T06:40:23Z",
+      "updated_at": "2026-07-09T10:03:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2564,7 +2564,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-09T06:40:24Z",
+      "updated_at": "2026-07-09T10:03:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3050,6 +3050,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "chore: update fullsend shim workflow",
+      "url": "https://github.com/conforma/cli/pull/3392",
+      "number": 3392,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-fullsend",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478487?v=4"
+      },
+      "created_at": "2026-07-09T10:02:49Z",
+      "updated_at": "2026-07-09T10:15:34Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -4130,7 +4155,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T00:47:54Z",
-      "updated_at": "2026-07-09T08:06:52Z",
+      "updated_at": "2026-07-09T10:15:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4143,7 +4168,8 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -4170,6 +4196,33 @@
         "main",
         "renovate",
         "size: XS"
+      ]
+    },
+    {
+      "title": "docs(#239): replace broken policy source with local path in tutorial",
+      "url": "https://github.com/conforma/user-guide/pull/241",
+      "number": 241,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-07-09T10:26:24Z",
+      "updated_at": "2026-07-09T10:33:08Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "bug",
+        "documentation",
+        "size: XS",
+        "ready-for-merge"
       ]
     },
     {
