@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T15:36:39.957235879Z",
+  "generated_at": "2026-07-09T16:50:24.335245234Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1107,13 +1107,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-07-09T11:42:01Z",
-      "updated_at": "2026-07-09T12:22:40Z",
+      "updated_at": "2026-07-09T15:38:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1433,7 +1433,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-09T13:52:45Z",
+      "updated_at": "2026-07-09T15:46:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1462,7 +1462,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-09T14:02:11Z",
+      "updated_at": "2026-07-09T15:55:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1471,7 +1471,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 42,
+      "unresolved_conversations": 43,
       "labels": [
         "dependencies",
         "go",
@@ -1549,7 +1549,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-09T13:55:34Z",
+      "updated_at": "2026-07-09T16:11:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1605,7 +1605,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-09T13:55:38Z",
+      "updated_at": "2026-07-09T15:42:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1634,7 +1634,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-09T14:10:43Z",
+      "updated_at": "2026-07-09T15:52:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2318,10 +2318,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-08T23:52:59Z",
+      "updated_at": "2026-07-09T15:50:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2475,7 +2475,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-26T20:52:51Z",
-      "updated_at": "2026-07-08T23:55:24Z",
+      "updated_at": "2026-07-09T15:50:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2561,7 +2561,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-09T13:52:35Z",
+      "updated_at": "2026-07-09T15:43:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2570,14 +2570,14 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": [
         "dependencies",
         "go",
         "renovate",
         "main",
         "size: XS",
-        "requires-manual-review"
+        "ready-for-merge"
       ]
     },
     {
@@ -2590,7 +2590,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-09T13:52:39Z",
+      "updated_at": "2026-07-09T15:45:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2677,7 +2677,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-08T23:43:22Z",
+      "updated_at": "2026-07-09T15:46:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2840,62 +2840,6 @@
       ]
     },
     {
-      "title": "Update module oras.land/oras-go/v2 to v2.6.1 [SECURITY] (release-v0.7)",
-      "url": "https://github.com/conforma/cli/pull/3379",
-      "number": 3379,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-07-02T06:15:30Z",
-      "updated_at": "2026-07-04T09:35:59Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "release-v0.7",
-        "size: XS",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Update module oras.land/oras-go/v2 to v2.6.1 [SECURITY] (release-v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3380",
-      "number": 3380,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-07-02T06:17:44Z",
-      "updated_at": "2026-07-04T12:41:44Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "renovate",
-        "size: XS",
-        "release-v0.8",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Bump conforma/go-containerregistry",
       "url": "https://github.com/conforma/cli/pull/3384",
       "number": 3384,
@@ -3026,30 +2970,6 @@
       ]
     },
     {
-      "title": "chore(deps): Update oras.land/oras-go/v2",
-      "url": "https://github.com/conforma/cli/pull/3391",
-      "number": 3391,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-08T21:30:36Z",
-      "updated_at": "2026-07-09T15:25:04Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "chore: update fullsend shim workflow",
       "url": "https://github.com/conforma/cli/pull/3392",
       "number": 3392,
@@ -3084,18 +3004,44 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-07-09T12:00:33Z",
-      "updated_at": "2026-07-09T12:14:13Z",
+      "updated_at": "2026-07-09T15:37:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "size: XS",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "fix(#3394): add explicit gomod fileMatch for all go.mod files",
+      "url": "https://github.com/conforma/cli/pull/3395",
+      "number": 3395,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-07-09T16:00:47Z",
+      "updated_at": "2026-07-09T16:11:35Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS",
+        "config",
         "ready-for-merge"
       ]
     },
@@ -3226,7 +3172,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.107.1 (main)",
+      "title": "Update dependency wrangler to v4.109.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -3235,7 +3181,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-07-08T21:07:56Z",
+      "updated_at": "2026-07-09T16:39:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4231,13 +4177,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-07-09T11:59:23Z",
-      "updated_at": "2026-07-09T12:08:45Z",
+      "updated_at": "2026-07-09T15:37:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
