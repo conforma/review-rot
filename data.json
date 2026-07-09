@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T10:37:03.402840946Z",
+  "generated_at": "2026-07-09T12:01:50.441351461Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1094,6 +1094,32 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: XXL",
+        "requires-manual-review"
+      ]
+    },
+    {
+      "title": "Update quay.io references from enterprise-contract to conforma",
+      "url": "https://github.com/conforma/policy/pull/1771",
+      "number": 1771,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-07-09T11:42:01Z",
+      "updated_at": "2026-07-09T11:52:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "documentation",
+        "size: XS",
         "requires-manual-review"
       ]
     },
@@ -3078,6 +3104,30 @@
       ]
     },
     {
+      "title": "Update quay.io references from enterprise-contract to conforma",
+      "url": "https://github.com/conforma/cli/pull/3393",
+      "number": 3393,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-07-09T12:00:33Z",
+      "updated_at": "2026-07-09T12:00:53Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -4223,6 +4273,30 @@
         "documentation",
         "size: XS",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update quay.io references from enterprise-contract to conforma",
+      "url": "https://github.com/conforma/user-guide/pull/242",
+      "number": 242,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-07-09T11:59:23Z",
+      "updated_at": "2026-07-09T12:00:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
       ]
     },
     {
