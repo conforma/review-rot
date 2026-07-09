@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T22:54:38.524495534Z",
+  "generated_at": "2026-07-09T23:27:48.73888994Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1406,7 +1406,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-09T15:46:30Z",
+      "updated_at": "2026-07-09T23:21:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1435,7 +1435,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-09T15:55:49Z",
+      "updated_at": "2026-07-09T23:19:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1522,7 +1522,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-09T16:56:58Z",
+      "updated_at": "2026-07-09T23:27:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1578,7 +1578,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-09T15:42:51Z",
+      "updated_at": "2026-07-09T23:22:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1607,7 +1607,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-09T15:52:35Z",
+      "updated_at": "2026-07-09T23:24:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1636,7 +1636,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:50:01Z",
-      "updated_at": "2026-06-18T01:13:23Z",
+      "updated_at": "2026-07-09T23:26:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2534,7 +2534,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-09T15:43:46Z",
+      "updated_at": "2026-07-09T23:09:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2563,7 +2563,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-09T15:45:20Z",
+      "updated_at": "2026-07-09T23:09:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3177,7 +3177,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.109.0 (main)",
+      "title": "Update dependency wrangler to v4.110.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -3186,7 +3186,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-07-09T16:39:48Z",
+      "updated_at": "2026-07-09T23:09:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4675,7 +4675,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-11T01:35:02Z",
-      "updated_at": "2026-07-08T23:56:51Z",
+      "updated_at": "2026-07-09T23:05:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5447,7 +5447,7 @@
       ]
     },
     {
-      "title": "Update go modules (main) (patch)",
+      "title": "Update go modules to v0.35.6 (main)",
       "url": "https://github.com/conforma/knative-service/pull/100",
       "number": 100,
       "repo": "conforma/knative-service",
@@ -5456,11 +5456,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-07-07T19:50:32Z",
+      "updated_at": "2026-07-09T23:03:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "M",
+      "size": "S",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -5469,7 +5469,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: M"
+        "size: S"
       ]
     },
     {
