@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T00:34:10.939610767Z",
+  "generated_at": "2026-07-10T01:34:40.402184326Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1914,10 +1914,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-09T02:54:07Z",
-      "updated_at": "2026-07-09T01:49:45Z",
+      "updated_at": "2026-07-10T01:33:15Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2534,7 +2534,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-09T23:09:57Z",
+      "updated_at": "2026-07-10T01:32:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2563,7 +2563,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-09T23:09:59Z",
+      "updated_at": "2026-07-10T01:32:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2592,7 +2592,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-07-09T01:43:13Z",
+      "updated_at": "2026-07-10T01:32:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2736,7 +2736,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-07-09T01:42:50Z",
+      "updated_at": "2026-07-10T01:33:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5447,7 +5447,7 @@
       ]
     },
     {
-      "title": "Update go modules to v0.35.6 (main)",
+      "title": "Update go modules (main) (patch)",
       "url": "https://github.com/conforma/knative-service/pull/100",
       "number": 100,
       "repo": "conforma/knative-service",
@@ -5456,11 +5456,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-07-09T23:03:42Z",
+      "updated_at": "2026-07-10T00:49:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "S",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -5469,7 +5469,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: S"
+        "size: M"
       ]
     },
     {
