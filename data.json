@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T14:54:34.27245636Z",
+  "generated_at": "2026-07-10T15:47:23.666771836Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3842,7 +3842,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T02:06:05Z",
-      "updated_at": "2026-06-26T19:44:18Z",
+      "updated_at": "2026-07-10T15:34:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3869,7 +3869,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-07-09T02:27:46Z",
+      "updated_at": "2026-07-10T15:33:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3895,7 +3895,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-06-26T19:43:33Z",
+      "updated_at": "2026-07-10T15:34:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3945,7 +3945,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-07-01T00:53:53Z",
+      "updated_at": "2026-07-10T15:34:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3997,7 +3997,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:38:27Z",
-      "updated_at": "2026-06-26T19:42:36Z",
+      "updated_at": "2026-07-10T15:33:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4011,30 +4011,6 @@
         "main",
         "renovate",
         "size: XS"
-      ]
-    },
-    {
-      "title": "Add release changelog tooling with machine-readable image inputs",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/221",
-      "number": 221,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-06-30T21:49:21Z",
-      "updated_at": "2026-07-08T20:51:07Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XXL"
       ]
     },
     {
