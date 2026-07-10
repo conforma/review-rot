@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T12:54:19.048613036Z",
+  "generated_at": "2026-07-10T13:38:48.33697272Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1406,7 +1406,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-10T09:12:04Z",
+      "updated_at": "2026-07-10T13:34:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1435,7 +1435,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-10T06:58:01Z",
+      "updated_at": "2026-07-10T13:37:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1522,7 +1522,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-10T09:12:26Z",
+      "updated_at": "2026-07-10T13:37:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1578,7 +1578,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-10T01:39:37Z",
+      "updated_at": "2026-07-10T13:37:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2534,7 +2534,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-10T01:32:48Z",
+      "updated_at": "2026-07-10T13:34:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2563,7 +2563,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-10T01:32:49Z",
+      "updated_at": "2026-07-10T13:34:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2991,90 +2991,6 @@
       "labels": [
         "size: XS",
         "config",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Misc deps updates (for release-v0.7 branch)",
-      "url": "https://github.com/conforma/cli/pull/3396",
-      "number": 3396,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-09T18:55:12Z",
-      "updated_at": "2026-07-09T20:49:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "dependencies",
-        "go",
-        "size: XXL",
-        "tooling",
-        "ci",
-        "requires-manual-review"
-      ]
-    },
-    {
-      "title": "Misc deps updates (for release-v0.8 branch)",
-      "url": "https://github.com/conforma/cli/pull/3397",
-      "number": 3397,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-09T19:20:53Z",
-      "updated_at": "2026-07-09T20:49:37Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "size: XXL",
-        "ci",
-        "requires-manual-review"
-      ]
-    },
-    {
-      "title": "fix: cve-2026-27136, upgrade golang.org/x/net",
-      "url": "https://github.com/conforma/cli/pull/3398",
-      "number": 3398,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "fghanmi",
-        "avatar_url": "https://avatars.githubusercontent.com/u/158172821?v=4"
-      },
-      "created_at": "2026-07-10T12:29:28Z",
-      "updated_at": "2026-07-10T12:49:08Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "L",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "size: L",
         "ready-for-merge"
       ]
     },
