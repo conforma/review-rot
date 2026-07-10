@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T20:36:30.924537672Z",
+  "generated_at": "2026-07-10T21:23:19.689908636Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1407,7 +1407,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-10T13:41:07Z",
+      "updated_at": "2026-07-10T20:53:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1436,7 +1436,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-10T13:51:10Z",
+      "updated_at": "2026-07-10T20:52:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1445,7 +1445,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 46,
+      "unresolved_conversations": 47,
       "labels": [
         "dependencies",
         "go",
@@ -1523,7 +1523,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-10T13:53:14Z",
+      "updated_at": "2026-07-10T20:49:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2536,7 +2536,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-10T13:40:55Z",
+      "updated_at": "2026-07-10T20:42:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2565,7 +2565,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-10T13:40:56Z",
+      "updated_at": "2026-07-10T20:42:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2993,6 +2993,60 @@
       "labels": [
         "size: XS",
         "config",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update module github.com/sigstore/sigstore-go to v1.2.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/cli/pull/3399",
+      "number": 3399,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-07-10T20:42:53Z",
+      "updated_at": "2026-07-10T20:53:59Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XL",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update module github.com/sigstore/sigstore-go to v1.2.0 [SECURITY] (release-v0.8)",
+      "url": "https://github.com/conforma/cli/pull/3400",
+      "number": 3400,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-07-10T20:49:36Z",
+      "updated_at": "2026-07-10T21:09:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XL",
+        "release-v0.8",
         "ready-for-merge"
       ]
     },
