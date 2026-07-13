@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T17:15:07.841491422Z",
+  "generated_at": "2026-07-13T18:08:01.616718099Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2912,10 +2912,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-06T21:39:41Z",
-      "updated_at": "2026-07-13T09:50:58Z",
+      "updated_at": "2026-07-13T17:50:04Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 3,
@@ -3123,10 +3123,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-13T16:56:37Z",
-      "updated_at": "2026-07-13T17:02:43Z",
+      "updated_at": "2026-07-13T17:16:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3138,6 +3138,33 @@
         "size: XS",
         "ci",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Build output fix for kubectl version plus deps updates",
+      "url": "https://github.com/conforma/cli/pull/3403",
+      "number": 3403,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-07-13T17:35:13Z",
+      "updated_at": "2026-07-13T17:47:28Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "dependencies",
+        "size: S",
+        "ci",
+        "requires-manual-review"
       ]
     },
     {
@@ -6526,6 +6553,55 @@
       "labels": []
     },
     {
+      "title": "Replace ec-defaults ConfigMap with hardcoded bundle ref",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3691",
+      "number": 3691,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-13T17:29:06Z",
+      "updated_at": "2026-07-13T17:45:43Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "go",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Replace ec-defaults ConfigMap with hardcoded bundle ref",
+      "url": "https://github.com/konflux-ci/e2e-tests/pull/1885",
+      "number": 1885,
+      "repo": "konflux-ci/e2e-tests",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-13T17:29:03Z",
+      "updated_at": "2026-07-13T17:29:15Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "\u003c 1 min"
+      ]
+    },
+    {
       "title": "new policy source param",
       "url": "https://github.com/konflux-ci/release-service-catalog/pull/2160",
       "number": 2160,
@@ -6537,6 +6613,28 @@
       "created_at": "2026-04-16T04:03:04Z",
       "updated_at": "2026-05-29T00:31:32Z",
       "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "Remove dead verify_ec_task params from managed pipelines",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2379",
+      "number": 2379,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-13T17:29:20Z",
+      "updated_at": "2026-07-13T17:54:49Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
