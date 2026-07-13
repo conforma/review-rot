@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T08:03:54.347483949Z",
+  "generated_at": "2026-07-13T09:43:50.759723292Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2921,7 +2921,7 @@
         "count": 1,
         "has_new_commits": true
       },
-      "unresolved_conversations": 25,
+      "unresolved_conversations": 6,
       "labels": [
         "size: XXL",
         "Possible security concern",
