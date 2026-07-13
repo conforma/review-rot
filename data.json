@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T15:28:07.682735896Z",
+  "generated_at": "2026-07-13T16:20:45.437366539Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3084,6 +3084,33 @@
         "size: XL",
         "release-v0.8",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update ubi and konflux refs again (v07)",
+      "url": "https://github.com/conforma/cli/pull/3401",
+      "number": 3401,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-07-13T15:49:33Z",
+      "updated_at": "2026-07-13T15:54:34Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "size: XS",
+        "ci",
+        "requires-manual-review"
       ]
     },
     {
