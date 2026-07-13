@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T18:58:39.049481438Z",
+  "generated_at": "2026-07-13T19:34:27.616216487Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1408,7 +1408,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-13T00:43:38Z",
+      "updated_at": "2026-07-13T19:27:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1469,7 +1469,7 @@
       "updated_at": "2026-07-13T18:51:23Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -1525,7 +1525,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-13T00:43:49Z",
+      "updated_at": "2026-07-13T19:22:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1554,7 +1554,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-07-12T18:44:53Z",
+      "updated_at": "2026-07-13T19:20:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2300,10 +2300,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-12T18:44:26Z",
+      "updated_at": "2026-07-13T19:32:44Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2457,10 +2457,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-26T20:52:51Z",
-      "updated_at": "2026-07-12T18:44:16Z",
+      "updated_at": "2026-07-13T19:24:52Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -2486,7 +2486,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-26T20:55:45Z",
-      "updated_at": "2026-07-12T18:44:49Z",
+      "updated_at": "2026-07-13T19:19:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2498,6 +2498,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "dependencies",
+        "go",
         "renovate",
         "release-v0.7",
         "size: XXL",
@@ -2514,10 +2515,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-26T20:58:48Z",
-      "updated_at": "2026-07-12T18:45:13Z",
+      "updated_at": "2026-07-13T19:28:06Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -2543,7 +2544,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-11T01:40:32Z",
+      "updated_at": "2026-07-13T19:24:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2572,7 +2573,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-11T01:40:34Z",
+      "updated_at": "2026-07-13T19:24:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2659,7 +2660,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-12T18:44:37Z",
+      "updated_at": "2026-07-13T19:26:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2912,16 +2913,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-06T21:39:41Z",
-      "updated_at": "2026-07-13T18:31:08Z",
+      "updated_at": "2026-07-13T19:30:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
-        "count": 3,
-        "has_new_commits": false
+        "count": 2,
+        "has_new_commits": true
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XXL",
         "Possible security concern",
@@ -3084,87 +3085,6 @@
         "size: XL",
         "release-v0.8",
         "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Update ubi and konflux refs again (v07)",
-      "url": "https://github.com/conforma/cli/pull/3401",
-      "number": 3401,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-13T15:49:33Z",
-      "updated_at": "2026-07-13T16:32:22Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "size: XS",
-        "ci",
-        "requires-manual-review"
-      ]
-    },
-    {
-      "title": "chore(deps): Update konflux refs",
-      "url": "https://github.com/conforma/cli/pull/3402",
-      "number": 3402,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-13T16:56:37Z",
-      "updated_at": "2026-07-13T17:16:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "size: XS",
-        "ci",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Build output fix for kubectl version plus deps updates",
-      "url": "https://github.com/conforma/cli/pull/3403",
-      "number": 3403,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-13T17:35:13Z",
-      "updated_at": "2026-07-13T18:23:30Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "size: S",
-        "ci",
-        "requires-manual-review"
       ]
     },
     {
@@ -4827,7 +4747,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-13T00:52:51Z",
-      "updated_at": "2026-06-19T18:00:10Z",
+      "updated_at": "2026-07-13T19:05:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5810,10 +5730,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-07-13T18:56:06Z",
+      "updated_at": "2026-07-13T19:07:44Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
