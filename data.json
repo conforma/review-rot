@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T09:43:50.759723292Z",
+  "generated_at": "2026-07-13T11:02:05.976758362Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2861,10 +2861,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-07-06T11:05:13Z",
-      "updated_at": "2026-07-06T11:21:47Z",
+      "updated_at": "2026-07-13T10:48:43Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2912,14 +2912,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-06T21:39:41Z",
-      "updated_at": "2026-07-10T19:13:00Z",
+      "updated_at": "2026-07-13T09:50:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
-        "count": 1,
-        "has_new_commits": true
+        "count": 3,
+        "has_new_commits": false
       },
       "unresolved_conversations": 6,
       "labels": [
@@ -5318,6 +5318,30 @@
       },
       "created_at": "2026-07-06T09:51:22Z",
       "updated_at": "2026-07-06T09:53:31Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
+      ]
+    },
+    {
+      "title": "chore: sync with upstream google/go-containerregistry",
+      "url": "https://github.com/conforma/go-containerregistry/pull/12",
+      "number": 12,
+      "repo": "conforma/go-containerregistry",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-07-13T09:45:08Z",
+      "updated_at": "2026-07-13T09:48:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
