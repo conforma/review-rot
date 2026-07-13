@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T18:08:01.616718099Z",
+  "generated_at": "2026-07-13T18:58:39.049481438Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1466,16 +1466,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-07-12T11:09:32Z",
+      "updated_at": "2026-07-13T18:51:23Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 12,
+      "unresolved_conversations": 13,
       "labels": [
         "github_actions",
         "renovate",
@@ -2912,10 +2912,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-06T21:39:41Z",
-      "updated_at": "2026-07-13T17:50:04Z",
+      "updated_at": "2026-07-13T18:31:08Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "count": 3,
@@ -3150,16 +3150,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-13T17:35:13Z",
-      "updated_at": "2026-07-13T17:47:28Z",
+      "updated_at": "2026-07-13T18:23:30Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "dependencies",
         "size: S",
@@ -5810,10 +5810,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-07-08T13:40:02Z",
+      "updated_at": "2026-07-13T18:56:06Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
