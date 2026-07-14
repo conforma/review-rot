@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T12:36:56.74407082Z",
+  "generated_at": "2026-07-14T13:32:22.598776104Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1411,7 +1411,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-14T12:24:57Z",
+      "updated_at": "2026-07-14T13:18:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1440,7 +1440,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-14T12:16:26Z",
+      "updated_at": "2026-07-14T13:03:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1449,7 +1449,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 49,
+      "unresolved_conversations": 50,
       "labels": [
         "dependencies",
         "go",
@@ -2275,7 +2275,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-14T12:23:34Z",
+      "updated_at": "2026-07-14T13:14:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -2432,7 +2432,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-14T12:17:17Z",
+      "updated_at": "2026-07-14T13:10:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2461,7 +2461,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-14T12:19:46Z",
+      "updated_at": "2026-07-14T13:08:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2548,7 +2548,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-14T12:21:20Z",
+      "updated_at": "2026-07-14T13:13:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2736,58 +2736,6 @@
         "go",
         "size: XS",
         "ready-for-merge"
-      ]
-    },
-    {
-      "title": "fix(EC-1977): migrate tenant-release SA to konflux-bot-0",
-      "url": "https://github.com/conforma/cli/pull/3385",
-      "number": 3385,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-07-06T20:41:14Z",
-      "updated_at": "2026-07-08T20:26:01Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Add validate input --server flag for persistent HTTP/REST",
-      "url": "https://github.com/conforma/cli/pull/3386",
-      "number": 3386,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-06T21:39:41Z",
-      "updated_at": "2026-07-13T22:18:37Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XXL",
-        "Possible security concern",
-        "cli",
-        "ready-for-merge",
-        "feature"
       ]
     },
     {
@@ -3028,6 +2976,32 @@
         "size: XS",
         "ci",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "docs(#3410): add Kubernetes manifest guidance to AGENTS.md",
+      "url": "https://github.com/conforma/cli/pull/3411",
+      "number": 3411,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-07-14T13:26:41Z",
+      "updated_at": "2026-07-14T13:31:35Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "documentation",
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -6425,13 +6399,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:06Z",
-      "updated_at": "2026-07-13T20:00:32Z",
+      "updated_at": "2026-07-14T12:46:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6542,7 +6516,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-07-14T11:01:06Z",
-      "updated_at": "2026-07-14T12:29:59Z",
+      "updated_at": "2026-07-14T13:22:31Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
