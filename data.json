@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T14:34:32.241011515Z",
+  "generated_at": "2026-07-14T15:30:15.844039213Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -75,7 +75,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-07-14T02:12:50Z",
+      "updated_at": "2026-07-14T14:55:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -90,8 +90,7 @@
         "go",
         "renovate",
         "release-v0.7",
-        "size: XS",
-        "requires-manual-review"
+        "size: XS"
       ]
     },
     {
@@ -402,7 +401,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-07-14T12:17:27Z",
+      "updated_at": "2026-07-14T14:52:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2852,11 +2851,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-10T20:49:36Z",
-      "updated_at": "2026-07-11T01:41:16Z",
+      "updated_at": "2026-07-14T15:29:19Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XL",
+      "ci_status": "PENDING",
+      "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -2864,35 +2863,8 @@
       "unresolved_conversations": 0,
       "labels": [
         "renovate",
-        "size: XL",
+        "size: L",
         "release-v0.8",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "deps: Update github.com/sigstore/rekor (v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3405",
-      "number": 3405,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-13T20:55:06Z",
-      "updated_at": "2026-07-14T01:54:43Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "size: XXL",
         "ready-for-merge"
       ]
     },
@@ -2979,29 +2951,27 @@
       ]
     },
     {
-      "title": "docs(#3410): add Kubernetes manifest guidance to AGENTS.md",
-      "url": "https://github.com/conforma/cli/pull/3411",
-      "number": 3411,
+      "title": "Include enforcement date in warnings for future effective_on violations",
+      "url": "https://github.com/conforma/cli/pull/3412",
+      "number": 3412,
       "repo": "conforma/cli",
       "author": {
-        "login": "fullsend-ai-coder",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+        "login": "Acepresso",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
-      "created_at": "2026-07-14T13:26:41Z",
-      "updated_at": "2026-07-14T13:37:50Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
+      "created_at": "2026-07-14T15:20:48Z",
+      "updated_at": "2026-07-14T15:26:11Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "documentation",
-        "size: XS",
-        "requires-manual-review"
+        "size: M"
       ]
     },
     {
@@ -5842,16 +5812,40 @@
       ]
     },
     {
-      "title": "Configure Renovate",
-      "url": "https://github.com/conforma/claude-skills/pull/11",
-      "number": 11,
+      "title": "Use application snapshot for multi-component validation in ec-setup",
+      "url": "https://github.com/conforma/claude-skills/pull/12",
+      "number": 12,
+      "repo": "conforma/claude-skills",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-14T14:42:36Z",
+      "updated_at": "2026-07-14T14:44:44Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: M"
+      ]
+    },
+    {
+      "title": "Update conforma/pr-size-label-action action to v1.2.0",
+      "url": "https://github.com/conforma/claude-skills/pull/13",
+      "number": 13,
       "repo": "conforma/claude-skills",
       "author": {
         "login": "renovate",
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
-      "created_at": "2026-06-21T23:47:42Z",
-      "updated_at": "2026-06-21T23:47:51Z",
+      "created_at": "2026-07-14T14:47:42Z",
+      "updated_at": "2026-07-14T14:47:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
