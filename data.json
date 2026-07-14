@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T19:29:51.562168007Z",
+  "generated_at": "2026-07-14T19:57:49.08513304Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2276,10 +2276,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-14T13:14:57Z",
+      "updated_at": "2026-07-14T19:56:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2433,7 +2433,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-14T13:10:26Z",
+      "updated_at": "2026-07-14T19:56:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2462,7 +2462,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-14T13:08:21Z",
+      "updated_at": "2026-07-14T19:56:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2826,11 +2826,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-10T20:42:53Z",
-      "updated_at": "2026-07-11T01:40:31Z",
+      "updated_at": "2026-07-14T19:57:07Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XL",
+      "ci_status": "PENDING",
+      "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -2839,7 +2839,7 @@
       "labels": [
         "renovate",
         "main",
-        "size: XL",
+        "size: L",
         "ready-for-merge"
       ]
     },
@@ -2868,33 +2868,6 @@
         "size: L",
         "release-v0.8",
         "ready-for-merge"
-      ]
-    },
-    {
-      "title": "deps: Update github.com/sigstore/rekor (main)",
-      "url": "https://github.com/conforma/cli/pull/3406",
-      "number": 3406,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-13T20:57:48Z",
-      "updated_at": "2026-07-14T15:44:50Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "size: XXL",
-        "requires-manual-review"
       ]
     },
     {
