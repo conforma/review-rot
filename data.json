@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T17:52:11.188357722Z",
+  "generated_at": "2026-07-14T18:23:24.753611154Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2973,6 +2973,60 @@
       "labels": [
         "size: M",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "chore(deps): Upgrade golang to 1.26.4 (v0.8)",
+      "url": "https://github.com/conforma/cli/pull/3413",
+      "number": 3413,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-07-14T18:01:52Z",
+      "updated_at": "2026-07-14T18:19:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go",
+        "size: XS",
+        "requires-manual-review"
+      ]
+    },
+    {
+      "title": "chore(deps): Upgrade golang to 1.26.4 (v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3414",
+      "number": 3414,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-07-14T18:07:00Z",
+      "updated_at": "2026-07-14T18:11:51Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go",
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
