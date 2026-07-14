@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T00:58:05.851066866Z",
+  "generated_at": "2026-07-14T01:38:59.551295766Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1332,7 +1332,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-07-13T02:18:14Z",
+      "updated_at": "2026-07-14T01:34:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1894,10 +1894,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-09T02:54:07Z",
-      "updated_at": "2026-07-10T01:43:17Z",
+      "updated_at": "2026-07-14T01:35:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2490,7 +2490,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-07-11T01:47:08Z",
+      "updated_at": "2026-07-14T01:35:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2499,7 +2499,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "dependencies",
         "go",
@@ -2634,7 +2634,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-07-12T01:41:15Z",
+      "updated_at": "2026-07-14T01:36:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3051,6 +3051,61 @@
         "go",
         "size: XXL",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "Update https://github.com/conforma/e2e-tests digest to 2f3c802 (main)",
+      "url": "https://github.com/conforma/cli/pull/3408",
+      "number": 3408,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-07-14T01:29:58Z",
+      "updated_at": "2026-07-14T01:35:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update https://github.com/conforma/e2e-tests digest to 2f3c802 (main)",
+      "url": "https://github.com/conforma/cli/pull/3409",
+      "number": 3409,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-07-14T01:31:42Z",
+      "updated_at": "2026-07-14T01:36:21Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS",
+        "ci",
+        "ready-for-merge"
       ]
     },
     {
