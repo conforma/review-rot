@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T16:52:33.527326442Z",
+  "generated_at": "2026-07-14T17:27:15.182699473Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3879,7 +3879,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-07-12T19:59:29Z",
+      "updated_at": "2026-07-14T16:53:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3981,7 +3981,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-07-12T13:48:44Z",
+      "updated_at": "2026-07-14T16:53:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5837,30 +5837,6 @@
       ]
     },
     {
-      "title": "Update conforma/pr-size-label-action action to v1.2.0",
-      "url": "https://github.com/conforma/claude-skills/pull/13",
-      "number": 13,
-      "repo": "conforma/claude-skills",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-07-14T14:47:42Z",
-      "updated_at": "2026-07-14T14:47:51Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Add SLSA provenance structure reference document",
       "url": "https://github.com/conforma/claude-skills/pull/15",
       "number": 15,
@@ -5870,7 +5846,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-14T15:52:24Z",
-      "updated_at": "2026-07-14T15:56:45Z",
+      "updated_at": "2026-07-14T17:23:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5879,7 +5855,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XXL"
       ]
