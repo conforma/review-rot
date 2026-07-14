@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T20:51:47.015278169Z",
+  "generated_at": "2026-07-14T21:20:52.075976451Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2250,16 +2250,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-05-26T18:30:57Z",
-      "updated_at": "2026-07-14T20:28:20Z",
+      "updated_at": "2026-07-14T21:08:18Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: M",
         "testing",
@@ -2829,7 +2829,7 @@
       "updated_at": "2026-07-14T20:13:26Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "L",
       "reviews": {
         "count": 0,
@@ -2951,33 +2951,6 @@
       ]
     },
     {
-      "title": "chore(deps): Upgrade golang to 1.26.4 (v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3413",
-      "number": 3413,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-14T18:01:52Z",
-      "updated_at": "2026-07-14T18:19:32Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "size: XS",
-        "requires-manual-review"
-      ]
-    },
-    {
       "title": "chore(deps): Upgrade golang to 1.26.4 (v0.7)",
       "url": "https://github.com/conforma/cli/pull/3414",
       "number": 3414,
@@ -2987,7 +2960,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-14T18:07:00Z",
-      "updated_at": "2026-07-14T18:11:51Z",
+      "updated_at": "2026-07-14T21:05:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
