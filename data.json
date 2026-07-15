@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T19:28:15.630300595Z",
+  "generated_at": "2026-07-15T19:54:52.684477414Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1098,6 +1098,32 @@
         "documentation",
         "size: XS",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "ci(EC-1928): add regal-test target for custom lint rule tests",
+      "url": "https://github.com/conforma/policy/pull/1778",
+      "number": 1778,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-07-15T19:30:55Z",
+      "updated_at": "2026-07-15T19:47:09Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "tooling",
+        "ready-for-merge"
       ]
     },
     {
