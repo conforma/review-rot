@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T10:38:48.200476915Z",
+  "generated_at": "2026-07-16T11:32:01.202766188Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -75,7 +75,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-07-15T02:08:30Z",
+      "updated_at": "2026-07-16T10:58:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -84,14 +84,13 @@
         "count": 1,
         "has_new_commits": true
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 11,
       "labels": [
         "dependencies",
         "go",
         "renovate",
         "release-v0.7",
-        "size: XS",
-        "requires-manual-review"
+        "size: XS"
       ]
     },
     {
@@ -403,7 +402,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-07-15T09:27:29Z",
+      "updated_at": "2026-07-16T10:51:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -412,14 +411,13 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 22,
+      "unresolved_conversations": 24,
       "labels": [
         "dependencies",
         "go",
         "renovate",
         "main",
-        "size: XXL",
-        "requires-manual-review"
+        "size: XXL"
       ]
     },
     {
@@ -3194,6 +3192,32 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "size: XS",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "fix(EC-1912): validate in-toto statement type in bundle attestation path",
+      "url": "https://github.com/conforma/cli/pull/3418",
+      "number": 3418,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "BohdanMar",
+        "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
+      },
+      "created_at": "2026-07-16T11:11:42Z",
+      "updated_at": "2026-07-16T11:22:58Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "bug",
         "size: XS",
         "ready-for-merge"
       ]
