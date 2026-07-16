@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T06:48:54.233941188Z",
+  "generated_at": "2026-07-16T07:41:36.142686594Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1178,6 +1178,30 @@
         "size: L",
         "ready-for-merge",
         "feature"
+      ]
+    },
+    {
+      "title": "Warn when regex patterns in rule data lack anchoring",
+      "url": "https://github.com/conforma/policy/pull/1781",
+      "number": 1781,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-07-16T07:30:17Z",
+      "updated_at": "2026-07-16T07:37:53Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 6,
+      "labels": [
+        "size: XL"
       ]
     },
     {
