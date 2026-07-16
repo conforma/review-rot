@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T18:24:25.172843217Z",
+  "generated_at": "2026-07-16T18:49:59.18702816Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2985,33 +2985,6 @@
     },
     {
       "title": "Update https://github.com/conforma/e2e-tests digest to 2f3c802 (main)",
-      "url": "https://github.com/conforma/cli/pull/3408",
-      "number": 3408,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-07-14T01:29:58Z",
-      "updated_at": "2026-07-16T18:21:39Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Update https://github.com/conforma/e2e-tests digest to 2f3c802 (main)",
       "url": "https://github.com/conforma/cli/pull/3409",
       "number": 3409,
       "repo": "conforma/cli",
@@ -3206,20 +3179,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
       },
       "created_at": "2026-07-16T16:43:54Z",
-      "updated_at": "2026-07-16T18:21:02Z",
+      "updated_at": "2026-07-16T18:32:41Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 6,
       "labels": [
         "enhancement",
         "size: XXL",
-        "Review effort 4/5"
+        "Review effort 4/5",
+        "ready-for-merge"
       ]
     },
     {
