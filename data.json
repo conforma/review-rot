@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T14:40:19.002790061Z",
+  "generated_at": "2026-07-16T15:32:01.130967739Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4802,7 +4802,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:26:50Z",
-      "updated_at": "2026-07-12T20:46:50Z",
+      "updated_at": "2026-07-16T14:47:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4816,30 +4816,6 @@
         "main",
         "renovate",
         "size: XS"
-      ]
-    },
-    {
-      "title": "Add ITS policy config for early release-violation visibility",
-      "url": "https://github.com/conforma/config/pull/236",
-      "number": 236,
-      "repo": "conforma/config",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-15T18:04:36Z",
-      "updated_at": "2026-07-16T14:17:58Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
       ]
     },
     {
@@ -6151,6 +6127,30 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "Add mid-sprint tracking skills and commands (EC-1899)",
+      "url": "https://github.com/conforma/claude-skills/pull/18",
+      "number": 18,
+      "repo": "conforma/claude-skills",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-07-16T14:46:08Z",
+      "updated_at": "2026-07-16T15:26:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XL"
       ]
     },
     {
