@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T01:41:09.324364749Z",
+  "generated_at": "2026-07-16T03:02:49.052039879Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1154,6 +1154,32 @@
       ]
     },
     {
+      "title": "feat(EC-1957): verify base image release signatures",
+      "url": "https://github.com/conforma/policy/pull/1780",
+      "number": 1780,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-16T02:10:21Z",
+      "updated_at": "2026-07-16T03:00:48Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 5,
+      "labels": [
+        "size: L",
+        "ready-for-merge",
+        "feature"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1385,7 +1411,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-07-16T01:38:25Z",
+      "updated_at": "2026-07-16T01:53:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1464,7 +1490,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-15T17:28:42Z",
+      "updated_at": "2026-07-16T01:48:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1493,7 +1519,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-15T09:13:50Z",
+      "updated_at": "2026-07-16T01:49:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1523,7 +1549,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-07-16T00:59:27Z",
+      "updated_at": "2026-07-16T01:49:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1582,7 +1608,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-15T09:14:02Z",
+      "updated_at": "2026-07-16T01:49:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1639,7 +1665,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-15T09:14:07Z",
+      "updated_at": "2026-07-16T01:49:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1668,7 +1694,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-15T09:14:14Z",
+      "updated_at": "2026-07-16T01:49:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1697,7 +1723,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:50:01Z",
-      "updated_at": "2026-07-15T09:14:18Z",
+      "updated_at": "2026-07-16T01:49:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1949,10 +1975,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T03:04:45Z",
-      "updated_at": "2026-07-16T01:39:17Z",
+      "updated_at": "2026-07-16T01:42:29Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -1964,7 +1990,8 @@
         "docker",
         "renovate",
         "main",
-        "size: XS"
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -2065,7 +2092,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-07-15T02:11:05Z",
+      "updated_at": "2026-07-16T02:03:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2074,7 +2101,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 69,
+      "unresolved_conversations": 71,
       "labels": [
         "dependencies",
         "go",
@@ -2594,7 +2621,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.5-1784032128 (main)",
+      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.5-1784127026 (main)",
       "url": "https://github.com/conforma/cli/pull/3368",
       "number": 3368,
       "repo": "conforma/cli",
@@ -2603,7 +2630,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-07-15T01:56:23Z",
+      "updated_at": "2026-07-16T01:58:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3019,7 +3046,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-14T01:31:42Z",
-      "updated_at": "2026-07-15T09:09:44Z",
+      "updated_at": "2026-07-16T01:48:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3115,6 +3142,33 @@
         "tooling",
         "agentic",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "feat(EC-1941): add enterprise-contract pipeline definition",
+      "url": "https://github.com/conforma/cli/pull/3416",
+      "number": 3416,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-16T02:10:30Z",
+      "updated_at": "2026-07-16T02:39:38Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 5,
+      "labels": [
+        "size: L",
+        "tooling",
+        "requires-manual-review",
+        "feature"
       ]
     },
     {
@@ -4163,6 +4217,30 @@
         "main",
         "renovate",
         "size: XS"
+      ]
+    },
+    {
+      "title": "feat(EC-1987): improve changelog formatting and branding",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/222",
+      "number": 222,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-16T02:10:39Z",
+      "updated_at": "2026-07-16T02:14:36Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: S"
       ]
     },
     {
