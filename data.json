@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T16:29:03.459308481Z",
+  "generated_at": "2026-07-16T16:55:39.310992163Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1109,10 +1109,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-16T00:13:23Z",
-      "updated_at": "2026-07-16T01:01:33Z",
+      "updated_at": "2026-07-16T16:52:30Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "L",
       "reviews": {
         "count": 0,
@@ -3100,16 +3100,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-16T00:13:14Z",
-      "updated_at": "2026-07-16T14:21:47Z",
+      "updated_at": "2026-07-16T16:53:00Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 5,
       "labels": [
         "documentation",
         "size: M",
@@ -3194,6 +3194,30 @@
         "bug",
         "size: XS",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Surface volatile-excluded rules as time-bounded exceptions in report output",
+      "url": "https://github.com/conforma/cli/pull/3419",
+      "number": 3419,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "arewm",
+        "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
+      },
+      "created_at": "2026-07-16T16:43:54Z",
+      "updated_at": "2026-07-16T16:53:20Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XXL"
       ]
     },
     {
@@ -4538,7 +4562,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:36:46Z",
-      "updated_at": "2026-07-08T15:47:21Z",
+      "updated_at": "2026-07-16T16:54:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6755,17 +6779,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-07-14T11:01:05Z",
-      "updated_at": "2026-07-14T12:36:34Z",
+      "updated_at": "2026-07-16T16:41:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
+        "lgtm",
         "environment/staging"
       ]
     },
@@ -6779,17 +6804,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-07-14T11:01:06Z",
-      "updated_at": "2026-07-14T13:22:31Z",
+      "updated_at": "2026-07-16T16:42:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
+        "lgtm",
         "environment/staging"
       ]
     },
