@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T00:27:15.269259604Z",
+  "generated_at": "2026-07-16T01:00:40.139949697Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1136,18 +1136,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-16T00:13:23Z",
-      "updated_at": "2026-07-16T00:25:10Z",
+      "updated_at": "2026-07-16T00:59:54Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 6,
       "labels": [
-        "size: L"
+        "documentation",
+        "size: L",
+        "tooling",
+        "requires-manual-review"
       ]
     },
     {
@@ -1520,7 +1523,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-07-15T22:36:46Z",
+      "updated_at": "2026-07-16T00:59:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3068,16 +3071,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-16T00:13:14Z",
-      "updated_at": "2026-07-16T00:24:09Z",
+      "updated_at": "2026-07-16T00:56:28Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 5,
       "labels": [
         "documentation",
         "size: M",
@@ -5969,6 +5972,30 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: M"
+      ]
+    },
+    {
+      "title": "feat: add /scaffold-repo command for AgentReady scaffolding",
+      "url": "https://github.com/conforma/claude-skills/pull/16",
+      "number": 16,
+      "repo": "conforma/claude-skills",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-16T00:31:58Z",
+      "updated_at": "2026-07-16T00:53:50Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: L"
       ]
     },
     {
