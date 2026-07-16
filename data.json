@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T23:47:52.01792357Z",
+  "generated_at": "2026-07-16T00:27:15.269259604Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1124,6 +1124,30 @@
         "size: XS",
         "tooling",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "chore: add AgentReady scaffolding for AI-assisted development",
+      "url": "https://github.com/conforma/policy/pull/1779",
+      "number": 1779,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-16T00:13:23Z",
+      "updated_at": "2026-07-16T00:25:10Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: L"
       ]
     },
     {
@@ -3031,6 +3055,34 @@
         "dependencies",
         "go",
         "size: XS",
+        "requires-manual-review"
+      ]
+    },
+    {
+      "title": "chore: add AgentReady scaffolding for AI-assisted development",
+      "url": "https://github.com/conforma/cli/pull/3415",
+      "number": 3415,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-16T00:13:14Z",
+      "updated_at": "2026-07-16T00:24:09Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 3,
+      "labels": [
+        "documentation",
+        "size: M",
+        "tooling",
+        "agentic",
         "requires-manual-review"
       ]
     },
