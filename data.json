@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T14:44:45.083937827Z",
+  "generated_at": "2026-07-20T15:36:31.629017421Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6732,18 +6732,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-07-14T11:01:05Z",
-      "updated_at": "2026-07-16T16:41:50Z",
+      "updated_at": "2026-07-20T14:55:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "lgtm",
+        "do-not-merge/hold",
+        "approved",
         "environment/staging"
       ]
     },
@@ -6757,18 +6759,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-07-14T11:01:06Z",
-      "updated_at": "2026-07-16T16:42:26Z",
+      "updated_at": "2026-07-20T14:55:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "lgtm",
+        "do-not-merge/hold",
+        "approved",
         "environment/staging"
       ]
     },
