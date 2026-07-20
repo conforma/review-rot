@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T11:59:20.939560252Z",
+  "generated_at": "2026-07-20T12:52:55.893526015Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1492,7 +1492,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-20T10:05:31Z",
+      "updated_at": "2026-07-20T12:25:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1521,7 +1521,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-20T10:01:15Z",
+      "updated_at": "2026-07-20T12:19:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1696,7 +1696,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-20T10:01:24Z",
+      "updated_at": "2026-07-20T12:19:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2363,7 +2363,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-20T10:12:21Z",
+      "updated_at": "2026-07-20T12:31:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2520,7 +2520,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-20T10:03:19Z",
+      "updated_at": "2026-07-20T12:20:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2549,7 +2549,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-20T10:27:43Z",
+      "updated_at": "2026-07-20T12:21:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2558,7 +2558,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 4,
       "labels": [
         "go",
         "docker",
@@ -2636,7 +2636,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-20T10:07:42Z",
+      "updated_at": "2026-07-20T12:24:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3089,32 +3089,6 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "fix(EC-1912): validate in-toto statement type in bundle attestation path",
-      "url": "https://github.com/conforma/cli/pull/3418",
-      "number": 3418,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "BohdanMar",
-        "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
-      },
-      "created_at": "2026-07-16T11:11:42Z",
-      "updated_at": "2026-07-20T09:55:05Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "bug",
         "size: XS",
         "ready-for-merge"
       ]
