@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T20:51:12.091090049Z",
+  "generated_at": "2026-07-21T21:26:43.975507922Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3307,7 +3307,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:49Z",
-      "updated_at": "2026-07-21T03:11:48Z",
+      "updated_at": "2026-07-21T21:17:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3353,7 +3353,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.112.0 (main)",
+      "title": "Update dependency wrangler to v4.113.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -3362,7 +3362,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-07-18T19:29:40Z",
+      "updated_at": "2026-07-21T21:23:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3997,7 +3997,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:55:02Z",
-      "updated_at": "2026-07-20T22:42:16Z",
+      "updated_at": "2026-07-21T20:55:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4076,7 +4076,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:39:54Z",
-      "updated_at": "2026-07-20T23:30:58Z",
+      "updated_at": "2026-07-21T21:01:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
