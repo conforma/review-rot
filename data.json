@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T13:37:41.837755804Z",
+  "generated_at": "2026-07-21T14:41:13.872700229Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -375,7 +375,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-07-21T04:46:39Z",
+      "updated_at": "2026-07-21T13:51:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -390,8 +390,7 @@
         "github_actions",
         "renovate",
         "main",
-        "size: S",
-        "requires-manual-review"
+        "size: S"
       ]
     },
     {
@@ -404,7 +403,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-07-21T04:46:49Z",
+      "updated_at": "2026-07-21T13:55:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -419,8 +418,7 @@
         "go",
         "renovate",
         "main",
-        "size: XXL",
-        "requires-manual-review"
+        "size: XXL"
       ]
     },
     {
@@ -589,11 +587,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-07-21T04:46:51Z",
+      "updated_at": "2026-07-21T13:51:56Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "S",
+      "ci_status": "FAILURE",
+      "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -604,7 +602,7 @@
         "go",
         "renovate",
         "main",
-        "size: S",
+        "size: XS",
         "ready-for-merge"
       ]
     },
@@ -618,7 +616,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-07-17T08:52:33Z",
+      "updated_at": "2026-07-21T13:46:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1086,7 +1084,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-15T09:34:00Z",
-      "updated_at": "2026-07-15T09:38:59Z",
+      "updated_at": "2026-07-21T14:21:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1095,37 +1093,10 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "documentation",
         "size: XS",
-        "requires-manual-review"
-      ]
-    },
-    {
-      "title": "chore: add AgentReady scaffolding for AI-assisted development",
-      "url": "https://github.com/conforma/policy/pull/1779",
-      "number": 1779,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-16T00:13:23Z",
-      "updated_at": "2026-07-18T20:56:02Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "documentation",
-        "size: L",
-        "tooling",
         "requires-manual-review"
       ]
     },
@@ -1179,6 +1150,58 @@
         "enhancement",
         "size: XL",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "docs(#1782): fix make ci description in AGENTS.md",
+      "url": "https://github.com/conforma/policy/pull/1783",
+      "number": 1783,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-07-21T13:42:09Z",
+      "updated_at": "2026-07-21T13:52:32Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "documentation",
+        "size: XS",
+        "requires-manual-review"
+      ]
+    },
+    {
+      "title": "docs(#1784): correct collection-registration guidance in AGENTS.md",
+      "url": "https://github.com/conforma/policy/pull/1785",
+      "number": 1785,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-07-21T13:59:47Z",
+      "updated_at": "2026-07-21T14:13:54Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "documentation",
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -2999,16 +3022,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-07-14T15:20:48Z",
-      "updated_at": "2026-07-21T13:30:37Z",
+      "updated_at": "2026-07-21T14:24:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 7,
       "labels": [
         "enhancement",
         "size: L",
@@ -3133,7 +3156,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-07-20T18:25:21Z",
-      "updated_at": "2026-07-21T13:29:51Z",
+      "updated_at": "2026-07-21T13:43:03Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3145,6 +3168,8 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: L",
+        "Possible security concern",
+        "cli",
         "requires-manual-review"
       ]
     },
@@ -3182,7 +3207,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-07-21T12:23:33Z",
-      "updated_at": "2026-07-21T13:27:01Z",
+      "updated_at": "2026-07-21T14:24:02Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3191,12 +3216,11 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 8,
       "labels": [
         "github_actions",
         "size: M",
-        "ci",
-        "requires-manual-review"
+        "ci"
       ]
     },
     {
@@ -6833,18 +6857,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-07-21T09:36:40Z",
-      "updated_at": "2026-07-21T09:44:01Z",
+      "updated_at": "2026-07-21T14:23:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
+        "lgtm",
         "do-not-merge/hold",
+        "approved",
         "environment/staging"
       ]
     },
