@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T12:03:54.789080668Z",
+  "generated_at": "2026-07-21T12:58:49.150185897Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3002,7 +3002,7 @@
       "updated_at": "2026-07-21T11:58:07Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -3195,6 +3195,32 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "Add stress benchmark CI workflow",
+      "url": "https://github.com/conforma/cli/pull/3426",
+      "number": 3426,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "dheerajodha",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
+      },
+      "created_at": "2026-07-21T12:23:33Z",
+      "updated_at": "2026-07-21T12:42:32Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 3,
+      "labels": [
+        "github_actions",
+        "size: M",
+        "ci"
       ]
     },
     {
