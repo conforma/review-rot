@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T20:03:55.232927215Z",
+  "generated_at": "2026-07-21T20:51:12.091090049Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -76,7 +76,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-07-20T20:28:15Z",
+      "updated_at": "2026-07-21T20:19:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -92,7 +92,7 @@
         "renovate",
         "release-v0.7",
         "size: XS",
-        "requires-manual-review"
+        "ready-for-merge"
       ]
     },
     {
@@ -182,7 +182,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T00:39:12Z",
-      "updated_at": "2026-07-20T20:25:00Z",
+      "updated_at": "2026-07-21T20:21:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -318,7 +318,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-07-20T20:26:09Z",
+      "updated_at": "2026-07-21T20:19:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -403,7 +403,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-07-21T13:55:28Z",
+      "updated_at": "2026-07-21T20:17:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -418,7 +418,8 @@
         "go",
         "renovate",
         "main",
-        "size: XXL"
+        "size: XXL",
+        "requires-manual-review"
       ]
     },
     {
@@ -827,7 +828,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-07-20T20:24:36Z",
+      "updated_at": "2026-07-21T20:20:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
