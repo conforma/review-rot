@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T01:02:31.37009672Z",
+  "generated_at": "2026-07-21T02:17:06.432347251Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1413,7 +1413,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-07-20T03:33:45Z",
+      "updated_at": "2026-07-21T02:11:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1492,7 +1492,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-20T12:25:19Z",
+      "updated_at": "2026-07-21T01:46:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1521,7 +1521,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-20T12:19:37Z",
+      "updated_at": "2026-07-21T01:47:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1530,7 +1530,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 62,
+      "unresolved_conversations": 63,
       "labels": [
         "dependencies",
         "go",
@@ -1551,7 +1551,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-07-17T15:01:27Z",
+      "updated_at": "2026-07-21T01:47:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1581,7 +1581,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:48Z",
-      "updated_at": "2026-07-14T20:09:54Z",
+      "updated_at": "2026-07-21T01:47:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1610,7 +1610,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-17T17:19:17Z",
+      "updated_at": "2026-07-21T01:47:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1639,7 +1639,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-07-14T02:00:52Z",
+      "updated_at": "2026-07-21T01:47:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1667,21 +1667,22 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-17T15:03:07Z",
+      "updated_at": "2026-07-21T01:47:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "S",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
         "github_actions",
         "renovate",
         "release-v0.7",
-        "size: S",
+        "size: M",
         "ci",
         "requires-manual-review"
       ]
@@ -1696,7 +1697,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-20T12:19:46Z",
+      "updated_at": "2026-07-21T01:47:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1725,7 +1726,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:50:01Z",
-      "updated_at": "2026-07-19T01:09:37Z",
+      "updated_at": "2026-07-21T01:47:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1825,10 +1826,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-10T21:52:25Z",
-      "updated_at": "2026-07-12T11:07:29Z",
+      "updated_at": "2026-07-21T01:46:35Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -1836,6 +1837,8 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
+        "go",
         "renovate",
         "main",
         "size: XS",
@@ -2006,10 +2009,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-09T02:54:07Z",
-      "updated_at": "2026-07-19T01:43:32Z",
+      "updated_at": "2026-07-21T02:01:49Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2020,8 +2023,7 @@
         "github_actions",
         "renovate",
         "main",
-        "size: S",
-        "requires-manual-review"
+        "size: S"
       ]
     },
     {
@@ -2094,7 +2096,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-07-20T03:55:58Z",
+      "updated_at": "2026-07-21T02:14:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2149,10 +2151,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T18:51:52Z",
-      "updated_at": "2026-07-12T11:09:45Z",
+      "updated_at": "2026-07-21T01:46:32Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2179,7 +2181,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T18:58:35Z",
-      "updated_at": "2026-07-12T11:09:23Z",
+      "updated_at": "2026-07-21T01:47:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2206,10 +2208,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T19:00:18Z",
-      "updated_at": "2026-07-12T11:21:54Z",
+      "updated_at": "2026-07-21T01:47:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2363,7 +2365,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-20T12:31:39Z",
+      "updated_at": "2026-07-21T01:46:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2549,7 +2551,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-20T12:21:42Z",
+      "updated_at": "2026-07-21T01:46:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2578,7 +2580,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-07-19T01:37:11Z",
+      "updated_at": "2026-07-21T01:51:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2607,7 +2609,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-07-19T01:56:02Z",
+      "updated_at": "2026-07-21T02:12:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2636,7 +2638,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-20T12:24:47Z",
+      "updated_at": "2026-07-21T01:46:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2713,7 +2715,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.26.5 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.26.4 (main)",
       "url": "https://github.com/conforma/cli/pull/3372",
       "number": 3372,
       "repo": "conforma/cli",
@@ -2722,7 +2724,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-07-19T01:40:54Z",
+      "updated_at": "2026-07-21T01:55:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2731,15 +2733,14 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 5,
       "labels": [
         "dependencies",
         "go",
         "docker",
         "renovate",
         "main",
-        "size: XS",
-        "requires-manual-review"
+        "size: XS"
       ]
     },
     {
@@ -2752,10 +2753,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-29T01:22:52Z",
-      "updated_at": "2026-07-19T02:01:52Z",
+      "updated_at": "2026-07-21T02:13:18Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2943,10 +2944,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-10T20:42:53Z",
-      "updated_at": "2026-07-14T20:13:26Z",
+      "updated_at": "2026-07-21T01:46:33Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
         "count": 0,
@@ -2954,10 +2955,12 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
+        "go",
         "renovate",
         "main",
         "size: L",
-        "requires-manual-review"
+        "ready-for-merge"
       ]
     },
     {
@@ -2970,7 +2973,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-10T20:49:36Z",
-      "updated_at": "2026-07-14T15:47:42Z",
+      "updated_at": "2026-07-21T01:47:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3121,7 +3124,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 062c52f (main)",
+      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 6c79f4f (main)",
       "url": "https://github.com/conforma/cli/pull/3421",
       "number": 3421,
       "repo": "conforma/cli",
@@ -3130,10 +3133,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-17T00:03:35Z",
-      "updated_at": "2026-07-17T14:58:57Z",
+      "updated_at": "2026-07-21T02:02:14Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3760,7 +3763,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-21T02:56:45Z",
-      "updated_at": "2026-06-26T00:48:30Z",
+      "updated_at": "2026-07-21T01:37:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
