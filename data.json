@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T18:50:36.246714937Z",
+  "generated_at": "2026-07-22T19:30:14.854857551Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4454,6 +4454,30 @@
         "renovate",
         "size: XS",
         "major"
+      ]
+    },
+    {
+      "title": "Several small tweaks for rpm version check script",
+      "url": "https://github.com/conforma/hacks/pull/212",
+      "number": 212,
+      "repo": "conforma/hacks",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-07-22T19:23:53Z",
+      "updated_at": "2026-07-22T19:27:58Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: XS"
       ]
     },
     {
