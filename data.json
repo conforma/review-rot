@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T04:36:31.084942922Z",
+  "generated_at": "2026-07-22T05:59:01.972446252Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3971,7 +3971,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-07-22T02:57:34Z",
+      "updated_at": "2026-07-22T04:37:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3997,7 +3997,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:55:02Z",
-      "updated_at": "2026-07-22T02:57:42Z",
+      "updated_at": "2026-07-22T04:38:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5391,6 +5391,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS",
+        "security"
+      ]
+    },
+    {
+      "title": "fix(deps): update module golang.org/x/crypto to v0.52.0 [security] (main)",
+      "url": "https://github.com/conforma/go-gather/pull/334",
+      "number": 334,
+      "repo": "conforma/go-gather",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-07-12T12:40:35Z",
+      "updated_at": "2026-07-22T05:26:16Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S",
         "security"
       ]
     },
