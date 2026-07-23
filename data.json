@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T10:16:40.850774327Z",
+  "generated_at": "2026-07-23T11:14:43.34966745Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3275,6 +3275,30 @@
       ]
     },
     {
+      "title": "feat(EC-1862): add AI skills for ec-cli",
+      "url": "https://github.com/conforma/cli/pull/3434",
+      "number": 3434,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "BohdanMar",
+        "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
+      },
+      "created_at": "2026-07-23T10:57:51Z",
+      "updated_at": "2026-07-23T11:13:44Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 4,
+      "labels": [
+        "size: XL"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -4048,7 +4072,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:55:02Z",
-      "updated_at": "2026-07-22T11:38:56Z",
+      "updated_at": "2026-07-23T10:34:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4074,7 +4098,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-07-23T01:02:15Z",
+      "updated_at": "2026-07-23T10:34:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4180,7 +4204,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-07-22T22:52:37Z",
+      "updated_at": "2026-07-23T11:13:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4282,7 +4306,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-07-22T22:52:53Z",
+      "updated_at": "2026-07-23T11:13:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5300,7 +5324,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-08T00:47:32Z",
-      "updated_at": "2026-07-22T18:08:36Z",
+      "updated_at": "2026-07-23T11:03:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5352,7 +5376,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-02T01:54:55Z",
-      "updated_at": "2026-07-22T11:52:37Z",
+      "updated_at": "2026-07-23T11:02:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5378,7 +5402,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T15:39:45Z",
-      "updated_at": "2026-07-22T18:08:04Z",
+      "updated_at": "2026-07-23T11:02:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5391,31 +5415,6 @@
       "labels": [
         "security",
         "size: M"
-      ]
-    },
-    {
-      "title": "fix(deps): update module github.com/go-git/go-billy/v5 to v5.9.0 [security] (main)",
-      "url": "https://github.com/conforma/go-gather/pull/328",
-      "number": 328,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-05-14T17:32:03Z",
-      "updated_at": "2026-07-22T18:07:56Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: S",
-        "security"
       ]
     },
     {
@@ -5455,7 +5454,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-23T02:14:14Z",
-      "updated_at": "2026-07-22T11:53:07Z",
+      "updated_at": "2026-07-23T11:03:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5481,7 +5480,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:43:42Z",
-      "updated_at": "2026-07-22T18:07:48Z",
+      "updated_at": "2026-07-23T11:02:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5506,7 +5505,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-12T12:40:35Z",
-      "updated_at": "2026-07-22T18:08:12Z",
+      "updated_at": "2026-07-23T11:02:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5531,7 +5530,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-12T12:40:43Z",
-      "updated_at": "2026-07-22T18:08:20Z",
+      "updated_at": "2026-07-23T11:02:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5967,7 +5966,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-07-17T17:52:37Z",
+      "updated_at": "2026-07-23T10:30:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
