@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T13:39:07.502473685Z",
+  "generated_at": "2026-07-23T14:44:54.746355878Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1514,7 +1514,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-23T08:38:05Z",
+      "updated_at": "2026-07-23T13:54:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1543,7 +1543,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-23T08:53:37Z",
+      "updated_at": "2026-07-23T14:05:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1552,7 +1552,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 65,
+      "unresolved_conversations": 67,
       "labels": [
         "dependencies",
         "go",
@@ -1560,7 +1560,7 @@
         "main",
         "size: XXL",
         "Review effort 1/5",
-        "requires-manual-review"
+        "ready-for-merge"
       ]
     },
     {
@@ -1573,7 +1573,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-07-23T08:42:09Z",
+      "updated_at": "2026-07-23T13:56:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1603,7 +1603,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:48Z",
-      "updated_at": "2026-07-23T08:42:12Z",
+      "updated_at": "2026-07-23T13:56:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1632,7 +1632,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-23T08:42:25Z",
+      "updated_at": "2026-07-23T13:56:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1661,7 +1661,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-07-23T08:42:18Z",
+      "updated_at": "2026-07-23T13:56:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1688,7 +1688,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-23T08:42:32Z",
+      "updated_at": "2026-07-23T13:57:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1718,7 +1718,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-23T08:55:17Z",
+      "updated_at": "2026-07-23T14:12:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1727,13 +1727,14 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 44,
+      "unresolved_conversations": 45,
       "labels": [
         "dependencies",
         "go",
         "renovate",
         "release-v0.7",
-        "size: XXL"
+        "size: XXL",
+        "ready-for-merge"
       ]
     },
     {
@@ -1746,7 +1747,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:50:01Z",
-      "updated_at": "2026-07-23T08:43:52Z",
+      "updated_at": "2026-07-23T13:57:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1846,7 +1847,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-10T21:52:25Z",
-      "updated_at": "2026-07-23T08:37:50Z",
+      "updated_at": "2026-07-23T13:54:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2143,7 +2144,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T18:51:52Z",
-      "updated_at": "2026-07-23T08:37:47Z",
+      "updated_at": "2026-07-23T13:54:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2173,7 +2174,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T18:58:35Z",
-      "updated_at": "2026-07-23T08:42:13Z",
+      "updated_at": "2026-07-23T13:56:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2357,7 +2358,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-23T08:37:56Z",
+      "updated_at": "2026-07-23T13:54:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2543,7 +2544,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-23T08:37:53Z",
+      "updated_at": "2026-07-23T13:54:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2629,7 +2630,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-23T08:38:07Z",
+      "updated_at": "2026-07-23T13:54:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2935,7 +2936,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-10T20:42:53Z",
-      "updated_at": "2026-07-23T08:37:48Z",
+      "updated_at": "2026-07-23T13:54:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3125,18 +3126,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-07-20T20:19:16Z",
-      "updated_at": "2026-07-23T10:04:04Z",
+      "updated_at": "2026-07-23T14:32:39Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "count": 1,
+        "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
+        "bug",
+        "size: XS",
+        "cli",
+        "ready-for-merge"
       ]
     },
     {
@@ -3177,16 +3181,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-22T15:11:57Z",
-      "updated_at": "2026-07-23T13:29:12Z",
+      "updated_at": "2026-07-23T13:44:52Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 7,
       "labels": [
         "size: XL",
         "tooling",
@@ -3229,7 +3233,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-07-23T08:42:02Z",
+      "updated_at": "2026-07-23T13:56:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3311,19 +3315,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-07-23T13:08:56Z",
-      "updated_at": "2026-07-23T13:31:32Z",
+      "updated_at": "2026-07-23T13:51:02Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 11,
+      "unresolved_conversations": 15,
       "labels": [
         "size: L",
-        "requires-manual-review"
+        "ci"
       ]
     },
     {
@@ -4100,7 +4104,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:55:02Z",
-      "updated_at": "2026-07-23T10:34:01Z",
+      "updated_at": "2026-07-23T14:37:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4126,7 +4130,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-07-23T10:34:02Z",
+      "updated_at": "2026-07-23T14:37:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
