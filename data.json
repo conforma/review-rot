@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T21:49:57.082518957Z",
+  "generated_at": "2026-07-23T22:21:05.234217657Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4956,7 +4956,7 @@
       ]
     },
     {
-      "title": "Update actions/checkout action to v6.0.3 (main)",
+      "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/config/pull/234",
       "number": 234,
       "repo": "conforma/config",
@@ -4965,7 +4965,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:26:50Z",
-      "updated_at": "2026-07-21T06:56:30Z",
+      "updated_at": "2026-07-23T21:50:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6102,10 +6102,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T01:43:51Z",
-      "updated_at": "2026-07-23T21:49:14Z",
+      "updated_at": "2026-07-23T21:52:21Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
