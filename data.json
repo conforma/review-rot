@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T16:31:34.961424776Z",
+  "generated_at": "2026-07-23T17:30:10.65015679Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1204,6 +1204,32 @@
       ]
     },
     {
+      "title": "Merge pipeline-required-tasks from ruleData config",
+      "url": "https://github.com/conforma/policy/pull/1786",
+      "number": 1786,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-23T16:56:05Z",
+      "updated_at": "2026-07-23T17:22:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 5,
+      "labels": [
+        "bug",
+        "size: XS",
+        "requires-manual-review"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1747,7 +1773,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:50:01Z",
-      "updated_at": "2026-07-23T13:57:56Z",
+      "updated_at": "2026-07-23T17:15:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3233,7 +3259,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-07-23T13:56:37Z",
+      "updated_at": "2026-07-23T17:14:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4312,7 +4338,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-07-23T13:10:39Z",
+      "updated_at": "2026-07-23T17:13:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
