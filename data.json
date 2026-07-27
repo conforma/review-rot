@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T16:17:44.867903765Z",
+  "generated_at": "2026-07-27T17:08:25.055805623Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1217,7 +1217,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-23T16:56:05Z",
-      "updated_at": "2026-07-23T20:40:10Z",
+      "updated_at": "2026-07-27T17:05:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -7044,17 +7044,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-07-27T14:48:20Z",
+      "updated_at": "2026-07-27T16:49:36Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
-      "labels": []
+      "unresolved_conversations": 1,
+      "labels": [
+        "Review effort 2/5"
+      ]
     },
     {
       "title": "Revert SLSA v1.0 attestation format on staging clusters",
