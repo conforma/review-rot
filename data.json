@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T07:43:13.568207913Z",
+  "generated_at": "2026-07-27T09:06:13.552714338Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1573,7 +1573,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-27T05:25:35Z",
+      "updated_at": "2026-07-27T08:57:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1582,7 +1582,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 71,
+      "unresolved_conversations": 73,
       "labels": [
         "dependencies",
         "go",
@@ -6691,7 +6691,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-25T23:58:51Z",
-      "updated_at": "2026-07-25T23:58:52Z",
+      "updated_at": "2026-07-27T08:33:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6702,6 +6702,294 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Update registry.access.redhat.com/ubi8/ubi-micro:latest Docker digest to 6bb49cf (main)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/627",
+      "number": 627,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2025-10-23T03:48:52Z",
+      "updated_at": "2026-07-22T22:56:12Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github actions (main) (minor)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/632",
+      "number": 632,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2025-10-25T01:37:28Z",
+      "updated_at": "2026-07-22T07:51:37Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: S"
+      ]
+    },
+    {
+      "title": "Update go modules (main) (minor)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/634",
+      "number": 634,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2025-10-26T01:17:31Z",
+      "updated_at": "2026-07-27T01:55:46Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XXL"
+      ]
+    },
+    {
+      "title": "🚨 Update go modules (main) (major)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/638",
+      "number": 638,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2025-10-28T02:09:34Z",
+      "updated_at": "2026-07-12T09:44:08Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "major",
+        "main",
+        "size: M"
+      ]
+    },
+    {
+      "title": "🚨 Update github actions (main) (major)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/692",
+      "number": 692,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2025-12-14T02:49:05Z",
+      "updated_at": "2026-07-20T21:43:07Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "major",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update module github.com/enterprise-contract/enterprise-contract-controller/api to v0.1.281 (main)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/751",
+      "number": 751,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-02-11T01:41:52Z",
+      "updated_at": "2026-07-22T13:38:54Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update dependency golang to v1.23.12 (main)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/752",
+      "number": 752,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-03-05T01:32:55Z",
+      "updated_at": "2026-07-17T01:28:19Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update docker.io/library/golang Docker tag to v1.23.12 (main)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/753",
+      "number": 753,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-03-05T01:33:00Z",
+      "updated_at": "2026-07-22T13:38:51Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update dependency golang to v1.26.5 (main)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/754",
+      "number": 754,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-03-06T00:47:19Z",
+      "updated_at": "2026-07-07T21:59:28Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update docker.io/library/golang Docker tag to v1.26.5 (main)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/755",
+      "number": 755,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-03-06T00:47:23Z",
+      "updated_at": "2026-07-22T13:38:56Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github actions (main) (patch)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/756",
+      "number": 756,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-03-19T01:54:34Z",
+      "updated_at": "2026-07-25T02:14:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
     },
     {
       "title": "Build-time param defaults in in tkn-bundle",
