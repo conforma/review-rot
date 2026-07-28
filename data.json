@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T07:55:52.898594799Z",
+  "generated_at": "2026-07-28T08:55:45.594531959Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1544,10 +1544,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-28T07:53:36Z",
+      "updated_at": "2026-07-28T08:00:09Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -2364,10 +2364,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-28T07:51:23Z",
+      "updated_at": "2026-07-28T08:06:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2378,7 +2378,8 @@
         "github_actions",
         "renovate",
         "main",
-        "size: S"
+        "size: S",
+        "requires-manual-review"
       ]
     },
     {
@@ -2520,7 +2521,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-28T07:51:15Z",
+      "updated_at": "2026-07-28T07:55:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2549,7 +2550,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-28T07:51:16Z",
+      "updated_at": "2026-07-28T08:01:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2565,7 +2566,8 @@
         "docker",
         "renovate",
         "main",
-        "size: XS"
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -2635,10 +2637,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-28T07:53:53Z",
+      "updated_at": "2026-07-28T07:59:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3239,7 +3241,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-07-28T07:54:33Z",
+      "updated_at": "2026-07-28T08:01:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3295,7 +3297,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-07-23T13:08:56Z",
-      "updated_at": "2026-07-23T13:51:02Z",
+      "updated_at": "2026-07-28T08:51:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3304,10 +3306,11 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 15,
+      "unresolved_conversations": 7,
       "labels": [
         "size: L",
-        "ci"
+        "ci",
+        "requires-manual-review"
       ]
     },
     {
@@ -3335,6 +3338,33 @@
         "release-v0.7",
         "size: XS",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "fix(#3437): use distinct digest in VEC pin-policy-bundle test",
+      "url": "https://github.com/conforma/cli/pull/3438",
+      "number": 3438,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-07-28T08:16:59Z",
+      "updated_at": "2026-07-28T08:32:18Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "bug",
+        "size: XS",
+        "testing",
+        "requires-manual-review"
       ]
     },
     {
@@ -7122,6 +7152,28 @@
       "created_at": "2026-03-26T09:32:44Z",
       "updated_at": "2026-06-04T20:02:59Z",
       "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "EC-1991: Move data bundle to redhat-konflux Quay org",
+      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/244",
+      "number": 244,
+      "repo": "release-engineering/rhtap-ec-policy",
+      "author": {
+        "login": "BohdanMar",
+        "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
+      },
+      "created_at": "2026-07-28T08:42:29Z",
+      "updated_at": "2026-07-28T08:42:30Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
