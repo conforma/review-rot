@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T14:49:37.839712922Z",
+  "generated_at": "2026-07-28T15:45:32.370977856Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1243,10 +1243,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-07-28T12:48:13Z",
-      "updated_at": "2026-07-28T14:40:10Z",
+      "updated_at": "2026-07-28T15:28:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -1570,7 +1570,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-28T12:40:48Z",
+      "updated_at": "2026-07-28T15:12:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1688,7 +1688,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-24T20:04:20Z",
+      "updated_at": "2026-07-28T15:09:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2390,7 +2390,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-28T12:40:35Z",
+      "updated_at": "2026-07-28T15:12:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2547,7 +2547,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-28T07:55:37Z",
+      "updated_at": "2026-07-28T15:02:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2576,7 +2576,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-28T08:01:01Z",
+      "updated_at": "2026-07-28T15:04:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2585,15 +2585,14 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 7,
       "labels": [
         "dependencies",
         "go",
         "docker",
         "renovate",
         "main",
-        "size: XS",
-        "requires-manual-review"
+        "size: XS"
       ]
     },
     {
@@ -2663,7 +2662,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-28T07:59:11Z",
+      "updated_at": "2026-07-28T15:06:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3232,32 +3231,6 @@
       ]
     },
     {
-      "title": "Fix pinned ref cache miss to avoid policy refetch",
-      "url": "https://github.com/conforma/cli/pull/3431",
-      "number": 3431,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-22T20:53:12Z",
-      "updated_at": "2026-07-28T14:47:54Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "bug",
-        "size: M",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Update module github.com/tektoncd/pipeline to v1.14.1 (main)",
       "url": "https://github.com/conforma/cli/pull/3432",
       "number": 3432,
@@ -3267,7 +3240,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-07-28T12:41:05Z",
+      "updated_at": "2026-07-28T15:09:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6009,7 +5982,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:47:48Z",
-      "updated_at": "2026-07-28T09:16:47Z",
+      "updated_at": "2026-07-28T15:41:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6491,7 +6464,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-07-16T14:46:08Z",
-      "updated_at": "2026-07-28T13:50:14Z",
+      "updated_at": "2026-07-28T15:02:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
