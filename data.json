@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T12:36:18.014118403Z",
+  "generated_at": "2026-07-28T13:33:35.928741537Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1234,6 +1234,32 @@
       ]
     },
     {
+      "title": "Verify signatures on referrer and tag-ref discovered SBOMs",
+      "url": "https://github.com/conforma/policy/pull/1787",
+      "number": 1787,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-07-28T12:48:13Z",
+      "updated_at": "2026-07-28T13:05:37Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 4,
+      "labels": [
+        "bug",
+        "size: XL",
+        "requires-manual-review"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1544,7 +1570,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-28T08:00:09Z",
+      "updated_at": "2026-07-28T12:40:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1573,7 +1599,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-28T07:53:07Z",
+      "updated_at": "2026-07-28T12:41:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1603,7 +1629,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-07-28T07:53:48Z",
+      "updated_at": "2026-07-28T12:41:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1748,7 +1774,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-28T07:53:59Z",
+      "updated_at": "2026-07-28T12:41:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2364,7 +2390,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-28T08:06:11Z",
+      "updated_at": "2026-07-28T12:40:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3241,7 +3267,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-07-28T08:01:03Z",
+      "updated_at": "2026-07-28T12:41:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3365,6 +3391,30 @@
         "size: XS",
         "testing",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "chore(deps): Remove Renovate annotations from .tekton files",
+      "url": "https://github.com/conforma/cli/pull/3439",
+      "number": 3439,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-07-28T13:15:24Z",
+      "updated_at": "2026-07-28T13:25:41Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -5083,7 +5133,7 @@
       "updated_at": "2026-07-28T12:35:47Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": null,
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -6112,7 +6162,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-07-23T10:30:41Z",
+      "updated_at": "2026-07-28T12:46:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6438,7 +6488,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-07-16T14:46:08Z",
-      "updated_at": "2026-07-17T00:51:44Z",
+      "updated_at": "2026-07-28T13:10:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -6447,7 +6497,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": [
         "size: XL"
       ]
@@ -7152,28 +7202,6 @@
       "created_at": "2026-03-26T09:32:44Z",
       "updated_at": "2026-06-04T20:02:59Z",
       "is_draft": true,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "EC-1991: Move data bundle to redhat-konflux Quay org",
-      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/244",
-      "number": 244,
-      "repo": "release-engineering/rhtap-ec-policy",
-      "author": {
-        "login": "BohdanMar",
-        "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
-      },
-      "created_at": "2026-07-28T08:42:29Z",
-      "updated_at": "2026-07-28T08:42:30Z",
-      "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
