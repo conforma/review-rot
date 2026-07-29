@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:15:32.397565808Z",
+  "generated_at": "2026-07-29T15:13:59.245224214Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -238,7 +238,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
       },
       "created_at": "2026-02-27T21:32:00Z",
-      "updated_at": "2026-07-28T20:02:40Z",
+      "updated_at": "2026-07-29T15:11:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1242,7 +1242,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-07-28T12:48:13Z",
-      "updated_at": "2026-07-29T13:20:01Z",
+      "updated_at": "2026-07-29T15:02:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -6479,30 +6479,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
-      ]
-    },
-    {
-      "title": "Add mid-sprint tracking skills and commands (EC-1899)",
-      "url": "https://github.com/conforma/claude-skills/pull/18",
-      "number": 18,
-      "repo": "conforma/claude-skills",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-07-16T14:46:08Z",
-      "updated_at": "2026-07-28T21:24:58Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 6,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XL"
       ]
     },
     {
