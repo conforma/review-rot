@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T16:31:44.996484176Z",
+  "generated_at": "2026-07-30T17:31:13.931824002Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4092,7 +4092,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-03T02:29:22Z",
-      "updated_at": "2026-07-24T23:34:43Z",
+      "updated_at": "2026-07-30T16:51:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4222,7 +4222,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-07-24T23:55:26Z",
+      "updated_at": "2026-07-30T16:59:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4248,7 +4248,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:55:02Z",
-      "updated_at": "2026-07-23T22:38:52Z",
+      "updated_at": "2026-07-30T17:01:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4844,7 +4844,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:36:46Z",
-      "updated_at": "2026-07-22T05:58:39Z",
+      "updated_at": "2026-07-30T17:13:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4950,7 +4950,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-15T00:43:24Z",
-      "updated_at": "2026-07-22T05:58:52Z",
+      "updated_at": "2026-07-30T17:14:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5003,7 +5003,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:24Z",
-      "updated_at": "2026-07-24T21:55:12Z",
+      "updated_at": "2026-07-30T17:13:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5029,7 +5029,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:32Z",
-      "updated_at": "2026-07-24T21:55:20Z",
+      "updated_at": "2026-07-30T17:13:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5079,7 +5079,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T03:44:47Z",
-      "updated_at": "2026-07-22T11:03:56Z",
+      "updated_at": "2026-07-30T16:41:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5132,7 +5132,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:26:50Z",
-      "updated_at": "2026-07-25T00:29:11Z",
+      "updated_at": "2026-07-30T16:40:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5903,7 +5903,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T02:52:39Z",
-      "updated_at": "2026-07-22T07:28:17Z",
+      "updated_at": "2026-07-30T16:43:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5956,7 +5956,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:39:24Z",
-      "updated_at": "2026-07-25T00:00:31Z",
+      "updated_at": "2026-07-30T16:43:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6191,7 +6191,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:26:43Z",
-      "updated_at": "2026-07-22T14:12:28Z",
+      "updated_at": "2026-07-30T16:38:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6241,7 +6241,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-07-23T20:47:22Z",
+      "updated_at": "2026-07-30T16:39:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6293,7 +6293,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T01:43:51Z",
-      "updated_at": "2026-07-25T00:11:31Z",
+      "updated_at": "2026-07-30T16:35:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -7124,6 +7124,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "feat(EC-1794): replace ec-defaults ConfigMap with hardcoded bundle ref",
+      "url": "https://github.com/konflux-ci/e2e-tests/pull/1885",
+      "number": 1885,
+      "repo": "konflux-ci/e2e-tests",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-13T17:29:03Z",
+      "updated_at": "2026-07-29T19:50:02Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "lgtm",
+        "\u003c 1 min"
       ]
     },
     {
