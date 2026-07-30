@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T12:33:43.658765175Z",
+  "generated_at": "2026-07-30T13:33:59.395357451Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1270,7 +1270,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-29T22:43:09Z",
-      "updated_at": "2026-07-30T02:24:16Z",
+      "updated_at": "2026-07-30T13:30:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1279,9 +1279,11 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 8,
       "labels": [
-        "size: XXL"
+        "size: XXL",
+        "ready-for-merge",
+        "feature"
       ]
     },
     {
@@ -1595,7 +1597,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-30T09:02:45Z",
+      "updated_at": "2026-07-30T13:11:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1624,7 +1626,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-30T08:59:35Z",
+      "updated_at": "2026-07-30T13:23:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1633,7 +1635,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 74,
+      "unresolved_conversations": 75,
       "labels": [
         "dependencies",
         "go",
@@ -1713,7 +1715,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-30T09:06:17Z",
+      "updated_at": "2026-07-30T13:18:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1770,7 +1772,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-24T20:14:22Z",
+      "updated_at": "2026-07-30T13:24:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1786,7 +1788,9 @@
         "renovate",
         "release-v0.7",
         "size: M",
-        "ci"
+        "Review effort 1/5",
+        "ci",
+        "requires-manual-review"
       ]
     },
     {
@@ -1799,7 +1803,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-30T09:15:41Z",
+      "updated_at": "2026-07-30T13:24:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1814,7 +1818,8 @@
         "go",
         "renovate",
         "release-v0.7",
-        "size: XXL"
+        "size: XXL",
+        "requires-manual-review"
       ]
     },
     {
@@ -3184,10 +3189,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-07-20T18:25:21Z",
-      "updated_at": "2026-07-29T21:22:01Z",
+      "updated_at": "2026-07-30T13:26:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "count": 7,
@@ -5388,7 +5393,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-07-30T00:01:37Z",
+      "updated_at": "2026-07-30T12:42:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -7096,6 +7101,30 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Mark enterprise-contract pipeline as deprecated",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3758",
+      "number": 3758,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-07-30T13:02:22Z",
+      "updated_at": "2026-07-30T13:10:11Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "ready-for-merge"
+      ]
     },
     {
       "title": "feat(EC-1794): replace ec-defaults ConfigMap with hardcoded bundle ref",
