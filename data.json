@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T21:51:04.827938146Z",
+  "generated_at": "2026-07-30T22:23:00.370822645Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-07-30T21:46:39Z",
+      "updated_at": "2026-07-30T21:58:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -30,7 +30,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 5,
       "labels": [
         "dependencies",
         "go",
@@ -1597,7 +1597,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-30T17:46:31Z",
+      "updated_at": "2026-07-30T22:20:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1626,7 +1626,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-30T17:46:41Z",
+      "updated_at": "2026-07-30T22:15:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1714,7 +1714,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-30T17:53:46Z",
+      "updated_at": "2026-07-30T22:20:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1743,10 +1743,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-07-30T17:57:29Z",
+      "updated_at": "2026-07-30T22:16:51Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -1771,7 +1771,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-30T18:04:08Z",
+      "updated_at": "2026-07-30T22:17:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1802,7 +1802,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-30T18:03:45Z",
+      "updated_at": "2026-07-30T22:19:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1831,11 +1831,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:50:01Z",
-      "updated_at": "2026-07-24T20:05:47Z",
+      "updated_at": "2026-07-30T22:20:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XL",
+      "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -1846,7 +1846,7 @@
         "renovate",
         "major",
         "release-v0.7",
-        "size: XL"
+        "size: L"
       ]
     },
     {
@@ -2263,10 +2263,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T18:58:35Z",
-      "updated_at": "2026-07-23T13:56:45Z",
+      "updated_at": "2026-07-30T22:16:58Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2421,10 +2421,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-30T17:55:56Z",
+      "updated_at": "2026-07-30T22:12:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2578,7 +2578,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-29T13:34:29Z",
+      "updated_at": "2026-07-30T22:16:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2607,7 +2607,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-29T13:39:38Z",
+      "updated_at": "2026-07-30T22:21:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2694,10 +2694,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-29T13:37:24Z",
+      "updated_at": "2026-07-30T22:19:15Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3000,11 +3000,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-10T20:42:53Z",
-      "updated_at": "2026-07-23T13:54:03Z",
+      "updated_at": "2026-07-30T22:17:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "L",
+      "ci_status": "PENDING",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -3015,7 +3015,7 @@
         "go",
         "renovate",
         "main",
-        "size: L",
+        "size: M",
         "ready-for-merge"
       ]
     },
@@ -3244,11 +3244,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-07-29T13:39:23Z",
+      "updated_at": "2026-07-30T22:16:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "L",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -3259,7 +3259,7 @@
         "go",
         "renovate",
         "main",
-        "size: L",
+        "size: M",
         "ready-for-merge"
       ]
     },
@@ -3397,58 +3397,6 @@
       ]
     },
     {
-      "title": "chore(deps): Update github.com/sigstore/fulcio (main)",
-      "url": "https://github.com/conforma/cli/pull/3442",
-      "number": 3442,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-30T20:09:11Z",
-      "updated_at": "2026-07-30T20:55:55Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "size: XL",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "chore(deps): Update github.com/sigstore/fulcio (v0.7)",
-      "url": "https://github.com/conforma/cli/pull/3443",
-      "number": 3443,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-30T20:24:21Z",
-      "updated_at": "2026-07-30T20:31:55Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XL",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "chore(deps): Update github.com/sigstore/fulcio (v0.8)",
       "url": "https://github.com/conforma/cli/pull/3444",
       "number": 3444,
@@ -3458,13 +3406,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-30T20:26:12Z",
-      "updated_at": "2026-07-30T20:45:45Z",
+      "updated_at": "2026-07-30T22:07:57Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4249,7 +4197,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-07-30T16:59:36Z",
+      "updated_at": "2026-07-30T22:01:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
