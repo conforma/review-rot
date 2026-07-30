@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T19:36:24.351709805Z",
+  "generated_at": "2026-07-30T20:26:12.713425651Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -239,7 +239,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
       },
       "created_at": "2026-02-27T21:32:00Z",
-      "updated_at": "2026-07-29T15:35:07Z",
+      "updated_at": "2026-07-30T19:45:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3397,6 +3397,54 @@
       ]
     },
     {
+      "title": "chore(deps): Update github.com/sigstore/fulcio (main)",
+      "url": "https://github.com/conforma/cli/pull/3442",
+      "number": 3442,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-07-30T20:09:11Z",
+      "updated_at": "2026-07-30T20:19:43Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XL"
+      ]
+    },
+    {
+      "title": "chore(deps): Update github.com/sigstore/fulcio (v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3443",
+      "number": 3443,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-07-30T20:24:21Z",
+      "updated_at": "2026-07-30T20:25:29Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XL"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -5315,7 +5363,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:16:14Z",
-      "updated_at": "2026-07-30T00:28:19Z",
+      "updated_at": "2026-07-30T20:02:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5341,7 +5389,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-07-30T12:42:47Z",
+      "updated_at": "2026-07-30T20:03:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5447,7 +5495,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-05T03:45:30Z",
-      "updated_at": "2026-07-30T00:28:11Z",
+      "updated_at": "2026-07-30T20:02:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -7060,16 +7108,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-07-30T13:02:22Z",
-      "updated_at": "2026-07-30T13:10:11Z",
+      "updated_at": "2026-07-30T19:54:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 3,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "ready-for-merge"
       ]
