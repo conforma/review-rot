@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T21:24:59.517929033Z",
+  "generated_at": "2026-07-30T21:51:04.827938146Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-07-27T05:57:00Z",
+      "updated_at": "2026-07-30T21:46:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -374,7 +374,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-07-30T15:39:29Z",
+      "updated_at": "2026-07-30T21:40:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -458,7 +458,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:06:13Z",
-      "updated_at": "2026-07-30T15:39:59Z",
+      "updated_at": "2026-07-30T21:46:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -723,7 +723,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-15T00:44:30Z",
-      "updated_at": "2026-07-30T15:40:31Z",
+      "updated_at": "2026-07-30T21:46:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3436,7 +3436,7 @@
       "updated_at": "2026-07-30T20:31:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -4613,7 +4613,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T00:47:54Z",
-      "updated_at": "2026-07-24T21:48:33Z",
+      "updated_at": "2026-07-30T21:30:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
