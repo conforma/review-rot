@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T21:50:45.442032982Z",
+  "generated_at": "2026-07-31T22:20:50.404863508Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -76,7 +76,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-07-31T19:44:10Z",
+      "updated_at": "2026-07-31T21:58:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -403,7 +403,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-07-31T21:49:43Z",
+      "updated_at": "2026-07-31T21:56:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1391,10 +1391,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-08-30T09:04:18Z",
-      "updated_at": "2026-07-31T20:00:16Z",
+      "updated_at": "2026-07-31T22:01:31Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -1984,10 +1984,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-04-18T07:34:50Z",
-      "updated_at": "2026-07-31T20:00:29Z",
+      "updated_at": "2026-07-31T22:11:46Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -2024,34 +2024,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XXL"
-      ]
-    },
-    {
-      "title": "Update docker images (main)",
-      "url": "https://github.com/conforma/cli/pull/3270",
-      "number": 3270,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-05-05T03:04:45Z",
-      "updated_at": "2026-07-30T02:02:51Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "dependencies",
-        "docker",
-        "renovate",
-        "main",
-        "size: XS"
       ]
     },
     {
@@ -4241,7 +4213,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-07-31T18:01:29Z",
+      "updated_at": "2026-07-31T21:51:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
