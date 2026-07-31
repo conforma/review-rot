@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T19:31:35.159847827Z",
+  "generated_at": "2026-07-31T20:28:45.103289171Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -76,7 +76,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-07-31T04:05:17Z",
+      "updated_at": "2026-07-31T19:44:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -85,7 +85,7 @@
         "count": 1,
         "has_new_commits": true
       },
-      "unresolved_conversations": 11,
+      "unresolved_conversations": 13,
       "labels": [
         "dependencies",
         "go",
@@ -403,7 +403,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-07-31T04:48:41Z",
+      "updated_at": "2026-07-31T19:39:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1391,7 +1391,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-08-30T09:04:18Z",
-      "updated_at": "2026-07-25T05:28:39Z",
+      "updated_at": "2026-07-31T20:00:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1597,7 +1597,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-31T18:28:02Z",
+      "updated_at": "2026-07-31T20:20:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1626,7 +1626,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-31T18:35:09Z",
+      "updated_at": "2026-07-31T20:26:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1635,7 +1635,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 79,
+      "unresolved_conversations": 82,
       "labels": [
         "dependencies",
         "go",
@@ -1685,7 +1685,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:48Z",
-      "updated_at": "2026-07-23T13:56:43Z",
+      "updated_at": "2026-07-31T20:17:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1714,7 +1714,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-31T18:29:56Z",
+      "updated_at": "2026-07-31T20:16:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1743,7 +1743,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-07-31T18:21:37Z",
+      "updated_at": "2026-07-31T20:17:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1801,7 +1801,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-31T18:34:00Z",
+      "updated_at": "2026-07-31T20:19:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1984,7 +1984,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-04-18T07:34:50Z",
-      "updated_at": "2026-07-31T14:23:45Z",
+      "updated_at": "2026-07-31T20:00:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2397,7 +2397,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-31T18:27:55Z",
+      "updated_at": "2026-07-31T20:22:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2554,7 +2554,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-31T18:22:34Z",
+      "updated_at": "2026-07-31T20:16:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2583,7 +2583,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-31T18:23:58Z",
+      "updated_at": "2026-07-31T20:18:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2592,15 +2592,14 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 11,
+      "unresolved_conversations": 12,
       "labels": [
         "dependencies",
         "go",
         "docker",
         "renovate",
         "main",
-        "size: XS",
-        "requires-manual-review"
+        "size: XS"
       ]
     },
     {
@@ -2670,7 +2669,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-31T18:26:28Z",
+      "updated_at": "2026-07-31T20:20:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3194,7 +3193,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-07-31T18:28:32Z",
+      "updated_at": "2026-07-31T20:22:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3317,83 +3316,6 @@
       "labels": [
         "size: XL",
         "requires-manual-review"
-      ]
-    },
-    {
-      "title": "chore(deps): UBI bump \u0026 update oras.land/oras-go/v2 (v0.7)",
-      "url": "https://github.com/conforma/cli/pull/3445",
-      "number": 3445,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-31T16:18:07Z",
-      "updated_at": "2026-07-31T17:34:44Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "docker",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore(deps): UBI bump \u0026 update oras.land/oras-go/v2 (v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3446",
-      "number": 3446,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-31T16:19:20Z",
-      "updated_at": "2026-07-31T17:35:01Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "docker",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore(deps): UBI bump \u0026 update oras.land/oras-go/v2 (main)",
-      "url": "https://github.com/conforma/cli/pull/3447",
-      "number": 3447,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-31T16:21:07Z",
-      "updated_at": "2026-07-31T17:35:50Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: S"
       ]
     },
     {
@@ -6466,7 +6388,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-23T19:23:05Z",
-      "updated_at": "2026-07-23T19:27:51Z",
+      "updated_at": "2026-07-31T20:23:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -6475,7 +6397,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 1,
       "labels": [
         "size: XXL"
       ]
