@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T15:16:38.971596609Z",
+  "generated_at": "2026-07-31T16:09:56.8109081Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3112,10 +3112,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-07-20T18:25:21Z",
-      "updated_at": "2026-07-30T17:33:55Z",
+      "updated_at": "2026-07-31T15:44:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 7,
@@ -3125,7 +3125,8 @@
       "labels": [
         "size: XL",
         "Possible security concern",
-        "cli"
+        "cli",
+        "requires-manual-review"
       ]
     },
     {
@@ -3501,7 +3502,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.116.0 (main)",
+      "title": "Update dependency wrangler to v4.118.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -3510,7 +3511,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-07-30T21:18:41Z",
+      "updated_at": "2026-07-31T16:00:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4303,7 +4304,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-07-23T13:10:18Z",
+      "updated_at": "2026-07-31T15:31:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4329,7 +4330,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-07-22T22:52:44Z",
+      "updated_at": "2026-07-31T15:32:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4370,7 +4371,7 @@
       ]
     },
     {
-      "title": "Update module github.com/tektoncd/pipeline to v1.14.1 (main)",
+      "title": "Update module github.com/tektoncd/pipeline to v1.15.0 (main)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/215",
       "number": 215,
       "repo": "conforma/infra-deployments-ci",
@@ -4379,7 +4380,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-07-24T05:53:13Z",
+      "updated_at": "2026-07-31T15:32:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4431,7 +4432,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:38:27Z",
-      "updated_at": "2026-07-30T20:31:19Z",
+      "updated_at": "2026-07-31T15:31:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4445,30 +4446,6 @@
         "main",
         "renovate",
         "size: XS"
-      ]
-    },
-    {
-      "title": "feat(EC-1987): improve changelog formatting and branding",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/222",
-      "number": 222,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-16T02:10:39Z",
-      "updated_at": "2026-07-16T02:14:36Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: S"
       ]
     },
     {
