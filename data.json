@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T09:45:52.913644069Z",
+  "generated_at": "2026-08-03T11:04:08.843982914Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1339,6 +1339,31 @@
       ]
     },
     {
+      "title": "Add 18 rules to the redhat_security collection",
+      "url": "https://github.com/conforma/policy/pull/1791",
+      "number": 1791,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-08-03T10:51:07Z",
+      "updated_at": "2026-08-03T11:02:37Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M",
+        "ready-for-merge"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1621,7 +1646,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-02T12:53:16Z",
+      "updated_at": "2026-08-03T10:44:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1650,7 +1675,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-08-02T12:56:11Z",
+      "updated_at": "2026-08-03T10:31:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1659,7 +1684,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 85,
+      "unresolved_conversations": 86,
       "labels": [
         "dependencies",
         "go",
@@ -1738,7 +1763,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-08-02T12:55:52Z",
+      "updated_at": "2026-08-03T10:45:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1825,7 +1850,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-08-01T02:20:31Z",
+      "updated_at": "2026-08-03T10:37:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1841,7 +1866,7 @@
         "renovate",
         "release-v0.7",
         "size: XXL",
-        "ready-for-merge"
+        "requires-manual-review"
       ]
     },
     {
@@ -2782,10 +2807,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-07-06T11:05:13Z",
-      "updated_at": "2026-07-27T10:49:52Z",
+      "updated_at": "2026-08-03T10:55:13Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3104,7 +3129,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-08-03T02:19:38Z",
+      "updated_at": "2026-08-03T10:22:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3133,16 +3158,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
       },
       "created_at": "2026-07-23T10:57:51Z",
-      "updated_at": "2026-08-03T09:39:04Z",
+      "updated_at": "2026-08-03T10:51:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 5,
-        "has_new_commits": false
+        "count": 4,
+        "has_new_commits": true
       },
-      "unresolved_conversations": 24,
+      "unresolved_conversations": 0,
       "labels": [
         "documentation",
         "size: XXL",
@@ -5652,6 +5677,30 @@
       ]
     },
     {
+      "title": "chore: sync with upstream google/go-containerregistry",
+      "url": "https://github.com/conforma/go-containerregistry/pull/15",
+      "number": 15,
+      "repo": "conforma/go-containerregistry",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-08-03T09:48:22Z",
+      "updated_at": "2026-08-03T09:50:46Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
+      ]
+    },
+    {
       "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
       "url": "https://github.com/conforma/demos/pull/7",
       "number": 7,
@@ -6290,30 +6339,6 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: L"
-      ]
-    },
-    {
-      "title": "Use org-level renovate.json",
-      "url": "https://github.com/conforma/claude-skills/pull/17",
-      "number": 17,
-      "repo": "conforma/claude-skills",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-07-16T09:28:21Z",
-      "updated_at": "2026-07-31T14:35:37Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
       ]
     },
     {
