@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T23:48:22.903910232Z",
+  "generated_at": "2026-08-03T00:30:40.724460205Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-07-31T10:05:57Z",
+      "updated_at": "2026-08-01T01:30:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -76,7 +76,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-07-31T21:58:30Z",
+      "updated_at": "2026-08-01T01:31:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -403,7 +403,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-07-31T21:56:51Z",
+      "updated_at": "2026-08-01T09:34:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1008,7 +1008,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-08T16:10:03Z",
-      "updated_at": "2026-07-31T17:14:58Z",
+      "updated_at": "2026-08-02T20:51:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1382,34 +1382,6 @@
       ]
     },
     {
-      "title": "Update Konflux references (release-v0.7) (patch)",
-      "url": "https://github.com/conforma/cli/pull/2907",
-      "number": 2907,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2025-08-30T09:04:18Z",
-      "updated_at": "2026-07-31T22:01:31Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "release-v0.7",
-        "size: M",
-        "ci",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Update go version (release-v0.7) (patch)",
       "url": "https://github.com/conforma/cli/pull/2924",
       "number": 2924,
@@ -1518,7 +1490,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-07-31T02:38:09Z",
+      "updated_at": "2026-08-02T02:38:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1597,7 +1569,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-07-31T21:30:39Z",
+      "updated_at": "2026-08-02T12:53:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1626,7 +1598,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-07-31T21:25:14Z",
+      "updated_at": "2026-08-02T12:56:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1635,7 +1607,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 83,
+      "unresolved_conversations": 85,
       "labels": [
         "dependencies",
         "go",
@@ -1714,7 +1686,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-07-31T21:25:44Z",
+      "updated_at": "2026-08-02T12:55:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1743,10 +1715,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-07-31T21:15:52Z",
+      "updated_at": "2026-08-02T12:58:17Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -1801,7 +1773,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-07-31T21:28:03Z",
+      "updated_at": "2026-08-01T02:20:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1975,34 +1947,6 @@
       ]
     },
     {
-      "title": "Update Konflux references (release-v0.8) (patch)",
-      "url": "https://github.com/conforma/cli/pull/3255",
-      "number": 3255,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-04-18T07:34:50Z",
-      "updated_at": "2026-07-31T22:11:46Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: M",
-        "ci",
-        "release-v0.8",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Add --policy-overlay flag to merge things into the main --policy",
       "url": "https://github.com/conforma/cli/pull/3260",
       "number": 3260,
@@ -2066,7 +2010,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-07-31T02:50:29Z",
+      "updated_at": "2026-08-02T02:51:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2075,7 +2019,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 95,
+      "unresolved_conversations": 100,
       "labels": [
         "dependencies",
         "go",
@@ -2526,7 +2470,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-07-31T02:02:52Z",
+      "updated_at": "2026-08-01T02:30:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2555,7 +2499,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-07-31T02:42:36Z",
+      "updated_at": "2026-08-01T03:02:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2564,7 +2508,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 16,
+      "unresolved_conversations": 17,
       "labels": [
         "dependencies",
         "docker",
@@ -2669,7 +2613,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-07-31T02:05:14Z",
+      "updated_at": "2026-08-01T02:32:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2678,7 +2622,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 9,
+      "unresolved_conversations": 10,
       "labels": [
         "dependencies",
         "go",
@@ -2686,35 +2630,6 @@
         "renovate",
         "main",
         "size: XS"
-      ]
-    },
-    {
-      "title": "Update tektoncd pipelines to v1.12.2 (main)",
-      "url": "https://github.com/conforma/cli/pull/3373",
-      "number": 3373,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-06-29T01:22:52Z",
-      "updated_at": "2026-07-31T02:44:33Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "S",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "renovate",
-        "main",
-        "size: S",
-        "ready-for-merge"
       ]
     },
     {
@@ -2880,7 +2795,7 @@
       ]
     },
     {
-      "title": "Update module github.com/sigstore/sigstore-go to v1.2.0 [SECURITY] (main)",
+      "title": "Update module github.com/sigstore/sigstore-go to v1.2.1 [SECURITY] (main)",
       "url": "https://github.com/conforma/cli/pull/3399",
       "number": 3399,
       "repo": "conforma/cli",
@@ -2889,7 +2804,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-10T20:42:53Z",
-      "updated_at": "2026-07-31T21:08:59Z",
+      "updated_at": "2026-08-01T02:58:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2898,7 +2813,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "dependencies",
         "go",
@@ -2909,7 +2824,7 @@
       ]
     },
     {
-      "title": "Update module github.com/sigstore/sigstore-go to v1.2.0 [SECURITY] (release-v0.8)",
+      "title": "Update module github.com/sigstore/sigstore-go to v1.2.1 [SECURITY] (release-v0.8)",
       "url": "https://github.com/conforma/cli/pull/3400",
       "number": 3400,
       "repo": "conforma/cli",
@@ -2918,10 +2833,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-10T20:49:36Z",
-      "updated_at": "2026-07-31T21:18:26Z",
+      "updated_at": "2026-08-01T03:07:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -2945,7 +2860,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-07-14T15:20:48Z",
-      "updated_at": "2026-07-29T21:14:29Z",
+      "updated_at": "2026-08-02T10:46:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3107,7 +3022,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-07-31T21:31:56Z",
+      "updated_at": "2026-08-02T17:54:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3203,6 +3118,60 @@
       "labels": [
         "size: XL",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "Update github actions (main) (patch)",
+      "url": "https://github.com/conforma/cli/pull/3448",
+      "number": 3448,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-08-01T02:24:43Z",
+      "updated_at": "2026-08-01T02:35:35Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "github_actions",
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update Konflux references (main)",
+      "url": "https://github.com/conforma/cli/pull/3450",
+      "number": 3450,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-08-01T06:18:10Z",
+      "updated_at": "2026-08-01T06:35:41Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: S",
+        "ready-for-merge"
       ]
     },
     {
@@ -3744,7 +3713,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-20T05:49:20Z",
-      "updated_at": "2026-07-25T05:32:51Z",
+      "updated_at": "2026-08-01T07:30:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4213,7 +4182,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-07-31T21:51:56Z",
+      "updated_at": "2026-08-01T16:59:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4239,11 +4208,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-07-27T19:35:12Z",
+      "updated_at": "2026-08-01T00:49:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": "M",
+      "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -4252,7 +4221,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: M"
+        "size: L"
       ]
     },
     {
@@ -5126,7 +5095,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-07-30T20:03:51Z",
+      "updated_at": "2026-08-01T12:45:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5767,11 +5736,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:35:59Z",
-      "updated_at": "2026-07-31T23:04:09Z",
+      "updated_at": "2026-08-01T00:28:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "L",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -5780,7 +5749,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: L"
+        "size: XL"
       ]
     },
     {
@@ -5820,7 +5789,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-07-31T23:05:29Z",
+      "updated_at": "2026-08-01T09:51:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5949,7 +5918,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-07-31T14:37:04Z",
+      "updated_at": "2026-08-02T21:06:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6587,7 +6556,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-07-29T13:59:16Z",
+      "updated_at": "2026-08-02T22:36:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
