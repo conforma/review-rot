@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T11:04:08.843982914Z",
+  "generated_at": "2026-08-03T12:37:09.500451443Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1035,7 +1035,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-09T20:12:45Z",
-      "updated_at": "2026-07-30T02:15:58Z",
+      "updated_at": "2026-08-03T11:48:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1339,31 +1339,6 @@
       ]
     },
     {
-      "title": "Add 18 rules to the redhat_security collection",
-      "url": "https://github.com/conforma/policy/pull/1791",
-      "number": 1791,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-08-03T10:51:07Z",
-      "updated_at": "2026-08-03T11:02:37Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1646,10 +1621,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-03T10:44:46Z",
+      "updated_at": "2026-08-03T12:36:01Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -1705,10 +1680,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-07-31T21:30:58Z",
+      "updated_at": "2026-08-03T12:31:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -1819,10 +1794,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-07-31T21:17:21Z",
+      "updated_at": "2026-08-03T12:32:06Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -2323,7 +2298,7 @@
       ]
     },
     {
-      "title": "Update github actions (main) (patch)",
+      "title": "Update github/codeql-action action to v4.37.5 (main)",
       "url": "https://github.com/conforma/cli/pull/3338",
       "number": 3338,
       "repo": "conforma/cli",
@@ -2332,10 +2307,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-07-31T21:31:23Z",
+      "updated_at": "2026-08-03T12:34:08Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2489,7 +2464,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-07-31T21:25:32Z",
+      "updated_at": "2026-08-03T12:33:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2518,7 +2493,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-07-31T21:27:15Z",
+      "updated_at": "2026-08-03T12:33:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2604,10 +2579,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-07-31T21:30:27Z",
+      "updated_at": "2026-08-03T12:36:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2778,13 +2753,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-07-02T02:00:27Z",
-      "updated_at": "2026-07-17T02:08:42Z",
+      "updated_at": "2026-08-03T12:27:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -2795,33 +2770,6 @@
         "release-v0.7",
         "size: XS",
         "requires-manual-review"
-      ]
-    },
-    {
-      "title": "Bump conforma/go-containerregistry",
-      "url": "https://github.com/conforma/cli/pull/3384",
-      "number": 3384,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "ec-automation",
-        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
-      },
-      "created_at": "2026-07-06T11:05:13Z",
-      "updated_at": "2026-08-03T10:55:13Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "size: XS",
-        "ready-for-merge"
       ]
     },
     {
@@ -3129,7 +3077,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-08-03T10:22:08Z",
+      "updated_at": "2026-08-03T12:31:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3225,33 +3173,6 @@
       "labels": [
         "size: XL",
         "requires-manual-review"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/cli/pull/3448",
-      "number": 3448,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-08-01T02:24:43Z",
-      "updated_at": "2026-08-03T02:28:39Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "github_actions",
-        "renovate",
-        "main",
-        "size: XS"
       ]
     },
     {
@@ -4081,7 +4002,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:55:02Z",
-      "updated_at": "2026-07-30T17:01:17Z",
+      "updated_at": "2026-08-03T11:35:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4498,7 +4419,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T03:55:54Z",
-      "updated_at": "2026-07-30T17:57:00Z",
+      "updated_at": "2026-08-03T11:49:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6074,7 +5995,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-07-30T16:39:27Z",
+      "updated_at": "2026-08-03T11:35:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6637,7 +6558,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:37:28Z",
-      "updated_at": "2026-07-30T14:42:02Z",
+      "updated_at": "2026-08-03T12:07:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6982,6 +6903,35 @@
       "unresolved_conversations": 1,
       "labels": [
         "Review effort 2/5"
+      ]
+    },
+    {
+      "title": "Restructure enterprise-contract into dev/staging/prod overlays",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13323",
+      "number": 13323,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "Acepresso",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
+      },
+      "created_at": "2026-08-03T12:23:05Z",
+      "updated_at": "2026-08-03T12:25:45Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "environment/production",
+        "infra/hold-production",
+        "environment/development",
+        "environment/staging",
+        "prod/needs-approval"
       ]
     },
     {
