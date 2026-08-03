@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T15:01:05.41393787Z",
+  "generated_at": "2026-08-03T15:57:59.60274105Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -373,7 +373,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-08-03T12:51:00Z",
+      "updated_at": "2026-08-03T15:14:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -401,7 +401,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-08-03T12:54:15Z",
+      "updated_at": "2026-08-03T15:18:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -410,13 +410,14 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 31,
+      "unresolved_conversations": 33,
       "labels": [
         "dependencies",
         "go",
         "renovate",
         "main",
-        "size: XXL"
+        "size: XXL",
+        "requires-manual-review"
       ]
     },
     {
@@ -587,7 +588,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-08-03T12:52:44Z",
+      "updated_at": "2026-08-03T15:16:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -616,7 +617,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-08-03T12:46:25Z",
+      "updated_at": "2026-08-03T15:10:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1284,32 +1285,6 @@
       ]
     },
     {
-      "title": "docs(EC-1954): add effective_on review checklist to AGENTS.md",
-      "url": "https://github.com/conforma/policy/pull/1789",
-      "number": 1789,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-08-03T03:07:39Z",
-      "updated_at": "2026-08-03T14:51:38Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "documentation",
-        "size: XS",
-        "requires-manual-review"
-      ]
-    },
-    {
       "title": "docs(EC-1932): add Rego evaluation model guidance to AGENTS.md",
       "url": "https://github.com/conforma/policy/pull/1790",
       "number": 1790,
@@ -1618,7 +1593,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-03T14:53:31Z",
+      "updated_at": "2026-08-03T15:01:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2306,7 +2281,7 @@
       "updated_at": "2026-08-03T15:00:22Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3074,7 +3049,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-08-03T14:54:52Z",
+      "updated_at": "2026-08-03T15:01:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4544,7 +4519,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:36:46Z",
-      "updated_at": "2026-07-30T17:13:49Z",
+      "updated_at": "2026-08-03T15:10:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4650,7 +4625,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-15T00:43:24Z",
-      "updated_at": "2026-07-30T17:14:06Z",
+      "updated_at": "2026-08-03T15:11:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5380,7 +5355,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-23T02:14:14Z",
-      "updated_at": "2026-07-30T15:51:44Z",
+      "updated_at": "2026-08-03T15:49:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
