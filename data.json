@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T01:03:25.911529161Z",
+  "generated_at": "2026-08-04T02:16:26.332581174Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1514,7 +1514,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-08-03T02:46:53Z",
+      "updated_at": "2026-08-04T02:14:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1593,7 +1593,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-03T20:47:35Z",
+      "updated_at": "2026-08-04T01:40:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1990,6 +1990,34 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XXL"
+      ]
+    },
+    {
+      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 48fa5d8 (main)",
+      "url": "https://github.com/conforma/cli/pull/3270",
+      "number": 3270,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-05-05T03:04:45Z",
+      "updated_at": "2026-08-04T02:11:44Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "dependencies",
+        "docker",
+        "renovate",
+        "main",
+        "size: XS"
       ]
     },
     {
@@ -2494,7 +2522,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-08-01T02:30:05Z",
+      "updated_at": "2026-08-04T02:12:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2637,7 +2665,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-08-01T02:32:34Z",
+      "updated_at": "2026-08-04T02:12:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2964,7 +2992,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-08-03T20:41:47Z",
+      "updated_at": "2026-08-04T01:40:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3110,6 +3138,59 @@
       "labels": [
         "dependencies",
         "docker",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 48fa5d8 (main)",
+      "url": "https://github.com/conforma/cli/pull/3455",
+      "number": 3455,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-08-04T01:39:54Z",
+      "updated_at": "2026-08-04T01:51:07Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.5 (main)",
+      "url": "https://github.com/conforma/cli/pull/3456",
+      "number": 3456,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-08-04T01:40:12Z",
+      "updated_at": "2026-08-04T01:49:58Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "docker",
+        "renovate",
+        "main",
         "size: XS"
       ]
     },
@@ -3939,7 +4020,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-08-04T01:01:17Z",
+      "updated_at": "2026-08-04T01:03:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
