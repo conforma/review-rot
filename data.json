@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T12:12:01.914371236Z",
+  "generated_at": "2026-08-04T13:08:50.100457372Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-08-04T08:05:42Z",
+      "updated_at": "2026-08-04T12:53:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -41,32 +41,6 @@
       ]
     },
     {
-      "title": "Update go modules (release-v0.6) (minor) - abandoned",
-      "url": "https://github.com/conforma/policy/pull/1633",
-      "number": 1633,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-01-20T00:43:33Z",
-      "updated_at": "2026-05-14T13:02:18Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "release-v0.6",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update go modules (release-v0.7) (minor)",
       "url": "https://github.com/conforma/policy/pull/1634",
       "number": 1634,
@@ -76,7 +50,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-08-04T08:05:58Z",
+      "updated_at": "2026-08-04T12:53:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -96,32 +70,6 @@
       ]
     },
     {
-      "title": "Update go toolchain directive to v1.26.3 (release-v0.6) - abandoned",
-      "url": "https://github.com/conforma/policy/pull/1656",
-      "number": 1656,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-02-07T00:31:18Z",
-      "updated_at": "2026-05-14T13:02:16Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "release-v0.6",
-        "size: S"
-      ]
-    },
-    {
       "title": "Update go toolchain directive to v1.26.5 (main)",
       "url": "https://github.com/conforma/policy/pull/1663",
       "number": 1663,
@@ -131,7 +79,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-12T02:33:26Z",
-      "updated_at": "2026-07-22T13:03:11Z",
+      "updated_at": "2026-08-04T13:03:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1618,7 +1566,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-04T12:02:55Z",
+      "updated_at": "2026-08-04T12:39:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1941,30 +1889,6 @@
       ]
     },
     {
-      "title": "fix(RELEASE-2158): refactor trusted-ca mounts in verify-conforma task",
-      "url": "https://github.com/conforma/cli/pull/3232",
-      "number": 3232,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "querti",
-        "avatar_url": "https://avatars.githubusercontent.com/u/38067220?v=4"
-      },
-      "created_at": "2026-04-14T11:22:24Z",
-      "updated_at": "2026-08-04T11:59:19Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Add --policy-overlay flag to merge things into the main --policy",
       "url": "https://github.com/conforma/cli/pull/3260",
       "number": 3260,
@@ -2083,10 +2007,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T18:58:35Z",
-      "updated_at": "2026-08-04T12:06:04Z",
+      "updated_at": "2026-08-04T12:12:06Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2216,7 +2140,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-08-04T12:03:25Z",
+      "updated_at": "2026-08-04T12:38:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -2347,7 +2271,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-08-04T11:57:41Z",
+      "updated_at": "2026-08-04T12:33:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2376,7 +2300,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-08-04T12:00:28Z",
+      "updated_at": "2026-08-04T12:36:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2385,7 +2309,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 20,
+      "unresolved_conversations": 21,
       "labels": [
         "dependencies",
         "go",
@@ -2462,7 +2386,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-08-04T12:01:35Z",
+      "updated_at": "2026-08-04T12:39:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2687,16 +2611,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-07-14T15:20:48Z",
-      "updated_at": "2026-08-04T12:09:40Z",
+      "updated_at": "2026-08-04T12:42:11Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
         "count": 3,
         "has_new_commits": true
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 9,
       "labels": [
         "enhancement",
         "size: L",
@@ -2849,7 +2773,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-08-04T12:06:47Z",
+      "updated_at": "2026-08-04T12:39:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2930,7 +2854,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-04T01:40:12Z",
-      "updated_at": "2026-08-04T12:05:57Z",
+      "updated_at": "2026-08-04T12:40:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2945,32 +2869,6 @@
         "renovate",
         "main",
         "size: XS"
-      ]
-    },
-    {
-      "title": "docs(EC-1980): add product naming guidance to AGENTS.md",
-      "url": "https://github.com/conforma/cli/pull/3457",
-      "number": 3457,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-08-04T02:53:21Z",
-      "updated_at": "2026-08-04T11:31:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "documentation",
-        "size: XS",
-        "requires-manual-review"
       ]
     },
     {
@@ -6662,7 +6560,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-08-04T09:04:18Z",
+      "updated_at": "2026-08-04T12:39:37Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
