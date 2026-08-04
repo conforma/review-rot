@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T02:16:26.332581174Z",
+  "generated_at": "2026-08-04T03:37:58.253567951Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -932,7 +932,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-06-22T16:13:08Z",
-      "updated_at": "2026-08-03T03:45:42Z",
+      "updated_at": "2026-08-04T02:32:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1514,7 +1514,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-08-04T02:14:40Z",
+      "updated_at": "2026-08-04T03:11:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1593,7 +1593,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-04T01:40:07Z",
+      "updated_at": "2026-08-04T03:15:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1622,7 +1622,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-08-03T20:52:29Z",
+      "updated_at": "2026-08-04T03:15:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1652,7 +1652,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-08-03T20:41:52Z",
+      "updated_at": "2026-08-04T03:15:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1710,7 +1710,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-08-03T20:42:04Z",
+      "updated_at": "2026-08-04T03:15:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1766,7 +1766,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-08-03T19:46:29Z",
+      "updated_at": "2026-08-04T03:15:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1796,7 +1796,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-08-03T20:01:10Z",
+      "updated_at": "2026-08-04T03:15:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2002,10 +2002,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-05T03:04:45Z",
-      "updated_at": "2026-08-04T02:11:44Z",
+      "updated_at": "2026-08-04T02:25:20Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2060,7 +2060,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-08-03T03:04:11Z",
+      "updated_at": "2026-08-04T03:29:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2115,7 +2115,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T18:51:52Z",
-      "updated_at": "2026-08-03T20:36:24Z",
+      "updated_at": "2026-08-04T03:15:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2306,7 +2306,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-08-03T20:36:27Z",
+      "updated_at": "2026-08-04T03:15:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2522,7 +2522,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-08-04T02:12:07Z",
+      "updated_at": "2026-08-04T02:17:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2542,7 +2542,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.5-1785443561 (main)",
+      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.5-1785791459 (main)",
       "url": "https://github.com/conforma/cli/pull/3368",
       "number": 3368,
       "repo": "conforma/cli",
@@ -2551,7 +2551,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-08-01T03:02:17Z",
+      "updated_at": "2026-08-04T02:48:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2560,7 +2560,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 17,
+      "unresolved_conversations": 18,
       "labels": [
         "dependencies",
         "docker",
@@ -2665,7 +2665,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-08-04T02:12:06Z",
+      "updated_at": "2026-08-04T02:19:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2674,7 +2674,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 10,
+      "unresolved_conversations": 11,
       "labels": [
         "dependencies",
         "go",
@@ -2685,7 +2685,7 @@
       ]
     },
     {
-      "title": "Update tektoncd pipelines to v1.12.2 (main)",
+      "title": "Update module github.com/tektoncd/pipeline to v1.12.2 (main)",
       "url": "https://github.com/conforma/cli/pull/3373",
       "number": 3373,
       "repo": "conforma/cli",
@@ -2694,7 +2694,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-29T01:22:52Z",
-      "updated_at": "2026-08-03T02:55:39Z",
+      "updated_at": "2026-08-04T02:46:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2992,7 +2992,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-08-04T01:40:25Z",
+      "updated_at": "2026-08-04T03:15:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3151,7 +3151,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-04T01:39:54Z",
-      "updated_at": "2026-08-04T01:51:07Z",
+      "updated_at": "2026-08-04T03:15:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3177,7 +3177,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-04T01:40:12Z",
-      "updated_at": "2026-08-04T01:49:58Z",
+      "updated_at": "2026-08-04T03:15:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3192,6 +3192,32 @@
         "renovate",
         "main",
         "size: XS"
+      ]
+    },
+    {
+      "title": "docs(EC-1980): add product naming guidance to AGENTS.md",
+      "url": "https://github.com/conforma/cli/pull/3457",
+      "number": 3457,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-08-04T02:53:21Z",
+      "updated_at": "2026-08-04T03:18:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "documentation",
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -3759,7 +3785,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-21T02:56:45Z",
-      "updated_at": "2026-07-30T01:41:44Z",
+      "updated_at": "2026-08-04T02:23:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3777,7 +3803,7 @@
       ]
     },
     {
-      "title": "Update docker images (main)",
+      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to b1e86b9 (main)",
       "url": "https://github.com/conforma/golden-container/pull/1498",
       "number": 1498,
       "repo": "conforma/golden-container",
@@ -3786,7 +3812,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-26T00:48:27Z",
-      "updated_at": "2026-07-23T01:36:19Z",
+      "updated_at": "2026-08-04T02:23:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3864,7 +3890,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-07-06T01:24:26Z",
-      "updated_at": "2026-07-28T01:20:11Z",
+      "updated_at": "2026-08-04T02:23:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3916,7 +3942,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-07-11T01:41:56Z",
-      "updated_at": "2026-08-03T02:14:34Z",
+      "updated_at": "2026-08-04T02:23:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
