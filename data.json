@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T11:17:24.906644215Z",
+  "generated_at": "2026-08-04T12:12:01.914371236Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1320,7 +1320,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-08-04T04:41:09Z",
-      "updated_at": "2026-08-04T11:12:26Z",
+      "updated_at": "2026-08-04T11:44:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1331,7 +1331,8 @@
       },
       "unresolved_conversations": 8,
       "labels": [
-        "size: M"
+        "size: M",
+        "requires-manual-review"
       ]
     },
     {
@@ -1617,7 +1618,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-04T11:11:43Z",
+      "updated_at": "2026-08-04T12:02:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1646,7 +1647,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-08-04T11:14:23Z",
+      "updated_at": "2026-08-04T12:10:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1663,7 +1664,7 @@
         "main",
         "size: XXL",
         "Review effort 1/5",
-        "ready-for-merge"
+        "requires-manual-review"
       ]
     },
     {
@@ -1705,23 +1706,23 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:48Z",
-      "updated_at": "2026-07-31T20:31:39Z",
+      "updated_at": "2026-08-04T12:04:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XS",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 12,
+      "unresolved_conversations": 16,
       "labels": [
         "dependencies",
         "go",
         "renovate",
         "major",
         "main",
-        "size: XS"
+        "size: M"
       ]
     },
     {
@@ -1734,7 +1735,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-08-04T11:15:09Z",
+      "updated_at": "2026-08-04T11:40:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1763,10 +1764,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-08-02T12:58:17Z",
+      "updated_at": "2026-08-04T11:38:12Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -1820,7 +1821,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-08-04T11:16:29Z",
+      "updated_at": "2026-08-04T11:29:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1835,7 +1836,8 @@
         "go",
         "renovate",
         "release-v0.7",
-        "size: XXL"
+        "size: XXL",
+        "requires-manual-review"
       ]
     },
     {
@@ -1915,36 +1917,6 @@
       ]
     },
     {
-      "title": "Update module helm.sh/helm/v3 to v3.20.2 [SECURITY] (main)",
-      "url": "https://github.com/conforma/cli/pull/3224",
-      "number": 3224,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-04-10T21:52:25Z",
-      "updated_at": "2026-07-23T13:54:05Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "renovate",
-        "main",
-        "size: XS",
-        "Review effort 1/5",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "fix(RELEASE-2158): support custom CA bundles for self-hosted Quay",
       "url": "https://github.com/conforma/cli/pull/3228",
       "number": 3228,
@@ -1978,7 +1950,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/38067220?v=4"
       },
       "created_at": "2026-04-14T11:22:24Z",
-      "updated_at": "2026-04-15T07:01:51Z",
+      "updated_at": "2026-08-04T11:59:19Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2014,34 +1986,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XXL"
-      ]
-    },
-    {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 48fa5d8 (main)",
-      "url": "https://github.com/conforma/cli/pull/3270",
-      "number": 3270,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-05-05T03:04:45Z",
-      "updated_at": "2026-08-04T02:25:20Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "dependencies",
-        "docker",
-        "renovate",
-        "main",
-        "size: XS"
       ]
     },
     {
@@ -2130,36 +2074,6 @@
       ]
     },
     {
-      "title": "Update module github.com/in-toto/in-toto-golang to v0.11.0 [SECURITY] (main)",
-      "url": "https://github.com/conforma/cli/pull/3292",
-      "number": 3292,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-05-11T18:51:52Z",
-      "updated_at": "2026-08-04T11:08:44Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "renovate",
-        "main",
-        "size: XS",
-        "Possible security concern",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Update module github.com/in-toto/in-toto-golang to v0.11.0 [SECURITY] (release-v0.7)",
       "url": "https://github.com/conforma/cli/pull/3295",
       "number": 3295,
@@ -2169,10 +2083,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T18:58:35Z",
-      "updated_at": "2026-07-30T22:23:03Z",
+      "updated_at": "2026-08-04T12:06:04Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2185,34 +2099,6 @@
         "renovate",
         "release-v0.7",
         "size: XS",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Update module github.com/in-toto/in-toto-golang to v0.11.0 [SECURITY] (release-v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3296",
-      "number": 3296,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-05-11T19:00:18Z",
-      "updated_at": "2026-08-03T20:06:21Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "renovate",
-        "size: XS",
-        "release-v0.8",
         "ready-for-merge"
       ]
     },
@@ -2330,10 +2216,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-08-04T11:08:49Z",
+      "updated_at": "2026-08-04T12:03:25Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2359,13 +2245,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-06-19T10:24:09Z",
-      "updated_at": "2026-06-19T10:38:26Z",
+      "updated_at": "2026-08-04T11:46:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -2452,33 +2338,6 @@
       ]
     },
     {
-      "title": "fix(#3360): add missing \"go version\" group to Renovate config",
-      "url": "https://github.com/conforma/cli/pull/3361",
-      "number": 3361,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "fullsend-ai-coder",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
-      },
-      "created_at": "2026-06-26T20:50:13Z",
-      "updated_at": "2026-07-14T09:12:09Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "size: XS",
-        "config",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Update dependency golang to v1.26.5 (main)",
       "url": "https://github.com/conforma/cli/pull/3365",
       "number": 3365,
@@ -2488,7 +2347,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-08-03T19:45:20Z",
+      "updated_at": "2026-08-04T11:57:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2517,7 +2376,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-08-03T19:46:53Z",
+      "updated_at": "2026-08-04T12:00:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2526,7 +2385,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 18,
+      "unresolved_conversations": 20,
       "labels": [
         "dependencies",
         "go",
@@ -2603,7 +2462,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-08-03T19:47:28Z",
+      "updated_at": "2026-08-04T12:01:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2768,32 +2627,6 @@
       ]
     },
     {
-      "title": "docs(#3389): add product naming guidance to AGENTS.md",
-      "url": "https://github.com/conforma/cli/pull/3390",
-      "number": 3390,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "fullsend-ai-coder",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
-      },
-      "created_at": "2026-07-08T14:54:47Z",
-      "updated_at": "2026-07-08T15:06:05Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "documentation",
-        "size: XS",
-        "requires-manual-review"
-      ]
-    },
-    {
       "title": "chore: update fullsend shim workflow",
       "url": "https://github.com/conforma/cli/pull/3392",
       "number": 3392,
@@ -2854,16 +2687,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-07-14T15:20:48Z",
-      "updated_at": "2026-08-04T10:57:35Z",
+      "updated_at": "2026-08-04T12:09:40Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "L",
       "reviews": {
         "count": 3,
         "has_new_commits": true
       },
-      "unresolved_conversations": 10,
+      "unresolved_conversations": 8,
       "labels": [
         "enhancement",
         "size: L",
@@ -3016,7 +2849,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-08-04T11:13:39Z",
+      "updated_at": "2026-08-04T12:06:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3088,110 +2921,6 @@
       ]
     },
     {
-      "title": "chore(deps): Update ubi-minimal base image (v0.7)",
-      "url": "https://github.com/conforma/cli/pull/3452",
-      "number": 3452,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-08-03T19:22:26Z",
-      "updated_at": "2026-08-04T00:26:52Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "docker",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore(deps): Update ubi-minimal base image (v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3453",
-      "number": 3453,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-08-03T19:23:17Z",
-      "updated_at": "2026-08-04T00:27:01Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "dependencies",
-        "docker",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore(deps): Update ubi-minimal base image (main)",
-      "url": "https://github.com/conforma/cli/pull/3454",
-      "number": 3454,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-08-03T19:25:20Z",
-      "updated_at": "2026-08-04T00:27:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "docker",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 48fa5d8 (main)",
-      "url": "https://github.com/conforma/cli/pull/3455",
-      "number": 3455,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-08-04T01:39:54Z",
-      "updated_at": "2026-08-04T11:08:45Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.5 (main)",
       "url": "https://github.com/conforma/cli/pull/3456",
       "number": 3456,
@@ -3201,7 +2930,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-04T01:40:12Z",
-      "updated_at": "2026-08-04T11:11:45Z",
+      "updated_at": "2026-08-04T12:05:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3210,7 +2939,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 3,
       "labels": [
         "docker",
         "renovate",
@@ -3228,13 +2957,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-08-04T02:53:21Z",
-      "updated_at": "2026-08-04T09:02:13Z",
+      "updated_at": "2026-08-04T11:31:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
