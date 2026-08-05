@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T11:41:16.119251322Z",
+  "generated_at": "2026-08-05T12:36:16.283973753Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1293,7 +1293,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-08-05T11:06:15Z",
-      "updated_at": "2026-08-05T11:32:15Z",
+      "updated_at": "2026-08-05T12:12:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1302,7 +1302,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 12,
       "labels": [
         "documentation",
         "size: XL",
@@ -4087,7 +4087,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:33:03Z",
-      "updated_at": "2026-08-05T11:34:59Z",
+      "updated_at": "2026-08-05T11:46:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4101,8 +4101,7 @@
         "github_actions",
         "main",
         "renovate",
-        "size: XS",
-        "requires-manual-review"
+        "size: XS"
       ]
     },
     {
@@ -5154,7 +5153,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-23T02:14:14Z",
-      "updated_at": "2026-08-04T21:06:31Z",
+      "updated_at": "2026-08-05T11:52:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6708,13 +6707,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-08-04T20:54:04Z",
-      "updated_at": "2026-08-05T09:29:09Z",
+      "updated_at": "2026-08-05T12:16:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
