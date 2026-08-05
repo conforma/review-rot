@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T16:33:05.700045041Z",
+  "generated_at": "2026-08-05T17:31:21.06332713Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5242,6 +5242,30 @@
       "labels": [
         "size: S",
         "security"
+      ]
+    },
+    {
+      "title": "Fix path traversal in git gatherer subdir handling",
+      "url": "https://github.com/conforma/go-gather/pull/336",
+      "number": 336,
+      "repo": "conforma/go-gather",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-08-05T16:38:42Z",
+      "updated_at": "2026-08-05T16:59:52Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: L"
       ]
     },
     {
