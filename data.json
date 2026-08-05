@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T19:30:59.979748641Z",
+  "generated_at": "2026-08-05T20:08:22.697448132Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5980,54 +5980,6 @@
       "labels": [
         "main",
         "renovate"
-      ]
-    },
-    {
-      "title": "Use application snapshot for multi-component validation in ec-setup",
-      "url": "https://github.com/conforma/claude-skills/pull/12",
-      "number": 12,
-      "repo": "conforma/claude-skills",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-14T14:42:36Z",
-      "updated_at": "2026-07-29T20:49:21Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: M"
-      ]
-    },
-    {
-      "title": "feat: add /scaffold-repo command for AgentReady scaffolding",
-      "url": "https://github.com/conforma/claude-skills/pull/16",
-      "number": 16,
-      "repo": "conforma/claude-skills",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-16T00:31:58Z",
-      "updated_at": "2026-07-17T09:24:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: L"
       ]
     },
     {
