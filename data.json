@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T10:50:44.864980592Z",
+  "generated_at": "2026-08-05T11:41:16.119251322Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1281,6 +1281,32 @@
       "labels": [
         "size: M",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "[EC-1864] Add AI skills for ec-policies",
+      "url": "https://github.com/conforma/policy/pull/1793",
+      "number": 1793,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-08-05T11:06:15Z",
+      "updated_at": "2026-08-05T11:32:15Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 6,
+      "labels": [
+        "documentation",
+        "size: XL",
+        "tooling"
       ]
     },
     {
@@ -3615,7 +3641,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-08T01:09:43Z",
-      "updated_at": "2026-08-04T18:45:35Z",
+      "updated_at": "2026-08-05T10:51:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4061,7 +4087,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:33:03Z",
-      "updated_at": "2026-08-04T18:04:38Z",
+      "updated_at": "2026-08-05T11:34:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4292,7 +4318,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:36:46Z",
-      "updated_at": "2026-08-04T18:57:26Z",
+      "updated_at": "2026-08-05T11:25:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4398,7 +4424,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-15T00:43:24Z",
-      "updated_at": "2026-08-04T18:57:39Z",
+      "updated_at": "2026-08-05T11:25:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4527,7 +4553,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T03:44:47Z",
-      "updated_at": "2026-08-04T16:49:30Z",
+      "updated_at": "2026-08-05T11:26:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5663,7 +5689,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:26:43Z",
-      "updated_at": "2026-08-04T20:56:46Z",
+      "updated_at": "2026-08-05T11:03:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
