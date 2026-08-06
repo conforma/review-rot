@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T04:33:59.944907834Z",
+  "generated_at": "2026-08-06T05:58:38.766606555Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-08-06T01:14:08Z",
+      "updated_at": "2026-08-06T05:10:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -50,7 +50,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-08-06T01:14:25Z",
+      "updated_at": "2026-08-06T05:11:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1797,7 +1797,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:50:01Z",
-      "updated_at": "2026-08-06T01:29:16Z",
+      "updated_at": "2026-08-06T04:44:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2743,7 +2743,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-08-05T23:50:11Z",
+      "updated_at": "2026-08-06T04:44:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
