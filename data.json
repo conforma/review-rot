@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T14:15:35.353786347Z",
+  "generated_at": "2026-08-06T15:15:28.83800873Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1214,20 +1214,44 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-08-05T11:06:15Z",
-      "updated_at": "2026-08-05T12:12:15Z",
+      "updated_at": "2026-08-06T14:43:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 0,
+        "count": 2,
         "has_new_commits": false
       },
-      "unresolved_conversations": 12,
+      "unresolved_conversations": 14,
       "labels": [
         "documentation",
         "size: XL",
         "tooling"
+      ]
+    },
+    {
+      "title": "Add threat model for the policy repo",
+      "url": "https://github.com/conforma/policy/pull/1794",
+      "number": 1794,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-08-06T15:09:05Z",
+      "updated_at": "2026-08-06T15:14:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: XL"
       ]
     },
     {
@@ -2668,7 +2692,7 @@
       "updated_at": "2026-08-06T13:32:41Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -2984,20 +3008,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-06T12:17:58Z",
-      "updated_at": "2026-08-06T14:13:23Z",
+      "updated_at": "2026-08-06T15:13:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "documentation",
         "size: XL",
-        "ready-for-merge"
+        "requires-manual-review"
       ]
     },
     {
@@ -3036,10 +3060,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-08-06T13:57:02Z",
-      "updated_at": "2026-08-06T14:13:27Z",
+      "updated_at": "2026-08-06T14:16:40Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3065,7 +3089,7 @@
       "updated_at": "2026-08-06T14:09:35Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -5921,7 +5945,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:44Z",
-      "updated_at": "2026-07-12T12:56:50Z",
+      "updated_at": "2026-08-06T15:08:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
