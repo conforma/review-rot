@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T09:20:54.411076636Z",
+  "generated_at": "2026-08-07T09:48:07.570268603Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1534,10 +1534,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-07T09:18:21Z",
+      "updated_at": "2026-08-07T09:27:58Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -1652,10 +1652,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-08-07T09:19:58Z",
+      "updated_at": "2026-08-07T09:27:13Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -5684,7 +5684,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:35:59Z",
-      "updated_at": "2026-08-07T02:09:36Z",
+      "updated_at": "2026-08-07T09:46:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
@@ -5737,10 +5737,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-08-07T05:52:25Z",
+      "updated_at": "2026-08-07T09:46:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -6408,7 +6408,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-08-06T01:02:36Z",
+      "updated_at": "2026-08-07T09:46:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
