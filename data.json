@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T19:47:00.960644913Z",
+  "generated_at": "2026-08-07T20:12:58.703004841Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-08-07T17:04:04Z",
+      "updated_at": "2026-08-07T20:04:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -37,7 +37,7 @@
         "renovate",
         "main",
         "size: XXL",
-        "ready-for-merge"
+        "requires-manual-review"
       ]
     },
     {
@@ -50,7 +50,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-08-07T17:06:53Z",
+      "updated_at": "2026-08-07T19:59:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -65,7 +65,8 @@
         "go",
         "renovate",
         "release-v0.7",
-        "size: XS"
+        "size: XS",
+        "ready-for-merge"
       ]
     },
     {
@@ -320,10 +321,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-08-07T19:45:40Z",
+      "updated_at": "2026-08-07T19:54:56Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -348,7 +349,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-08-07T17:00:32Z",
+      "updated_at": "2026-08-07T19:57:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -357,7 +358,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 34,
+      "unresolved_conversations": 35,
       "labels": [
         "dependencies",
         "go",
@@ -535,7 +536,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-08-07T07:42:59Z",
+      "updated_at": "2026-08-07T19:57:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -564,10 +565,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-08-07T19:45:43Z",
+      "updated_at": "2026-08-07T19:51:22Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -1187,16 +1188,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-08-05T11:06:15Z",
-      "updated_at": "2026-08-06T14:43:29Z",
+      "updated_at": "2026-08-07T19:55:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 2,
+        "count": 6,
         "has_new_commits": false
       },
-      "unresolved_conversations": 14,
+      "unresolved_conversations": 15,
       "labels": [
         "documentation",
         "size: XL",
@@ -1224,6 +1225,30 @@
       },
       "unresolved_conversations": 1,
       "labels": []
+    },
+    {
+      "title": "docs(#1797): add product and tool name casing conventions",
+      "url": "https://github.com/conforma/policy/pull/1798",
+      "number": 1798,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-08-07T20:08:27Z",
+      "updated_at": "2026-08-07T20:12:03Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
     },
     {
       "title": "Script for timing large snapshot",
@@ -2900,13 +2925,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-08-06T11:39:02Z",
-      "updated_at": "2026-08-06T11:57:01Z",
+      "updated_at": "2026-08-07T19:58:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
