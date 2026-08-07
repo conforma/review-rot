@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T14:24:06.139482171Z",
+  "generated_at": "2026-08-07T14:47:12.506605752Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1738,7 +1738,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-08-07T14:23:17Z",
+      "updated_at": "2026-08-07T14:23:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1753,7 +1753,8 @@
         "go",
         "renovate",
         "release-v0.7",
-        "size: XXL"
+        "size: XXL",
+        "requires-manual-review"
       ]
     },
     {
@@ -3070,6 +3071,31 @@
         "renovate",
         "main",
         "size: XS"
+      ]
+    },
+    {
+      "title": "Add imagePullPolicy: IfNotPresent to task and pipeline steps",
+      "url": "https://github.com/conforma/cli/pull/3472",
+      "number": 3472,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-08-07T14:23:44Z",
+      "updated_at": "2026-08-07T14:36:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS",
+        "ready-for-merge"
       ]
     },
     {
@@ -6105,6 +6131,30 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Add imagePullPolicy: IfNotPresent to step action and test task",
+      "url": "https://github.com/conforma/step-actions/pull/5",
+      "number": 5,
+      "repo": "conforma/step-actions",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-08-07T14:23:51Z",
+      "updated_at": "2026-08-07T14:34:31Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: XS"
+      ]
     },
     {
       "title": "Update actions/checkout action to v6.0.3",
