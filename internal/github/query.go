@@ -176,6 +176,7 @@ func extractSize(node prNode) *string {
 func extractReviews(node prNode) model.Reviews {
 	var r model.Reviews
 	var lastHumanReviewOID string
+	seen := make(map[string]struct{})
 	for _, review := range node.Reviews.Nodes {
 		if review.Author.TypeName == "Bot" {
 			continue
@@ -183,7 +184,7 @@ func extractReviews(node prNode) model.Reviews {
 		if review.Author.Login == node.Author.Login {
 			continue
 		}
-		r.Count++
+		seen[review.Author.Login] = struct{}{}
 		lastHumanReviewOID = review.Commit.OID
 	}
 	var lastHumanCommentAt time.Time
@@ -194,11 +195,12 @@ func extractReviews(node prNode) model.Reviews {
 		if comment.Author.Login == node.Author.Login {
 			continue
 		}
-		r.Count++
+		seen[comment.Author.Login] = struct{}{}
 		if comment.CreatedAt.After(lastHumanCommentAt) {
 			lastHumanCommentAt = comment.CreatedAt
 		}
 	}
+	r.Count = len(seen)
 	if r.Count > 0 {
 		reviewCoversHead := lastHumanReviewOID == node.HeadRefOid
 		commentCoversHead := !lastHumanCommentAt.IsZero() && len(node.Commits.Nodes) > 0 &&

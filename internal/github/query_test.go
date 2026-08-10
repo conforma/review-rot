@@ -157,8 +157,8 @@ func TestExtractReviews(t *testing.T) {
 	)
 
 	r := extractReviews(node)
-	if r.Count != 3 {
-		t.Errorf("Count = %d, want 3", r.Count)
+	if r.Count != 1 {
+		t.Errorf("Count = %d, want 1 (deduplicated by author)", r.Count)
 	}
 	if !r.HasNewCommits {
 		t.Error("HasNewCommits should be true when last review OID differs from head")
@@ -508,6 +508,30 @@ func TestExtractReviewsReviewCoversHeadDespiteStaleComment(t *testing.T) {
 	r := extractReviews(node)
 	if r.HasNewCommits {
 		t.Error("HasNewCommits should be false: review covers HEAD even though comment is stale")
+	}
+}
+
+func TestExtractReviewsDeduplicatesByAuthor(t *testing.T) {
+	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
+	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
+
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	setHeadCommitDate(&node, commitDate)
+	node.Reviews.Nodes = append(node.Reviews.Nodes,
+		makeReviewNode("User", "alice", "head"),
+		makeReviewNode("User", "alice", "old"),
+		makeReviewNode("User", "bob", "head"),
+	)
+	node.Comments.Nodes = append(node.Comments.Nodes,
+		makeCommentNode("User", "alice", commentDate),
+		makeCommentNode("User", "bob", commentDate),
+		makeCommentNode("User", "charlie", commentDate),
+	)
+
+	r := extractReviews(node)
+	if r.Count != 3 {
+		t.Errorf("Count = %d, want 3 (alice, bob, charlie)", r.Count)
 	}
 }
 
