@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T01:31:53.862330235Z",
+  "generated_at": "2026-08-10T02:46:12.242169526Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1456,7 +1456,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-08-09T02:40:11Z",
+      "updated_at": "2026-08-10T02:44:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1768,7 +1768,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:50:01Z",
-      "updated_at": "2026-08-09T21:39:52Z",
+      "updated_at": "2026-08-10T01:47:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1922,7 +1922,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-08-09T02:55:29Z",
+      "updated_at": "2026-08-10T02:35:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2464,6 +2464,36 @@
       ]
     },
     {
+      "title": "Update module github.com/tektoncd/pipeline to v1.12.2 (main)",
+      "url": "https://github.com/conforma/cli/pull/3373",
+      "number": 3373,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-06-29T01:22:52Z",
+      "updated_at": "2026-08-10T02:29:42Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go",
+        "renovate",
+        "main",
+        "size: S",
+        "Review effort 1/5",
+        "ready-for-merge"
+      ]
+    },
+    {
       "title": "🚨 Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v9 (main)",
       "url": "https://github.com/conforma/cli/pull/3375",
       "number": 3375,
@@ -2917,6 +2947,34 @@
       "labels": [
         "renovate",
         "release-v0.7",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 57c8151 (main)",
+      "url": "https://github.com/conforma/cli/pull/3464",
+      "number": 3464,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-08-06T01:54:55Z",
+      "updated_at": "2026-08-10T02:44:48Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "docker",
+        "renovate",
+        "main",
         "size: XS"
       ]
     },
