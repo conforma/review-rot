@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T12:15:59.058493234Z",
+  "generated_at": "2026-08-10T12:47:28.088920185Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2637,7 +2637,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-07-21T12:23:33Z",
-      "updated_at": "2026-07-31T21:28:59Z",
+      "updated_at": "2026-08-10T12:27:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2646,7 +2646,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 14,
+      "unresolved_conversations": 11,
       "labels": [
         "github_actions",
         "size: L",
@@ -4158,7 +4158,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-10T11:05:29Z",
-      "updated_at": "2026-08-10T11:19:21Z",
+      "updated_at": "2026-08-10T12:21:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4167,7 +4167,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 0,
       "labels": [
         "size: L"
       ]
@@ -5332,10 +5332,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-08T00:47:32Z",
-      "updated_at": "2026-07-23T15:01:35Z",
+      "updated_at": "2026-08-10T12:45:37Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -5384,10 +5384,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-02T01:54:55Z",
-      "updated_at": "2026-07-30T20:49:34Z",
+      "updated_at": "2026-08-10T12:45:23Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -5410,7 +5410,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T15:39:45Z",
-      "updated_at": "2026-08-09T12:59:24Z",
+      "updated_at": "2026-08-10T12:46:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5435,10 +5435,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-14T17:32:03Z",
-      "updated_at": "2026-07-29T10:45:04Z",
+      "updated_at": "2026-08-10T12:46:42Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -5513,7 +5513,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:43:42Z",
-      "updated_at": "2026-08-05T05:35:02Z",
+      "updated_at": "2026-08-10T12:46:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5538,10 +5538,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-12T12:40:35Z",
-      "updated_at": "2026-08-06T18:28:38Z",
+      "updated_at": "2026-08-10T12:45:12Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -5563,10 +5563,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-12T12:40:43Z",
-      "updated_at": "2026-07-23T15:01:17Z",
+      "updated_at": "2026-08-10T12:45:18Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -5576,30 +5576,6 @@
       "labels": [
         "size: S",
         "security"
-      ]
-    },
-    {
-      "title": "Fix path traversal in git gatherer subdir handling",
-      "url": "https://github.com/conforma/go-gather/pull/336",
-      "number": 336,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-08-05T16:38:42Z",
-      "updated_at": "2026-08-10T09:34:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: L"
       ]
     },
     {
@@ -6349,7 +6325,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-16T02:12:56Z",
-      "updated_at": "2026-07-09T06:56:47Z",
+      "updated_at": "2026-08-10T12:46:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
@@ -6360,30 +6336,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "Add imagePullPolicy: IfNotPresent to step action and test task",
-      "url": "https://github.com/conforma/step-actions/pull/5",
-      "number": 5,
-      "repo": "conforma/step-actions",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-08-07T14:23:51Z",
-      "updated_at": "2026-08-10T08:36:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
     },
     {
       "title": "Update actions/checkout action to v6.0.3",
