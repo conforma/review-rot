@@ -51,6 +51,7 @@ type prNode struct {
 	Commits struct {
 		Nodes []struct {
 			Commit struct {
+				CommittedDate time.Time
 				StatusCheckRollup *struct {
 					State string
 				}
@@ -69,6 +70,16 @@ type prNode struct {
 			}
 		}
 	} `graphql:"reviews(last: 100, states: [APPROVED, CHANGES_REQUESTED, COMMENTED])"`
+
+	Comments struct {
+		Nodes []struct {
+			Author struct {
+				TypeName string `graphql:"__typename"`
+				Login    string
+			} `graphql:"author"`
+			CreatedAt time.Time
+		}
+	} `graphql:"comments(last: 100)"`
 
 	ReviewThreads struct {
 		Nodes []struct {
@@ -175,8 +186,24 @@ func extractReviews(node prNode) model.Reviews {
 		r.Count++
 		lastHumanReviewOID = review.Commit.OID
 	}
+	var lastHumanCommentAt time.Time
+	for _, comment := range node.Comments.Nodes {
+		if comment.Author.TypeName == "Bot" {
+			continue
+		}
+		if comment.Author.Login == node.Author.Login {
+			continue
+		}
+		r.Count++
+		if comment.CreatedAt.After(lastHumanCommentAt) {
+			lastHumanCommentAt = comment.CreatedAt
+		}
+	}
 	if r.Count > 0 {
-		r.HasNewCommits = lastHumanReviewOID != node.HeadRefOid
+		reviewCoversHead := lastHumanReviewOID == node.HeadRefOid
+		commentCoversHead := !lastHumanCommentAt.IsZero() && len(node.Commits.Nodes) > 0 &&
+			!lastHumanCommentAt.Before(node.Commits.Nodes[0].Commit.CommittedDate)
+		r.HasNewCommits = !reviewCoversHead && !commentCoversHead
 	}
 	return r
 }
