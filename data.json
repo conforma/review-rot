@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T10:28:15.420595802Z",
+  "generated_at": "2026-08-10T10:52:31.70144345Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1032,16 +1032,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-07-16T07:30:17Z",
-      "updated_at": "2026-08-05T13:00:49Z",
+      "updated_at": "2026-08-10T10:36:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 10,
+      "unresolved_conversations": 14,
       "labels": [
         "enhancement",
         "size: XL",
@@ -2601,33 +2601,6 @@
       ]
     },
     {
-      "title": "feat(EC-1941): add enterprise-contract pipeline definition",
-      "url": "https://github.com/conforma/cli/pull/3416",
-      "number": 3416,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-16T02:10:30Z",
-      "updated_at": "2026-08-04T09:07:57Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 5,
-      "labels": [
-        "size: L",
-        "tooling",
-        "requires-manual-review",
-        "feature"
-      ]
-    },
-    {
       "title": "Surface volatile-excluded rules as time-bounded exceptions in report output",
       "url": "https://github.com/conforma/cli/pull/3419",
       "number": 3419,
@@ -2826,7 +2799,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-04T01:40:12Z",
-      "updated_at": "2026-08-09T21:37:32Z",
+      "updated_at": "2026-08-10T10:51:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2934,10 +2907,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T02:23:56Z",
-      "updated_at": "2026-08-09T21:39:30Z",
+      "updated_at": "2026-08-10T10:51:44Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
