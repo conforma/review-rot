@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T15:47:55.962055086Z",
+  "generated_at": "2026-08-10T16:17:25.162049216Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1565,7 +1565,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-08-10T15:24:26Z",
+      "updated_at": "2026-08-10T16:16:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1739,7 +1739,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-08-10T15:24:52Z",
+      "updated_at": "2026-08-10T16:10:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3043,10 +3043,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-07T17:32:00Z",
-      "updated_at": "2026-08-10T15:24:56Z",
+      "updated_at": "2026-08-10T16:11:25Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3072,7 +3072,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-08-07T22:35:03Z",
-      "updated_at": "2026-08-10T15:39:23Z",
+      "updated_at": "2026-08-10T16:14:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -3081,7 +3081,7 @@
         "count": 1,
         "has_new_commits": true
       },
-      "unresolved_conversations": 28,
+      "unresolved_conversations": 49,
       "labels": [
         "github_actions",
         "size: XL",
@@ -3154,7 +3154,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-08T06:10:02Z",
-      "updated_at": "2026-08-08T06:21:14Z",
+      "updated_at": "2026-08-10T16:03:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3184,7 +3184,7 @@
       "updated_at": "2026-08-08T06:19:47Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -3196,33 +3196,6 @@
         "release-v0.7",
         "size: S",
         "ci",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Update Konflux references (release-v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3481",
-      "number": 3481,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-08-08T06:49:09Z",
-      "updated_at": "2026-08-08T07:15:04Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: S",
-        "release-v0.8",
         "ready-for-merge"
       ]
     },
@@ -3263,16 +3236,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-10T12:51:45Z",
-      "updated_at": "2026-08-10T15:47:14Z",
+      "updated_at": "2026-08-10T15:47:43Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 7,
+      "unresolved_conversations": 5,
       "labels": [
         "bug",
         "size: XL",
