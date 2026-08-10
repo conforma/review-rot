@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T18:16:43.862442947Z",
+  "generated_at": "2026-08-10T18:47:02.663092876Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3353,7 +3353,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.120.0 (main)",
+      "title": "Update dependency wrangler to v4.120.1 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -3362,10 +3362,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-08-07T13:40:16Z",
+      "updated_at": "2026-08-10T18:46:25Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 0,
