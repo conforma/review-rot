@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T09:47:59.76561319Z",
+  "generated_at": "2026-08-11T10:18:35.266294331Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1188,21 +1188,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-08-05T11:06:15Z",
-      "updated_at": "2026-08-11T09:47:07Z",
+      "updated_at": "2026-08-11T10:12:06Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 6,
         "has_new_commits": true
       },
-      "unresolved_conversations": 9,
+      "unresolved_conversations": 7,
       "labels": [
         "documentation",
         "size: XL",
-        "tooling",
-        "requires-manual-review"
+        "tooling"
       ]
     },
     {
@@ -3182,10 +3181,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-10T12:51:45Z",
-      "updated_at": "2026-08-11T09:35:04Z",
+      "updated_at": "2026-08-11T10:10:14Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -3263,16 +3262,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-11T08:59:41Z",
-      "updated_at": "2026-08-11T09:29:31Z",
+      "updated_at": "2026-08-11T10:17:57Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 12,
       "labels": [
         "size: XL",
         "Possible security concern",
