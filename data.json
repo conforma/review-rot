@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T12:47:19.838057546Z",
+  "generated_at": "2026-08-11T13:29:17.645107938Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -980,7 +980,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-14T12:26:13Z",
-      "updated_at": "2026-08-11T04:43:08Z",
+      "updated_at": "2026-08-11T12:47:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1214,10 +1214,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-08-06T18:35:38Z",
-      "updated_at": "2026-08-06T20:03:57Z",
+      "updated_at": "2026-08-11T13:19:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 6,
@@ -2636,7 +2636,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-07-21T12:23:33Z",
-      "updated_at": "2026-08-11T07:43:32Z",
+      "updated_at": "2026-08-11T13:25:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2745,10 +2745,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-07-29T13:05:08Z",
-      "updated_at": "2026-08-11T12:29:07Z",
+      "updated_at": "2026-08-11T13:24:33Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -3264,7 +3264,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-11T08:59:41Z",
-      "updated_at": "2026-08-11T11:11:53Z",
+      "updated_at": "2026-08-11T13:17:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3273,11 +3273,37 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 13,
+      "unresolved_conversations": 16,
       "labels": [
         "size: XXL",
         "Possible security concern",
         "cli"
+      ]
+    },
+    {
+      "title": "fix: add --allow-past-effective-time to simple benchmark",
+      "url": "https://github.com/conforma/cli/pull/3490",
+      "number": 3490,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "dheerajodha",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
+      },
+      "created_at": "2026-08-11T13:08:13Z",
+      "updated_at": "2026-08-11T13:24:02Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "bug",
+        "size: XS",
+        "ready-for-merge"
       ]
     },
     {
@@ -6946,8 +6972,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-08-06T12:49:24Z",
-      "is_draft": true,
+      "updated_at": "2026-08-11T13:04:38Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
@@ -6957,7 +6983,6 @@
       },
       "unresolved_conversations": 2,
       "labels": [
-        "do-not-merge/work-in-progress",
         "environment/production",
         "infra/hold-production",
         "environment/development",
