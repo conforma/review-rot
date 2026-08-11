@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T15:21:18.102123468Z",
+  "generated_at": "2026-08-11T15:48:20.410997207Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4410,6 +4410,30 @@
       ]
     },
     {
+      "title": "Release 2026-08-11: policy, cli, and tekton-task image updates",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/223",
+      "number": 223,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-08-11T15:46:48Z",
+      "updated_at": "2026-08-11T15:47:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: L"
+      ]
+    },
+    {
       "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/user-guide/pull/233",
       "number": 233,
@@ -6891,6 +6915,30 @@
       "unresolved_conversations": 0,
       "labels": [
         "needs-rebase"
+      ]
+    },
+    {
+      "title": "Pin conforma tekton task to digest",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3782",
+      "number": 3782,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-08-11T15:31:28Z",
+      "updated_at": "2026-08-11T15:41:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "ready-for-merge"
       ]
     },
     {
