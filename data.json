@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T15:48:20.410997207Z",
+  "generated_at": "2026-08-11T16:17:38.975347121Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1084,7 +1084,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-23T16:56:05Z",
-      "updated_at": "2026-08-06T17:21:59Z",
+      "updated_at": "2026-08-11T16:05:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1214,17 +1214,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-08-06T18:35:38Z",
-      "updated_at": "2026-08-11T13:19:55Z",
+      "updated_at": "2026-08-11T16:03:39Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
+      "ci_status": "SUCCESS",
+      "size": "XL",
       "reviews": {
-        "count": 6,
-        "has_new_commits": false
+        "count": 5,
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "size: XL"
+      ]
     },
     {
       "title": "docs(#1797): add product and tool name casing conventions",
@@ -3309,6 +3311,32 @@
       ]
     },
     {
+      "title": "Pin conforma tekton task to digest",
+      "url": "https://github.com/conforma/cli/pull/3491",
+      "number": 3491,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-08-11T15:56:16Z",
+      "updated_at": "2026-08-11T16:13:18Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "config",
+        "ready-for-merge"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -4419,16 +4447,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-08-11T15:46:48Z",
-      "updated_at": "2026-08-11T15:47:07Z",
+      "updated_at": "2026-08-11T15:52:08Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "size: L"
       ]
@@ -6927,16 +6955,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-08-11T15:31:28Z",
-      "updated_at": "2026-08-11T15:41:00Z",
+      "updated_at": "2026-08-11T16:06:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 3,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "ready-for-merge"
       ]
