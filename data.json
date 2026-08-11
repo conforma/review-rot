@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T10:18:35.266294331Z",
+  "generated_at": "2026-08-11T10:46:40.481059942Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1032,10 +1032,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-07-16T07:30:17Z",
-      "updated_at": "2026-08-10T10:36:50Z",
+      "updated_at": "2026-08-11T10:45:50Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "count": 1,
@@ -3262,18 +3262,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-11T08:59:41Z",
-      "updated_at": "2026-08-11T10:17:57Z",
+      "updated_at": "2026-08-11T10:29:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "XL",
+      "ci_status": "FAILURE",
+      "size": "XXL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 12,
+      "unresolved_conversations": 7,
       "labels": [
-        "size: XL",
+        "size: XXL",
         "Possible security concern",
         "cli",
         "requires-manual-review"
