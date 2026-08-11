@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T17:48:00.530623806Z",
+  "generated_at": "2026-08-11T18:17:37.498066132Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1146,6 +1146,32 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
+      "labels": [
+        "documentation",
+        "size: XS",
+        "requires-manual-review"
+      ]
+    },
+    {
+      "title": "docs(#1799): add CycloneDX/SPDX parity checklist item",
+      "url": "https://github.com/conforma/policy/pull/1800",
+      "number": 1800,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-08-11T17:52:18Z",
+      "updated_at": "2026-08-11T18:04:05Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
       "labels": [
         "documentation",
         "size: XS",
@@ -4355,7 +4381,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "size: L"
       ]
