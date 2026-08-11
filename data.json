@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T08:47:04.747178576Z",
+  "generated_at": "2026-08-11T09:20:38.741987172Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1188,14 +1188,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-08-05T11:06:15Z",
-      "updated_at": "2026-08-07T19:55:08Z",
+      "updated_at": "2026-08-11T09:18:28Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "count": 6,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 15,
       "labels": [
@@ -1535,7 +1535,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-11T08:39:22Z",
+      "updated_at": "2026-08-11T08:49:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2111,10 +2111,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-08-11T08:45:19Z",
+      "updated_at": "2026-08-11T08:51:07Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2360,7 +2360,7 @@
       "updated_at": "2026-08-11T08:45:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2689,7 +2689,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-08-11T08:40:39Z",
+      "updated_at": "2026-08-11T08:47:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2771,7 +2771,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-04T01:40:12Z",
-      "updated_at": "2026-08-11T08:39:49Z",
+      "updated_at": "2026-08-11T08:47:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2780,7 +2780,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 9,
+      "unresolved_conversations": 10,
       "labels": [
         "docker",
         "renovate",
@@ -2962,10 +2962,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-07T17:25:20Z",
-      "updated_at": "2026-08-11T08:42:17Z",
+      "updated_at": "2026-08-11T08:46:46Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -3250,6 +3250,30 @@
         "release-v0.7",
         "size: M",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Replace IsValidVSA with ValidateVSAAndComparePolicy in image skip path",
+      "url": "https://github.com/conforma/cli/pull/3489",
+      "number": 3489,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-08-11T08:59:41Z",
+      "updated_at": "2026-08-11T09:11:09Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 5,
+      "labels": [
+        "size: XL"
       ]
     },
     {
