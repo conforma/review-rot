@@ -17,10 +17,12 @@ func TestExtractCIStatusSuccess(t *testing.T) {
 	node := prNode{}
 	node.Commits.Nodes = []struct {
 		Commit struct {
+			CommittedDate     time.Time
 			StatusCheckRollup *struct{ State string }
 		}
 	}{
 		{Commit: struct {
+			CommittedDate     time.Time
 			StatusCheckRollup *struct{ State string }
 		}{StatusCheckRollup: &struct{ State string }{State: "SUCCESS"}}},
 	}
@@ -35,10 +37,12 @@ func TestExtractCIStatusNull(t *testing.T) {
 	node := prNode{}
 	node.Commits.Nodes = []struct {
 		Commit struct {
+			CommittedDate     time.Time
 			StatusCheckRollup *struct{ State string }
 		}
 	}{
 		{Commit: struct {
+			CommittedDate     time.Time
 			StatusCheckRollup *struct{ State string }
 		}{StatusCheckRollup: nil}},
 	}
@@ -109,6 +113,40 @@ func makeReviewNode(authorType, login, oid string) struct {
 	return n
 }
 
+func makeCommentNode(authorType, login string, createdAt time.Time) struct {
+	Author struct {
+		TypeName string `graphql:"__typename"`
+		Login    string
+	} `graphql:"author"`
+	CreatedAt time.Time
+} {
+	var n struct {
+		Author struct {
+			TypeName string `graphql:"__typename"`
+			Login    string
+		} `graphql:"author"`
+		CreatedAt time.Time
+	}
+	n.Author.TypeName = authorType
+	n.Author.Login = login
+	n.CreatedAt = createdAt
+	return n
+}
+
+func setHeadCommitDate(node *prNode, t time.Time) {
+	node.Commits.Nodes = []struct {
+		Commit struct {
+			CommittedDate     time.Time
+			StatusCheckRollup *struct{ State string }
+		}
+	}{
+		{Commit: struct {
+			CommittedDate     time.Time
+			StatusCheckRollup *struct{ State string }
+		}{CommittedDate: t}},
+	}
+}
+
 func TestExtractReviews(t *testing.T) {
 	node := prNode{HeadRefOid: "abc123"}
 	node.Author.Login = "author"
@@ -119,8 +157,8 @@ func TestExtractReviews(t *testing.T) {
 	)
 
 	r := extractReviews(node)
-	if r.Count != 3 {
-		t.Errorf("Count = %d, want 3", r.Count)
+	if r.Count != 1 {
+		t.Errorf("Count = %d, want 1 (deduplicated by author)", r.Count)
 	}
 	if !r.HasNewCommits {
 		t.Error("HasNewCommits should be true when last review OID differs from head")
@@ -322,6 +360,178 @@ func TestTransformPRBotAuthor(t *testing.T) {
 	pr := transformPR(node, "conforma/policy")
 	if !pr.IsAutomated {
 		t.Error("IsAutomated should be true for Bot author")
+	}
+}
+
+func TestExtractReviewsCountsComments(t *testing.T) {
+	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
+	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
+
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	setHeadCommitDate(&node, commitDate)
+	node.Comments.Nodes = append(node.Comments.Nodes,
+		makeCommentNode("User", "reviewer", commentDate),
+	)
+
+	r := extractReviews(node)
+	if r.Count != 1 {
+		t.Errorf("Count = %d, want 1 (one human comment)", r.Count)
+	}
+}
+
+func TestExtractReviewsCommentsExcludesBots(t *testing.T) {
+	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
+	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
+
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	setHeadCommitDate(&node, commitDate)
+	node.Comments.Nodes = append(node.Comments.Nodes,
+		makeCommentNode("User", "reviewer", commentDate),
+		makeCommentNode("Bot", "codecov", commentDate),
+	)
+
+	r := extractReviews(node)
+	if r.Count != 1 {
+		t.Errorf("Count = %d, want 1 (bot comment excluded)", r.Count)
+	}
+}
+
+func TestExtractReviewsCommentsExcludesAuthor(t *testing.T) {
+	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
+	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
+
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	setHeadCommitDate(&node, commitDate)
+	node.Comments.Nodes = append(node.Comments.Nodes,
+		makeCommentNode("User", "author", commentDate),
+	)
+
+	r := extractReviews(node)
+	if r.Count != 0 {
+		t.Errorf("Count = %d, want 0 (PR author comment excluded)", r.Count)
+	}
+}
+
+func TestExtractReviewsMixedReviewsAndComments(t *testing.T) {
+	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
+	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
+
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	setHeadCommitDate(&node, commitDate)
+	node.Reviews.Nodes = append(node.Reviews.Nodes,
+		makeReviewNode("User", "reviewer-a", "head"),
+	)
+	node.Comments.Nodes = append(node.Comments.Nodes,
+		makeCommentNode("User", "reviewer-b", commentDate),
+		makeCommentNode("Bot", "ci-bot", commentDate),
+		makeCommentNode("User", "author", commentDate),
+	)
+
+	r := extractReviews(node)
+	if r.Count != 2 {
+		t.Errorf("Count = %d, want 2 (1 review + 1 human comment)", r.Count)
+	}
+}
+
+func TestExtractReviewsCommentAfterHeadCommit(t *testing.T) {
+	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
+	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
+
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	setHeadCommitDate(&node, commitDate)
+	node.Comments.Nodes = append(node.Comments.Nodes,
+		makeCommentNode("User", "reviewer", commentDate),
+	)
+
+	r := extractReviews(node)
+	if r.HasNewCommits {
+		t.Error("HasNewCommits should be false: comment was posted after HEAD commit")
+	}
+}
+
+func TestExtractReviewsCommentBeforeHeadCommit(t *testing.T) {
+	commitDate := time.Date(2025, 3, 15, 14, 0, 0, 0, time.UTC)
+	commentDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
+
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	setHeadCommitDate(&node, commitDate)
+	node.Comments.Nodes = append(node.Comments.Nodes,
+		makeCommentNode("User", "reviewer", commentDate),
+	)
+
+	r := extractReviews(node)
+	if !r.HasNewCommits {
+		t.Error("HasNewCommits should be true: comment was posted before HEAD commit")
+	}
+}
+
+func TestExtractReviewsCommentCoversHeadDespiteStaleReview(t *testing.T) {
+	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
+	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
+
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	setHeadCommitDate(&node, commitDate)
+	node.Reviews.Nodes = append(node.Reviews.Nodes,
+		makeReviewNode("User", "reviewer", "old-commit"),
+	)
+	node.Comments.Nodes = append(node.Comments.Nodes,
+		makeCommentNode("User", "reviewer", commentDate),
+	)
+
+	r := extractReviews(node)
+	if r.HasNewCommits {
+		t.Error("HasNewCommits should be false: comment covers HEAD even though review is stale")
+	}
+}
+
+func TestExtractReviewsReviewCoversHeadDespiteStaleComment(t *testing.T) {
+	commitDate := time.Date(2025, 3, 15, 14, 0, 0, 0, time.UTC)
+	commentDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
+
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	setHeadCommitDate(&node, commitDate)
+	node.Reviews.Nodes = append(node.Reviews.Nodes,
+		makeReviewNode("User", "reviewer", "head"),
+	)
+	node.Comments.Nodes = append(node.Comments.Nodes,
+		makeCommentNode("User", "reviewer", commentDate),
+	)
+
+	r := extractReviews(node)
+	if r.HasNewCommits {
+		t.Error("HasNewCommits should be false: review covers HEAD even though comment is stale")
+	}
+}
+
+func TestExtractReviewsDeduplicatesByAuthor(t *testing.T) {
+	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
+	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
+
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	setHeadCommitDate(&node, commitDate)
+	node.Reviews.Nodes = append(node.Reviews.Nodes,
+		makeReviewNode("User", "alice", "head"),
+		makeReviewNode("User", "alice", "old"),
+		makeReviewNode("User", "bob", "head"),
+	)
+	node.Comments.Nodes = append(node.Comments.Nodes,
+		makeCommentNode("User", "alice", commentDate),
+		makeCommentNode("User", "bob", commentDate),
+		makeCommentNode("User", "charlie", commentDate),
+	)
+
+	r := extractReviews(node)
+	if r.Count != 3 {
+		t.Errorf("Count = %d, want 3 (alice, bob, charlie)", r.Count)
 	}
 }
 
