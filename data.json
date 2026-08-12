@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T19:23:30.502029335Z",
+  "generated_at": "2026-08-12T19:51:28.722173785Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -50,7 +50,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-08-12T19:17:34Z",
+      "updated_at": "2026-08-12T19:29:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -59,14 +59,13 @@
         "count": 1,
         "has_new_commits": true
       },
-      "unresolved_conversations": 15,
+      "unresolved_conversations": 16,
       "labels": [
         "dependencies",
         "go",
         "renovate",
         "release-v0.7",
-        "size: XS",
-        "ready-for-merge"
+        "size: XS"
       ]
     },
     {
@@ -6851,10 +6850,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-08-12T18:46:23Z",
-      "updated_at": "2026-08-12T19:18:05Z",
+      "updated_at": "2026-08-12T19:27:18Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
