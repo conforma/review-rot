@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T14:48:41.508373757Z",
+  "generated_at": "2026-08-12T15:20:33.658197883Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4189,7 +4189,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-08-12T05:09:19Z",
+      "updated_at": "2026-08-12T15:01:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4215,7 +4215,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-08-12T05:09:26Z",
+      "updated_at": "2026-08-12T15:01:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4265,7 +4265,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-08-12T05:09:34Z",
+      "updated_at": "2026-08-12T15:02:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4317,7 +4317,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:38:27Z",
-      "updated_at": "2026-08-12T05:09:13Z",
+      "updated_at": "2026-08-12T15:00:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4331,30 +4331,6 @@
         "main",
         "renovate",
         "size: XS"
-      ]
-    },
-    {
-      "title": "Release 2026-08-11: policy, cli, and tekton-task image updates",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/223",
-      "number": 223,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-08-11T15:46:48Z",
-      "updated_at": "2026-08-11T17:43:49Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: L"
       ]
     },
     {
@@ -5867,10 +5843,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:35:59Z",
-      "updated_at": "2026-08-07T09:46:13Z",
+      "updated_at": "2026-08-12T15:15:02Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": null,
+      "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -5920,7 +5896,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-08-12T05:29:37Z",
+      "updated_at": "2026-08-12T15:13:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5972,7 +5948,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:01:04Z",
-      "updated_at": "2026-08-12T05:29:29Z",
+      "updated_at": "2026-08-12T15:13:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
@@ -5998,7 +5974,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:30:55Z",
-      "updated_at": "2026-08-12T05:29:32Z",
+      "updated_at": "2026-08-12T15:13:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
@@ -6049,7 +6025,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-08-07T05:37:49Z",
+      "updated_at": "2026-08-12T15:17:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6842,6 +6818,30 @@
       ]
     },
     {
+      "title": "Build-time param defaults in in tkn-bundle",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3490",
+      "number": 3490,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-05-01T15:17:59Z",
+      "updated_at": "2026-07-30T23:22:36Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-rebase"
+      ]
+    },
+    {
       "title": "feat(EC-1794): replace ec-defaults ConfigMap with hardcoded bundle ref",
       "url": "https://github.com/konflux-ci/e2e-tests/pull/1885",
       "number": 1885,
@@ -6939,28 +6939,6 @@
         "environment/staging",
         "prod/needs-approval"
       ]
-    },
-    {
-      "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
-      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/195",
-      "number": 195,
-      "repo": "release-engineering/rhtap-ec-policy",
-      "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
-      },
-      "created_at": "2025-12-10T12:31:38Z",
-      "updated_at": "2026-06-04T20:03:35Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": []
     },
     {
       "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
