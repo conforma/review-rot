@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T15:48:18.454144887Z",
+  "generated_at": "2026-08-12T16:18:23.196102482Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3132,13 +3132,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-10T12:51:45Z",
-      "updated_at": "2026-08-11T10:10:14Z",
+      "updated_at": "2026-08-12T16:05:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 5,
@@ -4136,7 +4136,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:39:54Z",
-      "updated_at": "2026-08-11T23:46:52Z",
+      "updated_at": "2026-08-12T16:13:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4189,7 +4189,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-08-12T15:01:18Z",
+      "updated_at": "2026-08-12T16:13:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4215,7 +4215,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-08-12T15:01:37Z",
+      "updated_at": "2026-08-12T16:13:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4265,7 +4265,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-08-12T15:02:31Z",
+      "updated_at": "2026-08-12T16:14:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4317,7 +4317,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:38:27Z",
-      "updated_at": "2026-08-12T15:00:24Z",
+      "updated_at": "2026-08-12T16:13:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4330,30 +4330,6 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Fix konflux-policy workflow for push-triggered runs",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/224",
-      "number": 224,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-08-12T15:29:05Z",
-      "updated_at": "2026-08-12T15:34:14Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -6839,6 +6815,30 @@
         "renovate",
         "main",
         "size: XS"
+      ]
+    },
+    {
+      "title": "Build-time param defaults in in tkn-bundle",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3490",
+      "number": 3490,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-05-01T15:17:59Z",
+      "updated_at": "2026-07-30T23:22:36Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-rebase"
       ]
     },
     {
