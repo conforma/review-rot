@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T21:16:27.526791935Z",
+  "generated_at": "2026-08-12T21:46:05.997043574Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -953,7 +953,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-09T20:12:45Z",
-      "updated_at": "2026-08-10T19:55:43Z",
+      "updated_at": "2026-08-12T21:38:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1713,7 +1713,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-08-12T21:07:33Z",
+      "updated_at": "2026-08-12T21:18:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3131,13 +3131,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-10T12:51:45Z",
-      "updated_at": "2026-08-12T16:05:50Z",
+      "updated_at": "2026-08-12T21:18:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 5,
@@ -4135,7 +4135,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:39:54Z",
-      "updated_at": "2026-08-12T16:13:44Z",
+      "updated_at": "2026-08-12T21:30:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4188,7 +4188,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-08-12T16:13:28Z",
+      "updated_at": "2026-08-12T21:30:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4214,7 +4214,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-08-12T16:13:40Z",
+      "updated_at": "2026-08-12T21:30:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4264,7 +4264,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-08-12T16:14:13Z",
+      "updated_at": "2026-08-12T21:30:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4316,7 +4316,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:38:27Z",
-      "updated_at": "2026-08-12T16:13:01Z",
+      "updated_at": "2026-08-12T21:29:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6024,7 +6024,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-08-12T15:17:05Z",
+      "updated_at": "2026-08-12T21:35:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6838,30 +6838,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "needs-rebase"
-      ]
-    },
-    {
-      "title": "Pin conforma tekton task to digest",
-      "url": "https://github.com/konflux-ci/build-definitions/pull/3786",
-      "number": 3786,
-      "repo": "konflux-ci/build-definitions",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-08-12T18:46:23Z",
-      "updated_at": "2026-08-12T21:15:23Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "needs-info"
       ]
     },
     {
