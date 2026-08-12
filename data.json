@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T08:29:10.552224587Z",
+  "generated_at": "2026-08-12T08:54:56.611316244Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1006,16 +1006,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-07-16T07:30:17Z",
-      "updated_at": "2026-08-12T07:02:40Z",
+      "updated_at": "2026-08-12T08:42:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 1,
-        "has_new_commits": true
+        "count": 2,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": [
         "enhancement",
         "size: XL",
@@ -4398,7 +4398,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T00:47:54Z",
-      "updated_at": "2026-08-12T00:05:10Z",
+      "updated_at": "2026-08-12T08:42:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4815,7 +4815,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:24Z",
-      "updated_at": "2026-08-11T22:46:32Z",
+      "updated_at": "2026-08-12T08:41:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4841,7 +4841,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:32Z",
-      "updated_at": "2026-08-11T22:46:53Z",
+      "updated_at": "2026-08-12T08:41:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6154,7 +6154,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-08-11T22:45:29Z",
+      "updated_at": "2026-08-12T08:38:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6230,7 +6230,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:38:14Z",
-      "updated_at": "2026-08-11T22:45:13Z",
+      "updated_at": "2026-08-12T08:37:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
