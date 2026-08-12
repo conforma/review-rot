@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T13:07:25.235972565Z",
+  "generated_at": "2026-08-12T13:30:28.113127983Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1212,7 +1212,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
       },
       "created_at": "2026-08-12T12:59:23Z",
-      "updated_at": "2026-08-12T13:05:27Z",
+      "updated_at": "2026-08-12T13:14:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1223,6 +1223,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "documentation",
         "size: L"
       ]
     },
@@ -1569,10 +1570,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-08-12T12:59:26Z",
+      "updated_at": "2026-08-12T13:12:58Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -1627,7 +1628,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-08-12T13:02:02Z",
+      "updated_at": "2026-08-12T13:08:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2086,10 +2087,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-08-12T13:01:21Z",
+      "updated_at": "2026-08-12T13:08:15Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2335,7 +2336,7 @@
       "updated_at": "2026-08-12T13:04:47Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2912,10 +2913,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-07T17:25:20Z",
-      "updated_at": "2026-08-12T13:01:18Z",
+      "updated_at": "2026-08-12T13:08:28Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -4030,7 +4031,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-08-12T05:39:49Z",
+      "updated_at": "2026-08-12T13:22:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
