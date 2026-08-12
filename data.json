@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T00:48:17.915864268Z",
+  "generated_at": "2026-08-12T01:32:14.805536364Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3293,7 +3293,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-07-30T21:11:48Z",
+      "updated_at": "2026-08-12T00:52:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3345,7 +3345,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:49Z",
-      "updated_at": "2026-08-05T10:24:35Z",
+      "updated_at": "2026-08-12T00:52:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3391,7 +3391,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.120.1 (main)",
+      "title": "Update dependency wrangler to v4.121.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -3400,7 +3400,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-08-10T19:00:43Z",
+      "updated_at": "2026-08-12T01:05:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3428,7 +3428,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:19:34Z",
-      "updated_at": "2026-07-21T03:16:37Z",
+      "updated_at": "2026-08-12T00:53:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3536,7 +3536,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:10:39Z",
-      "updated_at": "2026-07-17T01:20:49Z",
+      "updated_at": "2026-08-12T00:52:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3694,7 +3694,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T22:08:34Z",
-      "updated_at": "2026-08-08T04:41:04Z",
+      "updated_at": "2026-08-12T01:03:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3748,7 +3748,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:25:30Z",
-      "updated_at": "2026-07-30T21:11:39Z",
+      "updated_at": "2026-08-12T00:52:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5181,7 +5181,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:16:14Z",
-      "updated_at": "2026-08-11T04:12:27Z",
+      "updated_at": "2026-08-12T01:08:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5207,7 +5207,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-08-08T14:41:07Z",
+      "updated_at": "2026-08-12T01:09:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5260,7 +5260,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T00:57:00Z",
-      "updated_at": "2026-07-25T11:52:02Z",
+      "updated_at": "2026-08-12T01:08:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5313,7 +5313,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-05T03:45:30Z",
-      "updated_at": "2026-07-30T22:23:56Z",
+      "updated_at": "2026-08-12T01:08:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
