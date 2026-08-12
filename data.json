@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T05:31:41.970025755Z",
+  "generated_at": "2026-08-12T06:29:09.168210364Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -321,10 +321,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-08-11T17:42:49Z",
+      "updated_at": "2026-08-12T06:25:53Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -349,7 +349,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-08-11T17:39:58Z",
+      "updated_at": "2026-08-12T06:27:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -565,10 +565,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-08-11T17:35:27Z",
+      "updated_at": "2026-08-12T06:28:16Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -1098,32 +1098,6 @@
         "size: XXL",
         "ready-for-merge",
         "feature"
-      ]
-    },
-    {
-      "title": "[EC-1864] Add AI skills for ec-policies",
-      "url": "https://github.com/conforma/policy/pull/1793",
-      "number": 1793,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-08-05T11:06:15Z",
-      "updated_at": "2026-08-11T17:26:33Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 8,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 4,
-      "labels": [
-        "documentation",
-        "size: XL",
-        "tooling"
       ]
     },
     {
@@ -4036,7 +4010,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-08-11T22:12:30Z",
+      "updated_at": "2026-08-12T05:39:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6155,7 +6129,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T01:43:51Z",
-      "updated_at": "2026-08-11T23:13:43Z",
+      "updated_at": "2026-08-12T05:34:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
