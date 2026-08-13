@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T17:48:22.518507606Z",
+  "generated_at": "2026-08-13T18:18:45.766818174Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3349,7 +3349,7 @@
       "updated_at": "2026-08-13T17:46:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -4138,10 +4138,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-08-13T17:33:25Z",
-      "updated_at": "2026-08-13T17:46:59Z",
+      "updated_at": "2026-08-13T17:53:13Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -5432,7 +5432,7 @@
       ]
     },
     {
-      "title": "fix(deps): update go version to v1.25.12 (main)",
+      "title": "fix(deps): update go version (main) (patch)",
       "url": "https://github.com/conforma/go-gather/pull/314",
       "number": 314,
       "repo": "conforma/go-gather",
@@ -5441,7 +5441,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-08T00:47:32Z",
-      "updated_at": "2026-08-12T04:58:49Z",
+      "updated_at": "2026-08-13T18:00:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5458,7 +5458,7 @@
       ]
     },
     {
-      "title": "fix(deps): update go version to v1.26.5 (main)",
+      "title": "fix(deps): update go version (main) (minor)",
       "url": "https://github.com/conforma/go-gather/pull/315",
       "number": 315,
       "repo": "conforma/go-gather",
@@ -5467,7 +5467,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-09T01:31:46Z",
-      "updated_at": "2026-08-11T20:53:47Z",
+      "updated_at": "2026-08-13T18:00:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5596,7 +5596,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-23T02:14:14Z",
-      "updated_at": "2026-08-11T20:52:59Z",
+      "updated_at": "2026-08-13T18:00:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5647,7 +5647,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-12T12:40:35Z",
-      "updated_at": "2026-08-12T12:49:11Z",
+      "updated_at": "2026-08-13T17:57:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6155,7 +6155,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:26:43Z",
-      "updated_at": "2026-08-11T23:13:54Z",
+      "updated_at": "2026-08-13T17:51:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6205,7 +6205,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-08-11T23:15:06Z",
+      "updated_at": "2026-08-13T17:51:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
