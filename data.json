@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T00:19:52.884343566Z",
+  "generated_at": "2026-08-13T00:48:41.337289024Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6814,30 +6814,6 @@
         "renovate",
         "main",
         "size: XS"
-      ]
-    },
-    {
-      "title": "Build-time param defaults in in tkn-bundle",
-      "url": "https://github.com/konflux-ci/build-definitions/pull/3490",
-      "number": 3490,
-      "repo": "konflux-ci/build-definitions",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-05-01T15:17:59Z",
-      "updated_at": "2026-07-30T23:22:36Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-rebase"
       ]
     },
     {
