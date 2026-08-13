@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T14:03:41.452045192Z",
+  "generated_at": "2026-08-13T14:49:03.424833161Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1185,16 +1185,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-08-12T12:45:33Z",
-      "updated_at": "2026-08-13T13:56:42Z",
+      "updated_at": "2026-08-13T14:43:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 1,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 4,
       "labels": [
         "enhancement",
         "size: XL",
@@ -1211,7 +1211,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-08-13T13:52:22Z",
-      "updated_at": "2026-08-13T13:55:55Z",
+      "updated_at": "2026-08-13T14:33:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1220,9 +1220,11 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
-        "size: XS"
+        "documentation",
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -1235,7 +1237,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-08-13T13:53:35Z",
-      "updated_at": "2026-08-13T13:57:13Z",
+      "updated_at": "2026-08-13T14:37:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1244,8 +1246,9 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 3,
       "labels": [
+        "documentation",
         "size: S"
       ]
     },
@@ -3414,7 +3417,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:49Z",
-      "updated_at": "2026-08-12T00:52:52Z",
+      "updated_at": "2026-08-13T14:34:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3423,7 +3426,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 4,
       "labels": [
         "dependencies",
         "github_actions",
@@ -4131,7 +4134,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:55:02Z",
-      "updated_at": "2026-08-13T13:50:23Z",
+      "updated_at": "2026-08-13T14:06:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4201,6 +4204,30 @@
       ]
     },
     {
+      "title": "Add reviewer leaderboard tab",
+      "url": "https://github.com/conforma/review-rot/pull/250",
+      "number": 250,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-08-13T14:46:30Z",
+      "updated_at": "2026-08-13T14:47:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
+      ]
+    },
+    {
       "title": "Update github actions (main) (minor)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/198",
       "number": 198,
@@ -4210,7 +4237,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:39:54Z",
-      "updated_at": "2026-08-13T04:30:06Z",
+      "updated_at": "2026-08-13T14:05:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4254,7 +4281,7 @@
       ]
     },
     {
-      "title": "Update go modules to v0.35.7 (main)",
+      "title": "Update go modules (main) (patch)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/209",
       "number": 209,
       "repo": "conforma/infra-deployments-ci",
@@ -4263,7 +4290,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-08-13T04:29:51Z",
+      "updated_at": "2026-08-13T14:05:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4289,7 +4316,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-08-13T04:29:53Z",
+      "updated_at": "2026-08-13T14:05:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4339,7 +4366,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-08-13T04:30:49Z",
+      "updated_at": "2026-08-13T14:06:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4365,11 +4392,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-08-13T04:30:57Z",
+      "updated_at": "2026-08-13T14:06:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": "M",
+      "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -4378,7 +4405,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: M"
+        "size: L"
       ]
     },
     {
@@ -4391,7 +4418,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:38:27Z",
-      "updated_at": "2026-08-13T04:28:50Z",
+      "updated_at": "2026-08-13T14:05:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4548,7 +4575,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T03:55:54Z",
-      "updated_at": "2026-08-11T20:54:02Z",
+      "updated_at": "2026-08-13T14:46:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6344,6 +6371,30 @@
       ]
     },
     {
+      "title": "Add SLSA provenance data access patterns to rego-patterns.md (EC-1936)",
+      "url": "https://github.com/conforma/claude-skills/pull/20",
+      "number": 20,
+      "repo": "conforma/claude-skills",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-08-13T14:06:32Z",
+      "updated_at": "2026-08-13T14:09:26Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: M"
+      ]
+    },
+    {
       "title": "Configure Renovate",
       "url": "https://github.com/conforma/step-actions/pull/2",
       "number": 2,
@@ -6639,7 +6690,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:37:28Z",
-      "updated_at": "2026-08-12T00:37:09Z",
+      "updated_at": "2026-08-13T14:12:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
