@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T19:48:38.844760627Z",
+  "generated_at": "2026-08-13T20:11:55.582141365Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "title": "Update go toolchain directive to v1.26.5 (main)",
+      "title": "Update go toolchain directive to v1.26.6 (main)",
       "url": "https://github.com/conforma/policy/pull/1663",
       "number": 1663,
       "repo": "conforma/policy",
@@ -79,7 +79,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-12T02:33:26Z",
-      "updated_at": "2026-08-11T16:33:38Z",
+      "updated_at": "2026-08-13T20:03:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -423,7 +423,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.5 (main)",
+      "title": "Update dependency golang to v1.26.6 (main)",
       "url": "https://github.com/conforma/policy/pull/1689",
       "number": 1689,
       "repo": "conforma/policy",
@@ -432,7 +432,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:17:15Z",
-      "updated_at": "2026-08-11T16:30:35Z",
+      "updated_at": "2026-08-13T20:00:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -476,7 +476,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.5 (release-v0.7)",
+      "title": "Update dependency golang to v1.26.6 (release-v0.7)",
       "url": "https://github.com/conforma/policy/pull/1692",
       "number": 1692,
       "repo": "conforma/policy",
@@ -485,7 +485,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:35:50Z",
-      "updated_at": "2026-07-07T22:09:28Z",
+      "updated_at": "2026-08-13T20:04:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -527,7 +527,7 @@
       ]
     },
     {
-      "title": "Update go toolchain directive to v1.25.12 (main)",
+      "title": "Update go toolchain directive to v1.25.13 (main)",
       "url": "https://github.com/conforma/policy/pull/1694",
       "number": 1694,
       "repo": "conforma/policy",
@@ -536,7 +536,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-08-13T16:02:15Z",
+      "updated_at": "2026-08-13T20:01:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -556,7 +556,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.25.12 (main)",
+      "title": "Update dependency golang to v1.25.13 (main)",
       "url": "https://github.com/conforma/policy/pull/1695",
       "number": 1695,
       "repo": "conforma/policy",
@@ -565,7 +565,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-08-13T16:00:23Z",
+      "updated_at": "2026-08-13T19:55:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -633,7 +633,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.25.12 (release-v0.8)",
+      "title": "Update dependency golang to v1.25.13 (release-v0.8)",
       "url": "https://github.com/conforma/policy/pull/1726",
       "number": 1726,
       "repo": "conforma/policy",
@@ -642,7 +642,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-15T00:44:21Z",
-      "updated_at": "2026-08-11T16:34:42Z",
+      "updated_at": "2026-08-13T20:05:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -714,7 +714,7 @@
       ]
     },
     {
-      "title": "Update go toolchain directive to v1.25.12 (release-v0.8)",
+      "title": "Update go toolchain directive to v1.25.13 (release-v0.8)",
       "url": "https://github.com/conforma/policy/pull/1730",
       "number": 1730,
       "repo": "conforma/policy",
@@ -723,7 +723,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-16T00:51:35Z",
-      "updated_at": "2026-08-11T16:35:11Z",
+      "updated_at": "2026-08-13T20:06:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -734,6 +734,8 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
+        "go",
         "renovate",
         "size: XXL",
         "release-v0.8",
@@ -741,7 +743,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.5 (release-v0.8)",
+      "title": "Update dependency golang to v1.26.6 (release-v0.8)",
       "url": "https://github.com/conforma/policy/pull/1731",
       "number": 1731,
       "repo": "conforma/policy",
@@ -750,7 +752,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:27Z",
-      "updated_at": "2026-07-07T22:10:49Z",
+      "updated_at": "2026-08-13T20:05:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1263,10 +1265,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-08-13T19:44:38Z",
-      "updated_at": "2026-08-13T19:45:54Z",
+      "updated_at": "2026-08-13T19:53:20Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -1274,7 +1276,8 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
+        "size: XS",
+        "ready-for-merge"
       ]
     },
     {
@@ -3526,10 +3529,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-08-13T19:47:44Z",
+      "updated_at": "2026-08-13T20:00:55Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -3635,10 +3638,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-08-13T19:47:24Z",
+      "updated_at": "2026-08-13T19:57:57Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3662,10 +3665,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:10:39Z",
-      "updated_at": "2026-08-13T19:47:12Z",
+      "updated_at": "2026-08-13T19:56:55Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3675,7 +3678,8 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
+        "size: XS",
+        "ready-for-merge"
       ]
     },
     {
