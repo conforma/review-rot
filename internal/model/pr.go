@@ -6,6 +6,34 @@ type Output struct {
 	GeneratedAt  time.Time     `json:"generated_at"`
 	UISettings   *UISettings   `json:"ui_settings,omitempty"`
 	PullRequests []PullRequest `json:"pull_requests"`
+	Leaderboard  *Leaderboard  `json:"leaderboard,omitempty"`
+}
+
+// Leaderboard ranks reviewers by how many pull requests they reviewed or
+// commented on within a recent time window across the monitored repos.
+// WindowDays is the data horizon: the frontend can narrow it further with a
+// client-side interval selector using each PR's EngagedAt timestamp.
+type Leaderboard struct {
+	WindowDays int            `json:"window_days"`
+	Since      string         `json:"since"`
+	Reviewers  []ReviewerStat `json:"reviewers"`
+}
+
+type ReviewerStat struct {
+	Login   string       `json:"login"`
+	Reviews int          `json:"reviews"`
+	PRs     []ReviewedPR `json:"prs"`
+}
+
+// ReviewedPR is a pull request a reviewer engaged with, plus the time of their
+// most recent review or comment on it (used for client-side interval filtering).
+type ReviewedPR struct {
+	Title     string `json:"title"`
+	URL       string `json:"url"`
+	Repo      string `json:"repo"`
+	Number    int    `json:"number"`
+	Author    string `json:"author"`
+	EngagedAt string `json:"engaged_at"`
 }
 
 type UISettings struct {

@@ -25,6 +25,13 @@ sources:
     - tektoncd/chains
     - release-engineering/rhtap-ec-policy
 
+# Reviewer leaderboard settings
+leaderboard:
+  # Data horizon: how many days of review history to aggregate. This is the
+  # widest range the leaderboard can show; the dashboard's interval selector
+  # narrows it further client-side. Defaults to 90 if omitted.
+  window_days: 90
+
 # Team members — PRs from these authors are always shown,
 # even in repos outside the orgs above
 authors:

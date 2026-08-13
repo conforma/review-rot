@@ -8,9 +8,10 @@ Live example: **[conforma.dev/review-rot](https://conforma.dev/review-rot/)**
 ## How it works
 
 A Go CLI queries the GitHub GraphQL API for open PRs across configured repos,
-enriches each with review/CI/conversation metadata, and outputs `data.json`. A
-static frontend (vanilla JS + CSS) renders the data with client-side filtering
-and sorting.
+enriches each with review/CI/conversation metadata, and outputs `data.json`. It
+also aggregates recent review activity into a reviewer leaderboard. A static
+frontend (vanilla JS + CSS) renders the data with client-side filtering and
+sorting, split across a Pull Requests tab and a Leaderboard tab.
 
 ## Deployment
 
@@ -33,8 +34,21 @@ reads it from the `EC_AUTOMATION_KEY` secret.
 The `config/` directory contains two files:
 
 - **`sources.yaml`** — GitHub App credentials, monitored orgs/repos, team
-  members, and bot accounts. See the comments in that file for details.
+  members, and the reviewer-leaderboard data horizon (`leaderboard.window_days`,
+  default 90). See the comments in that file for details.
 - **`ui.yaml`** — Dashboard appearance: title, logo, and accent colors.
+
+The **Leaderboard** tab ranks people by the number of distinct PRs they reviewed
+or commented on across the monitored repos. It counts activity on PRs of any
+state (open, merged, or closed) and excludes bots and self-reviews, matching the
+reviewer count shown on the PR list.
+
+`leaderboard.window_days` is the data horizon — the widest range the backend
+aggregates. The tab has an interval slider (0 to the horizon, with preset
+shortcuts like 7d / 30d / 90d) that narrows the window client-side, re-counting
+and re-ranking without a rebuild. Each row is an accordion: clicking it opens a
+table of the PRs behind that person's count — PR title, repo, author, and review
+date — sorted most recent first.
 
 ## GitHub App
 

@@ -54,6 +54,48 @@ authors:
 	}
 }
 
+func TestLoadLeaderboardWindowDefault(t *testing.T) {
+	content := `
+github:
+  app_id: 245286
+  installation_id: 59973090
+sources:
+  orgs:
+    - name: conforma
+`
+	path := writeFile(t, "config.yaml", content)
+
+	cfg, err := Load(path)
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+	if cfg.Leaderboard.WindowDays != defaultLeaderboardWindowDays {
+		t.Errorf("WindowDays = %d, want default %d", cfg.Leaderboard.WindowDays, defaultLeaderboardWindowDays)
+	}
+}
+
+func TestLoadLeaderboardWindowOverride(t *testing.T) {
+	content := `
+github:
+  app_id: 245286
+  installation_id: 59973090
+sources:
+  orgs:
+    - name: conforma
+leaderboard:
+  window_days: 45
+`
+	path := writeFile(t, "config.yaml", content)
+
+	cfg, err := Load(path)
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+	if cfg.Leaderboard.WindowDays != 45 {
+		t.Errorf("WindowDays = %d, want 45", cfg.Leaderboard.WindowDays)
+	}
+}
+
 func TestLoadDir(t *testing.T) {
 	dir := t.TempDir()
 

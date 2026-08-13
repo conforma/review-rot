@@ -13,7 +13,7 @@ review-rot is a PR dashboard. It has three components:
 ```text
 cmd/review-rot/main.go       — CLI entry point
 internal/config/              — YAML config parsing (sources + UI)
-internal/github/              — GitHub API: auth, repo discovery, PR queries, filtering
+internal/github/              — GitHub API: auth, repo discovery, PR queries, filtering, leaderboard
 internal/model/               — Output data model (Go structs with JSON tags)
 frontend/index.html           — Dashboard HTML
 frontend/css/style.css        — Styles
@@ -57,6 +57,12 @@ secret, passed as the `GITHUB_PRIVATE_KEY` environment variable.
   PRs from other orgs only included if author is in the `authors` list
 - Bot detection: PRs from authors in the `bots` list are flagged as automated
 - Frontend uses vanilla JS with no dependencies or build step
+- Reviewer leaderboard aggregates review/comment activity across PRs of any
+  state within a configurable data horizon; the backend emits each reviewer's
+  PR list with per-PR author and engagement timestamp. The frontend shows it in
+  a separate tab with a client-side interval slider (0..horizon, narrows and
+  re-ranks) and per-row accordions that open a table (PR/repo/author/reviewed
+  date) of the PRs behind each count
 - Data refreshed every 30 minutes on weekdays via GitHub Actions cron
 - Dashboard appearance (title, logo, colors) is configured via `config/ui.yaml`
   and injected into `data.json` as `ui_settings`; the frontend applies them at
@@ -81,6 +87,9 @@ See `config/sources.yaml` for the full backend configuration. Key sections:
 - `sources.repos` — explicit repos to monitor
 - `authors` — team members for pre-filtering
 - `bots` — bot accounts to flag as automated
+- `leaderboard.window_days` — data horizon: days of review history to aggregate
+  for the reviewer leaderboard (default 90). The frontend interval selector
+  narrows this further client-side, so it is the widest range shown
 
 See `config/ui.yaml` for appearance settings:
 - `title` — dashboard title (shown in header and browser tab)
