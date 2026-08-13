@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T18:47:59.475531177Z",
+  "generated_at": "2026-08-13T19:23:36.829770785Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2611,21 +2611,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-07-20T20:19:16Z",
-      "updated_at": "2026-08-12T15:24:06Z",
+      "updated_at": "2026-08-13T19:08:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 4,
-        "has_new_commits": false
+        "count": 2,
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
         "bug",
         "size: XS",
         "cli",
-        "ready-for-merge"
+        "requires-manual-review"
       ]
     },
     {
@@ -3349,10 +3349,10 @@
       "updated_at": "2026-08-13T18:43:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
@@ -3973,32 +3973,6 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to 7e7f79a (main)",
-      "url": "https://github.com/conforma/golden-container/pull/1499",
-      "number": 1499,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-06-26T00:48:52Z",
-      "updated_at": "2026-08-10T05:02:54Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/golden-container/pull/1500",
       "number": 1500,
@@ -4008,7 +3982,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-03T02:29:22Z",
-      "updated_at": "2026-08-12T05:11:16Z",
+      "updated_at": "2026-08-13T19:06:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4126,30 +4100,6 @@
         "main",
         "renovate",
         "size: XS"
-      ]
-    },
-    {
-      "title": "Updating konflux task versions",
-      "url": "https://github.com/conforma/golden-container/pull/1505",
-      "number": 1505,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-08-13T17:33:25Z",
-      "updated_at": "2026-08-13T18:39:01Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: S"
       ]
     },
     {
@@ -4344,7 +4294,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-08-13T14:05:42Z",
+      "updated_at": "2026-08-13T18:54:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5065,7 +5015,7 @@
       ]
     },
     {
-      "title": "Update ghcr.io/conforma/golden-container:latest Docker digest to fea8536 (main)",
+      "title": "Update ghcr.io/conforma/golden-container:latest Docker digest to cf0c974 (main)",
       "url": "https://github.com/conforma/action-validate-image/pull/437",
       "number": 437,
       "repo": "conforma/action-validate-image",
@@ -5074,7 +5024,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:06:48Z",
-      "updated_at": "2026-06-16T16:55:57Z",
+      "updated_at": "2026-08-13T19:08:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6068,7 +6018,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.5 (main)",
+      "title": "Update dependency golang to v1.26.6 (main)",
       "url": "https://github.com/conforma/knative-service/pull/101",
       "number": 101,
       "repo": "conforma/knative-service",
@@ -6077,7 +6027,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:25:43Z",
-      "updated_at": "2026-08-11T23:34:41Z",
+      "updated_at": "2026-08-13T19:15:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6094,7 +6044,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.25.12 (main)",
+      "title": "Update dependency golang to v1.25.13 (main)",
       "url": "https://github.com/conforma/knative-service/pull/102",
       "number": 102,
       "repo": "conforma/knative-service",
@@ -6103,10 +6053,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:01:04Z",
-      "updated_at": "2026-08-12T23:01:12Z",
+      "updated_at": "2026-08-13T19:15:06Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": null,
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
