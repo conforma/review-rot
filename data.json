@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T19:23:36.829770785Z",
+  "generated_at": "2026-08-13T19:48:38.844760627Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1251,6 +1251,30 @@
         "documentation",
         "size: XS",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "Fix test mock _type to match stepaction output",
+      "url": "https://github.com/conforma/policy/pull/1813",
+      "number": 1813,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-08-13T19:44:38Z",
+      "updated_at": "2026-08-13T19:45:54Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -3346,10 +3370,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-08-13T17:34:50Z",
-      "updated_at": "2026-08-13T18:43:29Z",
+      "updated_at": "2026-08-13T19:22:39Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 1,
@@ -3493,7 +3517,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.122.0 (main)",
+      "title": "Update dependency wrangler to v4.123.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -3502,10 +3526,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-08-12T18:08:38Z",
+      "updated_at": "2026-08-13T19:47:44Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -3602,7 +3626,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.5 (main)",
+      "title": "Update dependency golang to v1.26.6 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/531",
       "number": 531,
       "repo": "conforma/conforma.github.io",
@@ -3611,10 +3635,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-07-16T17:20:09Z",
+      "updated_at": "2026-08-13T19:47:24Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3629,7 +3653,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.25.12 (main)",
+      "title": "Update dependency golang to v1.25.13 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/532",
       "number": 532,
       "repo": "conforma/conforma.github.io",
@@ -3638,10 +3662,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:10:39Z",
-      "updated_at": "2026-08-12T10:30:23Z",
+      "updated_at": "2026-08-13T19:47:12Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -6869,7 +6893,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.5 (main)",
+      "title": "Update dependency golang to v1.26.6 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/754",
       "number": 754,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -6878,7 +6902,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:47:19Z",
-      "updated_at": "2026-07-07T21:59:28Z",
+      "updated_at": "2026-08-13T19:35:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
