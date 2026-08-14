@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T09:48:35.654320341Z",
+  "generated_at": "2026-08-14T10:21:46.649849504Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3021,10 +3021,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-07T17:32:00Z",
-      "updated_at": "2026-08-14T06:21:32Z",
+      "updated_at": "2026-08-14T10:18:13Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3213,7 +3213,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-11T08:59:41Z",
-      "updated_at": "2026-08-13T16:14:25Z",
+      "updated_at": "2026-08-14T10:12:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3222,7 +3222,7 @@
         "count": 1,
         "has_new_commits": true
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 1,
       "labels": [
         "bug",
         "documentation",
@@ -3268,7 +3268,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-13T10:24:39Z",
-      "updated_at": "2026-08-13T21:44:15Z",
+      "updated_at": "2026-08-14T10:04:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3294,7 +3294,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-13T10:31:03Z",
-      "updated_at": "2026-08-13T21:39:54Z",
+      "updated_at": "2026-08-14T10:06:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3308,32 +3308,6 @@
         "dependencies",
         "docker",
         "size: M"
-      ]
-    },
-    {
-      "title": "chore(deps): Update ubi-minimal base image",
-      "url": "https://github.com/conforma/cli/pull/3495",
-      "number": 3495,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-08-13T10:32:32Z",
-      "updated_at": "2026-08-13T21:38:36Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "docker",
-        "size: XS"
       ]
     },
     {
