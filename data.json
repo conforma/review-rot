@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T17:47:16.017702157Z",
+  "generated_at": "2026-08-14T18:18:19.21299485Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2665,16 +2665,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-22T15:11:57Z",
-      "updated_at": "2026-08-14T16:25:20Z",
-      "is_draft": true,
+      "updated_at": "2026-08-14T18:16:54Z",
+      "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 7,
+      "unresolved_conversations": 3,
       "labels": [
         "size: XL",
         "tooling",
