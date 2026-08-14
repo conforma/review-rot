@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T01:32:41.630768356Z",
+  "generated_at": "2026-08-14T02:53:34.115338603Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1563,7 +1563,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-13T20:52:19Z",
+      "updated_at": "2026-08-14T02:51:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2140,7 +2140,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T01:01:37Z",
-      "updated_at": "2026-08-13T20:57:50Z",
+      "updated_at": "2026-08-14T02:51:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -2271,7 +2271,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-08-13T20:51:34Z",
+      "updated_at": "2026-08-14T02:51:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2291,7 +2291,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.26.5 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.26.6 (main)",
       "url": "https://github.com/conforma/cli/pull/3366",
       "number": 3366,
       "repo": "conforma/cli",
@@ -2300,7 +2300,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-08-13T20:53:20Z",
+      "updated_at": "2026-08-14T02:52:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2329,7 +2329,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-08-13T01:09:01Z",
+      "updated_at": "2026-08-14T02:51:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2386,7 +2386,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-08-13T20:51:38Z",
+      "updated_at": "2026-08-14T02:51:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2463,7 +2463,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.26.4 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.26.6 (main)",
       "url": "https://github.com/conforma/cli/pull/3372",
       "number": 3372,
       "repo": "conforma/cli",
@@ -2472,7 +2472,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-08-13T01:11:33Z",
+      "updated_at": "2026-08-14T02:51:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2776,7 +2776,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-04T01:40:12Z",
-      "updated_at": "2026-08-13T20:54:19Z",
+      "updated_at": "2026-08-14T02:51:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2967,7 +2967,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-07T17:25:20Z",
-      "updated_at": "2026-08-13T20:53:47Z",
+      "updated_at": "2026-08-14T02:51:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3105,10 +3105,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-08T01:49:33Z",
-      "updated_at": "2026-08-13T01:17:56Z",
+      "updated_at": "2026-08-14T02:51:29Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3921,32 +3921,6 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to 7e7f79a (main)",
-      "url": "https://github.com/conforma/golden-container/pull/1498",
-      "number": 1498,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-06-26T00:48:27Z",
-      "updated_at": "2026-08-11T02:54:29Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/golden-container/pull/1500",
       "number": 1500,
@@ -3982,10 +3956,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-07-06T01:24:26Z",
-      "updated_at": "2026-08-05T01:55:30Z",
+      "updated_at": "2026-08-14T02:48:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4034,7 +4008,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-07-11T01:41:56Z",
-      "updated_at": "2026-08-09T01:47:54Z",
+      "updated_at": "2026-08-14T02:48:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6968,6 +6942,74 @@
         "lgtm",
         "\u003c 1 min"
       ]
+    },
+    {
+      "title": "new policy source param",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2160",
+      "number": 2160,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-04-16T04:03:04Z",
+      "updated_at": "2026-05-29T00:31:32Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(EC-1794): remove dead verify_ec_task params from managed pipelines",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2379",
+      "number": 2379,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-13T17:29:20Z",
+      "updated_at": "2026-07-27T17:56:47Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "Review effort 2/5"
+      ]
+    },
+    {
+      "title": "fix(EC-1994): bump conforma.workerCount fallback default from 4 to 5",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2463",
+      "number": 2463,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-08-13T15:17:24Z",
+      "updated_at": "2026-08-13T16:14:17Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "Restructure enterprise-contract into dev/staging/prod overlays",
