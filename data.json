@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T18:18:19.21299485Z",
+  "generated_at": "2026-08-14T18:46:54.911843175Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2665,20 +2665,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-22T15:11:57Z",
-      "updated_at": "2026-08-14T18:16:54Z",
+      "updated_at": "2026-08-14T18:37:27Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 13,
       "labels": [
         "size: XL",
         "tooling",
-        "requires-manual-review"
+        "ready-for-merge"
       ]
     },
     {
@@ -4373,7 +4373,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T00:47:54Z",
-      "updated_at": "2026-08-12T08:42:12Z",
+      "updated_at": "2026-08-14T18:32:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6841,55 +6841,6 @@
         "renovate",
         "main",
         "size: XS"
-      ]
-    },
-    {
-      "title": "Build-time param defaults in in tkn-bundle",
-      "url": "https://github.com/konflux-ci/build-definitions/pull/3490",
-      "number": 3490,
-      "repo": "konflux-ci/build-definitions",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-05-01T15:17:59Z",
-      "updated_at": "2026-07-30T23:22:36Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-rebase"
-      ]
-    },
-    {
-      "title": "Bump conforma version to latest",
-      "url": "https://github.com/konflux-ci/build-definitions/pull/3791",
-      "number": 3791,
-      "repo": "konflux-ci/build-definitions",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-08-14T13:00:23Z",
-      "updated_at": "2026-08-14T14:18:52Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "ready-for-merge"
       ]
     },
     {
