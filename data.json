@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T18:46:54.911843175Z",
+  "generated_at": "2026-08-14T19:20:15.743343072Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4790,7 +4790,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:24Z",
-      "updated_at": "2026-08-12T08:41:23Z",
+      "updated_at": "2026-08-14T19:15:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4816,7 +4816,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:32Z",
-      "updated_at": "2026-08-12T08:41:32Z",
+      "updated_at": "2026-08-14T19:15:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4895,7 +4895,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:26:50Z",
-      "updated_at": "2026-08-12T09:11:23Z",
+      "updated_at": "2026-08-14T18:50:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4947,7 +4947,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-11T01:35:02Z",
-      "updated_at": "2026-08-13T23:07:42Z",
+      "updated_at": "2026-08-14T19:16:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6129,7 +6129,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-08-12T08:38:09Z",
+      "updated_at": "2026-08-14T18:54:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6154,7 +6154,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:50Z",
-      "updated_at": "2026-08-13T09:33:37Z",
+      "updated_at": "2026-08-14T18:55:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6179,7 +6179,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-14T01:04:12Z",
-      "updated_at": "2026-08-11T22:46:05Z",
+      "updated_at": "2026-08-14T18:55:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6205,7 +6205,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:38:14Z",
-      "updated_at": "2026-08-12T08:37:59Z",
+      "updated_at": "2026-08-14T18:54:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6841,6 +6841,55 @@
         "renovate",
         "main",
         "size: XS"
+      ]
+    },
+    {
+      "title": "Build-time param defaults in in tkn-bundle",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3490",
+      "number": 3490,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-05-01T15:17:59Z",
+      "updated_at": "2026-07-30T23:22:36Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-rebase"
+      ]
+    },
+    {
+      "title": "Bump conforma version to latest",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3791",
+      "number": 3791,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-08-14T13:00:23Z",
+      "updated_at": "2026-08-14T14:18:52Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 2,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "ready-for-merge"
       ]
     },
     {
