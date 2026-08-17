@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T18:45:16.681906623Z",
+  "generated_at": "2026-08-17T19:11:37.83455345Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1317,13 +1317,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
       },
       "created_at": "2026-08-17T08:13:19Z",
-      "updated_at": "2026-08-17T08:29:06Z",
+      "updated_at": "2026-08-17T19:06:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6293,30 +6293,6 @@
       ]
     },
     {
-      "title": "Add SLSA provenance data access patterns to rego-patterns.md (EC-1936)",
-      "url": "https://github.com/conforma/claude-skills/pull/20",
-      "number": 20,
-      "repo": "conforma/claude-skills",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-08-13T14:06:32Z",
-      "updated_at": "2026-08-17T18:16:52Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
-      ]
-    },
-    {
       "title": "Update SKILL.md to add SLSA provenance domain and iterative refinement",
       "url": "https://github.com/conforma/claude-skills/pull/21",
       "number": 21,
@@ -6993,10 +6969,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-08-17T13:05:09Z",
+      "updated_at": "2026-08-17T19:04:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
