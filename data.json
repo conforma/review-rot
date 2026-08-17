@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T09:45:37.76166248Z",
+  "generated_at": "2026-08-17T10:10:52.663239884Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -7006,6 +7006,34 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Restructure enterprise-contract into dev/staging/prod overlays",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13323",
+      "number": 13323,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "Acepresso",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
+      },
+      "created_at": "2026-08-03T12:23:05Z",
+      "updated_at": "2026-08-16T14:15:56Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "environment/production",
+        "infra/hold-production",
+        "environment/development",
+        "environment/staging",
+        "prod/needs-approval"
+      ]
     },
     {
       "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
