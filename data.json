@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T19:39:44.292845601Z",
+  "generated_at": "2026-08-18T20:04:55.794620849Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2665,10 +2665,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-07-22T15:11:57Z",
-      "updated_at": "2026-08-18T18:54:12Z",
+      "updated_at": "2026-08-18T20:03:20Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "count": 1,
@@ -3163,7 +3163,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-11T08:59:41Z",
-      "updated_at": "2026-08-18T19:25:12Z",
+      "updated_at": "2026-08-18T20:01:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3260,6 +3260,30 @@
         "documentation",
         "size: XS",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "Restore commented out acceptance test scenario",
+      "url": "https://github.com/conforma/cli/pull/3505",
+      "number": 3505,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-08-18T19:56:36Z",
+      "updated_at": "2026-08-18T19:58:40Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S"
       ]
     },
     {
