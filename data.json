@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T23:37:58.838089047Z",
+  "generated_at": "2026-08-18T00:09:44.559364443Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -982,7 +982,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-15T09:34:00Z",
-      "updated_at": "2026-08-16T04:32:17Z",
+      "updated_at": "2026-08-17T23:53:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
