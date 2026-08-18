@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T00:47:32.683894134Z",
+  "generated_at": "2026-08-18T01:30:30.753313992Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5532,6 +5532,32 @@
       ]
     },
     {
+      "title": "fix(deps): update module github.com/stretchr/testify to v1.12.0 (main)",
+      "url": "https://github.com/conforma/go-gather/pull/337",
+      "number": 337,
+      "repo": "conforma/go-gather",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-08-18T00:50:48Z",
+      "updated_at": "2026-08-18T00:52:30Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "chore: sync with upstream google/go-containerregistry",
       "url": "https://github.com/conforma/go-containerregistry/pull/11",
       "number": 11,
@@ -6664,7 +6690,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-28T02:09:34Z",
-      "updated_at": "2026-08-17T22:05:33Z",
+      "updated_at": "2026-08-18T00:52:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
