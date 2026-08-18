@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T14:43:51.453224996Z",
+  "generated_at": "2026-08-18T15:08:55.909213961Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -981,7 +981,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-15T09:34:00Z",
-      "updated_at": "2026-08-17T23:53:42Z",
+      "updated_at": "2026-08-18T15:07:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4002,32 +4002,6 @@
       ]
     },
     {
-      "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
-      "url": "https://github.com/conforma/review-rot/pull/246",
-      "number": 246,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-08-14T20:17:02Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/review-rot/pull/247",
       "number": 247,
@@ -5310,7 +5284,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-08T00:47:32Z",
-      "updated_at": "2026-08-14T22:31:50Z",
+      "updated_at": "2026-08-18T15:06:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5388,7 +5362,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T15:39:45Z",
-      "updated_at": "2026-08-14T22:31:19Z",
+      "updated_at": "2026-08-18T15:06:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5413,7 +5387,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-14T17:32:03Z",
-      "updated_at": "2026-08-14T22:31:12Z",
+      "updated_at": "2026-08-18T15:06:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5491,7 +5465,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:43:42Z",
-      "updated_at": "2026-08-14T22:31:03Z",
+      "updated_at": "2026-08-18T15:05:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5516,7 +5490,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-12T12:40:35Z",
-      "updated_at": "2026-08-14T22:31:27Z",
+      "updated_at": "2026-08-18T15:06:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5541,7 +5515,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-12T12:40:43Z",
-      "updated_at": "2026-08-14T22:31:34Z",
+      "updated_at": "2026-08-18T15:06:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
