@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T15:42:05.294119681Z",
+  "generated_at": "2026-08-18T16:07:35.38318076Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1563,7 +1563,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-18T02:29:38Z",
+      "updated_at": "2026-08-18T16:04:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1593,7 +1593,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-08-18T01:49:17Z",
+      "updated_at": "2026-08-18T16:06:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2386,7 +2386,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-08-15T20:56:07Z",
+      "updated_at": "2026-08-18T16:04:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2915,7 +2915,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-07T17:25:20Z",
-      "updated_at": "2026-08-15T20:55:40Z",
+      "updated_at": "2026-08-18T16:02:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3245,10 +3245,37 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-08-18T15:26:03Z",
-      "updated_at": "2026-08-18T15:35:12Z",
+      "updated_at": "2026-08-18T16:03:43Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "docker",
+        "release-v0.7",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image (v0.8)",
+      "url": "https://github.com/conforma/cli/pull/3499",
+      "number": 3499,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-08-18T15:42:35Z",
+      "updated_at": "2026-08-18T16:02:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3256,6 +3283,34 @@
       },
       "unresolved_conversations": 1,
       "labels": [
+        "dependencies",
+        "docker",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image (main)",
+      "url": "https://github.com/conforma/cli/pull/3500",
+      "number": 3500,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-08-18T15:43:07Z",
+      "updated_at": "2026-08-18T16:03:11Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "docker",
         "size: XS"
       ]
     },
