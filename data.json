@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T10:41:51.457864979Z",
+  "generated_at": "2026-08-18T11:06:44.408286891Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -320,7 +320,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-08-18T08:39:35Z",
+      "updated_at": "2026-08-18T11:03:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -348,7 +348,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-08-18T08:39:33Z",
+      "updated_at": "2026-08-18T11:04:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -535,10 +535,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-08-18T08:39:37Z",
+      "updated_at": "2026-08-18T11:04:36Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -564,7 +564,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-08-18T08:35:44Z",
+      "updated_at": "2026-08-18T11:03:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -695,7 +695,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-16T00:50:42Z",
-      "updated_at": "2026-08-18T08:36:36Z",
+      "updated_at": "2026-08-18T11:04:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -722,7 +722,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-16T00:51:35Z",
-      "updated_at": "2026-08-18T08:36:56Z",
+      "updated_at": "2026-08-18T11:04:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -991,32 +991,6 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
-      "labels": [
-        "documentation",
-        "size: XS",
-        "requires-manual-review"
-      ]
-    },
-    {
-      "title": "docs(#1784): correct collection-registration guidance in AGENTS.md",
-      "url": "https://github.com/conforma/policy/pull/1785",
-      "number": 1785,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "fullsend-ai-coder",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
-      },
-      "created_at": "2026-07-21T13:59:47Z",
-      "updated_at": "2026-08-18T10:39:44Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
       "labels": [
         "documentation",
         "size: XS",
@@ -4089,16 +4063,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-08-13T14:46:30Z",
-      "updated_at": "2026-08-13T15:30:37Z",
+      "updated_at": "2026-08-18T10:45:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 3,
       "labels": [
         "size: XXL"
       ]
@@ -5971,7 +5945,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-08-15T00:06:37Z",
+      "updated_at": "2026-08-18T10:55:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -7043,7 +7017,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-08-18T10:14:39Z",
+      "updated_at": "2026-08-18T11:02:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
