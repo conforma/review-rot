@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-18T02:48:00.774353651Z",
+  "generated_at": "2026-08-18T03:17:41.237948562Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1537,7 +1537,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-08-18T02:41:41Z",
+      "updated_at": "2026-08-18T03:04:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2003,7 +2003,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-08-17T03:17:57Z",
+      "updated_at": "2026-08-18T03:07:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2402,7 +2402,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.5-1786522985 (main)",
+      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.5-1786971605 (main)",
       "url": "https://github.com/conforma/cli/pull/3368",
       "number": 3368,
       "repo": "conforma/cli",
@@ -2411,7 +2411,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-08-17T02:35:28Z",
+      "updated_at": "2026-08-18T03:15:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2420,7 +2420,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 26,
+      "unresolved_conversations": 27,
       "labels": [
         "dependencies",
         "docker",
@@ -2916,7 +2916,7 @@
       "updated_at": "2026-08-18T02:43:53Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
