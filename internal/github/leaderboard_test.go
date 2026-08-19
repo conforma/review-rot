@@ -81,8 +81,9 @@ func TestExtractPRReviewersExcludesBotsSelfAndEmpty(t *testing.T) {
 	node.Author.Login = "author"
 	node.Reviews.Nodes = append(node.Reviews.Nodes,
 		makeActivityReview("Bot", "renovate", inWindow),
-		makeActivityReview("User", "author", inWindow), // self-review
-		makeActivityReview("User", "", inWindow),       // ghost/deleted user
+		makeActivityReview("User", "konflux-ci-qe-bot", inWindow), // machine user, bot login suffix
+		makeActivityReview("User", "author", inWindow),            // self-review
+		makeActivityReview("User", "", inWindow),                  // ghost/deleted user
 		makeActivityReview("User", "alice", inWindow),
 	)
 	node.Comments.Nodes = append(node.Comments.Nodes,

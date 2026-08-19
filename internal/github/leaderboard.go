@@ -122,7 +122,7 @@ func extractPRReviewers(node reviewerActivityNode, since time.Time) map[string]t
 	author := node.Author.Login
 
 	consider := func(login, typeName string, ts time.Time) {
-		if typeName == "Bot" || login == "" || login == author {
+		if isBotLogin(login, typeName) || login == "" || login == author {
 			return
 		}
 		if ts.Before(since) {
