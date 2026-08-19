@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T04:13:48.923504067Z",
+  "generated_at": "2026-08-19T04:44:31.702558337Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1793,7 +1793,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-08-19T04:12:49Z",
+      "updated_at": "2026-08-19T04:25:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2412,7 +2412,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T04:47:04Z",
-      "updated_at": "2026-08-19T04:07:48Z",
+      "updated_at": "2026-08-19T04:42:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -3024,10 +3024,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-11T04:03:15Z",
-      "updated_at": "2026-08-19T04:08:34Z",
+      "updated_at": "2026-08-19T04:34:47Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -3035,6 +3035,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
         "renovate",
         "release-v0.7",
         "size: M",
@@ -3184,7 +3185,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-19T04:07:46Z",
-      "updated_at": "2026-08-19T04:09:06Z",
+      "updated_at": "2026-08-19T04:39:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -3197,7 +3198,8 @@
       "labels": [
         "renovate",
         "size: XS",
-        "release-v0.8"
+        "release-v0.8",
+        "ready-for-merge"
       ]
     },
     {
@@ -3210,20 +3212,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-19T04:10:11Z",
-      "updated_at": "2026-08-19T04:11:18Z",
+      "updated_at": "2026-08-19T04:27:29Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "renovate",
         "release-v0.7",
-        "size: XS"
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
