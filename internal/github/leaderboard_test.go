@@ -156,7 +156,7 @@ func TestBuildLeaderboardSortsAndTieBreaks(t *testing.T) {
 		"dave":    prRefs(1),
 	}
 
-	lb := BuildLeaderboard(byReviewer, 30, since)
+	lb := BuildLeaderboard(byReviewer, 30, since, nil)
 
 	if lb.WindowDays != 30 {
 		t.Errorf("WindowDays = %d, want 30", lb.WindowDays)
@@ -191,7 +191,7 @@ func TestBuildLeaderboardSortsPRsByRecency(t *testing.T) {
 		},
 	}
 
-	lb := BuildLeaderboard(byReviewer, 30, time.Now())
+	lb := BuildLeaderboard(byReviewer, 30, time.Now(), nil)
 	prs := lb.Reviewers[0].PRs
 	wantNumbers := []int{2, 3, 1} // most recent engagement first
 	for i, n := range wantNumbers {
@@ -202,7 +202,7 @@ func TestBuildLeaderboardSortsPRsByRecency(t *testing.T) {
 }
 
 func TestBuildLeaderboardEmpty(t *testing.T) {
-	lb := BuildLeaderboard(map[string][]model.ReviewedPR{}, 14, time.Now())
+	lb := BuildLeaderboard(map[string][]model.ReviewedPR{}, 14, time.Now(), nil)
 	if lb == nil {
 		t.Fatal("expected non-nil leaderboard")
 	}
@@ -214,6 +214,32 @@ func TestBuildLeaderboardEmpty(t *testing.T) {
 	}
 	if lb.WindowDays != 14 {
 		t.Errorf("WindowDays = %d, want 14", lb.WindowDays)
+	}
+}
+
+func TestBuildLeaderboardFiltersToTeam(t *testing.T) {
+	since := time.Date(2025, 3, 1, 0, 0, 0, 0, time.UTC)
+	byReviewer := map[string][]model.ReviewedPR{
+		"alice":     prRefs(3),
+		"outsider":  prRefs(5),
+		"BohdanMar": prRefs(2),
+	}
+
+	// Allowlist uses different casing to confirm the match is case-insensitive.
+	lb := BuildLeaderboard(byReviewer, 30, since, []string{"Alice", "bohdanmar"})
+
+	if len(lb.Reviewers) != 2 {
+		t.Fatalf("got %d reviewers, want 2 (team only): %+v", len(lb.Reviewers), lb.Reviewers)
+	}
+	seen := map[string]bool{}
+	for _, r := range lb.Reviewers {
+		seen[r.Login] = true
+	}
+	if !seen["alice"] || !seen["BohdanMar"] {
+		t.Errorf("expected alice and BohdanMar, got %+v", lb.Reviewers)
+	}
+	if seen["outsider"] {
+		t.Errorf("outsider should be excluded, got %+v", lb.Reviewers)
 	}
 }
 
