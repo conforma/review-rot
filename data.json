@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T08:10:33.665009593Z",
+  "generated_at": "2026-08-19T08:45:19.324271552Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1589,10 +1589,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-19T03:55:12Z",
+      "updated_at": "2026-08-19T08:44:12Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -1793,7 +1793,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-08-19T07:58:49Z",
+      "updated_at": "2026-08-19T08:11:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1802,7 +1802,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 93,
+      "unresolved_conversations": 96,
       "labels": [
         "dependencies",
         "go",
@@ -2268,7 +2268,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-08-18T21:48:13Z",
+      "updated_at": "2026-08-19T08:43:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2297,7 +2297,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-08-19T03:55:06Z",
+      "updated_at": "2026-08-19T08:42:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2383,10 +2383,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-08-19T03:55:15Z",
+      "updated_at": "2026-08-19T08:43:17Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2653,32 +2653,6 @@
       ]
     },
     {
-      "title": "Add attended scripts for multi-branch UBI bump and module update PRs",
-      "url": "https://github.com/conforma/cli/pull/3430",
-      "number": 3430,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-07-22T15:11:57Z",
-      "updated_at": "2026-08-18T20:33:58Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XL",
-        "tooling",
-        "requires-manual-review"
-      ]
-    },
-    {
       "title": "Update module github.com/tektoncd/pipeline to v1.15.0 (main)",
       "url": "https://github.com/conforma/cli/pull/3432",
       "number": 3432,
@@ -2884,10 +2858,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-07T17:25:20Z",
-      "updated_at": "2026-08-19T03:54:59Z",
+      "updated_at": "2026-08-19T08:42:38Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
