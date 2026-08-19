@@ -150,9 +150,20 @@ func extractPRReviewers(node reviewerActivityNode, since time.Time) map[string]t
 // BuildLeaderboard turns aggregated per-reviewer PRs into a sorted leaderboard,
 // ranked by review count descending then login ascending. Each reviewer's PRs
 // are sorted most-recent engagement first.
-func BuildLeaderboard(byReviewer map[string][]model.ReviewedPR, windowDays int, since time.Time) *model.Leaderboard {
+//
+// teamAuthors restricts the board to the configured team members, matching by
+// login case-insensitively like FilterPRs. An empty list keeps every reviewer.
+func BuildLeaderboard(byReviewer map[string][]model.ReviewedPR, windowDays int, since time.Time, teamAuthors []string) *model.Leaderboard {
+	allowed := make(map[string]bool, len(teamAuthors))
+	for _, a := range teamAuthors {
+		allowed[strings.ToLower(a)] = true
+	}
+
 	reviewers := make([]model.ReviewerStat, 0, len(byReviewer))
 	for login, prs := range byReviewer {
+		if len(allowed) > 0 && !allowed[strings.ToLower(login)] {
+			continue
+		}
 		// EngagedAt is RFC3339 in UTC, so lexical sort equals chronological.
 		sort.Slice(prs, func(i, j int) bool {
 			return prs[i].EngagedAt > prs[j].EngagedAt

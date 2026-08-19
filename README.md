@@ -38,13 +38,13 @@ The `config/` directory contains two files:
   default 90). See the comments in that file for details.
 - **`ui.yaml`** — Dashboard appearance: title, logo, and accent colors.
 
-The **Leaderboard** tab ranks people by the number of distinct PRs they reviewed
-or commented on across the monitored repos. It counts activity on PRs of any
-state (open, merged, or closed) and excludes bots and self-reviews, matching the
-reviewer count shown on the PR list.
+The **Leaderboard** tab ranks the team members listed under `authors` by the
+number of distinct PRs they reviewed or commented on across the monitored repos.
+It counts activity on PRs of any state (open, merged, or closed) and excludes
+bots and self-reviews. If `authors` is empty, every reviewer is ranked.
 
 `leaderboard.window_days` is the data horizon — the widest range the backend
-aggregates. The tab has an interval slider (0 to the horizon, with preset
+aggregates. The tab has an interval slider (1 to the horizon, with preset
 shortcuts like 7d / 30d / 90d) that narrows the window client-side, re-counting
 and re-ranking without a rebuild. Each row is an accordion: clicking it opens a
 table of the PRs behind that person's count — PR title, repo, author, and review

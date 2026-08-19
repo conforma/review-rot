@@ -69,7 +69,7 @@ func main() {
 			continue
 		}
 	}
-	leaderboard := gh.BuildLeaderboard(reviewsByPerson, cfg.Leaderboard.WindowDays, since)
+	leaderboard := gh.BuildLeaderboard(reviewsByPerson, cfg.Leaderboard.WindowDays, since, cfg.Authors)
 	log.Printf("Leaderboard: %d reviewers over the last %d days", len(leaderboard.Reviewers), cfg.Leaderboard.WindowDays)
 
 	output := model.Output{
