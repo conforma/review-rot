@@ -84,6 +84,10 @@ func FetchRepoReviewerActivity(ctx context.Context, client *githubv4.Client, rep
 			return err
 		}
 
+		log.Printf("  %s: fetched %d PRs (rate limit: %d remaining, resets %s)",
+			repoFullName, len(query.Repository.PullRequests.Nodes),
+			query.RateLimit.Remaining, query.RateLimit.ResetAt.Format(time.RFC3339))
+
 		reachedCutoff := false
 		for _, node := range query.Repository.PullRequests.Nodes {
 			// Nodes are ordered by UpdatedAt descending; once we pass the
