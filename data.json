@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T02:48:17.057903913Z",
+  "generated_at": "2026-08-19T03:18:35.302241996Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1278,6 +1278,30 @@
         "size: XL",
         "ready-for-merge",
         "feature"
+      ]
+    },
+    {
+      "title": "Allow PNC SLSA build type for PipelineRun attestations",
+      "url": "https://github.com/conforma/policy/pull/1816",
+      "number": 1816,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "vnadempa",
+        "avatar_url": "https://avatars.githubusercontent.com/u/284862478?v=4"
+      },
+      "created_at": "2026-08-19T03:10:35Z",
+      "updated_at": "2026-08-19T03:12:08Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S"
       ]
     },
     {
@@ -3927,6 +3951,32 @@
       },
       "created_at": "2026-03-17T01:55:02Z",
       "updated_at": "2026-08-15T08:28:55Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
+      "url": "https://github.com/conforma/review-rot/pull/246",
+      "number": 246,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-06-12T01:44:36Z",
+      "updated_at": "2026-08-19T02:56:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
