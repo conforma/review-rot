@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T19:41:54.505039103Z",
+  "generated_at": "2026-08-19T20:08:39.127826811Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3414,7 +3414,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.6 (main)",
+      "title": "Update dependency golang to v1.27.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/531",
       "number": 531,
       "repo": "conforma/conforma.github.io",
@@ -3423,7 +3423,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-08-13T19:57:57Z",
+      "updated_at": "2026-08-19T19:56:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3441,7 +3441,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.25.13 (main)",
+      "title": "Update dependency golang to v1.25.14 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/532",
       "number": 532,
       "repo": "conforma/conforma.github.io",
@@ -3450,7 +3450,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:10:39Z",
-      "updated_at": "2026-08-13T23:36:48Z",
+      "updated_at": "2026-08-19T20:04:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6978,7 +6978,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-21T19:39:05Z",
+    "since": "2026-05-21T20:05:46Z",
     "reviewers": [
       {
         "login": "simonbaird",
