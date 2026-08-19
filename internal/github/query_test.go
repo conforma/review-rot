@@ -536,3 +536,24 @@ func TestExtractReviewsDeduplicatesByAuthor(t *testing.T) {
 }
 
 func strPtr(s string) *string { return &s }
+
+func TestIsBotLogin(t *testing.T) {
+	cases := []struct {
+		login    string
+		typeName string
+		want     bool
+	}{
+		{"coderabbitai", "Bot", true},       // GitHub App bot
+		{"konflux-ci-qe-bot", "User", true}, // machine user, -bot suffix
+		{"dependabot[bot]", "User", true},   // [bot] suffix without Bot typename
+		{"Konflux-CI-QE-Bot", "User", true}, // suffix match is case-insensitive
+		{"alice", "User", false},            // human
+		{"", "User", false},                 // ghost/deleted user
+		{"robotics-fan", "User", false},     // "bot" mid-word, not a suffix
+	}
+	for _, c := range cases {
+		if got := isBotLogin(c.login, c.typeName); got != c.want {
+			t.Errorf("isBotLogin(%q, %q) = %v, want %v", c.login, c.typeName, got, c.want)
+		}
+	}
+}

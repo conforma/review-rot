@@ -178,7 +178,7 @@ func extractReviews(node prNode) model.Reviews {
 	var lastHumanReviewOID string
 	seen := make(map[string]struct{})
 	for _, review := range node.Reviews.Nodes {
-		if review.Author.TypeName == "Bot" {
+		if isBotLogin(review.Author.Login, review.Author.TypeName) {
 			continue
 		}
 		if review.Author.Login == node.Author.Login {
@@ -189,7 +189,7 @@ func extractReviews(node prNode) model.Reviews {
 	}
 	var lastHumanCommentAt time.Time
 	for _, comment := range node.Comments.Nodes {
-		if comment.Author.TypeName == "Bot" {
+		if isBotLogin(comment.Author.Login, comment.Author.TypeName) {
 			continue
 		}
 		if comment.Author.Login == node.Author.Login {
@@ -208,6 +208,17 @@ func extractReviews(node prNode) model.Reviews {
 		r.HasNewCommits = !reviewCoversHead && !commentCoversHead
 	}
 	return r
+}
+
+// isBotLogin reports whether an account belongs to a bot. GitHub App bots carry
+// a "Bot" __typename, but machine users such as konflux-ci-qe-bot authenticate
+// as regular users, so their login is matched by suffix instead.
+func isBotLogin(login, typeName string) bool {
+	if typeName == "Bot" {
+		return true
+	}
+	l := strings.ToLower(login)
+	return strings.HasSuffix(l, "-bot") || strings.HasSuffix(l, "[bot]")
 }
 
 func countUnresolved(node prNode) int {

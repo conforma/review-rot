@@ -9,10 +9,20 @@ import (
 )
 
 type Config struct {
-	GitHub  GitHubConfig  `yaml:"github"`
-	Sources SourcesConfig `yaml:"sources"`
-	Authors []string      `yaml:"authors"`
-	UI      UIConfig      `yaml:"-"`
+	GitHub      GitHubConfig      `yaml:"github"`
+	Sources     SourcesConfig     `yaml:"sources"`
+	Authors     []string          `yaml:"authors"`
+	Leaderboard LeaderboardConfig `yaml:"leaderboard"`
+	UI          UIConfig          `yaml:"-"`
+}
+
+// defaultLeaderboardWindowDays is the data horizon used when
+// leaderboard.window_days is omitted. The frontend interval selector can narrow
+// this further, so it is the widest range the leaderboard can show.
+const defaultLeaderboardWindowDays = 90
+
+type LeaderboardConfig struct {
+	WindowDays int `yaml:"window_days"`
 }
 
 type GitHubConfig struct {
@@ -87,6 +97,9 @@ func validate(cfg *Config) (*Config, error) {
 	}
 	if len(cfg.Sources.Orgs) == 0 && len(cfg.Sources.Repos) == 0 {
 		return nil, fmt.Errorf("config: at least one org or repo must be configured")
+	}
+	if cfg.Leaderboard.WindowDays <= 0 {
+		cfg.Leaderboard.WindowDays = defaultLeaderboardWindowDays
 	}
 	return cfg, nil
 }

@@ -61,10 +61,22 @@ func main() {
 		filtered = []model.PullRequest{}
 	}
 
+	since := time.Now().UTC().AddDate(0, 0, -cfg.Leaderboard.WindowDays)
+	reviewsByPerson := make(map[string][]model.ReviewedPR)
+	for _, repo := range repos {
+		if err := gh.FetchRepoReviewerActivity(ctx, client, repo, since, reviewsByPerson); err != nil {
+			log.Printf("Warning: failed to fetch reviewer activity for %s: %v", repo, err)
+			continue
+		}
+	}
+	leaderboard := gh.BuildLeaderboard(reviewsByPerson, cfg.Leaderboard.WindowDays, since)
+	log.Printf("Leaderboard: %d reviewers over the last %d days", len(leaderboard.Reviewers), cfg.Leaderboard.WindowDays)
+
 	output := model.Output{
 		GeneratedAt:  time.Now().UTC(),
 		UISettings:   model.NewUISettings(cfg.UI.Title, cfg.UI.Logo, cfg.UI.Favicon, cfg.UI.Palette.Accent, cfg.UI.Palette.AccentDark, cfg.UI.Palette.AccentLight),
 		PullRequests: filtered,
+		Leaderboard:  leaderboard,
 	}
 
 	data, err := json.MarshalIndent(output, "", "  ")
