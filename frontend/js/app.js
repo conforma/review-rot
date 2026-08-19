@@ -487,7 +487,7 @@ function buildIntervalSelector() {
     if (state.leaderboardDays == null) state.leaderboardDays = horizon;
     state.leaderboardDays = clampDays(state.leaderboardDays, horizon);
 
-    slider.min = 0;
+    slider.min = 1;
     slider.max = horizon;
     slider.value = state.leaderboardDays;
 
@@ -506,7 +506,7 @@ function buildIntervalSelector() {
 }
 
 function clampDays(days, horizon) {
-    return Math.max(0, Math.min(horizon, days));
+    return Math.max(1, Math.min(horizon, days));
 }
 
 function setLeaderboardInterval(days) {
