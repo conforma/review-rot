@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T18:09:13.766692655Z",
+  "generated_at": "2026-08-19T18:47:58.704120314Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1291,18 +1291,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-08-19T17:49:20Z",
-      "updated_at": "2026-08-19T18:05:15Z",
+      "updated_at": "2026-08-19T18:34:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "L",
+      "ci_status": "SUCCESS",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 7,
+      "unresolved_conversations": 5,
       "labels": [
-        "size: L"
+        "size: XL"
       ]
     },
     {
@@ -5460,13 +5460,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-08-18T17:08:33Z",
-      "updated_at": "2026-08-19T16:15:20Z",
+      "updated_at": "2026-08-19T18:17:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6832,30 +6832,6 @@
       ]
     },
     {
-      "title": "Build-time param defaults in in tkn-bundle",
-      "url": "https://github.com/konflux-ci/build-definitions/pull/3490",
-      "number": 3490,
-      "repo": "konflux-ci/build-definitions",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-05-01T15:17:59Z",
-      "updated_at": "2026-07-30T23:22:36Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-rebase"
-      ]
-    },
-    {
       "title": "feat(EC-1794): replace ec-defaults ConfigMap with hardcoded bundle ref",
       "url": "https://github.com/konflux-ci/e2e-tests/pull/1885",
       "number": 1885,
@@ -6912,7 +6888,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-08-19T17:34:34Z",
+      "updated_at": "2026-08-19T18:21:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -7002,11 +6978,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-21T18:06:39Z",
+    "since": "2026-05-21T18:45:00Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 114,
+        "reviews": 113,
         "prs": [
           {
             "title": "Use ValidateVSAAndComparePolicy for ec validate image VSA skip",
@@ -7911,14 +7887,6 @@
             "number": 218,
             "author": "joejstuart",
             "engaged_at": "2026-05-26T18:32:08Z"
-          },
-          {
-            "title": "Update POLICY_BUNDLE_DIGEST in tekton-task bundle and catalog",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/217",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 217,
-            "author": "joejstuart",
-            "engaged_at": "2026-05-21T18:13:52Z"
           }
         ]
       },
@@ -8482,8 +8450,16 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 47,
+        "reviews": 48,
         "prs": [
+          {
+            "title": "Harden git subdir copy against symlink traversal",
+            "url": "https://github.com/conforma/go-gather/pull/338",
+            "repo": "conforma/go-gather",
+            "number": 338,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-19T18:17:37Z"
+          },
           {
             "title": "Verify SBOM signatures from OCI referrers and tag refs",
             "url": "https://github.com/conforma/policy/pull/1787",
