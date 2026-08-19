@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T14:15:22.710840115Z",
+  "generated_at": "2026-08-19T14:47:17.441093089Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1589,7 +1589,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-19T14:06:03Z",
+      "updated_at": "2026-08-19T14:13:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1619,7 +1619,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-08-19T14:08:45Z",
+      "updated_at": "2026-08-19T14:15:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1793,7 +1793,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-08-19T14:10:37Z",
+      "updated_at": "2026-08-19T14:23:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1802,7 +1802,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 96,
+      "unresolved_conversations": 99,
       "labels": [
         "dependencies",
         "go",
@@ -2297,7 +2297,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-08-19T14:04:34Z",
+      "updated_at": "2026-08-19T14:11:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2306,7 +2306,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 44,
+      "unresolved_conversations": 45,
       "labels": [
         "dependencies",
         "go",
@@ -2383,10 +2383,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-08-19T14:06:41Z",
+      "updated_at": "2026-08-19T14:13:02Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2662,7 +2662,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-08-19T14:09:41Z",
+      "updated_at": "2026-08-19T14:17:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2858,10 +2858,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-07T17:25:20Z",
-      "updated_at": "2026-08-19T14:10:45Z",
+      "updated_at": "2026-08-19T14:24:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -3969,6 +3969,30 @@
       ]
     },
     {
+      "title": "Restrict reviewer leaderboard to configured team members",
+      "url": "https://github.com/conforma/review-rot/pull/251",
+      "number": 251,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-08-19T14:12:30Z",
+      "updated_at": "2026-08-19T14:29:57Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M"
+      ]
+    },
+    {
       "title": "Update github actions (main) (minor)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/198",
       "number": 198,
@@ -4031,7 +4055,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-08-18T21:15:17Z",
+      "updated_at": "2026-08-19T14:43:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4057,10 +4081,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-08-18T21:15:21Z",
+      "updated_at": "2026-08-19T14:43:16Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4159,7 +4183,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:38:27Z",
-      "updated_at": "2026-08-15T01:38:51Z",
+      "updated_at": "2026-08-19T14:42:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4172,30 +4196,6 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Tag tekton-task bundle with a unique run tag to prevent orphaned digests (EC-2112)",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/225",
-      "number": 225,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-08-14T17:11:09Z",
-      "updated_at": "2026-08-19T08:47:07Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -6910,7 +6910,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-08-18T21:22:41Z",
+      "updated_at": "2026-08-19T14:20:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6921,35 +6921,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "Restructure enterprise-contract into dev/staging/prod overlays",
-      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13323",
-      "number": 13323,
-      "repo": "redhat-appstudio/infra-deployments",
-      "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
-      },
-      "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-08-18T14:12:08Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "lgtm",
-        "environment/production",
-        "infra/hold-production",
-        "environment/development",
-        "environment/staging",
-        "prod/needs-approval"
-      ]
     },
     {
       "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
@@ -6976,7 +6947,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-21T14:12:18Z",
+    "since": "2026-05-21T14:44:15Z",
     "reviewers": [
       {
         "login": "tekton-robot",
@@ -9736,7 +9707,7 @@
             "repo": "konflux-ci/release-service-catalog",
             "number": 2477,
             "author": "swickersh",
-            "engaged_at": "2026-08-19T13:56:21Z"
+            "engaged_at": "2026-08-19T14:22:35Z"
           },
           {
             "title": "fix(KFLUXSPRT-8470): add pulpTaskTimeout param to disk images push",
@@ -15340,8 +15311,16 @@
       },
       {
         "login": "ach912",
-        "reviews": 93,
+        "reviews": 94,
         "prs": [
+          {
+            "title": "fix(KFLUXSPRT-8470): add pulpTaskTimeout param to disk images push",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2404",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2404,
+            "author": "bhills-rh",
+            "engaged_at": "2026-08-19T14:16:44Z"
+          },
           {
             "title": "fix(CALUNGA-292): bump npm utils image with pulp upload fix",
             "url": "https://github.com/konflux-ci/release-service-catalog/pull/2473",
@@ -20412,7 +20391,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 70,
+        "reviews": 69,
         "prs": [
           {
             "title": "Create PRs instead of pushing directly to protected branches",
@@ -20965,14 +20944,6 @@
             "number": 3325,
             "author": "simonbaird",
             "engaged_at": "2026-05-27T08:18:53Z"
-          },
-          {
-            "title": "fix: use Codecov token auth for coverage upload",
-            "url": "https://github.com/conforma/review-rot/pull/242",
-            "repo": "conforma/review-rot",
-            "number": 242,
-            "author": "robnester-rh",
-            "engaged_at": "2026-05-21T14:19:27Z"
           }
         ]
       },
@@ -24131,6 +24102,388 @@
         ]
       },
       {
+        "login": "raks-tt",
+        "reviews": 47,
+        "prs": [
+          {
+            "title": "PVO11Y-5449 Add explicit openshift-logging namespace for lightwell-dev",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13601",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13601,
+            "author": "mike-kingsbury",
+            "engaged_at": "2026-08-19T14:34:15Z"
+          },
+          {
+            "title": "staging: rename Chains metrics for OpenCensus to OpenTelemetry migration",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13379",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13379,
+            "author": "mathur07",
+            "engaged_at": "2026-08-19T14:00:37Z"
+          },
+          {
+            "title": "feat(PVO11Y-5420): Emit richer kanary_error metric with caused_by label",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13575",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13575,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-08-18T16:35:06Z"
+          },
+          {
+            "title": "Applying nodeSelector and tolerations to cluster monitoring operator …",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13560",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13560,
+            "author": "mike-kingsbury",
+            "engaged_at": "2026-08-18T13:53:07Z"
+          },
+          {
+            "title": "Custom Kube State Metrics: Increase Resources",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13553",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13553,
+            "author": "martysp21",
+            "engaged_at": "2026-08-17T12:33:22Z"
+          },
+          {
+            "title": "Increase custom-kube-state-metrics memory to 2Gi on lightwell-dev",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13539",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13539,
+            "author": "mike-kingsbury",
+            "engaged_at": "2026-08-14T22:45:38Z"
+          },
+          {
+            "title": "PVO11Y-5451 Update blackbox exporter ref with tested security context",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13536",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13536,
+            "author": "mike-kingsbury",
+            "engaged_at": "2026-08-14T20:39:50Z"
+          },
+          {
+            "title": "PVO11Y-5451 Update blackbox exporter ref with security context fix",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13532",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13532,
+            "author": "mike-kingsbury",
+            "engaged_at": "2026-08-14T18:07:07Z"
+          },
+          {
+            "title": "feat(KFLUXVNGD-1269): Add kanary monitoring for lightwell-dev staging cluster",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13492",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13492,
+            "author": "avi-biton",
+            "engaged_at": "2026-08-14T14:19:12Z"
+          },
+          {
+            "title": "PVO11Y-5451 Deploy blackbox exporter to lightwell-dev",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13514",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13514,
+            "author": "mike-kingsbury",
+            "engaged_at": "2026-08-13T20:40:25Z"
+          },
+          {
+            "title": "PVO11Y-5449 Deploy Cluster Logging Operator to lightwell-dev",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13507",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13507,
+            "author": "mike-kingsbury",
+            "engaged_at": "2026-08-13T16:14:27Z"
+          },
+          {
+            "title": "PVO11Y-5429 Add Prometheus monitoring for lightwell-dev cluster",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13480",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13480,
+            "author": "mike-kingsbury",
+            "engaged_at": "2026-08-12T15:51:39Z"
+          },
+          {
+            "title": "feat(PVO11Y-5367, kaexporter): Performance UX SLO metrics production",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13384",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13384,
+            "author": "TominoFTW",
+            "engaged_at": "2026-08-06T23:40:44Z"
+          },
+          {
+            "title": "feat(PVO11Y-5367, kaexporter): Performance UX SLO metrics stage",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13380",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13380,
+            "author": "TominoFTW",
+            "engaged_at": "2026-08-06T16:29:36Z"
+          },
+          {
+            "title": "PVO11Y-5378 Update prometheus documentation",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13377",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13377,
+            "author": "kubasikus",
+            "engaged_at": "2026-08-06T14:59:23Z"
+          },
+          {
+            "title": "feat(PVO11Y-5332): Forward Konflux Tenant-level Capacity metrics",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13345",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13345,
+            "author": "pacho-rh",
+            "engaged_at": "2026-08-04T18:26:10Z"
+          },
+          {
+            "title": "fix(PVO11Y-5400, kaexporter): fix boostrap and gapfill logic for high volume tenants production",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13353",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13353,
+            "author": "TominoFTW",
+            "engaged_at": "2026-08-04T16:40:13Z"
+          },
+          {
+            "title": "PVO11Y-5384 Enable delivery tracing in staging",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13238",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13238,
+            "author": "ci-operator",
+            "engaged_at": "2026-07-30T01:59:59Z"
+          },
+          {
+            "title": "fix(KONFLUX-14971, kaexporter): Avoid OOMKilled for prd",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13083",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13083,
+            "author": "pacho-rh",
+            "engaged_at": "2026-07-16T18:58:19Z"
+          },
+          {
+            "title": "fix(KONFLUX-14971, kaexporter): Avoid OOMKilled",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13080",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13080,
+            "author": "pacho-rh",
+            "engaged_at": "2026-07-16T16:08:07Z"
+          },
+          {
+            "title": "feat(KONFLUX-14971, kaexporter): use cfg file for tenant exclusions",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13057",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13057,
+            "author": "pacho-rh",
+            "engaged_at": "2026-07-15T19:07:03Z"
+          },
+          {
+            "title": "PVO11Y-5361 Add oci-storage param to staging kanary",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13036",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13036,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-14T15:53:06Z"
+          },
+          {
+            "title": "PVO11Y-5361 Fix production OCI_STORAGE for kanary",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13035",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13035,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-14T15:01:57Z"
+          },
+          {
+            "title": "PVO11Y-5094 Deploy Tekton Prometheus to production (ring 1)",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13026",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13026,
+            "author": "kubasikus",
+            "engaged_at": "2026-07-14T13:37:35Z"
+          },
+          {
+            "title": "PVO11Y-5310 Move cardinality exporter to exporters dir and restructure for per-cluster deployment",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13017",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13017,
+            "author": "kubasikus",
+            "engaged_at": "2026-07-13T15:17:50Z"
+          },
+          {
+            "title": "PVO11Y-5280 Deploy KubeArchive exporter to production",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12961",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12961,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-08T19:15:54Z"
+          },
+          {
+            "title": "feat(PVO11Y-5321): Forward KAExporter labels",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12920",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12920,
+            "author": "pacho-rh",
+            "engaged_at": "2026-07-08T12:52:50Z"
+          },
+          {
+            "title": "PVO11Y-5290 Move pipeline-service dashboard to per-environment overlays and switch staging to tekton-ms",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12951",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12951,
+            "author": "kubasikus",
+            "engaged_at": "2026-07-07T20:10:53Z"
+          },
+          {
+            "title": "PVO11Y-5262 Remove platform Prometheus pod latency metric drop",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12944",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12944,
+            "author": "kubasikus",
+            "engaged_at": "2026-07-07T18:59:40Z"
+          },
+          {
+            "title": "PVO11Y-5262 Remove platform Prometheus pod latency metric drop from staging",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12942",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12942,
+            "author": "kubasikus",
+            "engaged_at": "2026-07-07T13:16:54Z"
+          },
+          {
+            "title": "feat(PVO11Y-5321): Forward exported_namespace label stg",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12922",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12922,
+            "author": "pacho-rh",
+            "engaged_at": "2026-07-03T04:40:13Z"
+          },
+          {
+            "title": "feat(PVO11Y-5279): Update kaexporter ref for startupProbe",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12921",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12921,
+            "author": "pacho-rh",
+            "engaged_at": "2026-07-02T19:07:06Z"
+          },
+          {
+            "title": "feat(PVO11Y-5279): Update kaexporter ref",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12917",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12917,
+            "author": "pacho-rh",
+            "engaged_at": "2026-07-02T15:17:29Z"
+          },
+          {
+            "title": "PVO11Y-5279 Update kaexporter ref to include honorLabels fix",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12913",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12913,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-02T11:32:54Z"
+          },
+          {
+            "title": "fix(KONFLUX-13202): Upsize cost-management-operator pod resource limits in production",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12896",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12896,
+            "author": "pumahaka",
+            "engaged_at": "2026-07-02T10:45:05Z"
+          },
+          {
+            "title": "PVO11Y-5279 Update kaexporter ref to include KubeArchive RBAC",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12911",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12911,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-02T10:11:20Z"
+          },
+          {
+            "title": "PVO11Y-5279 Allow konflux-o11y-exporters in ClusterSecretStore",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12906",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12906,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-01T19:22:00Z"
+          },
+          {
+            "title": "PVO11Y-5279 Deploy KubeArchive exporter to staging",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12649",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12649,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-01T05:55:00Z"
+          },
+          {
+            "title": "fix(PVO11Y-5298): Add annotation to disable autogen",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12856",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12856,
+            "author": "TominoFTW",
+            "engaged_at": "2026-06-30T22:50:10Z"
+          },
+          {
+            "title": "feat(PVO11Y-5321): Forward KAExporter labels stage",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12874",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12874,
+            "author": "pacho-rh",
+            "engaged_at": "2026-06-29T21:18:20Z"
+          },
+          {
+            "title": "PVO11Y-5107 Document and organize label allowlist in writeRelabelConfigs",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12864",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12864,
+            "author": "kubasikus",
+            "engaged_at": "2026-06-29T18:20:37Z"
+          },
+          {
+            "title": "PVO11Y-5150 Rename kanary metrics and add metric_expiration to staging otel",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12776",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12776,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-06-26T15:54:25Z"
+          },
+          {
+            "title": "PVO11Y-5268 Allow appstudio-tekton namespace to access vault in staging",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12658",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12658,
+            "author": "kubasikus",
+            "engaged_at": "2026-06-22T16:34:43Z"
+          },
+          {
+            "title": "PVO11Y-5268 Forward tekton_pipelines_controller metrics via tekton-ms",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12601",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12601,
+            "author": "kubasikus",
+            "engaged_at": "2026-06-22T15:54:38Z"
+          },
+          {
+            "title": "PVO11Y-5262 Re-enable taskruns_pod_latency_milliseconds metric in tekton-ms",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12410",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12410,
+            "author": "kubasikus",
+            "engaged_at": "2026-06-15T13:39:14Z"
+          },
+          {
+            "title": "Finish federation folder rename in prod",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12408",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12408,
+            "author": "kubasikus",
+            "engaged_at": "2026-06-15T13:28:47Z"
+          },
+          {
+            "title": "production Ring 1: upgrade to pipelines 5.0.5-830, bump events-controller memory, fix PaC metrics",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12065",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12065,
+            "author": "mathur07",
+            "engaged_at": "2026-06-02T19:10:00Z"
+          }
+        ]
+      },
+      {
         "login": "TominoFTW",
         "reviews": 46,
         "prs": [
@@ -24875,380 +25228,6 @@
             "number": 3321,
             "author": "ompushkara",
             "engaged_at": "2026-05-26T20:26:29Z"
-          }
-        ]
-      },
-      {
-        "login": "raks-tt",
-        "reviews": 46,
-        "prs": [
-          {
-            "title": "staging: rename Chains metrics for OpenCensus to OpenTelemetry migration",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13379",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13379,
-            "author": "mathur07",
-            "engaged_at": "2026-08-19T14:00:37Z"
-          },
-          {
-            "title": "feat(PVO11Y-5420): Emit richer kanary_error metric with caused_by label",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13575",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13575,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-08-18T16:35:06Z"
-          },
-          {
-            "title": "Applying nodeSelector and tolerations to cluster monitoring operator …",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13560",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13560,
-            "author": "mike-kingsbury",
-            "engaged_at": "2026-08-18T13:53:07Z"
-          },
-          {
-            "title": "Custom Kube State Metrics: Increase Resources",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13553",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13553,
-            "author": "martysp21",
-            "engaged_at": "2026-08-17T12:33:22Z"
-          },
-          {
-            "title": "Increase custom-kube-state-metrics memory to 2Gi on lightwell-dev",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13539",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13539,
-            "author": "mike-kingsbury",
-            "engaged_at": "2026-08-14T22:45:38Z"
-          },
-          {
-            "title": "PVO11Y-5451 Update blackbox exporter ref with tested security context",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13536",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13536,
-            "author": "mike-kingsbury",
-            "engaged_at": "2026-08-14T20:39:50Z"
-          },
-          {
-            "title": "PVO11Y-5451 Update blackbox exporter ref with security context fix",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13532",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13532,
-            "author": "mike-kingsbury",
-            "engaged_at": "2026-08-14T18:07:07Z"
-          },
-          {
-            "title": "feat(KFLUXVNGD-1269): Add kanary monitoring for lightwell-dev staging cluster",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13492",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13492,
-            "author": "avi-biton",
-            "engaged_at": "2026-08-14T14:19:12Z"
-          },
-          {
-            "title": "PVO11Y-5451 Deploy blackbox exporter to lightwell-dev",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13514",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13514,
-            "author": "mike-kingsbury",
-            "engaged_at": "2026-08-13T20:40:25Z"
-          },
-          {
-            "title": "PVO11Y-5449 Deploy Cluster Logging Operator to lightwell-dev",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13507",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13507,
-            "author": "mike-kingsbury",
-            "engaged_at": "2026-08-13T16:14:27Z"
-          },
-          {
-            "title": "PVO11Y-5429 Add Prometheus monitoring for lightwell-dev cluster",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13480",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13480,
-            "author": "mike-kingsbury",
-            "engaged_at": "2026-08-12T15:51:39Z"
-          },
-          {
-            "title": "feat(PVO11Y-5367, kaexporter): Performance UX SLO metrics production",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13384",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13384,
-            "author": "TominoFTW",
-            "engaged_at": "2026-08-06T23:40:44Z"
-          },
-          {
-            "title": "feat(PVO11Y-5367, kaexporter): Performance UX SLO metrics stage",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13380",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13380,
-            "author": "TominoFTW",
-            "engaged_at": "2026-08-06T16:29:36Z"
-          },
-          {
-            "title": "PVO11Y-5378 Update prometheus documentation",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13377",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13377,
-            "author": "kubasikus",
-            "engaged_at": "2026-08-06T14:59:23Z"
-          },
-          {
-            "title": "feat(PVO11Y-5332): Forward Konflux Tenant-level Capacity metrics",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13345",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13345,
-            "author": "pacho-rh",
-            "engaged_at": "2026-08-04T18:26:10Z"
-          },
-          {
-            "title": "fix(PVO11Y-5400, kaexporter): fix boostrap and gapfill logic for high volume tenants production",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13353",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13353,
-            "author": "TominoFTW",
-            "engaged_at": "2026-08-04T16:40:13Z"
-          },
-          {
-            "title": "PVO11Y-5384 Enable delivery tracing in staging",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13238",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13238,
-            "author": "ci-operator",
-            "engaged_at": "2026-07-30T01:59:59Z"
-          },
-          {
-            "title": "fix(KONFLUX-14971, kaexporter): Avoid OOMKilled for prd",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13083",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13083,
-            "author": "pacho-rh",
-            "engaged_at": "2026-07-16T18:58:19Z"
-          },
-          {
-            "title": "fix(KONFLUX-14971, kaexporter): Avoid OOMKilled",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13080",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13080,
-            "author": "pacho-rh",
-            "engaged_at": "2026-07-16T16:08:07Z"
-          },
-          {
-            "title": "feat(KONFLUX-14971, kaexporter): use cfg file for tenant exclusions",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13057",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13057,
-            "author": "pacho-rh",
-            "engaged_at": "2026-07-15T19:07:03Z"
-          },
-          {
-            "title": "PVO11Y-5361 Add oci-storage param to staging kanary",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13036",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13036,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-14T15:53:06Z"
-          },
-          {
-            "title": "PVO11Y-5361 Fix production OCI_STORAGE for kanary",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13035",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13035,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-14T15:01:57Z"
-          },
-          {
-            "title": "PVO11Y-5094 Deploy Tekton Prometheus to production (ring 1)",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13026",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13026,
-            "author": "kubasikus",
-            "engaged_at": "2026-07-14T13:37:35Z"
-          },
-          {
-            "title": "PVO11Y-5310 Move cardinality exporter to exporters dir and restructure for per-cluster deployment",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13017",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13017,
-            "author": "kubasikus",
-            "engaged_at": "2026-07-13T15:17:50Z"
-          },
-          {
-            "title": "PVO11Y-5280 Deploy KubeArchive exporter to production",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12961",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12961,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-08T19:15:54Z"
-          },
-          {
-            "title": "feat(PVO11Y-5321): Forward KAExporter labels",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12920",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12920,
-            "author": "pacho-rh",
-            "engaged_at": "2026-07-08T12:52:50Z"
-          },
-          {
-            "title": "PVO11Y-5290 Move pipeline-service dashboard to per-environment overlays and switch staging to tekton-ms",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12951",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12951,
-            "author": "kubasikus",
-            "engaged_at": "2026-07-07T20:10:53Z"
-          },
-          {
-            "title": "PVO11Y-5262 Remove platform Prometheus pod latency metric drop",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12944",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12944,
-            "author": "kubasikus",
-            "engaged_at": "2026-07-07T18:59:40Z"
-          },
-          {
-            "title": "PVO11Y-5262 Remove platform Prometheus pod latency metric drop from staging",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12942",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12942,
-            "author": "kubasikus",
-            "engaged_at": "2026-07-07T13:16:54Z"
-          },
-          {
-            "title": "feat(PVO11Y-5321): Forward exported_namespace label stg",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12922",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12922,
-            "author": "pacho-rh",
-            "engaged_at": "2026-07-03T04:40:13Z"
-          },
-          {
-            "title": "feat(PVO11Y-5279): Update kaexporter ref for startupProbe",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12921",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12921,
-            "author": "pacho-rh",
-            "engaged_at": "2026-07-02T19:07:06Z"
-          },
-          {
-            "title": "feat(PVO11Y-5279): Update kaexporter ref",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12917",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12917,
-            "author": "pacho-rh",
-            "engaged_at": "2026-07-02T15:17:29Z"
-          },
-          {
-            "title": "PVO11Y-5279 Update kaexporter ref to include honorLabels fix",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12913",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12913,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-02T11:32:54Z"
-          },
-          {
-            "title": "fix(KONFLUX-13202): Upsize cost-management-operator pod resource limits in production",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12896",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12896,
-            "author": "pumahaka",
-            "engaged_at": "2026-07-02T10:45:05Z"
-          },
-          {
-            "title": "PVO11Y-5279 Update kaexporter ref to include KubeArchive RBAC",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12911",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12911,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-02T10:11:20Z"
-          },
-          {
-            "title": "PVO11Y-5279 Allow konflux-o11y-exporters in ClusterSecretStore",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12906",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12906,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-01T19:22:00Z"
-          },
-          {
-            "title": "PVO11Y-5279 Deploy KubeArchive exporter to staging",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12649",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12649,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-01T05:55:00Z"
-          },
-          {
-            "title": "fix(PVO11Y-5298): Add annotation to disable autogen",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12856",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12856,
-            "author": "TominoFTW",
-            "engaged_at": "2026-06-30T22:50:10Z"
-          },
-          {
-            "title": "feat(PVO11Y-5321): Forward KAExporter labels stage",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12874",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12874,
-            "author": "pacho-rh",
-            "engaged_at": "2026-06-29T21:18:20Z"
-          },
-          {
-            "title": "PVO11Y-5107 Document and organize label allowlist in writeRelabelConfigs",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12864",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12864,
-            "author": "kubasikus",
-            "engaged_at": "2026-06-29T18:20:37Z"
-          },
-          {
-            "title": "PVO11Y-5150 Rename kanary metrics and add metric_expiration to staging otel",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12776",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12776,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-06-26T15:54:25Z"
-          },
-          {
-            "title": "PVO11Y-5268 Allow appstudio-tekton namespace to access vault in staging",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12658",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12658,
-            "author": "kubasikus",
-            "engaged_at": "2026-06-22T16:34:43Z"
-          },
-          {
-            "title": "PVO11Y-5268 Forward tekton_pipelines_controller metrics via tekton-ms",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12601",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12601,
-            "author": "kubasikus",
-            "engaged_at": "2026-06-22T15:54:38Z"
-          },
-          {
-            "title": "PVO11Y-5262 Re-enable taskruns_pod_latency_milliseconds metric in tekton-ms",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12410",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12410,
-            "author": "kubasikus",
-            "engaged_at": "2026-06-15T13:39:14Z"
-          },
-          {
-            "title": "Finish federation folder rename in prod",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12408",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12408,
-            "author": "kubasikus",
-            "engaged_at": "2026-06-15T13:28:47Z"
-          },
-          {
-            "title": "production Ring 1: upgrade to pipelines 5.0.5-830, bump events-controller memory, fix PaC metrics",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12065",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12065,
-            "author": "mathur07",
-            "engaged_at": "2026-06-02T19:10:00Z"
           }
         ]
       },
@@ -26915,6 +26894,292 @@
         ]
       },
       {
+        "login": "mmorhun",
+        "reviews": 35,
+        "prs": [
+          {
+            "title": "Allow external tasks to get version bumps, enable this for build-owned tasks",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3799",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3799,
+            "author": "chmeliik",
+            "engaged_at": "2026-08-19T14:35:38Z"
+          },
+          {
+            "title": "docs: Add Component Troubleshooting Guide",
+            "url": "https://github.com/konflux-ci/docs/pull/644",
+            "repo": "konflux-ci/docs",
+            "number": 644,
+            "author": "rcerven",
+            "engaged_at": "2026-08-18T06:42:34Z"
+          },
+          {
+            "title": "Add optional ADDITIONAL_SECRET param to run-script-oci-ta",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3775",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3775,
+            "author": "jangel97",
+            "engaged_at": "2026-08-17T13:42:52Z"
+          },
+          {
+            "title": "add permissions to all users/roles also to new group api konflux-ci.dev",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13397",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13397,
+            "author": "rcerven",
+            "engaged_at": "2026-08-10T06:09:49Z"
+          },
+          {
+            "title": "[STONEBLD-4315]Remove parameter build-source-image from tekton bundle builder pipeline",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3760",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3760,
+            "author": "yash2189",
+            "engaged_at": "2026-08-03T12:22:38Z"
+          },
+          {
+            "title": "fix: add update and delete to test-runner cluster role",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13298",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13298,
+            "author": "tisutisu",
+            "engaged_at": "2026-07-31T13:43:25Z"
+          },
+          {
+            "title": "Konflux e2e tests image update",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3759",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3759,
+            "author": "slimreaper35",
+            "engaged_at": "2026-07-31T07:49:56Z"
+          },
+          {
+            "title": "pnc-prebuild-git-clone-oci-ta/0.2: Set expires-on annotation",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3755",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3755,
+            "author": "slimreaper35",
+            "engaged_at": "2026-07-31T07:47:54Z"
+          },
+          {
+            "title": "docs: update building tekton tasks guide",
+            "url": "https://github.com/konflux-ci/docs/pull/636",
+            "repo": "konflux-ci/docs",
+            "number": 636,
+            "author": "fmudry",
+            "engaged_at": "2026-07-30T11:36:32Z"
+          },
+          {
+            "title": "Remove show-sbom task from user pipelines",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3753",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3753,
+            "author": "slimreaper35",
+            "engaged_at": "2026-07-30T10:13:14Z"
+          },
+          {
+            "title": "Remove summary task from users pipelines",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3738",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3738,
+            "author": "slimreaper35",
+            "engaged_at": "2026-07-30T09:22:13Z"
+          },
+          {
+            "title": "feat: add scenario using basic-auth secret during build",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3726",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3726,
+            "author": "tisutisu",
+            "engaged_at": "2026-07-30T08:34:56Z"
+          },
+          {
+            "title": "tkn-bundle: remove migration modification check",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3742",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3742,
+            "author": "chmeliik",
+            "engaged_at": "2026-07-30T06:32:21Z"
+          },
+          {
+            "title": "feat: add gitlab token secret",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13190",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13190,
+            "author": "tisutisu",
+            "engaged_at": "2026-07-29T05:43:05Z"
+          },
+          {
+            "title": "Migrate buildah tasks to external bundles",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3730",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3730,
+            "author": "slimreaper35",
+            "engaged_at": "2026-07-27T13:37:56Z"
+          },
+          {
+            "title": "Promoting component build-service from stage to prod",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13189",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13189,
+            "author": "rh-tap-build-team",
+            "engaged_at": "2026-07-24T06:37:09Z"
+          },
+          {
+            "title": "Update shared CI",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3722",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3722,
+            "author": "chmeliik",
+            "engaged_at": "2026-07-22T15:00:05Z"
+          },
+          {
+            "title": "build: delete tasks that moved out of this repo",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3662",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3662,
+            "author": "chmeliik",
+            "engaged_at": "2026-07-10T08:24:56Z"
+          },
+          {
+            "title": "CI: allow deleting migrations for external tasks",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3679",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3679,
+            "author": "chmeliik",
+            "engaged_at": "2026-07-10T06:09:13Z"
+          },
+          {
+            "title": "docs: bundles pinned by digest",
+            "url": "https://github.com/konflux-ci/docs/pull/621",
+            "repo": "konflux-ci/docs",
+            "number": 621,
+            "author": "MichalZelenak",
+            "engaged_at": "2026-07-09T06:24:41Z"
+          },
+          {
+            "title": "feat: add image repository related utilities",
+            "url": "https://github.com/konflux-ci/e2e-tests/pull/1882",
+            "repo": "konflux-ci/e2e-tests",
+            "number": 1882,
+            "author": "tisutisu",
+            "engaged_at": "2026-07-07T09:58:53Z"
+          },
+          {
+            "title": "Move operator-foundry tasks to external-task",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3613",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3613,
+            "author": "yashvardhannanavati",
+            "engaged_at": "2026-06-26T06:57:30Z"
+          },
+          {
+            "title": "fix(#3593): set imagePullPolicy to IfNotPresent on all tasks",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3594",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3594,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-06-24T06:14:44Z"
+          },
+          {
+            "title": "Update git-clone to use konflux-build-cli",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3526",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3526,
+            "author": "tnevrlka",
+            "engaged_at": "2026-06-23T12:42:10Z"
+          },
+          {
+            "title": "Don't force migration to modify pipelines",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3609",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3609,
+            "author": "tnevrlka",
+            "engaged_at": "2026-06-23T11:15:52Z"
+          },
+          {
+            "title": "chore: remove `tekton-ci` component",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12637",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12637,
+            "author": "tisutisu",
+            "engaged_at": "2026-06-22T11:18:59Z"
+          },
+          {
+            "title": "bump application-api version",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12500",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12500,
+            "author": "rcerven",
+            "engaged_at": "2026-06-17T13:15:23Z"
+          },
+          {
+            "title": "feat: Bumping snyk sast check to version 0.5",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3600",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3600,
+            "author": "swillis0221",
+            "engaged_at": "2026-06-17T06:47:29Z"
+          },
+          {
+            "title": "task/buildah*: fix labels.json for quoted labels",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3599",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3599,
+            "author": "chmeliik",
+            "engaged_at": "2026-06-17T06:10:34Z"
+          },
+          {
+            "title": "task/buildah*: update konflux-build-cli",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3575",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3575,
+            "author": "chmeliik",
+            "engaged_at": "2026-06-16T07:26:46Z"
+          },
+          {
+            "title": "build: remove appstudio-utils",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3592",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3592,
+            "author": "fmudry",
+            "engaged_at": "2026-06-15T13:44:48Z"
+          },
+          {
+            "title": "fix: add e2e cleanup related priviledges to the clusterrole",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12363",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12363,
+            "author": "tisutisu",
+            "engaged_at": "2026-06-12T12:46:25Z"
+          },
+          {
+            "title": "Archive expired/deprecated build tasks",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3573",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3573,
+            "author": "chmeliik",
+            "engaged_at": "2026-06-08T15:19:48Z"
+          },
+          {
+            "title": "chore: remove `edit-pipeline-from-build-templates` rolebinding and update test-runner clusterrole",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12194",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12194,
+            "author": "tisutisu",
+            "engaged_at": "2026-06-04T08:51:45Z"
+          },
+          {
+            "title": "Use konflux-build-cli in buildah task",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3533",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3533,
+            "author": "chmeliik",
+            "engaged_at": "2026-05-25T13:27:30Z"
+          }
+        ]
+      },
+      {
         "login": "mshaposhnik",
         "reviews": 35,
         "prs": [
@@ -27197,284 +27462,6 @@
             "number": 11961,
             "author": "filariow",
             "engaged_at": "2026-05-25T11:14:04Z"
-          }
-        ]
-      },
-      {
-        "login": "mmorhun",
-        "reviews": 34,
-        "prs": [
-          {
-            "title": "docs: Add Component Troubleshooting Guide",
-            "url": "https://github.com/konflux-ci/docs/pull/644",
-            "repo": "konflux-ci/docs",
-            "number": 644,
-            "author": "rcerven",
-            "engaged_at": "2026-08-18T06:42:34Z"
-          },
-          {
-            "title": "Add optional ADDITIONAL_SECRET param to run-script-oci-ta",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3775",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3775,
-            "author": "jangel97",
-            "engaged_at": "2026-08-17T13:42:52Z"
-          },
-          {
-            "title": "add permissions to all users/roles also to new group api konflux-ci.dev",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13397",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13397,
-            "author": "rcerven",
-            "engaged_at": "2026-08-10T06:09:49Z"
-          },
-          {
-            "title": "[STONEBLD-4315]Remove parameter build-source-image from tekton bundle builder pipeline",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3760",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3760,
-            "author": "yash2189",
-            "engaged_at": "2026-08-03T12:22:38Z"
-          },
-          {
-            "title": "fix: add update and delete to test-runner cluster role",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13298",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13298,
-            "author": "tisutisu",
-            "engaged_at": "2026-07-31T13:43:25Z"
-          },
-          {
-            "title": "Konflux e2e tests image update",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3759",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3759,
-            "author": "slimreaper35",
-            "engaged_at": "2026-07-31T07:49:56Z"
-          },
-          {
-            "title": "pnc-prebuild-git-clone-oci-ta/0.2: Set expires-on annotation",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3755",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3755,
-            "author": "slimreaper35",
-            "engaged_at": "2026-07-31T07:47:54Z"
-          },
-          {
-            "title": "docs: update building tekton tasks guide",
-            "url": "https://github.com/konflux-ci/docs/pull/636",
-            "repo": "konflux-ci/docs",
-            "number": 636,
-            "author": "fmudry",
-            "engaged_at": "2026-07-30T11:36:32Z"
-          },
-          {
-            "title": "Remove show-sbom task from user pipelines",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3753",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3753,
-            "author": "slimreaper35",
-            "engaged_at": "2026-07-30T10:13:14Z"
-          },
-          {
-            "title": "Remove summary task from users pipelines",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3738",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3738,
-            "author": "slimreaper35",
-            "engaged_at": "2026-07-30T09:22:13Z"
-          },
-          {
-            "title": "feat: add scenario using basic-auth secret during build",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3726",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3726,
-            "author": "tisutisu",
-            "engaged_at": "2026-07-30T08:34:56Z"
-          },
-          {
-            "title": "tkn-bundle: remove migration modification check",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3742",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3742,
-            "author": "chmeliik",
-            "engaged_at": "2026-07-30T06:32:21Z"
-          },
-          {
-            "title": "feat: add gitlab token secret",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13190",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13190,
-            "author": "tisutisu",
-            "engaged_at": "2026-07-29T05:43:05Z"
-          },
-          {
-            "title": "Migrate buildah tasks to external bundles",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3730",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3730,
-            "author": "slimreaper35",
-            "engaged_at": "2026-07-27T13:37:56Z"
-          },
-          {
-            "title": "Promoting component build-service from stage to prod",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13189",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13189,
-            "author": "rh-tap-build-team",
-            "engaged_at": "2026-07-24T06:37:09Z"
-          },
-          {
-            "title": "Update shared CI",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3722",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3722,
-            "author": "chmeliik",
-            "engaged_at": "2026-07-22T15:00:05Z"
-          },
-          {
-            "title": "build: delete tasks that moved out of this repo",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3662",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3662,
-            "author": "chmeliik",
-            "engaged_at": "2026-07-10T08:24:56Z"
-          },
-          {
-            "title": "CI: allow deleting migrations for external tasks",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3679",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3679,
-            "author": "chmeliik",
-            "engaged_at": "2026-07-10T06:09:13Z"
-          },
-          {
-            "title": "docs: bundles pinned by digest",
-            "url": "https://github.com/konflux-ci/docs/pull/621",
-            "repo": "konflux-ci/docs",
-            "number": 621,
-            "author": "MichalZelenak",
-            "engaged_at": "2026-07-09T06:24:41Z"
-          },
-          {
-            "title": "feat: add image repository related utilities",
-            "url": "https://github.com/konflux-ci/e2e-tests/pull/1882",
-            "repo": "konflux-ci/e2e-tests",
-            "number": 1882,
-            "author": "tisutisu",
-            "engaged_at": "2026-07-07T09:58:53Z"
-          },
-          {
-            "title": "Move operator-foundry tasks to external-task",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3613",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3613,
-            "author": "yashvardhannanavati",
-            "engaged_at": "2026-06-26T06:57:30Z"
-          },
-          {
-            "title": "fix(#3593): set imagePullPolicy to IfNotPresent on all tasks",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3594",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3594,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-06-24T06:14:44Z"
-          },
-          {
-            "title": "Update git-clone to use konflux-build-cli",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3526",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3526,
-            "author": "tnevrlka",
-            "engaged_at": "2026-06-23T12:42:10Z"
-          },
-          {
-            "title": "Don't force migration to modify pipelines",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3609",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3609,
-            "author": "tnevrlka",
-            "engaged_at": "2026-06-23T11:15:52Z"
-          },
-          {
-            "title": "chore: remove `tekton-ci` component",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12637",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12637,
-            "author": "tisutisu",
-            "engaged_at": "2026-06-22T11:18:59Z"
-          },
-          {
-            "title": "bump application-api version",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12500",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12500,
-            "author": "rcerven",
-            "engaged_at": "2026-06-17T13:15:23Z"
-          },
-          {
-            "title": "feat: Bumping snyk sast check to version 0.5",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3600",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3600,
-            "author": "swillis0221",
-            "engaged_at": "2026-06-17T06:47:29Z"
-          },
-          {
-            "title": "task/buildah*: fix labels.json for quoted labels",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3599",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3599,
-            "author": "chmeliik",
-            "engaged_at": "2026-06-17T06:10:34Z"
-          },
-          {
-            "title": "task/buildah*: update konflux-build-cli",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3575",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3575,
-            "author": "chmeliik",
-            "engaged_at": "2026-06-16T07:26:46Z"
-          },
-          {
-            "title": "build: remove appstudio-utils",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3592",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3592,
-            "author": "fmudry",
-            "engaged_at": "2026-06-15T13:44:48Z"
-          },
-          {
-            "title": "fix: add e2e cleanup related priviledges to the clusterrole",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12363",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12363,
-            "author": "tisutisu",
-            "engaged_at": "2026-06-12T12:46:25Z"
-          },
-          {
-            "title": "Archive expired/deprecated build tasks",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3573",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3573,
-            "author": "chmeliik",
-            "engaged_at": "2026-06-08T15:19:48Z"
-          },
-          {
-            "title": "chore: remove `edit-pipeline-from-build-templates` rolebinding and update test-runner clusterrole",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12194",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12194,
-            "author": "tisutisu",
-            "engaged_at": "2026-06-04T08:51:45Z"
-          },
-          {
-            "title": "Use konflux-build-cli in buildah task",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3533",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3533,
-            "author": "chmeliik",
-            "engaged_at": "2026-05-25T13:27:30Z"
           }
         ]
       },
@@ -30579,6 +30566,196 @@
         ]
       },
       {
+        "login": "kubasikus",
+        "reviews": 23,
+        "prs": [
+          {
+            "title": "PVO11Y-5449 Add explicit openshift-logging namespace for lightwell-dev",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13601",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13601,
+            "author": "mike-kingsbury",
+            "engaged_at": "2026-08-19T14:36:45Z"
+          },
+          {
+            "title": "Applying nodeSelector and tolerations to cluster monitoring operator …",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13560",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13560,
+            "author": "mike-kingsbury",
+            "engaged_at": "2026-08-18T15:02:43Z"
+          },
+          {
+            "title": "Custom Kube State Metrics: Increase Resources",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13553",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13553,
+            "author": "martysp21",
+            "engaged_at": "2026-08-17T12:22:59Z"
+          },
+          {
+            "title": "fix(PVO11Y-5455): Parameterize release-policy in run-kanary-tests task",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13548",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13548,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-08-17T09:06:02Z"
+          },
+          {
+            "title": "feat(PVO11Y-5332): Forward Konflux Tenant-level Capacity metrics prd",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13356",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13356,
+            "author": "pacho-rh",
+            "engaged_at": "2026-08-07T07:06:46Z"
+          },
+          {
+            "title": "feat(PVO11Y-5332): Use 10min moving avg for cfs_throttled_periods",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13375",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13375,
+            "author": "pacho-rh",
+            "engaged_at": "2026-08-06T16:43:39Z"
+          },
+          {
+            "title": "PVO11Y-5372 - Update tracing production to monitoring directory",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13113",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13113,
+            "author": "raks-tt",
+            "engaged_at": "2026-07-21T07:24:46Z"
+          },
+          {
+            "title": "KFLUXVNGD-1117 Add normalized_uri to staging federation label allowlist",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13086",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13086,
+            "author": "amisstea",
+            "engaged_at": "2026-07-17T12:56:51Z"
+          },
+          {
+            "title": "PVO11Y-5360 Reorganize kanary staging RBAC and ServiceAccounts",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13065",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13065,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-16T08:22:43Z"
+          },
+          {
+            "title": "PVO11Y-5342 Clean up kanary staging params and add pre-cleanup step",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12880",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12880,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-14T10:59:20Z"
+          },
+          {
+            "title": "Add konflux o11y permissions to Tekton MS",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13013",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13013,
+            "author": "martysp21",
+            "engaged_at": "2026-07-14T09:53:28Z"
+          },
+          {
+            "title": "SPRE-5503: Add cert-manager metrics to production RHOBS federation",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13025",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13025,
+            "author": "pbusa-cell",
+            "engaged_at": "2026-07-14T07:52:19Z"
+          },
+          {
+            "title": "SPRE-5503: Add cert-manager metrics to production RHOBS federation",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13024",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13024,
+            "author": "pbusa-cell",
+            "engaged_at": "2026-07-14T07:33:09Z"
+          },
+          {
+            "title": "PVO11Y-5265 Fix stone-prod-p01 kanary multi-arch template",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12973",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12973,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-09T07:34:49Z"
+          },
+          {
+            "title": "SPRE-5502: Add cert-manager metrics to staging RHOBS federation",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12937",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12937,
+            "author": "pbusa-cell",
+            "engaged_at": "2026-07-07T10:34:09Z"
+          },
+          {
+            "title": "fix(KONFLUX-13202): Upsize cost-management-operator pod resource limits in production",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12896",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12896,
+            "author": "pumahaka",
+            "engaged_at": "2026-07-02T10:43:08Z"
+          },
+          {
+            "title": "fix(KONFLUX-13202): Upsize cost-management-operator pod resource limits",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12875",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12875,
+            "author": "pumahaka",
+            "engaged_at": "2026-06-30T14:35:25Z"
+          },
+          {
+            "title": "PVO11Y-5151 Enable metrics pipeline on production otel collector",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12777",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12777,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-06-29T07:47:15Z"
+          },
+          {
+            "title": "PVO11Y-5150 Stagger kanary cronjob schedules to reduce Kueue contention",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12818",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12818,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-06-26T13:45:47Z"
+          },
+          {
+            "title": "KFLUXINFRA-3770: add AI skills for infra-deployments",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12231",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12231,
+            "author": "glevi-rh",
+            "engaged_at": "2026-06-04T16:08:33Z"
+          },
+          {
+            "title": "feat(SPRE-4427): Update recording rule in prod.",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12153",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12153,
+            "author": "gcpsoares",
+            "engaged_at": "2026-06-04T08:52:23Z"
+          },
+          {
+            "title": "feat(SPRE-5169): Add konflux-ui probes (staging)",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11980",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 11980,
+            "author": "aurelbalteaux",
+            "engaged_at": "2026-05-26T09:00:01Z"
+          },
+          {
+            "title": "chore(STONEINTG-1594a): add prod endpoint params for image_rbac-proxy",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11916",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 11916,
+            "author": "jencull",
+            "engaged_at": "2026-05-25T08:51:16Z"
+          }
+        ]
+      },
+      {
         "login": "dheerajodha",
         "reviews": 22,
         "prs": [
@@ -30757,188 +30934,6 @@
             "number": 2,
             "author": "st3penta",
             "engaged_at": "2026-06-01T11:08:48Z"
-          }
-        ]
-      },
-      {
-        "login": "kubasikus",
-        "reviews": 22,
-        "prs": [
-          {
-            "title": "Applying nodeSelector and tolerations to cluster monitoring operator …",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13560",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13560,
-            "author": "mike-kingsbury",
-            "engaged_at": "2026-08-18T15:02:43Z"
-          },
-          {
-            "title": "Custom Kube State Metrics: Increase Resources",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13553",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13553,
-            "author": "martysp21",
-            "engaged_at": "2026-08-17T12:22:59Z"
-          },
-          {
-            "title": "fix(PVO11Y-5455): Parameterize release-policy in run-kanary-tests task",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13548",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13548,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-08-17T09:06:02Z"
-          },
-          {
-            "title": "feat(PVO11Y-5332): Forward Konflux Tenant-level Capacity metrics prd",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13356",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13356,
-            "author": "pacho-rh",
-            "engaged_at": "2026-08-07T07:06:46Z"
-          },
-          {
-            "title": "feat(PVO11Y-5332): Use 10min moving avg for cfs_throttled_periods",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13375",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13375,
-            "author": "pacho-rh",
-            "engaged_at": "2026-08-06T16:43:39Z"
-          },
-          {
-            "title": "PVO11Y-5372 - Update tracing production to monitoring directory",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13113",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13113,
-            "author": "raks-tt",
-            "engaged_at": "2026-07-21T07:24:46Z"
-          },
-          {
-            "title": "KFLUXVNGD-1117 Add normalized_uri to staging federation label allowlist",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13086",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13086,
-            "author": "amisstea",
-            "engaged_at": "2026-07-17T12:56:51Z"
-          },
-          {
-            "title": "PVO11Y-5360 Reorganize kanary staging RBAC and ServiceAccounts",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13065",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13065,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-16T08:22:43Z"
-          },
-          {
-            "title": "PVO11Y-5342 Clean up kanary staging params and add pre-cleanup step",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12880",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12880,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-14T10:59:20Z"
-          },
-          {
-            "title": "Add konflux o11y permissions to Tekton MS",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13013",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13013,
-            "author": "martysp21",
-            "engaged_at": "2026-07-14T09:53:28Z"
-          },
-          {
-            "title": "SPRE-5503: Add cert-manager metrics to production RHOBS federation",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13025",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13025,
-            "author": "pbusa-cell",
-            "engaged_at": "2026-07-14T07:52:19Z"
-          },
-          {
-            "title": "SPRE-5503: Add cert-manager metrics to production RHOBS federation",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13024",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13024,
-            "author": "pbusa-cell",
-            "engaged_at": "2026-07-14T07:33:09Z"
-          },
-          {
-            "title": "PVO11Y-5265 Fix stone-prod-p01 kanary multi-arch template",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12973",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12973,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-09T07:34:49Z"
-          },
-          {
-            "title": "SPRE-5502: Add cert-manager metrics to staging RHOBS federation",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12937",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12937,
-            "author": "pbusa-cell",
-            "engaged_at": "2026-07-07T10:34:09Z"
-          },
-          {
-            "title": "fix(KONFLUX-13202): Upsize cost-management-operator pod resource limits in production",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12896",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12896,
-            "author": "pumahaka",
-            "engaged_at": "2026-07-02T10:43:08Z"
-          },
-          {
-            "title": "fix(KONFLUX-13202): Upsize cost-management-operator pod resource limits",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12875",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12875,
-            "author": "pumahaka",
-            "engaged_at": "2026-06-30T14:35:25Z"
-          },
-          {
-            "title": "PVO11Y-5151 Enable metrics pipeline on production otel collector",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12777",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12777,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-06-29T07:47:15Z"
-          },
-          {
-            "title": "PVO11Y-5150 Stagger kanary cronjob schedules to reduce Kueue contention",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12818",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12818,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-06-26T13:45:47Z"
-          },
-          {
-            "title": "KFLUXINFRA-3770: add AI skills for infra-deployments",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12231",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12231,
-            "author": "glevi-rh",
-            "engaged_at": "2026-06-04T16:08:33Z"
-          },
-          {
-            "title": "feat(SPRE-4427): Update recording rule in prod.",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12153",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12153,
-            "author": "gcpsoares",
-            "engaged_at": "2026-06-04T08:52:23Z"
-          },
-          {
-            "title": "feat(SPRE-5169): Add konflux-ui probes (staging)",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11980",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 11980,
-            "author": "aurelbalteaux",
-            "engaged_at": "2026-05-26T09:00:01Z"
-          },
-          {
-            "title": "chore(STONEINTG-1594a): add prod endpoint params for image_rbac-proxy",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11916",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 11916,
-            "author": "jencull",
-            "engaged_at": "2026-05-25T08:51:16Z"
           }
         ]
       },
