@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:48:58.227021272Z",
+  "generated_at": "2026-08-19T14:15:22.710840115Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1589,7 +1589,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-08-19T09:46:10Z",
+      "updated_at": "2026-08-19T14:06:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1619,7 +1619,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-08-19T09:35:11Z",
+      "updated_at": "2026-08-19T14:08:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1649,7 +1649,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-08-19T09:35:59Z",
+      "updated_at": "2026-08-19T14:08:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1678,7 +1678,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:48Z",
-      "updated_at": "2026-08-19T09:36:02Z",
+      "updated_at": "2026-08-19T14:08:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1793,7 +1793,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-08-19T09:36:24Z",
+      "updated_at": "2026-08-19T14:10:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2268,7 +2268,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-08-19T09:40:08Z",
+      "updated_at": "2026-08-19T14:09:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2297,7 +2297,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-08-19T09:44:06Z",
+      "updated_at": "2026-08-19T14:04:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2383,10 +2383,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-08-19T09:42:59Z",
+      "updated_at": "2026-08-19T14:06:41Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2662,7 +2662,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-08-19T09:42:36Z",
+      "updated_at": "2026-08-19T14:09:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2858,10 +2858,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-07T17:25:20Z",
-      "updated_at": "2026-08-19T09:50:14Z",
+      "updated_at": "2026-08-19T14:10:45Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2914,7 +2914,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-07T17:32:00Z",
-      "updated_at": "2026-08-19T09:36:30Z",
+      "updated_at": "2026-08-19T14:10:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3041,35 +3041,6 @@
         "release-v0.7",
         "size: M",
         "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Use ValidateVSAAndComparePolicy for ec validate image VSA skip",
-      "url": "https://github.com/conforma/cli/pull/3489",
-      "number": 3489,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-08-11T08:59:41Z",
-      "updated_at": "2026-08-19T10:35:24Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "bug",
-        "documentation",
-        "major",
-        "size: XL",
-        "Possible security concern",
-        "cli"
       ]
     },
     {
@@ -4707,7 +4678,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:24Z",
-      "updated_at": "2026-08-14T23:46:53Z",
+      "updated_at": "2026-08-19T13:59:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4746,30 +4717,6 @@
       "labels": [
         "renovate",
         "release-v0.7",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Create PRs instead of pushing directly to protected branches",
-      "url": "https://github.com/conforma/tekton-catalog/pull/261",
-      "number": 261,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-08-18T09:54:37Z",
-      "updated_at": "2026-08-19T13:41:48Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -7029,12 +6976,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-21T13:45:59Z",
+    "since": "2026-05-21T14:12:18Z",
     "reviewers": [
       {
         "login": "tekton-robot",
-        "reviews": 208,
+        "reviews": 209,
         "prs": [
+          {
+            "title": "chore(deps): bump golang.org/x/crypto from 0.54.0 to 0.55.0 in the all group",
+            "url": "https://github.com/tektoncd/chains/pull/1895",
+            "repo": "tektoncd/chains",
+            "number": 1895,
+            "author": "dependabot",
+            "engaged_at": "2026-08-19T14:13:57Z"
+          },
           {
             "title": "chore(deps): bump the all group with 2 updates",
             "url": "https://github.com/tektoncd/chains/pull/1889",
@@ -9773,8 +9728,16 @@
       },
       {
         "login": "johnbieren",
-        "reviews": 129,
+        "reviews": 130,
         "prs": [
+          {
+            "title": "fix: bump release-service-utils image for cdn push",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2477",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2477,
+            "author": "swickersh",
+            "engaged_at": "2026-08-19T13:56:21Z"
+          },
           {
             "title": "fix(KFLUXSPRT-8470): add pulpTaskTimeout param to disk images push",
             "url": "https://github.com/konflux-ci/release-service-catalog/pull/2404",
@@ -12794,6 +12757,14 @@
         "reviews": 114,
         "prs": [
           {
+            "title": "Use ValidateVSAAndComparePolicy for ec validate image VSA skip",
+            "url": "https://github.com/conforma/cli/pull/3489",
+            "repo": "conforma/cli",
+            "number": 3489,
+            "author": "st3penta",
+            "engaged_at": "2026-08-19T13:55:31Z"
+          },
+          {
             "title": "Update github actions (main) (patch)",
             "url": "https://github.com/conforma/cli/pull/3478",
             "repo": "conforma/cli",
@@ -12824,14 +12795,6 @@
             "number": 3504,
             "author": "fullsend-ai-coder",
             "engaged_at": "2026-08-18T21:26:41Z"
-          },
-          {
-            "title": "Use ValidateVSAAndComparePolicy for ec validate image VSA skip",
-            "url": "https://github.com/conforma/cli/pull/3489",
-            "repo": "conforma/cli",
-            "number": 3489,
-            "author": "st3penta",
-            "engaged_at": "2026-08-18T20:01:32Z"
           },
           {
             "title": "chore(deps): Update ubi-minimal base image",
@@ -17474,620 +17437,6 @@
         ]
       },
       {
-        "login": "davidmogar",
-        "reviews": 76,
-        "prs": [
-          {
-            "title": "fix(RELEASE-2747): symlink extraction in push-artifacts-to-cdn",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2457",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2457,
-            "author": "johnbieren",
-            "engaged_at": "2026-08-19T07:09:47Z"
-          },
-          {
-            "title": "fix: bump release-service-utils image for dual-compression dedup",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2349",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2349,
-            "author": "Amanyd",
-            "engaged_at": "2026-08-17T08:20:04Z"
-          },
-          {
-            "title": "feat(RELEASE-2491): convert extract-oot-kmods task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2426",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2426,
-            "author": "querti",
-            "engaged_at": "2026-08-17T08:19:49Z"
-          },
-          {
-            "title": "fix(CALUNGA-292): switching signature verification to use classic chains",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2464",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2464,
-            "author": "dperaza4dustbit",
-            "engaged_at": "2026-08-17T08:09:14Z"
-          },
-          {
-            "title": "fix(RELEASE-2749): bump release-service-utils image for cdn push",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2445",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2445,
-            "author": "swickersh",
-            "engaged_at": "2026-08-17T08:06:51Z"
-          },
-          {
-            "title": "Revert \"refactor(RELEASE-1990): convert pulp-push-disk-images to python\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2466",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2466,
-            "author": "happybhati",
-            "engaged_at": "2026-08-14T08:46:20Z"
-          },
-          {
-            "title": "Revert \"refactor(RELEASE-1990): convert pulp-push-disk-images to python\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2465",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2465,
-            "author": "happybhati",
-            "engaged_at": "2026-08-14T08:45:56Z"
-          },
-          {
-            "title": "chore: bump Conforma version to 2026-08-11 release",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2459",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2459,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-13T12:22:04Z"
-          },
-          {
-            "title": "feat(ISV-7551): Pin direct signing pipelines + image",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2441",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2441,
-            "author": "kosciCZ",
-            "engaged_at": "2026-08-06T08:57:04Z"
-          },
-          {
-            "title": "refactor(RELEASE-2539): convert validate-single-component to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2438",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2438,
-            "author": "johnbieren",
-            "engaged_at": "2026-08-05T13:21:25Z"
-          },
-          {
-            "title": "Revert isv 6620 prod",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2437",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2437,
-            "author": "midnightercz",
-            "engaged_at": "2026-08-04T11:13:02Z"
-          },
-          {
-            "title": "Revert \"feat(ISV-6620): increase direct signing concurrent limit to 24\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2436",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2436,
-            "author": "midnightercz",
-            "engaged_at": "2026-08-04T11:12:33Z"
-          },
-          {
-            "title": "Revert \"feat(ISV-6620): increase direct signing concurrent limit to 24\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2434",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2434,
-            "author": "Allda",
-            "engaged_at": "2026-08-04T10:49:37Z"
-          },
-          {
-            "title": "fix(ISV-7116): update utils image in direct signing tasks",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2429",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2429,
-            "author": "Allda",
-            "engaged_at": "2026-08-03T13:41:15Z"
-          },
-          {
-            "title": "refactor(RELEASE-2485): convert create-advisory to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2383",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2383,
-            "author": "johnbieren",
-            "engaged_at": "2026-08-03T09:59:29Z"
-          },
-          {
-            "title": "refactor(RELEASE-1990): convert pulp-push-disk-images internal task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2267",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2267,
-            "author": "happybhati",
-            "engaged_at": "2026-07-30T13:38:20Z"
-          },
-          {
-            "title": "chore: double memory from oomkilled tasks",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2419",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2419,
-            "author": "johnbieren",
-            "engaged_at": "2026-07-30T10:33:18Z"
-          },
-          {
-            "title": "feat(RELEASE-2503): convert publish-to-mrrc steps to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2401",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2401,
-            "author": "seanconroy2021",
-            "engaged_at": "2026-07-30T10:32:37Z"
-          },
-          {
-            "title": "Revert \"feat(RELEASE-1976): sign both identities in one cosign command\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2416",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2416,
-            "author": "midnightercz",
-            "engaged_at": "2026-07-28T10:22:24Z"
-          },
-          {
-            "title": "Revert release 1976 staging",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2417",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2417,
-            "author": "midnightercz",
-            "engaged_at": "2026-07-28T09:50:09Z"
-          },
-          {
-            "title": "chore: add David and Johnny as codeowners",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2409",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2409,
-            "author": "johnbieren",
-            "engaged_at": "2026-07-22T15:21:31Z"
-          },
-          {
-            "title": "feat(RELEASE-2482): convert collect-slack-notification-params to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2368",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2368,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-07-16T11:25:40Z"
-          },
-          {
-            "title": "feat(ISV-7321): use direct-sign-index-image in fbc-release pipeline",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2382",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2382,
-            "author": "JakubDurkac",
-            "engaged_at": "2026-07-16T11:13:26Z"
-          },
-          {
-            "title": "fix: use literal results path in pipeline script params",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2389",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2389,
-            "author": "mmalina",
-            "engaged_at": "2026-07-16T06:45:27Z"
-          },
-          {
-            "title": "fix(KONFLUX-10809): fail incrementer on empty tag list",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2328",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2328,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-07-13T14:11:17Z"
-          },
-          {
-            "title": "feat(ISV-7115): add rh-direct-sign-image task",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2301",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2301,
-            "author": "Allda",
-            "engaged_at": "2026-07-13T14:10:58Z"
-          },
-          {
-            "title": "refactor(RELEASE-2475): convert close-advisory-issues to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2344",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2344,
-            "author": "johnbieren",
-            "engaged_at": "2026-07-13T14:10:22Z"
-          },
-          {
-            "title": "feat(CALUNGA-364): get pulp information from RPA for calunga releases",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2358",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2358,
-            "author": "tonisbones",
-            "engaged_at": "2026-07-13T14:10:06Z"
-          },
-          {
-            "title": "refactor(RELEASE-2479): convert collect-index-images to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2327",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2327,
-            "author": "johnbieren",
-            "engaged_at": "2026-07-08T08:44:35Z"
-          },
-          {
-            "title": "chore: bump verify-conforma-konflux-ta task revision",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2347",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2347,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-06T13:27:20Z"
-          },
-          {
-            "title": "feat(RELEASE-2474): convert cleanup-workspace task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2325",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2325,
-            "author": "querti",
-            "engaged_at": "2026-07-02T13:07:10Z"
-          },
-          {
-            "title": "refactor(RELEASE-2471): convert check-data-keys to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2308",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2308,
-            "author": "johnbieren",
-            "engaged_at": "2026-06-30T14:37:26Z"
-          },
-          {
-            "title": "refactor(RELEASE-2508): convert publish-pyxis-repo to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2275",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2275,
-            "author": "johnbieren",
-            "engaged_at": "2026-06-30T09:32:43Z"
-          },
-          {
-            "title": "refactor(RELEASE-2473): convert cleanup-internal-requests task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2300",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2300,
-            "author": "querti",
-            "engaged_at": "2026-06-30T09:32:20Z"
-          },
-          {
-            "title": "fix(RELEASE-2679): support binary staged.files in release notes",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2318",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2318,
-            "author": "swickersh",
-            "engaged_at": "2026-06-30T09:30:01Z"
-          },
-          {
-            "title": "feat(RELEASE-2472): use python check-labels implementation",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2287",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2287,
-            "author": "querti",
-            "engaged_at": "2026-06-30T09:23:05Z"
-          },
-          {
-            "title": "chore: bump verify-conforma-konflux-ta task revision",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2313",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2313,
-            "author": "joejstuart",
-            "engaged_at": "2026-06-26T08:37:57Z"
-          },
-          {
-            "title": "fix(HUM-2609): remove oversized task results from filter-already-released-advisory-rpms",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2316",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2316,
-            "author": "scoheb",
-            "engaged_at": "2026-06-26T08:37:42Z"
-          },
-          {
-            "title": "Revert \"feat(RELEASE-1993): convert update-fbc-catalog-task to Python\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2323",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2323,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-26T08:37:16Z"
-          },
-          {
-            "title": "Revert \"feat(RELEASE-1993): convert update-fbc-catalog-task to Python\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2317",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2317,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-24T15:42:30Z"
-          },
-          {
-            "title": "feat(RELEASE-2494): convert extract-checksums-from-image to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2288",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2288,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-24T14:13:37Z"
-          },
-          {
-            "title": "fix(KONFLUX-14326): fix PR links in update-infra-deployments",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2311",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2311,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-24T14:05:34Z"
-          },
-          {
-            "title": "feat(RELEASE-2469): convert base64-encode-checksum to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2295",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2295,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-23T13:18:57Z"
-          },
-          {
-            "title": "feat(RELEASE-2499): switch make-repo-public task to Python script",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2258",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2258,
-            "author": "querti",
-            "engaged_at": "2026-06-23T13:18:34Z"
-          },
-          {
-            "title": "feat(RELEASE-2214): add multi-version opt-in scenario",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2213",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2213,
-            "author": "theflockers",
-            "engaged_at": "2026-06-23T13:16:15Z"
-          },
-          {
-            "title": "feat(RELEASE-1991): push-artifacts-to-cdn uses python scripts",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2228",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2228,
-            "author": "swickersh",
-            "engaged_at": "2026-06-23T13:15:59Z"
-          },
-          {
-            "title": "fix(RELEASE-2552): Update artifact pipeline image",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2307",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2307,
-            "author": "swickersh",
-            "engaged_at": "2026-06-23T13:15:21Z"
-          },
-          {
-            "title": "chore(deps): update quay.io/conforma/cli docker digest to 1e2ed4e",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2211",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2211,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-06-23T13:14:55Z"
-          },
-          {
-            "title": "feat(RELEASE-2419): add appendTags support",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2291",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2291,
-            "author": "mmalina",
-            "engaged_at": "2026-06-18T14:43:28Z"
-          },
-          {
-            "title": "feat(RELEASE-2641): add intention label to signing requests",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2294",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2294,
-            "author": "mmalina",
-            "engaged_at": "2026-06-18T14:42:51Z"
-          },
-          {
-            "title": "fix: add contentGateway to push-artifacts-to-cdn",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2303",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2303,
-            "author": "seanconroy2021",
-            "engaged_at": "2026-06-18T14:41:57Z"
-          },
-          {
-            "title": "feat(RELEASE-2463): replace appstudio-utils with release-service-utils",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2305",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2305,
-            "author": "mmalina",
-            "engaged_at": "2026-06-18T14:40:43Z"
-          },
-          {
-            "title": "fix: fix bump-conforma-revision.sh and update conforma task",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2309",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2309,
-            "author": "joejstuart",
-            "engaged_at": "2026-06-18T13:33:54Z"
-          },
-          {
-            "title": "feat(RELEASE-1993): convert update-fbc-catalog-task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2268",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2268,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-18T11:19:37Z"
-          },
-          {
-            "title": "refactor(RELEASE-2533): convert update-infra-deployments to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2254",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2254,
-            "author": "johnbieren",
-            "engaged_at": "2026-06-16T11:05:30Z"
-          },
-          {
-            "title": "Promote release-service and grafana-dashboard from staging to production",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12326",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12326,
-            "author": "johnbieren",
-            "engaged_at": "2026-06-16T07:29:59Z"
-          },
-          {
-            "title": "feat(EC-1868): use conforma/tekton-catalog for verify-conforma task",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2271",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2271,
-            "author": "simonbaird",
-            "engaged_at": "2026-06-15T10:16:23Z"
-          },
-          {
-            "title": "fix: generate catalog URLs regardless of publishing state",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2279",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2279,
-            "author": "jangel97",
-            "engaged_at": "2026-06-15T10:15:56Z"
-          },
-          {
-            "title": "fix(KONFLUX-14326): fix PR links in update-infra-deployments task",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2289",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2289,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-15T10:15:08Z"
-          },
-          {
-            "title": "refactor(RELEASE-1985): convert create-advisory internal task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2244",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2244,
-            "author": "johnbieren",
-            "engaged_at": "2026-06-11T10:58:07Z"
-          },
-          {
-            "title": "RELEASE-2015: add {{ component-incrementer }} for uniform multi-repo tags",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2245",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2245,
-            "author": "happybhati",
-            "engaged_at": "2026-06-11T10:54:38Z"
-          },
-          {
-            "title": "fix(RELEASE-2237): add version verification before publishing",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2005",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2005,
-            "author": "theflockers",
-            "engaged_at": "2026-06-11T10:52:06Z"
-          },
-          {
-            "title": "fix(HUM-2319): enable strict mode for verify-conforma in push-rpms-to-pulp pipeline",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2282",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2282,
-            "author": "scoheb",
-            "engaged_at": "2026-06-11T10:48:18Z"
-          },
-          {
-            "title": "feat(HUM-2061): optimize filter-already-released-advisory-rpms for speed and reliability",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2233",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2233,
-            "author": "scoheb",
-            "engaged_at": "2026-06-08T07:30:52Z"
-          },
-          {
-            "title": "fix(RELEASE-2544): initialise checksum_map result before early exit",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2266",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2266,
-            "author": "swickersh",
-            "engaged_at": "2026-06-08T07:30:36Z"
-          },
-          {
-            "title": "feat(HUM-2151): add createOciArtifact param to rh-sign-rpm",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2246",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2246,
-            "author": "scoheb",
-            "engaged_at": "2026-06-08T07:30:26Z"
-          },
-          {
-            "title": "fix(RELEASE-2367): bump utils image in push-disk-images tasks",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2251",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2251,
-            "author": "swickersh",
-            "engaged_at": "2026-06-02T14:29:11Z"
-          },
-          {
-            "title": "chore(CALUNGA-261): nudge plumbing-utils in upload-py-pulp",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2243",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2243,
-            "author": "ronnll",
-            "engaged_at": "2026-05-29T09:14:12Z"
-          },
-          {
-            "title": "fix(RELEASE-2253): prevent redundant tags on pre-GA and hotfix index images",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2189",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2189,
-            "author": "happybhati",
-            "engaged_at": "2026-05-29T09:11:19Z"
-          },
-          {
-            "title": "feat(HUM-2067): test infra interactive mode",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2237",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2237,
-            "author": "scoheb",
-            "engaged_at": "2026-05-27T21:14:01Z"
-          },
-          {
-            "title": "feat(HUM-2065): signing key support in tasks",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2235",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2235,
-            "author": "scoheb",
-            "engaged_at": "2026-05-27T12:22:54Z"
-          },
-          {
-            "title": "feat(HUM-2062): enhance rh-sign-rpm task",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2234",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2234,
-            "author": "scoheb",
-            "engaged_at": "2026-05-27T12:20:43Z"
-          },
-          {
-            "title": "test(RELEASE-2324): use noarch-only scenario in push-rpms-to-pulp e2e",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2231",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2231,
-            "author": "elenagerman",
-            "engaged_at": "2026-05-27T12:17:57Z"
-          },
-          {
-            "title": "refactor(RELEASE-1984): convert check-fbc-opt-in to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2194",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2194,
-            "author": "johnbieren",
-            "engaged_at": "2026-05-27T12:16:58Z"
-          },
-          {
-            "title": "internal-services update",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11959",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 11959,
-            "author": "rh-tap-build-team",
-            "engaged_at": "2026-05-27T12:15:10Z"
-          },
-          {
-            "title": "fix(KONFLUX-12187): filter-advisory-images keeps image on fail",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2226",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2226,
-            "author": "johnbieren",
-            "engaged_at": "2026-05-21T13:47:16Z"
-          }
-        ]
-      },
-      {
         "login": "seanconroy2021",
         "reviews": 76,
         "prs": [
@@ -18698,6 +18047,612 @@
             "number": 1674,
             "author": "FilipNikolovski",
             "engaged_at": "2026-05-26T08:10:45Z"
+          }
+        ]
+      },
+      {
+        "login": "davidmogar",
+        "reviews": 75,
+        "prs": [
+          {
+            "title": "fix(RELEASE-2747): symlink extraction in push-artifacts-to-cdn",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2457",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2457,
+            "author": "johnbieren",
+            "engaged_at": "2026-08-19T07:09:47Z"
+          },
+          {
+            "title": "fix: bump release-service-utils image for dual-compression dedup",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2349",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2349,
+            "author": "Amanyd",
+            "engaged_at": "2026-08-17T08:20:04Z"
+          },
+          {
+            "title": "feat(RELEASE-2491): convert extract-oot-kmods task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2426",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2426,
+            "author": "querti",
+            "engaged_at": "2026-08-17T08:19:49Z"
+          },
+          {
+            "title": "fix(CALUNGA-292): switching signature verification to use classic chains",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2464",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2464,
+            "author": "dperaza4dustbit",
+            "engaged_at": "2026-08-17T08:09:14Z"
+          },
+          {
+            "title": "fix(RELEASE-2749): bump release-service-utils image for cdn push",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2445",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2445,
+            "author": "swickersh",
+            "engaged_at": "2026-08-17T08:06:51Z"
+          },
+          {
+            "title": "Revert \"refactor(RELEASE-1990): convert pulp-push-disk-images to python\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2466",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2466,
+            "author": "happybhati",
+            "engaged_at": "2026-08-14T08:46:20Z"
+          },
+          {
+            "title": "Revert \"refactor(RELEASE-1990): convert pulp-push-disk-images to python\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2465",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2465,
+            "author": "happybhati",
+            "engaged_at": "2026-08-14T08:45:56Z"
+          },
+          {
+            "title": "chore: bump Conforma version to 2026-08-11 release",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2459",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2459,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-13T12:22:04Z"
+          },
+          {
+            "title": "feat(ISV-7551): Pin direct signing pipelines + image",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2441",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2441,
+            "author": "kosciCZ",
+            "engaged_at": "2026-08-06T08:57:04Z"
+          },
+          {
+            "title": "refactor(RELEASE-2539): convert validate-single-component to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2438",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2438,
+            "author": "johnbieren",
+            "engaged_at": "2026-08-05T13:21:25Z"
+          },
+          {
+            "title": "Revert isv 6620 prod",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2437",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2437,
+            "author": "midnightercz",
+            "engaged_at": "2026-08-04T11:13:02Z"
+          },
+          {
+            "title": "Revert \"feat(ISV-6620): increase direct signing concurrent limit to 24\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2436",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2436,
+            "author": "midnightercz",
+            "engaged_at": "2026-08-04T11:12:33Z"
+          },
+          {
+            "title": "Revert \"feat(ISV-6620): increase direct signing concurrent limit to 24\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2434",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2434,
+            "author": "Allda",
+            "engaged_at": "2026-08-04T10:49:37Z"
+          },
+          {
+            "title": "fix(ISV-7116): update utils image in direct signing tasks",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2429",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2429,
+            "author": "Allda",
+            "engaged_at": "2026-08-03T13:41:15Z"
+          },
+          {
+            "title": "refactor(RELEASE-2485): convert create-advisory to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2383",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2383,
+            "author": "johnbieren",
+            "engaged_at": "2026-08-03T09:59:29Z"
+          },
+          {
+            "title": "refactor(RELEASE-1990): convert pulp-push-disk-images internal task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2267",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2267,
+            "author": "happybhati",
+            "engaged_at": "2026-07-30T13:38:20Z"
+          },
+          {
+            "title": "chore: double memory from oomkilled tasks",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2419",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2419,
+            "author": "johnbieren",
+            "engaged_at": "2026-07-30T10:33:18Z"
+          },
+          {
+            "title": "feat(RELEASE-2503): convert publish-to-mrrc steps to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2401",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2401,
+            "author": "seanconroy2021",
+            "engaged_at": "2026-07-30T10:32:37Z"
+          },
+          {
+            "title": "Revert \"feat(RELEASE-1976): sign both identities in one cosign command\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2416",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2416,
+            "author": "midnightercz",
+            "engaged_at": "2026-07-28T10:22:24Z"
+          },
+          {
+            "title": "Revert release 1976 staging",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2417",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2417,
+            "author": "midnightercz",
+            "engaged_at": "2026-07-28T09:50:09Z"
+          },
+          {
+            "title": "chore: add David and Johnny as codeowners",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2409",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2409,
+            "author": "johnbieren",
+            "engaged_at": "2026-07-22T15:21:31Z"
+          },
+          {
+            "title": "feat(RELEASE-2482): convert collect-slack-notification-params to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2368",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2368,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-07-16T11:25:40Z"
+          },
+          {
+            "title": "feat(ISV-7321): use direct-sign-index-image in fbc-release pipeline",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2382",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2382,
+            "author": "JakubDurkac",
+            "engaged_at": "2026-07-16T11:13:26Z"
+          },
+          {
+            "title": "fix: use literal results path in pipeline script params",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2389",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2389,
+            "author": "mmalina",
+            "engaged_at": "2026-07-16T06:45:27Z"
+          },
+          {
+            "title": "fix(KONFLUX-10809): fail incrementer on empty tag list",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2328",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2328,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-07-13T14:11:17Z"
+          },
+          {
+            "title": "feat(ISV-7115): add rh-direct-sign-image task",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2301",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2301,
+            "author": "Allda",
+            "engaged_at": "2026-07-13T14:10:58Z"
+          },
+          {
+            "title": "refactor(RELEASE-2475): convert close-advisory-issues to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2344",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2344,
+            "author": "johnbieren",
+            "engaged_at": "2026-07-13T14:10:22Z"
+          },
+          {
+            "title": "feat(CALUNGA-364): get pulp information from RPA for calunga releases",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2358",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2358,
+            "author": "tonisbones",
+            "engaged_at": "2026-07-13T14:10:06Z"
+          },
+          {
+            "title": "refactor(RELEASE-2479): convert collect-index-images to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2327",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2327,
+            "author": "johnbieren",
+            "engaged_at": "2026-07-08T08:44:35Z"
+          },
+          {
+            "title": "chore: bump verify-conforma-konflux-ta task revision",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2347",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2347,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-06T13:27:20Z"
+          },
+          {
+            "title": "feat(RELEASE-2474): convert cleanup-workspace task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2325",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2325,
+            "author": "querti",
+            "engaged_at": "2026-07-02T13:07:10Z"
+          },
+          {
+            "title": "refactor(RELEASE-2471): convert check-data-keys to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2308",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2308,
+            "author": "johnbieren",
+            "engaged_at": "2026-06-30T14:37:26Z"
+          },
+          {
+            "title": "refactor(RELEASE-2508): convert publish-pyxis-repo to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2275",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2275,
+            "author": "johnbieren",
+            "engaged_at": "2026-06-30T09:32:43Z"
+          },
+          {
+            "title": "refactor(RELEASE-2473): convert cleanup-internal-requests task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2300",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2300,
+            "author": "querti",
+            "engaged_at": "2026-06-30T09:32:20Z"
+          },
+          {
+            "title": "fix(RELEASE-2679): support binary staged.files in release notes",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2318",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2318,
+            "author": "swickersh",
+            "engaged_at": "2026-06-30T09:30:01Z"
+          },
+          {
+            "title": "feat(RELEASE-2472): use python check-labels implementation",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2287",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2287,
+            "author": "querti",
+            "engaged_at": "2026-06-30T09:23:05Z"
+          },
+          {
+            "title": "chore: bump verify-conforma-konflux-ta task revision",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2313",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2313,
+            "author": "joejstuart",
+            "engaged_at": "2026-06-26T08:37:57Z"
+          },
+          {
+            "title": "fix(HUM-2609): remove oversized task results from filter-already-released-advisory-rpms",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2316",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2316,
+            "author": "scoheb",
+            "engaged_at": "2026-06-26T08:37:42Z"
+          },
+          {
+            "title": "Revert \"feat(RELEASE-1993): convert update-fbc-catalog-task to Python\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2323",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2323,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-26T08:37:16Z"
+          },
+          {
+            "title": "Revert \"feat(RELEASE-1993): convert update-fbc-catalog-task to Python\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2317",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2317,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-24T15:42:30Z"
+          },
+          {
+            "title": "feat(RELEASE-2494): convert extract-checksums-from-image to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2288",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2288,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-24T14:13:37Z"
+          },
+          {
+            "title": "fix(KONFLUX-14326): fix PR links in update-infra-deployments",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2311",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2311,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-24T14:05:34Z"
+          },
+          {
+            "title": "feat(RELEASE-2469): convert base64-encode-checksum to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2295",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2295,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-23T13:18:57Z"
+          },
+          {
+            "title": "feat(RELEASE-2499): switch make-repo-public task to Python script",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2258",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2258,
+            "author": "querti",
+            "engaged_at": "2026-06-23T13:18:34Z"
+          },
+          {
+            "title": "feat(RELEASE-2214): add multi-version opt-in scenario",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2213",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2213,
+            "author": "theflockers",
+            "engaged_at": "2026-06-23T13:16:15Z"
+          },
+          {
+            "title": "feat(RELEASE-1991): push-artifacts-to-cdn uses python scripts",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2228",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2228,
+            "author": "swickersh",
+            "engaged_at": "2026-06-23T13:15:59Z"
+          },
+          {
+            "title": "fix(RELEASE-2552): Update artifact pipeline image",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2307",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2307,
+            "author": "swickersh",
+            "engaged_at": "2026-06-23T13:15:21Z"
+          },
+          {
+            "title": "chore(deps): update quay.io/conforma/cli docker digest to 1e2ed4e",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2211",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2211,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-06-23T13:14:55Z"
+          },
+          {
+            "title": "feat(RELEASE-2419): add appendTags support",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2291",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2291,
+            "author": "mmalina",
+            "engaged_at": "2026-06-18T14:43:28Z"
+          },
+          {
+            "title": "feat(RELEASE-2641): add intention label to signing requests",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2294",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2294,
+            "author": "mmalina",
+            "engaged_at": "2026-06-18T14:42:51Z"
+          },
+          {
+            "title": "fix: add contentGateway to push-artifacts-to-cdn",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2303",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2303,
+            "author": "seanconroy2021",
+            "engaged_at": "2026-06-18T14:41:57Z"
+          },
+          {
+            "title": "feat(RELEASE-2463): replace appstudio-utils with release-service-utils",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2305",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2305,
+            "author": "mmalina",
+            "engaged_at": "2026-06-18T14:40:43Z"
+          },
+          {
+            "title": "fix: fix bump-conforma-revision.sh and update conforma task",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2309",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2309,
+            "author": "joejstuart",
+            "engaged_at": "2026-06-18T13:33:54Z"
+          },
+          {
+            "title": "feat(RELEASE-1993): convert update-fbc-catalog-task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2268",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2268,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-18T11:19:37Z"
+          },
+          {
+            "title": "refactor(RELEASE-2533): convert update-infra-deployments to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2254",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2254,
+            "author": "johnbieren",
+            "engaged_at": "2026-06-16T11:05:30Z"
+          },
+          {
+            "title": "Promote release-service and grafana-dashboard from staging to production",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12326",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12326,
+            "author": "johnbieren",
+            "engaged_at": "2026-06-16T07:29:59Z"
+          },
+          {
+            "title": "feat(EC-1868): use conforma/tekton-catalog for verify-conforma task",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2271",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2271,
+            "author": "simonbaird",
+            "engaged_at": "2026-06-15T10:16:23Z"
+          },
+          {
+            "title": "fix: generate catalog URLs regardless of publishing state",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2279",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2279,
+            "author": "jangel97",
+            "engaged_at": "2026-06-15T10:15:56Z"
+          },
+          {
+            "title": "fix(KONFLUX-14326): fix PR links in update-infra-deployments task",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2289",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2289,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-15T10:15:08Z"
+          },
+          {
+            "title": "refactor(RELEASE-1985): convert create-advisory internal task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2244",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2244,
+            "author": "johnbieren",
+            "engaged_at": "2026-06-11T10:58:07Z"
+          },
+          {
+            "title": "RELEASE-2015: add {{ component-incrementer }} for uniform multi-repo tags",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2245",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2245,
+            "author": "happybhati",
+            "engaged_at": "2026-06-11T10:54:38Z"
+          },
+          {
+            "title": "fix(RELEASE-2237): add version verification before publishing",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2005",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2005,
+            "author": "theflockers",
+            "engaged_at": "2026-06-11T10:52:06Z"
+          },
+          {
+            "title": "fix(HUM-2319): enable strict mode for verify-conforma in push-rpms-to-pulp pipeline",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2282",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2282,
+            "author": "scoheb",
+            "engaged_at": "2026-06-11T10:48:18Z"
+          },
+          {
+            "title": "feat(HUM-2061): optimize filter-already-released-advisory-rpms for speed and reliability",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2233",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2233,
+            "author": "scoheb",
+            "engaged_at": "2026-06-08T07:30:52Z"
+          },
+          {
+            "title": "fix(RELEASE-2544): initialise checksum_map result before early exit",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2266",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2266,
+            "author": "swickersh",
+            "engaged_at": "2026-06-08T07:30:36Z"
+          },
+          {
+            "title": "feat(HUM-2151): add createOciArtifact param to rh-sign-rpm",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2246",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2246,
+            "author": "scoheb",
+            "engaged_at": "2026-06-08T07:30:26Z"
+          },
+          {
+            "title": "fix(RELEASE-2367): bump utils image in push-disk-images tasks",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2251",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2251,
+            "author": "swickersh",
+            "engaged_at": "2026-06-02T14:29:11Z"
+          },
+          {
+            "title": "chore(CALUNGA-261): nudge plumbing-utils in upload-py-pulp",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2243",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2243,
+            "author": "ronnll",
+            "engaged_at": "2026-05-29T09:14:12Z"
+          },
+          {
+            "title": "fix(RELEASE-2253): prevent redundant tags on pre-GA and hotfix index images",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2189",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2189,
+            "author": "happybhati",
+            "engaged_at": "2026-05-29T09:11:19Z"
+          },
+          {
+            "title": "feat(HUM-2067): test infra interactive mode",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2237",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2237,
+            "author": "scoheb",
+            "engaged_at": "2026-05-27T21:14:01Z"
+          },
+          {
+            "title": "feat(HUM-2065): signing key support in tasks",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2235",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2235,
+            "author": "scoheb",
+            "engaged_at": "2026-05-27T12:22:54Z"
+          },
+          {
+            "title": "feat(HUM-2062): enhance rh-sign-rpm task",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2234",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2234,
+            "author": "scoheb",
+            "engaged_at": "2026-05-27T12:20:43Z"
+          },
+          {
+            "title": "test(RELEASE-2324): use noarch-only scenario in push-rpms-to-pulp e2e",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2231",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2231,
+            "author": "elenagerman",
+            "engaged_at": "2026-05-27T12:17:57Z"
+          },
+          {
+            "title": "refactor(RELEASE-1984): convert check-fbc-opt-in to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2194",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2194,
+            "author": "johnbieren",
+            "engaged_at": "2026-05-27T12:16:58Z"
+          },
+          {
+            "title": "internal-services update",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11959",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 11959,
+            "author": "rh-tap-build-team",
+            "engaged_at": "2026-05-27T12:15:10Z"
           }
         ]
       },
@@ -19890,588 +19845,6 @@
         ]
       },
       {
-        "login": "st3penta",
-        "reviews": 72,
-        "prs": [
-          {
-            "title": "Create PRs instead of pushing directly to protected branches",
-            "url": "https://github.com/conforma/tekton-catalog/pull/261",
-            "repo": "conforma/tekton-catalog",
-            "number": 261,
-            "author": "jsmid1",
-            "engaged_at": "2026-08-19T13:41:48Z"
-          },
-          {
-            "title": "Allow PNC SLSA build type for PipelineRun attestations",
-            "url": "https://github.com/conforma/policy/pull/1816",
-            "repo": "conforma/policy",
-            "number": 1816,
-            "author": "vnadempa",
-            "engaged_at": "2026-08-19T12:53:39Z"
-          },
-          {
-            "title": "Restore commented out acceptance test scenario",
-            "url": "https://github.com/conforma/cli/pull/3505",
-            "repo": "conforma/cli",
-            "number": 3505,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-19T09:30:07Z"
-          },
-          {
-            "title": "Add attended scripts for multi-branch UBI bump and module update PRs",
-            "url": "https://github.com/conforma/cli/pull/3430",
-            "repo": "conforma/cli",
-            "number": 3430,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-19T08:38:35Z"
-          },
-          {
-            "title": "Skip test_data_found when test-result attestations exist",
-            "url": "https://github.com/conforma/policy/pull/1805",
-            "repo": "conforma/policy",
-            "number": 1805,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-13T14:42:46Z"
-          },
-          {
-            "title": "Warn when regex patterns in rule data lack anchoring",
-            "url": "https://github.com/conforma/policy/pull/1781",
-            "repo": "conforma/policy",
-            "number": 1781,
-            "author": "jsmid1",
-            "engaged_at": "2026-08-12T08:42:20Z"
-          },
-          {
-            "title": "Include enforcement date in warnings for future effective_on violations",
-            "url": "https://github.com/conforma/cli/pull/3412",
-            "repo": "conforma/cli",
-            "number": 3412,
-            "author": "Acepresso",
-            "engaged_at": "2026-08-10T10:58:48Z"
-          },
-          {
-            "title": "feat(EC-1941): add enterprise-contract pipeline definition",
-            "url": "https://github.com/conforma/cli/pull/3416",
-            "repo": "conforma/cli",
-            "number": 3416,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-10T10:49:59Z"
-          },
-          {
-            "title": "Fix path traversal in git gatherer subdir handling",
-            "url": "https://github.com/conforma/go-gather/pull/336",
-            "repo": "conforma/go-gather",
-            "number": 336,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-10T09:34:47Z"
-          },
-          {
-            "title": "Merge trusted task rules instead of first-found",
-            "url": "https://github.com/conforma/policy/pull/1792",
-            "repo": "conforma/policy",
-            "number": 1792,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-10T09:06:34Z"
-          },
-          {
-            "title": "[DNM] Add dummy task, pipeline, and ITS for EC-2011 POC",
-            "url": "https://github.com/conforma/cli/pull/3476",
-            "repo": "conforma/cli",
-            "number": 3476,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-10T08:47:40Z"
-          },
-          {
-            "title": "Add imagePullPolicy: IfNotPresent to step action and test task",
-            "url": "https://github.com/conforma/step-actions/pull/5",
-            "repo": "conforma/step-actions",
-            "number": 5,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-10T08:36:23Z"
-          },
-          {
-            "title": "Pin third-party action to immutable ref in release workflow",
-            "url": "https://github.com/conforma/cli/pull/3463",
-            "repo": "conforma/cli",
-            "number": 3463,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-07T07:44:11Z"
-          },
-          {
-            "title": "feat(EC-1957): verify base image release signatures",
-            "url": "https://github.com/conforma/policy/pull/1780",
-            "repo": "conforma/policy",
-            "number": 1780,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-06T15:28:14Z"
-          },
-          {
-            "title": "Extend sync script to also sync pipeline definitions",
-            "url": "https://github.com/conforma/tekton-catalog/pull/260",
-            "repo": "conforma/tekton-catalog",
-            "number": 260,
-            "author": "jsmid1",
-            "engaged_at": "2026-08-06T13:59:59Z"
-          },
-          {
-            "title": "fix(#1768): remove stale .adoc files before doc generation",
-            "url": "https://github.com/conforma/policy/pull/1769",
-            "repo": "conforma/policy",
-            "number": 1769,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-06T08:46:03Z"
-          },
-          {
-            "title": "Add Jira links for some trusted task todos",
-            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/248",
-            "repo": "release-engineering/rhtap-ec-policy",
-            "number": 248,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-05T09:29:09Z"
-          },
-          {
-            "title": "docs(EC-1954): add effective_on review checklist to AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1789",
-            "repo": "conforma/policy",
-            "number": 1789,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-08-03T14:51:38Z"
-          },
-          {
-            "title": "Add enterprise-contract pipeline definition to cli/pipelines",
-            "url": "https://github.com/conforma/cli/pull/3435",
-            "repo": "conforma/cli",
-            "number": 3435,
-            "author": "jsmid1",
-            "engaged_at": "2026-07-29T12:58:41Z"
-          },
-          {
-            "title": "Add pin-policy-bundle acceptance tests for TA task",
-            "url": "https://github.com/conforma/cli/pull/3324",
-            "repo": "conforma/cli",
-            "number": 3324,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-28T07:48:22Z"
-          },
-          {
-            "title": "Fix pinned ref cache miss to avoid policy refetch",
-            "url": "https://github.com/conforma/cli/pull/3431",
-            "repo": "conforma/cli",
-            "number": 3431,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-24T09:27:01Z"
-          },
-          {
-            "title": "chore(deps): Upgrade golang to 1.26.4 (v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3414",
-            "repo": "conforma/cli",
-            "number": 3414,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-23T13:23:06Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image (main)",
-            "url": "https://github.com/conforma/cli/pull/3429",
-            "repo": "conforma/cli",
-            "number": 3429,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-22T16:12:47Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image (v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3428",
-            "repo": "conforma/cli",
-            "number": 3428,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-22T16:12:32Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image (v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3427",
-            "repo": "conforma/cli",
-            "number": 3427,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-22T16:12:20Z"
-          },
-          {
-            "title": "chore(deps): Pin Go builder image by digest",
-            "url": "https://github.com/conforma/cli/pull/3423",
-            "repo": "conforma/cli",
-            "number": 3423,
-            "author": "iRayans",
-            "engaged_at": "2026-07-20T09:55:29Z"
-          },
-          {
-            "title": "fix(EC-1912): validate in-toto statement type in bundle attestation path",
-            "url": "https://github.com/conforma/cli/pull/3418",
-            "repo": "conforma/cli",
-            "number": 3418,
-            "author": "BohdanMar",
-            "engaged_at": "2026-07-20T09:55:05Z"
-          },
-          {
-            "title": "feat: add /scaffold-repo command for AgentReady scaffolding",
-            "url": "https://github.com/conforma/claude-skills/pull/16",
-            "repo": "conforma/claude-skills",
-            "number": 16,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-17T09:24:15Z"
-          },
-          {
-            "title": "chore: add AgentReady scaffolding for AI-assisted development",
-            "url": "https://github.com/conforma/policy/pull/1779",
-            "repo": "conforma/policy",
-            "number": 1779,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-17T09:23:47Z"
-          },
-          {
-            "title": "chore: add AgentReady scaffolding for AI-assisted development",
-            "url": "https://github.com/conforma/cli/pull/3415",
-            "repo": "conforma/cli",
-            "number": 3415,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-17T08:01:01Z"
-          },
-          {
-            "title": "Add ITS policy config for early release-violation visibility",
-            "url": "https://github.com/conforma/config/pull/236",
-            "repo": "conforma/config",
-            "number": 236,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-16T14:17:58Z"
-          },
-          {
-            "title": "docs(#3410): add Kubernetes manifest guidance to AGENTS.md",
-            "url": "https://github.com/conforma/cli/pull/3411",
-            "repo": "conforma/cli",
-            "number": 3411,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-14T14:35:48Z"
-          },
-          {
-            "title": "fix(#3360): add missing \"go version\" group to Renovate config",
-            "url": "https://github.com/conforma/cli/pull/3361",
-            "repo": "conforma/cli",
-            "number": 3361,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-14T09:12:09Z"
-          },
-          {
-            "title": "Add validate input --server flag for persistent HTTP/REST",
-            "url": "https://github.com/conforma/cli/pull/3386",
-            "repo": "conforma/cli",
-            "number": 3386,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-13T09:50:45Z"
-          },
-          {
-            "title": "docs: add system requirements section to README",
-            "url": "https://github.com/conforma/cli/pull/3350",
-            "repo": "conforma/cli",
-            "number": 3350,
-            "author": "ded-furby",
-            "engaged_at": "2026-07-10T12:41:52Z"
-          },
-          {
-            "title": "docs(#239): replace broken policy source with local path in tutorial",
-            "url": "https://github.com/conforma/user-guide/pull/241",
-            "repo": "conforma/user-guide",
-            "number": 241,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-09T13:45:43Z"
-          },
-          {
-            "title": "chore: update fullsend shim workflow",
-            "url": "https://github.com/conforma/user-guide/pull/238",
-            "repo": "conforma/user-guide",
-            "number": 238,
-            "author": "fullsend-ai-fullsend",
-            "engaged_at": "2026-07-09T10:08:20Z"
-          },
-          {
-            "title": "chore: update fullsend shim workflow",
-            "url": "https://github.com/conforma/conforma.github.io/pull/547",
-            "repo": "conforma/conforma.github.io",
-            "number": 547,
-            "author": "fullsend-ai-fullsend",
-            "engaged_at": "2026-07-08T15:19:49Z"
-          },
-          {
-            "title": "feat(#1512): remove abandoned generated documentation files",
-            "url": "https://github.com/conforma/cli/pull/3383",
-            "repo": "conforma/cli",
-            "number": 3383,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-08T14:56:21Z"
-          },
-          {
-            "title": "feat(#3345): improve error messages for Rego compilation failures",
-            "url": "https://github.com/conforma/cli/pull/3381",
-            "repo": "conforma/cli",
-            "number": 3381,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-08T14:23:01Z"
-          },
-          {
-            "title": "feat(#1313): accept positional args for validate input",
-            "url": "https://github.com/conforma/cli/pull/3382",
-            "repo": "conforma/cli",
-            "number": 3382,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-08T09:08:33Z"
-          },
-          {
-            "title": "chore: add agents repo to allowed_remote_resources",
-            "url": "https://github.com/conforma/.fullsend/pull/6",
-            "repo": "conforma/.fullsend",
-            "number": 6,
-            "author": "ggallen",
-            "engaged_at": "2026-07-07T08:46:51Z"
-          },
-          {
-            "title": "feat(EC-1816): add multi-component stress benchmark",
-            "url": "https://github.com/conforma/cli/pull/3331",
-            "repo": "conforma/cli",
-            "number": 3331,
-            "author": "dheerajodha",
-            "engaged_at": "2026-07-06T12:54:42Z"
-          },
-          {
-            "title": "style(#3160): use explicit 0o octal notation for file permissions",
-            "url": "https://github.com/conforma/cli/pull/3329",
-            "repo": "conforma/cli",
-            "number": 3329,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-06T09:13:03Z"
-          },
-          {
-            "title": "EC-1963: Switch push-data-bundle workflow to task-runner image",
-            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/235",
-            "repo": "release-engineering/rhtap-ec-policy",
-            "number": 235,
-            "author": "BohdanMar",
-            "engaged_at": "2026-07-01T16:02:18Z"
-          },
-          {
-            "title": "fix(EC-1972): add missing trusted_task_rules_enabled toggle to tests",
-            "url": "https://github.com/conforma/policy/pull/1764",
-            "repo": "conforma/policy",
-            "number": 1764,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-01T15:38:54Z"
-          },
-          {
-            "title": "fix: cve-2026-39821, upgrade golang.org/x/net",
-            "url": "https://github.com/conforma/cli/pull/3355",
-            "repo": "conforma/cli",
-            "number": 3355,
-            "author": "fghanmi",
-            "engaged_at": "2026-06-29T15:33:40Z"
-          },
-          {
-            "title": "fix cve-2026-42499: Upgrade Go to 1.26.3",
-            "url": "https://github.com/conforma/cli/pull/3356",
-            "repo": "conforma/cli",
-            "number": 3356,
-            "author": "fghanmi",
-            "engaged_at": "2026-06-29T10:55:11Z"
-          },
-          {
-            "title": "docs: remove experimental label and update README",
-            "url": "https://github.com/conforma/tekton-catalog/pull/259",
-            "repo": "conforma/tekton-catalog",
-            "number": 259,
-            "author": "jsmid1",
-            "engaged_at": "2026-06-29T07:11:16Z"
-          },
-          {
-            "title": "fix: remove persist-credentials to allow repo-sync push",
-            "url": "https://github.com/conforma/go-containerregistry/pull/6",
-            "repo": "conforma/go-containerregistry",
-            "number": 6,
-            "author": "robnester-rh",
-            "engaged_at": "2026-06-25T14:03:58Z"
-          },
-          {
-            "title": "fix(EC-1866): replace gh repo sync with merge-based upstream sync",
-            "url": "https://github.com/conforma/go-containerregistry/pull/5",
-            "repo": "conforma/go-containerregistry",
-            "number": 5,
-            "author": "robnester-rh",
-            "engaged_at": "2026-06-24T15:33:11Z"
-          },
-          {
-            "title": "chore: sync with upstream google/go-containerregistry",
-            "url": "https://github.com/conforma/go-containerregistry/pull/4",
-            "repo": "conforma/go-containerregistry",
-            "number": 4,
-            "author": "robnester-rh",
-            "engaged_at": "2026-06-24T15:28:46Z"
-          },
-          {
-            "title": "feat: deny releases using experimental Hermeto backends",
-            "url": "https://github.com/conforma/policy/pull/1736",
-            "repo": "conforma/policy",
-            "number": 1736,
-            "author": "jsmid1",
-            "engaged_at": "2026-06-24T14:22:39Z"
-          },
-          {
-            "title": "Trigger conforma e2e tests on cli pull requests",
-            "url": "https://github.com/conforma/cli/pull/3334",
-            "repo": "conforma/cli",
-            "number": 3334,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-06-22T10:53:48Z"
-          },
-          {
-            "title": "Several minor CI fixes and tweaks",
-            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/232",
-            "repo": "release-engineering/rhtap-ec-policy",
-            "number": 232,
-            "author": "simonbaird",
-            "engaged_at": "2026-06-22T08:13:01Z"
-          },
-          {
-            "title": "feat(EC-1881): add except_when support to disallowed_attributes rule data",
-            "url": "https://github.com/conforma/policy/pull/1739",
-            "repo": "conforma/policy",
-            "number": 1739,
-            "author": "robnester-rh",
-            "engaged_at": "2026-06-16T10:13:23Z"
-          },
-          {
-            "title": "sigstore: Cache verify_image results across policy evaluations",
-            "url": "https://github.com/conforma/cli/pull/3136",
-            "repo": "conforma/cli",
-            "number": 3136,
-            "author": "arewm",
-            "engaged_at": "2026-06-16T08:02:15Z"
-          },
-          {
-            "title": "Replace default ECP with Red Hat Konflux policy",
-            "url": "https://github.com/conforma/e2e-tests/pull/4",
-            "repo": "conforma/e2e-tests",
-            "number": 4,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-06-15T09:02:20Z"
-          },
-          {
-            "title": "feat: add testName and timestamp annotations to oras attach",
-            "url": "https://github.com/conforma/step-actions/pull/3",
-            "repo": "conforma/step-actions",
-            "number": 3,
-            "author": "joejstuart",
-            "engaged_at": "2026-06-11T09:47:26Z"
-          },
-          {
-            "title": "Add PR size labeling workflow",
-            "url": "https://github.com/conforma/golden-rpm/pull/4",
-            "repo": "conforma/golden-rpm",
-            "number": 4,
-            "author": "dheerajodha",
-            "engaged_at": "2026-06-10T14:44:34Z"
-          },
-          {
-            "title": "Add PR size labeling workflow",
-            "url": "https://github.com/conforma/e2e-tests/pull/5",
-            "repo": "conforma/e2e-tests",
-            "number": 5,
-            "author": "dheerajodha",
-            "engaged_at": "2026-06-10T13:13:31Z"
-          },
-          {
-            "title": "Add PR size labeling workflow",
-            "url": "https://github.com/conforma/step-actions/pull/4",
-            "repo": "conforma/step-actions",
-            "number": 4,
-            "author": "dheerajodha",
-            "engaged_at": "2026-06-10T13:13:22Z"
-          },
-          {
-            "title": "Add PR size labeling workflow",
-            "url": "https://github.com/conforma/claude-skills/pull/10",
-            "repo": "conforma/claude-skills",
-            "number": 10,
-            "author": "dheerajodha",
-            "engaged_at": "2026-06-10T13:13:06Z"
-          },
-          {
-            "title": "Add --skip-att-sig-check flag",
-            "url": "https://github.com/conforma/cli/pull/3267",
-            "repo": "conforma/cli",
-            "number": 3267,
-            "author": "simonbaird",
-            "engaged_at": "2026-06-04T10:14:51Z"
-          },
-          {
-            "title": "feat: add direct OPA evaluator with shared base infrastructure",
-            "url": "https://github.com/conforma/cli/pull/3276",
-            "repo": "conforma/cli",
-            "number": 3276,
-            "author": "joejstuart",
-            "engaged_at": "2026-06-03T09:29:16Z"
-          },
-          {
-            "title": "fix: scope mint token to enabled repos only in repo-maintenance",
-            "url": "https://github.com/conforma/.fullsend/pull/4",
-            "repo": "conforma/.fullsend",
-            "number": 4,
-            "author": "rh-hemartin",
-            "engaged_at": "2026-06-01T15:55:31Z"
-          },
-          {
-            "title": "[KONFLUX-13286] Replace appstudio-utils image with task-runner",
-            "url": "https://github.com/conforma/cli/pull/3316",
-            "repo": "conforma/cli",
-            "number": 3316,
-            "author": "jsmid1",
-            "engaged_at": "2026-05-28T10:27:07Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image",
-            "url": "https://github.com/conforma/cli/pull/3326",
-            "repo": "conforma/cli",
-            "number": 3326,
-            "author": "simonbaird",
-            "engaged_at": "2026-05-28T08:31:09Z"
-          },
-          {
-            "title": "Bump ubi base image and tektoncd/pipeline module (v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3325",
-            "repo": "conforma/cli",
-            "number": 3325,
-            "author": "simonbaird",
-            "engaged_at": "2026-05-27T08:18:53Z"
-          },
-          {
-            "title": "fix: use Codecov token auth for coverage upload",
-            "url": "https://github.com/conforma/review-rot/pull/242",
-            "repo": "conforma/review-rot",
-            "number": 242,
-            "author": "robnester-rh",
-            "engaged_at": "2026-05-21T14:19:27Z"
-          },
-          {
-            "title": "fix: switch Codecov auth from token to OIDC",
-            "url": "https://github.com/conforma/review-rot/pull/241",
-            "repo": "conforma/review-rot",
-            "number": 241,
-            "author": "robnester-rh",
-            "engaged_at": "2026-05-21T13:59:25Z"
-          },
-          {
-            "title": "fix: use Codecov token instead of OIDC for coverage upload",
-            "url": "https://github.com/conforma/review-rot/pull/240",
-            "repo": "conforma/review-rot",
-            "number": 240,
-            "author": "robnester-rh",
-            "engaged_at": "2026-05-21T13:48:15Z"
-          }
-        ]
-      },
-      {
         "login": "dirgim",
         "reviews": 70,
         "prs": [
@@ -21034,6 +20407,572 @@
             "number": 1876,
             "author": "flacatus",
             "engaged_at": "2026-06-01T16:46:45Z"
+          }
+        ]
+      },
+      {
+        "login": "st3penta",
+        "reviews": 70,
+        "prs": [
+          {
+            "title": "Create PRs instead of pushing directly to protected branches",
+            "url": "https://github.com/conforma/tekton-catalog/pull/261",
+            "repo": "conforma/tekton-catalog",
+            "number": 261,
+            "author": "jsmid1",
+            "engaged_at": "2026-08-19T13:41:48Z"
+          },
+          {
+            "title": "Allow PNC SLSA build type for PipelineRun attestations",
+            "url": "https://github.com/conforma/policy/pull/1816",
+            "repo": "conforma/policy",
+            "number": 1816,
+            "author": "vnadempa",
+            "engaged_at": "2026-08-19T12:53:39Z"
+          },
+          {
+            "title": "Restore commented out acceptance test scenario",
+            "url": "https://github.com/conforma/cli/pull/3505",
+            "repo": "conforma/cli",
+            "number": 3505,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-19T09:30:07Z"
+          },
+          {
+            "title": "Add attended scripts for multi-branch UBI bump and module update PRs",
+            "url": "https://github.com/conforma/cli/pull/3430",
+            "repo": "conforma/cli",
+            "number": 3430,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-19T08:38:35Z"
+          },
+          {
+            "title": "Skip test_data_found when test-result attestations exist",
+            "url": "https://github.com/conforma/policy/pull/1805",
+            "repo": "conforma/policy",
+            "number": 1805,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-13T14:42:46Z"
+          },
+          {
+            "title": "Warn when regex patterns in rule data lack anchoring",
+            "url": "https://github.com/conforma/policy/pull/1781",
+            "repo": "conforma/policy",
+            "number": 1781,
+            "author": "jsmid1",
+            "engaged_at": "2026-08-12T08:42:20Z"
+          },
+          {
+            "title": "Include enforcement date in warnings for future effective_on violations",
+            "url": "https://github.com/conforma/cli/pull/3412",
+            "repo": "conforma/cli",
+            "number": 3412,
+            "author": "Acepresso",
+            "engaged_at": "2026-08-10T10:58:48Z"
+          },
+          {
+            "title": "feat(EC-1941): add enterprise-contract pipeline definition",
+            "url": "https://github.com/conforma/cli/pull/3416",
+            "repo": "conforma/cli",
+            "number": 3416,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-10T10:49:59Z"
+          },
+          {
+            "title": "Fix path traversal in git gatherer subdir handling",
+            "url": "https://github.com/conforma/go-gather/pull/336",
+            "repo": "conforma/go-gather",
+            "number": 336,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-10T09:34:47Z"
+          },
+          {
+            "title": "Merge trusted task rules instead of first-found",
+            "url": "https://github.com/conforma/policy/pull/1792",
+            "repo": "conforma/policy",
+            "number": 1792,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-10T09:06:34Z"
+          },
+          {
+            "title": "[DNM] Add dummy task, pipeline, and ITS for EC-2011 POC",
+            "url": "https://github.com/conforma/cli/pull/3476",
+            "repo": "conforma/cli",
+            "number": 3476,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-10T08:47:40Z"
+          },
+          {
+            "title": "Add imagePullPolicy: IfNotPresent to step action and test task",
+            "url": "https://github.com/conforma/step-actions/pull/5",
+            "repo": "conforma/step-actions",
+            "number": 5,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-10T08:36:23Z"
+          },
+          {
+            "title": "Pin third-party action to immutable ref in release workflow",
+            "url": "https://github.com/conforma/cli/pull/3463",
+            "repo": "conforma/cli",
+            "number": 3463,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-07T07:44:11Z"
+          },
+          {
+            "title": "feat(EC-1957): verify base image release signatures",
+            "url": "https://github.com/conforma/policy/pull/1780",
+            "repo": "conforma/policy",
+            "number": 1780,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-06T15:28:14Z"
+          },
+          {
+            "title": "Extend sync script to also sync pipeline definitions",
+            "url": "https://github.com/conforma/tekton-catalog/pull/260",
+            "repo": "conforma/tekton-catalog",
+            "number": 260,
+            "author": "jsmid1",
+            "engaged_at": "2026-08-06T13:59:59Z"
+          },
+          {
+            "title": "fix(#1768): remove stale .adoc files before doc generation",
+            "url": "https://github.com/conforma/policy/pull/1769",
+            "repo": "conforma/policy",
+            "number": 1769,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-06T08:46:03Z"
+          },
+          {
+            "title": "Add Jira links for some trusted task todos",
+            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/248",
+            "repo": "release-engineering/rhtap-ec-policy",
+            "number": 248,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-05T09:29:09Z"
+          },
+          {
+            "title": "docs(EC-1954): add effective_on review checklist to AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1789",
+            "repo": "conforma/policy",
+            "number": 1789,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-08-03T14:51:38Z"
+          },
+          {
+            "title": "Add enterprise-contract pipeline definition to cli/pipelines",
+            "url": "https://github.com/conforma/cli/pull/3435",
+            "repo": "conforma/cli",
+            "number": 3435,
+            "author": "jsmid1",
+            "engaged_at": "2026-07-29T12:58:41Z"
+          },
+          {
+            "title": "Add pin-policy-bundle acceptance tests for TA task",
+            "url": "https://github.com/conforma/cli/pull/3324",
+            "repo": "conforma/cli",
+            "number": 3324,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-28T07:48:22Z"
+          },
+          {
+            "title": "Fix pinned ref cache miss to avoid policy refetch",
+            "url": "https://github.com/conforma/cli/pull/3431",
+            "repo": "conforma/cli",
+            "number": 3431,
+            "author": "simonbaird",
+            "engaged_at": "2026-07-24T09:27:01Z"
+          },
+          {
+            "title": "chore(deps): Upgrade golang to 1.26.4 (v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3414",
+            "repo": "conforma/cli",
+            "number": 3414,
+            "author": "simonbaird",
+            "engaged_at": "2026-07-23T13:23:06Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (main)",
+            "url": "https://github.com/conforma/cli/pull/3429",
+            "repo": "conforma/cli",
+            "number": 3429,
+            "author": "simonbaird",
+            "engaged_at": "2026-07-22T16:12:47Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3428",
+            "repo": "conforma/cli",
+            "number": 3428,
+            "author": "simonbaird",
+            "engaged_at": "2026-07-22T16:12:32Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3427",
+            "repo": "conforma/cli",
+            "number": 3427,
+            "author": "simonbaird",
+            "engaged_at": "2026-07-22T16:12:20Z"
+          },
+          {
+            "title": "chore(deps): Pin Go builder image by digest",
+            "url": "https://github.com/conforma/cli/pull/3423",
+            "repo": "conforma/cli",
+            "number": 3423,
+            "author": "iRayans",
+            "engaged_at": "2026-07-20T09:55:29Z"
+          },
+          {
+            "title": "fix(EC-1912): validate in-toto statement type in bundle attestation path",
+            "url": "https://github.com/conforma/cli/pull/3418",
+            "repo": "conforma/cli",
+            "number": 3418,
+            "author": "BohdanMar",
+            "engaged_at": "2026-07-20T09:55:05Z"
+          },
+          {
+            "title": "feat: add /scaffold-repo command for AgentReady scaffolding",
+            "url": "https://github.com/conforma/claude-skills/pull/16",
+            "repo": "conforma/claude-skills",
+            "number": 16,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-17T09:24:15Z"
+          },
+          {
+            "title": "chore: add AgentReady scaffolding for AI-assisted development",
+            "url": "https://github.com/conforma/policy/pull/1779",
+            "repo": "conforma/policy",
+            "number": 1779,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-17T09:23:47Z"
+          },
+          {
+            "title": "chore: add AgentReady scaffolding for AI-assisted development",
+            "url": "https://github.com/conforma/cli/pull/3415",
+            "repo": "conforma/cli",
+            "number": 3415,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-17T08:01:01Z"
+          },
+          {
+            "title": "Add ITS policy config for early release-violation visibility",
+            "url": "https://github.com/conforma/config/pull/236",
+            "repo": "conforma/config",
+            "number": 236,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-16T14:17:58Z"
+          },
+          {
+            "title": "docs(#3410): add Kubernetes manifest guidance to AGENTS.md",
+            "url": "https://github.com/conforma/cli/pull/3411",
+            "repo": "conforma/cli",
+            "number": 3411,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-07-14T14:35:48Z"
+          },
+          {
+            "title": "fix(#3360): add missing \"go version\" group to Renovate config",
+            "url": "https://github.com/conforma/cli/pull/3361",
+            "repo": "conforma/cli",
+            "number": 3361,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-07-14T09:12:09Z"
+          },
+          {
+            "title": "Add validate input --server flag for persistent HTTP/REST",
+            "url": "https://github.com/conforma/cli/pull/3386",
+            "repo": "conforma/cli",
+            "number": 3386,
+            "author": "simonbaird",
+            "engaged_at": "2026-07-13T09:50:45Z"
+          },
+          {
+            "title": "docs: add system requirements section to README",
+            "url": "https://github.com/conforma/cli/pull/3350",
+            "repo": "conforma/cli",
+            "number": 3350,
+            "author": "ded-furby",
+            "engaged_at": "2026-07-10T12:41:52Z"
+          },
+          {
+            "title": "docs(#239): replace broken policy source with local path in tutorial",
+            "url": "https://github.com/conforma/user-guide/pull/241",
+            "repo": "conforma/user-guide",
+            "number": 241,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-07-09T13:45:43Z"
+          },
+          {
+            "title": "chore: update fullsend shim workflow",
+            "url": "https://github.com/conforma/user-guide/pull/238",
+            "repo": "conforma/user-guide",
+            "number": 238,
+            "author": "fullsend-ai-fullsend",
+            "engaged_at": "2026-07-09T10:08:20Z"
+          },
+          {
+            "title": "chore: update fullsend shim workflow",
+            "url": "https://github.com/conforma/conforma.github.io/pull/547",
+            "repo": "conforma/conforma.github.io",
+            "number": 547,
+            "author": "fullsend-ai-fullsend",
+            "engaged_at": "2026-07-08T15:19:49Z"
+          },
+          {
+            "title": "feat(#1512): remove abandoned generated documentation files",
+            "url": "https://github.com/conforma/cli/pull/3383",
+            "repo": "conforma/cli",
+            "number": 3383,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-07-08T14:56:21Z"
+          },
+          {
+            "title": "feat(#3345): improve error messages for Rego compilation failures",
+            "url": "https://github.com/conforma/cli/pull/3381",
+            "repo": "conforma/cli",
+            "number": 3381,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-07-08T14:23:01Z"
+          },
+          {
+            "title": "feat(#1313): accept positional args for validate input",
+            "url": "https://github.com/conforma/cli/pull/3382",
+            "repo": "conforma/cli",
+            "number": 3382,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-07-08T09:08:33Z"
+          },
+          {
+            "title": "chore: add agents repo to allowed_remote_resources",
+            "url": "https://github.com/conforma/.fullsend/pull/6",
+            "repo": "conforma/.fullsend",
+            "number": 6,
+            "author": "ggallen",
+            "engaged_at": "2026-07-07T08:46:51Z"
+          },
+          {
+            "title": "feat(EC-1816): add multi-component stress benchmark",
+            "url": "https://github.com/conforma/cli/pull/3331",
+            "repo": "conforma/cli",
+            "number": 3331,
+            "author": "dheerajodha",
+            "engaged_at": "2026-07-06T12:54:42Z"
+          },
+          {
+            "title": "style(#3160): use explicit 0o octal notation for file permissions",
+            "url": "https://github.com/conforma/cli/pull/3329",
+            "repo": "conforma/cli",
+            "number": 3329,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-07-06T09:13:03Z"
+          },
+          {
+            "title": "EC-1963: Switch push-data-bundle workflow to task-runner image",
+            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/235",
+            "repo": "release-engineering/rhtap-ec-policy",
+            "number": 235,
+            "author": "BohdanMar",
+            "engaged_at": "2026-07-01T16:02:18Z"
+          },
+          {
+            "title": "fix(EC-1972): add missing trusted_task_rules_enabled toggle to tests",
+            "url": "https://github.com/conforma/policy/pull/1764",
+            "repo": "conforma/policy",
+            "number": 1764,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-01T15:38:54Z"
+          },
+          {
+            "title": "fix: cve-2026-39821, upgrade golang.org/x/net",
+            "url": "https://github.com/conforma/cli/pull/3355",
+            "repo": "conforma/cli",
+            "number": 3355,
+            "author": "fghanmi",
+            "engaged_at": "2026-06-29T15:33:40Z"
+          },
+          {
+            "title": "fix cve-2026-42499: Upgrade Go to 1.26.3",
+            "url": "https://github.com/conforma/cli/pull/3356",
+            "repo": "conforma/cli",
+            "number": 3356,
+            "author": "fghanmi",
+            "engaged_at": "2026-06-29T10:55:11Z"
+          },
+          {
+            "title": "docs: remove experimental label and update README",
+            "url": "https://github.com/conforma/tekton-catalog/pull/259",
+            "repo": "conforma/tekton-catalog",
+            "number": 259,
+            "author": "jsmid1",
+            "engaged_at": "2026-06-29T07:11:16Z"
+          },
+          {
+            "title": "fix: remove persist-credentials to allow repo-sync push",
+            "url": "https://github.com/conforma/go-containerregistry/pull/6",
+            "repo": "conforma/go-containerregistry",
+            "number": 6,
+            "author": "robnester-rh",
+            "engaged_at": "2026-06-25T14:03:58Z"
+          },
+          {
+            "title": "fix(EC-1866): replace gh repo sync with merge-based upstream sync",
+            "url": "https://github.com/conforma/go-containerregistry/pull/5",
+            "repo": "conforma/go-containerregistry",
+            "number": 5,
+            "author": "robnester-rh",
+            "engaged_at": "2026-06-24T15:33:11Z"
+          },
+          {
+            "title": "chore: sync with upstream google/go-containerregistry",
+            "url": "https://github.com/conforma/go-containerregistry/pull/4",
+            "repo": "conforma/go-containerregistry",
+            "number": 4,
+            "author": "robnester-rh",
+            "engaged_at": "2026-06-24T15:28:46Z"
+          },
+          {
+            "title": "feat: deny releases using experimental Hermeto backends",
+            "url": "https://github.com/conforma/policy/pull/1736",
+            "repo": "conforma/policy",
+            "number": 1736,
+            "author": "jsmid1",
+            "engaged_at": "2026-06-24T14:22:39Z"
+          },
+          {
+            "title": "Trigger conforma e2e tests on cli pull requests",
+            "url": "https://github.com/conforma/cli/pull/3334",
+            "repo": "conforma/cli",
+            "number": 3334,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-06-22T10:53:48Z"
+          },
+          {
+            "title": "Several minor CI fixes and tweaks",
+            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/232",
+            "repo": "release-engineering/rhtap-ec-policy",
+            "number": 232,
+            "author": "simonbaird",
+            "engaged_at": "2026-06-22T08:13:01Z"
+          },
+          {
+            "title": "feat(EC-1881): add except_when support to disallowed_attributes rule data",
+            "url": "https://github.com/conforma/policy/pull/1739",
+            "repo": "conforma/policy",
+            "number": 1739,
+            "author": "robnester-rh",
+            "engaged_at": "2026-06-16T10:13:23Z"
+          },
+          {
+            "title": "sigstore: Cache verify_image results across policy evaluations",
+            "url": "https://github.com/conforma/cli/pull/3136",
+            "repo": "conforma/cli",
+            "number": 3136,
+            "author": "arewm",
+            "engaged_at": "2026-06-16T08:02:15Z"
+          },
+          {
+            "title": "Replace default ECP with Red Hat Konflux policy",
+            "url": "https://github.com/conforma/e2e-tests/pull/4",
+            "repo": "conforma/e2e-tests",
+            "number": 4,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-06-15T09:02:20Z"
+          },
+          {
+            "title": "feat: add testName and timestamp annotations to oras attach",
+            "url": "https://github.com/conforma/step-actions/pull/3",
+            "repo": "conforma/step-actions",
+            "number": 3,
+            "author": "joejstuart",
+            "engaged_at": "2026-06-11T09:47:26Z"
+          },
+          {
+            "title": "Add PR size labeling workflow",
+            "url": "https://github.com/conforma/golden-rpm/pull/4",
+            "repo": "conforma/golden-rpm",
+            "number": 4,
+            "author": "dheerajodha",
+            "engaged_at": "2026-06-10T14:44:34Z"
+          },
+          {
+            "title": "Add PR size labeling workflow",
+            "url": "https://github.com/conforma/e2e-tests/pull/5",
+            "repo": "conforma/e2e-tests",
+            "number": 5,
+            "author": "dheerajodha",
+            "engaged_at": "2026-06-10T13:13:31Z"
+          },
+          {
+            "title": "Add PR size labeling workflow",
+            "url": "https://github.com/conforma/step-actions/pull/4",
+            "repo": "conforma/step-actions",
+            "number": 4,
+            "author": "dheerajodha",
+            "engaged_at": "2026-06-10T13:13:22Z"
+          },
+          {
+            "title": "Add PR size labeling workflow",
+            "url": "https://github.com/conforma/claude-skills/pull/10",
+            "repo": "conforma/claude-skills",
+            "number": 10,
+            "author": "dheerajodha",
+            "engaged_at": "2026-06-10T13:13:06Z"
+          },
+          {
+            "title": "Add --skip-att-sig-check flag",
+            "url": "https://github.com/conforma/cli/pull/3267",
+            "repo": "conforma/cli",
+            "number": 3267,
+            "author": "simonbaird",
+            "engaged_at": "2026-06-04T10:14:51Z"
+          },
+          {
+            "title": "feat: add direct OPA evaluator with shared base infrastructure",
+            "url": "https://github.com/conforma/cli/pull/3276",
+            "repo": "conforma/cli",
+            "number": 3276,
+            "author": "joejstuart",
+            "engaged_at": "2026-06-03T09:29:16Z"
+          },
+          {
+            "title": "fix: scope mint token to enabled repos only in repo-maintenance",
+            "url": "https://github.com/conforma/.fullsend/pull/4",
+            "repo": "conforma/.fullsend",
+            "number": 4,
+            "author": "rh-hemartin",
+            "engaged_at": "2026-06-01T15:55:31Z"
+          },
+          {
+            "title": "[KONFLUX-13286] Replace appstudio-utils image with task-runner",
+            "url": "https://github.com/conforma/cli/pull/3316",
+            "repo": "conforma/cli",
+            "number": 3316,
+            "author": "jsmid1",
+            "engaged_at": "2026-05-28T10:27:07Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image",
+            "url": "https://github.com/conforma/cli/pull/3326",
+            "repo": "conforma/cli",
+            "number": 3326,
+            "author": "simonbaird",
+            "engaged_at": "2026-05-28T08:31:09Z"
+          },
+          {
+            "title": "Bump ubi base image and tektoncd/pipeline module (v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3325",
+            "repo": "conforma/cli",
+            "number": 3325,
+            "author": "simonbaird",
+            "engaged_at": "2026-05-27T08:18:53Z"
+          },
+          {
+            "title": "fix: use Codecov token auth for coverage upload",
+            "url": "https://github.com/conforma/review-rot/pull/242",
+            "repo": "conforma/review-rot",
+            "number": 242,
+            "author": "robnester-rh",
+            "engaged_at": "2026-05-21T14:19:27Z"
           }
         ]
       },
@@ -22520,460 +22459,6 @@
         ]
       },
       {
-        "login": "sadlerap",
-        "reviews": 56,
-        "prs": [
-          {
-            "title": "KFLUXINFRA-2236: Verify releases via Release CRs instead of PipelineRuns",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13583",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13583,
-            "author": "meyrevived",
-            "engaged_at": "2026-08-18T20:21:31Z"
-          },
-          {
-            "title": "KFLUXINFRA-4362: Add fine-grained bot-actions ClusterRoles to staging",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13578",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13578,
-            "author": "oswcab",
-            "engaged_at": "2026-08-18T16:49:36Z"
-          },
-          {
-            "title": "KFLUXINFRA-4364 Reduce PLR concurrency limit to 280 on stone-prd-rh01 and stone-prod-p02",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13576",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13576,
-            "author": "glevi-rh",
-            "engaged_at": "2026-08-18T16:48:06Z"
-          },
-          {
-            "title": "KFLUXINFRA-4375: Bump repository-validator staging ref",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13534",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13534,
-            "author": "oswcab",
-            "engaged_at": "2026-08-14T19:02:00Z"
-          },
-          {
-            "title": "add konflux-externalpuller-bot-actions",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13405",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13405,
-            "author": "filariow",
-            "engaged_at": "2026-08-14T15:12:45Z"
-          },
-          {
-            "title": "VAP to deny wrong MPC flavors",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13302",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13302,
-            "author": "filariow",
-            "engaged_at": "2026-08-13T19:46:13Z"
-          },
-          {
-            "title": "KFLUXINFRA-4375: Add buildah-oci-ta-min to Kyverno seccomp policy",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13512",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13512,
-            "author": "oswcab",
-            "engaged_at": "2026-08-13T19:18:40Z"
-          },
-          {
-            "title": "KFLUXINFRA-4375: Add Kyverno policy - buildah seccomp workaround on ROKS",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13508",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13508,
-            "author": "oswcab",
-            "engaged_at": "2026-08-13T17:29:35Z"
-          },
-          {
-            "title": "(onboarding) Migrate staging etcd-defrag AppSet to ring deployments ArgoCD",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13482",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13482,
-            "author": "celeztyne",
-            "engaged_at": "2026-08-13T16:00:33Z"
-          },
-          {
-            "title": "Update banner with rh01 mintmaker cronjob changes.",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13486",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13486,
-            "author": "gcpsoares",
-            "engaged_at": "2026-08-12T22:08:25Z"
-          },
-          {
-            "title": "Pin conforma tekton task to digest",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3786",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3786,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-12T21:15:23Z"
-          },
-          {
-            "title": "KFLUXINFRA-4409: Update lightwell-dev MPC vault secret paths",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13478",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13478,
-            "author": "mshaposhnik",
-            "engaged_at": "2026-08-12T15:24:46Z"
-          },
-          {
-            "title": "KFLUXINFRA-4409: Use default subnet for lightwell-dev MPC builders",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13476",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13476,
-            "author": "mshaposhnik",
-            "engaged_at": "2026-08-12T14:15:08Z"
-          },
-          {
-            "title": "reduce the maximum concurrent PLRs on p02",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13443",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13443,
-            "author": "filariow",
-            "engaged_at": "2026-08-11T16:20:09Z"
-          },
-          {
-            "title": "reduce frequency of MintMaker in prod p02",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13442",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13442,
-            "author": "gcpsoares",
-            "engaged_at": "2026-08-11T16:15:36Z"
-          },
-          {
-            "title": "KFLUXINFRA-4409: Add MPC deployment for temporary lightwell-dev cluster",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13428",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13428,
-            "author": "mshaposhnik",
-            "engaged_at": "2026-08-11T12:53:00Z"
-          },
-          {
-            "title": "Move RISC-V config to rhel prod cluster",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13328",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13328,
-            "author": "wbrefvem",
-            "engaged_at": "2026-08-06T20:49:47Z"
-          },
-          {
-            "title": "KFLUXINFRA-4367: Bump repository-validator production config ref (coreos/rhel-coreos-config allow list)",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13382",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13382,
-            "author": "oswcab",
-            "engaged_at": "2026-08-06T20:20:22Z"
-          },
-          {
-            "title": "Fix etcd-shield layout",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13331",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13331,
-            "author": "enkeefe00",
-            "engaged_at": "2026-08-05T19:10:01Z"
-          },
-          {
-            "title": "PVO11Y-5364 [3/3] Restore kueue ClusterPolicy on fedora",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13154",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13154,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-21T21:51:41Z"
-          },
-          {
-            "title": "PVO11Y-5372 - Update tracing production to monitoring directory",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13113",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13113,
-            "author": "raks-tt",
-            "engaged_at": "2026-07-21T21:17:59Z"
-          },
-          {
-            "title": "PVO11Y-5364 [2/3] Remove kueue ClusterPolicy from fedora",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13153",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13153,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-21T20:31:23Z"
-          },
-          {
-            "title": "KFLUXINFRA-4238: (onboarding) Migrate staging etcd-shield AppSet to ring deployments ArgoCD",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13112",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13112,
-            "author": "enkeefe00",
-            "engaged_at": "2026-07-21T17:06:38Z"
-          },
-          {
-            "title": "PVO11Y-5364 [1/3] Prepare kueue ClusterPolicy for recreation on fedora",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13152",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13152,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-21T15:15:42Z"
-          },
-          {
-            "title": "Upgrade actions/checkout in pull_request_target - KFLUXINFRA-4156",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12997",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12997,
-            "author": "celeztyne",
-            "engaged_at": "2026-07-21T12:51:37Z"
-          },
-          {
-            "title": "PVO11Y-5364 Rename kueue ClusterPolicy in staging",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13089",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13089,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-20T11:50:53Z"
-          },
-          {
-            "title": "KFLUXINFRA-3980: add type guards to build-platforms CEL expressions (…",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13059",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13059,
-            "author": "oswcab",
-            "engaged_at": "2026-07-16T14:26:03Z"
-          },
-          {
-            "title": "KFLUXINFRA-4007: (onboarding) Remove old authentication component",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13055",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13055,
-            "author": "enkeefe00",
-            "engaged_at": "2026-07-15T17:25:20Z"
-          },
-          {
-            "title": "Document the new /rerun GitHub workflow",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13002",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13002,
-            "author": "hugares",
-            "engaged_at": "2026-07-10T21:02:30Z"
-          },
-          {
-            "title": "Fix /rerun trigger to be anywhere in the comment",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13001",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13001,
-            "author": "hugares",
-            "engaged_at": "2026-07-10T20:01:10Z"
-          },
-          {
-            "title": "KFLUXINFRA-4007: (onboarding) Remove old staging authentication Apps for Kargo",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12983",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12983,
-            "author": "enkeefe00",
-            "engaged_at": "2026-07-09T15:19:52Z"
-          },
-          {
-            "title": "Untangle overlays from each other",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12982",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12982,
-            "author": "enkeefe00",
-            "engaged_at": "2026-07-09T14:52:51Z"
-          },
-          {
-            "title": "PVO11Y-5290 Inline Grafana base into staging and development overlays",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12960",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12960,
-            "author": "kubasikus",
-            "engaged_at": "2026-07-08T19:06:03Z"
-          },
-          {
-            "title": "Allow all repo members to restart failed GH checks",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12968",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12968,
-            "author": "hugares",
-            "engaged_at": "2026-07-08T18:32:30Z"
-          },
-          {
-            "title": "Add ibm-public-key secret access to release pipeline ClusterRole",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12519",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12519,
-            "author": "rhartman93",
-            "engaged_at": "2026-07-07T16:30:54Z"
-          },
-          {
-            "title": "KONFLUX-6210 Add ibm-public-key secret access to release pipeline ClusterRole (dev/stage)",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12908",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12908,
-            "author": "rhartman93",
-            "engaged_at": "2026-07-06T19:23:00Z"
-          },
-          {
-            "title": "[KFLUXINFRA-3980] Add type guards to build-platforms CEL expressions",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12893",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12893,
-            "author": "oswcab",
-            "engaged_at": "2026-07-06T16:38:39Z"
-          },
-          {
-            "title": "KONFLUX-14156 Update multi-platform-controller to a5285b3",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12907",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12907,
-            "author": "glevi-rh",
-            "engaged_at": "2026-07-01T20:37:25Z"
-          },
-          {
-            "title": "PVO11Y-5279 Allow konflux-o11y-exporters in ClusterSecretStore",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12906",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12906,
-            "author": "FaisalAl-Rayes",
-            "engaged_at": "2026-07-01T19:06:33Z"
-          },
-          {
-            "title": "improve nvidia CDI configuration logic",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12889",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12889,
-            "author": "filariow",
-            "engaged_at": "2026-06-30T16:06:02Z"
-          },
-          {
-            "title": "configure nvidia cdi with retry in stg",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12786",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12786,
-            "author": "filariow",
-            "engaged_at": "2026-06-25T17:46:56Z"
-          },
-          {
-            "title": "Add RISC-V static host config to MPC staging upstream",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12758",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12758,
-            "author": "wbrefvem",
-            "engaged_at": "2026-06-25T16:09:06Z"
-          },
-          {
-            "title": "KFLUXINFRA-4007: PoC for new component standards",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12522",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12522,
-            "author": "enkeefe00",
-            "engaged_at": "2026-06-25T15:57:30Z"
-          },
-          {
-            "title": "KFLUXINFRA-4007: Add overlays for ring deployments",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12523",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12523,
-            "author": "enkeefe00",
-            "engaged_at": "2026-06-24T20:16:30Z"
-          },
-          {
-            "title": "KFLUXINFRA-3613: Update OWNERS files for infra-owned components",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12583",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12583,
-            "author": "enkeefe00",
-            "engaged_at": "2026-06-22T20:53:23Z"
-          },
-          {
-            "title": "Remove ring deployment check",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12337",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12337,
-            "author": "hugares",
-            "engaged_at": "2026-06-15T17:44:19Z"
-          },
-          {
-            "title": "add kueue resource to restrict release plrs on p02",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12232",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12232,
-            "author": "filariow",
-            "engaged_at": "2026-06-12T18:12:30Z"
-          },
-          {
-            "title": "fix(etcd-shield): add total_size check and raise thresholds (staging)",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11319",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 11319,
-            "author": "peet-rh",
-            "engaged_at": "2026-06-09T15:39:22Z"
-          },
-          {
-            "title": "Disable mintmaker in staging",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12268",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12268,
-            "author": "hugares",
-            "engaged_at": "2026-06-05T16:37:11Z"
-          },
-          {
-            "title": "reduce concurrent g6.4xlarge VMs in OSP cluster",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12068",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12068,
-            "author": "filariow",
-            "engaged_at": "2026-05-29T15:51:13Z"
-          },
-          {
-            "title": "increase nslister memory in stg-rh01",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12062",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12062,
-            "author": "filariow",
-            "engaged_at": "2026-05-29T13:51:22Z"
-          },
-          {
-            "title": "KONFLUX-13356: ring 3 CRs migration v1beta1 → v1beta2 + base cleanup",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12023",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12023,
-            "author": "glevi-rh",
-            "engaged_at": "2026-05-27T16:15:42Z"
-          },
-          {
-            "title": "Switch back to ppc in us-east",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11995",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 11995,
-            "author": "hugares",
-            "engaged_at": "2026-05-26T14:59:10Z"
-          },
-          {
-            "title": "remove kueue-external-admission from prod",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11828",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 11828,
-            "author": "filariow",
-            "engaged_at": "2026-05-21T20:34:51Z"
-          },
-          {
-            "title": "remove kueue-external-admission from dev/stg",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11827",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 11827,
-            "author": "filariow",
-            "engaged_at": "2026-05-21T20:32:52Z"
-          },
-          {
-            "title": "KONFLUX-13356: upgrade kueue operator and tekton-kueue for prod ring 2",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11935",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 11935,
-            "author": "glevi-rh",
-            "engaged_at": "2026-05-21T14:01:56Z"
-          }
-        ]
-      },
-      {
         "login": "mmalina",
         "reviews": 55,
         "prs": [
@@ -23416,6 +22901,452 @@
             "number": 2235,
             "author": "scoheb",
             "engaged_at": "2026-05-25T06:02:30Z"
+          }
+        ]
+      },
+      {
+        "login": "sadlerap",
+        "reviews": 55,
+        "prs": [
+          {
+            "title": "KFLUXINFRA-2236: Verify releases via Release CRs instead of PipelineRuns",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13583",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13583,
+            "author": "meyrevived",
+            "engaged_at": "2026-08-18T20:21:31Z"
+          },
+          {
+            "title": "KFLUXINFRA-4362: Add fine-grained bot-actions ClusterRoles to staging",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13578",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13578,
+            "author": "oswcab",
+            "engaged_at": "2026-08-18T16:49:36Z"
+          },
+          {
+            "title": "KFLUXINFRA-4364 Reduce PLR concurrency limit to 280 on stone-prd-rh01 and stone-prod-p02",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13576",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13576,
+            "author": "glevi-rh",
+            "engaged_at": "2026-08-18T16:48:06Z"
+          },
+          {
+            "title": "KFLUXINFRA-4375: Bump repository-validator staging ref",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13534",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13534,
+            "author": "oswcab",
+            "engaged_at": "2026-08-14T19:02:00Z"
+          },
+          {
+            "title": "add konflux-externalpuller-bot-actions",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13405",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13405,
+            "author": "filariow",
+            "engaged_at": "2026-08-14T15:12:45Z"
+          },
+          {
+            "title": "VAP to deny wrong MPC flavors",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13302",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13302,
+            "author": "filariow",
+            "engaged_at": "2026-08-13T19:46:13Z"
+          },
+          {
+            "title": "KFLUXINFRA-4375: Add buildah-oci-ta-min to Kyverno seccomp policy",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13512",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13512,
+            "author": "oswcab",
+            "engaged_at": "2026-08-13T19:18:40Z"
+          },
+          {
+            "title": "KFLUXINFRA-4375: Add Kyverno policy - buildah seccomp workaround on ROKS",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13508",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13508,
+            "author": "oswcab",
+            "engaged_at": "2026-08-13T17:29:35Z"
+          },
+          {
+            "title": "(onboarding) Migrate staging etcd-defrag AppSet to ring deployments ArgoCD",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13482",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13482,
+            "author": "celeztyne",
+            "engaged_at": "2026-08-13T16:00:33Z"
+          },
+          {
+            "title": "Update banner with rh01 mintmaker cronjob changes.",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13486",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13486,
+            "author": "gcpsoares",
+            "engaged_at": "2026-08-12T22:08:25Z"
+          },
+          {
+            "title": "Pin conforma tekton task to digest",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3786",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3786,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-12T21:15:23Z"
+          },
+          {
+            "title": "KFLUXINFRA-4409: Update lightwell-dev MPC vault secret paths",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13478",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13478,
+            "author": "mshaposhnik",
+            "engaged_at": "2026-08-12T15:24:46Z"
+          },
+          {
+            "title": "KFLUXINFRA-4409: Use default subnet for lightwell-dev MPC builders",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13476",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13476,
+            "author": "mshaposhnik",
+            "engaged_at": "2026-08-12T14:15:08Z"
+          },
+          {
+            "title": "reduce the maximum concurrent PLRs on p02",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13443",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13443,
+            "author": "filariow",
+            "engaged_at": "2026-08-11T16:20:09Z"
+          },
+          {
+            "title": "reduce frequency of MintMaker in prod p02",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13442",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13442,
+            "author": "gcpsoares",
+            "engaged_at": "2026-08-11T16:15:36Z"
+          },
+          {
+            "title": "KFLUXINFRA-4409: Add MPC deployment for temporary lightwell-dev cluster",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13428",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13428,
+            "author": "mshaposhnik",
+            "engaged_at": "2026-08-11T12:53:00Z"
+          },
+          {
+            "title": "Move RISC-V config to rhel prod cluster",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13328",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13328,
+            "author": "wbrefvem",
+            "engaged_at": "2026-08-06T20:49:47Z"
+          },
+          {
+            "title": "KFLUXINFRA-4367: Bump repository-validator production config ref (coreos/rhel-coreos-config allow list)",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13382",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13382,
+            "author": "oswcab",
+            "engaged_at": "2026-08-06T20:20:22Z"
+          },
+          {
+            "title": "Fix etcd-shield layout",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13331",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13331,
+            "author": "enkeefe00",
+            "engaged_at": "2026-08-05T19:10:01Z"
+          },
+          {
+            "title": "PVO11Y-5364 [3/3] Restore kueue ClusterPolicy on fedora",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13154",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13154,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-21T21:51:41Z"
+          },
+          {
+            "title": "PVO11Y-5372 - Update tracing production to monitoring directory",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13113",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13113,
+            "author": "raks-tt",
+            "engaged_at": "2026-07-21T21:17:59Z"
+          },
+          {
+            "title": "PVO11Y-5364 [2/3] Remove kueue ClusterPolicy from fedora",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13153",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13153,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-21T20:31:23Z"
+          },
+          {
+            "title": "KFLUXINFRA-4238: (onboarding) Migrate staging etcd-shield AppSet to ring deployments ArgoCD",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13112",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13112,
+            "author": "enkeefe00",
+            "engaged_at": "2026-07-21T17:06:38Z"
+          },
+          {
+            "title": "PVO11Y-5364 [1/3] Prepare kueue ClusterPolicy for recreation on fedora",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13152",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13152,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-21T15:15:42Z"
+          },
+          {
+            "title": "Upgrade actions/checkout in pull_request_target - KFLUXINFRA-4156",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12997",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12997,
+            "author": "celeztyne",
+            "engaged_at": "2026-07-21T12:51:37Z"
+          },
+          {
+            "title": "PVO11Y-5364 Rename kueue ClusterPolicy in staging",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13089",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13089,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-20T11:50:53Z"
+          },
+          {
+            "title": "KFLUXINFRA-3980: add type guards to build-platforms CEL expressions (…",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13059",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13059,
+            "author": "oswcab",
+            "engaged_at": "2026-07-16T14:26:03Z"
+          },
+          {
+            "title": "KFLUXINFRA-4007: (onboarding) Remove old authentication component",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13055",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13055,
+            "author": "enkeefe00",
+            "engaged_at": "2026-07-15T17:25:20Z"
+          },
+          {
+            "title": "Document the new /rerun GitHub workflow",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13002",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13002,
+            "author": "hugares",
+            "engaged_at": "2026-07-10T21:02:30Z"
+          },
+          {
+            "title": "Fix /rerun trigger to be anywhere in the comment",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13001",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13001,
+            "author": "hugares",
+            "engaged_at": "2026-07-10T20:01:10Z"
+          },
+          {
+            "title": "KFLUXINFRA-4007: (onboarding) Remove old staging authentication Apps for Kargo",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12983",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12983,
+            "author": "enkeefe00",
+            "engaged_at": "2026-07-09T15:19:52Z"
+          },
+          {
+            "title": "Untangle overlays from each other",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12982",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12982,
+            "author": "enkeefe00",
+            "engaged_at": "2026-07-09T14:52:51Z"
+          },
+          {
+            "title": "PVO11Y-5290 Inline Grafana base into staging and development overlays",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12960",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12960,
+            "author": "kubasikus",
+            "engaged_at": "2026-07-08T19:06:03Z"
+          },
+          {
+            "title": "Allow all repo members to restart failed GH checks",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12968",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12968,
+            "author": "hugares",
+            "engaged_at": "2026-07-08T18:32:30Z"
+          },
+          {
+            "title": "Add ibm-public-key secret access to release pipeline ClusterRole",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12519",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12519,
+            "author": "rhartman93",
+            "engaged_at": "2026-07-07T16:30:54Z"
+          },
+          {
+            "title": "KONFLUX-6210 Add ibm-public-key secret access to release pipeline ClusterRole (dev/stage)",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12908",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12908,
+            "author": "rhartman93",
+            "engaged_at": "2026-07-06T19:23:00Z"
+          },
+          {
+            "title": "[KFLUXINFRA-3980] Add type guards to build-platforms CEL expressions",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12893",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12893,
+            "author": "oswcab",
+            "engaged_at": "2026-07-06T16:38:39Z"
+          },
+          {
+            "title": "KONFLUX-14156 Update multi-platform-controller to a5285b3",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12907",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12907,
+            "author": "glevi-rh",
+            "engaged_at": "2026-07-01T20:37:25Z"
+          },
+          {
+            "title": "PVO11Y-5279 Allow konflux-o11y-exporters in ClusterSecretStore",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12906",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12906,
+            "author": "FaisalAl-Rayes",
+            "engaged_at": "2026-07-01T19:06:33Z"
+          },
+          {
+            "title": "improve nvidia CDI configuration logic",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12889",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12889,
+            "author": "filariow",
+            "engaged_at": "2026-06-30T16:06:02Z"
+          },
+          {
+            "title": "configure nvidia cdi with retry in stg",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12786",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12786,
+            "author": "filariow",
+            "engaged_at": "2026-06-25T17:46:56Z"
+          },
+          {
+            "title": "Add RISC-V static host config to MPC staging upstream",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12758",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12758,
+            "author": "wbrefvem",
+            "engaged_at": "2026-06-25T16:09:06Z"
+          },
+          {
+            "title": "KFLUXINFRA-4007: PoC for new component standards",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12522",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12522,
+            "author": "enkeefe00",
+            "engaged_at": "2026-06-25T15:57:30Z"
+          },
+          {
+            "title": "KFLUXINFRA-4007: Add overlays for ring deployments",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12523",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12523,
+            "author": "enkeefe00",
+            "engaged_at": "2026-06-24T20:16:30Z"
+          },
+          {
+            "title": "KFLUXINFRA-3613: Update OWNERS files for infra-owned components",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12583",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12583,
+            "author": "enkeefe00",
+            "engaged_at": "2026-06-22T20:53:23Z"
+          },
+          {
+            "title": "Remove ring deployment check",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12337",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12337,
+            "author": "hugares",
+            "engaged_at": "2026-06-15T17:44:19Z"
+          },
+          {
+            "title": "add kueue resource to restrict release plrs on p02",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12232",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12232,
+            "author": "filariow",
+            "engaged_at": "2026-06-12T18:12:30Z"
+          },
+          {
+            "title": "fix(etcd-shield): add total_size check and raise thresholds (staging)",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11319",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 11319,
+            "author": "peet-rh",
+            "engaged_at": "2026-06-09T15:39:22Z"
+          },
+          {
+            "title": "Disable mintmaker in staging",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12268",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12268,
+            "author": "hugares",
+            "engaged_at": "2026-06-05T16:37:11Z"
+          },
+          {
+            "title": "reduce concurrent g6.4xlarge VMs in OSP cluster",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12068",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12068,
+            "author": "filariow",
+            "engaged_at": "2026-05-29T15:51:13Z"
+          },
+          {
+            "title": "increase nslister memory in stg-rh01",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12062",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12062,
+            "author": "filariow",
+            "engaged_at": "2026-05-29T13:51:22Z"
+          },
+          {
+            "title": "KONFLUX-13356: ring 3 CRs migration v1beta1 → v1beta2 + base cleanup",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12023",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12023,
+            "author": "glevi-rh",
+            "engaged_at": "2026-05-27T16:15:42Z"
+          },
+          {
+            "title": "Switch back to ppc in us-east",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11995",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 11995,
+            "author": "hugares",
+            "engaged_at": "2026-05-26T14:59:10Z"
+          },
+          {
+            "title": "remove kueue-external-admission from prod",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11828",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 11828,
+            "author": "filariow",
+            "engaged_at": "2026-05-21T20:34:51Z"
+          },
+          {
+            "title": "remove kueue-external-admission from dev/stg",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11827",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 11827,
+            "author": "filariow",
+            "engaged_at": "2026-05-21T20:32:52Z"
           }
         ]
       },
@@ -24949,8 +24880,16 @@
       },
       {
         "login": "raks-tt",
-        "reviews": 45,
+        "reviews": 46,
         "prs": [
+          {
+            "title": "staging: rename Chains metrics for OpenCensus to OpenTelemetry migration",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13379",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13379,
+            "author": "mathur07",
+            "engaged_at": "2026-08-19T14:00:37Z"
+          },
           {
             "title": "feat(PVO11Y-5420): Emit richer kanary_error metric with caused_by label",
             "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13575",
@@ -25676,6 +25615,14 @@
         "reviews": 42,
         "prs": [
           {
+            "title": "KFLUXINFRA-4238: Migrate cluster-secret-store to ring deployments (staging only",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13580",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13580,
+            "author": "flacatus",
+            "engaged_at": "2026-08-19T14:08:33Z"
+          },
+          {
             "title": "KFLUXINFRA-4238: Migrate cluster-secret-store-rh to ring deployments (production only)",
             "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13581",
             "repo": "redhat-appstudio/infra-deployments",
@@ -25690,14 +25637,6 @@
             "number": 13469,
             "author": "flacatus",
             "engaged_at": "2026-08-18T22:59:18Z"
-          },
-          {
-            "title": "KFLUXINFRA-4238: Migrate cluster-secret-store to ring deployments (staging only",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13580",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13580,
-            "author": "flacatus",
-            "engaged_at": "2026-08-18T22:52:50Z"
           },
           {
             "title": "KFLUXINFRA-4238: Migrate etcd-defrag to ring deployments ArgoCD Staging",
@@ -34352,6 +34291,116 @@
         ]
       },
       {
+        "login": "ntatinen",
+        "reviews": 13,
+        "prs": [
+          {
+            "title": "KAR-947 propagate loki config to prod clusters",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13420",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13420,
+            "author": "olegbet",
+            "engaged_at": "2026-08-19T14:02:46Z"
+          },
+          {
+            "title": "production Ring 1: upgrade pipelines 830 to 854",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13365",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13365,
+            "author": "mathur07",
+            "engaged_at": "2026-08-07T05:48:06Z"
+          },
+          {
+            "title": "KONFLUX-14972: kubearchive-api-server OOMs on stone-prd-rh01",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13104",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13104,
+            "author": "olegbet",
+            "engaged_at": "2026-07-21T15:26:56Z"
+          },
+          {
+            "title": "KONFLUX-14700: OOM fix kflux-prd-rh02 kflux-prd-rh-03",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12940",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12940,
+            "author": "olegbet",
+            "engaged_at": "2026-07-13T15:34:49Z"
+          },
+          {
+            "title": "KONFLUX-14700: OOM kflux-rhel-p01 stone-prd-rh01 stone-prod-p01",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12934",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12934,
+            "author": "olegbet",
+            "engaged_at": "2026-07-13T15:33:46Z"
+          },
+          {
+            "title": "KONFLUX-14700: OOM fix kflux-osp-p01 kflux-fedora-01",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12938",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12938,
+            "author": "olegbet",
+            "engaged_at": "2026-07-13T11:45:16Z"
+          },
+          {
+            "title": "fix(KONFLUX-13555): upgrade otel collector to 0.155.0 in production clusters (2/3)",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12966",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12966,
+            "author": "mafh314",
+            "engaged_at": "2026-07-09T15:08:05Z"
+          },
+          {
+            "title": "fix(KONFLUX-13555): upgrade otel collector to 0.155.0 in production clusters (3/3)",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12967",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12967,
+            "author": "mafh314",
+            "engaged_at": "2026-07-09T11:37:25Z"
+          },
+          {
+            "title": "fix(KONFLUX-13555): upgrade otel collector to 0.155.0 in stone prod clusters (1/3)",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12954",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12954,
+            "author": "mafh314",
+            "engaged_at": "2026-07-09T11:27:31Z"
+          },
+          {
+            "title": "Deploy PaC v0.48.0 to Konflux production - Ring 2",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12567",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12567,
+            "author": "aThorp96",
+            "engaged_at": "2026-06-26T07:22:41Z"
+          },
+          {
+            "title": "Prod Ring 3: upgrade pipelines 5.0.5-830 and patch resolver for Konflux-14376 fix",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12253",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12253,
+            "author": "mathur07",
+            "engaged_at": "2026-06-12T11:05:05Z"
+          },
+          {
+            "title": "chore: bump konflux-ui 1e667c457a66 =\u003e b89e3f953b6d",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12228",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12228,
+            "author": "sahil143",
+            "engaged_at": "2026-06-04T11:07:33Z"
+          },
+          {
+            "title": "Upgrade kubearchive to v1.22.2 in kflux-prd-rh02",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12200",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12200,
+            "author": "olegbet",
+            "engaged_at": "2026-06-04T10:54:24Z"
+          }
+        ]
+      },
+      {
         "login": "FernandesMF",
         "reviews": 12,
         "prs": [
@@ -34552,108 +34601,6 @@
             "number": 12028,
             "author": "rh-tap-build-team",
             "engaged_at": "2026-05-28T19:25:15Z"
-          }
-        ]
-      },
-      {
-        "login": "ntatinen",
-        "reviews": 12,
-        "prs": [
-          {
-            "title": "production Ring 1: upgrade pipelines 830 to 854",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13365",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13365,
-            "author": "mathur07",
-            "engaged_at": "2026-08-07T05:48:06Z"
-          },
-          {
-            "title": "KONFLUX-14972: kubearchive-api-server OOMs on stone-prd-rh01",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13104",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13104,
-            "author": "olegbet",
-            "engaged_at": "2026-07-21T15:26:56Z"
-          },
-          {
-            "title": "KONFLUX-14700: OOM fix kflux-prd-rh02 kflux-prd-rh-03",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12940",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12940,
-            "author": "olegbet",
-            "engaged_at": "2026-07-13T15:34:49Z"
-          },
-          {
-            "title": "KONFLUX-14700: OOM kflux-rhel-p01 stone-prd-rh01 stone-prod-p01",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12934",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12934,
-            "author": "olegbet",
-            "engaged_at": "2026-07-13T15:33:46Z"
-          },
-          {
-            "title": "KONFLUX-14700: OOM fix kflux-osp-p01 kflux-fedora-01",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12938",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12938,
-            "author": "olegbet",
-            "engaged_at": "2026-07-13T11:45:16Z"
-          },
-          {
-            "title": "fix(KONFLUX-13555): upgrade otel collector to 0.155.0 in production clusters (2/3)",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12966",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12966,
-            "author": "mafh314",
-            "engaged_at": "2026-07-09T15:08:05Z"
-          },
-          {
-            "title": "fix(KONFLUX-13555): upgrade otel collector to 0.155.0 in production clusters (3/3)",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12967",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12967,
-            "author": "mafh314",
-            "engaged_at": "2026-07-09T11:37:25Z"
-          },
-          {
-            "title": "fix(KONFLUX-13555): upgrade otel collector to 0.155.0 in stone prod clusters (1/3)",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12954",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12954,
-            "author": "mafh314",
-            "engaged_at": "2026-07-09T11:27:31Z"
-          },
-          {
-            "title": "Deploy PaC v0.48.0 to Konflux production - Ring 2",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12567",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12567,
-            "author": "aThorp96",
-            "engaged_at": "2026-06-26T07:22:41Z"
-          },
-          {
-            "title": "Prod Ring 3: upgrade pipelines 5.0.5-830 and patch resolver for Konflux-14376 fix",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12253",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12253,
-            "author": "mathur07",
-            "engaged_at": "2026-06-12T11:05:05Z"
-          },
-          {
-            "title": "chore: bump konflux-ui 1e667c457a66 =\u003e b89e3f953b6d",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12228",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12228,
-            "author": "sahil143",
-            "engaged_at": "2026-06-04T11:07:33Z"
-          },
-          {
-            "title": "Upgrade kubearchive to v1.22.2 in kflux-prd-rh02",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12200",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12200,
-            "author": "olegbet",
-            "engaged_at": "2026-06-04T10:54:24Z"
           }
         ]
       },
