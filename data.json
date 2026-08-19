@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T17:42:19.846832366Z",
+  "generated_at": "2026-08-19T18:09:13.766692655Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1279,6 +1279,30 @@
         "enhancement",
         "size: S",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Deduplicate test-result attestations by test name",
+      "url": "https://github.com/conforma/policy/pull/1817",
+      "number": 1817,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-08-19T17:49:20Z",
+      "updated_at": "2026-08-19T18:05:15Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 7,
+      "labels": [
+        "size: L"
       ]
     },
     {
@@ -6978,7 +7002,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-21T17:39:31Z",
+    "since": "2026-05-21T18:06:39Z",
     "reviewers": [
       {
         "login": "simonbaird",
