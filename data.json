@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T13:41:18.367234217Z",
+  "generated_at": "2026-08-19T13:48:58.227021272Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3902,10 +3902,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-08-19T13:37:17Z",
+      "updated_at": "2026-08-19T13:38:10Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": null,
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4759,13 +4759,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-08-18T09:54:37Z",
-      "updated_at": "2026-08-18T09:58:32Z",
+      "updated_at": "2026-08-19T13:41:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6859,6 +6859,30 @@
       ]
     },
     {
+      "title": "Build-time param defaults in in tkn-bundle",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3490",
+      "number": 3490,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-05-01T15:17:59Z",
+      "updated_at": "2026-07-30T23:22:36Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-rebase"
+      ]
+    },
+    {
       "title": "feat(EC-1794): replace ec-defaults ConfigMap with hardcoded bundle ref",
       "url": "https://github.com/konflux-ci/e2e-tests/pull/1885",
       "number": 1885,
@@ -6918,7 +6942,7 @@
       "updated_at": "2026-08-19T13:29:15Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
@@ -6952,6 +6976,35 @@
       "labels": []
     },
     {
+      "title": "Restructure enterprise-contract into dev/staging/prod overlays",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13323",
+      "number": 13323,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "Acepresso",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
+      },
+      "created_at": "2026-08-03T12:23:05Z",
+      "updated_at": "2026-08-18T14:12:08Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "lgtm",
+        "environment/production",
+        "infra/hold-production",
+        "environment/development",
+        "environment/staging",
+        "prod/needs-approval"
+      ]
+    },
+    {
       "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
       "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/209",
       "number": 209,
@@ -6976,7 +7029,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-21T13:38:14Z",
+    "since": "2026-05-21T13:45:59Z",
     "reviewers": [
       {
         "login": "tekton-robot",
@@ -16799,628 +16852,6 @@
         ]
       },
       {
-        "login": "davidmogar",
-        "reviews": 77,
-        "prs": [
-          {
-            "title": "fix(RELEASE-2747): symlink extraction in push-artifacts-to-cdn",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2457",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2457,
-            "author": "johnbieren",
-            "engaged_at": "2026-08-19T07:09:47Z"
-          },
-          {
-            "title": "fix: bump release-service-utils image for dual-compression dedup",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2349",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2349,
-            "author": "Amanyd",
-            "engaged_at": "2026-08-17T08:20:04Z"
-          },
-          {
-            "title": "feat(RELEASE-2491): convert extract-oot-kmods task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2426",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2426,
-            "author": "querti",
-            "engaged_at": "2026-08-17T08:19:49Z"
-          },
-          {
-            "title": "fix(CALUNGA-292): switching signature verification to use classic chains",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2464",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2464,
-            "author": "dperaza4dustbit",
-            "engaged_at": "2026-08-17T08:09:14Z"
-          },
-          {
-            "title": "fix(RELEASE-2749): bump release-service-utils image for cdn push",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2445",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2445,
-            "author": "swickersh",
-            "engaged_at": "2026-08-17T08:06:51Z"
-          },
-          {
-            "title": "Revert \"refactor(RELEASE-1990): convert pulp-push-disk-images to python\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2466",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2466,
-            "author": "happybhati",
-            "engaged_at": "2026-08-14T08:46:20Z"
-          },
-          {
-            "title": "Revert \"refactor(RELEASE-1990): convert pulp-push-disk-images to python\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2465",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2465,
-            "author": "happybhati",
-            "engaged_at": "2026-08-14T08:45:56Z"
-          },
-          {
-            "title": "chore: bump Conforma version to 2026-08-11 release",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2459",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2459,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-13T12:22:04Z"
-          },
-          {
-            "title": "feat(ISV-7551): Pin direct signing pipelines + image",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2441",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2441,
-            "author": "kosciCZ",
-            "engaged_at": "2026-08-06T08:57:04Z"
-          },
-          {
-            "title": "refactor(RELEASE-2539): convert validate-single-component to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2438",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2438,
-            "author": "johnbieren",
-            "engaged_at": "2026-08-05T13:21:25Z"
-          },
-          {
-            "title": "Revert isv 6620 prod",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2437",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2437,
-            "author": "midnightercz",
-            "engaged_at": "2026-08-04T11:13:02Z"
-          },
-          {
-            "title": "Revert \"feat(ISV-6620): increase direct signing concurrent limit to 24\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2436",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2436,
-            "author": "midnightercz",
-            "engaged_at": "2026-08-04T11:12:33Z"
-          },
-          {
-            "title": "Revert \"feat(ISV-6620): increase direct signing concurrent limit to 24\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2434",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2434,
-            "author": "Allda",
-            "engaged_at": "2026-08-04T10:49:37Z"
-          },
-          {
-            "title": "fix(ISV-7116): update utils image in direct signing tasks",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2429",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2429,
-            "author": "Allda",
-            "engaged_at": "2026-08-03T13:41:15Z"
-          },
-          {
-            "title": "refactor(RELEASE-2485): convert create-advisory to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2383",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2383,
-            "author": "johnbieren",
-            "engaged_at": "2026-08-03T09:59:29Z"
-          },
-          {
-            "title": "refactor(RELEASE-1990): convert pulp-push-disk-images internal task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2267",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2267,
-            "author": "happybhati",
-            "engaged_at": "2026-07-30T13:38:20Z"
-          },
-          {
-            "title": "chore: double memory from oomkilled tasks",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2419",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2419,
-            "author": "johnbieren",
-            "engaged_at": "2026-07-30T10:33:18Z"
-          },
-          {
-            "title": "feat(RELEASE-2503): convert publish-to-mrrc steps to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2401",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2401,
-            "author": "seanconroy2021",
-            "engaged_at": "2026-07-30T10:32:37Z"
-          },
-          {
-            "title": "Revert \"feat(RELEASE-1976): sign both identities in one cosign command\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2416",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2416,
-            "author": "midnightercz",
-            "engaged_at": "2026-07-28T10:22:24Z"
-          },
-          {
-            "title": "Revert release 1976 staging",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2417",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2417,
-            "author": "midnightercz",
-            "engaged_at": "2026-07-28T09:50:09Z"
-          },
-          {
-            "title": "chore: add David and Johnny as codeowners",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2409",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2409,
-            "author": "johnbieren",
-            "engaged_at": "2026-07-22T15:21:31Z"
-          },
-          {
-            "title": "feat(RELEASE-2482): convert collect-slack-notification-params to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2368",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2368,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-07-16T11:25:40Z"
-          },
-          {
-            "title": "feat(ISV-7321): use direct-sign-index-image in fbc-release pipeline",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2382",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2382,
-            "author": "JakubDurkac",
-            "engaged_at": "2026-07-16T11:13:26Z"
-          },
-          {
-            "title": "fix: use literal results path in pipeline script params",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2389",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2389,
-            "author": "mmalina",
-            "engaged_at": "2026-07-16T06:45:27Z"
-          },
-          {
-            "title": "fix(KONFLUX-10809): fail incrementer on empty tag list",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2328",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2328,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-07-13T14:11:17Z"
-          },
-          {
-            "title": "feat(ISV-7115): add rh-direct-sign-image task",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2301",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2301,
-            "author": "Allda",
-            "engaged_at": "2026-07-13T14:10:58Z"
-          },
-          {
-            "title": "refactor(RELEASE-2475): convert close-advisory-issues to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2344",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2344,
-            "author": "johnbieren",
-            "engaged_at": "2026-07-13T14:10:22Z"
-          },
-          {
-            "title": "feat(CALUNGA-364): get pulp information from RPA for calunga releases",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2358",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2358,
-            "author": "tonisbones",
-            "engaged_at": "2026-07-13T14:10:06Z"
-          },
-          {
-            "title": "refactor(RELEASE-2479): convert collect-index-images to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2327",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2327,
-            "author": "johnbieren",
-            "engaged_at": "2026-07-08T08:44:35Z"
-          },
-          {
-            "title": "chore: bump verify-conforma-konflux-ta task revision",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2347",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2347,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-06T13:27:20Z"
-          },
-          {
-            "title": "feat(RELEASE-2474): convert cleanup-workspace task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2325",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2325,
-            "author": "querti",
-            "engaged_at": "2026-07-02T13:07:10Z"
-          },
-          {
-            "title": "refactor(RELEASE-2471): convert check-data-keys to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2308",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2308,
-            "author": "johnbieren",
-            "engaged_at": "2026-06-30T14:37:26Z"
-          },
-          {
-            "title": "refactor(RELEASE-2508): convert publish-pyxis-repo to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2275",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2275,
-            "author": "johnbieren",
-            "engaged_at": "2026-06-30T09:32:43Z"
-          },
-          {
-            "title": "refactor(RELEASE-2473): convert cleanup-internal-requests task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2300",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2300,
-            "author": "querti",
-            "engaged_at": "2026-06-30T09:32:20Z"
-          },
-          {
-            "title": "fix(RELEASE-2679): support binary staged.files in release notes",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2318",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2318,
-            "author": "swickersh",
-            "engaged_at": "2026-06-30T09:30:01Z"
-          },
-          {
-            "title": "feat(RELEASE-2472): use python check-labels implementation",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2287",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2287,
-            "author": "querti",
-            "engaged_at": "2026-06-30T09:23:05Z"
-          },
-          {
-            "title": "chore: bump verify-conforma-konflux-ta task revision",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2313",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2313,
-            "author": "joejstuart",
-            "engaged_at": "2026-06-26T08:37:57Z"
-          },
-          {
-            "title": "fix(HUM-2609): remove oversized task results from filter-already-released-advisory-rpms",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2316",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2316,
-            "author": "scoheb",
-            "engaged_at": "2026-06-26T08:37:42Z"
-          },
-          {
-            "title": "Revert \"feat(RELEASE-1993): convert update-fbc-catalog-task to Python\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2323",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2323,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-26T08:37:16Z"
-          },
-          {
-            "title": "Revert \"feat(RELEASE-1993): convert update-fbc-catalog-task to Python\"",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2317",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2317,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-24T15:42:30Z"
-          },
-          {
-            "title": "feat(RELEASE-2494): convert extract-checksums-from-image to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2288",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2288,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-24T14:13:37Z"
-          },
-          {
-            "title": "fix(KONFLUX-14326): fix PR links in update-infra-deployments",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2311",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2311,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-24T14:05:34Z"
-          },
-          {
-            "title": "feat(RELEASE-2469): convert base64-encode-checksum to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2295",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2295,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-23T13:18:57Z"
-          },
-          {
-            "title": "feat(RELEASE-2499): switch make-repo-public task to Python script",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2258",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2258,
-            "author": "querti",
-            "engaged_at": "2026-06-23T13:18:34Z"
-          },
-          {
-            "title": "feat(RELEASE-2214): add multi-version opt-in scenario",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2213",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2213,
-            "author": "theflockers",
-            "engaged_at": "2026-06-23T13:16:15Z"
-          },
-          {
-            "title": "feat(RELEASE-1991): push-artifacts-to-cdn uses python scripts",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2228",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2228,
-            "author": "swickersh",
-            "engaged_at": "2026-06-23T13:15:59Z"
-          },
-          {
-            "title": "fix(RELEASE-2552): Update artifact pipeline image",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2307",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2307,
-            "author": "swickersh",
-            "engaged_at": "2026-06-23T13:15:21Z"
-          },
-          {
-            "title": "chore(deps): update quay.io/conforma/cli docker digest to 1e2ed4e",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2211",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2211,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-06-23T13:14:55Z"
-          },
-          {
-            "title": "feat(RELEASE-2419): add appendTags support",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2291",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2291,
-            "author": "mmalina",
-            "engaged_at": "2026-06-18T14:43:28Z"
-          },
-          {
-            "title": "feat(RELEASE-2641): add intention label to signing requests",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2294",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2294,
-            "author": "mmalina",
-            "engaged_at": "2026-06-18T14:42:51Z"
-          },
-          {
-            "title": "fix: add contentGateway to push-artifacts-to-cdn",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2303",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2303,
-            "author": "seanconroy2021",
-            "engaged_at": "2026-06-18T14:41:57Z"
-          },
-          {
-            "title": "feat(RELEASE-2463): replace appstudio-utils with release-service-utils",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2305",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2305,
-            "author": "mmalina",
-            "engaged_at": "2026-06-18T14:40:43Z"
-          },
-          {
-            "title": "fix: fix bump-conforma-revision.sh and update conforma task",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2309",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2309,
-            "author": "joejstuart",
-            "engaged_at": "2026-06-18T13:33:54Z"
-          },
-          {
-            "title": "feat(RELEASE-1993): convert update-fbc-catalog-task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2268",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2268,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-18T11:19:37Z"
-          },
-          {
-            "title": "refactor(RELEASE-2533): convert update-infra-deployments to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2254",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2254,
-            "author": "johnbieren",
-            "engaged_at": "2026-06-16T11:05:30Z"
-          },
-          {
-            "title": "Promote release-service and grafana-dashboard from staging to production",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12326",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12326,
-            "author": "johnbieren",
-            "engaged_at": "2026-06-16T07:29:59Z"
-          },
-          {
-            "title": "feat(EC-1868): use conforma/tekton-catalog for verify-conforma task",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2271",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2271,
-            "author": "simonbaird",
-            "engaged_at": "2026-06-15T10:16:23Z"
-          },
-          {
-            "title": "fix: generate catalog URLs regardless of publishing state",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2279",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2279,
-            "author": "jangel97",
-            "engaged_at": "2026-06-15T10:15:56Z"
-          },
-          {
-            "title": "fix(KONFLUX-14326): fix PR links in update-infra-deployments task",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2289",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2289,
-            "author": "FilipNikolovski",
-            "engaged_at": "2026-06-15T10:15:08Z"
-          },
-          {
-            "title": "refactor(RELEASE-1985): convert create-advisory internal task to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2244",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2244,
-            "author": "johnbieren",
-            "engaged_at": "2026-06-11T10:58:07Z"
-          },
-          {
-            "title": "RELEASE-2015: add {{ component-incrementer }} for uniform multi-repo tags",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2245",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2245,
-            "author": "happybhati",
-            "engaged_at": "2026-06-11T10:54:38Z"
-          },
-          {
-            "title": "fix(RELEASE-2237): add version verification before publishing",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2005",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2005,
-            "author": "theflockers",
-            "engaged_at": "2026-06-11T10:52:06Z"
-          },
-          {
-            "title": "fix(HUM-2319): enable strict mode for verify-conforma in push-rpms-to-pulp pipeline",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2282",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2282,
-            "author": "scoheb",
-            "engaged_at": "2026-06-11T10:48:18Z"
-          },
-          {
-            "title": "feat(HUM-2061): optimize filter-already-released-advisory-rpms for speed and reliability",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2233",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2233,
-            "author": "scoheb",
-            "engaged_at": "2026-06-08T07:30:52Z"
-          },
-          {
-            "title": "fix(RELEASE-2544): initialise checksum_map result before early exit",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2266",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2266,
-            "author": "swickersh",
-            "engaged_at": "2026-06-08T07:30:36Z"
-          },
-          {
-            "title": "feat(HUM-2151): add createOciArtifact param to rh-sign-rpm",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2246",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2246,
-            "author": "scoheb",
-            "engaged_at": "2026-06-08T07:30:26Z"
-          },
-          {
-            "title": "fix(RELEASE-2367): bump utils image in push-disk-images tasks",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2251",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2251,
-            "author": "swickersh",
-            "engaged_at": "2026-06-02T14:29:11Z"
-          },
-          {
-            "title": "chore(CALUNGA-261): nudge plumbing-utils in upload-py-pulp",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2243",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2243,
-            "author": "ronnll",
-            "engaged_at": "2026-05-29T09:14:12Z"
-          },
-          {
-            "title": "fix(RELEASE-2253): prevent redundant tags on pre-GA and hotfix index images",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2189",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2189,
-            "author": "happybhati",
-            "engaged_at": "2026-05-29T09:11:19Z"
-          },
-          {
-            "title": "feat(HUM-2067): test infra interactive mode",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2237",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2237,
-            "author": "scoheb",
-            "engaged_at": "2026-05-27T21:14:01Z"
-          },
-          {
-            "title": "feat(HUM-2065): signing key support in tasks",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2235",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2235,
-            "author": "scoheb",
-            "engaged_at": "2026-05-27T12:22:54Z"
-          },
-          {
-            "title": "feat(HUM-2062): enhance rh-sign-rpm task",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2234",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2234,
-            "author": "scoheb",
-            "engaged_at": "2026-05-27T12:20:43Z"
-          },
-          {
-            "title": "test(RELEASE-2324): use noarch-only scenario in push-rpms-to-pulp e2e",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2231",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2231,
-            "author": "elenagerman",
-            "engaged_at": "2026-05-27T12:17:57Z"
-          },
-          {
-            "title": "refactor(RELEASE-1984): convert check-fbc-opt-in to python",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2194",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2194,
-            "author": "johnbieren",
-            "engaged_at": "2026-05-27T12:16:58Z"
-          },
-          {
-            "title": "internal-services update",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11959",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 11959,
-            "author": "rh-tap-build-team",
-            "engaged_at": "2026-05-27T12:15:10Z"
-          },
-          {
-            "title": "fix(KONFLUX-12187): filter-advisory-images keeps image on fail",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2226",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2226,
-            "author": "johnbieren",
-            "engaged_at": "2026-05-21T13:47:16Z"
-          },
-          {
-            "title": "fix(SPSTRAT-731): fix staging structure for marketplacesvm-push-disk-images",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2197",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2197,
-            "author": "lslebodn",
-            "engaged_at": "2026-05-21T13:42:47Z"
-          }
-        ]
-      },
-      {
         "login": "rrosatti",
         "reviews": 77,
         "prs": [
@@ -18039,6 +17470,620 @@
             "number": 11975,
             "author": "JoaoPedroPP",
             "engaged_at": "2026-05-27T06:28:59Z"
+          }
+        ]
+      },
+      {
+        "login": "davidmogar",
+        "reviews": 76,
+        "prs": [
+          {
+            "title": "fix(RELEASE-2747): symlink extraction in push-artifacts-to-cdn",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2457",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2457,
+            "author": "johnbieren",
+            "engaged_at": "2026-08-19T07:09:47Z"
+          },
+          {
+            "title": "fix: bump release-service-utils image for dual-compression dedup",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2349",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2349,
+            "author": "Amanyd",
+            "engaged_at": "2026-08-17T08:20:04Z"
+          },
+          {
+            "title": "feat(RELEASE-2491): convert extract-oot-kmods task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2426",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2426,
+            "author": "querti",
+            "engaged_at": "2026-08-17T08:19:49Z"
+          },
+          {
+            "title": "fix(CALUNGA-292): switching signature verification to use classic chains",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2464",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2464,
+            "author": "dperaza4dustbit",
+            "engaged_at": "2026-08-17T08:09:14Z"
+          },
+          {
+            "title": "fix(RELEASE-2749): bump release-service-utils image for cdn push",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2445",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2445,
+            "author": "swickersh",
+            "engaged_at": "2026-08-17T08:06:51Z"
+          },
+          {
+            "title": "Revert \"refactor(RELEASE-1990): convert pulp-push-disk-images to python\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2466",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2466,
+            "author": "happybhati",
+            "engaged_at": "2026-08-14T08:46:20Z"
+          },
+          {
+            "title": "Revert \"refactor(RELEASE-1990): convert pulp-push-disk-images to python\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2465",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2465,
+            "author": "happybhati",
+            "engaged_at": "2026-08-14T08:45:56Z"
+          },
+          {
+            "title": "chore: bump Conforma version to 2026-08-11 release",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2459",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2459,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-13T12:22:04Z"
+          },
+          {
+            "title": "feat(ISV-7551): Pin direct signing pipelines + image",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2441",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2441,
+            "author": "kosciCZ",
+            "engaged_at": "2026-08-06T08:57:04Z"
+          },
+          {
+            "title": "refactor(RELEASE-2539): convert validate-single-component to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2438",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2438,
+            "author": "johnbieren",
+            "engaged_at": "2026-08-05T13:21:25Z"
+          },
+          {
+            "title": "Revert isv 6620 prod",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2437",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2437,
+            "author": "midnightercz",
+            "engaged_at": "2026-08-04T11:13:02Z"
+          },
+          {
+            "title": "Revert \"feat(ISV-6620): increase direct signing concurrent limit to 24\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2436",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2436,
+            "author": "midnightercz",
+            "engaged_at": "2026-08-04T11:12:33Z"
+          },
+          {
+            "title": "Revert \"feat(ISV-6620): increase direct signing concurrent limit to 24\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2434",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2434,
+            "author": "Allda",
+            "engaged_at": "2026-08-04T10:49:37Z"
+          },
+          {
+            "title": "fix(ISV-7116): update utils image in direct signing tasks",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2429",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2429,
+            "author": "Allda",
+            "engaged_at": "2026-08-03T13:41:15Z"
+          },
+          {
+            "title": "refactor(RELEASE-2485): convert create-advisory to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2383",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2383,
+            "author": "johnbieren",
+            "engaged_at": "2026-08-03T09:59:29Z"
+          },
+          {
+            "title": "refactor(RELEASE-1990): convert pulp-push-disk-images internal task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2267",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2267,
+            "author": "happybhati",
+            "engaged_at": "2026-07-30T13:38:20Z"
+          },
+          {
+            "title": "chore: double memory from oomkilled tasks",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2419",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2419,
+            "author": "johnbieren",
+            "engaged_at": "2026-07-30T10:33:18Z"
+          },
+          {
+            "title": "feat(RELEASE-2503): convert publish-to-mrrc steps to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2401",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2401,
+            "author": "seanconroy2021",
+            "engaged_at": "2026-07-30T10:32:37Z"
+          },
+          {
+            "title": "Revert \"feat(RELEASE-1976): sign both identities in one cosign command\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2416",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2416,
+            "author": "midnightercz",
+            "engaged_at": "2026-07-28T10:22:24Z"
+          },
+          {
+            "title": "Revert release 1976 staging",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2417",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2417,
+            "author": "midnightercz",
+            "engaged_at": "2026-07-28T09:50:09Z"
+          },
+          {
+            "title": "chore: add David and Johnny as codeowners",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2409",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2409,
+            "author": "johnbieren",
+            "engaged_at": "2026-07-22T15:21:31Z"
+          },
+          {
+            "title": "feat(RELEASE-2482): convert collect-slack-notification-params to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2368",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2368,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-07-16T11:25:40Z"
+          },
+          {
+            "title": "feat(ISV-7321): use direct-sign-index-image in fbc-release pipeline",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2382",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2382,
+            "author": "JakubDurkac",
+            "engaged_at": "2026-07-16T11:13:26Z"
+          },
+          {
+            "title": "fix: use literal results path in pipeline script params",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2389",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2389,
+            "author": "mmalina",
+            "engaged_at": "2026-07-16T06:45:27Z"
+          },
+          {
+            "title": "fix(KONFLUX-10809): fail incrementer on empty tag list",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2328",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2328,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-07-13T14:11:17Z"
+          },
+          {
+            "title": "feat(ISV-7115): add rh-direct-sign-image task",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2301",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2301,
+            "author": "Allda",
+            "engaged_at": "2026-07-13T14:10:58Z"
+          },
+          {
+            "title": "refactor(RELEASE-2475): convert close-advisory-issues to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2344",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2344,
+            "author": "johnbieren",
+            "engaged_at": "2026-07-13T14:10:22Z"
+          },
+          {
+            "title": "feat(CALUNGA-364): get pulp information from RPA for calunga releases",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2358",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2358,
+            "author": "tonisbones",
+            "engaged_at": "2026-07-13T14:10:06Z"
+          },
+          {
+            "title": "refactor(RELEASE-2479): convert collect-index-images to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2327",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2327,
+            "author": "johnbieren",
+            "engaged_at": "2026-07-08T08:44:35Z"
+          },
+          {
+            "title": "chore: bump verify-conforma-konflux-ta task revision",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2347",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2347,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-06T13:27:20Z"
+          },
+          {
+            "title": "feat(RELEASE-2474): convert cleanup-workspace task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2325",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2325,
+            "author": "querti",
+            "engaged_at": "2026-07-02T13:07:10Z"
+          },
+          {
+            "title": "refactor(RELEASE-2471): convert check-data-keys to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2308",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2308,
+            "author": "johnbieren",
+            "engaged_at": "2026-06-30T14:37:26Z"
+          },
+          {
+            "title": "refactor(RELEASE-2508): convert publish-pyxis-repo to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2275",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2275,
+            "author": "johnbieren",
+            "engaged_at": "2026-06-30T09:32:43Z"
+          },
+          {
+            "title": "refactor(RELEASE-2473): convert cleanup-internal-requests task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2300",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2300,
+            "author": "querti",
+            "engaged_at": "2026-06-30T09:32:20Z"
+          },
+          {
+            "title": "fix(RELEASE-2679): support binary staged.files in release notes",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2318",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2318,
+            "author": "swickersh",
+            "engaged_at": "2026-06-30T09:30:01Z"
+          },
+          {
+            "title": "feat(RELEASE-2472): use python check-labels implementation",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2287",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2287,
+            "author": "querti",
+            "engaged_at": "2026-06-30T09:23:05Z"
+          },
+          {
+            "title": "chore: bump verify-conforma-konflux-ta task revision",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2313",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2313,
+            "author": "joejstuart",
+            "engaged_at": "2026-06-26T08:37:57Z"
+          },
+          {
+            "title": "fix(HUM-2609): remove oversized task results from filter-already-released-advisory-rpms",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2316",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2316,
+            "author": "scoheb",
+            "engaged_at": "2026-06-26T08:37:42Z"
+          },
+          {
+            "title": "Revert \"feat(RELEASE-1993): convert update-fbc-catalog-task to Python\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2323",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2323,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-26T08:37:16Z"
+          },
+          {
+            "title": "Revert \"feat(RELEASE-1993): convert update-fbc-catalog-task to Python\"",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2317",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2317,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-24T15:42:30Z"
+          },
+          {
+            "title": "feat(RELEASE-2494): convert extract-checksums-from-image to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2288",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2288,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-24T14:13:37Z"
+          },
+          {
+            "title": "fix(KONFLUX-14326): fix PR links in update-infra-deployments",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2311",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2311,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-24T14:05:34Z"
+          },
+          {
+            "title": "feat(RELEASE-2469): convert base64-encode-checksum to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2295",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2295,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-23T13:18:57Z"
+          },
+          {
+            "title": "feat(RELEASE-2499): switch make-repo-public task to Python script",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2258",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2258,
+            "author": "querti",
+            "engaged_at": "2026-06-23T13:18:34Z"
+          },
+          {
+            "title": "feat(RELEASE-2214): add multi-version opt-in scenario",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2213",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2213,
+            "author": "theflockers",
+            "engaged_at": "2026-06-23T13:16:15Z"
+          },
+          {
+            "title": "feat(RELEASE-1991): push-artifacts-to-cdn uses python scripts",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2228",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2228,
+            "author": "swickersh",
+            "engaged_at": "2026-06-23T13:15:59Z"
+          },
+          {
+            "title": "fix(RELEASE-2552): Update artifact pipeline image",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2307",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2307,
+            "author": "swickersh",
+            "engaged_at": "2026-06-23T13:15:21Z"
+          },
+          {
+            "title": "chore(deps): update quay.io/conforma/cli docker digest to 1e2ed4e",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2211",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2211,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-06-23T13:14:55Z"
+          },
+          {
+            "title": "feat(RELEASE-2419): add appendTags support",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2291",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2291,
+            "author": "mmalina",
+            "engaged_at": "2026-06-18T14:43:28Z"
+          },
+          {
+            "title": "feat(RELEASE-2641): add intention label to signing requests",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2294",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2294,
+            "author": "mmalina",
+            "engaged_at": "2026-06-18T14:42:51Z"
+          },
+          {
+            "title": "fix: add contentGateway to push-artifacts-to-cdn",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2303",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2303,
+            "author": "seanconroy2021",
+            "engaged_at": "2026-06-18T14:41:57Z"
+          },
+          {
+            "title": "feat(RELEASE-2463): replace appstudio-utils with release-service-utils",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2305",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2305,
+            "author": "mmalina",
+            "engaged_at": "2026-06-18T14:40:43Z"
+          },
+          {
+            "title": "fix: fix bump-conforma-revision.sh and update conforma task",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2309",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2309,
+            "author": "joejstuart",
+            "engaged_at": "2026-06-18T13:33:54Z"
+          },
+          {
+            "title": "feat(RELEASE-1993): convert update-fbc-catalog-task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2268",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2268,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-18T11:19:37Z"
+          },
+          {
+            "title": "refactor(RELEASE-2533): convert update-infra-deployments to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2254",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2254,
+            "author": "johnbieren",
+            "engaged_at": "2026-06-16T11:05:30Z"
+          },
+          {
+            "title": "Promote release-service and grafana-dashboard from staging to production",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12326",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 12326,
+            "author": "johnbieren",
+            "engaged_at": "2026-06-16T07:29:59Z"
+          },
+          {
+            "title": "feat(EC-1868): use conforma/tekton-catalog for verify-conforma task",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2271",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2271,
+            "author": "simonbaird",
+            "engaged_at": "2026-06-15T10:16:23Z"
+          },
+          {
+            "title": "fix: generate catalog URLs regardless of publishing state",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2279",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2279,
+            "author": "jangel97",
+            "engaged_at": "2026-06-15T10:15:56Z"
+          },
+          {
+            "title": "fix(KONFLUX-14326): fix PR links in update-infra-deployments task",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2289",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2289,
+            "author": "FilipNikolovski",
+            "engaged_at": "2026-06-15T10:15:08Z"
+          },
+          {
+            "title": "refactor(RELEASE-1985): convert create-advisory internal task to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2244",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2244,
+            "author": "johnbieren",
+            "engaged_at": "2026-06-11T10:58:07Z"
+          },
+          {
+            "title": "RELEASE-2015: add {{ component-incrementer }} for uniform multi-repo tags",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2245",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2245,
+            "author": "happybhati",
+            "engaged_at": "2026-06-11T10:54:38Z"
+          },
+          {
+            "title": "fix(RELEASE-2237): add version verification before publishing",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2005",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2005,
+            "author": "theflockers",
+            "engaged_at": "2026-06-11T10:52:06Z"
+          },
+          {
+            "title": "fix(HUM-2319): enable strict mode for verify-conforma in push-rpms-to-pulp pipeline",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2282",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2282,
+            "author": "scoheb",
+            "engaged_at": "2026-06-11T10:48:18Z"
+          },
+          {
+            "title": "feat(HUM-2061): optimize filter-already-released-advisory-rpms for speed and reliability",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2233",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2233,
+            "author": "scoheb",
+            "engaged_at": "2026-06-08T07:30:52Z"
+          },
+          {
+            "title": "fix(RELEASE-2544): initialise checksum_map result before early exit",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2266",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2266,
+            "author": "swickersh",
+            "engaged_at": "2026-06-08T07:30:36Z"
+          },
+          {
+            "title": "feat(HUM-2151): add createOciArtifact param to rh-sign-rpm",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2246",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2246,
+            "author": "scoheb",
+            "engaged_at": "2026-06-08T07:30:26Z"
+          },
+          {
+            "title": "fix(RELEASE-2367): bump utils image in push-disk-images tasks",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2251",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2251,
+            "author": "swickersh",
+            "engaged_at": "2026-06-02T14:29:11Z"
+          },
+          {
+            "title": "chore(CALUNGA-261): nudge plumbing-utils in upload-py-pulp",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2243",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2243,
+            "author": "ronnll",
+            "engaged_at": "2026-05-29T09:14:12Z"
+          },
+          {
+            "title": "fix(RELEASE-2253): prevent redundant tags on pre-GA and hotfix index images",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2189",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2189,
+            "author": "happybhati",
+            "engaged_at": "2026-05-29T09:11:19Z"
+          },
+          {
+            "title": "feat(HUM-2067): test infra interactive mode",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2237",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2237,
+            "author": "scoheb",
+            "engaged_at": "2026-05-27T21:14:01Z"
+          },
+          {
+            "title": "feat(HUM-2065): signing key support in tasks",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2235",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2235,
+            "author": "scoheb",
+            "engaged_at": "2026-05-27T12:22:54Z"
+          },
+          {
+            "title": "feat(HUM-2062): enhance rh-sign-rpm task",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2234",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2234,
+            "author": "scoheb",
+            "engaged_at": "2026-05-27T12:20:43Z"
+          },
+          {
+            "title": "test(RELEASE-2324): use noarch-only scenario in push-rpms-to-pulp e2e",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2231",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2231,
+            "author": "elenagerman",
+            "engaged_at": "2026-05-27T12:17:57Z"
+          },
+          {
+            "title": "refactor(RELEASE-1984): convert check-fbc-opt-in to python",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2194",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2194,
+            "author": "johnbieren",
+            "engaged_at": "2026-05-27T12:16:58Z"
+          },
+          {
+            "title": "internal-services update",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/11959",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 11959,
+            "author": "rh-tap-build-team",
+            "engaged_at": "2026-05-27T12:15:10Z"
+          },
+          {
+            "title": "fix(KONFLUX-12187): filter-advisory-images keeps image on fail",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2226",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2226,
+            "author": "johnbieren",
+            "engaged_at": "2026-05-21T13:47:16Z"
           }
         ]
       },
@@ -19846,8 +19891,16 @@
       },
       {
         "login": "st3penta",
-        "reviews": 71,
+        "reviews": 72,
         "prs": [
+          {
+            "title": "Create PRs instead of pushing directly to protected branches",
+            "url": "https://github.com/conforma/tekton-catalog/pull/261",
+            "repo": "conforma/tekton-catalog",
+            "number": 261,
+            "author": "jsmid1",
+            "engaged_at": "2026-08-19T13:41:48Z"
+          },
           {
             "title": "Allow PNC SLSA build type for PipelineRun attestations",
             "url": "https://github.com/conforma/policy/pull/1816",
@@ -25628,7 +25681,7 @@
             "repo": "redhat-appstudio/infra-deployments",
             "number": 13581,
             "author": "flacatus",
-            "engaged_at": "2026-08-19T13:37:19Z"
+            "engaged_at": "2026-08-19T13:45:55Z"
           },
           {
             "title": "KFLUXINFRA-4238: Migrate disaster-recovery to ring deployments ArgoCD",
