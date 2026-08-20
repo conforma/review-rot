@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T17:11:00.215418436Z",
+  "generated_at": "2026-08-20T17:44:40.453018222Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4258,6 +4258,30 @@
       ]
     },
     {
+      "title": "Pin GitHub Actions to immutable SHAs in CI workflows",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/227",
+      "number": 227,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-08-20T17:08:50Z",
+      "updated_at": "2026-08-20T17:10:47Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S"
+      ]
+    },
+    {
       "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/user-guide/pull/233",
       "number": 233,
@@ -5560,7 +5584,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-08-19T14:44:14Z",
-      "updated_at": "2026-08-20T15:48:37Z",
+      "updated_at": "2026-08-20T17:34:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5569,7 +5593,7 @@
         "count": 1,
         "has_new_commits": true
       },
-      "unresolved_conversations": 7,
+      "unresolved_conversations": 8,
       "labels": [
         "size: XXL"
       ]
@@ -7078,7 +7102,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-22T17:08:35Z",
+    "since": "2026-05-22T17:41:44Z",
     "reviewers": [
       {
         "login": "simonbaird",
