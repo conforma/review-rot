@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T05:44:30.833785435Z",
+  "generated_at": "2026-08-20T06:11:42.071860172Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5208,7 +5208,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-08T00:47:32Z",
-      "updated_at": "2026-08-20T01:56:18Z",
+      "updated_at": "2026-08-20T05:53:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5234,7 +5234,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-09T01:31:46Z",
-      "updated_at": "2026-08-20T01:56:21Z",
+      "updated_at": "2026-08-20T05:53:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5274,6 +5274,31 @@
         "main",
         "renovate",
         "size: XS"
+      ]
+    },
+    {
+      "title": "fix(deps): update module github.com/go-git/go-git/v5 to v5.19.2 [security] (main)",
+      "url": "https://github.com/conforma/go-gather/pull/327",
+      "number": 327,
+      "repo": "conforma/go-gather",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-05-11T15:39:45Z",
+      "updated_at": "2026-08-20T05:54:53Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "security",
+        "size: M"
       ]
     },
     {
@@ -5439,7 +5464,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-18T00:50:48Z",
-      "updated_at": "2026-08-20T01:56:23Z",
+      "updated_at": "2026-08-20T05:53:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6983,7 +7008,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-22T05:42:05Z",
+    "since": "2026-05-22T06:09:07Z",
     "reviewers": [
       {
         "login": "simonbaird",
