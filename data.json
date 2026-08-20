@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T20:09:55.432713642Z",
+  "generated_at": "2026-08-20T20:44:01.532690973Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3336,7 +3336,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.124.0 (main)",
+      "title": "Update dependency wrangler to v4.125.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -3345,7 +3345,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-08-18T17:16:51Z",
+      "updated_at": "2026-08-20T20:27:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4190,7 +4190,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-08-17T22:45:21Z",
+      "updated_at": "2026-08-20T20:16:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5871,7 +5871,7 @@
       ]
     },
     {
-      "title": "Update dependency golangci-lint to v2.13.0 (main)",
+      "title": "Update dependency golangci-lint to v2.13.1 (main)",
       "url": "https://github.com/conforma/knative-service/pull/87",
       "number": 87,
       "repo": "conforma/knative-service",
@@ -5880,7 +5880,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-08T00:53:58Z",
-      "updated_at": "2026-08-19T23:44:41Z",
+      "updated_at": "2026-08-20T20:15:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5932,7 +5932,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:35:59Z",
-      "updated_at": "2026-08-19T19:13:14Z",
+      "updated_at": "2026-08-20T20:16:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -7101,7 +7101,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-22T20:07:06Z",
+    "since": "2026-05-22T20:41:32Z",
     "reviewers": [
       {
         "login": "simonbaird",
