@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:11:10.814040992Z",
+  "generated_at": "2026-08-20T10:44:48.518264936Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1267,13 +1267,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-08-19T17:49:20Z",
-      "updated_at": "2026-08-19T18:50:38Z",
+      "updated_at": "2026-08-20T10:33:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 5,
@@ -7008,7 +7008,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-22T10:08:25Z",
+    "since": "2026-05-22T10:42:16Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7922,8 +7922,16 @@
       },
       {
         "login": "st3penta",
-        "reviews": 69,
+        "reviews": 70,
         "prs": [
+          {
+            "title": "Deduplicate test-result attestations by test name",
+            "url": "https://github.com/conforma/policy/pull/1817",
+            "repo": "conforma/policy",
+            "number": 1817,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-20T10:33:11Z"
+          },
           {
             "title": "Create PRs instead of pushing directly to protected branches",
             "url": "https://github.com/conforma/tekton-catalog/pull/261",
