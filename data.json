@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:20:00.735379299Z",
+  "generated_at": "2026-08-20T07:48:28.339520793Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -320,7 +320,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-08-19T15:11:34Z",
+      "updated_at": "2026-08-20T07:29:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -348,7 +348,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-08-20T00:54:08Z",
+      "updated_at": "2026-08-20T07:32:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -537,7 +537,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-08-19T22:12:22Z",
+      "updated_at": "2026-08-20T07:30:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -566,7 +566,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-08-19T22:09:00Z",
+      "updated_at": "2026-08-20T07:30:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -997,32 +997,6 @@
         "documentation",
         "size: XS",
         "requires-manual-review"
-      ]
-    },
-    {
-      "title": "Verify SBOM signatures from OCI referrers and tag refs",
-      "url": "https://github.com/conforma/policy/pull/1787",
-      "number": 1787,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-07-28T12:48:13Z",
-      "updated_at": "2026-08-19T15:32:24Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "enhancement",
-        "size: XXL",
-        "ready-for-merge"
       ]
     },
     {
@@ -7008,7 +6982,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-22T07:17:36Z",
+    "since": "2026-05-22T07:45:32Z",
     "reviewers": [
       {
         "login": "simonbaird",
