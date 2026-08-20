@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T07:48:28.339520793Z",
+  "generated_at": "2026-08-20T08:14:06.321895618Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1279,6 +1279,32 @@
       "unresolved_conversations": 5,
       "labels": [
         "size: XL"
+      ]
+    },
+    {
+      "title": "docs(#1818): add opt-in/fail-closed exception to effective_on guidance",
+      "url": "https://github.com/conforma/policy/pull/1819",
+      "number": 1819,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-08-20T07:49:25Z",
+      "updated_at": "2026-08-20T07:59:27Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "documentation",
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -6982,7 +7008,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-22T07:45:32Z",
+    "since": "2026-05-22T08:11:48Z",
     "reviewers": [
       {
         "login": "simonbaird",
