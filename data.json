@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:47:46.864865902Z",
+  "generated_at": "2026-08-20T15:14:08.985802058Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -320,7 +320,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-08-20T07:29:31Z",
+      "updated_at": "2026-08-20T15:07:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -348,7 +348,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-08-20T13:13:12Z",
+      "updated_at": "2026-08-20T15:06:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -537,7 +537,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:04Z",
-      "updated_at": "2026-08-20T07:30:28Z",
+      "updated_at": "2026-08-20T15:06:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -566,7 +566,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-08-20T07:30:20Z",
+      "updated_at": "2026-08-20T15:01:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -697,7 +697,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-16T00:50:42Z",
-      "updated_at": "2026-08-20T13:15:32Z",
+      "updated_at": "2026-08-20T14:59:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1255,30 +1255,6 @@
         "enhancement",
         "size: S",
         "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Deduplicate test-result attestations by test name",
-      "url": "https://github.com/conforma/policy/pull/1817",
-      "number": 1817,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-08-19T17:49:20Z",
-      "updated_at": "2026-08-20T10:33:11Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 5,
-      "labels": [
-        "size: XL"
       ]
     },
     {
@@ -7076,7 +7052,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-22T14:44:48Z",
+    "since": "2026-05-22T15:11:15Z",
     "reviewers": [
       {
         "login": "simonbaird",
