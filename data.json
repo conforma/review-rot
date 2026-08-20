@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T10:44:48.518264936Z",
+  "generated_at": "2026-08-20T11:10:24.086512687Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1620,7 +1620,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-08-20T01:23:24Z",
+      "updated_at": "2026-08-20T10:59:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1793,7 +1793,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-08-19T22:17:55Z",
+      "updated_at": "2026-08-20T11:02:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5490,16 +5490,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-08-19T14:44:14Z",
-      "updated_at": "2026-08-19T16:13:09Z",
+      "updated_at": "2026-08-20T10:59:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 7,
       "labels": [
         "size: XXL"
       ]
@@ -7008,7 +7008,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-22T10:42:16Z",
+    "since": "2026-05-22T11:07:35Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7922,8 +7922,16 @@
       },
       {
         "login": "st3penta",
-        "reviews": 70,
+        "reviews": 71,
         "prs": [
+          {
+            "title": "Add resource limits to archive expanders and HTTP gatherer",
+            "url": "https://github.com/conforma/go-gather/pull/339",
+            "repo": "conforma/go-gather",
+            "number": 339,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-20T10:59:14Z"
+          },
           {
             "title": "Deduplicate test-result attestations by test name",
             "url": "https://github.com/conforma/policy/pull/1817",
