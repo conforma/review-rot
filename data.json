@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:21:43.538222284Z",
+  "generated_at": "2026-08-21T13:48:31.219830203Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6135,7 +6135,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:26:43Z",
-      "updated_at": "2026-08-15T09:54:52Z",
+      "updated_at": "2026-08-21T13:45:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6160,7 +6160,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-08-21T10:02:19Z",
+      "updated_at": "2026-08-21T13:43:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6185,10 +6185,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-08-13T17:51:58Z",
+      "updated_at": "2026-08-21T13:43:13Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6414,14 +6414,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-08-17T13:03:42Z",
-      "updated_at": "2026-08-19T13:14:30Z",
+      "updated_at": "2026-08-21T13:33:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
         "count": 1,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -7147,7 +7147,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-23T13:19:15Z",
+    "since": "2026-05-23T13:45:54Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8638,6 +8638,14 @@
         "reviews": 48,
         "prs": [
           {
+            "title": "Update SKILL.md to add SLSA provenance domain and iterative refinement",
+            "url": "https://github.com/conforma/claude-skills/pull/21",
+            "repo": "conforma/claude-skills",
+            "number": 21,
+            "author": "dheerajodha",
+            "engaged_at": "2026-08-21T13:33:23Z"
+          },
+          {
             "title": "Harden git subdir copy against symlink traversal",
             "url": "https://github.com/conforma/go-gather/pull/338",
             "repo": "conforma/go-gather",
@@ -8652,14 +8660,6 @@
             "number": 1787,
             "author": "st3penta",
             "engaged_at": "2026-08-19T15:32:24Z"
-          },
-          {
-            "title": "Update SKILL.md to add SLSA provenance domain and iterative refinement",
-            "url": "https://github.com/conforma/claude-skills/pull/21",
-            "repo": "conforma/claude-skills",
-            "number": 21,
-            "author": "dheerajodha",
-            "engaged_at": "2026-08-17T18:24:22Z"
           },
           {
             "title": "Add SLSA provenance data access patterns to rego-patterns.md (EC-1936)",
