@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T15:46:22.186363656Z",
+  "generated_at": "2026-08-21T16:10:39.795535611Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1242,13 +1242,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-08-20T07:49:25Z",
-      "updated_at": "2026-08-20T07:59:27Z",
+      "updated_at": "2026-08-21T16:03:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1268,13 +1268,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-08-20T15:20:09Z",
-      "updated_at": "2026-08-20T15:32:44Z",
+      "updated_at": "2026-08-21T15:59:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -3137,13 +3137,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-08-19T15:02:12Z",
-      "updated_at": "2026-08-19T15:39:59Z",
+      "updated_at": "2026-08-21T16:04:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4550,7 +4550,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:36:46Z",
-      "updated_at": "2026-08-15T09:57:42Z",
+      "updated_at": "2026-08-21T15:57:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4656,7 +4656,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-15T00:43:24Z",
-      "updated_at": "2026-08-15T09:57:57Z",
+      "updated_at": "2026-08-21T15:57:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -7096,7 +7096,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-23T15:43:25Z",
+    "since": "2026-05-23T16:07:57Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8990,8 +8990,32 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 34,
+        "reviews": 37,
         "prs": [
+          {
+            "title": "docs(#3510): add AGENTS.md guidance for review conventions",
+            "url": "https://github.com/conforma/cli/pull/3511",
+            "repo": "conforma/cli",
+            "number": 3511,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-21T16:04:54Z"
+          },
+          {
+            "title": "docs(#1818): add opt-in/fail-closed exception to effective_on guidance",
+            "url": "https://github.com/conforma/policy/pull/1819",
+            "repo": "conforma/policy",
+            "number": 1819,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-21T16:03:43Z"
+          },
+          {
+            "title": "docs(#1820): document test attestation input contract in AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1821",
+            "repo": "conforma/policy",
+            "number": 1821,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-21T15:59:46Z"
+          },
           {
             "title": "Use konflux-ci/task-runner runner image, and incorporate select-oci-auth script",
             "url": "https://github.com/conforma/step-actions/pull/7",
