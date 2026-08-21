@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T13:48:31.219830203Z",
+  "generated_at": "2026-08-21T14:14:45.668081417Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4011,7 +4011,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:39:54Z",
-      "updated_at": "2026-08-15T08:44:29Z",
+      "updated_at": "2026-08-21T14:00:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4055,32 +4055,6 @@
       ]
     },
     {
-      "title": "Update go modules (main) (patch)",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/209",
-      "number": 209,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-17T00:54:39Z",
-      "updated_at": "2026-08-21T10:46:15Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: M"
-      ]
-    },
-    {
       "title": "Update module github.com/tektoncd/pipeline to v1.10.3 (main)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/210",
       "number": 210,
@@ -4090,7 +4064,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-08-19T22:04:08Z",
+      "updated_at": "2026-08-21T14:00:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4140,7 +4114,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-08-19T22:04:12Z",
+      "updated_at": "2026-08-21T14:01:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4166,11 +4140,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-08-21T06:35:06Z",
+      "updated_at": "2026-08-21T14:01:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": "L",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -4179,7 +4153,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: L"
+        "size: M"
       ]
     },
     {
@@ -4192,7 +4166,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:38:27Z",
-      "updated_at": "2026-08-19T14:42:42Z",
+      "updated_at": "2026-08-21T13:59:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6126,31 +6100,6 @@
       ]
     },
     {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/crds/pull/16",
-      "number": 16,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2025-10-23T03:26:43Z",
-      "updated_at": "2026-08-21T13:45:05Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -6185,10 +6134,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-08-21T13:43:13Z",
+      "updated_at": "2026-08-21T14:01:56Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6237,7 +6186,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T01:43:51Z",
-      "updated_at": "2026-08-15T00:36:39Z",
+      "updated_at": "2026-08-21T14:01:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -7147,12 +7096,28 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-23T13:45:54Z",
+    "since": "2026-05-23T14:12:20Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 113,
+        "reviews": 115,
         "prs": [
+          {
+            "title": "Update go modules (main) (patch)",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/209",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 209,
+            "author": "renovate",
+            "engaged_at": "2026-08-21T13:58:52Z"
+          },
+          {
+            "title": "Update github actions (main) (minor)",
+            "url": "https://github.com/conforma/crds/pull/16",
+            "repo": "conforma/crds",
+            "number": 16,
+            "author": "renovate",
+            "engaged_at": "2026-08-21T13:58:07Z"
+          },
           {
             "title": "Use ValidateVSAAndComparePolicy for ec validate image VSA skip",
             "url": "https://github.com/conforma/cli/pull/3489",
