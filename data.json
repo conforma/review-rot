@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T23:41:24.766157114Z",
+  "generated_at": "2026-08-24T00:12:49.394075675Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -933,7 +933,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-07-09T20:12:45Z",
-      "updated_at": "2026-08-19T06:26:28Z",
+      "updated_at": "2026-08-23T01:43:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1488,7 +1488,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-08-21T04:08:57Z",
+      "updated_at": "2026-08-23T02:48:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1953,7 +1953,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-08-20T03:12:22Z",
+      "updated_at": "2026-08-23T03:04:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1968,7 +1968,8 @@
         "go",
         "renovate",
         "main",
-        "size: XXL"
+        "size: XXL",
+        "requires-manual-review"
       ]
     },
     {
@@ -2294,7 +2295,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.6 (main)",
+      "title": "Update dependency golang to v1.26.7 (main)",
       "url": "https://github.com/conforma/cli/pull/3367",
       "number": 3367,
       "repo": "conforma/cli",
@@ -2303,7 +2304,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-08-21T02:55:21Z",
+      "updated_at": "2026-08-23T02:35:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2332,7 +2333,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-08-20T03:05:27Z",
+      "updated_at": "2026-08-22T02:52:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2475,7 +2476,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-29T01:22:52Z",
-      "updated_at": "2026-08-20T03:02:17Z",
+      "updated_at": "2026-08-23T02:57:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3164,7 +3165,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-20T02:43:52Z",
-      "updated_at": "2026-08-20T03:04:15Z",
+      "updated_at": "2026-08-22T02:52:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3180,6 +3181,60 @@
         "renovate",
         "main",
         "size: XS"
+      ]
+    },
+    {
+      "title": "Update Konflux references (main)",
+      "url": "https://github.com/conforma/cli/pull/3513",
+      "number": 3513,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-08-22T06:38:56Z",
+      "updated_at": "2026-08-22T06:53:55Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: S",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update Konflux references (release-v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3514",
+      "number": 3514,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-08-22T06:39:46Z",
+      "updated_at": "2026-08-22T06:48:33Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "release-v0.7",
+        "size: S",
+        "ready-for-merge"
       ]
     },
     {
@@ -3696,10 +3751,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-19T01:45:29Z",
-      "updated_at": "2026-08-14T19:57:02Z",
+      "updated_at": "2026-08-23T06:34:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3714,7 +3769,7 @@
       ]
     },
     {
-      "title": "Update Konflux references (main) (patch)",
+      "title": "Update Konflux references (main)",
       "url": "https://github.com/conforma/golden-container/pull/1496",
       "number": 1496,
       "repo": "conforma/golden-container",
@@ -3723,7 +3778,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-20T05:49:20Z",
-      "updated_at": "2026-08-15T06:38:02Z",
+      "updated_at": "2026-08-22T06:53:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3854,7 +3909,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-07-11T01:41:56Z",
-      "updated_at": "2026-08-19T03:54:25Z",
+      "updated_at": "2026-08-22T02:31:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3880,10 +3935,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-07-25T05:32:08Z",
-      "updated_at": "2026-08-15T06:37:26Z",
+      "updated_at": "2026-08-22T06:53:14Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4737,7 +4792,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-08-20T12:57:52Z",
-      "updated_at": "2026-08-21T06:05:53Z",
+      "updated_at": "2026-08-23T06:05:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
@@ -4759,7 +4814,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-08-20T12:58:02Z",
-      "updated_at": "2026-08-21T06:06:01Z",
+      "updated_at": "2026-08-23T06:05:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
@@ -4805,7 +4860,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-08-21T06:05:57Z",
-      "updated_at": "2026-08-21T06:05:57Z",
+      "updated_at": "2026-08-23T06:05:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
@@ -5928,7 +5983,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:35:59Z",
-      "updated_at": "2026-08-21T02:40:56Z",
+      "updated_at": "2026-08-23T02:12:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5981,7 +6036,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-08-21T04:54:38Z",
+      "updated_at": "2026-08-22T22:39:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6577,18 +6632,42 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-14T23:38:52Z",
-      "updated_at": "2026-07-09T12:48:57Z",
+      "updated_at": "2026-08-22T04:35:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "fix(security): harden CI pipeline trust boundary (EC-2044)",
+      "url": "https://github.com/conforma/e2e-tests/pull/11",
+      "number": 11,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-08-22T04:26:08Z",
+      "updated_at": "2026-08-22T04:26:18Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
+        "size: L"
       ]
     },
     {
@@ -7006,7 +7085,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-08-20T13:20:59Z",
+      "updated_at": "2026-08-22T03:10:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -7028,7 +7107,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-08-18T14:12:08Z",
+      "updated_at": "2026-08-23T10:08:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -7037,7 +7116,7 @@
         "count": 3,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "lgtm",
         "environment/production",
@@ -7072,7 +7151,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-23T23:38:44Z",
+    "since": "2026-05-26T00:10:12Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9268,8 +9347,16 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 23,
+        "reviews": 24,
         "prs": [
+          {
+            "title": "Configure Renovate",
+            "url": "https://github.com/conforma/e2e-tests/pull/6",
+            "repo": "conforma/e2e-tests",
+            "number": 6,
+            "author": "renovate",
+            "engaged_at": "2026-08-22T04:35:07Z"
+          },
           {
             "title": "docs(EC-1999): document testing expectations for collection changes",
             "url": "https://github.com/conforma/policy/pull/1815",
