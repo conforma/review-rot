@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T18:10:49.533280538Z",
+  "generated_at": "2026-08-24T18:48:19.752977646Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -7072,11 +7072,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-26T18:08:19Z",
+    "since": "2026-05-26T18:45:35Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 116,
+        "reviews": 115,
         "prs": [
           {
             "title": "fix(security): harden CI pipeline trust boundary (EC-2044)",
@@ -7997,14 +7997,6 @@
             "number": 219,
             "author": "joejstuart",
             "engaged_at": "2026-05-26T19:00:59Z"
-          },
-          {
-            "title": "Fix tekton-task-bundle and tekton-catalog skipping when run independently",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/218",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 218,
-            "author": "joejstuart",
-            "engaged_at": "2026-05-26T18:32:08Z"
           }
         ]
       },
@@ -8584,8 +8576,16 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 48,
+        "reviews": 49,
         "prs": [
+          {
+            "title": "Update security policy for CRA",
+            "url": "https://github.com/conforma/.github/pull/84",
+            "repo": "conforma/.github",
+            "number": 84,
+            "author": "nmars",
+            "engaged_at": "2026-08-24T18:45:28Z"
+          },
           {
             "title": "Update SKILL.md to add SLSA provenance domain and iterative refinement",
             "url": "https://github.com/conforma/claude-skills/pull/21",
