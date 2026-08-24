@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T08:49:03.714024046Z",
+  "generated_at": "2026-08-24T09:19:35.799409758Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5816,6 +5816,30 @@
       ]
     },
     {
+      "title": "chore: sync with upstream google/go-containerregistry",
+      "url": "https://github.com/conforma/go-containerregistry/pull/18",
+      "number": 18,
+      "repo": "conforma/go-containerregistry",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-08-24T08:48:15Z",
+      "updated_at": "2026-08-24T08:50:46Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
+      ]
+    },
+    {
       "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
       "url": "https://github.com/conforma/demos/pull/7",
       "number": 7,
@@ -7150,7 +7174,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-26T08:46:28Z",
+    "since": "2026-05-26T09:16:53Z",
     "reviewers": [
       {
         "login": "simonbaird",
