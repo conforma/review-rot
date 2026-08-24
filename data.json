@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T20:10:14.95637366Z",
+  "generated_at": "2026-08-24T20:45:10.360895176Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -7072,11 +7072,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-26T20:07:21Z",
+    "since": "2026-05-26T20:42:48Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 115,
+        "reviews": 114,
         "prs": [
           {
             "title": "Update security policy for CRA",
@@ -7989,14 +7989,6 @@
             "number": 211,
             "author": "cuipinghuo",
             "engaged_at": "2026-05-29T20:24:44Z"
-          },
-          {
-            "title": "chore(deps): Bump Go from 1.25.8 to 1.25.9 and spdystream to v0.5.1",
-            "url": "https://github.com/conforma/cli/pull/3321",
-            "repo": "conforma/cli",
-            "number": 3321,
-            "author": "ompushkara",
-            "engaged_at": "2026-05-26T20:08:38Z"
           }
         ]
       },
@@ -8576,7 +8568,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 49,
+        "reviews": 48,
         "prs": [
           {
             "title": "Update security policy for CRA",
@@ -8961,14 +8953,6 @@
             "number": 1728,
             "author": "robnester-rh",
             "engaged_at": "2026-05-27T16:19:27Z"
-          },
-          {
-            "title": "chore(deps): Bump Go from 1.25.8 to 1.25.9 and spdystream to v0.5.1",
-            "url": "https://github.com/conforma/cli/pull/3321",
-            "repo": "conforma/cli",
-            "number": 3321,
-            "author": "ompushkara",
-            "engaged_at": "2026-05-26T20:26:29Z"
           }
         ]
       },
