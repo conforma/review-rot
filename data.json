@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T04:16:32.732852444Z",
+  "generated_at": "2026-08-25T04:47:50.491483824Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3857,7 +3857,7 @@
       "updated_at": "2026-08-25T03:39:18Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -7072,7 +7072,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-27T04:14:03Z",
+    "since": "2026-05-27T04:45:13Z",
     "reviewers": [
       {
         "login": "simonbaird",
