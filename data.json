@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T02:07:46.820063692Z",
+  "generated_at": "2026-08-25T02:50:55.952714384Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1488,7 +1488,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-08-24T02:18:58Z",
+      "updated_at": "2026-08-25T02:38:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2276,7 +2276,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-08-23T02:35:34Z",
+      "updated_at": "2026-08-25T02:40:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2419,7 +2419,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-08-21T02:55:24Z",
+      "updated_at": "2026-08-25T02:44:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2428,7 +2428,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 23,
+      "unresolved_conversations": 24,
       "labels": [
         "dependencies",
         "go",
@@ -7072,7 +7072,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-27T02:05:19Z",
+    "since": "2026-05-27T02:48:28Z",
     "reviewers": [
       {
         "login": "simonbaird",
