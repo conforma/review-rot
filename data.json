@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T18:11:22.999847874Z",
+  "generated_at": "2026-08-25T18:48:37.330853165Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1189,13 +1189,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2404459?u=8fb36a9754278ab67c6300edf9136ecbe9ff14d7\u0026v=4"
       },
       "created_at": "2026-08-16T16:53:26Z",
-      "updated_at": "2026-08-16T18:47:47Z",
+      "updated_at": "2026-08-25T18:43:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 7,
@@ -1216,16 +1216,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/284862478?v=4"
       },
       "created_at": "2026-08-19T03:10:35Z",
-      "updated_at": "2026-08-25T15:05:03Z",
+      "updated_at": "2026-08-25T18:37:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 1,
-        "has_new_commits": true
+        "count": 2,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": [
         "enhancement",
         "size: XS",
@@ -3667,16 +3667,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-25T08:33:18Z",
-      "updated_at": "2026-08-25T11:07:34Z",
+      "updated_at": "2026-08-25T18:41:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 6,
       "labels": [
         "size: S",
         "ready-for-merge"
@@ -5481,16 +5481,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-08-19T14:44:14Z",
-      "updated_at": "2026-08-20T18:54:47Z",
+      "updated_at": "2026-08-25T18:24:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 1,
-        "has_new_commits": true
+        "count": 2,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 9,
       "labels": [
         "size: XXL"
       ]
@@ -6950,12 +6950,44 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-27T18:08:36Z",
+    "since": "2026-05-27T18:45:34Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 114,
+        "reviews": 118,
         "prs": [
+          {
+            "title": "feat: add yum repository RPM verification policy",
+            "url": "https://github.com/conforma/policy/pull/1814",
+            "repo": "conforma/policy",
+            "number": 1814,
+            "author": "yuvalk",
+            "engaged_at": "2026-08-25T18:43:58Z"
+          },
+          {
+            "title": "Add blog post about Conforma demo from Red Hat Summit 2026",
+            "url": "https://github.com/conforma/conforma.github.io/pull/548",
+            "repo": "conforma/conforma.github.io",
+            "number": 548,
+            "author": "Acepresso",
+            "engaged_at": "2026-08-25T18:41:09Z"
+          },
+          {
+            "title": "Allow PNC SLSA build type for PipelineRun attestations",
+            "url": "https://github.com/conforma/policy/pull/1816",
+            "repo": "conforma/policy",
+            "number": 1816,
+            "author": "vnadempa",
+            "engaged_at": "2026-08-25T18:34:36Z"
+          },
+          {
+            "title": "Add resource limits to archive expanders and HTTP gatherer",
+            "url": "https://github.com/conforma/go-gather/pull/339",
+            "repo": "conforma/go-gather",
+            "number": 339,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-25T18:24:33Z"
+          },
           {
             "title": "Update security policy for CRA",
             "url": "https://github.com/conforma/.github/pull/84",
