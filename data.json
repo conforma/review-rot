@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T14:18:10.784084282Z",
+  "generated_at": "2026-08-26T14:48:56.383768234Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1162,7 +1162,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/2404459?u=8fb36a9754278ab67c6300edf9136ecbe9ff14d7\u0026v=4"
       },
       "created_at": "2026-08-16T16:53:26Z",
-      "updated_at": "2026-08-25T18:43:59Z",
+      "updated_at": "2026-08-26T14:40:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3069,6 +3069,81 @@
       ]
     },
     {
+      "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3517",
+      "number": 3517,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-08-26T14:19:32Z",
+      "updated_at": "2026-08-26T14:37:16Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "go",
+        "size: L"
+      ]
+    },
+    {
+      "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.8)",
+      "url": "https://github.com/conforma/cli/pull/3518",
+      "number": 3518,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-08-26T14:19:56Z",
+      "updated_at": "2026-08-26T14:40:30Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: L"
+      ]
+    },
+    {
+      "title": "chore(deps): Update google.golang.org/grpc and ubi base image (main)",
+      "url": "https://github.com/conforma/cli/pull/3519",
+      "number": 3519,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-08-26T14:20:17Z",
+      "updated_at": "2026-08-26T14:35:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: L",
+        "ready-for-merge"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -3688,7 +3763,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-03T02:29:22Z",
-      "updated_at": "2026-08-26T11:46:12Z",
+      "updated_at": "2026-08-26T14:17:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3805,6 +3880,30 @@
       "labels": [
         "main",
         "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Switch base image from ubi-micro to ubi-minimal",
+      "url": "https://github.com/conforma/golden-container/pull/1506",
+      "number": 1506,
+      "repo": "conforma/golden-container",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-08-26T14:21:28Z",
+      "updated_at": "2026-08-26T14:22:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
         "size: XS"
       ]
     },
@@ -5089,7 +5188,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-08T00:47:32Z",
-      "updated_at": "2026-08-26T12:42:29Z",
+      "updated_at": "2026-08-26T14:38:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5115,7 +5214,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-09T01:31:46Z",
-      "updated_at": "2026-08-26T12:42:49Z",
+      "updated_at": "2026-08-26T14:39:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5141,13 +5240,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-02T01:54:55Z",
-      "updated_at": "2026-08-26T12:42:07Z",
+      "updated_at": "2026-08-26T14:38:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 1,
+        "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5167,32 +5266,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T15:39:45Z",
-      "updated_at": "2026-08-26T12:43:57Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "security",
-        "size: M"
-      ]
-    },
-    {
-      "title": "fix(deps): update module github.com/go-git/go-billy/v5 to v5.9.0 [security] (main)",
-      "url": "https://github.com/conforma/go-gather/pull/328",
-      "number": 328,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-05-14T17:32:03Z",
-      "updated_at": "2026-08-26T12:41:35Z",
+      "updated_at": "2026-08-26T14:37:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5208,7 +5282,32 @@
       ]
     },
     {
-      "title": "🚨 Update github actions to v7 (main)",
+      "title": "fix(deps): update module github.com/go-git/go-billy/v5 to v5.9.0 [security] (main)",
+      "url": "https://github.com/conforma/go-gather/pull/328",
+      "number": 328,
+      "repo": "conforma/go-gather",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-05-14T17:32:03Z",
+      "updated_at": "2026-08-26T14:37:42Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S",
+        "security"
+      ]
+    },
+    {
+      "title": "fix(deps)!: Update github actions to v7 (main)",
       "url": "https://github.com/conforma/go-gather/pull/330",
       "number": 330,
       "repo": "conforma/go-gather",
@@ -5217,7 +5316,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-21T01:16:19Z",
-      "updated_at": "2026-08-26T12:42:56Z",
+      "updated_at": "2026-08-26T14:39:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5244,45 +5343,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-23T02:14:14Z",
-      "updated_at": "2026-08-26T12:42:34Z",
+      "updated_at": "2026-08-26T14:38:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
         "main",
         "renovate",
         "size: XS"
-      ]
-    },
-    {
-      "title": "fix(deps): update module oras.land/oras-go/v2 to v2.6.2 [security] (main)",
-      "url": "https://github.com/conforma/go-gather/pull/333",
-      "number": 333,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-07-02T06:43:42Z",
-      "updated_at": "2026-08-26T12:41:20Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "security"
       ]
     },
     {
@@ -5295,7 +5369,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-12T12:40:35Z",
-      "updated_at": "2026-08-26T12:41:55Z",
+      "updated_at": "2026-08-26T14:38:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5320,7 +5394,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-12T12:40:43Z",
-      "updated_at": "2026-08-26T12:42:02Z",
+      "updated_at": "2026-08-26T14:38:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5345,7 +5419,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-18T00:50:48Z",
-      "updated_at": "2026-08-26T12:42:54Z",
+      "updated_at": "2026-08-26T14:39:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5362,28 +5436,50 @@
       ]
     },
     {
-      "title": "ci: enforce Conventional Commits with local hook and CI check",
-      "url": "https://github.com/conforma/go-gather/pull/340",
-      "number": 340,
+      "title": "ci: guard release workflow to the canonical repository",
+      "url": "https://github.com/conforma/go-gather/pull/342",
+      "number": 342,
       "repo": "conforma/go-gather",
       "author": {
         "login": "robnester-rh",
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
-      "created_at": "2026-08-25T20:22:35Z",
-      "updated_at": "2026-08-26T13:33:46Z",
+      "created_at": "2026-08-26T14:29:10Z",
+      "updated_at": "2026-08-26T14:40:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": "XL",
+      "size": "XS",
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "ci: drop breaking-change marker from Renovate major-update prefix",
+      "url": "https://github.com/conforma/go-gather/pull/343",
+      "number": 343,
+      "repo": "conforma/go-gather",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-08-26T14:45:10Z",
+      "updated_at": "2026-08-26T14:45:10Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "size: XL"
-      ]
+      "labels": []
     },
     {
       "title": "chore: sync with upstream google/go-containerregistry",
@@ -5613,7 +5709,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T02:52:39Z",
-      "updated_at": "2026-08-21T14:46:11Z",
+      "updated_at": "2026-08-26T14:43:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5639,7 +5735,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T02:12:43Z",
-      "updated_at": "2026-07-20T23:33:59Z",
+      "updated_at": "2026-08-26T14:21:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5666,7 +5762,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:39:24Z",
-      "updated_at": "2026-08-25T13:14:25Z",
+      "updated_at": "2026-08-26T14:43:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5679,30 +5775,6 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Add helpers:pinGitHubActionDigests to org-wide Renovate config",
-      "url": "https://github.com/conforma/.github/pull/85",
-      "number": 85,
-      "repo": "conforma/.github",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-08-26T13:56:45Z",
-      "updated_at": "2026-08-26T13:56:55Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -6795,7 +6867,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-08-26T14:13:51Z",
+      "updated_at": "2026-08-26T14:39:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6838,12 +6910,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-28T14:15:20Z",
+    "since": "2026-05-28T14:45:56Z",
     "reviewers": [
       {
         "login": "simonbaird",
         "reviews": 118,
         "prs": [
+          {
+            "title": "feat: add yum repository RPM verification policy",
+            "url": "https://github.com/conforma/policy/pull/1814",
+            "repo": "conforma/policy",
+            "number": 1814,
+            "author": "yuvalk",
+            "engaged_at": "2026-08-26T14:40:04Z"
+          },
           {
             "title": "fix(EC-1994): bump conforma.workerCount fallback default from 4 to 5",
             "url": "https://github.com/konflux-ci/release-service-catalog/pull/2463",
@@ -6859,14 +6939,6 @@
             "number": 339,
             "author": "robnester-rh",
             "engaged_at": "2026-08-25T19:27:53Z"
-          },
-          {
-            "title": "feat: add yum repository RPM verification policy",
-            "url": "https://github.com/conforma/policy/pull/1814",
-            "repo": "conforma/policy",
-            "number": 1814,
-            "author": "yuvalk",
-            "engaged_at": "2026-08-25T18:43:58Z"
           },
           {
             "title": "Add blog post about Conforma demo from Red Hat Summit 2026",
@@ -8342,8 +8414,16 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 46,
+        "reviews": 47,
         "prs": [
+          {
+            "title": "ci: guard release workflow to the canonical repository",
+            "url": "https://github.com/conforma/go-gather/pull/342",
+            "repo": "conforma/go-gather",
+            "number": 342,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-26T14:40:05Z"
+          },
           {
             "title": "Update security policy for CRA",
             "url": "https://github.com/conforma/.github/pull/84",
@@ -8716,8 +8796,16 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 40,
+        "reviews": 41,
         "prs": [
+          {
+            "title": "Add helpers:pinGitHubActionDigests to org-wide Renovate config",
+            "url": "https://github.com/conforma/.github/pull/86",
+            "repo": "conforma/.github",
+            "number": 86,
+            "author": "jsmid1",
+            "engaged_at": "2026-08-26T14:31:25Z"
+          },
           {
             "title": "fix(security): harden CI pipeline trust boundary (EC-2044)",
             "url": "https://github.com/conforma/e2e-tests/pull/11",
@@ -9042,8 +9130,24 @@
       },
       {
         "login": "dheerajodha",
-        "reviews": 32,
+        "reviews": 33,
         "prs": [
+          {
+            "title": "ci: keep Renovate major-update commits Conventional Commits compliant",
+            "url": "https://github.com/conforma/go-gather/pull/341",
+            "repo": "conforma/go-gather",
+            "number": 341,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-26T14:34:24Z"
+          },
+          {
+            "title": "ci: enforce Conventional Commits with local hook and CI check",
+            "url": "https://github.com/conforma/go-gather/pull/340",
+            "repo": "conforma/go-gather",
+            "number": 340,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-26T14:17:58Z"
+          },
           {
             "title": "fix(deps): update github actions (main) (minor)",
             "url": "https://github.com/conforma/go-gather/pull/331",
@@ -9067,14 +9171,6 @@
             "number": 333,
             "author": "renovate",
             "engaged_at": "2026-08-26T11:54:35Z"
-          },
-          {
-            "title": "fix(deps): update github actions (main) (patch)",
-            "url": "https://github.com/conforma/go-gather/pull/325",
-            "repo": "conforma/go-gather",
-            "number": 325,
-            "author": "renovate",
-            "engaged_at": "2026-08-26T11:49:48Z"
           },
           {
             "title": "Update github actions (main) (patch)",
