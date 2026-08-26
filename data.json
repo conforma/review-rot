@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T08:17:22.197080688Z",
+  "generated_at": "2026-08-26T08:48:06.720244439Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1216,20 +1216,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/284862478?v=4"
       },
       "created_at": "2026-08-19T03:10:35Z",
-      "updated_at": "2026-08-25T18:37:44Z",
+      "updated_at": "2026-08-26T08:31:52Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 2,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
         "enhancement",
         "size: XS",
-        "ready-for-merge"
+        "requires-manual-review"
       ]
     },
     {
@@ -6928,7 +6928,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-28T08:14:38Z",
+    "since": "2026-05-28T08:45:39Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7882,7 +7882,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 70,
+        "reviews": 69,
         "prs": [
           {
             "title": "Add resource limits to archive expanders and HTTP gatherer",
@@ -8435,14 +8435,6 @@
             "number": 3316,
             "author": "jsmid1",
             "engaged_at": "2026-05-28T10:27:07Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image",
-            "url": "https://github.com/conforma/cli/pull/3326",
-            "repo": "conforma/cli",
-            "number": 3326,
-            "author": "simonbaird",
-            "engaged_at": "2026-05-28T08:31:09Z"
           }
         ]
       },
