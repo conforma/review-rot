@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T10:15:04.265541127Z",
+  "generated_at": "2026-08-26T10:46:47.735128948Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6928,7 +6928,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-28T10:12:20Z",
+    "since": "2026-05-28T10:44:09Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7882,7 +7882,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 69,
+        "reviews": 68,
         "prs": [
           {
             "title": "Add resource limits to archive expanders and HTTP gatherer",
@@ -8427,14 +8427,6 @@
             "number": 4,
             "author": "rh-hemartin",
             "engaged_at": "2026-06-01T15:55:31Z"
-          },
-          {
-            "title": "[KONFLUX-13286] Replace appstudio-utils image with task-runner",
-            "url": "https://github.com/conforma/cli/pull/3316",
-            "repo": "conforma/cli",
-            "number": 3316,
-            "author": "jsmid1",
-            "engaged_at": "2026-05-28T10:27:07Z"
           }
         ]
       },
