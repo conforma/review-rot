@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:13:51.551601271Z",
+  "generated_at": "2026-08-26T05:45:55.167020014Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3974,32 +3974,6 @@
       ]
     },
     {
-      "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
-      "url": "https://github.com/conforma/review-rot/pull/246",
-      "number": 246,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-08-19T02:56:49Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/review-rot/pull/247",
       "number": 247,
@@ -6979,7 +6953,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-28T05:11:16Z",
+    "since": "2026-05-28T05:43:27Z",
     "reviewers": [
       {
         "login": "simonbaird",
