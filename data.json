@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T02:55:29.30263326Z",
+  "generated_at": "2026-08-26T03:25:03.033925722Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1488,7 +1488,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-08-25T03:11:55Z",
+      "updated_at": "2026-08-26T03:03:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1952,7 +1952,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-08-25T03:31:37Z",
+      "updated_at": "2026-08-26T03:17:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2266,7 +2266,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.5-1787559109 (main)",
+      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.5-1787668499 (main)",
       "url": "https://github.com/conforma/cli/pull/3368",
       "number": 3368,
       "repo": "conforma/cli",
@@ -2275,7 +2275,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-08-25T03:24:53Z",
+      "updated_at": "2026-08-26T03:12:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2284,7 +2284,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 30,
+      "unresolved_conversations": 31,
       "labels": [
         "dependencies",
         "docker",
@@ -2758,7 +2758,7 @@
       "updated_at": "2026-08-26T02:47:07Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3110,7 +3110,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-20T02:43:52Z",
-      "updated_at": "2026-08-22T02:52:50Z",
+      "updated_at": "2026-08-26T03:15:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3119,7 +3119,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": [
         "dependencies",
         "docker",
@@ -6979,7 +6979,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-28T02:52:53Z",
+    "since": "2026-05-28T03:22:43Z",
     "reviewers": [
       {
         "login": "simonbaird",
