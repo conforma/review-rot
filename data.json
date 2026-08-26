@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T11:43:50.921692434Z",
+  "generated_at": "2026-08-26T12:12:13.570484487Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2639,7 +2639,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-07-29T13:05:08Z",
-      "updated_at": "2026-08-18T11:53:02Z",
+      "updated_at": "2026-08-26T12:06:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2648,7 +2648,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 8,
       "labels": [
         "documentation",
         "enhancement",
@@ -2656,7 +2656,8 @@
         "size: XL",
         "Possible security concern",
         "testing",
-        "ci"
+        "ci",
+        "requires-manual-review"
       ]
     },
     {
@@ -3608,7 +3609,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-19T01:45:29Z",
-      "updated_at": "2026-08-23T06:34:11Z",
+      "updated_at": "2026-08-26T11:46:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3688,7 +3689,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-03T02:29:22Z",
-      "updated_at": "2026-08-14T23:46:29Z",
+      "updated_at": "2026-08-26T11:46:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3740,7 +3741,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-08T01:09:43Z",
-      "updated_at": "2026-08-21T16:51:29Z",
+      "updated_at": "2026-08-26T11:46:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5141,13 +5142,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-02T01:54:55Z",
-      "updated_at": "2026-08-25T19:34:20Z",
+      "updated_at": "2026-08-26T11:49:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5219,13 +5220,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-23T02:14:14Z",
-      "updated_at": "2026-08-26T05:53:20Z",
+      "updated_at": "2026-08-26T11:48:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5245,13 +5246,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-02T06:43:42Z",
-      "updated_at": "2026-08-25T19:33:19Z",
+      "updated_at": "2026-08-26T11:54:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5941,31 +5942,6 @@
         "main",
         "renovate",
         "major"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/crds/pull/27",
-      "number": 27,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-06-09T01:43:51Z",
-      "updated_at": "2026-08-26T10:54:09Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
       ]
     },
     {
@@ -6815,7 +6791,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-28T11:41:08Z",
+    "since": "2026-05-28T12:09:22Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9019,8 +8995,40 @@
       },
       {
         "login": "dheerajodha",
-        "reviews": 27,
+        "reviews": 31,
         "prs": [
+          {
+            "title": "fix(deps): update module oras.land/oras-go/v2 to v2.6.2 [security] (main)",
+            "url": "https://github.com/conforma/go-gather/pull/333",
+            "repo": "conforma/go-gather",
+            "number": 333,
+            "author": "renovate",
+            "engaged_at": "2026-08-26T11:54:35Z"
+          },
+          {
+            "title": "fix(deps): update github actions (main) (patch)",
+            "url": "https://github.com/conforma/go-gather/pull/325",
+            "repo": "conforma/go-gather",
+            "number": 325,
+            "author": "renovate",
+            "engaged_at": "2026-08-26T11:49:48Z"
+          },
+          {
+            "title": "fix(deps): update github actions (main) (minor)",
+            "url": "https://github.com/conforma/go-gather/pull/331",
+            "repo": "conforma/go-gather",
+            "number": 331,
+            "author": "renovate",
+            "engaged_at": "2026-08-26T11:48:52Z"
+          },
+          {
+            "title": "Update github actions (main) (patch)",
+            "url": "https://github.com/conforma/crds/pull/27",
+            "repo": "conforma/crds",
+            "number": 27,
+            "author": "renovate",
+            "engaged_at": "2026-08-26T11:46:46Z"
+          },
           {
             "title": "docs(#3343): add prerequisites section to README",
             "url": "https://github.com/conforma/cli/pull/3348",
