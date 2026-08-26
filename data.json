@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T23:40:46.160630026Z",
+  "generated_at": "2026-08-26T00:13:33.517207194Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3283,7 +3283,7 @@
       ]
     },
     {
-      "title": "Update dependency wrangler to v4.125.0 (main)",
+      "title": "Update dependency wrangler to v4.126.0 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/527",
       "number": 527,
       "repo": "conforma/conforma.github.io",
@@ -3292,7 +3292,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-08-20T20:27:06Z",
+      "updated_at": "2026-08-26T00:09:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6780,30 +6780,6 @@
       ]
     },
     {
-      "title": "Build-time param defaults in in tkn-bundle",
-      "url": "https://github.com/konflux-ci/build-definitions/pull/3490",
-      "number": 3490,
-      "repo": "konflux-ci/build-definitions",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-05-01T15:17:59Z",
-      "updated_at": "2026-07-30T23:22:36Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "needs-rebase"
-      ]
-    },
-    {
       "title": "feat(EC-1794): replace ec-defaults ConfigMap with hardcoded bundle ref",
       "url": "https://github.com/konflux-ci/e2e-tests/pull/1885",
       "number": 1885,
@@ -6950,7 +6926,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-27T23:38:38Z",
+    "since": "2026-05-28T00:10:55Z",
     "reviewers": [
       {
         "login": "simonbaird",
