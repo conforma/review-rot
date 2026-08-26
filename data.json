@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T21:59:04.408635068Z",
+  "generated_at": "2026-08-26T23:05:40.390897371Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1565,7 +1565,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-01-19T19:14:16Z",
-      "updated_at": "2026-07-11T18:04:07Z",
+      "updated_at": "2026-08-26T22:53:43Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4349,7 +4349,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T00:47:54Z",
-      "updated_at": "2026-08-26T15:44:58Z",
+      "updated_at": "2026-08-26T22:58:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4477,7 +4477,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T03:55:54Z",
-      "updated_at": "2026-08-26T12:14:28Z",
+      "updated_at": "2026-08-26T22:02:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4530,7 +4530,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-25T02:05:10Z",
-      "updated_at": "2026-08-26T12:14:19Z",
+      "updated_at": "2026-08-26T22:02:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6099,10 +6099,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T01:02:53Z",
-      "updated_at": "2026-08-11T23:35:04Z",
+      "updated_at": "2026-08-26T23:01:51Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -6178,7 +6178,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-28T00:47:13Z",
-      "updated_at": "2026-08-26T12:34:56Z",
+      "updated_at": "2026-08-26T23:01:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6256,7 +6256,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:30:55Z",
-      "updated_at": "2026-08-26T12:34:20Z",
+      "updated_at": "2026-08-26T23:01:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
@@ -6306,7 +6306,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-08-26T10:54:56Z",
+      "updated_at": "2026-08-26T21:56:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6331,7 +6331,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-08-26T10:55:17Z",
+      "updated_at": "2026-08-26T22:00:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6405,7 +6405,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-08-26T11:38:44Z",
+      "updated_at": "2026-08-26T22:28:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6481,7 +6481,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:38:14Z",
-      "updated_at": "2026-08-26T11:38:31Z",
+      "updated_at": "2026-08-26T22:28:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -7404,7 +7404,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-28T21:56:32Z",
+    "since": "2026-05-28T23:03:10Z",
     "reviewers": [
       {
         "login": "simonbaird",
