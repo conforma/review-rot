@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T11:12:20.413353115Z",
+  "generated_at": "2026-08-26T11:43:50.921692434Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2113,19 +2113,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-06-19T10:24:09Z",
-      "updated_at": "2026-08-04T11:46:29Z",
+      "updated_at": "2026-08-26T11:28:44Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 3,
       "labels": [
-        "size: XS",
-        "ready-for-merge"
+        "size: XS"
       ]
     },
     {
@@ -2797,63 +2796,6 @@
         "size: XS",
         "Possible security concern",
         "ci"
-      ]
-    },
-    {
-      "title": "Update module github.com/go-git/go-git/v5 to v5.19.2 [SECURITY] (release-v0.7)",
-      "url": "https://github.com/conforma/cli/pull/3474",
-      "number": 3474,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-08-07T17:29:58Z",
-      "updated_at": "2026-08-19T09:36:03Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "renovate",
-        "release-v0.7",
-        "size: XS",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Update module github.com/go-git/go-git/v5 to v5.19.2 [SECURITY] (release-v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3475",
-      "number": 3475,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-08-07T17:32:00Z",
-      "updated_at": "2026-08-26T11:07:54Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "renovate",
-        "size: XS",
-        "release-v0.8",
-        "ready-for-merge"
       ]
     },
     {
@@ -6036,7 +5978,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-08-14T23:59:28Z",
+      "updated_at": "2026-08-26T11:38:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6061,7 +6003,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:50Z",
-      "updated_at": "2026-08-14T18:55:03Z",
+      "updated_at": "2026-08-26T11:39:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6086,7 +6028,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-14T01:04:12Z",
-      "updated_at": "2026-08-14T18:55:12Z",
+      "updated_at": "2026-08-26T11:39:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6112,7 +6054,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:38:14Z",
-      "updated_at": "2026-08-14T23:59:20Z",
+      "updated_at": "2026-08-26T11:38:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6137,7 +6079,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-20T01:14:43Z",
-      "updated_at": "2026-07-20T23:07:09Z",
+      "updated_at": "2026-08-26T11:39:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6873,7 +6815,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-28T11:09:20Z",
+    "since": "2026-05-28T11:41:08Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9080,6 +9022,14 @@
         "reviews": 27,
         "prs": [
           {
+            "title": "docs(#3343): add prerequisites section to README",
+            "url": "https://github.com/conforma/cli/pull/3348",
+            "repo": "conforma/cli",
+            "number": 3348,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-26T11:17:17Z"
+          },
+          {
             "title": "Update module github.com/go-git/go-git/v5 to v5.19.2 [SECURITY] (release-v0.7)",
             "url": "https://github.com/conforma/cli/pull/3474",
             "repo": "conforma/cli",
@@ -9166,14 +9116,6 @@
             "number": 3361,
             "author": "fullsend-ai-coder",
             "engaged_at": "2026-08-04T11:53:05Z"
-          },
-          {
-            "title": "docs(#3343): add prerequisites section to README",
-            "url": "https://github.com/conforma/cli/pull/3348",
-            "repo": "conforma/cli",
-            "number": 3348,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-04T11:46:29Z"
           },
           {
             "title": "Update module github.com/in-toto/in-toto-golang to v0.11.0 [SECURITY] (release-v0.8)",
