@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T10:46:47.735128948Z",
+  "generated_at": "2026-08-26T11:12:20.413353115Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2800,34 +2800,6 @@
       ]
     },
     {
-      "title": "Update module github.com/go-git/go-git/v5 to v5.19.2 [SECURITY] (main)",
-      "url": "https://github.com/conforma/cli/pull/3473",
-      "number": 3473,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-08-07T17:25:20Z",
-      "updated_at": "2026-08-20T19:16:54Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "renovate",
-        "main",
-        "size: S",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Update module github.com/go-git/go-git/v5 to v5.19.2 [SECURITY] (release-v0.7)",
       "url": "https://github.com/conforma/cli/pull/3474",
       "number": 3474,
@@ -2865,13 +2837,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-07T17:32:00Z",
-      "updated_at": "2026-08-20T13:17:00Z",
+      "updated_at": "2026-08-26T11:07:54Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3044,33 +3016,6 @@
         "documentation",
         "size: XS",
         "requires-manual-review"
-      ]
-    },
-    {
-      "title": "Lock file maintenance (release-v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3506",
-      "number": 3506,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-08-19T04:07:46Z",
-      "updated_at": "2026-08-21T04:10:12Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XS",
-        "release-v0.8",
-        "ready-for-merge"
       ]
     },
     {
@@ -5989,7 +5934,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-08-21T13:43:00Z",
+      "updated_at": "2026-08-26T10:54:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6014,7 +5959,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-08-21T14:01:56Z",
+      "updated_at": "2026-08-26T10:55:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6040,7 +5985,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:44Z",
-      "updated_at": "2026-08-06T15:08:59Z",
+      "updated_at": "2026-08-26T10:55:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6066,7 +6011,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-09T01:43:51Z",
-      "updated_at": "2026-08-21T14:01:43Z",
+      "updated_at": "2026-08-26T10:54:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6928,7 +6873,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-28T10:44:09Z",
+    "since": "2026-05-28T11:09:20Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9131,6 +9076,228 @@
         ]
       },
       {
+        "login": "dheerajodha",
+        "reviews": 27,
+        "prs": [
+          {
+            "title": "Update module github.com/go-git/go-git/v5 to v5.19.2 [SECURITY] (release-v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3474",
+            "repo": "conforma/cli",
+            "number": 3474,
+            "author": "renovate",
+            "engaged_at": "2026-08-26T11:08:57Z"
+          },
+          {
+            "title": "Update module github.com/go-git/go-git/v5 to v5.19.2 [SECURITY] (release-v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3475",
+            "repo": "conforma/cli",
+            "number": 3475,
+            "author": "renovate",
+            "engaged_at": "2026-08-26T11:07:53Z"
+          },
+          {
+            "title": "Update module github.com/go-git/go-git/v5 to v5.19.2 [SECURITY] (main)",
+            "url": "https://github.com/conforma/cli/pull/3473",
+            "repo": "conforma/cli",
+            "number": 3473,
+            "author": "renovate",
+            "engaged_at": "2026-08-26T11:06:05Z"
+          },
+          {
+            "title": "Lock file maintenance (release-v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3506",
+            "repo": "conforma/cli",
+            "number": 3506,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-08-26T11:00:52Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/konflux-ci/e2e-tests/pull/1893",
+            "repo": "konflux-ci/e2e-tests",
+            "number": 1893,
+            "author": "nmars",
+            "engaged_at": "2026-08-26T10:59:35Z"
+          },
+          {
+            "title": "Update module github.com/in-toto/in-toto-golang to v0.11.0 [SECURITY] (release-v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3295",
+            "repo": "conforma/cli",
+            "number": 3295,
+            "author": "renovate",
+            "engaged_at": "2026-08-25T13:06:39Z"
+          },
+          {
+            "title": "Update Konflux references (main)",
+            "url": "https://github.com/conforma/cli/pull/3479",
+            "repo": "conforma/cli",
+            "number": 3479,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-08-13T13:10:56Z"
+          },
+          {
+            "title": "Add Jira links for some trusted task todos",
+            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/248",
+            "repo": "release-engineering/rhtap-ec-policy",
+            "number": 248,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-05T12:16:25Z"
+          },
+          {
+            "title": "fix(RELEASE-2158): refactor trusted-ca mounts in verify-conforma task",
+            "url": "https://github.com/conforma/cli/pull/3232",
+            "repo": "conforma/cli",
+            "number": 3232,
+            "author": "querti",
+            "engaged_at": "2026-08-04T11:59:18Z"
+          },
+          {
+            "title": "docs(#3389): add product naming guidance to AGENTS.md",
+            "url": "https://github.com/conforma/cli/pull/3390",
+            "repo": "conforma/cli",
+            "number": 3390,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-04T11:55:58Z"
+          },
+          {
+            "title": "fix(#3360): add missing \"go version\" group to Renovate config",
+            "url": "https://github.com/conforma/cli/pull/3361",
+            "repo": "conforma/cli",
+            "number": 3361,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-04T11:53:05Z"
+          },
+          {
+            "title": "docs(#3343): add prerequisites section to README",
+            "url": "https://github.com/conforma/cli/pull/3348",
+            "repo": "conforma/cli",
+            "number": 3348,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-04T11:46:29Z"
+          },
+          {
+            "title": "Update module github.com/in-toto/in-toto-golang to v0.11.0 [SECURITY] (release-v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3296",
+            "repo": "conforma/cli",
+            "number": 3296,
+            "author": "renovate",
+            "engaged_at": "2026-08-04T11:44:16Z"
+          },
+          {
+            "title": "Update module github.com/in-toto/in-toto-golang to v0.11.0 [SECURITY] (main)",
+            "url": "https://github.com/conforma/cli/pull/3292",
+            "repo": "conforma/cli",
+            "number": 3292,
+            "author": "renovate",
+            "engaged_at": "2026-08-04T11:43:21Z"
+          },
+          {
+            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 48fa5d8 (main)",
+            "url": "https://github.com/conforma/cli/pull/3270",
+            "repo": "conforma/cli",
+            "number": 3270,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-08-04T11:38:09Z"
+          },
+          {
+            "title": "Update module helm.sh/helm/v3 to v3.20.2 [SECURITY] (main)",
+            "url": "https://github.com/conforma/cli/pull/3224",
+            "repo": "conforma/cli",
+            "number": 3224,
+            "author": "renovate",
+            "engaged_at": "2026-08-04T11:35:29Z"
+          },
+          {
+            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 48fa5d8 (main) - autoclosed",
+            "url": "https://github.com/conforma/cli/pull/3455",
+            "repo": "conforma/cli",
+            "number": 3455,
+            "author": "renovate",
+            "engaged_at": "2026-08-04T11:33:09Z"
+          },
+          {
+            "title": "docs(EC-1980): add product naming guidance to AGENTS.md",
+            "url": "https://github.com/conforma/cli/pull/3457",
+            "repo": "conforma/cli",
+            "number": 3457,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-08-04T11:31:47Z"
+          },
+          {
+            "title": "Add 18 rules to the redhat_security collection",
+            "url": "https://github.com/conforma/policy/pull/1791",
+            "repo": "conforma/policy",
+            "number": 1791,
+            "author": "st3penta",
+            "engaged_at": "2026-08-03T12:31:23Z"
+          },
+          {
+            "title": "Update docker images (release-v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3377",
+            "repo": "conforma/cli",
+            "number": 3377,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-08-03T12:27:25Z"
+          },
+          {
+            "title": "Bump conforma/go-containerregistry",
+            "url": "https://github.com/conforma/cli/pull/3384",
+            "repo": "conforma/cli",
+            "number": 3384,
+            "author": "ec-automation",
+            "engaged_at": "2026-08-03T12:26:26Z"
+          },
+          {
+            "title": "Update github actions (main) (patch)",
+            "url": "https://github.com/conforma/cli/pull/3448",
+            "repo": "conforma/cli",
+            "number": 3448,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-08-03T12:23:35Z"
+          },
+          {
+            "title": "fix: cve-2026-39821, upgrade golang.org/x/net",
+            "url": "https://github.com/conforma/cli/pull/3355",
+            "repo": "conforma/cli",
+            "number": 3355,
+            "author": "fghanmi",
+            "engaged_at": "2026-06-29T11:15:07Z"
+          },
+          {
+            "title": "chore: update fullsend shim workflow",
+            "url": "https://github.com/conforma/policy/pull/1735",
+            "repo": "conforma/policy",
+            "number": 1735,
+            "author": "fullsend-ai-fullsend",
+            "engaged_at": "2026-06-03T10:43:21Z"
+          },
+          {
+            "title": "chore: update fullsend shim workflow",
+            "url": "https://github.com/conforma/cli/pull/3328",
+            "repo": "conforma/cli",
+            "number": 3328,
+            "author": "fullsend-ai-fullsend",
+            "engaged_at": "2026-06-03T10:40:29Z"
+          },
+          {
+            "title": "Onboard cli and policy repos to fullsend",
+            "url": "https://github.com/conforma/.fullsend/pull/3",
+            "repo": "conforma/.fullsend",
+            "number": 3,
+            "author": "st3penta",
+            "engaged_at": "2026-06-01T13:47:58Z"
+          },
+          {
+            "title": "chore: update fullsend configuration",
+            "url": "https://github.com/conforma/.fullsend/pull/2",
+            "repo": "conforma/.fullsend",
+            "number": 2,
+            "author": "st3penta",
+            "engaged_at": "2026-06-01T11:08:48Z"
+          }
+        ]
+      },
+      {
         "login": "cuipinghuo",
         "reviews": 24,
         "prs": [
@@ -9325,188 +9492,6 @@
             "number": 1489,
             "author": "red-hat-konflux",
             "engaged_at": "2026-05-28T14:49:42Z"
-          }
-        ]
-      },
-      {
-        "login": "dheerajodha",
-        "reviews": 22,
-        "prs": [
-          {
-            "title": "Update module github.com/in-toto/in-toto-golang to v0.11.0 [SECURITY] (release-v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3295",
-            "repo": "conforma/cli",
-            "number": 3295,
-            "author": "renovate",
-            "engaged_at": "2026-08-25T13:06:39Z"
-          },
-          {
-            "title": "Update Konflux references (main)",
-            "url": "https://github.com/conforma/cli/pull/3479",
-            "repo": "conforma/cli",
-            "number": 3479,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-08-13T13:10:56Z"
-          },
-          {
-            "title": "Add Jira links for some trusted task todos",
-            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/248",
-            "repo": "release-engineering/rhtap-ec-policy",
-            "number": 248,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-05T12:16:25Z"
-          },
-          {
-            "title": "fix(RELEASE-2158): refactor trusted-ca mounts in verify-conforma task",
-            "url": "https://github.com/conforma/cli/pull/3232",
-            "repo": "conforma/cli",
-            "number": 3232,
-            "author": "querti",
-            "engaged_at": "2026-08-04T11:59:18Z"
-          },
-          {
-            "title": "docs(#3389): add product naming guidance to AGENTS.md",
-            "url": "https://github.com/conforma/cli/pull/3390",
-            "repo": "conforma/cli",
-            "number": 3390,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-04T11:55:58Z"
-          },
-          {
-            "title": "fix(#3360): add missing \"go version\" group to Renovate config",
-            "url": "https://github.com/conforma/cli/pull/3361",
-            "repo": "conforma/cli",
-            "number": 3361,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-04T11:53:05Z"
-          },
-          {
-            "title": "docs(#3343): add prerequisites section to README",
-            "url": "https://github.com/conforma/cli/pull/3348",
-            "repo": "conforma/cli",
-            "number": 3348,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-04T11:46:29Z"
-          },
-          {
-            "title": "Update module github.com/in-toto/in-toto-golang to v0.11.0 [SECURITY] (release-v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3296",
-            "repo": "conforma/cli",
-            "number": 3296,
-            "author": "renovate",
-            "engaged_at": "2026-08-04T11:44:16Z"
-          },
-          {
-            "title": "Update module github.com/in-toto/in-toto-golang to v0.11.0 [SECURITY] (main)",
-            "url": "https://github.com/conforma/cli/pull/3292",
-            "repo": "conforma/cli",
-            "number": 3292,
-            "author": "renovate",
-            "engaged_at": "2026-08-04T11:43:21Z"
-          },
-          {
-            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 48fa5d8 (main)",
-            "url": "https://github.com/conforma/cli/pull/3270",
-            "repo": "conforma/cli",
-            "number": 3270,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-08-04T11:38:09Z"
-          },
-          {
-            "title": "Update module helm.sh/helm/v3 to v3.20.2 [SECURITY] (main)",
-            "url": "https://github.com/conforma/cli/pull/3224",
-            "repo": "conforma/cli",
-            "number": 3224,
-            "author": "renovate",
-            "engaged_at": "2026-08-04T11:35:29Z"
-          },
-          {
-            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 48fa5d8 (main) - autoclosed",
-            "url": "https://github.com/conforma/cli/pull/3455",
-            "repo": "conforma/cli",
-            "number": 3455,
-            "author": "renovate",
-            "engaged_at": "2026-08-04T11:33:09Z"
-          },
-          {
-            "title": "docs(EC-1980): add product naming guidance to AGENTS.md",
-            "url": "https://github.com/conforma/cli/pull/3457",
-            "repo": "conforma/cli",
-            "number": 3457,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-08-04T11:31:47Z"
-          },
-          {
-            "title": "Add 18 rules to the redhat_security collection",
-            "url": "https://github.com/conforma/policy/pull/1791",
-            "repo": "conforma/policy",
-            "number": 1791,
-            "author": "st3penta",
-            "engaged_at": "2026-08-03T12:31:23Z"
-          },
-          {
-            "title": "Update docker images (release-v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3377",
-            "repo": "conforma/cli",
-            "number": 3377,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-08-03T12:27:25Z"
-          },
-          {
-            "title": "Bump conforma/go-containerregistry",
-            "url": "https://github.com/conforma/cli/pull/3384",
-            "repo": "conforma/cli",
-            "number": 3384,
-            "author": "ec-automation",
-            "engaged_at": "2026-08-03T12:26:26Z"
-          },
-          {
-            "title": "Update github actions (main) (patch)",
-            "url": "https://github.com/conforma/cli/pull/3448",
-            "repo": "conforma/cli",
-            "number": 3448,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-08-03T12:23:35Z"
-          },
-          {
-            "title": "fix: cve-2026-39821, upgrade golang.org/x/net",
-            "url": "https://github.com/conforma/cli/pull/3355",
-            "repo": "conforma/cli",
-            "number": 3355,
-            "author": "fghanmi",
-            "engaged_at": "2026-06-29T11:15:07Z"
-          },
-          {
-            "title": "chore: update fullsend shim workflow",
-            "url": "https://github.com/conforma/policy/pull/1735",
-            "repo": "conforma/policy",
-            "number": 1735,
-            "author": "fullsend-ai-fullsend",
-            "engaged_at": "2026-06-03T10:43:21Z"
-          },
-          {
-            "title": "chore: update fullsend shim workflow",
-            "url": "https://github.com/conforma/cli/pull/3328",
-            "repo": "conforma/cli",
-            "number": 3328,
-            "author": "fullsend-ai-fullsend",
-            "engaged_at": "2026-06-03T10:40:29Z"
-          },
-          {
-            "title": "Onboard cli and policy repos to fullsend",
-            "url": "https://github.com/conforma/.fullsend/pull/3",
-            "repo": "conforma/.fullsend",
-            "number": 3,
-            "author": "st3penta",
-            "engaged_at": "2026-06-01T13:47:58Z"
-          },
-          {
-            "title": "chore: update fullsend configuration",
-            "url": "https://github.com/conforma/.fullsend/pull/2",
-            "repo": "conforma/.fullsend",
-            "number": 2,
-            "author": "st3penta",
-            "engaged_at": "2026-06-01T11:08:48Z"
           }
         ]
       },
