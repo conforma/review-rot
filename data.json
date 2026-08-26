@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T00:13:33.517207194Z",
+  "generated_at": "2026-08-26T00:50:17.421788844Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5225,7 +5225,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-09T01:31:46Z",
-      "updated_at": "2026-08-20T05:53:33Z",
+      "updated_at": "2026-08-26T00:17:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5327,7 +5327,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-21T01:16:19Z",
-      "updated_at": "2026-08-11T20:53:00Z",
+      "updated_at": "2026-08-26T00:17:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5354,7 +5354,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-23T02:14:14Z",
-      "updated_at": "2026-08-21T18:03:08Z",
+      "updated_at": "2026-08-26T00:16:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5455,7 +5455,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-18T00:50:48Z",
-      "updated_at": "2026-08-20T05:53:34Z",
+      "updated_at": "2026-08-26T00:17:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6780,6 +6780,30 @@
       ]
     },
     {
+      "title": "Build-time param defaults in in tkn-bundle",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3490",
+      "number": 3490,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-05-01T15:17:59Z",
+      "updated_at": "2026-07-30T23:22:36Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "needs-rebase"
+      ]
+    },
+    {
       "title": "feat(EC-1794): replace ec-defaults ConfigMap with hardcoded bundle ref",
       "url": "https://github.com/konflux-ci/e2e-tests/pull/1885",
       "number": 1885,
@@ -6926,7 +6950,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-28T00:10:55Z",
+    "since": "2026-05-28T00:47:43Z",
     "reviewers": [
       {
         "login": "simonbaird",
