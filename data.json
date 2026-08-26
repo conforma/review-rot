@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T18:40:52.572324193Z",
+  "generated_at": "2026-08-26T19:36:26.086164985Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1279,6 +1279,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "EC-2160: Enforce required test tasks from build and ITS attestations",
+      "url": "https://github.com/conforma/policy/pull/1823",
+      "number": 1823,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-08-26T19:02:33Z",
+      "updated_at": "2026-08-26T19:30:06Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: XXL",
         "ready-for-merge"
       ]
     },
@@ -7432,7 +7457,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-05-28T18:37:55Z",
+    "since": "2026-05-28T19:33:51Z",
     "reviewers": [
       {
         "login": "simonbaird",
