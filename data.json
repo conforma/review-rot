@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T18:40:39.258574203Z",
+  "generated_at": "2026-08-31T19:09:11.528953576Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3125,13 +3125,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-08-26T14:19:32Z",
-      "updated_at": "2026-08-26T17:31:16Z",
+      "updated_at": "2026-08-31T18:50:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3151,13 +3151,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-08-26T14:19:56Z",
-      "updated_at": "2026-08-26T17:30:32Z",
+      "updated_at": "2026-08-31T18:50:20Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4244,7 +4244,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:39:54Z",
-      "updated_at": "2026-08-31T05:57:34Z",
+      "updated_at": "2026-08-31T18:49:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4297,7 +4297,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-08-31T05:57:29Z",
+      "updated_at": "2026-08-31T18:49:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4347,7 +4347,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-08-31T13:38:08Z",
+      "updated_at": "2026-08-31T18:50:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4373,11 +4373,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-08-31T13:36:54Z",
+      "updated_at": "2026-08-31T18:50:17Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
+      "ci_status": "SUCCESS",
+      "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -4386,7 +4386,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
+        "size: L"
       ]
     },
     {
@@ -7194,7 +7194,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-02T18:38:01Z",
+    "since": "2026-06-02T19:06:31Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8666,8 +8666,24 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 46,
+        "reviews": 47,
         "prs": [
+          {
+            "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3517",
+            "repo": "conforma/cli",
+            "number": 3517,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-31T18:50:19Z"
+          },
+          {
+            "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3518",
+            "repo": "conforma/cli",
+            "number": 3518,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-31T18:50:19Z"
+          },
           {
             "title": "Restructure enterprise-contract into dev/staging/prod overlays",
             "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13323",
@@ -9027,14 +9043,6 @@
             "number": 3327,
             "author": "robnester-rh",
             "engaged_at": "2026-06-03T17:59:48Z"
-          },
-          {
-            "title": "Update proxy rules to support Hermeto SBOM format",
-            "url": "https://github.com/conforma/policy/pull/1737",
-            "repo": "conforma/policy",
-            "number": 1737,
-            "author": "taylormadore",
-            "engaged_at": "2026-06-02T18:47:12Z"
           }
         ]
       },
