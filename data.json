@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T23:09:58.231576895Z",
+  "generated_at": "2026-08-31T23:36:13.729871606Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1279,31 +1279,6 @@
       "labels": [
         "size: XXL",
         "risk/moderate"
-      ]
-    },
-    {
-      "title": "docs: document rule data defaults guidance",
-      "url": "https://github.com/conforma/policy/pull/1825",
-      "number": 1825,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "Labeeb2339",
-        "avatar_url": "https://avatars.githubusercontent.com/u/93521146?u=3d758af91dd911d92f27ac262c84b385b0c05853\u0026v=4"
-      },
-      "created_at": "2026-08-27T05:31:37Z",
-      "updated_at": "2026-08-27T05:45:13Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "requires-manual-review"
       ]
     },
     {
@@ -7334,7 +7309,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-02T23:07:20Z",
+    "since": "2026-06-02T23:33:47Z",
     "reviewers": [
       {
         "login": "simonbaird",
