@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T14:11:47.554277904Z",
+  "generated_at": "2026-08-31T14:40:23.375808055Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1266,7 +1266,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-08-26T19:02:33Z",
-      "updated_at": "2026-08-26T19:30:06Z",
+      "updated_at": "2026-08-31T14:28:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -1275,7 +1275,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XXL",
         "ready-for-merge"
@@ -4938,10 +4938,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:37:28Z",
-      "updated_at": "2026-08-31T14:08:26Z",
+      "updated_at": "2026-08-31T14:10:25Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 1,
@@ -4964,7 +4964,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-08-31T13:16:29Z",
+      "updated_at": "2026-08-31T14:09:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5017,10 +5017,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-14T02:49:05Z",
-      "updated_at": "2026-08-30T02:35:25Z",
+      "updated_at": "2026-08-31T14:12:24Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 1,
@@ -5047,7 +5047,7 @@
       "updated_at": "2026-08-31T14:08:12Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -5073,7 +5073,7 @@
       "updated_at": "2026-08-31T14:08:16Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -5135,30 +5135,6 @@
       "labels": [
         "renovate",
         "main",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "ci: pin conforma actions and reusable workflows to commit SHAs",
-      "url": "https://github.com/enterprise-contract/.github/pull/191",
-      "number": 191,
-      "repo": "enterprise-contract/.github",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-08-27T19:55:58Z",
-      "updated_at": "2026-08-27T19:56:09Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -5309,7 +5285,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-02T14:09:06Z",
+    "since": "2026-06-02T14:37:20Z",
     "reviewers": [
       {
         "login": "simonbaird",
