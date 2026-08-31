@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T03:12:30.753542374Z",
+  "generated_at": "2026-08-31T03:42:33.136028153Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6848,7 +6848,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:37:28Z",
-      "updated_at": "2026-08-26T19:47:49Z",
+      "updated_at": "2026-08-31T03:10:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6874,7 +6874,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-08-30T22:36:20Z",
+      "updated_at": "2026-08-31T03:12:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6891,7 +6891,7 @@
       ]
     },
     {
-      "title": "🚨 Update module github.com/santhosh-tekuri/jsonschema/v5 to v6 (main)",
+      "title": "🚨 Update go modules (main) (major)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/638",
       "number": 638,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -6900,11 +6900,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-28T02:09:34Z",
-      "updated_at": "2026-08-30T22:36:51Z",
+      "updated_at": "2026-08-31T03:12:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XS",
+      "size": "M",
       "reviews": {
         "count": 1,
         "has_new_commits": true
@@ -6914,7 +6914,7 @@
         "renovate",
         "major",
         "main",
-        "size: XS"
+        "size: M"
       ]
     },
     {
@@ -7319,7 +7319,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-02T03:10:08Z",
+    "since": "2026-06-02T03:40:15Z",
     "reviewers": [
       {
         "login": "simonbaird",
