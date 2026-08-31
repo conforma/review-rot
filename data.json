@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T20:10:59.103476108Z",
+  "generated_at": "2026-08-31T20:37:39.206135933Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3796,6 +3796,30 @@
       ]
     },
     {
+      "title": "ci: set explicit read-all workflow permissions",
+      "url": "https://github.com/conforma/conforma.github.io/pull/550",
+      "number": 550,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-08-31T20:28:41Z",
+      "updated_at": "2026-08-31T20:30:46Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/golden-container/pull/1495",
       "number": 1495,
@@ -5666,6 +5690,30 @@
       ]
     },
     {
+      "title": "ci: set explicit read-all workflow permissions",
+      "url": "https://github.com/conforma/policy-builder/pull/57",
+      "number": 57,
+      "repo": "conforma/policy-builder",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-08-31T20:29:01Z",
+      "updated_at": "2026-08-31T20:30:36Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "fix(deps): update go version to v1.27.0 (main)",
       "url": "https://github.com/conforma/go-gather/pull/315",
       "number": 315,
@@ -6528,6 +6576,30 @@
       ]
     },
     {
+      "title": "ci: set explicit read-all workflow permissions",
+      "url": "https://github.com/conforma/step-actions/pull/9",
+      "number": 9,
+      "repo": "conforma/step-actions",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-08-31T20:29:26Z",
+      "updated_at": "2026-08-31T20:31:15Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update actions/checkout action to v6.0.3",
       "url": "https://github.com/conforma/golden-rpm/pull/8",
       "number": 8,
@@ -7057,13 +7129,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-08-31T19:50:22Z",
-      "updated_at": "2026-08-31T19:50:22Z",
+      "updated_at": "2026-08-31T20:12:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": null,
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -7216,7 +7288,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-02T20:08:16Z",
+    "since": "2026-06-02T20:34:56Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8688,8 +8760,16 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 47,
+        "reviews": 48,
         "prs": [
+          {
+            "title": "Add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/enterprise-contract/go-gather/pull/1",
+            "repo": "enterprise-contract/go-gather",
+            "number": 1,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-31T20:12:49Z"
+          },
           {
             "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.7)",
             "url": "https://github.com/conforma/cli/pull/3517",
