@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T16:11:37.652351888Z",
+  "generated_at": "2026-08-31T16:37:53.322443426Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5285,7 +5285,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-02T16:08:43Z",
+    "since": "2026-06-02T16:35:13Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7131,7 +7131,7 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 46,
+        "reviews": 45,
         "prs": [
           {
             "title": "fix(deps): update go version to v1.25.14 (main)",
@@ -7492,14 +7492,6 @@
             "number": 7,
             "author": "simonbaird",
             "engaged_at": "2026-06-26T17:27:35Z"
-          },
-          {
-            "title": "chore(EC-1851): trim AGENTS.md and add design docs per agentic SDLC best practices",
-            "url": "https://github.com/conforma/cli/pull/3322",
-            "repo": "conforma/cli",
-            "number": 3322,
-            "author": "joejstuart",
-            "engaged_at": "2026-06-02T16:12:28Z"
           }
         ]
       },
