@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T08:45:42.74517386Z",
+  "generated_at": "2026-08-31T09:13:49.369383868Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4607,7 +4607,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
       },
       "created_at": "2026-08-27T13:06:57Z",
-      "updated_at": "2026-08-31T08:41:27Z",
+      "updated_at": "2026-08-31T08:58:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4616,7 +4616,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 8,
       "labels": [
         "size: L"
       ]
@@ -5945,6 +5945,30 @@
       },
       "created_at": "2026-08-24T08:48:15Z",
       "updated_at": "2026-08-24T08:50:46Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
+      ]
+    },
+    {
+      "title": "chore: sync with upstream google/go-containerregistry",
+      "url": "https://github.com/conforma/go-containerregistry/pull/19",
+      "number": 19,
+      "repo": "conforma/go-containerregistry",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-08-31T08:45:15Z",
+      "updated_at": "2026-08-31T08:47:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -7319,7 +7343,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-02T08:43:00Z",
+    "since": "2026-06-02T09:11:29Z",
     "reviewers": [
       {
         "login": "simonbaird",
