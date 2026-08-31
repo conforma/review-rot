@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T21:36:31.528158734Z",
+  "generated_at": "2026-08-31T22:09:56.260045659Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3796,6 +3796,32 @@
       ]
     },
     {
+      "title": "ci: set least-privilege workflow permissions",
+      "url": "https://github.com/conforma/conforma.github.io/pull/551",
+      "number": 551,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-08-31T21:33:54Z",
+      "updated_at": "2026-08-31T21:54:22Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
+      ]
+    },
+    {
       "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/golden-container/pull/1495",
       "number": 1495,
@@ -5640,16 +5666,16 @@
       ]
     },
     {
-      "title": "ci: set explicit read-all workflow permissions",
-      "url": "https://github.com/conforma/policy-builder/pull/57",
-      "number": 57,
+      "title": "ci: set least-privilege workflow permissions",
+      "url": "https://github.com/conforma/policy-builder/pull/58",
+      "number": 58,
       "repo": "conforma/policy-builder",
       "author": {
         "login": "robnester-rh",
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
-      "created_at": "2026-08-31T20:29:01Z",
-      "updated_at": "2026-08-31T21:21:45Z",
+      "created_at": "2026-08-31T21:34:47Z",
+      "updated_at": "2026-08-31T21:35:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -6526,43 +6552,43 @@
       ]
     },
     {
-      "title": "ci: set explicit read-all workflow permissions",
-      "url": "https://github.com/conforma/step-actions/pull/9",
-      "number": 9,
+      "title": "ci: set least-privilege workflow permissions",
+      "url": "https://github.com/conforma/step-actions/pull/11",
+      "number": 11,
       "repo": "conforma/step-actions",
       "author": {
         "login": "robnester-rh",
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
-      "created_at": "2026-08-31T20:29:26Z",
-      "updated_at": "2026-08-31T21:21:38Z",
+      "created_at": "2026-08-31T21:35:10Z",
+      "updated_at": "2026-08-31T21:36:12Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XS"
       ]
     },
     {
       "title": "ci: onboard Renovate with the shared org SHA-pinning preset",
-      "url": "https://github.com/conforma/step-actions/pull/10",
-      "number": 10,
+      "url": "https://github.com/conforma/step-actions/pull/12",
+      "number": 12,
       "repo": "conforma/step-actions",
       "author": {
         "login": "robnester-rh",
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
-      "created_at": "2026-08-31T21:29:01Z",
-      "updated_at": "2026-08-31T21:30:15Z",
+      "created_at": "2026-08-31T21:35:17Z",
+      "updated_at": "2026-08-31T21:36:13Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -6767,15 +6793,15 @@
     },
     {
       "title": "ci: onboard Renovate with the shared org SHA-pinning preset",
-      "url": "https://github.com/conforma/golden-rpm/pull/17",
-      "number": 17,
+      "url": "https://github.com/conforma/golden-rpm/pull/18",
+      "number": 18,
       "repo": "conforma/golden-rpm",
       "author": {
         "login": "robnester-rh",
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
-      "created_at": "2026-08-31T21:29:16Z",
-      "updated_at": "2026-08-31T21:30:09Z",
+      "created_at": "2026-08-31T21:35:48Z",
+      "updated_at": "2026-08-31T21:36:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -6883,15 +6909,15 @@
     },
     {
       "title": "ci: onboard Renovate with the shared org SHA-pinning preset",
-      "url": "https://github.com/conforma/.fullsend/pull/11",
-      "number": 11,
+      "url": "https://github.com/conforma/.fullsend/pull/12",
+      "number": 12,
       "repo": "conforma/.fullsend",
       "author": {
         "login": "robnester-rh",
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
-      "created_at": "2026-08-31T21:29:34Z",
-      "updated_at": "2026-08-31T21:30:37Z",
+      "created_at": "2026-08-31T21:36:18Z",
+      "updated_at": "2026-08-31T21:37:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -7308,7 +7334,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-02T21:33:42Z",
+    "since": "2026-06-02T22:07:30Z",
     "reviewers": [
       {
         "login": "simonbaird",
