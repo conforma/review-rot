@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T10:38:35.958383597Z",
+  "generated_at": "2026-08-31T11:09:50.905587013Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5741,32 +5741,6 @@
       ]
     },
     {
-      "title": "fix(deps): update step-security/harden-runner action to v2.21.1 (main)",
-      "url": "https://github.com/conforma/go-gather/pull/345",
-      "number": 345,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-08-31T02:03:33Z",
-      "updated_at": "2026-08-31T02:04:19Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "chore: sync with upstream google/go-containerregistry",
       "url": "https://github.com/conforma/go-containerregistry/pull/11",
       "number": 11,
@@ -7343,7 +7317,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-02T10:36:04Z",
+    "since": "2026-06-02T11:07:14Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9563,8 +9537,16 @@
       },
       {
         "login": "dheerajodha",
-        "reviews": 34,
+        "reviews": 35,
         "prs": [
+          {
+            "title": "fix(deps): update step-security/harden-runner action to v2.21.1 (main)",
+            "url": "https://github.com/conforma/go-gather/pull/345",
+            "repo": "conforma/go-gather",
+            "number": 345,
+            "author": "renovate",
+            "engaged_at": "2026-08-31T11:03:23Z"
+          },
           {
             "title": "fix(deps): update ossf/scorecard-action action to v2.4.4 (main)",
             "url": "https://github.com/conforma/go-gather/pull/325",
