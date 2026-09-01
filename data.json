@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T13:11:45.479594655Z",
+  "generated_at": "2026-09-01T13:39:15.293233917Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3719,7 +3719,7 @@
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4178,7 +4178,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:39:54Z",
-      "updated_at": "2026-09-01T01:07:34Z",
+      "updated_at": "2026-09-01T13:13:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4307,11 +4307,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-09-01T01:08:24Z",
+      "updated_at": "2026-09-01T13:14:46Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
+      "ci_status": "SUCCESS",
+      "size": "L",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -4320,7 +4320,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
+        "size: L"
       ]
     },
     {
@@ -6205,10 +6205,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:50Z",
-      "updated_at": "2026-08-28T11:40:39Z",
+      "updated_at": "2026-09-01T13:34:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6928,11 +6928,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-28T02:09:34Z",
-      "updated_at": "2026-08-31T13:20:17Z",
+      "updated_at": "2026-09-01T13:12:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "S",
+      "size": "M",
       "reviews": {
         "count": 1,
         "has_new_commits": true
@@ -6942,7 +6942,7 @@
         "renovate",
         "major",
         "main",
-        "size: S"
+        "size: M"
       ]
     },
     {
@@ -6982,7 +6982,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-09-01T12:13:56Z",
+      "updated_at": "2026-09-01T13:11:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -7008,7 +7008,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-09-01T12:14:00Z",
+      "updated_at": "2026-09-01T13:11:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -7073,54 +7073,6 @@
       "labels": [
         "renovate",
         "main",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/760",
-      "number": 760,
-      "repo": "enterprise-contract/enterprise-contract-controller",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-01T13:05:46Z",
-      "updated_at": "2026-09-01T13:07:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/enterprise-contract/.github/pull/192",
-      "number": 192,
-      "repo": "enterprise-contract/.github",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-01T13:06:47Z",
-      "updated_at": "2026-09-01T13:06:59Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -7271,7 +7223,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-03T13:08:46Z",
+    "since": "2026-06-03T13:36:16Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -10163,8 +10115,16 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 8,
+        "reviews": 9,
         "prs": [
+          {
+            "title": "ci: set least-privilege workflow permissions",
+            "url": "https://github.com/conforma/conforma.github.io/pull/551",
+            "repo": "conforma/conforma.github.io",
+            "number": 551,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-01T13:35:17Z"
+          },
           {
             "title": "EC-2160: Enforce required test tasks from build and ITS attestations",
             "url": "https://github.com/conforma/policy/pull/1823",
