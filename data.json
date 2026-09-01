@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T19:36:55.665342012Z",
+  "generated_at": "2026-09-01T20:11:01.839280206Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2710,10 +2710,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-08-07T22:35:03Z",
-      "updated_at": "2026-09-01T19:25:07Z",
+      "updated_at": "2026-09-01T19:57:40Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 1,
@@ -2725,7 +2725,8 @@
         "size: XXL",
         "Possible security concern",
         "testing",
-        "ci"
+        "ci",
+        "risk/elevated"
       ]
     },
     {
@@ -3185,7 +3186,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:49Z",
-      "updated_at": "2026-08-31T00:49:19Z",
+      "updated_at": "2026-09-01T20:06:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3240,10 +3241,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-08-29T09:51:53Z",
+      "updated_at": "2026-09-01T20:06:37Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -3340,7 +3341,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.27.0 (main)",
+      "title": "Update dependency golang to v1.27.1 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/531",
       "number": 531,
       "repo": "conforma/conforma.github.io",
@@ -3349,10 +3350,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-08-19T20:05:44Z",
+      "updated_at": "2026-09-01T20:07:14Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -6670,7 +6671,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-28T02:09:34Z",
-      "updated_at": "2026-09-01T13:12:23Z",
+      "updated_at": "2026-09-01T19:58:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6965,7 +6966,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-03T19:34:02Z",
+    "since": "2026-06-03T20:08:16Z",
     "reviewers": [
       {
         "login": "simonbaird",
