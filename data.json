@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T20:38:32.44918362Z",
+  "generated_at": "2026-09-01T21:09:55.996875618Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2710,7 +2710,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-08-07T22:35:03Z",
-      "updated_at": "2026-09-01T19:57:40Z",
+      "updated_at": "2026-09-01T20:40:11Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4110,7 +4110,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:39:54Z",
-      "updated_at": "2026-09-01T13:13:32Z",
+      "updated_at": "2026-09-01T20:44:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4163,7 +4163,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-09-01T01:07:30Z",
+      "updated_at": "2026-09-01T20:44:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4213,7 +4213,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-09-01T01:08:24Z",
+      "updated_at": "2026-09-01T20:45:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4239,7 +4239,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-09-01T13:14:46Z",
+      "updated_at": "2026-09-01T20:45:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6969,7 +6969,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-03T20:35:48Z",
+    "since": "2026-06-03T21:07:17Z",
     "reviewers": [
       {
         "login": "simonbaird",
