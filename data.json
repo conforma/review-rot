@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T12:15:10.203685077Z",
+  "generated_at": "2026-09-01T12:46:40.884805402Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6876,7 +6876,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:37:28Z",
-      "updated_at": "2026-08-31T14:10:25Z",
+      "updated_at": "2026-09-01T12:14:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6902,7 +6902,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-09-01T00:55:25Z",
+      "updated_at": "2026-09-01T12:15:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6982,7 +6982,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-08-31T14:08:12Z",
+      "updated_at": "2026-09-01T12:13:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -7008,7 +7008,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-08-31T14:08:16Z",
+      "updated_at": "2026-09-01T12:14:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -7245,7 +7245,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-03T12:12:16Z",
+    "since": "2026-06-03T12:43:52Z",
     "reviewers": [
       {
         "login": "simonbaird",
