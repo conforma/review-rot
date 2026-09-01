@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T20:11:01.839280206Z",
+  "generated_at": "2026-09-01T20:38:32.44918362Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3186,7 +3186,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:49Z",
-      "updated_at": "2026-09-01T20:06:05Z",
+      "updated_at": "2026-09-01T20:32:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3201,7 +3201,8 @@
         "github_actions",
         "main",
         "renovate",
-        "size: XS"
+        "size: XS",
+        "risk/moderate"
       ]
     },
     {
@@ -3241,10 +3242,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-09-01T20:06:37Z",
+      "updated_at": "2026-09-01T20:23:58Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -3256,7 +3257,8 @@
         "main",
         "renovate",
         "size: XXL",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/moderate"
       ]
     },
     {
@@ -3350,10 +3352,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-09-01T20:07:14Z",
+      "updated_at": "2026-09-01T20:20:46Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3364,7 +3366,8 @@
         "main",
         "renovate",
         "size: XS",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -6966,7 +6969,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-03T20:08:16Z",
+    "since": "2026-06-03T20:35:48Z",
     "reviewers": [
       {
         "login": "simonbaird",
