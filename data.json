@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T16:55:01.822371249Z",
+  "generated_at": "2026-09-01T17:09:59.39063245Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2565,10 +2565,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-07-29T13:05:08Z",
-      "updated_at": "2026-08-26T12:06:34Z",
+      "updated_at": "2026-09-01T17:03:28Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -3030,10 +3030,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-08-27T13:47:47Z",
-      "updated_at": "2026-08-27T13:58:23Z",
+      "updated_at": "2026-09-01T17:02:39Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3096,6 +3096,30 @@
       "labels": [
         "size: XL",
         "risk/elevated"
+      ]
+    },
+    {
+      "title": "Red Hat Konflux update cli-v09",
+      "url": "https://github.com/conforma/cli/pull/3525",
+      "number": 3525,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-09-01T17:02:46Z",
+      "updated_at": "2026-09-01T17:04:02Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
       ]
     },
     {
@@ -4002,7 +4026,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:55:02Z",
-      "updated_at": "2026-09-01T10:54:48Z",
+      "updated_at": "2026-09-01T16:57:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4028,7 +4052,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-09-01T10:54:49Z",
+      "updated_at": "2026-09-01T16:57:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6964,7 +6988,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-03T16:52:11Z",
+    "since": "2026-06-03T17:07:07Z",
     "reviewers": [
       {
         "login": "simonbaird",
