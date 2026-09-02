@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T01:53:51.034261804Z",
+  "generated_at": "2026-09-02T02:26:19.371607305Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3271,7 +3271,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:19:34Z",
-      "updated_at": "2026-09-02T01:35:18Z",
+      "updated_at": "2026-09-02T02:02:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3280,14 +3280,14 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "github_actions",
         "main",
         "renovate",
         "major",
         "size: XS",
-        "requires-manual-review"
+        "risk/moderate"
       ]
     },
     {
@@ -5939,7 +5939,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-09-01T22:30:33Z",
+      "updated_at": "2026-09-02T01:54:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5981,7 +5981,7 @@
       ]
     },
     {
-      "title": "🚨 Update go modules (main) (major)",
+      "title": "🚨 Update module sigs.k8s.io/kustomize/kustomize/v4 to v5 (main)",
       "url": "https://github.com/conforma/crds/pull/19",
       "number": 19,
       "repo": "conforma/crds",
@@ -5990,7 +5990,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:44Z",
-      "updated_at": "2026-08-31T01:52:12Z",
+      "updated_at": "2026-09-02T01:54:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6970,7 +6970,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-04T01:51:21Z",
+    "since": "2026-06-04T02:23:33Z",
     "reviewers": [
       {
         "login": "simonbaird",
