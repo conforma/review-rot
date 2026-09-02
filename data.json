@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T10:11:40.855992441Z",
+  "generated_at": "2026-09-02T10:38:55.742092288Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6897,19 +6897,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-09-01T23:10:40Z",
+      "updated_at": "2026-09-02T10:30:31Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
-        "lgtm",
-        "needs-rebase",
         "environment/production",
         "infra/hold-production",
         "environment/development",
@@ -6942,7 +6940,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-04T10:08:56Z",
+    "since": "2026-06-04T10:36:33Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7888,7 +7886,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 66,
+        "reviews": 65,
         "prs": [
           {
             "title": "Add resource limits to archive expanders and HTTP gatherer",
@@ -8409,14 +8407,6 @@
             "number": 10,
             "author": "dheerajodha",
             "engaged_at": "2026-06-10T13:13:06Z"
-          },
-          {
-            "title": "Add --skip-att-sig-check flag",
-            "url": "https://github.com/conforma/cli/pull/3267",
-            "repo": "conforma/cli",
-            "number": 3267,
-            "author": "simonbaird",
-            "engaged_at": "2026-06-04T10:14:51Z"
           }
         ]
       },
