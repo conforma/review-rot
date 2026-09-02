@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T18:40:26.197290157Z",
+  "generated_at": "2026-09-02T19:10:07.77838813Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1211,16 +1211,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-02T13:04:08Z",
-      "updated_at": "2026-09-02T18:36:43Z",
+      "updated_at": "2026-09-02T19:01:46Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 7,
       "labels": [
         "size: XXL",
         "ready-for-merge",
@@ -3125,32 +3125,6 @@
       ]
     },
     {
-      "title": "Add pipelines for new v0.9 release branch",
-      "url": "https://github.com/conforma/cli/pull/3529",
-      "number": 3529,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-09-02T15:37:20Z",
-      "updated_at": "2026-09-02T18:34:32Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "XL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: XL",
-        "requires-manual-review",
-        "risk/elevated"
-      ]
-    },
-    {
       "title": "Find roxctl reports also using benchmark offliner",
       "url": "https://github.com/conforma/cli/pull/3530",
       "number": 3530,
@@ -3174,6 +3148,33 @@
         "size: XS",
         "ready-for-merge",
         "risk/low"
+      ]
+    },
+    {
+      "title": "docs(#3531): add AGENTS.md guidance for Konflux Tekton task substitutions",
+      "url": "https://github.com/conforma/cli/pull/3532",
+      "number": 3532,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-09-02T18:44:01Z",
+      "updated_at": "2026-09-02T18:58:40Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS",
+        "requires-manual-review",
+        "risk/low",
+        "ready-for-review"
       ]
     },
     {
@@ -6573,7 +6574,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-08-26T22:28:33Z",
+      "updated_at": "2026-09-02T18:59:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6598,7 +6599,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:50Z",
-      "updated_at": "2026-09-01T13:34:30Z",
+      "updated_at": "2026-09-02T18:59:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6623,7 +6624,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-14T01:04:12Z",
-      "updated_at": "2026-08-26T11:39:23Z",
+      "updated_at": "2026-09-02T18:59:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -7593,12 +7594,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-04T18:38:05Z",
+    "since": "2026-06-04T19:07:15Z",
     "reviewers": [
       {
         "login": "simonbaird",
         "reviews": 121,
         "prs": [
+          {
+            "title": "Add pipelines for new v0.9 release branch",
+            "url": "https://github.com/conforma/cli/pull/3529",
+            "repo": "conforma/cli",
+            "number": 3529,
+            "author": "dheerajodha",
+            "engaged_at": "2026-09-02T18:43:41Z"
+          },
           {
             "title": "Update Konflux references (main)",
             "url": "https://github.com/conforma/cli/pull/3513",
@@ -7614,14 +7623,6 @@
             "number": 3514,
             "author": "red-hat-konflux",
             "engaged_at": "2026-09-02T18:02:13Z"
-          },
-          {
-            "title": "Add pipelines for new v0.9 release branch",
-            "url": "https://github.com/conforma/cli/pull/3529",
-            "repo": "conforma/cli",
-            "number": 3529,
-            "author": "dheerajodha",
-            "engaged_at": "2026-09-02T17:58:09Z"
           },
           {
             "title": "docs: guide for catching policy violations early with ITs",
