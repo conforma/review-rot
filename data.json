@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T19:36:05.54642608Z",
+  "generated_at": "2026-09-02T20:10:23.342443742Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1211,10 +1211,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-02T13:04:08Z",
-      "updated_at": "2026-09-02T19:32:16Z",
+      "updated_at": "2026-09-02T19:57:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -2928,20 +2928,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-22T06:39:46Z",
-      "updated_at": "2026-09-02T18:16:58Z",
+      "updated_at": "2026-09-02T20:06:10Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "M",
+      "ci_status": "PENDING",
+      "size": "L",
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
         "renovate",
         "release-v0.7",
-        "size: M",
+        "size: L",
         "risk/low"
       ]
     },
@@ -4470,7 +4470,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-18T13:29:35Z",
-      "updated_at": "2026-08-18T13:33:12Z",
+      "updated_at": "2026-09-02T19:44:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5380,7 +5380,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-11T01:35:02Z",
-      "updated_at": "2026-09-02T00:42:10Z",
+      "updated_at": "2026-09-02T20:01:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6430,7 +6430,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-09-02T10:59:42Z",
+      "updated_at": "2026-09-02T19:51:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6472,7 +6472,7 @@
       ]
     },
     {
-      "title": "🚨 Update go modules (main) (major)",
+      "title": "🚨 Update module sigs.k8s.io/kustomize/kustomize/v4 to v5 (main)",
       "url": "https://github.com/conforma/crds/pull/19",
       "number": 19,
       "repo": "conforma/crds",
@@ -6481,7 +6481,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:44Z",
-      "updated_at": "2026-09-02T05:06:21Z",
+      "updated_at": "2026-09-02T19:51:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -7621,11 +7621,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-04T19:33:46Z",
+    "since": "2026-06-04T20:08:00Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 122,
+        "reviews": 120,
         "prs": [
           {
             "title": "Set cpe label for v0.9 release build",
@@ -8586,22 +8586,6 @@
             "number": 3332,
             "author": "robnester-rh",
             "engaged_at": "2026-06-04T20:21:48Z"
-          },
-          {
-            "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
-            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/195",
-            "repo": "release-engineering/rhtap-ec-policy",
-            "number": 195,
-            "author": "Acepresso",
-            "engaged_at": "2026-06-04T20:03:35Z"
-          },
-          {
-            "title": "Add trusted task rule data to allow konflux-ci tekton-catalog",
-            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/209",
-            "repo": "release-engineering/rhtap-ec-policy",
-            "number": 209,
-            "author": "st3penta",
-            "engaged_at": "2026-06-04T20:02:59Z"
           }
         ]
       },
