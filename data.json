@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T04:12:13.691848954Z",
+  "generated_at": "2026-09-02T04:42:09.176485533Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2257,10 +2257,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T04:47:04Z",
-      "updated_at": "2026-08-27T04:36:11Z",
+      "updated_at": "2026-09-02T04:28:53Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2286,7 +2286,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T04:47:40Z",
-      "updated_at": "2026-09-01T04:42:27Z",
+      "updated_at": "2026-09-02T04:17:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2672,35 +2672,6 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 7fbeae1 (main)",
-      "url": "https://github.com/conforma/cli/pull/3464",
-      "number": 3464,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-08-06T01:54:55Z",
-      "updated_at": "2026-09-01T04:07:58Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "dependencies",
-        "docker",
-        "renovate",
-        "main",
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "[DNM] Add dummy task, pipeline, and ITS for EC-2011 POC",
       "url": "https://github.com/conforma/cli/pull/3476",
       "number": 3476,
@@ -2766,10 +2737,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-11T04:03:15Z",
-      "updated_at": "2026-08-27T04:32:25Z",
+      "updated_at": "2026-09-02T04:30:20Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -2781,7 +2752,8 @@
         "renovate",
         "release-v0.7",
         "size: M",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/moderate"
       ]
     },
     {
@@ -2794,7 +2766,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-11T04:21:31Z",
-      "updated_at": "2026-09-01T04:52:30Z",
+      "updated_at": "2026-09-02T04:17:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6970,7 +6942,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-04T04:09:37Z",
+    "since": "2026-06-04T04:39:37Z",
     "reviewers": [
       {
         "login": "simonbaird",
