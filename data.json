@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T03:41:07.480821927Z",
+  "generated_at": "2026-09-02T04:12:13.691848954Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6648,7 +6648,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-09-02T00:16:26Z",
+      "updated_at": "2026-09-02T03:40:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6731,7 +6731,7 @@
       "updated_at": "2026-09-02T03:37:52Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -6757,7 +6757,7 @@
       "updated_at": "2026-09-02T03:37:56Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -6797,7 +6797,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.0 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.1 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/755",
       "number": 755,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -6806,7 +6806,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:47:23Z",
-      "updated_at": "2026-08-19T20:44:22Z",
+      "updated_at": "2026-09-02T03:38:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6970,7 +6970,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-04T03:38:45Z",
+    "since": "2026-06-04T04:09:37Z",
     "reviewers": [
       {
         "login": "simonbaird",
