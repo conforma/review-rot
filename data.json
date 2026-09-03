@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T14:39:30.124302816Z",
+  "generated_at": "2026-09-03T15:11:30.757949391Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3257,31 +3257,6 @@
       ]
     },
     {
-      "title": "Upgrade go version to 1.26.7",
-      "url": "https://github.com/conforma/cli/pull/3538",
-      "number": 3538,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
-      },
-      "created_at": "2026-09-03T12:54:42Z",
-      "updated_at": "2026-09-03T13:36:11Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "docs(EC-2061): document dependency management strategy in AGENTS.md",
       "url": "https://github.com/conforma/cli/pull/3539",
       "number": 3539,
@@ -3341,13 +3316,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-09-03T13:59:28Z",
-      "updated_at": "2026-09-03T14:11:52Z",
+      "updated_at": "2026-09-03T15:06:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -7774,12 +7749,28 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-05T14:36:44Z",
+    "since": "2026-06-05T15:08:35Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 118,
+        "reviews": 120,
         "prs": [
+          {
+            "title": "upgrade go to version 1.26.7",
+            "url": "https://github.com/conforma/cli/pull/3541",
+            "repo": "conforma/cli",
+            "number": 3541,
+            "author": "Acepresso",
+            "engaged_at": "2026-09-03T15:06:32Z"
+          },
+          {
+            "title": "Upgrade go version to 1.26.7",
+            "url": "https://github.com/conforma/cli/pull/3538",
+            "repo": "conforma/cli",
+            "number": 3538,
+            "author": "Acepresso",
+            "engaged_at": "2026-09-03T15:02:54Z"
+          },
           {
             "title": "Set cpe label for v0.9 release build",
             "url": "https://github.com/conforma/cli/pull/3535",
