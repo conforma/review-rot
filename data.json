@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T16:39:22.609023001Z",
+  "generated_at": "2026-09-03T16:55:47.188748201Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1196,31 +1196,6 @@
       "unresolved_conversations": 9,
       "labels": [
         "size: XXL",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/policy/pull/1830",
-      "number": 1830,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:55:00Z",
-      "updated_at": "2026-09-02T14:08:13Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
         "risk/moderate"
       ]
     },
@@ -3075,31 +3050,6 @@
       ]
     },
     {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/cli/pull/3527",
-      "number": 3527,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T14:35:47Z",
-      "updated_at": "2026-09-02T14:51:05Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Add python script to view archived pipelinerun logs",
       "url": "https://github.com/conforma/cli/pull/3528",
       "number": 3528,
@@ -3292,16 +3242,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-09-03T13:03:20Z",
-      "updated_at": "2026-09-03T16:31:47Z",
+      "updated_at": "2026-09-03T16:48:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
         "size: S",
         "risk/low"
@@ -3390,7 +3340,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-03T01:58:19Z",
+      "updated_at": "2026-09-03T16:51:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3444,7 +3394,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:49Z",
-      "updated_at": "2026-09-01T20:32:20Z",
+      "updated_at": "2026-09-03T16:51:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3500,7 +3450,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-09-01T20:23:58Z",
+      "updated_at": "2026-09-03T16:51:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3529,7 +3479,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:19:34Z",
-      "updated_at": "2026-09-02T02:02:49Z",
+      "updated_at": "2026-09-03T16:52:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3638,7 +3588,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:10:39Z",
-      "updated_at": "2026-09-01T13:58:29Z",
+      "updated_at": "2026-09-03T16:50:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3744,7 +3694,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-01T00:40:44Z",
-      "updated_at": "2026-09-02T18:17:11Z",
+      "updated_at": "2026-09-03T16:52:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3799,7 +3749,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T22:08:34Z",
-      "updated_at": "2026-09-02T18:11:47Z",
+      "updated_at": "2026-09-03T16:51:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3854,7 +3804,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:25:30Z",
-      "updated_at": "2026-09-01T14:04:03Z",
+      "updated_at": "2026-09-03T16:51:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3922,31 +3872,6 @@
       ]
     },
     {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/conforma.github.io/pull/552",
-      "number": 552,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T14:01:23Z",
-      "updated_at": "2026-09-02T14:24:05Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/golden-container/pull/1495",
       "number": 1495,
@@ -3956,10 +3881,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-19T01:45:29Z",
-      "updated_at": "2026-08-26T11:46:18Z",
+      "updated_at": "2026-09-03T16:48:36Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4010,10 +3935,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-03T02:29:22Z",
-      "updated_at": "2026-08-29T01:14:21Z",
+      "updated_at": "2026-09-03T16:48:23Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4062,10 +3987,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-08T01:09:43Z",
-      "updated_at": "2026-08-31T01:37:32Z",
+      "updated_at": "2026-09-03T16:48:29Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4214,10 +4139,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-27T01:12:47Z",
-      "updated_at": "2026-08-27T01:12:56Z",
+      "updated_at": "2026-09-03T16:48:18Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4253,30 +4178,6 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/golden-container/pull/1511",
-      "number": 1511,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:55:49Z",
-      "updated_at": "2026-09-02T14:32:43Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -4396,30 +4297,6 @@
       },
       "created_at": "2026-08-26T17:38:54Z",
       "updated_at": "2026-08-26T17:39:51Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/review-rot/pull/253",
-      "number": 253,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:56:45Z",
-      "updated_at": "2026-09-02T13:57:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4663,30 +4540,6 @@
       ]
     },
     {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/229",
-      "number": 229,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:56:04Z",
-      "updated_at": "2026-09-02T13:57:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/user-guide/pull/233",
       "number": 233,
@@ -4696,7 +4549,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:47:02Z",
-      "updated_at": "2026-08-26T15:45:08Z",
+      "updated_at": "2026-09-03T16:50:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4724,7 +4577,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T00:47:54Z",
-      "updated_at": "2026-09-02T15:27:59Z",
+      "updated_at": "2026-09-03T16:51:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4752,7 +4605,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:33:03Z",
-      "updated_at": "2026-09-01T19:16:02Z",
+      "updated_at": "2026-09-03T16:50:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4818,32 +4671,6 @@
       "labels": [
         "size: XS",
         "ready-for-merge"
-      ]
-    },
-    {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/user-guide/pull/247",
-      "number": 247,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:57:08Z",
-      "updated_at": "2026-09-02T14:09:43Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
       ]
     },
     {
@@ -4956,7 +4783,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-25T02:05:10Z",
-      "updated_at": "2026-09-03T11:02:09Z",
+      "updated_at": "2026-09-03T16:51:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4983,30 +4810,6 @@
       },
       "created_at": "2026-08-26T16:59:55Z",
       "updated_at": "2026-08-26T17:13:50Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/hacks/pull/216",
-      "number": 216,
-      "repo": "conforma/hacks",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:56:38Z",
-      "updated_at": "2026-09-02T13:57:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5376,30 +5179,6 @@
       ]
     },
     {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/tekton-catalog/pull/268",
-      "number": 268,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:56:24Z",
-      "updated_at": "2026-09-02T13:57:51Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Pin dependencies (main)",
       "url": "https://github.com/conforma/config/pull/227",
       "number": 227,
@@ -5462,30 +5241,6 @@
       },
       "created_at": "2026-08-26T17:40:02Z",
       "updated_at": "2026-08-26T17:40:38Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/config/pull/238",
-      "number": 238,
-      "repo": "conforma/config",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:55:41Z",
-      "updated_at": "2026-09-02T13:57:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5589,30 +5344,6 @@
       },
       "created_at": "2026-08-26T17:39:28Z",
       "updated_at": "2026-08-26T17:40:06Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/action-validate-image/pull/442",
-      "number": 442,
-      "repo": "conforma/action-validate-image",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:56:52Z",
-      "updated_at": "2026-09-02T13:58:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5825,30 +5556,6 @@
       ]
     },
     {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/github-workflows/pull/9",
-      "number": 9,
-      "repo": "conforma/github-workflows",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:56:10Z",
-      "updated_at": "2026-09-02T13:57:09Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Bump vite from 6.3.7 to 6.4.1",
       "url": "https://github.com/conforma/policy-builder/pull/39",
       "number": 39,
@@ -5884,7 +5591,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-21T22:08:06Z",
-      "updated_at": "2026-09-02T22:46:08Z",
+      "updated_at": "2026-09-03T16:49:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5910,7 +5617,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:16:14Z",
-      "updated_at": "2026-09-03T12:55:37Z",
+      "updated_at": "2026-09-03T16:49:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5936,7 +5643,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-09-03T12:56:07Z",
+      "updated_at": "2026-09-03T16:50:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6042,7 +5749,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-05T03:45:30Z",
-      "updated_at": "2026-09-03T12:55:18Z",
+      "updated_at": "2026-09-03T16:49:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6069,30 +5776,6 @@
       },
       "created_at": "2026-08-26T17:59:43Z",
       "updated_at": "2026-08-26T18:00:05Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/policy-builder/pull/59",
-      "number": 59,
-      "repo": "conforma/policy-builder",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T14:01:15Z",
-      "updated_at": "2026-09-02T14:02:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -6732,7 +6415,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-09-03T02:09:41Z",
+      "updated_at": "2026-09-03T16:51:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6757,10 +6440,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:50Z",
-      "updated_at": "2026-09-02T18:59:42Z",
+      "updated_at": "2026-09-03T16:52:07Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6782,10 +6465,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-14T01:04:12Z",
-      "updated_at": "2026-09-02T18:59:53Z",
+      "updated_at": "2026-09-03T16:52:25Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6808,7 +6491,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:38:14Z",
-      "updated_at": "2026-08-26T22:28:29Z",
+      "updated_at": "2026-09-03T16:51:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6833,10 +6516,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-20T01:14:43Z",
-      "updated_at": "2026-08-26T11:39:11Z",
+      "updated_at": "2026-09-03T16:52:14Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 0,
@@ -6859,7 +6542,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-22T02:34:08Z",
-      "updated_at": "2026-07-22T02:34:09Z",
+      "updated_at": "2026-09-03T16:51:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6897,28 +6580,6 @@
       "labels": []
     },
     {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/pr-size-label-action/pull/28",
-      "number": 28,
-      "repo": "conforma/pr-size-label-action",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:57:00Z",
-      "updated_at": "2026-09-02T13:58:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
       "url": "https://github.com/conforma/pr-agent-settings/pull/1",
       "number": 1,
@@ -6929,28 +6590,6 @@
       },
       "created_at": "2026-08-26T18:03:15Z",
       "updated_at": "2026-08-26T18:03:40Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/pr-agent-settings/pull/2",
-      "number": 2,
-      "repo": "conforma/pr-agent-settings",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:57:22Z",
-      "updated_at": "2026-09-02T13:58:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -7010,30 +6649,6 @@
         "size: XS",
         "main",
         "renovate"
-      ]
-    },
-    {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/claude-skills/pull/24",
-      "number": 24,
-      "repo": "conforma/claude-skills",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:56:31Z",
-      "updated_at": "2026-09-02T13:58:04Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
       ]
     },
     {
@@ -7286,13 +6901,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-09-02T13:55:17Z",
-      "updated_at": "2026-09-02T13:56:38Z",
+      "updated_at": "2026-09-03T16:52:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -7335,30 +6950,6 @@
       },
       "created_at": "2026-08-26T16:58:58Z",
       "updated_at": "2026-08-26T17:05:04Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore: add CODEOWNERS designating the devs team as code owners",
-      "url": "https://github.com/conforma/e2e-tests/pull/14",
-      "number": 14,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-02T14:00:26Z",
-      "updated_at": "2026-09-02T14:03:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -7776,12 +7367,180 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-05T16:36:57Z",
+    "since": "2026-06-05T16:53:24Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 120,
+        "reviews": 141,
         "prs": [
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/community/pull/78",
+            "repo": "conforma/community",
+            "number": 78,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:53:16Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/step-actions/pull/13",
+            "repo": "conforma/step-actions",
+            "number": 13,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:53:11Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/demos/pull/9",
+            "repo": "conforma/demos",
+            "number": 9,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:52:51Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/golden-rpm/pull/19",
+            "repo": "conforma/golden-rpm",
+            "number": 19,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:52:42Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/config/pull/238",
+            "repo": "conforma/config",
+            "number": 238,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:52:09Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/github-workflows/pull/9",
+            "repo": "conforma/github-workflows",
+            "number": 9,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:52:02Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/229",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 229,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:51:57Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/review-rot/pull/253",
+            "repo": "conforma/review-rot",
+            "number": 253,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:51:51Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/tekton-catalog/pull/268",
+            "repo": "conforma/tekton-catalog",
+            "number": 268,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:51:45Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/hacks/pull/216",
+            "repo": "conforma/hacks",
+            "number": 216,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:49:14Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/action-validate-image/pull/442",
+            "repo": "conforma/action-validate-image",
+            "number": 442,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:49:08Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/claude-skills/pull/24",
+            "repo": "conforma/claude-skills",
+            "number": 24,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:49:00Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/28",
+            "repo": "conforma/pr-size-label-action",
+            "number": 28,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:48:51Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/pr-agent-settings/pull/2",
+            "repo": "conforma/pr-agent-settings",
+            "number": 2,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:48:43Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/policy-builder/pull/59",
+            "repo": "conforma/policy-builder",
+            "number": 59,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:48:06Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/e2e-tests/pull/14",
+            "repo": "conforma/e2e-tests",
+            "number": 14,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:48:01Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/policy/pull/1830",
+            "repo": "conforma/policy",
+            "number": 1830,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:47:52Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/user-guide/pull/247",
+            "repo": "conforma/user-guide",
+            "number": 247,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:47:43Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/conforma.github.io/pull/552",
+            "repo": "conforma/conforma.github.io",
+            "number": 552,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:47:33Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/golden-container/pull/1511",
+            "repo": "conforma/golden-container",
+            "number": 1511,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:47:19Z"
+          },
+          {
+            "title": "chore: add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/conforma/cli/pull/3527",
+            "repo": "conforma/cli",
+            "number": 3527,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T16:47:11Z"
+          },
           {
             "title": "upgrade go to version 1.26.7",
             "url": "https://github.com/conforma/cli/pull/3541",
