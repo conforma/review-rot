@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T22:36:33.762893656Z",
+  "generated_at": "2026-09-03T23:09:16.000214582Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6591,13 +6591,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-02T20:54:37Z",
-      "updated_at": "2026-09-03T21:35:37Z",
+      "updated_at": "2026-09-03T22:49:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -7105,74 +7105,6 @@
       ]
     },
     {
-      "title": "new policy source param",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2160",
-      "number": 2160,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-04-16T04:03:04Z",
-      "updated_at": "2026-05-29T00:31:32Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat(EC-1794): remove dead verify_ec_task params from managed pipelines",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2379",
-      "number": 2379,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-01T18:03:55Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "Review effort 2/5"
-      ]
-    },
-    {
-      "title": "fix(EC-1994): bump conforma.workerCount fallback default from 4 to 5",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2463",
-      "number": 2463,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-09-03T13:46:26Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "Restructure enterprise-contract into dev/staging/prod overlays",
       "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13323",
       "number": 13323,
@@ -7225,7 +7157,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-05T22:33:57Z",
+    "since": "2026-06-05T23:06:41Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9327,8 +9259,16 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 47,
+        "reviews": 48,
         "prs": [
+          {
+            "title": "Use plain strings for chains hint step results",
+            "url": "https://github.com/conforma/step-actions/pull/14",
+            "repo": "conforma/step-actions",
+            "number": 14,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-03T22:49:52Z"
+          },
           {
             "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.7)",
             "url": "https://github.com/conforma/cli/pull/3517",
