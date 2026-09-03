@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T21:09:49.576724437Z",
+  "generated_at": "2026-09-03T21:36:38.416177946Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6591,13 +6591,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-02T20:54:37Z",
-      "updated_at": "2026-09-03T20:40:02Z",
+      "updated_at": "2026-09-03T21:33:05Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
-        "count": 1,
+        "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6853,10 +6853,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:48:52Z",
-      "updated_at": "2026-09-03T21:05:25Z",
+      "updated_at": "2026-09-03T21:07:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 1,
@@ -6879,10 +6879,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:37:28Z",
-      "updated_at": "2026-09-03T21:05:42Z",
+      "updated_at": "2026-09-03T21:07:13Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 1,
@@ -6905,10 +6905,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-09-03T21:06:54Z",
+      "updated_at": "2026-09-03T21:06:56Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -6931,11 +6931,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-28T02:09:34Z",
-      "updated_at": "2026-09-03T05:12:35Z",
+      "updated_at": "2026-09-03T21:07:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "S",
+      "size": "M",
       "reviews": {
         "count": 1,
         "has_new_commits": true
@@ -6945,7 +6945,7 @@
         "renovate",
         "major",
         "main",
-        "size: S"
+        "size: M"
       ]
     },
     {
@@ -6958,7 +6958,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-14T02:49:05Z",
-      "updated_at": "2026-09-02T00:17:43Z",
+      "updated_at": "2026-09-03T21:09:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -7225,7 +7225,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-05T21:07:28Z",
+    "since": "2026-06-05T21:33:57Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9327,16 +9327,8 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 48,
+        "reviews": 47,
         "prs": [
-          {
-            "title": "Use plain strings for chains hint step results",
-            "url": "https://github.com/conforma/step-actions/pull/14",
-            "repo": "conforma/step-actions",
-            "number": 14,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-03T20:40:02Z"
-          },
           {
             "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.7)",
             "url": "https://github.com/conforma/cli/pull/3517",
