@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T11:09:53.297620944Z",
+  "generated_at": "2026-09-03T11:36:44.967193923Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -502,33 +502,6 @@
         "size: XS",
         "release-v0.8",
         "ready-for-merge"
-      ]
-    },
-    {
-      "title": "Update github actions (release-v0.8) (patch)",
-      "url": "https://github.com/conforma/policy/pull/1727",
-      "number": 1727,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-05-15T00:44:30Z",
-      "updated_at": "2026-08-14T23:58:30Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "github_actions",
-        "renovate",
-        "size: S",
-        "release-v0.8"
       ]
     },
     {
@@ -3240,7 +3213,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-03T10:48:00Z",
-      "updated_at": "2026-09-03T11:05:24Z",
+      "updated_at": "2026-09-03T11:13:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3251,7 +3224,10 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
+        "size: XS",
+        "tooling",
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -3264,10 +3240,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-03T11:01:33Z",
-      "updated_at": "2026-09-03T11:02:56Z",
+      "updated_at": "2026-09-03T11:14:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3275,7 +3251,9 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
+        "size: XS",
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -6111,13 +6089,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-09-02T14:01:59Z",
-      "updated_at": "2026-09-02T14:03:32Z",
+      "updated_at": "2026-09-03T11:23:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -7719,7 +7697,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-05T11:07:19Z",
+    "since": "2026-06-05T11:34:07Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9995,8 +9973,24 @@
       },
       {
         "login": "dheerajodha",
-        "reviews": 40,
+        "reviews": 42,
         "prs": [
+          {
+            "title": "chore: add catch-all CODEOWNERS entry for full path coverage",
+            "url": "https://github.com/conforma/go-gather/pull/346",
+            "repo": "conforma/go-gather",
+            "number": 346,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-03T11:23:39Z"
+          },
+          {
+            "title": "tkn-bundle: don't require version label for non-Tasks",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3818",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3818,
+            "author": "chmeliik",
+            "engaged_at": "2026-09-03T11:19:27Z"
+          },
           {
             "title": "Update github actions (release-v0.8) (patch)",
             "url": "https://github.com/conforma/policy/pull/1727",
