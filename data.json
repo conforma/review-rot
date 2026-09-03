@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:48:16.091995264Z",
+  "generated_at": "2026-09-03T13:11:38.973843295Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3257,6 +3257,80 @@
       ]
     },
     {
+      "title": "Upgrade go version to 1.26.8",
+      "url": "https://github.com/conforma/cli/pull/3538",
+      "number": 3538,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "Acepresso",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
+      },
+      "created_at": "2026-09-03T12:54:42Z",
+      "updated_at": "2026-09-03T13:06:08Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS",
+        "ready-for-merge",
+        "risk/moderate"
+      ]
+    },
+    {
+      "title": "docs(EC-2061): document dependency management strategy in AGENTS.md",
+      "url": "https://github.com/conforma/cli/pull/3539",
+      "number": 3539,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-09-03T12:57:22Z",
+      "updated_at": "2026-09-03T13:03:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "docs(EC-2039): document expected skill format in AGENTS.md",
+      "url": "https://github.com/conforma/cli/pull/3540",
+      "number": 3540,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-09-03T13:03:20Z",
+      "updated_at": "2026-09-03T13:05:03Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: S"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -5306,7 +5380,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T03:44:47Z",
-      "updated_at": "2026-08-31T03:08:04Z",
+      "updated_at": "2026-09-03T12:46:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5332,7 +5406,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:26:50Z",
-      "updated_at": "2026-08-27T01:12:44Z",
+      "updated_at": "2026-09-03T12:46:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5807,7 +5881,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:16:14Z",
-      "updated_at": "2026-09-02T22:46:28Z",
+      "updated_at": "2026-09-03T12:55:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5833,7 +5907,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-09-02T22:46:59Z",
+      "updated_at": "2026-09-03T12:56:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5913,7 +5987,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-19T02:57:56Z",
-      "updated_at": "2026-08-29T06:39:42Z",
+      "updated_at": "2026-09-03T12:55:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5939,7 +6013,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-05T03:45:30Z",
-      "updated_at": "2026-09-01T14:02:59Z",
+      "updated_at": "2026-09-03T12:55:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6991,7 +7065,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-02T20:54:37Z",
-      "updated_at": "2026-09-02T21:05:19Z",
+      "updated_at": "2026-09-03T12:58:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -7000,7 +7074,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 0,
       "labels": [
         "size: S"
       ]
@@ -7608,7 +7682,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-08-25T19:59:59Z",
+      "updated_at": "2026-09-03T12:53:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -7673,7 +7747,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-05T12:45:21Z",
+    "since": "2026-06-05T13:08:37Z",
     "reviewers": [
       {
         "login": "simonbaird",
