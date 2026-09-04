@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T22:09:32.958512263Z",
+  "generated_at": "2026-09-04T22:35:54.434572371Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,10 +21,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-08-18T08:47:12Z",
+      "updated_at": "2026-09-04T22:31:49Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -102,10 +102,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T00:39:19Z",
-      "updated_at": "2026-08-14T19:49:10Z",
+      "updated_at": "2026-09-04T22:32:26Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -212,11 +212,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-09-04T14:40:58Z",
+      "updated_at": "2026-09-04T22:32:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": "S",
+      "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -227,7 +227,8 @@
         "github_actions",
         "renovate",
         "main",
-        "size: S"
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -240,7 +241,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-08-20T19:49:01Z",
+      "updated_at": "2026-09-04T22:30:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -269,7 +270,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:06:13Z",
-      "updated_at": "2026-08-14T23:58:07Z",
+      "updated_at": "2026-09-04T22:32:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -288,7 +289,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.27.0 (main)",
+      "title": "Update dependency golang to v1.27.1 (main)",
       "url": "https://github.com/conforma/policy/pull/1689",
       "number": 1689,
       "repo": "conforma/policy",
@@ -297,10 +298,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:17:15Z",
-      "updated_at": "2026-08-20T19:49:07Z",
+      "updated_at": "2026-09-04T22:31:49Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -316,7 +317,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.27.0 (release-v0.7)",
+      "title": "Update dependency golang to v1.27.1 (release-v0.7)",
       "url": "https://github.com/conforma/policy/pull/1692",
       "number": 1692,
       "repo": "conforma/policy",
@@ -325,10 +326,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:35:50Z",
-      "updated_at": "2026-08-20T13:04:24Z",
+      "updated_at": "2026-09-04T22:32:34Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -382,7 +383,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-08-20T19:48:50Z",
+      "updated_at": "2026-09-04T22:28:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1220,6 +1221,58 @@
       "labels": [
         "size: XL",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update module oras.land/oras to v1.3.3 [SECURITY] (main)",
+      "url": "https://github.com/conforma/policy/pull/1833",
+      "number": 1833,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-04T22:26:00Z",
+      "updated_at": "2026-09-04T22:31:53Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: M"
+      ]
+    },
+    {
+      "title": "Update module oras.land/oras to v1.3.3 [SECURITY] (release-v0.7)",
+      "url": "https://github.com/conforma/policy/pull/1834",
+      "number": 1834,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-04T22:32:19Z",
+      "updated_at": "2026-09-04T22:32:28Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "release-v0.7",
+        "size: M"
       ]
     },
     {
@@ -4335,7 +4388,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:47:02Z",
-      "updated_at": "2026-09-04T14:49:55Z",
+      "updated_at": "2026-09-04T22:28:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4350,34 +4403,6 @@
         "renovate",
         "size: XS",
         "major",
-        "requires-manual-review"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/user-guide/pull/235",
-      "number": 235,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-17T01:33:03Z",
-      "updated_at": "2026-09-04T17:16:59Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 7,
-      "labels": [
-        "github_actions",
-        "main",
-        "renovate",
-        "size: XS",
         "requires-manual-review",
         "risk/moderate"
       ]
@@ -5617,7 +5642,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-09-04T14:43:23Z",
+      "updated_at": "2026-09-04T22:19:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5693,7 +5718,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-20T01:14:43Z",
-      "updated_at": "2026-09-04T14:43:39Z",
+      "updated_at": "2026-09-04T22:19:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5707,31 +5732,6 @@
         "main",
         "renovate",
         "major"
-      ]
-    },
-    {
-      "title": "Update actions/checkout action to v6.1.0 (main)",
-      "url": "https://github.com/conforma/pr-size-label-action/pull/26",
-      "number": 26,
-      "repo": "conforma/pr-size-label-action",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-07-22T02:34:08Z",
-      "updated_at": "2026-09-04T14:43:30Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
       ]
     },
     {
@@ -6448,7 +6448,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-06T22:07:13Z",
+    "since": "2026-06-06T22:33:35Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7618,8 +7618,24 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 79,
+        "reviews": 81,
         "prs": [
+          {
+            "title": "Update github actions (main) (minor)",
+            "url": "https://github.com/conforma/user-guide/pull/235",
+            "repo": "conforma/user-guide",
+            "number": 235,
+            "author": "renovate",
+            "engaged_at": "2026-09-04T22:19:39Z"
+          },
+          {
+            "title": "Update actions/checkout action to v6.1.0 (main)",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/26",
+            "repo": "conforma/pr-size-label-action",
+            "number": 26,
+            "author": "renovate",
+            "engaged_at": "2026-09-04T22:18:30Z"
+          },
           {
             "title": "Update github actions (main) (minor)",
             "url": "https://github.com/conforma/golden-container/pull/1502",
