@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T01:43:14.85948001Z",
+  "generated_at": "2026-09-04T02:13:38.271477577Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3363,7 +3363,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-03T17:06:45Z",
+      "updated_at": "2026-09-04T01:50:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3417,7 +3417,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:49Z",
-      "updated_at": "2026-09-03T17:15:28Z",
+      "updated_at": "2026-09-04T02:06:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3433,6 +3433,7 @@
         "main",
         "renovate",
         "size: XS",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -3473,7 +3474,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-09-03T17:13:42Z",
+      "updated_at": "2026-09-04T02:09:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3708,35 +3709,6 @@
       ]
     },
     {
-      "title": "🚨 Update dependency toml to v5 (main)",
-      "url": "https://github.com/conforma/conforma.github.io/pull/538",
-      "number": 538,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-04-01T00:40:44Z",
-      "updated_at": "2026-09-03T17:11:12Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "major",
-        "size: XS",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "build(deps): bump dompurify from 3.2.6 to 3.4.1 in /antora",
       "url": "https://github.com/conforma/conforma.github.io/pull/541",
       "number": 541,
@@ -3827,7 +3799,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:25:30Z",
-      "updated_at": "2026-09-03T17:05:56Z",
+      "updated_at": "2026-09-04T01:50:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3895,6 +3867,35 @@
       ]
     },
     {
+      "title": "🚨 Update dependency toml to v4 [SECURITY] (main)",
+      "url": "https://github.com/conforma/conforma.github.io/pull/553",
+      "number": 553,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-04T01:50:03Z",
+      "updated_at": "2026-09-04T02:00:55Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "major",
+        "size: XS",
+        "ready-for-merge",
+        "risk/low"
+      ]
+    },
+    {
       "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/golden-container/pull/1495",
       "number": 1495,
@@ -3958,7 +3959,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-03T02:29:22Z",
-      "updated_at": "2026-09-03T16:48:23Z",
+      "updated_at": "2026-09-04T01:41:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4010,7 +4011,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-08T01:09:43Z",
-      "updated_at": "2026-09-03T16:48:29Z",
+      "updated_at": "2026-09-04T01:41:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4214,7 +4215,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-09-03T16:54:31Z",
+      "updated_at": "2026-09-04T01:46:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4240,7 +4241,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:55:02Z",
-      "updated_at": "2026-09-03T16:54:56Z",
+      "updated_at": "2026-09-04T01:47:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4600,7 +4601,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T00:47:54Z",
-      "updated_at": "2026-09-03T17:03:09Z",
+      "updated_at": "2026-09-04T01:43:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4628,7 +4629,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:33:03Z",
-      "updated_at": "2026-09-03T17:08:05Z",
+      "updated_at": "2026-09-04T01:51:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4643,6 +4644,7 @@
         "main",
         "renovate",
         "size: XS",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -4933,7 +4935,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:36:46Z",
-      "updated_at": "2026-09-03T10:14:54Z",
+      "updated_at": "2026-09-04T01:58:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5039,7 +5041,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-15T00:43:24Z",
-      "updated_at": "2026-09-03T10:15:06Z",
+      "updated_at": "2026-09-04T01:58:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5212,7 +5214,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-10T03:44:47Z",
-      "updated_at": "2026-09-03T12:46:40Z",
+      "updated_at": "2026-09-04T01:45:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5314,7 +5316,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-11T01:35:02Z",
-      "updated_at": "2026-09-02T20:01:38Z",
+      "updated_at": "2026-09-04T01:51:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5699,7 +5701,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-19T02:57:56Z",
-      "updated_at": "2026-09-03T12:55:27Z",
+      "updated_at": "2026-09-04T02:00:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -7225,7 +7227,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-06T01:40:48Z",
+    "since": "2026-06-06T02:11:02Z",
     "reviewers": [
       {
         "login": "simonbaird",
