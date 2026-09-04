@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T14:40:05.042174882Z",
+  "generated_at": "2026-09-04T15:10:33.442508836Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -212,7 +212,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-08-20T15:07:00Z",
+      "updated_at": "2026-09-04T14:40:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -569,7 +569,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-08-15T09:19:29Z",
+      "updated_at": "2026-09-04T14:41:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1207,16 +1207,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-03T20:43:50Z",
-      "updated_at": "2026-09-04T14:35:59Z",
+      "updated_at": "2026-09-04T14:44:08Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 15,
+      "unresolved_conversations": 18,
       "labels": [
         "size: XL"
       ]
@@ -3335,7 +3335,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-04T01:50:12Z",
+      "updated_at": "2026-09-04T15:05:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3349,8 +3349,7 @@
         "main",
         "renovate",
         "size: XXL",
-        "ready-for-merge",
-        "risk/moderate"
+        "ready-for-merge"
       ]
     },
     {
@@ -3377,36 +3376,6 @@
         "dependencies",
         "javascript",
         "size: XS"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/conforma.github.io/pull/513",
-      "number": 513,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-01-14T02:53:49Z",
-      "updated_at": "2026-09-04T02:06:07Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 4,
-      "labels": [
-        "dependencies",
-        "github_actions",
-        "main",
-        "renovate",
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
       ]
     },
     {
@@ -3475,7 +3444,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:19:34Z",
-      "updated_at": "2026-09-03T17:27:44Z",
+      "updated_at": "2026-09-04T15:06:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3491,7 +3460,8 @@
         "renovate",
         "major",
         "size: XS",
-        "risk/moderate"
+        "requires-manual-review",
+        "risk/elevated"
       ]
     },
     {
@@ -3584,7 +3554,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T02:10:39Z",
-      "updated_at": "2026-09-03T17:05:36Z",
+      "updated_at": "2026-09-04T15:05:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3598,8 +3568,7 @@
         "main",
         "renovate",
         "size: XS",
-        "ready-for-merge",
-        "risk/low"
+        "ready-for-merge"
       ]
     },
     {
@@ -3850,10 +3819,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-19T01:45:29Z",
-      "updated_at": "2026-09-03T16:48:36Z",
+      "updated_at": "2026-09-04T15:05:25Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3905,32 +3874,6 @@
       },
       "created_at": "2026-07-06T01:24:26Z",
       "updated_at": "2026-09-03T02:39:10Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/golden-container/pull/1502",
-      "number": 1502,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-07-08T01:09:43Z",
-      "updated_at": "2026-09-04T01:41:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4160,10 +4103,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-19T00:57:25Z",
-      "updated_at": "2026-09-04T14:36:33Z",
+      "updated_at": "2026-09-04T14:37:43Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4388,7 +4331,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:47:02Z",
-      "updated_at": "2026-09-03T17:02:25Z",
+      "updated_at": "2026-09-04T14:49:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4403,7 +4346,7 @@
         "renovate",
         "size: XS",
         "major",
-        "risk/moderate"
+        "requires-manual-review"
       ]
     },
     {
@@ -4416,7 +4359,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-17T01:33:03Z",
-      "updated_at": "2026-09-04T01:51:17Z",
+      "updated_at": "2026-09-04T14:53:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5037,32 +4980,6 @@
       ]
     },
     {
-      "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
-      "url": "https://github.com/conforma/github-workflows/pull/6",
-      "number": 6,
-      "repo": "conforma/github-workflows",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-04-30T02:06:34Z",
-      "updated_at": "2026-09-04T13:00:29Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
       "url": "https://github.com/conforma/github-workflows/pull/8",
       "number": 8,
@@ -5561,32 +5478,6 @@
       ]
     },
     {
-      "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
-      "url": "https://github.com/conforma/demos/pull/7",
-      "number": 7,
-      "repo": "conforma/demos",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-04-19T03:41:08Z",
-      "updated_at": "2026-09-04T14:32:17Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/.github/pull/75",
       "number": 75,
@@ -5722,7 +5613,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-09-04T01:38:14Z",
+      "updated_at": "2026-09-04T14:43:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5798,7 +5689,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-20T01:14:43Z",
-      "updated_at": "2026-09-03T16:52:14Z",
+      "updated_at": "2026-09-04T14:43:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5824,7 +5715,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-22T02:34:08Z",
-      "updated_at": "2026-09-03T16:51:41Z",
+      "updated_at": "2026-09-04T14:43:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6170,28 +6061,6 @@
       "labels": [
         "size: XS"
       ]
-    },
-    {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/.fullsend/pull/10",
-      "number": 10,
-      "repo": "conforma/.fullsend",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T17:59:31Z",
-      "updated_at": "2026-08-26T17:59:57Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "Update registry.access.redhat.com/ubi8/ubi-micro:latest Docker digest to 474100d (main)",
@@ -6575,7 +6444,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-06T14:37:23Z",
+    "since": "2026-06-06T15:07:51Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7745,8 +7614,32 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 76,
+        "reviews": 79,
         "prs": [
+          {
+            "title": "Update github actions (main) (minor)",
+            "url": "https://github.com/conforma/golden-container/pull/1502",
+            "repo": "conforma/golden-container",
+            "number": 1502,
+            "author": "renovate",
+            "engaged_at": "2026-09-04T15:03:48Z"
+          },
+          {
+            "title": "Update github actions (main) (minor)",
+            "url": "https://github.com/conforma/conforma.github.io/pull/513",
+            "repo": "conforma/conforma.github.io",
+            "number": 513,
+            "author": "renovate",
+            "engaged_at": "2026-09-04T15:00:54Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/.fullsend/pull/10",
+            "repo": "conforma/.fullsend",
+            "number": 10,
+            "author": "nmars",
+            "engaged_at": "2026-09-04T14:51:21Z"
+          },
           {
             "title": "Update github actions (main) (minor)",
             "url": "https://github.com/conforma/review-rot/pull/227",
