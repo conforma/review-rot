@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:10:26.502168822Z",
+  "generated_at": "2026-09-04T13:18:26.453829848Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -89,34 +89,6 @@
       },
       "unresolved_conversations": 1,
       "labels": [
-        "size: S"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/policy/pull/1678",
-      "number": 1678,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-02-27T00:39:12Z",
-      "updated_at": "2026-08-15T09:21:12Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 8,
-      "labels": [
-        "dependencies",
-        "github_actions",
-        "renovate",
-        "main",
         "size: S"
       ]
     },
@@ -4153,32 +4125,6 @@
       ]
     },
     {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/review-rot/pull/226",
-      "number": 226,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-03T01:38:11Z",
-      "updated_at": "2026-09-04T01:46:33Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update github actions (main) (minor)",
       "url": "https://github.com/conforma/review-rot/pull/227",
       "number": 227,
@@ -4282,32 +4228,6 @@
       ]
     },
     {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/198",
-      "number": 198,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2025-12-11T03:39:54Z",
-      "updated_at": "2026-09-04T01:21:45Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/200",
       "number": 200,
@@ -4317,7 +4237,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T02:06:05Z",
-      "updated_at": "2026-09-03T10:56:04Z",
+      "updated_at": "2026-09-04T13:10:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4344,7 +4264,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-09-03T16:58:35Z",
+      "updated_at": "2026-09-04T13:09:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4394,7 +4314,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-09-03T16:59:06Z",
+      "updated_at": "2026-09-04T13:10:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4437,7 +4357,7 @@
       ]
     },
     {
-      "title": "Update github actions (main) (patch)",
+      "title": "Update ossf/scorecard-action action to v2.4.4 (main)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/220",
       "number": 220,
       "repo": "conforma/infra-deployments-ci",
@@ -4446,7 +4366,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:38:27Z",
-      "updated_at": "2026-09-03T16:58:05Z",
+      "updated_at": "2026-09-04T13:09:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4706,7 +4626,7 @@
       "updated_at": "2026-09-04T13:07:01Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": null,
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4733,7 +4653,7 @@
       "updated_at": "2026-09-04T13:06:54Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4856,13 +4776,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-11T03:36:46Z",
-      "updated_at": "2026-09-04T01:58:27Z",
+      "updated_at": "2026-09-04T13:14:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5465,7 +5385,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T00:57:00Z",
-      "updated_at": "2026-09-02T03:37:20Z",
+      "updated_at": "2026-09-04T13:13:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5479,58 +5399,6 @@
         "main",
         "renovate",
         "major",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/policy-builder/pull/54",
-      "number": 54,
-      "repo": "conforma/policy-builder",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-04-19T02:57:56Z",
-      "updated_at": "2026-09-04T02:00:47Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update actions/checkout action to v6.0.3 (main)",
-      "url": "https://github.com/conforma/policy-builder/pull/55",
-      "number": 55,
-      "repo": "conforma/policy-builder",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-06-05T03:45:30Z",
-      "updated_at": "2026-09-03T16:49:28Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
         "size: XS"
       ]
     },
@@ -6114,13 +5982,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T02:38:14Z",
-      "updated_at": "2026-09-04T01:38:09Z",
+      "updated_at": "2026-09-04T13:14:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6916,7 +6784,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-06T13:07:47Z",
+    "since": "2026-06-06T13:15:43Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8086,8 +7954,56 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 65,
+        "reviews": 71,
         "prs": [
+          {
+            "title": "Update github actions (main) (patch)",
+            "url": "https://github.com/conforma/user-guide/pull/234",
+            "repo": "conforma/user-guide",
+            "number": 234,
+            "author": "renovate",
+            "engaged_at": "2026-09-04T13:15:15Z"
+          },
+          {
+            "title": "Update github actions (main) (minor)",
+            "url": "https://github.com/conforma/tekton-catalog/pull/236",
+            "repo": "conforma/tekton-catalog",
+            "number": 236,
+            "author": "renovate",
+            "engaged_at": "2026-09-04T13:14:51Z"
+          },
+          {
+            "title": "Update actions/checkout action to v6.0.3 (main)",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/24",
+            "repo": "conforma/pr-size-label-action",
+            "number": 24,
+            "author": "renovate",
+            "engaged_at": "2026-09-04T13:14:05Z"
+          },
+          {
+            "title": "Update github actions (main) (patch)",
+            "url": "https://github.com/conforma/review-rot/pull/226",
+            "repo": "conforma/review-rot",
+            "number": 226,
+            "author": "renovate",
+            "engaged_at": "2026-09-04T13:13:23Z"
+          },
+          {
+            "title": "Update github actions (main) (minor)",
+            "url": "https://github.com/conforma/policy-builder/pull/54",
+            "repo": "conforma/policy-builder",
+            "number": 54,
+            "author": "renovate",
+            "engaged_at": "2026-09-04T13:12:19Z"
+          },
+          {
+            "title": "Update github actions (main) (minor)",
+            "url": "https://github.com/conforma/policy/pull/1678",
+            "repo": "conforma/policy",
+            "number": 1678,
+            "author": "renovate",
+            "engaged_at": "2026-09-04T13:08:47Z"
+          },
           {
             "title": "Update github actions (main) (minor)",
             "url": "https://github.com/conforma/infra-deployments-ci/pull/198",
