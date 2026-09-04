@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T13:18:26.453829848Z",
+  "generated_at": "2026-09-04T13:38:35.745347154Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4459,34 +4459,6 @@
       ]
     },
     {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/user-guide/pull/234",
-      "number": 234,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-03T00:47:54Z",
-      "updated_at": "2026-09-04T01:43:04Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "github_actions",
-        "main",
-        "renovate",
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update github actions (main) (minor)",
       "url": "https://github.com/conforma/user-guide/pull/235",
       "number": 235,
@@ -4767,32 +4739,6 @@
       ]
     },
     {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/tekton-catalog/pull/236",
-      "number": 236,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2025-12-11T03:36:46Z",
-      "updated_at": "2026-09-04T13:14:51Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update github actions (release-v0.6) (minor) - abandoned",
       "url": "https://github.com/conforma/tekton-catalog/pull/237",
       "number": 237,
@@ -4828,7 +4774,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T01:05:01Z",
-      "updated_at": "2026-09-03T10:14:57Z",
+      "updated_at": "2026-09-04T13:16:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4926,7 +4872,7 @@
       ]
     },
     {
-      "title": "Update github actions (main) (patch)",
+      "title": "Update ossf/scorecard-action action to v2.4.4 (main)",
       "url": "https://github.com/conforma/tekton-catalog/pull/257",
       "number": 257,
       "repo": "conforma/tekton-catalog",
@@ -4935,7 +4881,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:24Z",
-      "updated_at": "2026-09-03T17:01:38Z",
+      "updated_at": "2026-09-04T13:16:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5973,31 +5919,6 @@
       ]
     },
     {
-      "title": "Update actions/checkout action to v6.0.3 (main)",
-      "url": "https://github.com/conforma/pr-size-label-action/pull/24",
-      "number": 24,
-      "repo": "conforma/pr-size-label-action",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-06-03T02:38:14Z",
-      "updated_at": "2026-09-04T13:14:06Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "🚨 Update actions/checkout action to v7 (main)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/25",
       "number": 25,
@@ -6784,7 +6705,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-06T13:15:43Z",
+    "since": "2026-06-06T13:35:51Z",
     "reviewers": [
       {
         "login": "simonbaird",
