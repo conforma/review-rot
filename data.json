@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:38:50.530412678Z",
+  "generated_at": "2026-09-07T11:10:24.8639105Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4175,30 +4175,6 @@
       ]
     },
     {
-      "title": "Switch base image from ubi-micro to ubi-minimal",
-      "url": "https://github.com/conforma/golden-container/pull/1506",
-      "number": 1506,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-08-26T14:21:28Z",
-      "updated_at": "2026-09-01T13:51:08Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
       "url": "https://github.com/conforma/golden-container/pull/1507",
       "number": 1507,
@@ -4249,7 +4225,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-micro:latest Docker digest to f332c99 (main)",
+      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 7fbeae1 (main)",
       "url": "https://github.com/conforma/golden-container/pull/1509",
       "number": 1509,
       "repo": "conforma/golden-container",
@@ -4258,7 +4234,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-27T01:12:47Z",
-      "updated_at": "2026-09-03T16:48:18Z",
+      "updated_at": "2026-09-07T10:36:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4336,7 +4312,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T01:03:19Z",
-      "updated_at": "2026-09-05T05:24:14Z",
+      "updated_at": "2026-09-07T10:36:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -7122,14 +7098,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-09-06T15:21:53Z",
+      "updated_at": "2026-09-07T10:51:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -7165,7 +7141,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-09T10:36:14Z",
+    "since": "2026-06-09T11:07:42Z",
     "reviewers": [
       {
         "login": "simonbaird",
