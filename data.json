@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T16:10:35.394394528Z",
+  "generated_at": "2026-09-07T16:39:00.105024754Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4338,7 +4338,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-09-02T01:49:54Z",
+      "updated_at": "2026-09-07T16:18:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4364,7 +4364,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-19T00:57:25Z",
-      "updated_at": "2026-09-04T14:37:43Z",
+      "updated_at": "2026-09-07T16:16:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4979,7 +4979,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T01:05:01Z",
-      "updated_at": "2026-09-04T13:16:18Z",
+      "updated_at": "2026-09-07T16:29:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5059,7 +5059,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-15T00:43:28Z",
-      "updated_at": "2026-09-03T10:15:09Z",
+      "updated_at": "2026-09-07T16:29:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5086,7 +5086,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-03T00:51:32Z",
-      "updated_at": "2026-09-03T17:01:42Z",
+      "updated_at": "2026-09-07T16:29:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -7170,7 +7170,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-09T16:07:57Z",
+    "since": "2026-06-09T16:36:17Z",
     "reviewers": [
       {
         "login": "simonbaird",
