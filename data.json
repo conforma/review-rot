@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T18:12:28.291834737Z",
+  "generated_at": "2026-09-07T18:40:45.576405165Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -7170,11 +7170,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-09T18:09:50Z",
+    "since": "2026-06-09T18:38:14Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 142,
+        "reviews": 141,
         "prs": [
           {
             "title": "Automate CPE label update in release branch setup script",
@@ -8303,14 +8303,6 @@
             "number": 1740,
             "author": "joejstuart",
             "engaged_at": "2026-06-10T14:38:22Z"
-          },
-          {
-            "title": "accept wildcard in NetworkPolicy RBAC apiGroups and resources ",
-            "url": "https://github.com/conforma/policy/pull/1742",
-            "repo": "conforma/policy",
-            "number": 1742,
-            "author": "yashvardhannanavati",
-            "engaged_at": "2026-06-09T18:10:40Z"
           }
         ]
       },
