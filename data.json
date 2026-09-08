@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T08:14:05.32721068Z",
+  "generated_at": "2026-09-08T08:43:28.127694291Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3119,32 +3119,6 @@
       ]
     },
     {
-      "title": "Remove local helpers:pinGitHubActionDigests override",
-      "url": "https://github.com/conforma/cli/pull/3516",
-      "number": 3516,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-08-26T13:56:53Z",
-      "updated_at": "2026-09-08T08:05:12Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "ready-for-merge",
-        "risk/low"
-      ]
-    },
-    {
       "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
       "url": "https://github.com/conforma/cli/pull/3520",
       "number": 3520,
@@ -4099,32 +4073,6 @@
       ]
     },
     {
-      "title": "Update conforma/action-validate-image action to v1.0.423 (main)",
-      "url": "https://github.com/conforma/golden-container/pull/1501",
-      "number": 1501,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-07-06T01:24:26Z",
-      "updated_at": "2026-09-08T03:31:40Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update conforma/github-workflows digest to eb2bb49 (main)",
       "url": "https://github.com/conforma/golden-container/pull/1503",
       "number": 1503,
@@ -4210,13 +4158,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-27T01:11:57Z",
-      "updated_at": "2026-09-08T03:31:32Z",
+      "updated_at": "2026-09-08T08:22:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4288,13 +4236,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T01:03:12Z",
-      "updated_at": "2026-09-07T23:15:40Z",
+      "updated_at": "2026-09-08T08:25:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4305,7 +4253,7 @@
       ]
     },
     {
-      "title": "Update conforma/action-validate-image action to v1.0.423 (main)",
+      "title": "Update conforma/action-validate-image action to v1.0.424 (main)",
       "url": "https://github.com/conforma/golden-container/pull/1513",
       "number": 1513,
       "repo": "conforma/golden-container",
@@ -4314,7 +4262,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T01:03:19Z",
-      "updated_at": "2026-09-08T02:52:42Z",
+      "updated_at": "2026-09-08T08:20:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5457,13 +5405,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:16:14Z",
-      "updated_at": "2026-09-07T18:44:33Z",
+      "updated_at": "2026-09-08T08:24:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -7120,7 +7068,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T08:11:12Z",
+    "since": "2026-06-10T08:40:36Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -10501,9 +10449,127 @@
         ]
       },
       {
-        "login": "jsmid1",
-        "reviews": 11,
+        "login": "BohdanMar",
+        "reviews": 13,
         "prs": [
+          {
+            "title": "Update conforma/github-workflows digest to eb2bb49 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1512",
+            "repo": "conforma/golden-container",
+            "number": 1512,
+            "author": "renovate",
+            "engaged_at": "2026-09-08T08:25:34Z"
+          },
+          {
+            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 7fbeae1 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1508",
+            "repo": "conforma/golden-container",
+            "number": 1508,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-08T08:22:15Z"
+          },
+          {
+            "title": "Update conforma/action-validate-image action to v1.0.423 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1501",
+            "repo": "conforma/golden-container",
+            "number": 1501,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-08T08:19:39Z"
+          },
+          {
+            "title": "fix: Remove reference to deleted quick-build-args.conf",
+            "url": "https://github.com/conforma/cli/pull/3537",
+            "repo": "conforma/cli",
+            "number": 3537,
+            "author": "dheerajodha",
+            "engaged_at": "2026-09-03T11:48:59Z"
+          },
+          {
+            "title": "ci: set least-privilege workflow permissions",
+            "url": "https://github.com/conforma/conforma.github.io/pull/551",
+            "repo": "conforma/conforma.github.io",
+            "number": 551,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-01T13:35:17Z"
+          },
+          {
+            "title": "EC-2160: Enforce required test tasks from build and ITS attestations",
+            "url": "https://github.com/conforma/policy/pull/1823",
+            "repo": "conforma/policy",
+            "number": 1823,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-01T09:06:43Z"
+          },
+          {
+            "title": "EC-1793: Restructure enterprise-contract into dev/staging overlays",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13323",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13323,
+            "author": "Acepresso",
+            "engaged_at": "2026-08-18T14:08:36Z"
+          },
+          {
+            "title": "fix(EC-1994): bump WORKERS default from 1 to 2",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3789",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3789,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-08-13T16:13:41Z"
+          },
+          {
+            "title": "Fix konflux-policy workflow for push-triggered runs",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/224",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 224,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-12T15:52:03Z"
+          },
+          {
+            "title": "Extend sync script to also sync pipeline definitions",
+            "url": "https://github.com/conforma/tekton-catalog/pull/260",
+            "repo": "conforma/tekton-catalog",
+            "number": 260,
+            "author": "jsmid1",
+            "engaged_at": "2026-08-06T13:57:54Z"
+          },
+          {
+            "title": "Add SLSA provenance structure reference document",
+            "url": "https://github.com/conforma/claude-skills/pull/15",
+            "repo": "conforma/claude-skills",
+            "number": 15,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-15T11:45:33Z"
+          },
+          {
+            "title": "Enable conforma.github.io repo",
+            "url": "https://github.com/conforma/.fullsend/pull/7",
+            "repo": "conforma/.fullsend",
+            "number": 7,
+            "author": "st3penta",
+            "engaged_at": "2026-07-08T15:01:07Z"
+          },
+          {
+            "title": "sigstore: Cache verify_image results across policy evaluations",
+            "url": "https://github.com/conforma/cli/pull/3136",
+            "repo": "conforma/cli",
+            "number": 3136,
+            "author": "arewm",
+            "engaged_at": "2026-07-07T08:27:43Z"
+          }
+        ]
+      },
+      {
+        "login": "jsmid1",
+        "reviews": 12,
+        "prs": [
+          {
+            "title": "Update npm dependencies (main) (minor)",
+            "url": "https://github.com/conforma/policy-builder/pull/43",
+            "repo": "conforma/policy-builder",
+            "number": 43,
+            "author": "renovate",
+            "engaged_at": "2026-09-08T08:24:49Z"
+          },
           {
             "title": "Update Konflux references (main)",
             "url": "https://github.com/conforma/golden-container/pull/1496",
@@ -10591,92 +10657,6 @@
             "number": 3439,
             "author": "cuipinghuo",
             "engaged_at": "2026-07-28T14:27:43Z"
-          }
-        ]
-      },
-      {
-        "login": "BohdanMar",
-        "reviews": 10,
-        "prs": [
-          {
-            "title": "fix: Remove reference to deleted quick-build-args.conf",
-            "url": "https://github.com/conforma/cli/pull/3537",
-            "repo": "conforma/cli",
-            "number": 3537,
-            "author": "dheerajodha",
-            "engaged_at": "2026-09-03T11:48:59Z"
-          },
-          {
-            "title": "ci: set least-privilege workflow permissions",
-            "url": "https://github.com/conforma/conforma.github.io/pull/551",
-            "repo": "conforma/conforma.github.io",
-            "number": 551,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-01T13:35:17Z"
-          },
-          {
-            "title": "EC-2160: Enforce required test tasks from build and ITS attestations",
-            "url": "https://github.com/conforma/policy/pull/1823",
-            "repo": "conforma/policy",
-            "number": 1823,
-            "author": "joejstuart",
-            "engaged_at": "2026-09-01T09:06:43Z"
-          },
-          {
-            "title": "EC-1793: Restructure enterprise-contract into dev/staging overlays",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13323",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13323,
-            "author": "Acepresso",
-            "engaged_at": "2026-08-18T14:08:36Z"
-          },
-          {
-            "title": "fix(EC-1994): bump WORKERS default from 1 to 2",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3789",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3789,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-08-13T16:13:41Z"
-          },
-          {
-            "title": "Fix konflux-policy workflow for push-triggered runs",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/224",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 224,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-12T15:52:03Z"
-          },
-          {
-            "title": "Extend sync script to also sync pipeline definitions",
-            "url": "https://github.com/conforma/tekton-catalog/pull/260",
-            "repo": "conforma/tekton-catalog",
-            "number": 260,
-            "author": "jsmid1",
-            "engaged_at": "2026-08-06T13:57:54Z"
-          },
-          {
-            "title": "Add SLSA provenance structure reference document",
-            "url": "https://github.com/conforma/claude-skills/pull/15",
-            "repo": "conforma/claude-skills",
-            "number": 15,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-15T11:45:33Z"
-          },
-          {
-            "title": "Enable conforma.github.io repo",
-            "url": "https://github.com/conforma/.fullsend/pull/7",
-            "repo": "conforma/.fullsend",
-            "number": 7,
-            "author": "st3penta",
-            "engaged_at": "2026-07-08T15:01:07Z"
-          },
-          {
-            "title": "sigstore: Cache verify_image results across policy evaluations",
-            "url": "https://github.com/conforma/cli/pull/3136",
-            "repo": "conforma/cli",
-            "number": 3136,
-            "author": "arewm",
-            "engaged_at": "2026-07-07T08:27:43Z"
           }
         ]
       }
