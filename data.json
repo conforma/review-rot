@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T14:40:29.951283143Z",
+  "generated_at": "2026-09-08T15:11:41.289866251Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-09-07T22:13:42Z",
+      "updated_at": "2026-09-08T14:45:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -102,7 +102,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T00:39:19Z",
-      "updated_at": "2026-09-07T22:13:43Z",
+      "updated_at": "2026-09-08T14:45:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -207,36 +207,6 @@
       ]
     },
     {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/policy/pull/1685",
-      "number": 1685,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-09-08T09:05:04Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions",
-        "renovate",
-        "main",
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update go modules (main) (patch)",
       "url": "https://github.com/conforma/policy/pull/1686",
       "number": 1686,
@@ -246,7 +216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-08T09:10:02Z",
+      "updated_at": "2026-09-08T14:43:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -265,34 +235,6 @@
       ]
     },
     {
-      "title": "Update github actions (release-v0.7) (patch)",
-      "url": "https://github.com/conforma/policy/pull/1688",
-      "number": 1688,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-04T02:06:13Z",
-      "updated_at": "2026-09-08T02:58:19Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "github_actions",
-        "renovate",
-        "release-v0.7",
-        "size: S",
-        "requires-manual-review"
-      ]
-    },
-    {
       "title": "Update dependency golang to v1.27.1 (main)",
       "url": "https://github.com/conforma/policy/pull/1689",
       "number": 1689,
@@ -302,7 +244,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T02:17:15Z",
-      "updated_at": "2026-09-04T22:36:17Z",
+      "updated_at": "2026-09-08T14:46:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1157,7 +1099,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-04T22:26:00Z",
-      "updated_at": "2026-09-08T09:04:50Z",
+      "updated_at": "2026-09-08T14:44:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6932,11 +6874,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T14:37:20Z",
+    "since": "2026-06-10T15:08:33Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 141,
+        "reviews": 140,
         "prs": [
           {
             "title": "Automate CPE label update in release branch setup script",
@@ -8057,14 +7999,6 @@
             "number": 244,
             "author": "st3penta",
             "engaged_at": "2026-06-11T16:24:39Z"
-          },
-          {
-            "title": "fix: use RFC 3339 format for trusted_task_rules effective_on field",
-            "url": "https://github.com/conforma/policy/pull/1740",
-            "repo": "conforma/policy",
-            "number": 1740,
-            "author": "joejstuart",
-            "engaged_at": "2026-06-10T14:38:22Z"
           }
         ]
       },
@@ -8756,7 +8690,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 62,
+        "reviews": 61,
         "prs": [
           {
             "title": "Add resource limits to archive expanders and HTTP gatherer",
@@ -9245,14 +9179,6 @@
             "number": 3,
             "author": "joejstuart",
             "engaged_at": "2026-06-11T09:47:26Z"
-          },
-          {
-            "title": "Add PR size labeling workflow",
-            "url": "https://github.com/conforma/golden-rpm/pull/4",
-            "repo": "conforma/golden-rpm",
-            "number": 4,
-            "author": "dheerajodha",
-            "engaged_at": "2026-06-10T14:44:34Z"
           }
         ]
       },
