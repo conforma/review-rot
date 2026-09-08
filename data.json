@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T18:12:53.192768029Z",
+  "generated_at": "2026-09-08T18:42:19.550535057Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3320,7 +3320,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-08T03:13:33Z",
+      "updated_at": "2026-09-08T18:16:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3374,7 +3374,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:54Z",
-      "updated_at": "2026-08-26T23:44:57Z",
+      "updated_at": "2026-09-08T18:18:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3401,7 +3401,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-09-07T23:11:47Z",
+      "updated_at": "2026-09-08T18:17:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3511,35 +3511,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-09-02T17:55:35Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS",
-        "ready-for-merge",
-        "risk/low"
-      ]
-    },
-    {
-      "title": "Update dependency golang to v1.25.14 (main)",
-      "url": "https://github.com/conforma/conforma.github.io/pull/532",
-      "number": 532,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-06T02:10:39Z",
-      "updated_at": "2026-09-04T15:13:03Z",
+      "updated_at": "2026-09-08T18:18:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4215,32 +4187,6 @@
       ]
     },
     {
-      "title": "Update module github.com/tektoncd/pipeline to v1.10.3 (main)",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/210",
-      "number": 210,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-19T01:41:33Z",
-      "updated_at": "2026-09-08T04:38:09Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -4274,11 +4220,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-31T01:48:12Z",
-      "updated_at": "2026-09-08T04:38:15Z",
+      "updated_at": "2026-09-08T18:13:55Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XL",
+      "ci_status": "FAILURE",
+      "size": "XS",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -4287,7 +4233,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: XL"
+        "size: XS"
       ]
     },
     {
@@ -4300,7 +4246,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-09-07T21:26:49Z",
+      "updated_at": "2026-09-08T18:12:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6705,14 +6651,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-08T16:16:56Z",
+      "updated_at": "2026-09-08T18:26:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -6845,7 +6791,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T18:09:50Z",
+    "since": "2026-06-10T18:39:20Z",
     "reviewers": [
       {
         "login": "simonbaird",
