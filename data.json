@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T21:09:26.038651249Z",
+  "generated_at": "2026-09-08T21:37:00.918385107Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-09-08T18:57:41Z",
+      "updated_at": "2026-09-08T21:26:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -50,7 +50,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-09-08T18:58:58Z",
+      "updated_at": "2026-09-08T21:27:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -216,7 +216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-08T18:56:15Z",
+      "updated_at": "2026-09-08T21:25:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -349,7 +349,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-15T00:44:21Z",
-      "updated_at": "2026-09-05T02:19:15Z",
+      "updated_at": "2026-09-08T21:27:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -377,7 +377,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-16T00:50:42Z",
-      "updated_at": "2026-09-08T02:58:37Z",
+      "updated_at": "2026-09-08T21:29:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -404,7 +404,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-16T00:51:35Z",
-      "updated_at": "2026-09-08T02:58:40Z",
+      "updated_at": "2026-09-08T21:30:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -461,10 +461,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-09-04T22:44:26Z",
+      "updated_at": "2026-09-08T21:30:20Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -1090,34 +1090,6 @@
       ]
     },
     {
-      "title": "Update module oras.land/oras to v1.3.3 [SECURITY] (release-v0.7)",
-      "url": "https://github.com/conforma/policy/pull/1834",
-      "number": 1834,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-04T22:32:19Z",
-      "updated_at": "2026-09-04T22:42:02Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "renovate",
-        "release-v0.7",
-        "size: M",
-        "requires-manual-review",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update conforma/.fullsend digest to cd01138 (main)",
       "url": "https://github.com/conforma/policy/pull/1838",
       "number": 1838,
@@ -1154,7 +1126,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-09-07T22:08:34Z",
+      "updated_at": "2026-09-08T21:30:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6366,7 +6338,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-14T02:49:05Z",
-      "updated_at": "2026-09-08T01:31:15Z",
+      "updated_at": "2026-09-08T21:17:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6393,7 +6365,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-09-08T05:39:42Z",
+      "updated_at": "2026-09-08T21:14:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6419,7 +6391,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-09-08T05:39:46Z",
+      "updated_at": "2026-09-08T21:14:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6684,7 +6656,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T21:06:38Z",
+    "since": "2026-06-10T21:34:23Z",
     "reviewers": [
       {
         "login": "simonbaird",
