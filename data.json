@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T13:11:27.059403301Z",
+  "generated_at": "2026-09-08T13:39:38.890272745Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3253,10 +3253,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-03T10:48:00Z",
-      "updated_at": "2026-09-08T13:05:46Z",
+      "updated_at": "2026-09-08T13:12:24Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 1,
@@ -6841,7 +6841,7 @@
       "updated_at": "2026-09-08T13:06:53Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -6932,7 +6932,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T13:08:28Z",
+    "since": "2026-06-10T13:36:41Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8756,7 +8756,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 65,
+        "reviews": 62,
         "prs": [
           {
             "title": "Add resource limits to archive expanders and HTTP gatherer",
@@ -9253,30 +9253,6 @@
             "number": 4,
             "author": "dheerajodha",
             "engaged_at": "2026-06-10T14:44:34Z"
-          },
-          {
-            "title": "Add PR size labeling workflow",
-            "url": "https://github.com/conforma/e2e-tests/pull/5",
-            "repo": "conforma/e2e-tests",
-            "number": 5,
-            "author": "dheerajodha",
-            "engaged_at": "2026-06-10T13:13:31Z"
-          },
-          {
-            "title": "Add PR size labeling workflow",
-            "url": "https://github.com/conforma/step-actions/pull/4",
-            "repo": "conforma/step-actions",
-            "number": 4,
-            "author": "dheerajodha",
-            "engaged_at": "2026-06-10T13:13:22Z"
-          },
-          {
-            "title": "Add PR size labeling workflow",
-            "url": "https://github.com/conforma/claude-skills/pull/10",
-            "repo": "conforma/claude-skills",
-            "number": 10,
-            "author": "dheerajodha",
-            "engaged_at": "2026-06-10T13:13:06Z"
           }
         ]
       },
