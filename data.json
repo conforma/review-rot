@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T22:36:28.925475116Z",
+  "generated_at": "2026-09-08T23:09:41.905143096Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6654,7 +6654,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T22:33:45Z",
+    "since": "2026-06-10T23:07:09Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8972,7 +8972,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 49,
+        "reviews": 48,
         "prs": [
           {
             "title": "Use plain strings for chains hint step results",
@@ -9357,14 +9357,6 @@
             "number": 3334,
             "author": "cuipinghuo",
             "engaged_at": "2026-06-12T14:00:29Z"
-          },
-          {
-            "title": "feat(EC-1868): use conforma/tekton-catalog for verify-conforma task",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2271",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2271,
-            "author": "simonbaird",
-            "engaged_at": "2026-06-10T22:56:05Z"
           }
         ]
       },
