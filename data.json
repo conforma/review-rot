@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T07:10:57.185577394Z",
+  "generated_at": "2026-09-08T07:39:52.165646596Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5655,32 +5655,6 @@
       ]
     },
     {
-      "title": "fix(deps): update module github.com/stretchr/testify to v1.12.1 (main)",
-      "url": "https://github.com/conforma/go-gather/pull/337",
-      "number": 337,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-08-18T00:50:48Z",
-      "updated_at": "2026-09-08T00:36:36Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
       "url": "https://github.com/conforma/go-gather/pull/344",
       "number": 344,
@@ -7171,7 +7145,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T07:08:26Z",
+    "since": "2026-06-10T07:37:11Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9911,8 +9885,16 @@
       },
       {
         "login": "dheerajodha",
-        "reviews": 43,
+        "reviews": 44,
         "prs": [
+          {
+            "title": "fix(deps): update module github.com/stretchr/testify to v1.12.1 (main)",
+            "url": "https://github.com/conforma/go-gather/pull/337",
+            "repo": "conforma/go-gather",
+            "number": 337,
+            "author": "renovate",
+            "engaged_at": "2026-09-08T07:23:56Z"
+          },
           {
             "title": "docs: explain how to find the release ECP",
             "url": "https://github.com/conforma/user-guide/pull/249",
