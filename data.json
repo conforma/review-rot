@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T13:39:38.890272745Z",
+  "generated_at": "2026-09-08T14:12:12.281188175Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4126,7 +4126,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T01:03:19Z",
-      "updated_at": "2026-09-08T08:20:43Z",
+      "updated_at": "2026-09-08T13:52:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5759,6 +5759,30 @@
       ]
     },
     {
+      "title": "chore: auto-merge safe GitHub Actions updates with a release-age cooldown",
+      "url": "https://github.com/conforma/.github/pull/89",
+      "number": 89,
+      "repo": "conforma/.github",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-08T13:57:15Z",
+      "updated_at": "2026-09-08T14:02:27Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -6838,7 +6862,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-09-08T13:06:53Z",
+      "updated_at": "2026-09-08T13:43:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6860,7 +6884,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-09-08T12:36:29Z",
+      "updated_at": "2026-09-08T13:40:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -6932,7 +6956,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T13:36:41Z",
+    "since": "2026-06-10T14:09:29Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9261,6 +9285,14 @@
         "reviews": 48,
         "prs": [
           {
+            "title": "chore: auto-merge safe GitHub Actions updates with a release-age cooldown",
+            "url": "https://github.com/conforma/.github/pull/89",
+            "repo": "conforma/.github",
+            "number": 89,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-08T14:09:54Z"
+          },
+          {
             "title": "Use plain strings for chains hint step results",
             "url": "https://github.com/conforma/step-actions/pull/14",
             "repo": "conforma/step-actions",
@@ -9635,14 +9667,6 @@
             "number": 2271,
             "author": "simonbaird",
             "engaged_at": "2026-06-10T22:56:05Z"
-          },
-          {
-            "title": "Improve signature and attestation detail output for v3 style sigstore bundles",
-            "url": "https://github.com/conforma/cli/pull/3162",
-            "repo": "conforma/cli",
-            "number": 3162,
-            "author": "simonbaird",
-            "engaged_at": "2026-06-10T14:08:18Z"
           }
         ]
       },
