@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T18:42:19.550535057Z",
+  "generated_at": "2026-09-08T19:09:48.643127705Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-09-08T14:45:09Z",
+      "updated_at": "2026-09-08T18:57:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -50,7 +50,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-09-04T22:41:14Z",
+      "updated_at": "2026-09-08T18:58:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -102,7 +102,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T00:39:19Z",
-      "updated_at": "2026-09-08T14:45:31Z",
+      "updated_at": "2026-09-08T19:00:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -158,10 +158,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-09-04T22:41:07Z",
+      "updated_at": "2026-09-08T18:58:10Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -187,7 +187,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:13Z",
-      "updated_at": "2026-09-04T22:41:12Z",
+      "updated_at": "2026-09-08T18:59:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -216,7 +216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-08T14:43:09Z",
+      "updated_at": "2026-09-08T18:56:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1090,33 +1090,6 @@
       ]
     },
     {
-      "title": "Update module oras.land/oras to v1.3.3 [SECURITY] (main)",
-      "url": "https://github.com/conforma/policy/pull/1833",
-      "number": 1833,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-04T22:26:00Z",
-      "updated_at": "2026-09-08T14:44:21Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: M",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Update module oras.land/oras to v1.3.3 [SECURITY] (release-v0.7)",
       "url": "https://github.com/conforma/policy/pull/1834",
       "number": 1834,
@@ -1141,34 +1114,6 @@
         "release-v0.7",
         "size: M",
         "requires-manual-review",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update module oras.land/oras to v1.3.3 [SECURITY] (release-v0.8)",
-      "url": "https://github.com/conforma/policy/pull/1835",
-      "number": 1835,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-04T22:34:12Z",
-      "updated_at": "2026-09-08T02:58:31Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XXL",
-        "release-v0.8",
-        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -4735,7 +4680,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-15T00:43:24Z",
-      "updated_at": "2026-09-04T18:48:59Z",
+      "updated_at": "2026-09-08T19:00:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4761,7 +4706,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-15T00:43:28Z",
-      "updated_at": "2026-09-08T01:01:10Z",
+      "updated_at": "2026-09-08T19:00:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4774,32 +4719,6 @@
       "labels": [
         "renovate",
         "major",
-        "release-v0.7",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update github actions (release-v0.7) (patch)",
-      "url": "https://github.com/conforma/tekton-catalog/pull/258",
-      "number": 258,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-06-03T00:51:32Z",
-      "updated_at": "2026-09-08T01:01:06Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
         "release-v0.7",
         "size: XS"
       ]
@@ -5183,7 +5102,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-09-07T18:44:59Z",
+      "updated_at": "2026-09-08T19:02:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5656,7 +5575,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-09-08T15:50:26Z",
+      "updated_at": "2026-09-08T19:01:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5959,30 +5878,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
-      ]
-    },
-    {
-      "title": "Use plain strings for chains hint step results",
-      "url": "https://github.com/conforma/step-actions/pull/14",
-      "number": 14,
-      "repo": "conforma/step-actions",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-09-02T20:54:37Z",
-      "updated_at": "2026-09-03T22:49:52Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "M",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
       ]
     },
     {
@@ -6651,7 +6546,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-08T18:26:47Z",
+      "updated_at": "2026-09-08T18:40:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6776,8 +6671,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-08T17:00:50Z",
-      "updated_at": "2026-09-08T17:05:40Z",
-      "is_draft": false,
+      "updated_at": "2026-09-08T18:50:15Z",
+      "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
@@ -6791,7 +6686,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T18:39:20Z",
+    "since": "2026-06-10T19:06:55Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9104,6 +8999,14 @@
         "reviews": 49,
         "prs": [
           {
+            "title": "Use plain strings for chains hint step results",
+            "url": "https://github.com/conforma/step-actions/pull/14",
+            "repo": "conforma/step-actions",
+            "number": 14,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-08T19:04:39Z"
+          },
+          {
             "title": "chore(EC-2174): bump conforma/cli and fix transitive dependency conflicts",
             "url": "https://github.com/conforma/policy/pull/1831",
             "repo": "conforma/policy",
@@ -9118,14 +9021,6 @@
             "number": 89,
             "author": "robnester-rh",
             "engaged_at": "2026-09-08T14:09:54Z"
-          },
-          {
-            "title": "Use plain strings for chains hint step results",
-            "url": "https://github.com/conforma/step-actions/pull/14",
-            "repo": "conforma/step-actions",
-            "number": 14,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-03T22:49:52Z"
           },
           {
             "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.7)",
