@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T05:39:04.483080938Z",
+  "generated_at": "2026-09-08T06:15:35.652806871Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5113,7 +5113,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-08-20T12:57:52Z",
-      "updated_at": "2026-09-07T06:01:50Z",
+      "updated_at": "2026-09-08T06:01:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
@@ -5135,7 +5135,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-08-20T12:58:02Z",
-      "updated_at": "2026-09-07T06:01:52Z",
+      "updated_at": "2026-09-08T06:01:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": null,
@@ -6822,7 +6822,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-09-07T05:32:33Z",
+      "updated_at": "2026-09-08T05:40:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6902,7 +6902,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-09-07T05:31:27Z",
+      "updated_at": "2026-09-08T05:39:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6928,7 +6928,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-09-08T01:30:33Z",
+      "updated_at": "2026-09-08T05:39:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -7171,7 +7171,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T05:36:40Z",
+    "since": "2026-06-10T06:13:00Z",
     "reviewers": [
       {
         "login": "simonbaird",
