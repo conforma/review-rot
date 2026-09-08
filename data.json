@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T08:43:28.127694291Z",
+  "generated_at": "2026-09-08T09:11:57.027408577Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -216,7 +216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:33:26Z",
-      "updated_at": "2026-09-08T02:58:03Z",
+      "updated_at": "2026-09-08T09:05:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -246,7 +246,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-08T02:58:09Z",
+      "updated_at": "2026-09-08T09:00:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -359,7 +359,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-07T00:41:10Z",
-      "updated_at": "2026-09-05T03:01:27Z",
+      "updated_at": "2026-09-08T09:04:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -715,32 +715,6 @@
       "labels": [
         "github_actions",
         "size: XS"
-      ]
-    },
-    {
-      "title": "docs(#1772): document dual test-result architecture and trust chain",
-      "url": "https://github.com/conforma/policy/pull/1773",
-      "number": 1773,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "fullsend-ai-coder",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
-      },
-      "created_at": "2026-07-09T20:12:45Z",
-      "updated_at": "2026-08-23T01:43:53Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "documentation",
-        "size: XS",
-        "requires-manual-review"
       ]
     },
     {
@@ -1213,7 +1187,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-04T22:26:00Z",
-      "updated_at": "2026-09-08T02:57:56Z",
+      "updated_at": "2026-09-08T09:04:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1227,8 +1201,7 @@
         "renovate",
         "main",
         "size: M",
-        "ready-for-merge",
-        "risk/moderate"
+        "ready-for-merge"
       ]
     },
     {
@@ -1297,7 +1270,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T02:18:43Z",
-      "updated_at": "2026-09-08T02:58:11Z",
+      "updated_at": "2026-09-08T09:07:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1311,7 +1284,8 @@
         "renovate",
         "main",
         "size: XS",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -7024,13 +6998,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-09-07T11:37:19Z",
-      "updated_at": "2026-09-07T11:38:52Z",
+      "updated_at": "2026-09-08T09:04:24Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -7068,7 +7042,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T08:40:36Z",
+    "since": "2026-06-10T09:09:21Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -10560,8 +10534,16 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 12,
+        "reviews": 13,
         "prs": [
+          {
+            "title": "docs(#1772): document dual test-result architecture and trust chain",
+            "url": "https://github.com/conforma/policy/pull/1773",
+            "repo": "conforma/policy",
+            "number": 1773,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-08T08:53:46Z"
+          },
           {
             "title": "Update npm dependencies (main) (minor)",
             "url": "https://github.com/conforma/policy-builder/pull/43",
