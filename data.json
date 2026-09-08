@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T16:12:06.229026871Z",
+  "generated_at": "2026-09-08T16:40:44.388030483Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4094,7 +4094,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-09-07T16:18:03Z",
+      "updated_at": "2026-09-08T16:14:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4120,7 +4120,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-19T00:57:25Z",
-      "updated_at": "2026-09-07T21:38:03Z",
+      "updated_at": "2026-09-08T16:14:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5847,31 +5847,6 @@
       "labels": []
     },
     {
-      "title": "Update dependency @actions/core to v2.0.3 (main)",
-      "url": "https://github.com/conforma/pr-size-label-action/pull/14",
-      "number": 14,
-      "repo": "conforma/pr-size-label-action",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-13T02:01:30Z",
-      "updated_at": "2026-09-08T04:02:32Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/15",
       "number": 15,
@@ -5906,7 +5881,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-14T01:04:12Z",
-      "updated_at": "2026-09-07T23:52:22Z",
+      "updated_at": "2026-09-08T16:12:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6756,14 +6731,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-01T18:03:55Z",
+      "updated_at": "2026-09-08T16:16:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -6874,7 +6849,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T16:09:07Z",
+    "since": "2026-06-10T16:37:39Z",
     "reviewers": [
       {
         "login": "simonbaird",
