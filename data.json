@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T12:15:11.270146768Z",
+  "generated_at": "2026-09-08T12:47:23.332121642Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1334,6 +1334,32 @@
         "size: XXL",
         "release-v0.8",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "docs: require direct unit tests for new helper functions",
+      "url": "https://github.com/conforma/policy/pull/1842",
+      "number": 1842,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "dheerajodha",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
+      },
+      "created_at": "2026-09-08T12:21:59Z",
+      "updated_at": "2026-09-08T12:32:58Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -3227,47 +3253,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-03T10:48:00Z",
-      "updated_at": "2026-09-03T17:01:40Z",
+      "updated_at": "2026-09-08T12:40:54Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 4,
       "labels": [
         "size: XS",
-        "tooling",
-        "ready-for-merge",
-        "risk/low"
-      ]
-    },
-    {
-      "title": "fix: Remove reference to deleted quick-build-args.conf",
-      "url": "https://github.com/conforma/cli/pull/3537",
-      "number": 3537,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-09-03T11:01:33Z",
-      "updated_at": "2026-09-03T11:48:59Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "ready-for-merge",
-        "risk/low"
+        "tooling"
       ]
     },
     {
@@ -3318,31 +3316,6 @@
       "labels": [
         "size: M",
         "requires-manual-review",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "upgrade go to version 1.26.7",
-      "url": "https://github.com/conforma/cli/pull/3541",
-      "number": 3541,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
-      },
-      "created_at": "2026-09-03T13:59:28Z",
-      "updated_at": "2026-09-03T15:06:32Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
         "risk/moderate"
       ]
     },
@@ -6886,10 +6859,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-09-07T15:42:37Z",
+      "updated_at": "2026-09-08T12:36:29Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
@@ -6958,7 +6931,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T12:12:14Z",
+    "since": "2026-06-10T12:44:19Z",
     "reviewers": [
       {
         "login": "simonbaird",
