@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T07:39:52.165646596Z",
+  "generated_at": "2026-09-08T08:14:05.32721068Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3128,10 +3128,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-08-26T13:56:53Z",
-      "updated_at": "2026-09-07T11:24:02Z",
+      "updated_at": "2026-09-08T08:05:12Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 1,
@@ -3140,7 +3140,8 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -5272,32 +5273,6 @@
       ]
     },
     {
-      "title": "Update ghcr.io/conforma/golden-container:latest Docker digest to ce88ac4 (main)",
-      "url": "https://github.com/conforma/action-validate-image/pull/437",
-      "number": 437,
-      "repo": "conforma/action-validate-image",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-03-31T01:06:48Z",
-      "updated_at": "2026-09-07T20:43:54Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/action-validate-image/pull/440",
       "number": 440,
@@ -7145,7 +7120,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T07:37:11Z",
+    "since": "2026-06-10T08:11:12Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9885,8 +9860,16 @@
       },
       {
         "login": "dheerajodha",
-        "reviews": 44,
+        "reviews": 45,
         "prs": [
+          {
+            "title": "Update ghcr.io/conforma/golden-container:latest Docker digest to ce88ac4 (main)",
+            "url": "https://github.com/conforma/action-validate-image/pull/437",
+            "repo": "conforma/action-validate-image",
+            "number": 437,
+            "author": "renovate",
+            "engaged_at": "2026-09-08T07:51:46Z"
+          },
           {
             "title": "fix(deps): update module github.com/stretchr/testify to v1.12.1 (main)",
             "url": "https://github.com/conforma/go-gather/pull/337",
