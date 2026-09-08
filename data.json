@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T14:12:12.281188175Z",
+  "generated_at": "2026-09-08T14:40:29.951283143Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1106,13 +1106,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
       },
       "created_at": "2026-09-03T08:56:17Z",
-      "updated_at": "2026-09-03T09:10:58Z",
+      "updated_at": "2026-09-08T14:12:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5759,30 +5759,6 @@
       ]
     },
     {
-      "title": "chore: auto-merge safe GitHub Actions updates with a release-age cooldown",
-      "url": "https://github.com/conforma/.github/pull/89",
-      "number": 89,
-      "repo": "conforma/.github",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-08T13:57:15Z",
-      "updated_at": "2026-09-08T14:02:27Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -6884,10 +6860,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-09-08T13:40:39Z",
+      "updated_at": "2026-09-08T14:18:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 4,
@@ -6956,7 +6932,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-10T14:09:29Z",
+    "since": "2026-06-10T14:37:20Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9282,8 +9258,16 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 48,
+        "reviews": 49,
         "prs": [
+          {
+            "title": "chore(EC-2174): bump conforma/cli and fix transitive dependency conflicts",
+            "url": "https://github.com/conforma/policy/pull/1831",
+            "repo": "conforma/policy",
+            "number": 1831,
+            "author": "BohdanMar",
+            "engaged_at": "2026-09-08T14:12:53Z"
+          },
           {
             "title": "chore: auto-merge safe GitHub Actions updates with a release-age cooldown",
             "url": "https://github.com/conforma/.github/pull/89",
