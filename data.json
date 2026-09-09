@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T03:12:10.810563775Z",
+  "generated_at": "2026-09-09T03:41:09.670028703Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6653,11 +6653,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-11T03:09:29Z",
+    "since": "2026-06-11T03:38:45Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 139,
+        "reviews": 141,
         "prs": [
           {
             "title": "Allow Lightwell repositories/indexes to be used",
@@ -7252,6 +7252,14 @@
             "engaged_at": "2026-08-07T15:36:04Z"
           },
           {
+            "title": "feat(RELEASE-2352): added keyless params to verify-conforma task (2/2)",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2109",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2109,
+            "author": "midnightercz",
+            "engaged_at": "2026-08-06T21:24:59Z"
+          },
+          {
             "title": "Merge pipeline-required-tasks from ruleData config",
             "url": "https://github.com/conforma/policy/pull/1786",
             "repo": "conforma/policy",
@@ -7658,6 +7666,14 @@
             "number": 12704,
             "author": "rhartman93",
             "engaged_at": "2026-06-23T15:31:40Z"
+          },
+          {
+            "title": "chore: bump verify-conforma-konflux-ta task revision",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2313",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2313,
+            "author": "joejstuart",
+            "engaged_at": "2026-06-22T19:15:12Z"
           },
           {
             "title": "feat: add trusted_task_rules_enabled toggle to rule_data",
