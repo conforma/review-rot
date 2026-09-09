@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T12:14:25.438063225Z",
+  "generated_at": "2026-09-09T12:46:52.46880621Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2515,7 +2515,7 @@
       "updated_at": "2026-09-09T12:09:47Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -6532,10 +6532,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-03T12:23:05Z",
-      "updated_at": "2026-09-08T14:18:37Z",
+      "updated_at": "2026-09-09T12:35:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
@@ -6604,7 +6604,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-11T12:11:31Z",
+    "since": "2026-06-11T12:44:12Z",
     "reviewers": [
       {
         "login": "simonbaird",
