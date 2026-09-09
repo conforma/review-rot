@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T09:40:25.193283825Z",
+  "generated_at": "2026-09-09T10:10:44.525983285Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -6604,7 +6604,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-11T09:37:27Z",
+    "since": "2026-06-11T10:08:01Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8428,7 +8428,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 61,
+        "reviews": 60,
         "prs": [
           {
             "title": "Add resource limits to archive expanders and HTTP gatherer",
@@ -8909,14 +8909,6 @@
             "number": 4,
             "author": "cuipinghuo",
             "engaged_at": "2026-06-15T09:02:20Z"
-          },
-          {
-            "title": "feat: add testName and timestamp annotations to oras attach",
-            "url": "https://github.com/conforma/step-actions/pull/3",
-            "repo": "conforma/step-actions",
-            "number": 3,
-            "author": "joejstuart",
-            "engaged_at": "2026-06-11T09:47:26Z"
           }
         ]
       },
