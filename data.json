@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T19:36:33.9735791Z",
+  "generated_at": "2026-09-09T20:10:40.613526492Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -158,7 +158,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-09-09T19:06:47Z",
+      "updated_at": "2026-09-09T19:47:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -216,7 +216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-09T19:06:33Z",
+      "updated_at": "2026-09-09T19:49:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -376,7 +376,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-09-09T19:07:00Z",
+      "updated_at": "2026-09-09T19:53:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -392,7 +392,8 @@
         "renovate",
         "size: S",
         "release-v0.8",
-        "requires-manual-review"
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -929,33 +930,6 @@
       ]
     },
     {
-      "title": "Update conforma/.fullsend digest to cd01138 (main)",
-      "url": "https://github.com/conforma/policy/pull/1838",
-      "number": 1838,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-06T01:30:26Z",
-      "updated_at": "2026-09-09T19:25:13Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS",
-        "requires-manual-review"
-      ]
-    },
-    {
       "title": "Update go modules (release-v0.8) (minor)",
       "url": "https://github.com/conforma/policy/pull/1839",
       "number": 1839,
@@ -1121,10 +1095,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-09T19:31:26Z",
-      "updated_at": "2026-09-09T19:31:41Z",
+      "updated_at": "2026-09-09T19:37:04Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3129,10 +3103,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-09-09T19:30:51Z",
-      "updated_at": "2026-09-09T19:32:02Z",
+      "updated_at": "2026-09-09T19:48:13Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3175,7 +3149,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-09T19:03:44Z",
+      "updated_at": "2026-09-09T19:59:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3189,34 +3163,7 @@
         "main",
         "renovate",
         "size: XXL",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "build(deps-dev): bump js-yaml from 4.1.0 to 4.1.1 in /antora",
-      "url": "https://github.com/conforma/conforma.github.io/pull/493",
-      "number": 493,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2025-11-15T00:07:32Z",
-      "updated_at": "2026-01-06T22:08:25Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript",
-        "size: XS"
+        "ready-for-merge"
       ]
     },
     {
@@ -3305,58 +3252,6 @@
       ]
     },
     {
-      "title": "build(deps-dev): bump minimatch from 3.1.2 to 3.1.5 in /antora",
-      "url": "https://github.com/conforma/conforma.github.io/pull/529",
-      "number": 529,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-02-28T18:09:56Z",
-      "updated_at": "2026-02-28T18:11:22Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "build(deps): bump lodash-es and mermaid in /antora",
-      "url": "https://github.com/conforma/conforma.github.io/pull/530",
-      "number": 530,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-03-01T10:04:58Z",
-      "updated_at": "2026-03-01T10:06:37Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript",
-        "size: M"
-      ]
-    },
-    {
       "title": "Update dependency golang to v1.27.1 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/531",
       "number": 531,
@@ -3385,110 +3280,6 @@
       ]
     },
     {
-      "title": "build(deps): bump picomatch in /antora",
-      "url": "https://github.com/conforma/conforma.github.io/pull/535",
-      "number": 535,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-03-26T03:40:06Z",
-      "updated_at": "2026-03-26T03:41:27Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "build(deps-dev): bump convict from 6.2.4 to 6.2.5 in /antora",
-      "url": "https://github.com/conforma/conforma.github.io/pull/536",
-      "number": 536,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-03-26T18:58:03Z",
-      "updated_at": "2026-03-26T18:59:25Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "build(deps-dev): bump handlebars from 4.7.8 to 4.7.9 in /antora",
-      "url": "https://github.com/conforma/conforma.github.io/pull/537",
-      "number": 537,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-03-27T20:33:54Z",
-      "updated_at": "2026-03-27T20:35:20Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "build(deps): bump dompurify from 3.2.6 to 3.4.1 in /antora",
-      "url": "https://github.com/conforma/conforma.github.io/pull/541",
-      "number": 541,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-04-22T18:19:13Z",
-      "updated_at": "2026-04-22T18:20:49Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update dependency mermaid to v11.16.1 [SECURITY] (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/543",
       "number": 543,
@@ -3514,33 +3305,6 @@
         "size: L",
         "ready-for-merge",
         "risk/low"
-      ]
-    },
-    {
-      "title": "build(deps): bump uuid and mermaid in /antora",
-      "url": "https://github.com/conforma/conforma.github.io/pull/544",
-      "number": 544,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2026-05-25T11:28:56Z",
-      "updated_at": "2026-05-25T11:30:17Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript",
-        "major",
-        "size: XL"
       ]
     },
     {
@@ -3598,47 +3362,18 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to eb2bb49 (main)",
-      "url": "https://github.com/conforma/conforma.github.io/pull/554",
-      "number": 554,
+      "title": "build(deps-dev): bump toml from 3.0.0 to 4.2.0 in /antora",
+      "url": "https://github.com/conforma/conforma.github.io/pull/556",
+      "number": 556,
       "repo": "conforma/conforma.github.io",
       "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
       },
-      "created_at": "2026-09-05T02:37:12Z",
-      "updated_at": "2026-09-09T19:04:55Z",
+      "created_at": "2026-09-09T19:58:23Z",
+      "updated_at": "2026-09-09T20:06:19Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "dependencies",
-        "github_actions",
-        "main",
-        "renovate",
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "Advance .fullsend dispatch pin to current pinned main",
-      "url": "https://github.com/conforma/conforma.github.io/pull/555",
-      "number": 555,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-09T19:29:57Z",
-      "updated_at": "2026-09-09T19:31:20Z",
-      "is_draft": false,
-      "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
@@ -3647,7 +3382,90 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
+        "javascript",
+        "major",
+        "size: XS",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "build(deps): bump mermaid from 11.12.1 to 11.16.1 in /antora",
+      "url": "https://github.com/conforma/conforma.github.io/pull/557",
+      "number": 557,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-09-09T19:58:24Z",
+      "updated_at": "2026-09-09T20:00:27Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript",
+        "size: XL"
+      ]
+    },
+    {
+      "title": "build(deps): bump dompurify from 3.2.6 to 3.4.15 in /antora",
+      "url": "https://github.com/conforma/conforma.github.io/pull/558",
+      "number": 558,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-09-09T19:58:32Z",
+      "updated_at": "2026-09-09T20:00:12Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript",
         "size: XS"
+      ]
+    },
+    {
+      "title": "build(deps): bump js-yaml and antora in /antora",
+      "url": "https://github.com/conforma/conforma.github.io/pull/559",
+      "number": 559,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-09-09T19:58:34Z",
+      "updated_at": "2026-09-09T19:59:53Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript",
+        "major",
+        "size: XXL"
       ]
     },
     {
@@ -3757,30 +3575,6 @@
       ]
     },
     {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/golden-container/pull/1507",
-      "number": 1507,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T17:39:05Z",
-      "updated_at": "2026-09-09T19:07:11Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 7fbeae1 (main)",
       "url": "https://github.com/conforma/golden-container/pull/1508",
       "number": 1508,
@@ -3859,7 +3653,7 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to eb2bb49 (main)",
+      "title": "Update conforma/github-workflows digest to 837d70f (main)",
       "url": "https://github.com/conforma/golden-container/pull/1512",
       "number": 1512,
       "repo": "conforma/golden-container",
@@ -3868,13 +3662,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T01:03:12Z",
-      "updated_at": "2026-09-08T08:25:34Z",
+      "updated_at": "2026-09-09T19:42:41Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "count": 1,
+        "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3885,7 +3679,7 @@
       ]
     },
     {
-      "title": "Update conforma/action-validate-image action to v1.0.424 (main)",
+      "title": "Update conforma/action-validate-image action to v1.0.425 (main)",
       "url": "https://github.com/conforma/golden-container/pull/1513",
       "number": 1513,
       "repo": "conforma/golden-container",
@@ -3894,10 +3688,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T01:03:19Z",
-      "updated_at": "2026-09-08T13:52:03Z",
+      "updated_at": "2026-09-09T19:42:48Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4221,34 +4015,6 @@
         "size: XS",
         "ready-for-merge",
         "risk/low"
-      ]
-    },
-    {
-      "title": "Update conforma/.fullsend digest to cd01138 (main)",
-      "url": "https://github.com/conforma/user-guide/pull/250",
-      "number": 250,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-06T02:07:59Z",
-      "updated_at": "2026-09-09T19:25:17Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
       ]
     },
     {
@@ -5158,7 +4924,7 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to eb2bb49 (main)",
+      "title": "Update conforma/github-workflows digest to 837d70f (main)",
       "url": "https://github.com/conforma/.github/pull/88",
       "number": 88,
       "repo": "conforma/.github",
@@ -5167,10 +4933,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T01:57:09Z",
-      "updated_at": "2026-09-09T16:24:47Z",
+      "updated_at": "2026-09-09T19:40:43Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -5180,30 +4946,6 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Exempt first-party conforma/* Actions from Renovate cooldown",
-      "url": "https://github.com/conforma/.github/pull/90",
-      "number": 90,
-      "repo": "conforma/.github",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-09T19:31:58Z",
-      "updated_at": "2026-09-09T19:32:30Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -6000,7 +5742,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-09T19:22:21Z",
+      "updated_at": "2026-09-09T20:07:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6119,11 +5861,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-11T19:33:50Z",
+    "since": "2026-06-11T20:07:55Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 161,
+        "reviews": 160,
         "prs": [
           {
             "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
@@ -7404,14 +7146,6 @@
             "number": 2,
             "author": "Acepresso",
             "engaged_at": "2026-06-12T16:37:02Z"
-          },
-          {
-            "title": "fix: use glob.match for pattern matching in trusted_task_rules",
-            "url": "https://github.com/conforma/policy/pull/1743",
-            "repo": "conforma/policy",
-            "number": 1743,
-            "author": "joejstuart",
-            "engaged_at": "2026-06-11T19:54:53Z"
           }
         ]
       },
@@ -10003,7 +9737,7 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 15,
+        "reviews": 14,
         "prs": [
           {
             "title": "Remove unnecessary secrets: inherit from auto-merge caller",
@@ -10020,14 +9754,6 @@
             "number": 1837,
             "author": "renovate",
             "engaged_at": "2026-09-08T10:37:29Z"
-          },
-          {
-            "title": "Update conforma/github-workflows digest to eb2bb49 (main)",
-            "url": "https://github.com/conforma/golden-container/pull/1512",
-            "repo": "conforma/golden-container",
-            "number": 1512,
-            "author": "renovate",
-            "engaged_at": "2026-09-08T08:25:34Z"
           },
           {
             "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 7fbeae1 (main)",
