@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T07:39:51.558418898Z",
+  "generated_at": "2026-09-09T08:13:48.930798525Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3263,13 +3263,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-14T02:53:54Z",
-      "updated_at": "2026-09-09T02:20:56Z",
+      "updated_at": "2026-09-09T07:43:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3400,13 +3400,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-09-08T18:18:28Z",
+      "updated_at": "2026-09-09T07:42:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6604,7 +6604,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-11T07:37:11Z",
+    "since": "2026-06-11T08:10:54Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9827,6 +9827,148 @@
         ]
       },
       {
+        "login": "jsmid1",
+        "reviews": 17,
+        "prs": [
+          {
+            "title": "Update dependency node to v24.20.0 (main)",
+            "url": "https://github.com/conforma/conforma.github.io/pull/514",
+            "repo": "conforma/conforma.github.io",
+            "number": 514,
+            "author": "renovate",
+            "engaged_at": "2026-09-09T07:43:15Z"
+          },
+          {
+            "title": "Update dependency golang to v1.27.1 (main)",
+            "url": "https://github.com/conforma/conforma.github.io/pull/531",
+            "repo": "conforma/conforma.github.io",
+            "number": 531,
+            "author": "renovate",
+            "engaged_at": "2026-09-09T07:42:57Z"
+          },
+          {
+            "title": "fix(#3394): add explicit gomod fileMatch for all go.mod files",
+            "url": "https://github.com/conforma/cli/pull/3395",
+            "repo": "conforma/cli",
+            "number": 3395,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-08T10:43:20Z"
+          },
+          {
+            "title": "Update dependency golang to v1.25.14 (main)",
+            "url": "https://github.com/conforma/policy/pull/1695",
+            "repo": "conforma/policy",
+            "number": 1695,
+            "author": "renovate",
+            "engaged_at": "2026-09-08T10:30:03Z"
+          },
+          {
+            "title": "docs(#1772): document dual test-result architecture and trust chain",
+            "url": "https://github.com/conforma/policy/pull/1773",
+            "repo": "conforma/policy",
+            "number": 1773,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-08T08:53:46Z"
+          },
+          {
+            "title": "Update npm dependencies (main) (minor)",
+            "url": "https://github.com/conforma/policy-builder/pull/43",
+            "repo": "conforma/policy-builder",
+            "number": 43,
+            "author": "renovate",
+            "engaged_at": "2026-09-08T08:24:49Z"
+          },
+          {
+            "title": "Update Konflux references (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1496",
+            "repo": "conforma/golden-container",
+            "number": 1496,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-08-26T14:49:32Z"
+          },
+          {
+            "title": "Restrict reviewer leaderboard to configured team members",
+            "url": "https://github.com/conforma/review-rot/pull/251",
+            "repo": "conforma/review-rot",
+            "number": 251,
+            "author": "st3penta",
+            "engaged_at": "2026-08-19T14:56:20Z"
+          },
+          {
+            "title": "Add reviewer leaderboard tab",
+            "url": "https://github.com/conforma/review-rot/pull/250",
+            "repo": "conforma/review-rot",
+            "number": 250,
+            "author": "st3penta",
+            "engaged_at": "2026-08-19T13:11:16Z"
+          },
+          {
+            "title": "docs(#1784): correct collection-registration guidance in AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1785",
+            "repo": "conforma/policy",
+            "number": 1785,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-18T10:57:43Z"
+          },
+          {
+            "title": "feat(EC-2031): remove data.trusted_task_rules in favor of rule_data only",
+            "url": "https://github.com/conforma/policy/pull/1806",
+            "repo": "conforma/policy",
+            "number": 1806,
+            "author": "BohdanMar",
+            "engaged_at": "2026-08-13T11:00:24Z"
+          },
+          {
+            "title": "docs(#1776): add collection change pattern to AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1777",
+            "repo": "conforma/policy",
+            "number": 1777,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-06T12:16:19Z"
+          },
+          {
+            "title": "docs(#1782): fix make ci description in AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1783",
+            "repo": "conforma/policy",
+            "number": 1783,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-06T11:48:56Z"
+          },
+          {
+            "title": "feat(EC-1941): add enterprise-contract pipeline definition",
+            "url": "https://github.com/conforma/cli/pull/3416",
+            "repo": "conforma/cli",
+            "number": 3416,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-04T09:07:57Z"
+          },
+          {
+            "title": "docs(EC-1980): add product naming guidance to AGENTS.md",
+            "url": "https://github.com/conforma/cli/pull/3457",
+            "repo": "conforma/cli",
+            "number": 3457,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-08-04T09:02:13Z"
+          },
+          {
+            "title": "docs(EC-1932): add Rego evaluation model guidance to AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1790",
+            "repo": "conforma/policy",
+            "number": 1790,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-08-04T08:54:58Z"
+          },
+          {
+            "title": "chore(deps): Remove Renovate annotations from .tekton files",
+            "url": "https://github.com/conforma/cli/pull/3439",
+            "repo": "conforma/cli",
+            "number": 3439,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-07-28T14:27:43Z"
+          }
+        ]
+      },
+      {
         "login": "Acepresso",
         "reviews": 15,
         "prs": [
@@ -9949,132 +10091,6 @@
             "number": 6,
             "author": "red-hat-konflux",
             "engaged_at": "2026-06-18T09:20:54Z"
-          }
-        ]
-      },
-      {
-        "login": "jsmid1",
-        "reviews": 15,
-        "prs": [
-          {
-            "title": "fix(#3394): add explicit gomod fileMatch for all go.mod files",
-            "url": "https://github.com/conforma/cli/pull/3395",
-            "repo": "conforma/cli",
-            "number": 3395,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-08T10:43:20Z"
-          },
-          {
-            "title": "Update dependency golang to v1.25.14 (main)",
-            "url": "https://github.com/conforma/policy/pull/1695",
-            "repo": "conforma/policy",
-            "number": 1695,
-            "author": "renovate",
-            "engaged_at": "2026-09-08T10:30:03Z"
-          },
-          {
-            "title": "docs(#1772): document dual test-result architecture and trust chain",
-            "url": "https://github.com/conforma/policy/pull/1773",
-            "repo": "conforma/policy",
-            "number": 1773,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-08T08:53:46Z"
-          },
-          {
-            "title": "Update npm dependencies (main) (minor)",
-            "url": "https://github.com/conforma/policy-builder/pull/43",
-            "repo": "conforma/policy-builder",
-            "number": 43,
-            "author": "renovate",
-            "engaged_at": "2026-09-08T08:24:49Z"
-          },
-          {
-            "title": "Update Konflux references (main)",
-            "url": "https://github.com/conforma/golden-container/pull/1496",
-            "repo": "conforma/golden-container",
-            "number": 1496,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-08-26T14:49:32Z"
-          },
-          {
-            "title": "Restrict reviewer leaderboard to configured team members",
-            "url": "https://github.com/conforma/review-rot/pull/251",
-            "repo": "conforma/review-rot",
-            "number": 251,
-            "author": "st3penta",
-            "engaged_at": "2026-08-19T14:56:20Z"
-          },
-          {
-            "title": "Add reviewer leaderboard tab",
-            "url": "https://github.com/conforma/review-rot/pull/250",
-            "repo": "conforma/review-rot",
-            "number": 250,
-            "author": "st3penta",
-            "engaged_at": "2026-08-19T13:11:16Z"
-          },
-          {
-            "title": "docs(#1784): correct collection-registration guidance in AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1785",
-            "repo": "conforma/policy",
-            "number": 1785,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-18T10:57:43Z"
-          },
-          {
-            "title": "feat(EC-2031): remove data.trusted_task_rules in favor of rule_data only",
-            "url": "https://github.com/conforma/policy/pull/1806",
-            "repo": "conforma/policy",
-            "number": 1806,
-            "author": "BohdanMar",
-            "engaged_at": "2026-08-13T11:00:24Z"
-          },
-          {
-            "title": "docs(#1776): add collection change pattern to AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1777",
-            "repo": "conforma/policy",
-            "number": 1777,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-06T12:16:19Z"
-          },
-          {
-            "title": "docs(#1782): fix make ci description in AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1783",
-            "repo": "conforma/policy",
-            "number": 1783,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-06T11:48:56Z"
-          },
-          {
-            "title": "feat(EC-1941): add enterprise-contract pipeline definition",
-            "url": "https://github.com/conforma/cli/pull/3416",
-            "repo": "conforma/cli",
-            "number": 3416,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-04T09:07:57Z"
-          },
-          {
-            "title": "docs(EC-1980): add product naming guidance to AGENTS.md",
-            "url": "https://github.com/conforma/cli/pull/3457",
-            "repo": "conforma/cli",
-            "number": 3457,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-08-04T09:02:13Z"
-          },
-          {
-            "title": "docs(EC-1932): add Rego evaluation model guidance to AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1790",
-            "repo": "conforma/policy",
-            "number": 1790,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-08-04T08:54:58Z"
-          },
-          {
-            "title": "chore(deps): Remove Renovate annotations from .tekton files",
-            "url": "https://github.com/conforma/cli/pull/3439",
-            "repo": "conforma/cli",
-            "number": 3439,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-07-28T14:27:43Z"
           }
         ]
       },
