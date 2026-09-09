@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T21:36:17.928790726Z",
+  "generated_at": "2026-09-09T22:09:35.499885834Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3089,7 +3089,7 @@
       "updated_at": "2026-09-09T21:09:16Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -3115,7 +3115,7 @@
       "updated_at": "2026-09-09T21:26:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -3137,10 +3137,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-09T21:15:46Z",
-      "updated_at": "2026-09-09T21:26:01Z",
+      "updated_at": "2026-09-09T21:35:00Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -3166,10 +3166,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-09T21:15:48Z",
-      "updated_at": "2026-09-09T21:26:58Z",
+      "updated_at": "2026-09-09T21:33:49Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "count": 1,
@@ -5221,6 +5221,54 @@
       ]
     },
     {
+      "title": "feat(groom): add story readiness review command",
+      "url": "https://github.com/conforma/claude-skills/pull/25",
+      "number": 25,
+      "repo": "conforma/claude-skills",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-09-09T21:44:37Z",
+      "updated_at": "2026-09-09T21:56:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: L"
+      ]
+    },
+    {
+      "title": "Add validation examples",
+      "url": "https://github.com/conforma/claude-skills/pull/26",
+      "number": 26,
+      "repo": "conforma/claude-skills",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-09-09T21:57:44Z",
+      "updated_at": "2026-09-09T22:05:04Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XL"
+      ]
+    },
+    {
       "title": "🚨 Update actions/checkout action to v7 (main)",
       "url": "https://github.com/conforma/step-actions/pull/16",
       "number": 16,
@@ -5931,7 +5979,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-11T21:33:54Z",
+    "since": "2026-06-11T22:06:46Z",
     "reviewers": [
       {
         "login": "simonbaird",
