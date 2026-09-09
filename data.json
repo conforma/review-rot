@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T13:10:48.685882148Z",
+  "generated_at": "2026-09-09T13:16:25.326559325Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4049,30 +4049,6 @@
       ]
     },
     {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/review-rot/pull/255",
-      "number": 255,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-08T20:29:54Z",
-      "updated_at": "2026-09-08T20:30:38Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/200",
       "number": 200,
@@ -6604,7 +6580,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-11T13:07:49Z",
+    "since": "2026-06-11T13:13:30Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -10088,8 +10064,16 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 14,
+        "reviews": 15,
         "prs": [
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/review-rot/pull/255",
+            "repo": "conforma/review-rot",
+            "number": 255,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-09T13:09:47Z"
+          },
           {
             "title": "Update go toolchain directive to v1.27.1 (main)",
             "url": "https://github.com/conforma/policy/pull/1837",
