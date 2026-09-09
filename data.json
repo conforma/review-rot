@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T02:42:40.493669356Z",
+  "generated_at": "2026-09-09T03:12:10.810563775Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -340,34 +340,6 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.25.14 (release-v0.8)",
-      "url": "https://github.com/conforma/policy/pull/1726",
-      "number": 1726,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-05-15T00:44:21Z",
-      "updated_at": "2026-09-08T21:27:53Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XS",
-        "release-v0.8",
-        "ready-for-merge",
-        "risk/low"
-      ]
-    },
-    {
       "title": "Update go modules (release-v0.8) (patch)",
       "url": "https://github.com/conforma/policy/pull/1729",
       "number": 1729,
@@ -377,7 +349,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-16T00:50:42Z",
-      "updated_at": "2026-09-08T21:29:23Z",
+      "updated_at": "2026-09-09T02:50:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -404,7 +376,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-16T00:51:35Z",
-      "updated_at": "2026-09-08T21:30:01Z",
+      "updated_at": "2026-09-09T02:51:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -434,7 +406,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:27Z",
-      "updated_at": "2026-09-04T22:44:40Z",
+      "updated_at": "2026-09-09T02:51:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -461,7 +433,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-09-08T21:30:20Z",
+      "updated_at": "2026-09-09T02:51:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -1222,6 +1194,33 @@
       ]
     },
     {
+      "title": "🚨 Update github actions (release-v0.8) (major)",
+      "url": "https://github.com/conforma/policy/pull/1843",
+      "number": 1843,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-09T02:51:44Z",
+      "updated_at": "2026-09-09T02:51:53Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "major",
+        "renovate",
+        "size: XS",
+        "release-v0.8"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1425,7 +1424,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-09-08T03:02:31Z",
+      "updated_at": "2026-09-09T02:57:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2167,7 +2166,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-09-06T01:44:23Z",
+      "updated_at": "2026-09-09T02:54:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2315,7 +2314,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-09-06T01:44:25Z",
+      "updated_at": "2026-09-09T02:54:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6654,11 +6653,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-11T02:40:14Z",
+    "since": "2026-06-11T03:09:29Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 141,
+        "reviews": 139,
         "prs": [
           {
             "title": "Allow Lightwell repositories/indexes to be used",
@@ -7253,14 +7252,6 @@
             "engaged_at": "2026-08-07T15:36:04Z"
           },
           {
-            "title": "feat(RELEASE-2352): added keyless params to verify-conforma task (2/2)",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2109",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2109,
-            "author": "midnightercz",
-            "engaged_at": "2026-08-06T21:24:59Z"
-          },
-          {
             "title": "Merge pipeline-required-tasks from ruleData config",
             "url": "https://github.com/conforma/policy/pull/1786",
             "repo": "conforma/policy",
@@ -7667,14 +7658,6 @@
             "number": 12704,
             "author": "rhartman93",
             "engaged_at": "2026-06-23T15:31:40Z"
-          },
-          {
-            "title": "chore: bump verify-conforma-konflux-ta task revision",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2313",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2313,
-            "author": "joejstuart",
-            "engaged_at": "2026-06-22T19:15:12Z"
           },
           {
             "title": "feat: add trusted_task_rules_enabled toggle to rule_data",
