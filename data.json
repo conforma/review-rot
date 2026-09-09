@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T16:11:23.817224772Z",
+  "generated_at": "2026-09-09T16:40:20.335016791Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1483,7 +1483,7 @@
       "updated_at": "2026-09-09T15:57:48Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -1541,7 +1541,7 @@
       "updated_at": "2026-09-09T15:42:17Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -2518,7 +2518,7 @@
       "updated_at": "2026-09-09T15:39:27Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2546,7 +2546,7 @@
       "updated_at": "2026-09-09T15:43:08Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -3154,18 +3154,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-09T14:19:21Z",
-      "updated_at": "2026-09-09T15:31:00Z",
+      "updated_at": "2026-09-09T16:29:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
-      "size": "XS",
+      "size": "M",
       "reviews": {
         "count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
+        "size: M"
       ]
     },
     {
@@ -3181,7 +3181,7 @@
       "updated_at": "2026-09-09T16:04:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 1,
@@ -3602,16 +3602,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-25T08:33:18Z",
-      "updated_at": "2026-09-09T15:45:08Z",
+      "updated_at": "2026-09-09T16:17:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
         "count": 1,
-        "has_new_commits": true
+        "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 5,
       "labels": [
         "size: S",
         "ready-for-merge"
@@ -5506,10 +5506,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T01:57:09Z",
-      "updated_at": "2026-09-05T01:57:17Z",
+      "updated_at": "2026-09-09T16:24:47Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -6596,12 +6596,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-11T16:08:30Z",
+    "since": "2026-06-11T16:37:34Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 141,
+        "reviews": 139,
         "prs": [
+          {
+            "title": "docs: Add blog post about Conforma demo from Red Hat Summit 2026",
+            "url": "https://github.com/conforma/conforma.github.io/pull/548",
+            "repo": "conforma/conforma.github.io",
+            "number": 548,
+            "author": "Acepresso",
+            "engaged_at": "2026-09-09T16:17:06Z"
+          },
           {
             "title": "Allow Lightwell repositories/indexes to be used",
             "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/270",
@@ -6913,14 +6921,6 @@
             "number": 339,
             "author": "robnester-rh",
             "engaged_at": "2026-08-25T19:27:53Z"
-          },
-          {
-            "title": "docs: Add blog post about Conforma demo from Red Hat Summit 2026",
-            "url": "https://github.com/conforma/conforma.github.io/pull/548",
-            "repo": "conforma/conforma.github.io",
-            "number": 548,
-            "author": "Acepresso",
-            "engaged_at": "2026-08-25T18:41:09Z"
           },
           {
             "title": "Allow PNC SLSA build type for PipelineRun attestations",
@@ -7713,22 +7713,6 @@
             "number": 1739,
             "author": "robnester-rh",
             "engaged_at": "2026-06-11T17:59:47Z"
-          },
-          {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/review-rot/pull/223",
-            "repo": "conforma/review-rot",
-            "number": 223,
-            "author": "renovate",
-            "engaged_at": "2026-06-11T16:25:28Z"
-          },
-          {
-            "title": "Include tracking for releng policy repo",
-            "url": "https://github.com/conforma/review-rot/pull/244",
-            "repo": "conforma/review-rot",
-            "number": 244,
-            "author": "st3penta",
-            "engaged_at": "2026-06-11T16:24:39Z"
           }
         ]
       },
