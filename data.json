@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T18:12:59.541335442Z",
+  "generated_at": "2026-09-09T18:41:07.487843965Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3157,7 +3157,7 @@
       "updated_at": "2026-09-09T16:45:49Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -4787,7 +4787,7 @@
       "updated_at": "2026-08-26T17:40:38Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4885,13 +4885,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T17:39:28Z",
-      "updated_at": "2026-08-26T17:40:06Z",
+      "updated_at": "2026-09-09T18:35:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4909,13 +4909,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T18:02:53Z",
-      "updated_at": "2026-08-26T18:03:24Z",
+      "updated_at": "2026-09-09T18:36:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5059,7 +5059,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-09-09T04:37:00Z",
+      "updated_at": "2026-09-09T18:09:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5799,13 +5799,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T16:59:33Z",
-      "updated_at": "2026-08-26T17:03:30Z",
+      "updated_at": "2026-09-09T18:36:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6596,7 +6596,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-11T18:10:03Z",
+    "since": "2026-06-11T18:38:26Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7710,8 +7710,32 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 85,
+        "reviews": 88,
         "prs": [
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/community/pull/77",
+            "repo": "conforma/community",
+            "number": 77,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:36:46Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/claude-skills/pull/22",
+            "repo": "conforma/claude-skills",
+            "number": 22,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:35:59Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/action-validate-image/pull/441",
+            "repo": "conforma/action-validate-image",
+            "number": 441,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:35:10Z"
+          },
           {
             "title": "Pin dependencies (main)",
             "url": "https://github.com/conforma/policy/pull/1836",
