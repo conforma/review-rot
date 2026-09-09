@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T18:41:07.487843965Z",
+  "generated_at": "2026-09-09T19:09:07.935606312Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -829,31 +829,6 @@
       ]
     },
     {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/policy/pull/1822",
-      "number": 1822,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T17:38:31Z",
-      "updated_at": "2026-08-26T17:50:36Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "Allow PNC SLSA build type for PipelineRun attestations",
       "url": "https://github.com/conforma/policy/pull/1826",
       "number": 1826,
@@ -1538,7 +1513,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-09T15:42:17Z",
+      "updated_at": "2026-09-09T18:52:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1567,10 +1542,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T01:54:01Z",
-      "updated_at": "2026-09-09T15:39:46Z",
+      "updated_at": "2026-09-09T18:48:05Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -1594,7 +1569,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-09-09T15:43:26Z",
+      "updated_at": "2026-09-09T19:00:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1624,7 +1599,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-09-09T15:45:50Z",
+      "updated_at": "2026-09-09T18:58:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2024,7 +1999,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-09-09T15:23:36Z",
+      "updated_at": "2026-09-09T18:46:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2053,7 +2028,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-09-09T15:23:48Z",
+      "updated_at": "2026-09-09T18:46:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2142,7 +2117,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-09-09T15:33:43Z",
+      "updated_at": "2026-09-09T18:46:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2399,7 +2374,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-09-09T15:37:25Z",
+      "updated_at": "2026-09-09T18:47:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2486,10 +2461,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T01:53:10Z",
-      "updated_at": "2026-09-09T15:39:16Z",
+      "updated_at": "2026-09-09T19:00:08Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2515,10 +2490,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T01:53:18Z",
-      "updated_at": "2026-09-09T15:39:27Z",
+      "updated_at": "2026-09-09T19:00:10Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2543,10 +2518,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T02:23:49Z",
-      "updated_at": "2026-09-09T15:43:08Z",
+      "updated_at": "2026-09-09T18:55:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -2818,7 +2793,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T16:59:10Z",
-      "updated_at": "2026-08-26T17:17:30Z",
+      "updated_at": "2026-09-09T19:04:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -2827,7 +2802,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XS",
         "ready-for-merge"
@@ -3121,78 +3096,6 @@
       ]
     },
     {
-      "title": "chore(deps): Upgrade golang to 1.26.7 (v0.7 branch)",
-      "url": "https://github.com/conforma/cli/pull/3544",
-      "number": 3544,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-09-09T14:15:56Z",
-      "updated_at": "2026-09-09T16:05:22Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore(deps): Upgrade golang to 1.26.7 (v0.8 branch)",
-      "url": "https://github.com/conforma/cli/pull/3545",
-      "number": 3545,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-09-09T14:19:21Z",
-      "updated_at": "2026-09-09T16:45:49Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
-      ]
-    },
-    {
-      "title": "chore(deps): Upgrade golang to 1.26.7 (v0.9 branch)",
-      "url": "https://github.com/conforma/cli/pull/3546",
-      "number": 3546,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-09-09T14:24:35Z",
-      "updated_at": "2026-09-09T16:04:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -3224,7 +3127,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-08T18:16:53Z",
+      "updated_at": "2026-09-09T19:03:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3305,7 +3208,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-09-08T18:17:34Z",
+      "updated_at": "2026-09-09T19:04:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3547,7 +3450,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-11T22:08:34Z",
-      "updated_at": "2026-09-07T23:10:52Z",
+      "updated_at": "2026-09-09T19:04:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3618,31 +3521,6 @@
       ]
     },
     {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/conforma.github.io/pull/549",
-      "number": 549,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T17:39:39Z",
-      "updated_at": "2026-08-26T17:56:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "ready-for-merge"
-      ]
-    },
-    {
       "title": "🚨 Update dependency toml to v4 [SECURITY] (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/553",
       "number": 553,
@@ -3652,7 +3530,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-04T01:50:03Z",
-      "updated_at": "2026-09-07T23:09:50Z",
+      "updated_at": "2026-09-09T19:04:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3672,7 +3550,7 @@
       ]
     },
     {
-      "title": "Update github actions (main)",
+      "title": "Update conforma/github-workflows digest to eb2bb49 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/554",
       "number": 554,
       "repo": "conforma/conforma.github.io",
@@ -3681,10 +3559,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T02:37:12Z",
-      "updated_at": "2026-09-05T06:05:44Z",
+      "updated_at": "2026-09-09T19:04:55Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3816,13 +3694,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T17:39:05Z",
-      "updated_at": "2026-08-26T17:39:31Z",
+      "updated_at": "2026-09-09T18:49:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4023,13 +3901,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T17:38:54Z",
-      "updated_at": "2026-08-26T17:39:51Z",
+      "updated_at": "2026-09-09T18:51:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4191,30 +4069,6 @@
       ]
     },
     {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/228",
-      "number": 228,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T14:50:38Z",
-      "updated_at": "2026-08-26T14:52:55Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update conforma/github-workflows digest to eb2bb49 (main)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/230",
       "number": 230,
@@ -4291,31 +4145,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "documentation",
-        "size: XS",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/user-guide/pull/245",
-      "number": 245,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T17:40:13Z",
-      "updated_at": "2026-08-26T17:50:35Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS",
         "ready-for-merge"
       ]
@@ -4457,13 +4286,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T16:59:55Z",
-      "updated_at": "2026-08-26T17:13:50Z",
+      "updated_at": "2026-09-09T18:49:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4481,10 +4310,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T02:03:59Z",
-      "updated_at": "2026-09-05T02:04:14Z",
+      "updated_at": "2026-09-09T18:38:20Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4734,13 +4563,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T16:59:21Z",
-      "updated_at": "2026-08-26T17:15:37Z",
+      "updated_at": "2026-09-09T18:52:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4784,13 +4613,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T17:40:02Z",
-      "updated_at": "2026-08-26T17:40:38Z",
+      "updated_at": "2026-09-09T18:47:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4872,102 +4701,6 @@
         "main",
         "major",
         "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/action-validate-image/pull/441",
-      "number": 441,
-      "repo": "conforma/action-validate-image",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T17:39:28Z",
-      "updated_at": "2026-09-09T18:35:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/community/pull/77",
-      "number": 77,
-      "repo": "conforma/community",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T18:02:53Z",
-      "updated_at": "2026-09-09T18:36:46Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/hooks/pull/12",
-      "number": 12,
-      "repo": "conforma/hooks",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T18:03:04Z",
-      "updated_at": "2026-08-26T18:03:28Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/github-workflows/pull/8",
-      "number": 8,
-      "repo": "conforma/github-workflows",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T14:50:50Z",
-      "updated_at": "2026-08-26T14:55:35Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -5059,7 +4792,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-09-09T18:09:44Z",
+      "updated_at": "2026-09-09T19:01:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5130,30 +4863,6 @@
       ]
     },
     {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/policy-builder/pull/56",
-      "number": 56,
-      "repo": "conforma/policy-builder",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T17:59:43Z",
-      "updated_at": "2026-08-26T18:00:05Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update conforma/github-workflows digest to eb2bb49 (main)",
       "url": "https://github.com/conforma/policy-builder/pull/60",
       "number": 60,
@@ -5163,7 +4872,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T00:40:37Z",
-      "updated_at": "2026-09-09T18:09:05Z",
+      "updated_at": "2026-09-09T19:01:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -5202,30 +4911,6 @@
       "labels": [
         "main",
         "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/go-gather/pull/344",
-      "number": 344,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T17:38:43Z",
-      "updated_at": "2026-08-27T13:06:43Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -5609,13 +5294,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T17:00:08Z",
-      "updated_at": "2026-08-26T17:00:35Z",
+      "updated_at": "2026-09-09T19:04:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5755,63 +5440,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T17:39:51Z",
-      "updated_at": "2026-08-26T17:40:25Z",
+      "updated_at": "2026-09-09T18:51:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/pr-agent-settings/pull/1",
-      "number": 1,
-      "repo": "conforma/pr-agent-settings",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T18:03:15Z",
-      "updated_at": "2026-08-26T18:03:40Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/claude-skills/pull/22",
-      "number": 22,
-      "repo": "conforma/claude-skills",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T16:59:33Z",
-      "updated_at": "2026-09-09T18:36:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
       "reviews": {
         "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
+      "labels": []
     },
     {
       "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
@@ -5823,13 +5462,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T16:59:44Z",
-      "updated_at": "2026-08-26T17:04:53Z",
+      "updated_at": "2026-09-09T19:05:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6009,30 +5648,6 @@
       ]
     },
     {
-      "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-      "url": "https://github.com/conforma/golden-rpm/pull/16",
-      "number": 16,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "nmars",
-        "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
-      },
-      "created_at": "2026-08-26T17:40:25Z",
-      "updated_at": "2026-08-26T17:40:53Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "🚨 Update actions/checkout action to v7 (main)",
       "url": "https://github.com/conforma/golden-rpm/pull/22",
       "number": 22,
@@ -6093,13 +5708,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16766158?u=b530a9a6f8934e2dbfcf2b33bc408f34be0426db\u0026v=4"
       },
       "created_at": "2026-08-26T16:58:58Z",
-      "updated_at": "2026-08-26T17:05:04Z",
+      "updated_at": "2026-09-09T19:05:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -6477,7 +6092,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-08T22:08:58Z",
+      "updated_at": "2026-09-09T18:48:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -6596,12 +6211,196 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-11T18:38:26Z",
+    "since": "2026-06-11T19:06:17Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 138,
+        "reviews": 161,
         "prs": [
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/config/pull/237",
+            "repo": "conforma/config",
+            "number": 237,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:06:10Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/27",
+            "repo": "conforma/pr-size-label-action",
+            "number": 27,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:06:05Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/review-rot/pull/252",
+            "repo": "conforma/review-rot",
+            "number": 252,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:05:57Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/golden-container/pull/1507",
+            "repo": "conforma/golden-container",
+            "number": 1507,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:05:51Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/cli/pull/3520",
+            "repo": "conforma/cli",
+            "number": 3520,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:05:45Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/tekton-catalog/pull/267",
+            "repo": "conforma/tekton-catalog",
+            "number": 267,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:05:38Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/hacks/pull/215",
+            "repo": "conforma/hacks",
+            "number": 215,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:05:28Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/e2e-tests/pull/13",
+            "repo": "conforma/e2e-tests",
+            "number": 13,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:05:19Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/step-actions/pull/8",
+            "repo": "conforma/step-actions",
+            "number": 8,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:05:07Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/crds/pull/28",
+            "repo": "conforma/crds",
+            "number": 28,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:04:55Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/github-workflows/pull/8",
+            "repo": "conforma/github-workflows",
+            "number": 8,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:04:45Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/228",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 228,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:04:35Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/golden-rpm/pull/16",
+            "repo": "conforma/golden-rpm",
+            "number": 16,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:00:56Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/user-guide/pull/245",
+            "repo": "conforma/user-guide",
+            "number": 245,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:00:44Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/policy/pull/1822",
+            "repo": "conforma/policy",
+            "number": 1822,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:00:27Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/conforma.github.io/pull/549",
+            "repo": "conforma/conforma.github.io",
+            "number": 549,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T19:00:17Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/policy-builder/pull/56",
+            "repo": "conforma/policy-builder",
+            "number": 56,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:59:58Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/hooks/pull/12",
+            "repo": "conforma/hooks",
+            "number": 12,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:55:41Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/pr-agent-settings/pull/1",
+            "repo": "conforma/pr-agent-settings",
+            "number": 1,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:55:26Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/go-gather/pull/344",
+            "repo": "conforma/go-gather",
+            "number": 344,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:52:48Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/action-validate-image/pull/441",
+            "repo": "conforma/action-validate-image",
+            "number": 441,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:52:31Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/claude-skills/pull/22",
+            "repo": "conforma/claude-skills",
+            "number": 22,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:52:17Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/community/pull/77",
+            "repo": "conforma/community",
+            "number": 77,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:51:22Z"
+          },
           {
             "title": "docs: Add blog post about Conforma demo from Red Hat Summit 2026",
             "url": "https://github.com/conforma/conforma.github.io/pull/548",
@@ -7710,8 +7509,176 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 88,
+        "reviews": 109,
         "prs": [
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/user-guide/pull/245",
+            "repo": "conforma/user-guide",
+            "number": 245,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:52:44Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/tekton-catalog/pull/267",
+            "repo": "conforma/tekton-catalog",
+            "number": 267,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:52:34Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/step-actions/pull/8",
+            "repo": "conforma/step-actions",
+            "number": 8,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:52:16Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/review-rot/pull/252",
+            "repo": "conforma/review-rot",
+            "number": 252,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:51:44Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/27",
+            "repo": "conforma/pr-size-label-action",
+            "number": 27,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:51:34Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/pr-agent-settings/pull/1",
+            "repo": "conforma/pr-agent-settings",
+            "number": 1,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:51:15Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/policy/pull/1822",
+            "repo": "conforma/policy",
+            "number": 1822,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:50:55Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/policy-builder/pull/56",
+            "repo": "conforma/policy-builder",
+            "number": 56,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:50:37Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/228",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 228,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:50:17Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/hooks/pull/12",
+            "repo": "conforma/hooks",
+            "number": 12,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:50:05Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/hacks/pull/215",
+            "repo": "conforma/hacks",
+            "number": 215,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:49:44Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/golden-rpm/pull/16",
+            "repo": "conforma/golden-rpm",
+            "number": 16,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:49:30Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/golden-container/pull/1507",
+            "repo": "conforma/golden-container",
+            "number": 1507,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:49:02Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/github-workflows/pull/8",
+            "repo": "conforma/github-workflows",
+            "number": 8,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:48:28Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/e2e-tests/pull/13",
+            "repo": "conforma/e2e-tests",
+            "number": 13,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:48:10Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/crds/pull/28",
+            "repo": "conforma/crds",
+            "number": 28,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:47:56Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/conforma.github.io/pull/549",
+            "repo": "conforma/conforma.github.io",
+            "number": 549,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:47:35Z"
+          },
+          {
+            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
+            "url": "https://github.com/conforma/config/pull/237",
+            "repo": "conforma/config",
+            "number": 237,
+            "author": "nmars",
+            "engaged_at": "2026-09-09T18:47:19Z"
+          },
+          {
+            "title": "chore(deps): Upgrade golang to 1.26.7 (v0.9 branch)",
+            "url": "https://github.com/conforma/cli/pull/3546",
+            "repo": "conforma/cli",
+            "number": 3546,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-09T18:45:15Z"
+          },
+          {
+            "title": "chore(deps): Upgrade golang to 1.26.7 (v0.8 branch)",
+            "url": "https://github.com/conforma/cli/pull/3545",
+            "repo": "conforma/cli",
+            "number": 3545,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-09T18:44:53Z"
+          },
+          {
+            "title": "chore(deps): Upgrade golang to 1.26.7 (v0.7 branch)",
+            "url": "https://github.com/conforma/cli/pull/3544",
+            "repo": "conforma/cli",
+            "number": 3544,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-09T18:44:41Z"
+          },
           {
             "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
             "url": "https://github.com/conforma/community/pull/77",
@@ -9662,8 +9629,16 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 18,
+        "reviews": 19,
         "prs": [
+          {
+            "title": "chore(deps): Upgrade golang to 1.26.7 (v0.8 branch)",
+            "url": "https://github.com/conforma/cli/pull/3545",
+            "repo": "conforma/cli",
+            "number": 3545,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-09T19:03:58Z"
+          },
           {
             "title": "Configure Renovate",
             "url": "https://github.com/conforma/e2e-tests/pull/6",
