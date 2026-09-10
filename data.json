@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T01:07:34.252360242Z",
+  "generated_at": "2026-09-10T01:44:23.722069269Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -158,7 +158,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-09-09T19:47:35Z",
+      "updated_at": "2026-09-10T01:15:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -376,7 +376,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-09-09T19:53:51Z",
+      "updated_at": "2026-09-10T01:16:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -1107,6 +1107,34 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "Update conforma/github-workflows digest to 837d70f (main)",
+      "url": "https://github.com/conforma/policy/pull/1846",
+      "number": 1846,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-10T01:15:41Z",
+      "updated_at": "2026-09-10T01:24:10Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS",
+        "requires-manual-review",
+        "risk/low"
       ]
     },
     {
@@ -3086,13 +3114,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-09T20:59:16Z",
-      "updated_at": "2026-09-09T21:09:16Z",
+      "updated_at": "2026-09-10T01:36:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3112,13 +3140,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-09T21:06:43Z",
-      "updated_at": "2026-09-09T21:26:01Z",
+      "updated_at": "2026-09-10T01:37:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3137,13 +3165,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-09T21:15:46Z",
-      "updated_at": "2026-09-09T21:35:00Z",
+      "updated_at": "2026-09-10T01:36:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3166,13 +3194,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-09T21:15:48Z",
-      "updated_at": "2026-09-09T21:33:49Z",
+      "updated_at": "2026-09-10T01:37:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3735,7 +3763,7 @@
       "updated_at": "2026-09-10T00:57:20Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4086,6 +4114,33 @@
       ]
     },
     {
+      "title": "Update conforma/github-workflows digest to 837d70f (main)",
+      "url": "https://github.com/conforma/user-guide/pull/252",
+      "number": 252,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-10T01:08:48Z",
+      "updated_at": "2026-09-10T01:16:20Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "risk/low"
+      ]
+    },
+    {
       "title": "Scripts to create and test fetching attestations",
       "url": "https://github.com/conforma/hacks/pull/162",
       "number": 162,
@@ -4414,7 +4469,7 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to eb2bb49 (main)",
+      "title": "Update conforma/github-workflows digest to 837d70f (main)",
       "url": "https://github.com/conforma/config/pull/239",
       "number": 239,
       "repo": "conforma/config",
@@ -4423,10 +4478,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T01:35:15Z",
-      "updated_at": "2026-09-09T19:09:54Z",
+      "updated_at": "2026-09-10T01:38:20Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4968,32 +5023,6 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to 837d70f (main)",
-      "url": "https://github.com/conforma/.github/pull/88",
-      "number": 88,
-      "repo": "conforma/.github",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-05T01:57:09Z",
-      "updated_at": "2026-09-09T19:40:43Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -5438,6 +5467,32 @@
         "main",
         "renovate",
         "major"
+      ]
+    },
+    {
+      "title": "Update conforma/github-workflows digest to 837d70f (main)",
+      "url": "https://github.com/conforma/golden-rpm/pull/23",
+      "number": 23,
+      "repo": "conforma/golden-rpm",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-10T01:05:51Z",
+      "updated_at": "2026-09-10T01:06:15Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
       ]
     },
     {
@@ -5953,7 +6008,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-12T01:05:02Z",
+    "since": "2026-06-12T01:41:57Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8639,8 +8694,40 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 48,
+        "reviews": 52,
         "prs": [
+          {
+            "title": "chore(deps): Update golang module CVE fixes (main)",
+            "url": "https://github.com/conforma/cli/pull/3551",
+            "repo": "conforma/cli",
+            "number": 3551,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-10T01:37:17Z"
+          },
+          {
+            "title": "chore(deps): Update golang module CVE fixes (v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3549",
+            "repo": "conforma/cli",
+            "number": 3549,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-10T01:37:06Z"
+          },
+          {
+            "title": "chore(deps): Update golang module CVE fixes (v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3550",
+            "repo": "conforma/cli",
+            "number": 3550,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-10T01:36:56Z"
+          },
+          {
+            "title": "chore(deps): Update golang module CVE fixes (v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3548",
+            "repo": "conforma/cli",
+            "number": 3548,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-10T01:36:36Z"
+          },
           {
             "title": "chore(EC-2174): bump conforma/cli and fix transitive dependency conflicts",
             "url": "https://github.com/conforma/policy/pull/1831",
