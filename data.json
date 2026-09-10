@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T19:08:41.515465614Z",
+  "generated_at": "2026-09-10T19:37:05.262101727Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5420,7 +5420,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-12T19:06:02Z",
+    "since": "2026-06-12T19:34:16Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8982,7 +8982,7 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 23,
+        "reviews": 22,
         "prs": [
           {
             "title": "Add validation examples",
@@ -9159,14 +9159,6 @@
             "number": 1494,
             "author": "red-hat-konflux",
             "engaged_at": "2026-06-16T16:29:06Z"
-          },
-          {
-            "title": "Update go git module (main)",
-            "url": "https://github.com/conforma/cli/pull/3335",
-            "repo": "conforma/cli",
-            "number": 3335,
-            "author": "simonbaird",
-            "engaged_at": "2026-06-12T19:20:00Z"
           }
         ]
       },
