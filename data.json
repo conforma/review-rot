@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T16:38:13.215179729Z",
+  "generated_at": "2026-09-10T17:10:22.549923376Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -889,7 +889,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-02T13:04:08Z",
-      "updated_at": "2026-09-10T16:27:11Z",
+      "updated_at": "2026-09-10T16:38:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -898,10 +898,10 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 11,
       "labels": [
         "size: XXL",
-        "risk/elevated"
+        "risk/moderate"
       ]
     },
     {
@@ -5331,18 +5331,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-09T20:07:11Z",
+      "updated_at": "2026-09-10T16:48:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 2,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "Review effort 2/5"
+        "Review effort 2/5",
+        "prod/needs-approval"
       ]
     },
     {
@@ -5418,11 +5419,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-12T16:35:27Z",
+    "since": "2026-06-12T17:07:23Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 161,
+        "reviews": 160,
         "prs": [
           {
             "title": "docs: explain how to find the release ECP",
@@ -6703,14 +6704,6 @@
             "number": 223,
             "author": "BohdanMar",
             "engaged_at": "2026-06-12T20:53:15Z"
-          },
-          {
-            "title": "Initial setup for building a basic RPM package in Konflux",
-            "url": "https://github.com/conforma/golden-rpm/pull/2",
-            "repo": "conforma/golden-rpm",
-            "number": 2,
-            "author": "Acepresso",
-            "engaged_at": "2026-06-12T16:37:02Z"
           }
         ]
       },
