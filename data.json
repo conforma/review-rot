@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T14:10:50.405365357Z",
+  "generated_at": "2026-09-10T14:39:24.238177213Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1393,7 +1393,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-10T13:53:27Z",
+      "updated_at": "2026-09-10T14:17:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3046,60 +3046,6 @@
         "size: XS",
         "risk/low",
         "ready-for-review"
-      ]
-    },
-    {
-      "title": "chore(deps): Update golang module CVE fixes (v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3549",
-      "number": 3549,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-09-09T21:06:43Z",
-      "updated_at": "2026-09-10T01:37:06Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XXL",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "chore(deps): Update golang module CVE fixes (v0.9)",
-      "url": "https://github.com/conforma/cli/pull/3550",
-      "number": 3550,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-09-09T21:15:46Z",
-      "updated_at": "2026-09-10T01:36:56Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "go",
-        "size: XXL",
-        "Possible security concern",
-        "ready-for-merge",
-        "risk/elevated"
       ]
     },
     {
@@ -5310,32 +5256,6 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi8/ubi-micro:latest Docker digest to 474100d (main)",
-      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/627",
-      "number": 627,
-      "repo": "enterprise-contract/enterprise-contract-controller",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2025-10-23T03:48:52Z",
-      "updated_at": "2026-09-07T16:42:35Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/634",
       "number": 634,
@@ -5389,33 +5309,6 @@
       ]
     },
     {
-      "title": "🚨 Update github actions (main) (major)",
-      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/692",
-      "number": 692,
-      "repo": "enterprise-contract/enterprise-contract-controller",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2025-12-14T02:49:05Z",
-      "updated_at": "2026-09-08T21:17:27Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "major",
-        "main",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update dependency golang to v1.23.12 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/752",
       "number": 752,
@@ -5425,7 +5318,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-09-08T21:14:15Z",
+      "updated_at": "2026-09-10T14:20:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5451,7 +5344,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-09-08T21:14:21Z",
+      "updated_at": "2026-09-10T14:20:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5635,32 +5528,6 @@
       "labels": []
     },
     {
-      "title": "EC-1793: Add production environment overlay for enterprise-contract",
-      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13955",
-      "number": 13955,
-      "repo": "redhat-appstudio/infra-deployments",
-      "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
-      },
-      "created_at": "2026-09-07T11:37:19Z",
-      "updated_at": "2026-09-10T11:14:34Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "environment/production",
-        "infra/hold-production",
-        "prod/needs-approval"
-      ]
-    },
-    {
       "title": "Add a week to git-clone task deadline",
       "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/271",
       "number": 271,
@@ -5685,7 +5552,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-12T14:08:07Z",
+    "since": "2026-06-12T14:36:21Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -6975,8 +6842,24 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 120,
+        "reviews": 122,
         "prs": [
+          {
+            "title": "chore(deps): Update golang module CVE fixes (v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3549",
+            "repo": "conforma/cli",
+            "number": 3549,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-10T14:16:07Z"
+          },
+          {
+            "title": "chore(deps): Update golang module CVE fixes (v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3550",
+            "repo": "conforma/cli",
+            "number": 3550,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-10T14:15:58Z"
+          },
           {
             "title": "EC-2162: Verify ITS PipelineRuns use trusted tasks",
             "url": "https://github.com/conforma/policy/pull/1829",
