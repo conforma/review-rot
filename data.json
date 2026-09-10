@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T17:10:22.549923376Z",
+  "generated_at": "2026-09-10T17:36:51.560091747Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-09-09T13:41:13Z",
+      "updated_at": "2026-09-10T17:17:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -50,7 +50,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-09-08T21:27:42Z",
+      "updated_at": "2026-09-10T17:17:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -102,7 +102,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T00:39:19Z",
-      "updated_at": "2026-09-08T19:00:38Z",
+      "updated_at": "2026-09-10T17:24:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -118,8 +118,7 @@
         "renovate",
         "main",
         "size: XS",
-        "requires-manual-review",
-        "risk/elevated"
+        "requires-manual-review"
       ]
     },
     {
@@ -158,7 +157,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-09-10T01:15:57Z",
+      "updated_at": "2026-09-10T17:17:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -216,7 +215,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-10T05:39:56Z",
+      "updated_at": "2026-09-10T17:23:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -376,7 +375,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-09-10T01:16:10Z",
+      "updated_at": "2026-09-10T17:17:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -939,7 +938,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-09-09T13:44:51Z",
+      "updated_at": "2026-09-10T17:17:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1044,7 +1043,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-09T02:51:44Z",
-      "updated_at": "2026-09-09T02:51:53Z",
+      "updated_at": "2026-09-10T17:26:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1058,7 +1057,9 @@
         "major",
         "renovate",
         "size: XS",
-        "release-v0.8"
+        "release-v0.8",
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -1085,30 +1086,6 @@
         "size: XXL",
         "ready-for-merge",
         "risk/moderate"
-      ]
-    },
-    {
-      "title": "Push back effective_on dates",
-      "url": "https://github.com/conforma/policy/pull/1845",
-      "number": 1845,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-09-09T19:31:26Z",
-      "updated_at": "2026-09-10T13:44:22Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
       ]
     },
     {
@@ -4179,7 +4156,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-21T22:08:06Z",
-      "updated_at": "2026-09-07T18:44:15Z",
+      "updated_at": "2026-09-10T17:31:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4205,14 +4182,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:16:14Z",
-      "updated_at": "2026-09-09T18:09:17Z",
+      "updated_at": "2026-09-10T17:31:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 1,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -4231,7 +4208,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-09-09T19:01:53Z",
+      "updated_at": "2026-09-10T17:32:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4284,7 +4261,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-12-13T00:57:00Z",
-      "updated_at": "2026-09-04T13:13:50Z",
+      "updated_at": "2026-09-10T17:31:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5331,13 +5308,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-10T16:48:58Z",
+      "updated_at": "2026-09-10T17:18:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 2,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5419,7 +5396,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-12T17:07:23Z",
+    "since": "2026-06-12T17:34:08Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -6709,8 +6686,16 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 123,
+        "reviews": 124,
         "prs": [
+          {
+            "title": "Update dependency vite to v6.4.3 [SECURITY] (main)",
+            "url": "https://github.com/conforma/policy-builder/pull/41",
+            "repo": "conforma/policy-builder",
+            "number": 41,
+            "author": "renovate",
+            "engaged_at": "2026-09-10T17:34:35Z"
+          },
           {
             "title": "fix(#560): drop unused mermaid npm dep to end CDN version drift",
             "url": "https://github.com/conforma/conforma.github.io/pull/564",
