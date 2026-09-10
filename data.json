@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T18:40:30.482572459Z",
+  "generated_at": "2026-09-10T19:08:41.515465614Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3306,7 +3306,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-25T08:33:18Z",
-      "updated_at": "2026-09-10T13:44:54Z",
+      "updated_at": "2026-09-10T18:44:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5420,12 +5420,20 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-12T18:37:44Z",
+    "since": "2026-06-12T19:06:02Z",
     "reviewers": [
       {
         "login": "simonbaird",
         "reviews": 160,
         "prs": [
+          {
+            "title": "docs: Add blog post about Conforma demo from Red Hat Summit 2026",
+            "url": "https://github.com/conforma/conforma.github.io/pull/548",
+            "repo": "conforma/conforma.github.io",
+            "number": 548,
+            "author": "Acepresso",
+            "engaged_at": "2026-09-10T18:44:50Z"
+          },
           {
             "title": "docs: explain how to find the release ECP",
             "url": "https://github.com/conforma/user-guide/pull/249",
@@ -5617,14 +5625,6 @@
             "number": 77,
             "author": "nmars",
             "engaged_at": "2026-09-09T18:51:22Z"
-          },
-          {
-            "title": "docs: Add blog post about Conforma demo from Red Hat Summit 2026",
-            "url": "https://github.com/conforma/conforma.github.io/pull/548",
-            "repo": "conforma/conforma.github.io",
-            "number": 548,
-            "author": "Acepresso",
-            "engaged_at": "2026-09-09T16:17:01Z"
           },
           {
             "title": "Allow Lightwell repositories/indexes to be used",
