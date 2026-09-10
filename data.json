@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T12:47:06.988670855Z",
+  "generated_at": "2026-09-10T13:10:26.33367281Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4978,7 +4978,7 @@
         "count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XL"
       ]
@@ -5662,11 +5662,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-12T12:44:26Z",
+    "since": "2026-06-12T13:07:49Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 160,
+        "reviews": 158,
         "prs": [
           {
             "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
@@ -5819,14 +5819,6 @@
             "number": 1,
             "author": "nmars",
             "engaged_at": "2026-09-09T18:55:26Z"
-          },
-          {
-            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-            "url": "https://github.com/conforma/go-gather/pull/344",
-            "repo": "conforma/go-gather",
-            "number": 344,
-            "author": "nmars",
-            "engaged_at": "2026-09-09T18:52:48Z"
           },
           {
             "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
@@ -6163,14 +6155,6 @@
             "number": 2463,
             "author": "cuipinghuo",
             "engaged_at": "2026-08-25T19:40:36Z"
-          },
-          {
-            "title": "Add resource limits to archive expanders and HTTP gatherer",
-            "url": "https://github.com/conforma/go-gather/pull/339",
-            "repo": "conforma/go-gather",
-            "number": 339,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-25T19:27:53Z"
           },
           {
             "title": "Allow PNC SLSA build type for PipelineRun attestations",
@@ -6952,7 +6936,7 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 113,
+        "reviews": 108,
         "prs": [
           {
             "title": "chore(deps): Update golang module CVE fixes (main)",
@@ -7499,46 +7483,6 @@
             "engaged_at": "2026-08-31T21:13:25Z"
           },
           {
-            "title": "fix(deps): update go version to v1.25.14 (main)",
-            "url": "https://github.com/conforma/go-gather/pull/314",
-            "repo": "conforma/go-gather",
-            "number": 314,
-            "author": "renovate",
-            "engaged_at": "2026-08-27T13:07:59Z"
-          },
-          {
-            "title": "fix(deps): update module github.com/stretchr/testify to v1.12.1 (main)",
-            "url": "https://github.com/conforma/go-gather/pull/337",
-            "repo": "conforma/go-gather",
-            "number": 337,
-            "author": "renovate",
-            "engaged_at": "2026-08-27T13:07:39Z"
-          },
-          {
-            "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-            "url": "https://github.com/conforma/go-gather/pull/344",
-            "repo": "conforma/go-gather",
-            "number": 344,
-            "author": "nmars",
-            "engaged_at": "2026-08-27T13:06:43Z"
-          },
-          {
-            "title": "fix(deps): update module github.com/go-git/go-git/v5 to v5.19.2 [security] (main)",
-            "url": "https://github.com/conforma/go-gather/pull/327",
-            "repo": "conforma/go-gather",
-            "number": 327,
-            "author": "renovate",
-            "engaged_at": "2026-08-26T15:04:04Z"
-          },
-          {
-            "title": "fix(deps): Update github actions to v7 (main)",
-            "url": "https://github.com/conforma/go-gather/pull/330",
-            "repo": "conforma/go-gather",
-            "number": 330,
-            "author": "renovate",
-            "engaged_at": "2026-08-26T14:58:51Z"
-          },
-          {
             "title": "Add helpers:pinGitHubActionDigests to org-wide Renovate config",
             "url": "https://github.com/conforma/.github/pull/86",
             "repo": "conforma/.github",
@@ -7862,16 +7806,8 @@
       },
       {
         "login": "st3penta",
-        "reviews": 60,
+        "reviews": 58,
         "prs": [
-          {
-            "title": "Add resource limits to archive expanders and HTTP gatherer",
-            "url": "https://github.com/conforma/go-gather/pull/339",
-            "repo": "conforma/go-gather",
-            "number": 339,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-20T10:59:14Z"
-          },
           {
             "title": "Deduplicate test-result attestations by test name",
             "url": "https://github.com/conforma/policy/pull/1817",
@@ -7943,14 +7879,6 @@
             "number": 3416,
             "author": "joejstuart",
             "engaged_at": "2026-08-10T10:49:59Z"
-          },
-          {
-            "title": "Fix path traversal in git gatherer subdir handling",
-            "url": "https://github.com/conforma/go-gather/pull/336",
-            "repo": "conforma/go-gather",
-            "number": 336,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-10T09:34:47Z"
           },
           {
             "title": "Merge trusted task rules instead of first-found",
@@ -8348,7 +8276,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 52,
+        "reviews": 49,
         "prs": [
           {
             "title": "chore(deps): Update golang module CVE fixes (main)",
@@ -8439,22 +8367,6 @@
             "engaged_at": "2026-08-26T15:34:47Z"
           },
           {
-            "title": "ci: drop breaking-change marker from Renovate major-update prefix",
-            "url": "https://github.com/conforma/go-gather/pull/343",
-            "repo": "conforma/go-gather",
-            "number": 343,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-26T14:53:23Z"
-          },
-          {
-            "title": "ci: guard release workflow to the canonical repository",
-            "url": "https://github.com/conforma/go-gather/pull/342",
-            "repo": "conforma/go-gather",
-            "number": 342,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-26T14:40:05Z"
-          },
-          {
             "title": "Update security policy for CRA",
             "url": "https://github.com/conforma/.github/pull/84",
             "repo": "conforma/.github",
@@ -8469,14 +8381,6 @@
             "number": 21,
             "author": "dheerajodha",
             "engaged_at": "2026-08-21T13:33:23Z"
-          },
-          {
-            "title": "Harden git subdir copy against symlink traversal",
-            "url": "https://github.com/conforma/go-gather/pull/338",
-            "repo": "conforma/go-gather",
-            "number": 338,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-19T18:17:37Z"
           },
           {
             "title": "Verify SBOM signatures from OCI referrers and tag refs",
@@ -8770,7 +8674,7 @@
       },
       {
         "login": "dheerajodha",
-        "reviews": 45,
+        "reviews": 37,
         "prs": [
           {
             "title": "Update ghcr.io/conforma/golden-container:latest Docker digest to ce88ac4 (main)",
@@ -8781,28 +8685,12 @@
             "engaged_at": "2026-09-08T07:51:46Z"
           },
           {
-            "title": "fix(deps): update module github.com/stretchr/testify to v1.12.1 (main)",
-            "url": "https://github.com/conforma/go-gather/pull/337",
-            "repo": "conforma/go-gather",
-            "number": 337,
-            "author": "renovate",
-            "engaged_at": "2026-09-08T07:23:56Z"
-          },
-          {
             "title": "docs: explain how to find the release ECP",
             "url": "https://github.com/conforma/user-guide/pull/249",
             "repo": "conforma/user-guide",
             "number": 249,
             "author": "BohdanMar",
             "engaged_at": "2026-09-03T13:25:55Z"
-          },
-          {
-            "title": "chore: add catch-all CODEOWNERS entry for full path coverage",
-            "url": "https://github.com/conforma/go-gather/pull/346",
-            "repo": "conforma/go-gather",
-            "number": 346,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-03T11:23:39Z"
           },
           {
             "title": "tkn-bundle: don't require version label for non-Tasks",
@@ -8885,60 +8773,12 @@
             "engaged_at": "2026-08-31T11:23:10Z"
           },
           {
-            "title": "fix(deps): update step-security/harden-runner action to v2.21.1 (main)",
-            "url": "https://github.com/conforma/go-gather/pull/345",
-            "repo": "conforma/go-gather",
-            "number": 345,
-            "author": "renovate",
-            "engaged_at": "2026-08-31T11:03:23Z"
-          },
-          {
-            "title": "fix(deps): update ossf/scorecard-action action to v2.4.4 (main)",
-            "url": "https://github.com/conforma/go-gather/pull/325",
-            "repo": "conforma/go-gather",
-            "number": 325,
-            "author": "renovate",
-            "engaged_at": "2026-08-27T12:01:08Z"
-          },
-          {
-            "title": "fix(deps): update github actions (main) (minor)",
-            "url": "https://github.com/conforma/go-gather/pull/331",
-            "repo": "conforma/go-gather",
-            "number": 331,
-            "author": "renovate",
-            "engaged_at": "2026-08-27T10:22:50Z"
-          },
-          {
-            "title": "ci: keep Renovate major-update commits Conventional Commits compliant",
-            "url": "https://github.com/conforma/go-gather/pull/341",
-            "repo": "conforma/go-gather",
-            "number": 341,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-26T14:34:24Z"
-          },
-          {
-            "title": "ci: enforce Conventional Commits with local hook and CI check",
-            "url": "https://github.com/conforma/go-gather/pull/340",
-            "repo": "conforma/go-gather",
-            "number": 340,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-26T14:17:58Z"
-          },
-          {
             "title": "Update go toolchain directive to v1.27.0 (main)",
             "url": "https://github.com/conforma/policy/pull/1663",
             "repo": "conforma/policy",
             "number": 1663,
             "author": "renovate",
             "engaged_at": "2026-08-26T12:36:27Z"
-          },
-          {
-            "title": "fix(deps): update module oras.land/oras-go/v2 to v2.6.2 [security] (main)",
-            "url": "https://github.com/conforma/go-gather/pull/333",
-            "repo": "conforma/go-gather",
-            "number": 333,
-            "author": "renovate",
-            "engaged_at": "2026-08-26T11:54:35Z"
           },
           {
             "title": "Update github actions (main) (patch)",
