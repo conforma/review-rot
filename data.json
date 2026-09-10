@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T20:36:26.269284398Z",
+  "generated_at": "2026-09-10T21:09:02.327990671Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3106,7 +3106,7 @@
       ]
     },
     {
-      "title": "chore(deps): Update testcontainers-go and moby/go-archive (CVE-2026-17106)",
+      "title": "chore(deps): Update testcontainers-go and moby/go-archive (main)",
       "url": "https://github.com/conforma/cli/pull/3558",
       "number": 3558,
       "repo": "conforma/cli",
@@ -3115,7 +3115,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-10T16:19:35Z",
-      "updated_at": "2026-09-10T20:20:17Z",
+      "updated_at": "2026-09-10T20:44:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3128,6 +3128,80 @@
       "labels": [
         "dependencies",
         "go",
+        "size: L",
+        "ready-for-merge"
+      ]
+    },
+    {
+      "title": "chore(deps): Update testcontainers-go and moby/go-archive (v0.9)",
+      "url": "https://github.com/conforma/cli/pull/3559",
+      "number": 3559,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-09-10T20:43:00Z",
+      "updated_at": "2026-09-10T20:56:41Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: L",
+        "risk/moderate"
+      ]
+    },
+    {
+      "title": "chore(deps): Update testcontainers-go and moby/go-archive (v0.8)",
+      "url": "https://github.com/conforma/cli/pull/3560",
+      "number": 3560,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-09-10T20:45:17Z",
+      "updated_at": "2026-09-10T20:55:09Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 4,
+      "labels": [
+        "size: L"
+      ]
+    },
+    {
+      "title": "chore(deps): Update testcontainers-go and moby/go-archive (CVE-2026-17106)",
+      "url": "https://github.com/conforma/cli/pull/3561",
+      "number": 3561,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-09-10T20:48:17Z",
+      "updated_at": "2026-09-10T20:59:09Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
         "size: L",
         "ready-for-merge"
       ]
@@ -5443,11 +5517,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-12T20:33:47Z",
+    "since": "2026-06-12T21:06:36Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 161,
+        "reviews": 160,
         "prs": [
           {
             "title": "feat(EC-2081): use ec.oci.parsed_blob builtin in parsed_blob wrapper",
@@ -6728,14 +6802,6 @@
             "number": 4,
             "author": "cuipinghuo",
             "engaged_at": "2026-06-16T18:47:02Z"
-          },
-          {
-            "title": "Add workflow to push OPA data bundle to Quay ",
-            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/223",
-            "repo": "release-engineering/rhtap-ec-policy",
-            "number": 223,
-            "author": "BohdanMar",
-            "engaged_at": "2026-06-12T20:53:15Z"
           }
         ]
       },
