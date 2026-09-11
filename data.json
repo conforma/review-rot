@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:09:32.479667678Z",
+  "generated_at": "2026-09-11T19:36:33.934151796Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2360,13 +2360,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-07-29T13:05:08Z",
-      "updated_at": "2026-09-09T12:09:47Z",
+      "updated_at": "2026-09-11T19:31:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 15,
@@ -3858,13 +3858,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-09-08T21:54:37Z",
-      "updated_at": "2026-09-10T03:07:20Z",
+      "updated_at": "2026-09-11T19:27:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 7,
@@ -4838,13 +4838,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-10T19:52:09Z",
-      "updated_at": "2026-09-10T19:53:45Z",
+      "updated_at": "2026-09-11T19:21:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5523,12 +5523,36 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-13T19:06:50Z",
+    "since": "2026-06-13T19:33:59Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 161,
+        "reviews": 164,
         "prs": [
+          {
+            "title": "Establish performance baselines and regression detection",
+            "url": "https://github.com/conforma/cli/pull/3441",
+            "repo": "conforma/cli",
+            "number": 3441,
+            "author": "dheerajodha",
+            "engaged_at": "2026-09-11T19:31:47Z"
+          },
+          {
+            "title": "feat(validation): add lightweight AsciiDoc validation for agent and CI use",
+            "url": "https://github.com/conforma/user-guide/pull/251",
+            "repo": "conforma/user-guide",
+            "number": 251,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-11T19:27:27Z"
+          },
+          {
+            "title": "docs(EC-1939): document SLSA provenance in generate-policy README",
+            "url": "https://github.com/conforma/claude-skills/pull/27",
+            "repo": "conforma/claude-skills",
+            "number": 27,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-11T19:21:16Z"
+          },
           {
             "title": "EC-2028: consolidate sync primitives in PolicyUrl (source.go)",
             "url": "https://github.com/conforma/cli/pull/3557",
