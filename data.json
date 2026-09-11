@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:14:46.692835567Z",
+  "generated_at": "2026-09-11T12:46:24.547360928Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3140,10 +3140,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-10T20:45:17Z",
-      "updated_at": "2026-09-10T20:55:09Z",
+      "updated_at": "2026-09-11T12:33:21Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
         "count": 0,
@@ -3852,13 +3852,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-10T18:05:02Z",
-      "updated_at": "2026-09-10T18:29:12Z",
+      "updated_at": "2026-09-11T12:39:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5600,7 +5600,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-13T12:11:58Z",
+    "since": "2026-06-13T12:43:35Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9628,8 +9628,16 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 13,
+        "reviews": 14,
         "prs": [
+          {
+            "title": "Conforma release",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/232",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 232,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-11T12:39:54Z"
+          },
           {
             "title": "Remove unnecessary secrets: inherit from auto-merge caller",
             "url": "https://github.com/conforma/review-rot/pull/255",
