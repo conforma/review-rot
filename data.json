@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T12:46:24.547360928Z",
+  "generated_at": "2026-09-11T13:10:17.23298784Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3155,7 +3155,7 @@
       ]
     },
     {
-      "title": "chore(deps): Update testcontainers-go and moby/go-archive (CVE-2026-17106)",
+      "title": "chore(deps): Update testcontainers-go and moby/go-archive (v0.7)",
       "url": "https://github.com/conforma/cli/pull/3561",
       "number": 3561,
       "repo": "conforma/cli",
@@ -3164,7 +3164,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-10T20:48:17Z",
-      "updated_at": "2026-09-10T20:59:09Z",
+      "updated_at": "2026-09-11T12:59:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3244,7 +3244,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T03:04:00Z",
-      "updated_at": "2026-09-11T03:12:22Z",
+      "updated_at": "2026-09-11T12:47:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3840,30 +3840,6 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: M"
-      ]
-    },
-    {
-      "title": "Conforma release",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/232",
-      "number": 232,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-09-10T18:05:02Z",
-      "updated_at": "2026-09-11T12:39:54Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: L"
       ]
     },
     {
@@ -5600,7 +5576,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-13T12:43:35Z",
+    "since": "2026-06-13T13:07:40Z",
     "reviewers": [
       {
         "login": "simonbaird",
