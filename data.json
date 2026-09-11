@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T02:13:37.252985193Z",
+  "generated_at": "2026-09-11T02:43:26.62101893Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1292,7 +1292,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-09-10T03:11:18Z",
+      "updated_at": "2026-09-11T02:37:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1492,10 +1492,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-10T23:54:19Z",
+      "updated_at": "2026-09-11T02:40:06Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -1522,7 +1522,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-09-10T23:54:28Z",
+      "updated_at": "2026-09-11T02:39:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2015,7 +2015,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-09-10T03:03:10Z",
+      "updated_at": "2026-09-11T02:39:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2031,7 +2031,8 @@
         "renovate",
         "main",
         "size: XS",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -2163,7 +2164,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-09-10T03:03:57Z",
+      "updated_at": "2026-09-11T02:39:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2172,7 +2173,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 30,
+      "unresolved_conversations": 31,
       "labels": [
         "dependencies",
         "go",
@@ -2180,7 +2181,8 @@
         "renovate",
         "main",
         "size: XS",
-        "requires-manual-review"
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -3206,6 +3208,58 @@
       "labels": [
         "size: L",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update dependency golang to v1.27.1 (release-v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3562",
+      "number": 3562,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-11T02:39:03Z",
+      "updated_at": "2026-09-11T02:39:13Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "release-v0.7",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update docker.io/library/golang Docker tag to v1.27.0 (release-v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3563",
+      "number": 3563,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-11T02:39:11Z",
+      "updated_at": "2026-09-11T02:39:22Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "release-v0.7",
+        "size: XS"
       ]
     },
     {
@@ -5353,6 +5407,32 @@
       ]
     },
     {
+      "title": "Update conforma/github-workflows digest to 837d70f (main)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/769",
+      "number": 769,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-11T02:39:20Z",
+      "updated_at": "2026-09-11T02:39:30Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Decommision the acceptable bundles update/push CI",
       "url": "https://github.com/konflux-ci/build-definitions/pull/3834",
       "number": 3834,
@@ -5519,7 +5599,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-13T02:11:08Z",
+    "since": "2026-06-13T02:40:58Z",
     "reviewers": [
       {
         "login": "simonbaird",
