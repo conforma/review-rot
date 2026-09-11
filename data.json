@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T19:36:33.934151796Z",
+  "generated_at": "2026-09-11T20:10:05.34633013Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -838,13 +838,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/284862478?v=4"
       },
       "created_at": "2026-08-27T09:45:36Z",
-      "updated_at": "2026-08-27T09:58:13Z",
+      "updated_at": "2026-09-11T19:49:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -964,13 +964,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1614735?v=4"
       },
       "created_at": "2026-09-06T12:03:28Z",
-      "updated_at": "2026-09-06T12:12:04Z",
+      "updated_at": "2026-09-11T19:46:49Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1017,13 +1017,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-08T12:21:59Z",
-      "updated_at": "2026-09-08T12:32:58Z",
+      "updated_at": "2026-09-11T19:54:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2907,14 +2907,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-03T10:48:00Z",
-      "updated_at": "2026-09-08T13:12:24Z",
+      "updated_at": "2026-09-11T19:37:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 1,
-        "has_new_commits": true
+        "has_new_commits": false
       },
       "unresolved_conversations": 7,
       "labels": [
@@ -3753,16 +3753,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-18T13:29:35Z",
-      "updated_at": "2026-09-02T19:44:42Z",
+      "updated_at": "2026-09-11T19:42:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "size: M"
       ]
@@ -4160,13 +4160,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1614735?v=4"
       },
       "created_at": "2026-09-06T12:03:09Z",
-      "updated_at": "2026-09-06T12:04:24Z",
+      "updated_at": "2026-09-11T19:49:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -4739,13 +4739,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1614735?v=4"
       },
       "created_at": "2026-09-06T12:03:18Z",
-      "updated_at": "2026-09-06T12:03:46Z",
+      "updated_at": "2026-09-11T19:51:43Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5523,12 +5523,68 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-13T19:33:59Z",
+    "since": "2026-06-13T20:07:32Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 164,
+        "reviews": 170,
         "prs": [
+          {
+            "title": "docs: require direct unit tests for new helper functions",
+            "url": "https://github.com/conforma/policy/pull/1842",
+            "repo": "conforma/policy",
+            "number": 1842,
+            "author": "dheerajodha",
+            "engaged_at": "2026-09-11T19:54:11Z"
+          },
+          {
+            "title": "Add Codecov configuration (80% patch coverage, informational)",
+            "url": "https://github.com/conforma/crds/pull/33",
+            "repo": "conforma/crds",
+            "number": 33,
+            "author": "eedri",
+            "engaged_at": "2026-09-11T19:51:43Z"
+          },
+          {
+            "title": "Add Codecov configuration (80% patch coverage, informational)",
+            "url": "https://github.com/conforma/config/pull/240",
+            "repo": "conforma/config",
+            "number": 240,
+            "author": "eedri",
+            "engaged_at": "2026-09-11T19:49:22Z"
+          },
+          {
+            "title": "Add Codecov configuration (80% patch coverage, informational)",
+            "url": "https://github.com/conforma/policy/pull/1840",
+            "repo": "conforma/policy",
+            "number": 1840,
+            "author": "eedri",
+            "engaged_at": "2026-09-11T19:46:49Z"
+          },
+          {
+            "title": "Integrate golden RPM validation to acceptance tests",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/226",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 226,
+            "author": "Acepresso",
+            "engaged_at": "2026-09-11T19:42:34Z"
+          },
+          {
+            "title": "Allow PNC SLSA build type for PipelineRun attestations",
+            "url": "https://github.com/conforma/policy/pull/1826",
+            "repo": "conforma/policy",
+            "number": 1826,
+            "author": "vnadempa",
+            "engaged_at": "2026-09-11T19:39:33Z"
+          },
+          {
+            "title": "Automate CPE label update in release branch setup script",
+            "url": "https://github.com/conforma/cli/pull/3536",
+            "repo": "conforma/cli",
+            "number": 3536,
+            "author": "dheerajodha",
+            "engaged_at": "2026-09-11T19:37:24Z"
+          },
           {
             "title": "Establish performance baselines and regression detection",
             "url": "https://github.com/conforma/cli/pull/3441",
@@ -5776,14 +5832,6 @@
             "number": 270,
             "author": "lcarva",
             "engaged_at": "2026-09-08T21:41:02Z"
-          },
-          {
-            "title": "Automate CPE label update in release branch setup script",
-            "url": "https://github.com/conforma/cli/pull/3536",
-            "repo": "conforma/cli",
-            "number": 3536,
-            "author": "dheerajodha",
-            "engaged_at": "2026-09-03T17:01:31Z"
           },
           {
             "title": "chore: add CODEOWNERS designating the devs team as code owners",
@@ -8369,8 +8417,16 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 56,
+        "reviews": 57,
         "prs": [
+          {
+            "title": "Allow PNC SLSA build type for PipelineRun attestations",
+            "url": "https://github.com/conforma/policy/pull/1826",
+            "repo": "conforma/policy",
+            "number": 1826,
+            "author": "vnadempa",
+            "engaged_at": "2026-09-11T19:49:00Z"
+          },
           {
             "title": "chore(deps): Update testcontainers-go and moby/go-archive (v0.7)",
             "url": "https://github.com/conforma/cli/pull/3561",
