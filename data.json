@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T19:09:49.625026912Z",
+  "generated_at": "2026-09-14T19:36:38.900545329Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -865,7 +865,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-02T13:04:08Z",
-      "updated_at": "2026-09-14T19:03:02Z",
+      "updated_at": "2026-09-14T19:15:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -874,10 +874,9 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 10,
+      "unresolved_conversations": 18,
       "labels": [
-        "size: XXL",
-        "risk/moderate"
+        "size: XXL"
       ]
     },
     {
@@ -3163,11 +3162,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-16T19:07:08Z",
+    "since": "2026-06-16T19:33:50Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 168,
+        "reviews": 167,
         "prs": [
           {
             "title": "docs: require direct unit tests for new helper functions",
@@ -4504,14 +4503,6 @@
             "number": 3342,
             "author": "joejstuart",
             "engaged_at": "2026-06-17T18:36:58Z"
-          },
-          {
-            "title": "Add source tarball workflow with CI validation",
-            "url": "https://github.com/conforma/golden-rpm/pull/5",
-            "repo": "conforma/golden-rpm",
-            "number": 5,
-            "author": "Acepresso",
-            "engaged_at": "2026-06-16T19:10:02Z"
           }
         ]
       },
