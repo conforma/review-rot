@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T01:14:51.959653445Z",
+  "generated_at": "2026-09-14T01:51:47.384221849Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5378,32 +5378,6 @@
       ]
     },
     {
-      "title": "Update module github.com/enterprise-contract/enterprise-contract-controller/api to v0.1.296 (main)",
-      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/771",
-      "number": 771,
-      "repo": "enterprise-contract/enterprise-contract-controller",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-14T01:09:34Z",
-      "updated_at": "2026-09-14T01:09:44Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Decommision the acceptable bundles update/push CI",
       "url": "https://github.com/konflux-ci/build-definitions/pull/3834",
       "number": 3834,
@@ -5592,7 +5566,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-16T01:12:18Z",
+    "since": "2026-06-16T01:49:14Z",
     "reviewers": [
       {
         "login": "simonbaird",
