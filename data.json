@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T07:03:19.398709156Z",
+  "generated_at": "2026-09-14T07:33:54.70265525Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3496,6 +3496,32 @@
       ]
     },
     {
+      "title": "docs(#566): document video embed convention for resource entries",
+      "url": "https://github.com/conforma/conforma.github.io/pull/567",
+      "number": 567,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-09-14T07:04:16Z",
+      "updated_at": "2026-09-14T07:16:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS",
+        "risk/moderate",
+        "ready-for-review"
+      ]
+    },
+    {
       "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/golden-container/pull/1495",
       "number": 1495,
@@ -5503,17 +5529,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-11T15:04:42Z",
-      "updated_at": "2026-09-11T15:12:47Z",
+      "updated_at": "2026-09-14T07:14:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "prod/needs-approval"
+      ]
     },
     {
       "title": "EC-1793: Add production environment overlay for enterprise-contract",
@@ -5566,7 +5594,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-16T07:00:38Z",
+    "since": "2026-06-16T07:31:18Z",
     "reviewers": [
       {
         "login": "simonbaird",
