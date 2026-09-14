@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T13:11:33.729704715Z",
+  "generated_at": "2026-09-14T13:40:17.413811637Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1209,13 +1209,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:19:34Z",
-      "updated_at": "2026-09-10T15:25:23Z",
+      "updated_at": "2026-09-14T13:35:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 3,
@@ -2087,32 +2087,6 @@
       ]
     },
     {
-      "title": "Update dependency vite to v6.4.3 [SECURITY] (main)",
-      "url": "https://github.com/conforma/policy-builder/pull/41",
-      "number": 41,
-      "repo": "conforma/policy-builder",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2025-10-21T22:08:06Z",
-      "updated_at": "2026-09-10T17:34:35Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/policy-builder/pull/43",
       "number": 43,
@@ -2148,7 +2122,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-09-12T01:58:56Z",
+      "updated_at": "2026-09-14T13:34:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2162,32 +2136,6 @@
         "main",
         "renovate",
         "major",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Bump js-yaml from 4.1.0 to 4.1.1",
-      "url": "https://github.com/conforma/policy-builder/pull/46",
-      "number": 46,
-      "repo": "conforma/policy-builder",
-      "author": {
-        "login": "dependabot",
-        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
-      },
-      "created_at": "2025-11-15T20:11:04Z",
-      "updated_at": "2025-12-17T06:26:22Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "javascript",
         "size: XS"
       ]
     },
@@ -2215,6 +2163,110 @@
         "main",
         "renovate",
         "major",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "chore(deps): Bump nanoid from 3.3.11 to 3.3.19",
+      "url": "https://github.com/conforma/policy-builder/pull/61",
+      "number": 61,
+      "repo": "conforma/policy-builder",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-09-14T13:34:21Z",
+      "updated_at": "2026-09-14T13:34:32Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "chore(deps): Bump postcss from 8.5.4 to 8.5.28",
+      "url": "https://github.com/conforma/policy-builder/pull/62",
+      "number": 62,
+      "repo": "conforma/policy-builder",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-09-14T13:34:21Z",
+      "updated_at": "2026-09-14T13:34:30Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "chore(deps-dev): Bump js-yaml from 4.1.0 to 4.3.2",
+      "url": "https://github.com/conforma/policy-builder/pull/63",
+      "number": 63,
+      "repo": "conforma/policy-builder",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-09-14T13:34:26Z",
+      "updated_at": "2026-09-14T13:34:36Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "chore(deps-dev): Bump brace-expansion from 1.1.11 to 1.1.18",
+      "url": "https://github.com/conforma/policy-builder/pull/64",
+      "number": 64,
+      "repo": "conforma/policy-builder",
+      "author": {
+        "login": "dependabot",
+        "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4"
+      },
+      "created_at": "2026-09-14T13:34:26Z",
+      "updated_at": "2026-09-14T13:34:36Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "javascript",
         "size: XS"
       ]
     },
@@ -3296,7 +3348,7 @@
       "updated_at": "2026-09-14T13:03:34Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 3,
@@ -3380,7 +3432,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-16T13:08:31Z",
+    "since": "2026-06-16T13:37:25Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -4750,8 +4802,16 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 129,
+        "reviews": 130,
         "prs": [
+          {
+            "title": "🚨 Update github actions (main) (major)",
+            "url": "https://github.com/conforma/conforma.github.io/pull/528",
+            "repo": "conforma/conforma.github.io",
+            "number": 528,
+            "author": "renovate",
+            "engaged_at": "2026-09-14T13:35:48Z"
+          },
           {
             "title": "chore(deps): Update testcontainers-go and moby/go-archive (v0.9)",
             "url": "https://github.com/conforma/cli/pull/3559",
@@ -6261,6 +6321,14 @@
         "reviews": 57,
         "prs": [
           {
+            "title": "Update dependency vite to v6.4.3 [SECURITY] (main)",
+            "url": "https://github.com/conforma/policy-builder/pull/41",
+            "repo": "conforma/policy-builder",
+            "number": 41,
+            "author": "renovate",
+            "engaged_at": "2026-09-14T13:32:16Z"
+          },
+          {
             "title": "Allow PNC SLSA build type for PipelineRun attestations",
             "url": "https://github.com/conforma/policy/pull/1826",
             "repo": "conforma/policy",
@@ -6707,14 +6775,6 @@
             "number": 3341,
             "author": "robnester-rh",
             "engaged_at": "2026-06-16T19:35:22Z"
-          },
-          {
-            "title": "feat(EC-1881): add except_when support to disallowed_attributes rule data",
-            "url": "https://github.com/conforma/policy/pull/1739",
-            "repo": "conforma/policy",
-            "number": 1739,
-            "author": "robnester-rh",
-            "engaged_at": "2026-06-16T13:30:41Z"
           }
         ]
       },
