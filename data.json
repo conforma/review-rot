@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T06:19:25.621955826Z",
+  "generated_at": "2026-09-14T07:03:19.398709156Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3308,7 +3308,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-10T15:26:04Z",
+      "updated_at": "2026-09-14T06:59:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3438,31 +3438,6 @@
         "size: XS",
         "ready-for-merge",
         "risk/low"
-      ]
-    },
-    {
-      "title": "docs: Add blog post about Conforma demo from Red Hat Summit 2026",
-      "url": "https://github.com/conforma/conforma.github.io/pull/548",
-      "number": 548,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
-      },
-      "created_at": "2026-08-25T08:33:18Z",
-      "updated_at": "2026-09-10T18:44:50Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 4,
-      "labels": [
-        "size: S",
-        "ready-for-merge"
       ]
     },
     {
@@ -5152,7 +5127,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T02:44:30Z",
-      "updated_at": "2026-09-14T02:36:21Z",
+      "updated_at": "2026-09-14T06:26:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5169,32 +5144,6 @@
       ]
     },
     {
-      "title": "Update module github.com/tektoncd/pipeline to v1.12.2 (main)",
-      "url": "https://github.com/conforma/e2e-tests/pull/17",
-      "number": 17,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-14T02:36:54Z",
-      "updated_at": "2026-09-14T02:37:02Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "Update module k8s.io/apiextensions-apiserver to v0.36.4 (main)",
       "url": "https://github.com/conforma/e2e-tests/pull/18",
       "number": 18,
@@ -5204,7 +5153,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-14T02:37:12Z",
-      "updated_at": "2026-09-14T02:37:21Z",
+      "updated_at": "2026-09-14T06:26:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5617,7 +5566,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-16T06:16:51Z",
+    "since": "2026-06-16T07:00:38Z",
     "reviewers": [
       {
         "login": "simonbaird",
