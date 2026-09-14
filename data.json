@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:39:35.247933353Z",
+  "generated_at": "2026-09-14T11:10:37.478414401Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5539,7 +5539,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-16T10:36:47Z",
+    "since": "2026-06-16T11:07:58Z",
     "reviewers": [
       {
         "login": "simonbaird",
