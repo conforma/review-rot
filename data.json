@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T04:41:50.081322755Z",
+  "generated_at": "2026-09-15T05:10:54.62473665Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3284,7 +3284,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-14T14:22:10Z",
+      "updated_at": "2026-09-15T04:53:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3298,8 +3298,7 @@
         "main",
         "renovate",
         "size: XXL",
-        "ready-for-merge",
-        "risk/moderate"
+        "ready-for-merge"
       ]
     },
     {
@@ -3340,7 +3339,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-09-15T02:53:02Z",
+      "updated_at": "2026-09-15T04:42:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3382,33 +3381,6 @@
         "size: XS",
         "risk/moderate",
         "ready-for-review"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.38.0 (main)",
-      "url": "https://github.com/conforma/conforma.github.io/pull/568",
-      "number": 568,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-15T02:53:09Z",
-      "updated_at": "2026-09-15T03:04:23Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS",
-        "requires-manual-review"
       ]
     },
     {
@@ -4746,7 +4718,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-09-15T00:56:10Z",
+      "updated_at": "2026-09-15T04:46:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4771,7 +4743,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:23Z",
-      "updated_at": "2026-09-15T00:56:17Z",
+      "updated_at": "2026-09-15T04:48:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4834,31 +4806,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "Update github/codeql-action action to v3.38.0 (main)",
-      "url": "https://github.com/conforma/crds/pull/34",
-      "number": 34,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-15T00:55:43Z",
-      "updated_at": "2026-09-15T00:58:14Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
     },
     {
       "title": "Update npm dependencies (main) (minor)",
@@ -5236,32 +5183,6 @@
       ]
     },
     {
-      "title": "Update module github.com/conforma/crds/api to v0.1.16 (main)",
-      "url": "https://github.com/conforma/e2e-tests/pull/19",
-      "number": 19,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-15T01:28:46Z",
-      "updated_at": "2026-09-15T01:28:57Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
       "url": "https://github.com/conforma/e2e-tests/pull/20",
       "number": 20,
@@ -5271,7 +5192,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-15T01:28:57Z",
-      "updated_at": "2026-09-15T01:29:05Z",
+      "updated_at": "2026-09-15T04:56:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5686,7 +5607,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-17T04:39:11Z",
+    "since": "2026-06-17T05:08:20Z",
     "reviewers": [
       {
         "login": "simonbaird",
