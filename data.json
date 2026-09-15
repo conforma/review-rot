@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T01:48:34.195251445Z",
+  "generated_at": "2026-09-15T02:14:09.014504607Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-09-14T09:21:51Z",
+      "updated_at": "2026-09-15T02:06:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -37,8 +37,7 @@
         "renovate",
         "main",
         "size: XXL",
-        "ready-for-merge",
-        "risk/moderate"
+        "ready-for-merge"
       ]
     },
     {
@@ -51,7 +50,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-09-13T17:11:35Z",
+      "updated_at": "2026-09-15T02:08:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -66,9 +65,7 @@
         "go",
         "renovate",
         "release-v0.7",
-        "size: XS",
-        "ready-for-merge",
-        "risk/low"
+        "size: XS"
       ]
     },
     {
@@ -105,7 +102,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T00:39:19Z",
-      "updated_at": "2026-09-14T19:51:55Z",
+      "updated_at": "2026-09-15T01:59:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -188,7 +185,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:13Z",
-      "updated_at": "2026-09-08T18:59:06Z",
+      "updated_at": "2026-09-15T02:01:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -217,7 +214,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-14T15:07:56Z",
+      "updated_at": "2026-09-15T02:07:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -232,7 +229,8 @@
         "go",
         "renovate",
         "main",
-        "size: XS"
+        "size: XS",
+        "risk/low"
       ]
     },
     {
@@ -915,7 +913,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-09-13T17:13:48Z",
+      "updated_at": "2026-09-15T02:03:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1022,7 +1020,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-09T02:51:44Z",
-      "updated_at": "2026-09-10T17:26:57Z",
+      "updated_at": "2026-09-15T02:02:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1076,19 +1074,46 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-14T23:02:00Z",
-      "updated_at": "2026-09-14T23:38:58Z",
+      "updated_at": "2026-09-15T02:02:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 4,
       "labels": [
         "documentation",
         "size: L"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.0 (main)",
+      "url": "https://github.com/conforma/policy/pull/1849",
+      "number": 1849,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-15T01:58:42Z",
+      "updated_at": "2026-09-15T02:07:40Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -1295,7 +1320,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-09-14T02:34:11Z",
+      "updated_at": "2026-09-15T02:09:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1990,7 +2015,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-09-09T20:41:32Z",
+      "updated_at": "2026-09-15T02:06:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2457,7 +2482,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T01:53:18Z",
-      "updated_at": "2026-09-09T19:00:10Z",
+      "updated_at": "2026-09-15T02:07:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3065,7 +3090,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.0 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.1 (main)",
       "url": "https://github.com/conforma/cli/pull/3555",
       "number": 3555,
       "repo": "conforma/cli",
@@ -3074,7 +3099,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-10T03:03:17Z",
-      "updated_at": "2026-09-10T03:10:22Z",
+      "updated_at": "2026-09-15T02:07:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3145,7 +3170,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.0 (release-v0.7)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.1 (release-v0.7)",
       "url": "https://github.com/conforma/cli/pull/3563",
       "number": 3563,
       "repo": "conforma/cli",
@@ -3154,7 +3179,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T02:39:11Z",
-      "updated_at": "2026-09-11T02:46:14Z",
+      "updated_at": "2026-09-15T02:08:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3426,7 +3451,7 @@
       "updated_at": "2026-09-15T01:32:28Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3478,7 +3503,7 @@
       "updated_at": "2026-09-15T01:32:24Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3724,6 +3749,32 @@
       ]
     },
     {
+      "title": "Update github/codeql-action action to v4.38.0 (main)",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/233",
+      "number": 233,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-15T01:49:18Z",
+      "updated_at": "2026-09-15T01:49:28Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "🚨 Update github actions to v7 (main)",
       "url": "https://github.com/conforma/user-guide/pull/233",
       "number": 233,
@@ -3803,6 +3854,32 @@
         "github_actions",
         "size: L",
         "risk/moderate"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.0 (main)",
+      "url": "https://github.com/conforma/user-guide/pull/253",
+      "number": 253,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-15T02:07:25Z",
+      "updated_at": "2026-09-15T02:08:32Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
       ]
     },
     {
@@ -4053,6 +4130,58 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.0 (main)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/271",
+      "number": 271,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-15T02:03:19Z",
+      "updated_at": "2026-09-15T02:03:32Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.0 (release-v0.7)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/272",
+      "number": 272,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-15T02:03:28Z",
+      "updated_at": "2026-09-15T02:03:49Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "release-v0.7",
+        "size: XS"
+      ]
     },
     {
       "title": "🚨 Update github actions (main) (major)",
@@ -4686,13 +4815,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-10T19:52:09Z",
-      "updated_at": "2026-09-11T19:21:16Z",
+      "updated_at": "2026-09-15T01:59:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4896,6 +5025,32 @@
         "main",
         "renovate",
         "major"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.0 (main)",
+      "url": "https://github.com/conforma/golden-rpm/pull/24",
+      "number": 24,
+      "repo": "conforma/golden-rpm",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-15T02:07:26Z",
+      "updated_at": "2026-09-15T02:07:35Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
       ]
     },
     {
@@ -5399,7 +5554,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-17T01:46:19Z",
+    "since": "2026-06-17T02:11:43Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -6761,8 +6916,24 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 144,
+        "reviews": 146,
         "prs": [
+          {
+            "title": "docs(policy): document signing identity configuration",
+            "url": "https://github.com/conforma/policy/pull/1848",
+            "repo": "conforma/policy",
+            "number": 1848,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-15T02:02:25Z"
+          },
+          {
+            "title": "docs(EC-1939): document SLSA provenance in generate-policy README",
+            "url": "https://github.com/conforma/claude-skills/pull/27",
+            "repo": "conforma/claude-skills",
+            "number": 27,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-15T01:59:08Z"
+          },
           {
             "title": "🚨 Update github actions (main) (major)",
             "url": "https://github.com/conforma/policy/pull/1679",
