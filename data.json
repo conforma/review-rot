@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T12:14:06.861571512Z",
+  "generated_at": "2026-09-15T12:47:21.899617544Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3903,30 +3903,6 @@
       "labels": []
     },
     {
-      "title": "chore: sync task and pipeline definitions to main",
-      "url": "https://github.com/conforma/tekton-catalog/pull/264",
-      "number": 264,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "github-actions",
-        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
-      },
-      "created_at": "2026-08-20T12:58:02Z",
-      "updated_at": "2026-09-15T11:32:44Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XXL"
-      ]
-    },
-    {
       "title": "🚨 Update github actions (main) (major)",
       "url": "https://github.com/conforma/action-validate-image/pull/440",
       "number": 440,
@@ -5220,7 +5196,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-17T12:11:21Z",
+    "since": "2026-06-17T12:44:33Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9474,8 +9450,16 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 18,
+        "reviews": 19,
         "prs": [
+          {
+            "title": "chore: sync task and pipeline definitions to main",
+            "url": "https://github.com/conforma/tekton-catalog/pull/264",
+            "repo": "conforma/tekton-catalog",
+            "number": 264,
+            "author": "github-actions",
+            "engaged_at": "2026-09-15T12:22:44Z"
+          },
           {
             "title": "fix(deps): update github/codeql-action action to v4.38.0 (main)",
             "url": "https://github.com/conforma/go-gather/pull/347",
