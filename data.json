@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T19:36:45.360204299Z",
+  "generated_at": "2026-09-15T20:10:52.568071253Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1365,7 +1365,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-15T19:24:25Z",
+      "updated_at": "2026-09-15T19:44:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1395,10 +1395,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-09-15T19:23:23Z",
+      "updated_at": "2026-09-15T19:45:04Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -2297,7 +2297,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T01:53:10Z",
-      "updated_at": "2026-09-15T19:30:41Z",
+      "updated_at": "2026-09-15T19:36:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2313,7 +2313,8 @@
         "renovate",
         "release-v0.7",
         "size: XS",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -2326,7 +2327,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T01:53:18Z",
-      "updated_at": "2026-09-15T19:30:56Z",
+      "updated_at": "2026-09-15T19:38:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2355,7 +2356,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T02:23:49Z",
-      "updated_at": "2026-09-15T13:26:13Z",
+      "updated_at": "2026-09-15T19:42:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2973,7 +2974,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T03:04:00Z",
-      "updated_at": "2026-09-15T15:51:29Z",
+      "updated_at": "2026-09-15T19:44:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2987,31 +2988,7 @@
         "renovate",
         "release-v0.7",
         "size: XL",
-        "ready-for-merge"
-      ]
-    },
-    {
-      "title": "chore(deps): Update ubi-minimal base image (v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3569",
-      "number": 3569,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-09-15T15:36:56Z",
-      "updated_at": "2026-09-15T17:57:01Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
+        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -3025,13 +3002,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-15T15:39:11Z",
-      "updated_at": "2026-09-15T17:57:10Z",
+      "updated_at": "2026-09-15T19:47:30Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4609,7 +4586,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-17T19:33:51Z",
+    "since": "2026-06-17T20:08:06Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7297,8 +7274,24 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 64,
+        "reviews": 66,
         "prs": [
+          {
+            "title": "chore(deps): Update ubi-minimal base image (v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3571",
+            "repo": "conforma/cli",
+            "number": 3571,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-15T19:47:30Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3569",
+            "repo": "conforma/cli",
+            "number": 3569,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-15T19:47:20Z"
+          },
           {
             "title": "Update registry.access.redhat.com/ubi9/go-toolset:1.26.7 Docker digest to 685ccca (main)",
             "url": "https://github.com/conforma/cli/pull/3566",
