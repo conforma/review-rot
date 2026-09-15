@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15T18:41:17.591780707Z",
+  "generated_at": "2026-09-15T19:09:47.330456334Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,10 +21,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-09-15T18:31:13Z",
+      "updated_at": "2026-09-15T19:04:47Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "count": 0,
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-09-15T18:22:28Z",
+      "updated_at": "2026-09-15T19:04:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -188,11 +188,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-15T18:28:24Z",
+      "updated_at": "2026-09-15T19:04:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XL",
+      "size": "XXL",
       "reviews": {
         "count": 0,
         "has_new_commits": false
@@ -203,7 +203,7 @@
         "go",
         "renovate",
         "main",
-        "size: XL",
+        "size: XXL",
         "ready-for-merge"
       ]
     },
@@ -349,7 +349,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-09-15T18:23:42Z",
+      "updated_at": "2026-09-15T19:05:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -803,31 +803,6 @@
       ]
     },
     {
-      "title": "EC-2162: Verify ITS PipelineRuns use trusted tasks",
-      "url": "https://github.com/conforma/policy/pull/1829",
-      "number": 1829,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-09-02T13:04:08Z",
-      "updated_at": "2026-09-15T15:50:50Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XXL",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 9,
-      "labels": [
-        "size: XXL",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update go modules (release-v0.8) (minor)",
       "url": "https://github.com/conforma/policy/pull/1839",
       "number": 1839,
@@ -837,7 +812,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-09-15T18:37:24Z",
+      "updated_at": "2026-09-15T18:37:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -944,13 +919,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
       },
       "created_at": "2026-09-15T08:27:54Z",
-      "updated_at": "2026-09-15T13:25:26Z",
+      "updated_at": "2026-09-15T18:37:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 2,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
@@ -959,6 +934,31 @@
         "size: XS",
         "requires-manual-review",
         "risk/moderate"
+      ]
+    },
+    {
+      "title": "docs(#1853): guardrail for acceptance shims reusing production packages",
+      "url": "https://github.com/conforma/policy/pull/1854",
+      "number": 1854,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
+      },
+      "created_at": "2026-09-15T18:45:45Z",
+      "updated_at": "2026-09-15T18:53:44Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: L",
+        "ready-for-review"
       ]
     },
     {
@@ -2182,13 +2182,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-07-20T20:19:16Z",
-      "updated_at": "2026-08-17T13:34:47Z",
+      "updated_at": "2026-09-15T18:38:05Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 2,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2813,13 +2813,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-03T10:48:00Z",
-      "updated_at": "2026-09-11T19:37:24Z",
+      "updated_at": "2026-09-15T18:38:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 7,
@@ -4028,13 +4028,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1614735?v=4"
       },
       "created_at": "2026-09-06T12:03:18Z",
-      "updated_at": "2026-09-11T19:51:43Z",
+      "updated_at": "2026-09-15T18:39:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4269,7 +4269,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T02:44:30Z",
-      "updated_at": "2026-09-14T14:03:02Z",
+      "updated_at": "2026-09-15T18:52:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4281,32 +4281,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XL",
-        "main",
-        "renovate"
-      ]
-    },
-    {
-      "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
-      "url": "https://github.com/conforma/e2e-tests/pull/20",
-      "number": 20,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-15T01:28:57Z",
-      "updated_at": "2026-09-15T08:54:09Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
         "main",
         "renovate"
       ]
@@ -4541,6 +4515,99 @@
       ]
     },
     {
+      "title": "new policy source param",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2160",
+      "number": 2160,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-04-16T04:03:04Z",
+      "updated_at": "2026-05-29T00:31:32Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(EC-1794): remove dead verify_ec_task params from managed pipelines",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2379",
+      "number": 2379,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-13T17:29:20Z",
+      "updated_at": "2026-09-15T08:31:45Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 4,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "Review effort 2/5",
+        "prod/needs-approval"
+      ]
+    },
+    {
+      "title": "fix(EC-1994): bump conforma.workerCount fallback default from 4 to 5",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2463",
+      "number": 2463,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-08-13T15:17:24Z",
+      "updated_at": "2026-09-15T13:52:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 4,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore: bump Conforma version",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2545",
+      "number": 2545,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-09-11T15:04:42Z",
+      "updated_at": "2026-09-15T08:29:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 3,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "prod/needs-approval"
+      ]
+    },
+    {
       "title": "EC-1793: Add production environment overlay for enterprise-contract",
       "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13955",
       "number": 13955,
@@ -4591,7 +4658,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-17T18:38:29Z",
+    "since": "2026-06-17T19:06:57Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -5961,8 +6028,16 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 162,
+        "reviews": 164,
         "prs": [
+          {
+            "title": "EC-2162: Verify ITS PipelineRuns use trusted tasks",
+            "url": "https://github.com/conforma/policy/pull/1829",
+            "repo": "conforma/policy",
+            "number": 1829,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-15T18:39:32Z"
+          },
           {
             "title": "Add Codecov configuration (80% patch coverage, informational)",
             "url": "https://github.com/conforma/crds/pull/33",
@@ -5970,6 +6045,14 @@
             "number": 33,
             "author": "eedri",
             "engaged_at": "2026-09-15T18:39:07Z"
+          },
+          {
+            "title": "Automate CPE label update in release branch setup script",
+            "url": "https://github.com/conforma/cli/pull/3536",
+            "repo": "conforma/cli",
+            "number": 3536,
+            "author": "dheerajodha",
+            "engaged_at": "2026-09-15T18:38:44Z"
           },
           {
             "title": "fix(EC-1994): correct off-by-one in validate image worker loop",
