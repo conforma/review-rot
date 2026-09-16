@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T04:41:17.775705046Z",
+  "generated_at": "2026-09-16T05:10:41.26133185Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2238,7 +2238,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-09-16T02:02:47Z",
+      "updated_at": "2026-09-16T04:48:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3005,7 +3005,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T03:04:00Z",
-      "updated_at": "2026-09-16T02:03:18Z",
+      "updated_at": "2026-09-16T04:49:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3055,7 +3055,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-16T01:11:07Z",
+      "updated_at": "2026-09-16T05:06:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3153,34 +3153,6 @@
         "size: XS",
         "risk/moderate",
         "ready-for-review"
-      ]
-    },
-    {
-      "title": "Update conforma/.fullsend digest to e8f0a9f (main)",
-      "url": "https://github.com/conforma/conforma.github.io/pull/569",
-      "number": 569,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-16T01:11:01Z",
-      "updated_at": "2026-09-16T01:24:36Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
       ]
     },
     {
@@ -4596,7 +4568,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T04:38:45Z",
+    "since": "2026-06-18T05:08:04Z",
     "reviewers": [
       {
         "login": "simonbaird",
