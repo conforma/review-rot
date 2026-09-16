@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T21:37:03.303086623Z",
+  "generated_at": "2026-09-16T22:10:17.816611953Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -960,6 +960,32 @@
         "main",
         "size: XS",
         "requires-manual-review",
+        "risk/low"
+      ]
+    },
+    {
+      "title": "Mock ec.oci.parsed_blob",
+      "url": "https://github.com/conforma/policy/pull/1856",
+      "number": 1856,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-09-16T21:44:28Z",
+      "updated_at": "2026-09-16T21:52:18Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "ready-for-merge",
         "risk/low"
       ]
     },
@@ -3353,8 +3379,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-16T15:21:30Z",
-      "updated_at": "2026-09-16T17:31:52Z",
-      "is_draft": true,
+      "updated_at": "2026-09-16T22:01:59Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
@@ -3362,7 +3388,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "size: XXL"
       ]
@@ -4378,99 +4404,6 @@
       ]
     },
     {
-      "title": "new policy source param",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2160",
-      "number": 2160,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-04-16T04:03:04Z",
-      "updated_at": "2026-05-29T00:31:32Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat(EC-1794): remove dead verify_ec_task params from managed pipelines",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2379",
-      "number": 2379,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-15T08:31:45Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "Review effort 2/5",
-        "prod/needs-approval"
-      ]
-    },
-    {
-      "title": "fix(EC-1994): bump conforma.workerCount fallback default from 4 to 5",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2463",
-      "number": 2463,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-09-15T13:52:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: bump Conforma version",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2545",
-      "number": 2545,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-09-11T15:04:42Z",
-      "updated_at": "2026-09-16T17:32:38Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "prod/needs-approval"
-      ]
-    },
-    {
       "title": "EC-1793: Add production environment overlay for enterprise-contract",
       "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13955",
       "number": 13955,
@@ -4521,7 +4454,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T21:34:34Z",
+    "since": "2026-06-18T22:07:14Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -5899,8 +5832,16 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 165,
+        "reviews": 166,
         "prs": [
+          {
+            "title": "Mock ec.oci.parsed_blob",
+            "url": "https://github.com/conforma/policy/pull/1856",
+            "repo": "conforma/policy",
+            "number": 1856,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-16T21:45:38Z"
+          },
           {
             "title": "Update dependency golang to v1.27.1 (main)",
             "url": "https://github.com/conforma/policy/pull/1689",
