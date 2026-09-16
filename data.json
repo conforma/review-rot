@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T05:10:41.26133185Z",
+  "generated_at": "2026-09-16T05:40:08.219497451Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3055,7 +3055,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-16T05:06:57Z",
+      "updated_at": "2026-09-16T05:19:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3068,8 +3068,7 @@
       "labels": [
         "main",
         "renovate",
-        "size: XXL",
-        "ready-for-merge"
+        "size: XXL"
       ]
     },
     {
@@ -3386,33 +3385,6 @@
       ]
     },
     {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/user-guide/pull/254",
-      "number": 254,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-16T01:36:46Z",
-      "updated_at": "2026-09-16T01:47:11Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "🚨 Update actions/checkout action to v7 (main)",
       "url": "https://github.com/conforma/user-guide/pull/255",
       "number": 255,
@@ -3422,7 +3394,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-16T01:36:55Z",
-      "updated_at": "2026-09-16T01:43:39Z",
+      "updated_at": "2026-09-16T05:36:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4144,32 +4116,6 @@
       ]
     },
     {
-      "title": "Update module github.com/conforma/crds/api to v0.1.17 (main)",
-      "url": "https://github.com/conforma/e2e-tests/pull/21",
-      "number": 21,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-16T00:49:31Z",
-      "updated_at": "2026-09-16T00:49:52Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "Update module github.com/tektoncd/pipeline to v1.16.0 (main)",
       "url": "https://github.com/conforma/e2e-tests/pull/22",
       "number": 22,
@@ -4179,7 +4125,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-16T00:50:10Z",
-      "updated_at": "2026-09-16T00:50:20Z",
+      "updated_at": "2026-09-16T05:30:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4230,7 +4176,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-09-15T18:16:52Z",
+      "updated_at": "2026-09-16T05:26:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4283,7 +4229,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-09-15T05:11:40Z",
+      "updated_at": "2026-09-16T05:25:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4309,7 +4255,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-09-16T00:45:19Z",
+      "updated_at": "2026-09-16T05:25:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4568,7 +4514,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T05:08:04Z",
+    "since": "2026-06-18T05:37:30Z",
     "reviewers": [
       {
         "login": "simonbaird",
