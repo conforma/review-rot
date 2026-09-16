@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T16:40:08.02455553Z",
+  "generated_at": "2026-09-16T17:10:08.679104567Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3352,7 +3352,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-16T15:21:30Z",
-      "updated_at": "2026-09-16T16:25:26Z",
+      "updated_at": "2026-09-16T16:49:05Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3361,7 +3361,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XXL"
       ]
@@ -4520,7 +4520,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T16:37:08Z",
+    "since": "2026-06-18T17:07:17Z",
     "reviewers": [
       {
         "login": "simonbaird",
