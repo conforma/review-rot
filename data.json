@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T01:09:26.324534421Z",
+  "generated_at": "2026-09-16T01:47:16.357843352Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -187,7 +187,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-15T19:12:14Z",
+      "updated_at": "2026-09-16T01:29:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -959,6 +959,34 @@
       "labels": [
         "size: L",
         "ready-for-review"
+      ]
+    },
+    {
+      "title": "Update conforma/.fullsend digest to e8f0a9f (main)",
+      "url": "https://github.com/conforma/policy/pull/1855",
+      "number": 1855,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-16T01:28:57Z",
+      "updated_at": "2026-09-16T01:37:52Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -3024,7 +3052,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-15T18:03:23Z",
+      "updated_at": "2026-09-16T01:11:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3122,6 +3150,34 @@
         "size: XS",
         "risk/moderate",
         "ready-for-review"
+      ]
+    },
+    {
+      "title": "Update conforma/.fullsend digest to e8f0a9f (main)",
+      "url": "https://github.com/conforma/conforma.github.io/pull/569",
+      "number": 569,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-16T01:11:01Z",
+      "updated_at": "2026-09-16T01:24:36Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -3431,6 +3487,60 @@
         "documentation",
         "size: XS",
         "ready-for-merge"
+      ]
+    },
+    {
+      "title": "Update github actions (main) (minor)",
+      "url": "https://github.com/conforma/user-guide/pull/254",
+      "number": 254,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-16T01:36:46Z",
+      "updated_at": "2026-09-16T01:38:00Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "🚨 Update actions/checkout action to v7 (main)",
+      "url": "https://github.com/conforma/user-guide/pull/255",
+      "number": 255,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-16T01:36:55Z",
+      "updated_at": "2026-09-16T01:43:39Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "major",
+        "requires-manual-review"
       ]
     },
     {
@@ -4561,7 +4671,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T01:06:57Z",
+    "since": "2026-06-18T01:44:30Z",
     "reviewers": [
       {
         "login": "simonbaird",
