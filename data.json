@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T19:36:33.11300662Z",
+  "generated_at": "2026-09-16T20:11:14.357450525Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4544,11 +4544,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T19:33:49Z",
+    "since": "2026-06-18T20:08:33Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 174,
+        "reviews": 172,
         "prs": [
           {
             "title": "chore: bump Conforma version",
@@ -5925,22 +5925,6 @@
             "number": 7,
             "author": "cuipinghuo",
             "engaged_at": "2026-06-18T20:17:41Z"
-          },
-          {
-            "title": "feat: Ignore local go dependencies when using proxy",
-            "url": "https://github.com/conforma/policy/pull/1745",
-            "repo": "conforma/policy",
-            "number": 1745,
-            "author": "a-ovchinnikov",
-            "engaged_at": "2026-06-18T19:45:33Z"
-          },
-          {
-            "title": "refactor(EC-1836): centralize blob parsing via oci.parsed_blob",
-            "url": "https://github.com/conforma/policy/pull/1746",
-            "repo": "conforma/policy",
-            "number": 1746,
-            "author": "robnester-rh",
-            "engaged_at": "2026-06-18T19:44:28Z"
           }
         ]
       },
