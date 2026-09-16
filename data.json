@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T20:11:14.357450525Z",
+  "generated_at": "2026-09-16T20:39:25.287864432Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4544,11 +4544,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T20:08:33Z",
+    "since": "2026-06-18T20:36:38Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 172,
+        "reviews": 171,
         "prs": [
           {
             "title": "chore: bump Conforma version",
@@ -5917,14 +5917,6 @@
             "number": 1758,
             "author": "joejstuart",
             "engaged_at": "2026-06-22T16:21:33Z"
-          },
-          {
-            "title": "  Add debug log output to redhat release policy test and remove unnec…",
-            "url": "https://github.com/conforma/e2e-tests/pull/7",
-            "repo": "conforma/e2e-tests",
-            "number": 7,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-06-18T20:17:41Z"
           }
         ]
       },
