@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T10:10:50.046378293Z",
+  "generated_at": "2026-09-16T10:39:11.217222898Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1272,7 +1272,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-15T19:30:08Z",
+      "updated_at": "2026-09-16T10:18:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1289,8 +1289,7 @@
         "main",
         "size: XXL",
         "Review effort 1/5",
-        "ready-for-merge",
-        "risk/moderate"
+        "ready-for-merge"
       ]
     },
     {
@@ -1303,7 +1302,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-09-15T13:14:45Z",
+      "updated_at": "2026-09-16T10:20:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1333,7 +1332,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-09-15T16:01:05Z",
+      "updated_at": "2026-09-16T10:21:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1350,8 +1349,7 @@
         "main",
         "size: M",
         "ci",
-        "requires-manual-review",
-        "risk/moderate"
+        "requires-manual-review"
       ]
     },
     {
@@ -1364,7 +1362,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:48Z",
-      "updated_at": "2026-09-15T13:20:56Z",
+      "updated_at": "2026-09-16T10:19:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1393,7 +1391,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-16T03:32:12Z",
+      "updated_at": "2026-09-16T10:11:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1423,7 +1421,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-09-15T19:45:04Z",
+      "updated_at": "2026-09-16T10:12:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -1455,7 +1453,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-09-16T02:03:16Z",
+      "updated_at": "2026-09-16T10:25:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1484,7 +1482,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:50:01Z",
-      "updated_at": "2026-09-15T13:11:23Z",
+      "updated_at": "2026-09-16T10:29:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1493,16 +1491,14 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 33,
+      "unresolved_conversations": 37,
       "labels": [
         "dependencies",
         "go",
         "renovate",
         "major",
         "release-v0.7",
-        "size: M",
-        "requires-manual-review",
-        "risk/moderate"
+        "size: M"
       ]
     },
     {
@@ -1860,7 +1856,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-09-16T10:05:01Z",
+      "updated_at": "2026-09-16T10:10:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1890,7 +1886,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-09-16T10:05:17Z",
+      "updated_at": "2026-09-16T10:11:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1899,7 +1895,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 49,
+      "unresolved_conversations": 50,
       "labels": [
         "dependencies",
         "go",
@@ -1907,7 +1903,8 @@
         "renovate",
         "main",
         "size: XS",
-        "requires-manual-review"
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -1980,7 +1977,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-09-15T19:27:14Z",
+      "updated_at": "2026-09-16T10:14:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1996,7 +1993,8 @@
         "renovate",
         "main",
         "size: XS",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -2207,7 +2205,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-09-16T04:48:42Z",
+      "updated_at": "2026-09-16T10:18:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2323,7 +2321,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T02:23:49Z",
-      "updated_at": "2026-09-15T19:42:27Z",
+      "updated_at": "2026-09-16T10:12:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2943,7 +2941,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T03:04:00Z",
-      "updated_at": "2026-09-16T04:49:07Z",
+      "updated_at": "2026-09-16T10:13:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4472,7 +4470,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T10:08:07Z",
+    "since": "2026-06-18T10:36:43Z",
     "reviewers": [
       {
         "login": "simonbaird",
