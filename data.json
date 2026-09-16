@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T13:40:09.879261429Z",
+  "generated_at": "2026-09-16T14:11:49.187902511Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -156,7 +156,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-09-16T13:06:06Z",
+      "updated_at": "2026-09-16T14:03:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -185,7 +185,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-16T13:03:59Z",
+      "updated_at": "2026-09-16T14:03:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -347,7 +347,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-09-16T13:07:53Z",
+      "updated_at": "2026-09-16T14:04:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -501,7 +501,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478487?v=4"
       },
       "created_at": "2026-07-07T08:47:27Z",
-      "updated_at": "2026-07-09T10:14:07Z",
+      "updated_at": "2026-09-16T14:03:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -921,7 +921,7 @@
       "updated_at": "2026-09-16T08:31:10Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 4,
@@ -961,7 +961,7 @@
       ]
     },
     {
-      "title": "Update conforma/.fullsend digest to e8f0a9f (main)",
+      "title": "Update conforma/.fullsend digest to f44ff36 (main)",
       "url": "https://github.com/conforma/policy/pull/1855",
       "number": 1855,
       "repo": "conforma/policy",
@@ -970,7 +970,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-16T01:28:57Z",
-      "updated_at": "2026-09-16T13:00:42Z",
+      "updated_at": "2026-09-16T14:03:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1271,7 +1271,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-16T10:18:20Z",
+      "updated_at": "2026-09-16T14:04:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1390,7 +1390,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-16T10:11:58Z",
+      "updated_at": "2026-09-16T14:05:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1420,7 +1420,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-09-16T10:12:35Z",
+      "updated_at": "2026-09-16T14:05:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -1976,7 +1976,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-09-16T10:14:34Z",
+      "updated_at": "2026-09-16T14:04:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2125,7 +2125,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478487?v=4"
       },
       "created_at": "2026-07-09T10:02:49Z",
-      "updated_at": "2026-09-14T19:02:33Z",
+      "updated_at": "2026-09-16T14:03:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2204,7 +2204,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-09-16T10:18:19Z",
+      "updated_at": "2026-09-16T14:04:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2320,7 +2320,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T02:23:49Z",
-      "updated_at": "2026-09-16T10:12:26Z",
+      "updated_at": "2026-09-16T14:05:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2940,7 +2940,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T03:04:00Z",
-      "updated_at": "2026-09-16T10:13:37Z",
+      "updated_at": "2026-09-16T14:05:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3016,7 +3016,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-09-15T18:18:10Z",
+      "updated_at": "2026-09-16T14:04:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3087,6 +3087,30 @@
         "size: XS",
         "risk/moderate",
         "ready-for-review"
+      ]
+    },
+    {
+      "title": "chore: update fullsend shim workflow",
+      "url": "https://github.com/conforma/conforma.github.io/pull/570",
+      "number": 570,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "fullsend-ai-fullsend",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478487?v=4"
+      },
+      "created_at": "2026-09-16T14:03:01Z",
+      "updated_at": "2026-09-16T14:05:13Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -3369,6 +3393,30 @@
         "size: XS",
         "major",
         "requires-manual-review"
+      ]
+    },
+    {
+      "title": "chore: update fullsend shim workflow",
+      "url": "https://github.com/conforma/user-guide/pull/256",
+      "number": 256,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "fullsend-ai-fullsend",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478487?v=4"
+      },
+      "created_at": "2026-09-16T14:03:17Z",
+      "updated_at": "2026-09-16T14:03:30Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -4084,7 +4132,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T02:03:26Z",
-      "updated_at": "2026-09-16T01:45:24Z",
+      "updated_at": "2026-09-16T14:03:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -4098,28 +4146,6 @@
         "main",
         "renovate"
       ]
-    },
-    {
-      "title": "Reduce low-value Fullsend bot output",
-      "url": "https://github.com/conforma/.fullsend/pull/16",
-      "number": 16,
-      "repo": "conforma/.fullsend",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-09-16T09:56:21Z",
-      "updated_at": "2026-09-16T10:37:29Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "Update go modules (main) (minor)",
@@ -4469,7 +4495,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-18T13:37:09Z",
+    "since": "2026-06-18T14:08:49Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7173,8 +7199,16 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 66,
+        "reviews": 67,
         "prs": [
+          {
+            "title": "Reduce low-value Fullsend bot output",
+            "url": "https://github.com/conforma/.fullsend/pull/16",
+            "repo": "conforma/.fullsend",
+            "number": 16,
+            "author": "st3penta",
+            "engaged_at": "2026-09-16T14:02:20Z"
+          },
           {
             "title": "chore(deps): Update ubi-minimal base image (v0.9)",
             "url": "https://github.com/conforma/cli/pull/3571",
