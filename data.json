@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T14:40:27.302384701Z",
+  "generated_at": "2026-09-17T15:11:32.500941489Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -813,7 +813,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1614735?v=4"
       },
       "created_at": "2026-09-06T12:03:28Z",
-      "updated_at": "2026-09-17T13:26:10Z",
+      "updated_at": "2026-09-17T14:43:40Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3307,6 +3307,30 @@
       ]
     },
     {
+      "title": "feat: Allow watching all PRs on non-org repositories",
+      "url": "https://github.com/conforma/review-rot/pull/258",
+      "number": 258,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "jannfis",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
+      },
+      "created_at": "2026-09-17T14:38:46Z",
+      "updated_at": "2026-09-17T14:42:29Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XL"
+      ]
+    },
+    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -4468,6 +4492,99 @@
       ]
     },
     {
+      "title": "new policy source param",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2160",
+      "number": 2160,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-04-16T04:03:04Z",
+      "updated_at": "2026-05-29T00:31:32Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "feat(EC-1794): remove dead verify_ec_task params from managed pipelines",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2379",
+      "number": 2379,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-07-13T17:29:20Z",
+      "updated_at": "2026-09-15T08:31:45Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 4,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "Review effort 2/5",
+        "prod/needs-approval"
+      ]
+    },
+    {
+      "title": "fix(EC-1994): bump conforma.workerCount fallback default from 4 to 5",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2463",
+      "number": 2463,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-08-13T15:17:24Z",
+      "updated_at": "2026-09-15T13:52:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 4,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
+      "title": "chore: bump Conforma version",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2545",
+      "number": 2545,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-09-11T15:04:42Z",
+      "updated_at": "2026-09-16T17:32:38Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 4,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "prod/needs-approval"
+      ]
+    },
+    {
       "title": "EC-1793: Add production environment overlay for enterprise-contract",
       "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13955",
       "number": 13955,
@@ -4518,7 +4635,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-19T14:37:24Z",
+    "since": "2026-06-19T15:08:29Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7788,7 +7905,7 @@
             "repo": "conforma/policy",
             "number": 1840,
             "author": "eedri",
-            "engaged_at": "2026-09-17T13:16:35Z"
+            "engaged_at": "2026-09-17T14:43:40Z"
           },
           {
             "title": "Add Codecov configuration (80% patch coverage, informational)",
