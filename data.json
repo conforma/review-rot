@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T21:09:54.816119368Z",
+  "generated_at": "2026-09-17T21:37:03.659340909Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3342,7 +3342,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/15952?v=4"
       },
       "created_at": "2026-09-17T20:24:33Z",
-      "updated_at": "2026-09-17T20:25:45Z",
+      "updated_at": "2026-09-17T21:21:14Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3351,7 +3351,7 @@
         "count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "size: S"
       ]
@@ -4518,99 +4518,6 @@
       ]
     },
     {
-      "title": "new policy source param",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2160",
-      "number": 2160,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-04-16T04:03:04Z",
-      "updated_at": "2026-05-29T00:31:32Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat(EC-1794): remove dead verify_ec_task params from managed pipelines",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2379",
-      "number": 2379,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-15T08:31:45Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "Review effort 2/5",
-        "prod/needs-approval"
-      ]
-    },
-    {
-      "title": "fix(EC-1994): bump conforma.workerCount fallback default from 4 to 5",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2463",
-      "number": 2463,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-09-15T13:52:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: bump Conforma version",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2545",
-      "number": 2545,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-09-11T15:04:42Z",
-      "updated_at": "2026-09-17T20:53:49Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "prod/needs-approval"
-      ]
-    },
-    {
       "title": "EC-1793: Add production environment overlay for enterprise-contract",
       "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13955",
       "number": 13955,
@@ -4661,7 +4568,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-19T21:07:18Z",
+    "since": "2026-06-19T21:34:14Z",
     "reviewers": [
       {
         "login": "simonbaird",
