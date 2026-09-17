@@ -33,7 +33,11 @@ leaderboard:
   window_days: 90
 
 # Team members — PRs from these authors are always shown,
-# even in repos outside the orgs above
+# even in repos outside the orgs above.
+#
+# Expanding groups is supported using "@orgname/teamname" syntax. The app 
+# will need permissions to read the org's members in order to read your
+# teams.
 authors:
   - Acepresso
   - cuipinghuo

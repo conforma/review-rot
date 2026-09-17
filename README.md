@@ -43,6 +43,13 @@ number of distinct PRs they reviewed or commented on across the monitored repos.
 It counts activity on PRs of any state (open, merged, or closed) and excludes
 bots and self-reviews. If `authors` is empty, every reviewer is ranked.
 
+The `authors` list supports two formats:
+- **Plain usernames**: `olivergondza`, `jannfis`
+- **Team references**: `@organization/teamname` — expanded to member logins at startup
+
+When using team references, the GitHub App must have **Organization members: Read**
+permission to query team membership.
+
 `leaderboard.window_days` is the data horizon — the widest range the backend
 aggregates. The tab has an interval slider (1 to the horizon, with preset
 shortcuts like 7d / 30d / 90d) that narrows the window client-side, re-counting
@@ -57,8 +64,10 @@ authentication even for public repositories, and a GitHub App provides its own
 rate limit (5,000+ requests/hour) without being tied to any individual's
 account.
 
-The app only needs **read-only** access to pull requests and repository
-metadata — no write permissions are required. See the
+The app needs **read-only** access to pull requests and repository metadata.
+If you use team references in the `authors` list (e.g., `@myorg/backend-team`),
+the app also needs **Organization members: Read** permission. No write
+permissions are required. See the
 [GitHub docs](https://docs.github.com/en/apps/creating-github-apps) for
 instructions on creating and installing a GitHub App.
 

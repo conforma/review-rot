@@ -40,6 +40,13 @@ func main() {
 
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Minute)
 	defer cancel()
+
+	expandedAuthors, err := gh.ExpandAuthors(ctx, client, cfg.Authors)
+	if err != nil {
+		log.Fatalf("Failed to expand team references in authors: %v", err)
+	}
+	log.Printf("Expanded %d author entries to %d individual members", len(cfg.Authors), len(expandedAuthors))
+
 	repos := gh.CollectRepos(ctx, client, cfg.OrgNames(), cfg.Sources.Repos)
 	log.Printf("Monitoring %d repos", len(repos))
 
@@ -54,7 +61,7 @@ func main() {
 	}
 	log.Printf("Fetched %d total PRs", len(allPRs))
 
-	filtered := gh.FilterPRs(allPRs, cfg.OrgNames(), cfg.Authors)
+	filtered := gh.FilterPRs(allPRs, cfg.OrgNames(), expandedAuthors)
 	log.Printf("After filtering: %d PRs", len(filtered))
 
 	if filtered == nil {
@@ -69,7 +76,7 @@ func main() {
 			continue
 		}
 	}
-	leaderboard := gh.BuildLeaderboard(reviewsByPerson, cfg.Leaderboard.WindowDays, since, cfg.Authors)
+	leaderboard := gh.BuildLeaderboard(reviewsByPerson, cfg.Leaderboard.WindowDays, since, expandedAuthors)
 	log.Printf("Leaderboard: %d reviewers over the last %d days", len(leaderboard.Reviewers), cfg.Leaderboard.WindowDays)
 
 	output := model.Output{
