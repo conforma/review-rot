@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T04:41:26.400292359Z",
+  "generated_at": "2026-09-17T05:10:45.905764595Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2012,7 +2012,7 @@
       "updated_at": "2026-09-17T04:33:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3052,7 +3052,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-16T05:19:24Z",
+      "updated_at": "2026-09-17T05:01:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3172,35 +3172,6 @@
       },
       "unresolved_conversations": 1,
       "labels": [
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update conforma/.fullsend digest to f44ff36 (main)",
-      "url": "https://github.com/conforma/conforma.github.io/pull/571",
-      "number": 571,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-17T01:30:29Z",
-      "updated_at": "2026-09-17T01:39:06Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "dependencies",
-        "github_actions",
-        "main",
-        "renovate",
         "size: XS",
         "risk/moderate"
       ]
@@ -4690,7 +4661,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-19T04:38:55Z",
+    "since": "2026-06-19T05:08:22Z",
     "reviewers": [
       {
         "login": "simonbaird",
