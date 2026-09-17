@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T08:14:37.372759913Z",
+  "generated_at": "2026-09-17T08:43:40.800824221Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -813,7 +813,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1614735?v=4"
       },
       "created_at": "2026-09-06T12:03:28Z",
-      "updated_at": "2026-09-17T08:07:56Z",
+      "updated_at": "2026-09-17T08:19:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3996,28 +3996,6 @@
       ]
     },
     {
-      "title": "Add Codecov configuration (80% patch coverage, informational)",
-      "url": "https://github.com/conforma/crds/pull/33",
-      "number": 33,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "eedri",
-        "avatar_url": "https://avatars.githubusercontent.com/u/1614735?v=4"
-      },
-      "created_at": "2026-09-06T12:03:18Z",
-      "updated_at": "2026-09-17T08:07:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/15",
       "number": 15,
@@ -4662,7 +4640,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-19T08:11:34Z",
+    "since": "2026-06-19T08:41:06Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7924,7 +7902,7 @@
             "repo": "conforma/policy",
             "number": 1840,
             "author": "eedri",
-            "engaged_at": "2026-09-17T08:07:56Z"
+            "engaged_at": "2026-09-17T08:14:36Z"
           },
           {
             "title": "Add Codecov configuration (80% patch coverage, informational)",
