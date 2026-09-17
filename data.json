@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T02:14:07.094471199Z",
+  "generated_at": "2026-09-17T02:44:24.313184096Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4232,6 +4232,33 @@
       ]
     },
     {
+      "title": "🚨 Update module gopkg.in/yaml.v2 to v3 (main)",
+      "url": "https://github.com/conforma/e2e-tests/pull/23",
+      "number": 23,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-17T02:13:15Z",
+      "updated_at": "2026-09-17T02:13:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate",
+        "major"
+      ]
+    },
+    {
       "title": "Update fullsend-ai/fullsend digest to d5f3692 (main)",
       "url": "https://github.com/conforma/.fullsend/pull/15",
       "number": 15,
@@ -4604,7 +4631,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-19T02:11:21Z",
+    "since": "2026-06-19T02:41:50Z",
     "reviewers": [
       {
         "login": "simonbaird",
