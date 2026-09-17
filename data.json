@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T22:36:11.816037744Z",
+  "generated_at": "2026-09-17T23:09:15.290815381Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -21,7 +21,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-09-16T21:12:49Z",
+      "updated_at": "2026-09-17T22:58:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -51,7 +51,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-09-16T21:13:37Z",
+      "updated_at": "2026-09-17T23:00:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -188,7 +188,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-17T13:57:33Z",
+      "updated_at": "2026-09-17T22:57:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -785,7 +785,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-09-16T21:15:09Z",
+      "updated_at": "2026-09-17T23:01:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -932,33 +932,6 @@
       "labels": [
         "size: L",
         "ready-for-review"
-      ]
-    },
-    {
-      "title": "Update conforma/.fullsend digest to f44ff36 (main)",
-      "url": "https://github.com/conforma/policy/pull/1855",
-      "number": 1855,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-16T01:28:57Z",
-      "updated_at": "2026-09-17T13:55:22Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 3,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS",
-        "risk/moderate"
       ]
     },
     {
@@ -4596,7 +4569,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-11T15:04:42Z",
-      "updated_at": "2026-09-17T22:09:51Z",
+      "updated_at": "2026-09-17T22:59:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4661,7 +4634,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-19T22:33:31Z",
+    "since": "2026-06-19T23:06:34Z",
     "reviewers": [
       {
         "login": "simonbaird",
