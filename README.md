@@ -38,6 +38,30 @@ The `config/` directory contains two files:
   default 90). See the comments in that file for details.
 - **`ui.yaml`** — Dashboard appearance: title, logo, and accent colors.
 
+### Repo Filtering
+
+review-rot supports three ways to monitor repositories:
+
+1. **Organizations** (`sources.orgs`) — All PRs from all authors across all
+   repos in the org are shown
+2. **Watch-all repos** (`sources.repos` with `+` prefix) — All PRs from all
+   authors in that specific repo are shown (e.g., `+owner/repo`)
+3. **Team-filtered repos** (`sources.repos` without prefix) — Only PRs from
+   team members listed in `authors` are shown
+
+Example:
+```yaml
+sources:
+  orgs:
+    - name: myorg              # All authors, all repos
+  repos:
+    - +external/important-repo # All authors, this repo only
+    - external/other-repo      # Team authors only
+authors:
+  - alice
+  - bob
+```
+
 The **Leaderboard** tab ranks the team members listed under `authors` by the
 number of distinct PRs they reviewed or commented on across the monitored repos.
 It counts activity on PRs of any state (open, merged, or closed) and excludes
