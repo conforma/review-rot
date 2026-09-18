@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T20:10:44.495136882Z",
+  "generated_at": "2026-09-18T20:37:50.922629471Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1220,7 +1220,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-09-17T23:37:43Z",
+      "updated_at": "2026-09-18T20:10:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1310,7 +1310,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-18T06:13:24Z",
+      "updated_at": "2026-09-18T20:10:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1340,7 +1340,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-09-17T01:46:57Z",
+      "updated_at": "2026-09-18T20:10:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -1806,7 +1806,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-09-17T23:25:09Z",
+      "updated_at": "2026-09-18T20:10:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2155,7 +2155,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-09-18T06:00:11Z",
+      "updated_at": "2026-09-18T20:10:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2242,7 +2242,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T01:53:18Z",
-      "updated_at": "2026-09-17T23:28:59Z",
+      "updated_at": "2026-09-18T20:10:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2893,7 +2893,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T03:04:00Z",
-      "updated_at": "2026-09-18T06:04:07Z",
+      "updated_at": "2026-09-18T20:11:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3299,6 +3299,30 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: S"
+      ]
+    },
+    {
+      "title": "feat: Retry queries on transient failures",
+      "url": "https://github.com/conforma/review-rot/pull/260",
+      "number": 260,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "jannfis",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3942683?u=038f901f9541001e86f098745d541daaaf7f2974\u0026v=4"
+      },
+      "created_at": "2026-09-18T20:33:58Z",
+      "updated_at": "2026-09-18T20:34:11Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XL"
       ]
     },
     {
@@ -4606,7 +4630,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-20T20:07:48Z",
+    "since": "2026-06-20T20:35:11Z",
     "reviewers": [
       {
         "login": "simonbaird",
