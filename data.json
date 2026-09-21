@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T12:45:50.016106759Z",
+  "generated_at": "2026-09-21T13:10:08.628244828Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4064,13 +4064,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-14T01:04:12Z",
-      "updated_at": "2026-09-15T13:49:58Z",
+      "updated_at": "2026-09-21T13:00:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4674,7 +4674,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T12:42:57Z",
+    "since": "2026-06-23T13:07:36Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -6036,8 +6036,16 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 166,
+        "reviews": 167,
         "prs": [
+          {
+            "title": "🚨 Update npm dependencies (main) (major)",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/16",
+            "repo": "conforma/pr-size-label-action",
+            "number": 16,
+            "author": "renovate",
+            "engaged_at": "2026-09-21T12:58:42Z"
+          },
           {
             "title": "fix: switch to GitHub Actions deployment for Pages",
             "url": "https://github.com/conforma/review-rot/pull/259",
