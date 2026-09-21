@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T01:14:46.06469794Z",
+  "generated_at": "2026-09-21T01:52:44.127524717Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3700,6 +3700,32 @@
       ]
     },
     {
+      "title": "fix(deps): update codecov/codecov-action action to v7.1.0 (main)",
+      "url": "https://github.com/conforma/go-gather/pull/348",
+      "number": 348,
+      "repo": "conforma/go-gather",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-21T01:38:10Z",
+      "updated_at": "2026-09-21T01:39:44Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "chore: sync with upstream google/go-containerregistry",
       "url": "https://github.com/conforma/go-containerregistry/pull/11",
       "number": 11,
@@ -4285,6 +4311,32 @@
       ]
     },
     {
+      "title": "Update module github.com/conforma/crds/api to v0.1.19 (main)",
+      "url": "https://github.com/conforma/e2e-tests/pull/24",
+      "number": 24,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-21T01:12:36Z",
+      "updated_at": "2026-09-21T01:12:44Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
+      ]
+    },
+    {
       "title": "Update fullsend-ai/fullsend digest to d5f3692 (main)",
       "url": "https://github.com/conforma/.fullsend/pull/15",
       "number": 15,
@@ -4607,6 +4659,32 @@
       ]
     },
     {
+      "title": "EC-1793: Add production environment overlay for enterprise-contract",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13955",
+      "number": 13955,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "Acepresso",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
+      },
+      "created_at": "2026-09-07T11:37:19Z",
+      "updated_at": "2026-09-10T11:14:34Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "environment/production",
+        "infra/hold-production",
+        "prod/needs-approval"
+      ]
+    },
+    {
       "title": "Add a week to git-clone task deadline",
       "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/271",
       "number": 271,
@@ -4631,7 +4709,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T01:12:06Z",
+    "since": "2026-06-23T01:50:07Z",
     "reviewers": [
       {
         "login": "simonbaird",
