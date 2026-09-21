@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T06:19:49.704334923Z",
+  "generated_at": "2026-09-21T07:04:37.964373658Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2731,19 +2731,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-03T10:48:00Z",
-      "updated_at": "2026-09-15T18:38:44Z",
+      "updated_at": "2026-09-21T06:56:45Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
+      "ci_status": "FAILURE",
+      "size": "S",
       "reviews": {
-        "count": 2,
-        "has_new_commits": false
+        "count": 1,
+        "has_new_commits": true
       },
-      "unresolved_conversations": 7,
+      "unresolved_conversations": 6,
       "labels": [
-        "size: XS",
+        "size: S",
         "tooling",
+        "requires-manual-review",
         "risk/low"
       ]
     },
@@ -4317,7 +4318,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-09-19T04:31:48Z",
+      "updated_at": "2026-09-21T06:45:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4370,7 +4371,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-09-19T04:29:43Z",
+      "updated_at": "2026-09-21T06:43:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4396,7 +4397,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-09-19T04:29:50Z",
+      "updated_at": "2026-09-21T06:43:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4655,7 +4656,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T06:17:16Z",
+    "since": "2026-06-23T07:02:10Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -4787,7 +4788,7 @@
             "repo": "conforma/cli",
             "number": 3536,
             "author": "dheerajodha",
-            "engaged_at": "2026-09-11T19:37:24Z"
+            "engaged_at": "2026-09-11T19:36:49Z"
           },
           {
             "title": "Establish performance baselines and regression detection",
@@ -6017,7 +6018,7 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 167,
+        "reviews": 166,
         "prs": [
           {
             "title": "fix: switch to GitHub Actions deployment for Pages",
@@ -6074,14 +6075,6 @@
             "number": 33,
             "author": "eedri",
             "engaged_at": "2026-09-15T18:39:07Z"
-          },
-          {
-            "title": "Automate CPE label update in release branch setup script",
-            "url": "https://github.com/conforma/cli/pull/3536",
-            "repo": "conforma/cli",
-            "number": 3536,
-            "author": "dheerajodha",
-            "engaged_at": "2026-09-15T18:38:44Z"
           },
           {
             "title": "fix(EC-1994): correct off-by-one in validate image worker loop",
