@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T05:40:29.911273804Z",
+  "generated_at": "2026-09-21T06:17:14.327571254Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3325,32 +3325,6 @@
       ]
     },
     {
-      "title": "Update codecov/codecov-action action to v7.1.0 (main)",
-      "url": "https://github.com/conforma/review-rot/pull/261",
-      "number": 261,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-21T00:50:56Z",
-      "updated_at": "2026-09-21T00:51:46Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -3606,7 +3580,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-08-20T12:57:52Z",
-      "updated_at": "2026-09-20T06:01:17Z",
+      "updated_at": "2026-09-21T06:01:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4309,32 +4283,6 @@
       ]
     },
     {
-      "title": "Update module github.com/conforma/crds/api to v0.1.19 (main)",
-      "url": "https://github.com/conforma/e2e-tests/pull/24",
-      "number": 24,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-21T01:12:36Z",
-      "updated_at": "2026-09-21T01:12:44Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "Update fullsend-ai/fullsend digest to d5f3692 (main)",
       "url": "https://github.com/conforma/.fullsend/pull/15",
       "number": 15,
@@ -4707,7 +4655,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T05:38:06Z",
+    "since": "2026-06-23T06:14:28Z",
     "reviewers": [
       {
         "login": "simonbaird",
