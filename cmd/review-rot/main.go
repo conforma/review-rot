@@ -47,7 +47,7 @@ func main() {
 	}
 	log.Printf("Expanded %d author entries to %d individual members", len(cfg.Authors), len(expandedAuthors))
 
-	repos := gh.CollectRepos(ctx, client, cfg.OrgNames(), cfg.Sources.Repos)
+	repos := gh.CollectRepos(ctx, client, cfg.OrgNames(), cfg.Sources.AllRepos())
 	log.Printf("Monitoring %d repos", len(repos))
 
 	var allPRs []model.PullRequest
@@ -61,7 +61,7 @@ func main() {
 	}
 	log.Printf("Fetched %d total PRs", len(allPRs))
 
-	filtered := gh.FilterPRs(allPRs, cfg.OrgNames(), expandedAuthors)
+	filtered := gh.FilterPRs(allPRs, cfg.OrgNames(), cfg.Sources.WatchAllRepos(), expandedAuthors)
 	log.Printf("After filtering: %d PRs", len(filtered))
 
 	if filtered == nil {

@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strings"
 
 	"github.com/goccy/go-yaml"
 )
@@ -32,7 +33,11 @@ type GitHubConfig struct {
 
 type SourcesConfig struct {
 	Orgs  []OrgConfig `yaml:"orgs"`
-	Repos []string    `yaml:"repos"`
+	Repos []string    `yaml:"repos"` // YAML input, may contain + prefixes
+
+	// Derived fields populated during validation
+	normalRepos   []string // Repos without + (filter by team authors)
+	watchAllRepos []string // Repos with + (all authors), prefix stripped
 }
 
 type OrgConfig struct {
@@ -50,6 +55,34 @@ type UIPalette struct {
 	Accent      string `yaml:"accent"`
 	AccentDark  string `yaml:"accent_dark"`
 	AccentLight string `yaml:"accent_light"`
+}
+
+// AllRepos returns all repos (both normal and watch-all) for GitHub API queries.
+// The + prefix is stripped from watch-all repos.
+func (s *SourcesConfig) AllRepos() []string {
+	seen := make(map[string]bool)
+	var result []string
+
+	for _, repo := range s.watchAllRepos {
+		if !seen[repo] {
+			seen[repo] = true
+			result = append(result, repo)
+		}
+	}
+
+	for _, repo := range s.normalRepos {
+		if !seen[repo] {
+			seen[repo] = true
+			result = append(result, repo)
+		}
+	}
+
+	return result
+}
+
+// WatchAllRepos returns repos that should include PRs from all authors.
+func (s *SourcesConfig) WatchAllRepos() []string {
+	return s.watchAllRepos
 }
 
 func Load(path string) (*Config, error) {
@@ -101,6 +134,32 @@ func validate(cfg *Config) (*Config, error) {
 	if cfg.Leaderboard.WindowDays <= 0 {
 		cfg.Leaderboard.WindowDays = defaultLeaderboardWindowDays
 	}
+
+	// Parse repo entries and separate watch-all (+prefix) from normal repos
+	for i, repo := range cfg.Sources.Repos {
+		// Trim whitespace first to handle quoted entries with leading/trailing spaces
+		repo = strings.TrimSpace(repo)
+		watchAll := strings.HasPrefix(repo, "+")
+		cleanRepo := strings.TrimPrefix(repo, "+")
+
+		// Validate repo format
+		if cleanRepo == "" {
+			return nil, fmt.Errorf("config: repos[%d]: empty repo name", i)
+		}
+
+		parts := strings.Split(cleanRepo, "/")
+		if len(parts) != 2 || parts[0] == "" || parts[1] == "" {
+			return nil, fmt.Errorf("config: repos[%d]: invalid format %q (expected owner/repo)", i, repo)
+		}
+
+		// Categorize repo
+		if watchAll {
+			cfg.Sources.watchAllRepos = append(cfg.Sources.watchAllRepos, cleanRepo)
+		} else {
+			cfg.Sources.normalRepos = append(cfg.Sources.normalRepos, cleanRepo)
+		}
+	}
+
 	return cfg, nil
 }
 

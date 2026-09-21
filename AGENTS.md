@@ -53,8 +53,10 @@ secret, passed as the `GITHUB_PRIVATE_KEY` environment variable.
 ## Key design decisions
 
 - Go CLI outputs JSON consumed by a static frontend (no server)
-- Pre-filtering: PRs from configured orgs always included;
-  PRs from other orgs only included if author is in the `authors` list
+- Pre-filtering with three tiers:
+  1. PRs from configured orgs → always included (all authors)
+  2. PRs from watch-all repos (+ prefix) → always included (all authors)
+  3. PRs from other repos → only if author is in the `authors` list
 - Bot detection: PRs from authors in the `bots` list are flagged as automated
 - Frontend uses vanilla JS with no dependencies or build step
 - Reviewer leaderboard aggregates review/comment activity across PRs of any
@@ -85,8 +87,10 @@ To adapt review-rot for a different team:
 
 See `config/sources.yaml` for the full backend configuration. Key sections:
 - `github` — App ID and installation ID
-- `sources.orgs` — orgs to discover repos from
+- `sources.orgs` — orgs to discover repos from (all authors included)
 - `sources.repos` — explicit repos to monitor
+  - Prefix with `+` (e.g., `+owner/repo`) to watch all authors
+  - Without `+`, only PRs from team members in `authors` are shown
 - `authors` — team members for pre-filtering
 - `bots` — bot accounts to flag as automated
 - `leaderboard.window_days` — data horizon: days of review history to aggregate

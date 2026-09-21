@@ -4,12 +4,14 @@ github:
   installation_id: 59973090
 
 sources:
-  # All repos under these orgs are included automatically
+  # All repos under these orgs are included automatically (all authors)
   orgs:
     - name: conforma
     - name: enterprise-contract
 
   # Additional repos outside the orgs above
+  # Prefix a repo with + to watch ALL authors (like an org repo)
+  # Without +, only PRs from team members in 'authors' are shown
   repos:
     - konflux-ci/build-definitions
     - konflux-ci/build-trusted-artifacts

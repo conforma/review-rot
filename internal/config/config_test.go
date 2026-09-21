@@ -1,6 +1,7 @@
 package config
 
 import (
+	"fmt"
 	"os"
 	"path/filepath"
 	"strings"
@@ -240,6 +241,231 @@ func TestLoadFileNotFound(t *testing.T) {
 	_, err := Load("/nonexistent/config.yaml")
 	if err == nil {
 		t.Fatal("Load() should fail with nonexistent file")
+	}
+}
+
+func TestLoadReposWithPlusPrefix(t *testing.T) {
+	content := `
+github:
+  app_id: 245286
+  installation_id: 59973090
+sources:
+  repos:
+    - +konflux-ci/build-definitions
+authors:
+  - simonbaird
+`
+	path := writeFile(t, "config.yaml", content)
+
+	cfg, err := Load(path)
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+
+	watchAll := cfg.Sources.WatchAllRepos()
+	if len(watchAll) != 1 {
+		t.Fatalf("WatchAllRepos() count = %d, want 1", len(watchAll))
+	}
+	if watchAll[0] != "konflux-ci/build-definitions" {
+		t.Errorf("WatchAllRepos()[0] = %q, want %q", watchAll[0], "konflux-ci/build-definitions")
+	}
+
+	allRepos := cfg.Sources.AllRepos()
+	if len(allRepos) != 1 {
+		t.Fatalf("AllRepos() count = %d, want 1", len(allRepos))
+	}
+	if allRepos[0] != "konflux-ci/build-definitions" {
+		t.Errorf("AllRepos()[0] = %q, want %q", allRepos[0], "konflux-ci/build-definitions")
+	}
+}
+
+func TestLoadReposMixed(t *testing.T) {
+	content := `
+github:
+  app_id: 245286
+  installation_id: 59973090
+sources:
+  repos:
+    - +owner/watch-all-repo
+    - owner/normal-repo
+authors:
+  - simonbaird
+`
+	path := writeFile(t, "config.yaml", content)
+
+	cfg, err := Load(path)
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+
+	watchAll := cfg.Sources.WatchAllRepos()
+	if len(watchAll) != 1 {
+		t.Fatalf("WatchAllRepos() count = %d, want 1", len(watchAll))
+	}
+	if watchAll[0] != "owner/watch-all-repo" {
+		t.Errorf("WatchAllRepos()[0] = %q, want %q", watchAll[0], "owner/watch-all-repo")
+	}
+
+	allRepos := cfg.Sources.AllRepos()
+	if len(allRepos) != 2 {
+		t.Fatalf("AllRepos() count = %d, want 2", len(allRepos))
+	}
+
+	// Check both repos are in AllRepos
+	hasWatchAll := false
+	hasNormal := false
+	for _, repo := range allRepos {
+		if repo == "owner/watch-all-repo" {
+			hasWatchAll = true
+		}
+		if repo == "owner/normal-repo" {
+			hasNormal = true
+		}
+	}
+	if !hasWatchAll {
+		t.Error("AllRepos() missing owner/watch-all-repo")
+	}
+	if !hasNormal {
+		t.Error("AllRepos() missing owner/normal-repo")
+	}
+}
+
+func TestLoadReposPlusStripsProperly(t *testing.T) {
+	content := `
+github:
+  app_id: 245286
+  installation_id: 59973090
+sources:
+  repos:
+    - +owner/repo
+`
+	path := writeFile(t, "config.yaml", content)
+
+	cfg, err := Load(path)
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+
+	watchAll := cfg.Sources.WatchAllRepos()
+	if len(watchAll) != 1 {
+		t.Fatalf("WatchAllRepos() count = %d, want 1", len(watchAll))
+	}
+	// Verify + is stripped
+	if strings.HasPrefix(watchAll[0], "+") {
+		t.Errorf("WatchAllRepos()[0] = %q, should not have + prefix", watchAll[0])
+	}
+	if watchAll[0] != "owner/repo" {
+		t.Errorf("WatchAllRepos()[0] = %q, want %q", watchAll[0], "owner/repo")
+	}
+}
+
+func TestLoadReposInvalidFormat(t *testing.T) {
+	tests := []struct {
+		name    string
+		repo    string
+		wantErr string
+	}{
+		{
+			name:    "empty after prefix",
+			repo:    "+",
+			wantErr: "empty repo name",
+		},
+		{
+			name:    "no slash",
+			repo:    "+invalidname",
+			wantErr: "invalid format",
+		},
+		{
+			name:    "missing owner",
+			repo:    "+/repo",
+			wantErr: "invalid format",
+		},
+		{
+			name:    "missing repo",
+			repo:    "+owner/",
+			wantErr: "invalid format",
+		},
+		{
+			name:    "whitespace only",
+			repo:    "+   ",
+			wantErr: "empty repo name",
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			content := fmt.Sprintf(`
+github:
+  app_id: 245286
+  installation_id: 59973090
+sources:
+  repos:
+    - %s
+`, tt.repo)
+			path := writeFile(t, "config.yaml", content)
+
+			_, err := Load(path)
+			if err == nil {
+				t.Fatal("Load() should fail with invalid repo format")
+			}
+			if !strings.Contains(err.Error(), tt.wantErr) {
+				t.Errorf("error = %q, want it to contain %q", err.Error(), tt.wantErr)
+			}
+		})
+	}
+}
+
+func TestLoadReposWithLeadingWhitespace(t *testing.T) {
+	content := `
+github:
+  app_id: 245286
+  installation_id: 59973090
+sources:
+  repos:
+    - "  +owner/watch-all-repo"
+    - "  owner/normal-repo"
+`
+	path := writeFile(t, "config.yaml", content)
+
+	cfg, err := Load(path)
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+
+	// Verify watch-all repo (with leading whitespace and +) is detected correctly
+	watchAll := cfg.Sources.WatchAllRepos()
+	if len(watchAll) != 1 {
+		t.Fatalf("WatchAllRepos() count = %d, want 1", len(watchAll))
+	}
+	if watchAll[0] != "owner/watch-all-repo" {
+		t.Errorf("WatchAllRepos()[0] = %q, want %q", watchAll[0], "owner/watch-all-repo")
+	}
+
+	// Verify all repos are present and whitespace is trimmed
+	allRepos := cfg.Sources.AllRepos()
+	if len(allRepos) != 2 {
+		t.Fatalf("AllRepos() count = %d, want 2", len(allRepos))
+	}
+
+	hasWatchAll := false
+	hasNormal := false
+	for _, repo := range allRepos {
+		if repo == "owner/watch-all-repo" {
+			hasWatchAll = true
+		}
+		if repo == "owner/normal-repo" {
+			hasNormal = true
+		}
+		// Ensure no whitespace in stored repo names
+		if strings.TrimSpace(repo) != repo {
+			t.Errorf("repo %q has leading/trailing whitespace", repo)
+		}
+	}
+	if !hasWatchAll {
+		t.Error("AllRepos() missing owner/watch-all-repo")
+	}
+	if !hasNormal {
+		t.Error("AllRepos() missing owner/normal-repo")
 	}
 }
 
