@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T01:52:44.127524717Z",
+  "generated_at": "2026-09-21T02:16:43.740844358Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -189,7 +189,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-20T23:02:36Z",
+      "updated_at": "2026-09-21T01:52:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4039,6 +4039,31 @@
       ]
     },
     {
+      "title": "Update codecov/codecov-action action to v7.1.0 (main)",
+      "url": "https://github.com/conforma/crds/pull/35",
+      "number": 35,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-21T01:54:10Z",
+      "updated_at": "2026-09-21T01:54:15Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/15",
       "number": 15,
@@ -4709,7 +4734,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T01:50:07Z",
+    "since": "2026-06-23T02:14:02Z",
     "reviewers": [
       {
         "login": "simonbaird",
