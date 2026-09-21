@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T15:10:58.507204722Z",
+  "generated_at": "2026-09-21T15:39:00.005304035Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2175,7 +2175,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-08-25T13:41:38Z",
-      "updated_at": "2026-08-25T13:59:58Z",
+      "updated_at": "2026-09-21T15:25:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2553,7 +2553,7 @@
       "updated_at": "2026-09-21T15:07:32Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 5,
@@ -2615,11 +2615,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T15:07:57Z",
+    "since": "2026-06-23T15:35:51Z",
     "reviewers": [
       {
         "login": "simonbaird",
-        "reviews": 169,
+        "reviews": 168,
         "prs": [
           {
             "title": "chore: bump Conforma version",
@@ -3964,14 +3964,6 @@
             "number": 1736,
             "author": "jsmid1",
             "engaged_at": "2026-06-23T21:20:57Z"
-          },
-          {
-            "title": "Add ibm public key to key viewer rb",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/12704",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 12704,
-            "author": "rhartman93",
-            "engaged_at": "2026-06-23T15:31:40Z"
           }
         ]
       },
