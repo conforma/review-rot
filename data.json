@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T21:09:43.28405715Z",
+  "generated_at": "2026-09-21T21:37:22.579899872Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4652,7 +4652,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T21:06:59Z",
+    "since": "2026-06-23T21:34:31Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6014,7 +6014,7 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 168,
+        "reviews": 167,
         "prs": [
           {
             "title": "chore: bump Conforma version",
@@ -7351,14 +7351,6 @@
             "number": 3355,
             "author": "fghanmi",
             "engaged_at": "2026-06-24T12:56:38Z"
-          },
-          {
-            "title": "feat: deny releases using experimental Hermeto backends",
-            "url": "https://github.com/conforma/policy/pull/1736",
-            "repo": "conforma/policy",
-            "number": 1736,
-            "author": "jsmid1",
-            "engaged_at": "2026-06-23T21:20:57Z"
           }
         ]
       },
