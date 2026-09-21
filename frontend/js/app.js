@@ -1,8 +1,11 @@
+const DEFAULT_REQUIRED_APPROVALS = 2;
+
 const state = {
     data: [],
     leaderboard: null,
     leaderboardDays: null,
     generatedAt: null,
+    requiredApprovals: DEFAULT_REQUIRED_APPROVALS,
     view: 'prs',
     filters: {
         type: 'regular',
@@ -26,6 +29,7 @@ async function init() {
         state.data = json.pull_requests || [];
         state.leaderboard = json.leaderboard || null;
         state.generatedAt = json.generated_at;
+        state.requiredApprovals = json.required_approvals || DEFAULT_REQUIRED_APPROVALS;
         applyUISettings(json.ui_settings);
         populateFilters();
         initSortArrows();
@@ -242,6 +246,13 @@ function attachEventListeners() {
     });
 }
 
+// Whether a PR still needs review attention.
+function needsReview(reviews) {
+    if (!reviews) return true;
+    const needsMoreApprovals = (reviews.approved_count || 0) < state.requiredApprovals;
+    return needsMoreApprovals || reviews.has_new_commits;
+}
+
 function filterPRs(prs, filters) {
     return prs.filter(pr => {
         const isWip = pr.is_draft || /\bWIP\b/i.test(pr.title);
@@ -255,8 +266,7 @@ function filterPRs(prs, filters) {
         if (filters.readyForReview) {
             if (pr.is_draft) return false;
             if (pr.ci_status !== 'SUCCESS') return false;
-            const hasUnreviewedChanges = pr.reviews.count === 0 || pr.reviews.has_new_commits;
-            if (!hasUnreviewedChanges) return false;
+            if (!needsReview(pr.reviews)) return false;
         }
 
         return true;
@@ -276,8 +286,8 @@ function sortPRs(prs, sort) {
             case 'ci_status': cmp = (ciOrder[a.ci_status] ?? 3) - (ciOrder[b.ci_status] ?? 3); break;
             case 'threads': cmp = a.unresolved_conversations - b.unresolved_conversations; break;
             case 're_review': {
-                const needsA = (a.reviews.count === 0 || a.reviews.has_new_commits) ? 1 : 0;
-                const needsB = (b.reviews.count === 0 || b.reviews.has_new_commits) ? 1 : 0;
+                const needsA = needsReview(a.reviews) ? 1 : 0;
+                const needsB = needsReview(b.reviews) ? 1 : 0;
                 cmp = needsA - needsB;
                 break;
             }
@@ -346,7 +356,7 @@ function renderSize(size) {
 }
 
 function renderReReview(reviews) {
-    if (reviews.count === 0 || reviews.has_new_commits) {
+    if (needsReview(reviews)) {
         return '<span class="re-review-yes">&#x1F440;</span>';
     }
     return '';

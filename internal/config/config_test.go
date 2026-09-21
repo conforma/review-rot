@@ -97,6 +97,47 @@ leaderboard:
 	}
 }
 
+func TestLoadRequiredApprovalsDefault(t *testing.T) {
+	content := `
+github:
+  app_id: 245286
+  installation_id: 59973090
+sources:
+  orgs:
+    - name: conforma
+`
+	path := writeFile(t, "config.yaml", content)
+
+	cfg, err := Load(path)
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+	if cfg.RequiredApprovals != defaultRequiredApprovals {
+		t.Errorf("RequiredApprovals = %d, want default %d", cfg.RequiredApprovals, defaultRequiredApprovals)
+	}
+}
+
+func TestLoadRequiredApprovalsOverride(t *testing.T) {
+	content := `
+github:
+  app_id: 245286
+  installation_id: 59973090
+sources:
+  orgs:
+    - name: conforma
+required_approvals: 1
+`
+	path := writeFile(t, "config.yaml", content)
+
+	cfg, err := Load(path)
+	if err != nil {
+		t.Fatalf("Load() error: %v", err)
+	}
+	if cfg.RequiredApprovals != 1 {
+		t.Errorf("RequiredApprovals = %d, want 1", cfg.RequiredApprovals)
+	}
+}
+
 func TestLoadDir(t *testing.T) {
 	dir := t.TempDir()
 

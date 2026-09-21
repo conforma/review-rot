@@ -34,6 +34,9 @@ leaderboard:
   # narrows it further client-side. Defaults to 90 if omitted.
   window_days: 90
 
+# Approvals needed for "Ready for review" to hide a PR. Defaults to 2.
+required_approvals: 2
+
 # Team members — PRs from these authors are always shown,
 # even in repos outside the orgs above.
 #

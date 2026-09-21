@@ -80,10 +80,11 @@ func main() {
 	log.Printf("Leaderboard: %d reviewers over the last %d days", len(leaderboard.Reviewers), cfg.Leaderboard.WindowDays)
 
 	output := model.Output{
-		GeneratedAt:  time.Now().UTC(),
-		UISettings:   model.NewUISettings(cfg.UI.Title, cfg.UI.Logo, cfg.UI.Favicon, cfg.UI.Palette.Accent, cfg.UI.Palette.AccentDark, cfg.UI.Palette.AccentLight),
-		PullRequests: filtered,
-		Leaderboard:  leaderboard,
+		GeneratedAt:       time.Now().UTC(),
+		UISettings:        model.NewUISettings(cfg.UI.Title, cfg.UI.Logo, cfg.UI.Favicon, cfg.UI.Palette.Accent, cfg.UI.Palette.AccentDark, cfg.UI.Palette.AccentLight),
+		RequiredApprovals: cfg.RequiredApprovals,
+		PullRequests:      filtered,
+		Leaderboard:       leaderboard,
 	}
 
 	data, err := json.MarshalIndent(output, "", "  ")

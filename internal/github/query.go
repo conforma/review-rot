@@ -37,7 +37,7 @@ type prNode struct {
 	HeadRefOid string
 
 	Author struct {
-		TypeName  string       `graphql:"__typename"`
+		TypeName  string `graphql:"__typename"`
 		Login     string
 		AvatarURL githubv4.URI `graphql:"avatarUrl"`
 	} `graphql:"author"`
@@ -51,7 +51,7 @@ type prNode struct {
 	Commits struct {
 		Nodes []struct {
 			Commit struct {
-				CommittedDate time.Time
+				CommittedDate     time.Time
 				StatusCheckRollup *struct {
 					State string
 				}
@@ -68,6 +68,7 @@ type prNode struct {
 			Commit struct {
 				OID string `graphql:"oid"`
 			}
+			State string
 		}
 	} `graphql:"reviews(last: 100, states: [APPROVED, CHANGES_REQUESTED, COMMENTED])"`
 
@@ -177,6 +178,8 @@ func extractReviews(node prNode) model.Reviews {
 	var r model.Reviews
 	var lastHumanReviewOID string
 	seen := make(map[string]struct{})
+	// Nodes are oldest-first, so the last state per author wins.
+	latestState := make(map[string]string)
 	for _, review := range node.Reviews.Nodes {
 		if isBotLogin(review.Author.Login, review.Author.TypeName) {
 			continue
@@ -185,6 +188,7 @@ func extractReviews(node prNode) model.Reviews {
 			continue
 		}
 		seen[review.Author.Login] = struct{}{}
+		latestState[review.Author.Login] = review.State
 		lastHumanReviewOID = review.Commit.OID
 	}
 	var lastHumanCommentAt time.Time
@@ -201,6 +205,11 @@ func extractReviews(node prNode) model.Reviews {
 		}
 	}
 	r.Count = len(seen)
+	for _, state := range latestState {
+		if state == "APPROVED" {
+			r.ApprovedCount++
+		}
+	}
 	if r.Count > 0 {
 		reviewCoversHead := lastHumanReviewOID == node.HeadRefOid
 		commentCoversHead := !lastHumanCommentAt.IsZero() && len(node.Commits.Nodes) > 0 &&
