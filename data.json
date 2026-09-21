@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:47:41.170349684Z",
+  "generated_at": "2026-09-21T09:14:18.741070783Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1902,6 +1902,28 @@
       "labels": []
     },
     {
+      "title": "chore: sync with upstream google/go-containerregistry",
+      "url": "https://github.com/conforma/go-containerregistry/pull/22",
+      "number": 22,
+      "repo": "conforma/go-containerregistry",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-09-21T08:47:16Z",
+      "updated_at": "2026-09-21T08:49:39Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -2597,7 +2619,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T08:44:56Z",
+    "since": "2026-06-23T09:11:25Z",
     "reviewers": [
       {
         "login": "simonbaird",
