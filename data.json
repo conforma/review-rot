@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T10:40:01.77027569Z",
+  "generated_at": "2026-09-21T11:09:59.769196684Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3326,6 +3326,30 @@
       ]
     },
     {
+      "title": "feat(EC-2212): show PRs waiting for a 2nd approval in 'Ready for review'",
+      "url": "https://github.com/conforma/review-rot/pull/262",
+      "number": 262,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-09-21T11:04:11Z",
+      "updated_at": "2026-09-21T11:04:19Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: L"
+      ]
+    },
+    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -4678,7 +4702,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T10:37:22Z",
+    "since": "2026-06-23T11:07:21Z",
     "reviewers": [
       {
         "login": "simonbaird",
