@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T00:24:44.199585177Z",
+  "generated_at": "2026-09-21T01:14:46.06469794Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1190,7 +1190,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-20T21:57:11Z",
+      "updated_at": "2026-09-21T00:49:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3327,6 +3327,32 @@
       ]
     },
     {
+      "title": "Update codecov/codecov-action action to v7.1.0 (main)",
+      "url": "https://github.com/conforma/review-rot/pull/261",
+      "number": 261,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-21T00:50:56Z",
+      "updated_at": "2026-09-21T00:51:46Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -4581,32 +4607,6 @@
       ]
     },
     {
-      "title": "EC-1793: Add production environment overlay for enterprise-contract",
-      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13955",
-      "number": 13955,
-      "repo": "redhat-appstudio/infra-deployments",
-      "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
-      },
-      "created_at": "2026-09-07T11:37:19Z",
-      "updated_at": "2026-09-10T11:14:34Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "environment/production",
-        "infra/hold-production",
-        "prod/needs-approval"
-      ]
-    },
-    {
       "title": "Add a week to git-clone task deadline",
       "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/271",
       "number": 271,
@@ -4631,7 +4631,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-23T00:22:17Z",
+    "since": "2026-06-23T01:12:06Z",
     "reviewers": [
       {
         "login": "simonbaird",
