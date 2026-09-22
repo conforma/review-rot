@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T12:47:36.527196736Z",
+  "generated_at": "2026-09-22T13:11:11.045445108Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -876,6 +876,33 @@
       "labels": [
         "size: L",
         "ready-for-review"
+      ]
+    },
+    {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/policy/pull/1857",
+      "number": 1857,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T12:51:00Z",
+      "updated_at": "2026-09-22T13:00:10Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "github_actions",
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -3021,6 +3048,32 @@
       ]
     },
     {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/cli/pull/3577",
+      "number": 3577,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T12:49:15Z",
+      "updated_at": "2026-09-22T13:05:11Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -3283,6 +3336,30 @@
       ]
     },
     {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/golden-container/pull/1517",
+      "number": 1517,
+      "repo": "conforma/golden-container",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T12:52:09Z",
+      "updated_at": "2026-09-22T12:53:02Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
       "url": "https://github.com/conforma/review-rot/pull/246",
       "number": 246,
@@ -3503,6 +3580,30 @@
       ]
     },
     {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/237",
+      "number": 237,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T12:59:46Z",
+      "updated_at": "2026-09-22T13:00:39Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "docs(#243): replace enterprisecontract.dev URLs and GitHub org link",
       "url": "https://github.com/conforma/user-guide/pull/244",
       "number": 244,
@@ -3578,6 +3679,32 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/user-guide/pull/258",
+      "number": 258,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T12:53:43Z",
+      "updated_at": "2026-09-22T13:02:32Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -3674,6 +3801,30 @@
         "main",
         "renovate",
         "major",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/policy-builder/pull/65",
+      "number": 65,
+      "repo": "conforma/policy-builder",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T12:58:53Z",
+      "updated_at": "2026-09-22T13:01:25Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
         "size: XS"
       ]
     },
@@ -4065,6 +4216,28 @@
       ]
     },
     {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/crds/pull/37",
+      "number": 37,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T12:54:53Z",
+      "updated_at": "2026-09-22T12:55:54Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/15",
       "number": 15,
@@ -4269,13 +4442,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-08-25T13:41:38Z",
-      "updated_at": "2026-09-21T15:25:38Z",
+      "updated_at": "2026-09-22T12:59:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
@@ -4644,10 +4817,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-11T15:04:42Z",
-      "updated_at": "2026-09-22T12:38:46Z",
+      "updated_at": "2026-09-22T12:57:05Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 6,
@@ -4709,7 +4882,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T12:44:46Z",
+    "since": "2026-06-24T13:08:15Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6074,6 +6247,14 @@
         "reviews": 167,
         "prs": [
           {
+            "title": "feat: add e2e test coverage for the ITS pipeline",
+            "url": "https://github.com/conforma/e2e-tests/pull/12",
+            "repo": "conforma/e2e-tests",
+            "number": 12,
+            "author": "dheerajodha",
+            "engaged_at": "2026-09-22T12:59:36Z"
+          },
+          {
             "title": "chore: bump Conforma version",
             "url": "https://github.com/konflux-ci/release-service-catalog/pull/2545",
             "repo": "konflux-ci/release-service-catalog",
@@ -7400,14 +7581,6 @@
             "number": 3356,
             "author": "fghanmi",
             "engaged_at": "2026-06-25T20:35:15Z"
-          },
-          {
-            "title": "fix: cve-2026-39821, upgrade golang.org/x/net",
-            "url": "https://github.com/conforma/cli/pull/3355",
-            "repo": "conforma/cli",
-            "number": 3355,
-            "author": "fghanmi",
-            "engaged_at": "2026-06-24T12:56:38Z"
           }
         ]
       },
