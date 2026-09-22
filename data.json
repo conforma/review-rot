@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:11:49.608247414Z",
+  "generated_at": "2026-09-22T14:42:32.50307151Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -189,7 +189,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-21T22:36:25Z",
+      "updated_at": "2026-09-22T14:37:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -876,33 +876,6 @@
       "labels": [
         "size: L",
         "ready-for-review"
-      ]
-    },
-    {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/policy/pull/1857",
-      "number": 1857,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T12:51:00Z",
-      "updated_at": "2026-09-22T13:00:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "github_actions",
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
       ]
     },
     {
@@ -3057,13 +3030,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-09-22T12:49:15Z",
-      "updated_at": "2026-09-22T13:05:11Z",
+      "updated_at": "2026-09-22T14:23:53Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3074,7 +3047,7 @@
       ]
     },
     {
-      "title": "chore(deps): Update ubi-minimal base image",
+      "title": "chore(deps): Update ubi-minimal base image (main)",
       "url": "https://github.com/conforma/cli/pull/3578",
       "number": 3578,
       "repo": "conforma/cli",
@@ -3083,23 +3056,24 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-22T13:58:29Z",
-      "updated_at": "2026-09-22T14:07:48Z",
+      "updated_at": "2026-09-22T14:37:51Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "size: XS",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
     {
-      "title": "chore(deps): Update ubi-minimal base image",
+      "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
       "url": "https://github.com/conforma/cli/pull/3579",
       "number": 3579,
       "repo": "conforma/cli",
@@ -3108,23 +3082,26 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-22T13:58:37Z",
-      "updated_at": "2026-09-22T14:07:25Z",
+      "updated_at": "2026-09-22T14:36:21Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 3,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
+        "dependencies",
+        "docker",
+        "release-v0.7",
         "size: XS",
         "risk/low"
       ]
     },
     {
-      "title": "chore(deps): Update ubi-minimal base image",
+      "title": "chore(deps): Update ubi-minimal base image (release-v0.8)",
       "url": "https://github.com/conforma/cli/pull/3580",
       "number": 3580,
       "repo": "conforma/cli",
@@ -3133,22 +3110,24 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-22T13:58:43Z",
-      "updated_at": "2026-09-22T14:01:43Z",
+      "updated_at": "2026-09-22T14:36:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
-      "title": "chore(deps): Update ubi-minimal base image",
+      "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
       "url": "https://github.com/conforma/cli/pull/3581",
       "number": 3581,
       "repo": "conforma/cli",
@@ -3157,18 +3136,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-22T13:58:49Z",
-      "updated_at": "2026-09-22T14:06:25Z",
+      "updated_at": "2026-09-22T14:37:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "size: XS",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -3331,31 +3311,6 @@
       ]
     },
     {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/conforma.github.io/pull/572",
-      "number": 572,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T13:53:12Z",
-      "updated_at": "2026-09-22T14:01:30Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Replace quay.io/konflux-ci/konflux-vanguard/task-rpms-signature-scan Docker tag with quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan 0.2 (main)",
       "url": "https://github.com/conforma/golden-container/pull/1504",
       "number": 1504,
@@ -3457,30 +3412,6 @@
         "main",
         "renovate",
         "size: M"
-      ]
-    },
-    {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/golden-container/pull/1517",
-      "number": 1517,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T12:52:09Z",
-      "updated_at": "2026-09-22T12:53:02Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
       ]
     },
     {
@@ -3704,30 +3635,6 @@
       ]
     },
     {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/237",
-      "number": 237,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T12:59:46Z",
-      "updated_at": "2026-09-22T13:00:39Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs(#243): replace enterprisecontract.dev URLs and GitHub org link",
       "url": "https://github.com/conforma/user-guide/pull/244",
       "number": 244,
@@ -3806,32 +3713,6 @@
       ]
     },
     {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/user-guide/pull/258",
-      "number": 258,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T12:53:43Z",
-      "updated_at": "2026-09-22T13:02:32Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Scripts to create and test fetching attestations",
       "url": "https://github.com/conforma/hacks/pull/162",
       "number": 162,
@@ -3854,30 +3735,6 @@
       "labels": []
     },
     {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/hacks/pull/219",
-      "number": 219,
-      "repo": "conforma/hacks",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T13:40:48Z",
-      "updated_at": "2026-09-22T13:46:24Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "chore: sync task and pipeline definitions to release-v0.7",
       "url": "https://github.com/conforma/tekton-catalog/pull/262",
       "number": 262,
@@ -3898,54 +3755,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/tekton-catalog/pull/273",
-      "number": 273,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T13:43:23Z",
-      "updated_at": "2026-09-22T13:44:16Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/config/pull/242",
-      "number": 242,
-      "repo": "conforma/config",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T13:47:42Z",
-      "updated_at": "2026-09-22T13:48:42Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
     },
     {
       "title": "Update npm dependencies (main) (minor)",
@@ -3997,30 +3806,6 @@
         "main",
         "renovate",
         "major",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/policy-builder/pull/65",
-      "number": 65,
-      "repo": "conforma/policy-builder",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T12:58:53Z",
-      "updated_at": "2026-09-22T13:01:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -4361,30 +4146,6 @@
       "labels": []
     },
     {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/.github/pull/92",
-      "number": 92,
-      "repo": "conforma/.github",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T13:46:49Z",
-      "updated_at": "2026-09-22T13:47:45Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -4434,28 +4195,6 @@
         "renovate",
         "major"
       ]
-    },
-    {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/crds/pull/37",
-      "number": 37,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T12:54:53Z",
-      "updated_at": "2026-09-22T12:55:54Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "Update npm dependencies (main) (minor)",
@@ -5126,12 +4865,44 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T14:08:45Z",
+    "since": "2026-06-24T14:39:23Z",
     "reviewers": [
       {
         "login": "robnester-rh",
-        "reviews": 169,
+        "reviews": 173,
         "prs": [
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3581",
+            "repo": "conforma/cli",
+            "number": 3581,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:30:04Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3580",
+            "repo": "conforma/cli",
+            "number": 3580,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:29:51Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3579",
+            "repo": "conforma/cli",
+            "number": 3579,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:29:42Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (main)",
+            "url": "https://github.com/conforma/cli/pull/3578",
+            "repo": "conforma/cli",
+            "number": 3578,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:29:33Z"
+          },
           {
             "title": "feat: Retry queries on transient failures",
             "url": "https://github.com/conforma/review-rot/pull/260",
@@ -6488,8 +6259,40 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 167,
+        "reviews": 171,
         "prs": [
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3581",
+            "repo": "conforma/cli",
+            "number": 3581,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:37:31Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3580",
+            "repo": "conforma/cli",
+            "number": 3580,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:36:55Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (main)",
+            "url": "https://github.com/conforma/cli/pull/3578",
+            "repo": "conforma/cli",
+            "number": 3578,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:36:41Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3579",
+            "repo": "conforma/cli",
+            "number": 3579,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:36:20Z"
+          },
           {
             "title": "feat: add e2e test coverage for the ITS pipeline",
             "url": "https://github.com/conforma/e2e-tests/pull/12",
@@ -7830,8 +7633,104 @@
       },
       {
         "login": "st3penta",
-        "reviews": 68,
+        "reviews": 79,
         "prs": [
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/.github/pull/92",
+            "repo": "conforma/.github",
+            "number": 92,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:52Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/tekton-catalog/pull/273",
+            "repo": "conforma/tekton-catalog",
+            "number": 273,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:49Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/hacks/pull/219",
+            "repo": "conforma/hacks",
+            "number": 219,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:45Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/237",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 237,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:40Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/policy-builder/pull/65",
+            "repo": "conforma/policy-builder",
+            "number": 65,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:36Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/conforma.github.io/pull/572",
+            "repo": "conforma/conforma.github.io",
+            "number": 572,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:33Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/crds/pull/37",
+            "repo": "conforma/crds",
+            "number": 37,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:28Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/user-guide/pull/258",
+            "repo": "conforma/user-guide",
+            "number": 258,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:25Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/golden-container/pull/1517",
+            "repo": "conforma/golden-container",
+            "number": 1517,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:21Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/policy/pull/1857",
+            "repo": "conforma/policy",
+            "number": 1857,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:17Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/cli/pull/3577",
+            "repo": "conforma/cli",
+            "number": 3577,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:13Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/config/pull/242",
+            "repo": "conforma/config",
+            "number": 242,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:22:21Z"
+          },
           {
             "title": "feat: Allow watching all PRs on non-org repositories",
             "url": "https://github.com/conforma/review-rot/pull/258",
@@ -8367,14 +8266,6 @@
             "number": 4,
             "author": "robnester-rh",
             "engaged_at": "2026-06-24T15:28:46Z"
-          },
-          {
-            "title": "feat: deny releases using experimental Hermeto backends",
-            "url": "https://github.com/conforma/policy/pull/1736",
-            "repo": "conforma/policy",
-            "number": 1736,
-            "author": "jsmid1",
-            "engaged_at": "2026-06-24T14:22:39Z"
           }
         ]
       },
@@ -8913,6 +8804,428 @@
         ]
       },
       {
+        "login": "jsmid1",
+        "reviews": 52,
+        "prs": [
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3581",
+            "repo": "conforma/cli",
+            "number": 3581,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:32:03Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3580",
+            "repo": "conforma/cli",
+            "number": 3580,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:32:00Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3579",
+            "repo": "conforma/cli",
+            "number": 3579,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:31:56Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (main)",
+            "url": "https://github.com/conforma/cli/pull/3578",
+            "repo": "conforma/cli",
+            "number": 3578,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:31:53Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/config/pull/242",
+            "repo": "conforma/config",
+            "number": 242,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:45Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/.github/pull/92",
+            "repo": "conforma/.github",
+            "number": 92,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:41Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/tekton-catalog/pull/273",
+            "repo": "conforma/tekton-catalog",
+            "number": 273,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:37Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/hacks/pull/219",
+            "repo": "conforma/hacks",
+            "number": 219,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:34Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/237",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 237,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:30Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/policy-builder/pull/65",
+            "repo": "conforma/policy-builder",
+            "number": 65,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:26Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/conforma.github.io/pull/572",
+            "repo": "conforma/conforma.github.io",
+            "number": 572,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:22Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/crds/pull/37",
+            "repo": "conforma/crds",
+            "number": 37,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:16Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/user-guide/pull/258",
+            "repo": "conforma/user-guide",
+            "number": 258,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:13Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/golden-container/pull/1517",
+            "repo": "conforma/golden-container",
+            "number": 1517,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:08Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/policy/pull/1857",
+            "repo": "conforma/policy",
+            "number": 1857,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:05Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/cli/pull/3577",
+            "repo": "conforma/cli",
+            "number": 3577,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:53Z"
+          },
+          {
+            "title": "test(#3515): increase unit test timeout to 30s",
+            "url": "https://github.com/conforma/cli/pull/3576",
+            "repo": "conforma/cli",
+            "number": 3576,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-22T10:30:56Z"
+          },
+          {
+            "title": "fix: switch to GitHub Actions deployment for Pages",
+            "url": "https://github.com/conforma/review-rot/pull/259",
+            "repo": "conforma/review-rot",
+            "number": 259,
+            "author": "lance",
+            "engaged_at": "2026-09-18T13:03:32Z"
+          },
+          {
+            "title": "🚨 Update actions/checkout action to v7 (main)",
+            "url": "https://github.com/conforma/.fullsend/pull/14",
+            "repo": "conforma/.fullsend",
+            "number": 14,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:54:35Z"
+          },
+          {
+            "title": "🚨 Update actions/checkout action to v7 (main)",
+            "url": "https://github.com/conforma/golden-rpm/pull/22",
+            "repo": "conforma/golden-rpm",
+            "number": 22,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:54:00Z"
+          },
+          {
+            "title": "🚨 Update github actions (main) (major)",
+            "url": "https://github.com/conforma/action-validate-image/pull/440",
+            "repo": "conforma/action-validate-image",
+            "number": 440,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:53:38Z"
+          },
+          {
+            "title": "🚨 Update github actions to v7 (release-v0.7)",
+            "url": "https://github.com/conforma/tekton-catalog/pull/243",
+            "repo": "conforma/tekton-catalog",
+            "number": 243,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:53:19Z"
+          },
+          {
+            "title": "🚨 Update github actions (main) (major)",
+            "url": "https://github.com/conforma/golden-container/pull/1495",
+            "repo": "conforma/golden-container",
+            "number": 1495,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:53:06Z"
+          },
+          {
+            "title": "docs(EC-2103): fix stale trusted_task_rules architecture in THREAT_MODEL.md",
+            "url": "https://github.com/conforma/policy/pull/1847",
+            "repo": "conforma/policy",
+            "number": 1847,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-15T13:14:36Z"
+          },
+          {
+            "title": "🚨 Update github actions to v7 (main)",
+            "url": "https://github.com/conforma/review-rot/pull/247",
+            "repo": "conforma/review-rot",
+            "number": 247,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:05:04Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to main",
+            "url": "https://github.com/conforma/tekton-catalog/pull/264",
+            "repo": "conforma/tekton-catalog",
+            "number": 264,
+            "author": "github-actions",
+            "engaged_at": "2026-09-15T11:32:26Z"
+          },
+          {
+            "title": "Update github actions (release-v0.5) (patch) - abandoned",
+            "url": "https://github.com/conforma/tekton-catalog/pull/229",
+            "repo": "conforma/tekton-catalog",
+            "number": 229,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T11:15:05Z"
+          },
+          {
+            "title": "Update github actions (release-v0.5) (minor) - abandoned",
+            "url": "https://github.com/conforma/tekton-catalog/pull/230",
+            "repo": "conforma/tekton-catalog",
+            "number": 230,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T11:15:01Z"
+          },
+          {
+            "title": "🚨 Update github actions (release-v0.5) (major) - abandoned",
+            "url": "https://github.com/conforma/tekton-catalog/pull/231",
+            "repo": "conforma/tekton-catalog",
+            "number": 231,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T11:14:58Z"
+          },
+          {
+            "title": "Update github actions (release-v0.6) (minor) - abandoned",
+            "url": "https://github.com/conforma/tekton-catalog/pull/237",
+            "repo": "conforma/tekton-catalog",
+            "number": 237,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T11:14:53Z"
+          },
+          {
+            "title": "🚨 Update actions/upload-artifact action to v7 (release-v0.6) - abandoned",
+            "url": "https://github.com/conforma/tekton-catalog/pull/240",
+            "repo": "conforma/tekton-catalog",
+            "number": 240,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T11:14:49Z"
+          },
+          {
+            "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
+            "url": "https://github.com/conforma/e2e-tests/pull/20",
+            "repo": "conforma/e2e-tests",
+            "number": 20,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T08:54:09Z"
+          },
+          {
+            "title": "fix(deps): update github/codeql-action action to v4.38.0 (main)",
+            "url": "https://github.com/conforma/go-gather/pull/347",
+            "repo": "conforma/go-gather",
+            "number": 347,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T08:52:43Z"
+          },
+          {
+            "title": "docs(EC-2104): add THREAT_MODEL.md to change checklist for trust-boundary modifications",
+            "url": "https://github.com/conforma/policy/pull/1851",
+            "repo": "conforma/policy",
+            "number": 1851,
+            "author": "BohdanMar",
+            "engaged_at": "2026-09-15T08:44:02Z"
+          },
+          {
+            "title": "docs(policy): document signing identity configuration",
+            "url": "https://github.com/conforma/policy/pull/1848",
+            "repo": "conforma/policy",
+            "number": 1848,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-15T08:30:37Z"
+          },
+          {
+            "title": "docs(EC-2039): document expected skill format in AGENTS.md",
+            "url": "https://github.com/conforma/cli/pull/3540",
+            "repo": "conforma/cli",
+            "number": 3540,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-14T11:46:03Z"
+          },
+          {
+            "title": "Find roxctl reports also using benchmark offliner",
+            "url": "https://github.com/conforma/cli/pull/3530",
+            "repo": "conforma/cli",
+            "number": 3530,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-14T11:38:51Z"
+          },
+          {
+            "title": "fix(#3394): add explicit gomod fileMatch for all go.mod files",
+            "url": "https://github.com/conforma/cli/pull/3395",
+            "repo": "conforma/cli",
+            "number": 3395,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-08T10:43:20Z"
+          },
+          {
+            "title": "Update dependency golang to v1.25.14 (main)",
+            "url": "https://github.com/conforma/policy/pull/1695",
+            "repo": "conforma/policy",
+            "number": 1695,
+            "author": "renovate",
+            "engaged_at": "2026-09-08T10:30:03Z"
+          },
+          {
+            "title": "docs(#1772): document dual test-result architecture and trust chain",
+            "url": "https://github.com/conforma/policy/pull/1773",
+            "repo": "conforma/policy",
+            "number": 1773,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-08T08:53:46Z"
+          },
+          {
+            "title": "Update npm dependencies (main) (minor)",
+            "url": "https://github.com/conforma/policy-builder/pull/43",
+            "repo": "conforma/policy-builder",
+            "number": 43,
+            "author": "renovate",
+            "engaged_at": "2026-09-08T08:24:49Z"
+          },
+          {
+            "title": "Update Konflux references (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1496",
+            "repo": "conforma/golden-container",
+            "number": 1496,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-08-26T14:49:32Z"
+          },
+          {
+            "title": "Restrict reviewer leaderboard to configured team members",
+            "url": "https://github.com/conforma/review-rot/pull/251",
+            "repo": "conforma/review-rot",
+            "number": 251,
+            "author": "st3penta",
+            "engaged_at": "2026-08-19T14:56:20Z"
+          },
+          {
+            "title": "Add reviewer leaderboard tab",
+            "url": "https://github.com/conforma/review-rot/pull/250",
+            "repo": "conforma/review-rot",
+            "number": 250,
+            "author": "st3penta",
+            "engaged_at": "2026-08-19T13:11:16Z"
+          },
+          {
+            "title": "docs(#1784): correct collection-registration guidance in AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1785",
+            "repo": "conforma/policy",
+            "number": 1785,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-18T10:57:43Z"
+          },
+          {
+            "title": "feat(EC-2031): remove data.trusted_task_rules in favor of rule_data only",
+            "url": "https://github.com/conforma/policy/pull/1806",
+            "repo": "conforma/policy",
+            "number": 1806,
+            "author": "BohdanMar",
+            "engaged_at": "2026-08-13T11:00:24Z"
+          },
+          {
+            "title": "docs(#1776): add collection change pattern to AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1777",
+            "repo": "conforma/policy",
+            "number": 1777,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-06T12:16:19Z"
+          },
+          {
+            "title": "docs(#1782): fix make ci description in AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1783",
+            "repo": "conforma/policy",
+            "number": 1783,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-06T11:48:56Z"
+          },
+          {
+            "title": "feat(EC-1941): add enterprise-contract pipeline definition",
+            "url": "https://github.com/conforma/cli/pull/3416",
+            "repo": "conforma/cli",
+            "number": 3416,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-04T09:07:57Z"
+          },
+          {
+            "title": "docs(EC-1980): add product naming guidance to AGENTS.md",
+            "url": "https://github.com/conforma/cli/pull/3457",
+            "repo": "conforma/cli",
+            "number": 3457,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-08-04T09:02:13Z"
+          },
+          {
+            "title": "docs(EC-1932): add Rego evaluation model guidance to AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1790",
+            "repo": "conforma/policy",
+            "number": 1790,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-08-04T08:54:58Z"
+          },
+          {
+            "title": "chore(deps): Remove Renovate annotations from .tekton files",
+            "url": "https://github.com/conforma/cli/pull/3439",
+            "repo": "conforma/cli",
+            "number": 3439,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-07-28T14:27:43Z"
+          }
+        ]
+      },
+      {
         "login": "dheerajodha",
         "reviews": 45,
         "prs": [
@@ -9275,300 +9588,6 @@
             "number": 3355,
             "author": "fghanmi",
             "engaged_at": "2026-06-29T11:15:07Z"
-          }
-        ]
-      },
-      {
-        "login": "jsmid1",
-        "reviews": 36,
-        "prs": [
-          {
-            "title": "test(#3515): increase unit test timeout to 30s",
-            "url": "https://github.com/conforma/cli/pull/3576",
-            "repo": "conforma/cli",
-            "number": 3576,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-22T10:30:56Z"
-          },
-          {
-            "title": "fix: switch to GitHub Actions deployment for Pages",
-            "url": "https://github.com/conforma/review-rot/pull/259",
-            "repo": "conforma/review-rot",
-            "number": 259,
-            "author": "lance",
-            "engaged_at": "2026-09-18T13:03:32Z"
-          },
-          {
-            "title": "🚨 Update actions/checkout action to v7 (main)",
-            "url": "https://github.com/conforma/.fullsend/pull/14",
-            "repo": "conforma/.fullsend",
-            "number": 14,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:54:35Z"
-          },
-          {
-            "title": "🚨 Update actions/checkout action to v7 (main)",
-            "url": "https://github.com/conforma/golden-rpm/pull/22",
-            "repo": "conforma/golden-rpm",
-            "number": 22,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:54:00Z"
-          },
-          {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/action-validate-image/pull/440",
-            "repo": "conforma/action-validate-image",
-            "number": 440,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:53:38Z"
-          },
-          {
-            "title": "🚨 Update github actions to v7 (release-v0.7)",
-            "url": "https://github.com/conforma/tekton-catalog/pull/243",
-            "repo": "conforma/tekton-catalog",
-            "number": 243,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:53:19Z"
-          },
-          {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/golden-container/pull/1495",
-            "repo": "conforma/golden-container",
-            "number": 1495,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:53:06Z"
-          },
-          {
-            "title": "docs(EC-2103): fix stale trusted_task_rules architecture in THREAT_MODEL.md",
-            "url": "https://github.com/conforma/policy/pull/1847",
-            "repo": "conforma/policy",
-            "number": 1847,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-09-15T13:14:36Z"
-          },
-          {
-            "title": "🚨 Update github actions to v7 (main)",
-            "url": "https://github.com/conforma/review-rot/pull/247",
-            "repo": "conforma/review-rot",
-            "number": 247,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:05:04Z"
-          },
-          {
-            "title": "chore: sync task and pipeline definitions to main",
-            "url": "https://github.com/conforma/tekton-catalog/pull/264",
-            "repo": "conforma/tekton-catalog",
-            "number": 264,
-            "author": "github-actions",
-            "engaged_at": "2026-09-15T11:32:26Z"
-          },
-          {
-            "title": "Update github actions (release-v0.5) (patch) - abandoned",
-            "url": "https://github.com/conforma/tekton-catalog/pull/229",
-            "repo": "conforma/tekton-catalog",
-            "number": 229,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T11:15:05Z"
-          },
-          {
-            "title": "Update github actions (release-v0.5) (minor) - abandoned",
-            "url": "https://github.com/conforma/tekton-catalog/pull/230",
-            "repo": "conforma/tekton-catalog",
-            "number": 230,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T11:15:01Z"
-          },
-          {
-            "title": "🚨 Update github actions (release-v0.5) (major) - abandoned",
-            "url": "https://github.com/conforma/tekton-catalog/pull/231",
-            "repo": "conforma/tekton-catalog",
-            "number": 231,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T11:14:58Z"
-          },
-          {
-            "title": "Update github actions (release-v0.6) (minor) - abandoned",
-            "url": "https://github.com/conforma/tekton-catalog/pull/237",
-            "repo": "conforma/tekton-catalog",
-            "number": 237,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T11:14:53Z"
-          },
-          {
-            "title": "🚨 Update actions/upload-artifact action to v7 (release-v0.6) - abandoned",
-            "url": "https://github.com/conforma/tekton-catalog/pull/240",
-            "repo": "conforma/tekton-catalog",
-            "number": 240,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T11:14:49Z"
-          },
-          {
-            "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
-            "url": "https://github.com/conforma/e2e-tests/pull/20",
-            "repo": "conforma/e2e-tests",
-            "number": 20,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T08:54:09Z"
-          },
-          {
-            "title": "fix(deps): update github/codeql-action action to v4.38.0 (main)",
-            "url": "https://github.com/conforma/go-gather/pull/347",
-            "repo": "conforma/go-gather",
-            "number": 347,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T08:52:43Z"
-          },
-          {
-            "title": "docs(EC-2104): add THREAT_MODEL.md to change checklist for trust-boundary modifications",
-            "url": "https://github.com/conforma/policy/pull/1851",
-            "repo": "conforma/policy",
-            "number": 1851,
-            "author": "BohdanMar",
-            "engaged_at": "2026-09-15T08:44:02Z"
-          },
-          {
-            "title": "docs(policy): document signing identity configuration",
-            "url": "https://github.com/conforma/policy/pull/1848",
-            "repo": "conforma/policy",
-            "number": 1848,
-            "author": "joejstuart",
-            "engaged_at": "2026-09-15T08:30:37Z"
-          },
-          {
-            "title": "docs(EC-2039): document expected skill format in AGENTS.md",
-            "url": "https://github.com/conforma/cli/pull/3540",
-            "repo": "conforma/cli",
-            "number": 3540,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-09-14T11:46:03Z"
-          },
-          {
-            "title": "Find roxctl reports also using benchmark offliner",
-            "url": "https://github.com/conforma/cli/pull/3530",
-            "repo": "conforma/cli",
-            "number": 3530,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-14T11:38:51Z"
-          },
-          {
-            "title": "fix(#3394): add explicit gomod fileMatch for all go.mod files",
-            "url": "https://github.com/conforma/cli/pull/3395",
-            "repo": "conforma/cli",
-            "number": 3395,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-08T10:43:20Z"
-          },
-          {
-            "title": "Update dependency golang to v1.25.14 (main)",
-            "url": "https://github.com/conforma/policy/pull/1695",
-            "repo": "conforma/policy",
-            "number": 1695,
-            "author": "renovate",
-            "engaged_at": "2026-09-08T10:30:03Z"
-          },
-          {
-            "title": "docs(#1772): document dual test-result architecture and trust chain",
-            "url": "https://github.com/conforma/policy/pull/1773",
-            "repo": "conforma/policy",
-            "number": 1773,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-08T08:53:46Z"
-          },
-          {
-            "title": "Update npm dependencies (main) (minor)",
-            "url": "https://github.com/conforma/policy-builder/pull/43",
-            "repo": "conforma/policy-builder",
-            "number": 43,
-            "author": "renovate",
-            "engaged_at": "2026-09-08T08:24:49Z"
-          },
-          {
-            "title": "Update Konflux references (main)",
-            "url": "https://github.com/conforma/golden-container/pull/1496",
-            "repo": "conforma/golden-container",
-            "number": 1496,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-08-26T14:49:32Z"
-          },
-          {
-            "title": "Restrict reviewer leaderboard to configured team members",
-            "url": "https://github.com/conforma/review-rot/pull/251",
-            "repo": "conforma/review-rot",
-            "number": 251,
-            "author": "st3penta",
-            "engaged_at": "2026-08-19T14:56:20Z"
-          },
-          {
-            "title": "Add reviewer leaderboard tab",
-            "url": "https://github.com/conforma/review-rot/pull/250",
-            "repo": "conforma/review-rot",
-            "number": 250,
-            "author": "st3penta",
-            "engaged_at": "2026-08-19T13:11:16Z"
-          },
-          {
-            "title": "docs(#1784): correct collection-registration guidance in AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1785",
-            "repo": "conforma/policy",
-            "number": 1785,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-18T10:57:43Z"
-          },
-          {
-            "title": "feat(EC-2031): remove data.trusted_task_rules in favor of rule_data only",
-            "url": "https://github.com/conforma/policy/pull/1806",
-            "repo": "conforma/policy",
-            "number": 1806,
-            "author": "BohdanMar",
-            "engaged_at": "2026-08-13T11:00:24Z"
-          },
-          {
-            "title": "docs(#1776): add collection change pattern to AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1777",
-            "repo": "conforma/policy",
-            "number": 1777,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-06T12:16:19Z"
-          },
-          {
-            "title": "docs(#1782): fix make ci description in AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1783",
-            "repo": "conforma/policy",
-            "number": 1783,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-06T11:48:56Z"
-          },
-          {
-            "title": "feat(EC-1941): add enterprise-contract pipeline definition",
-            "url": "https://github.com/conforma/cli/pull/3416",
-            "repo": "conforma/cli",
-            "number": 3416,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-04T09:07:57Z"
-          },
-          {
-            "title": "docs(EC-1980): add product naming guidance to AGENTS.md",
-            "url": "https://github.com/conforma/cli/pull/3457",
-            "repo": "conforma/cli",
-            "number": 3457,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-08-04T09:02:13Z"
-          },
-          {
-            "title": "docs(EC-1932): add Rego evaluation model guidance to AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1790",
-            "repo": "conforma/policy",
-            "number": 1790,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-08-04T08:54:58Z"
-          },
-          {
-            "title": "chore(deps): Remove Renovate annotations from .tekton files",
-            "url": "https://github.com/conforma/cli/pull/3439",
-            "repo": "conforma/cli",
-            "number": 3439,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-07-28T14:27:43Z"
           }
         ]
       },
