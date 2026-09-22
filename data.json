@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T19:37:06.415363252Z",
+  "generated_at": "2026-09-22T20:10:41.623921955Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3047,32 +3047,6 @@
       ]
     },
     {
-      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-      "url": "https://github.com/conforma/cli/pull/3577",
-      "number": 3577,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-22T12:49:15Z",
-      "updated_at": "2026-09-22T18:27:04Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "chore: initialize fullsend per-repo installation",
       "url": "https://github.com/conforma/cli/pull/3582",
       "number": 3582,
@@ -4857,7 +4831,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T19:33:59Z",
+    "since": "2026-06-24T20:07:39Z",
     "reviewers": [
       {
         "login": "robnester-rh",
