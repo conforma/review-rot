@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T15:11:18.815771193Z",
+  "generated_at": "2026-09-22T15:38:38.267671888Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -881,6 +881,30 @@
       ]
     },
     {
+      "title": "chore: initialize fullsend per-repo installation",
+      "url": "https://github.com/conforma/policy/pull/1858",
+      "number": 1858,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-09-22T15:12:27Z",
+      "updated_at": "2026-09-22T15:17:01Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: L"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1226,10 +1250,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-09-22T15:01:26Z",
+      "updated_at": "2026-09-22T15:08:50Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "count": 0,
@@ -3032,13 +3056,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-09-22T12:49:15Z",
-      "updated_at": "2026-09-22T14:43:56Z",
+      "updated_at": "2026-09-22T15:33:17Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 3,
+        "count": 4,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3046,6 +3070,30 @@
         "size: XS",
         "requires-manual-review",
         "risk/moderate"
+      ]
+    },
+    {
+      "title": "chore: initialize fullsend per-repo installation",
+      "url": "https://github.com/conforma/cli/pull/3582",
+      "number": 3582,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-09-22T15:12:24Z",
+      "updated_at": "2026-09-22T15:29:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: L"
       ]
     },
     {
@@ -3204,6 +3252,30 @@
       "labels": [
         "size: XS",
         "risk/moderate"
+      ]
+    },
+    {
+      "title": "chore: initialize fullsend per-repo installation",
+      "url": "https://github.com/conforma/conforma.github.io/pull/573",
+      "number": 573,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-09-22T15:12:21Z",
+      "updated_at": "2026-09-22T15:27:13Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: L"
       ]
     },
     {
@@ -3606,6 +3678,30 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "chore: initialize fullsend per-repo installation",
+      "url": "https://github.com/conforma/user-guide/pull/259",
+      "number": 259,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-09-22T15:12:30Z",
+      "updated_at": "2026-09-22T15:14:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "L",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: L"
       ]
     },
     {
@@ -4675,7 +4771,7 @@
       "updated_at": "2026-09-22T14:46:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 6,
@@ -4761,7 +4857,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T15:08:19Z",
+    "since": "2026-06-24T15:35:52Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6155,8 +6251,16 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 171,
+        "reviews": 172,
         "prs": [
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/cli/pull/3577",
+            "repo": "conforma/cli",
+            "number": 3577,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T15:33:17Z"
+          },
           {
             "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
             "url": "https://github.com/conforma/cli/pull/3581",
@@ -7529,7 +7633,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 79,
+        "reviews": 77,
         "prs": [
           {
             "title": "Remove unnecessary secrets: inherit from auto-merge caller",
@@ -8146,22 +8250,6 @@
             "number": 6,
             "author": "robnester-rh",
             "engaged_at": "2026-06-25T14:03:58Z"
-          },
-          {
-            "title": "fix(EC-1866): replace gh repo sync with merge-based upstream sync",
-            "url": "https://github.com/conforma/go-containerregistry/pull/5",
-            "repo": "conforma/go-containerregistry",
-            "number": 5,
-            "author": "robnester-rh",
-            "engaged_at": "2026-06-24T15:33:11Z"
-          },
-          {
-            "title": "chore: sync with upstream google/go-containerregistry",
-            "url": "https://github.com/conforma/go-containerregistry/pull/4",
-            "repo": "conforma/go-containerregistry",
-            "number": 4,
-            "author": "robnester-rh",
-            "engaged_at": "2026-06-24T15:28:46Z"
           }
         ]
       },
