@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T11:09:57.873578788Z",
+  "generated_at": "2026-09-22T11:38:17.196959023Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4709,7 +4709,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T11:07:31Z",
+    "since": "2026-06-24T11:35:49Z",
     "reviewers": [
       {
         "login": "robnester-rh",
