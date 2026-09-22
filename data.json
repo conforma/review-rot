@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:11:11.045445108Z",
+  "generated_at": "2026-09-22T13:40:45.435069571Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4701,13 +4701,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-10T13:36:58Z",
-      "updated_at": "2026-09-10T13:37:06Z",
-      "is_draft": true,
+      "updated_at": "2026-09-22T13:20:47Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4832,6 +4832,30 @@
       ]
     },
     {
+      "title": "chore(EC-2070): retire trusted task updates",
+      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2581",
+      "number": 2581,
+      "repo": "konflux-ci/release-service-catalog",
+      "author": {
+        "login": "dheerajodha",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
+      },
+      "created_at": "2026-09-22T13:26:52Z",
+      "updated_at": "2026-09-22T13:27:13Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "ai-assisted"
+      ]
+    },
+    {
       "title": "EC-1793: Add production environment overlay for enterprise-contract",
       "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13955",
       "number": 13955,
@@ -4882,7 +4906,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T13:08:15Z",
+    "since": "2026-06-24T13:37:36Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6244,8 +6268,16 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 167,
+        "reviews": 168,
         "prs": [
+          {
+            "title": "feat(EC-2212): show PRs waiting for a 2nd approval in 'Ready for review'",
+            "url": "https://github.com/conforma/review-rot/pull/262",
+            "repo": "conforma/review-rot",
+            "number": 262,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-22T13:36:56Z"
+          },
           {
             "title": "feat: add e2e test coverage for the ITS pipeline",
             "url": "https://github.com/conforma/e2e-tests/pull/12",
