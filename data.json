@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T13:40:45.435069571Z",
+  "generated_at": "2026-09-22T14:11:49.608247414Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3060,7 +3060,7 @@
       "updated_at": "2026-09-22T13:05:11Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3070,6 +3070,105 @@
       "labels": [
         "size: XS",
         "requires-manual-review",
+        "risk/moderate"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image",
+      "url": "https://github.com/conforma/cli/pull/3578",
+      "number": 3578,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-09-22T13:58:29Z",
+      "updated_at": "2026-09-22T14:07:48Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "risk/moderate"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image",
+      "url": "https://github.com/conforma/cli/pull/3579",
+      "number": 3579,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-09-22T13:58:37Z",
+      "updated_at": "2026-09-22T14:07:25Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "risk/low"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image",
+      "url": "https://github.com/conforma/cli/pull/3580",
+      "number": 3580,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-09-22T13:58:43Z",
+      "updated_at": "2026-09-22T14:01:43Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image",
+      "url": "https://github.com/conforma/cli/pull/3581",
+      "number": 3581,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-09-22T13:58:49Z",
+      "updated_at": "2026-09-22T14:06:25Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
         "risk/moderate"
       ]
     },
@@ -3219,6 +3318,31 @@
       "updated_at": "2026-09-16T14:12:41Z",
       "is_draft": false,
       "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS",
+        "risk/moderate"
+      ]
+    },
+    {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/conforma.github.io/pull/572",
+      "number": 572,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T13:53:12Z",
+      "updated_at": "2026-09-22T14:01:30Z",
+      "is_draft": false,
+      "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
@@ -3419,7 +3543,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-21T11:04:11Z",
-      "updated_at": "2026-09-21T11:04:19Z",
+      "updated_at": "2026-09-22T13:43:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3730,6 +3854,30 @@
       "labels": []
     },
     {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/hacks/pull/219",
+      "number": 219,
+      "repo": "conforma/hacks",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T13:40:48Z",
+      "updated_at": "2026-09-22T13:46:24Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "chore: sync task and pipeline definitions to release-v0.7",
       "url": "https://github.com/conforma/tekton-catalog/pull/262",
       "number": 262,
@@ -3750,6 +3898,54 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/tekton-catalog/pull/273",
+      "number": 273,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T13:43:23Z",
+      "updated_at": "2026-09-22T13:44:16Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/config/pull/242",
+      "number": 242,
+      "repo": "conforma/config",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T13:47:42Z",
+      "updated_at": "2026-09-22T13:48:42Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
     },
     {
       "title": "Update npm dependencies (main) (minor)",
@@ -4163,6 +4359,30 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+      "url": "https://github.com/conforma/.github/pull/92",
+      "number": 92,
+      "repo": "conforma/.github",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-09-22T13:46:49Z",
+      "updated_at": "2026-09-22T13:47:45Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
     },
     {
       "title": "Update go modules (main) (minor)",
@@ -4817,7 +5037,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-11T15:04:42Z",
-      "updated_at": "2026-09-22T12:57:05Z",
+      "updated_at": "2026-09-22T13:53:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -4906,7 +5126,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T13:37:36Z",
+    "since": "2026-06-24T14:08:45Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6268,16 +6488,8 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 168,
+        "reviews": 167,
         "prs": [
-          {
-            "title": "feat(EC-2212): show PRs waiting for a 2nd approval in 'Ready for review'",
-            "url": "https://github.com/conforma/review-rot/pull/262",
-            "repo": "conforma/review-rot",
-            "number": 262,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-22T13:36:56Z"
-          },
           {
             "title": "feat: add e2e test coverage for the ITS pipeline",
             "url": "https://github.com/conforma/e2e-tests/pull/12",
