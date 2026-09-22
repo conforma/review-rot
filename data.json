@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T04:12:00.881420642Z",
+  "generated_at": "2026-09-22T04:41:07.399984216Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3163,7 +3163,7 @@
       "updated_at": "2026-09-22T03:50:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3650,7 +3650,7 @@
       ]
     },
     {
-      "title": "fix(deps): update codecov/codecov-action action to v7.1.0 (main)",
+      "title": "fix(deps): update codecov/codecov-action action to v7.1.1 (main)",
       "url": "https://github.com/conforma/go-gather/pull/348",
       "number": 348,
       "repo": "conforma/go-gather",
@@ -3659,7 +3659,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-21T01:38:10Z",
-      "updated_at": "2026-09-21T01:39:44Z",
+      "updated_at": "2026-09-22T04:16:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4680,7 +4680,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-24T04:09:28Z",
+    "since": "2026-06-24T04:38:51Z",
     "reviewers": [
       {
         "login": "robnester-rh",
