@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T05:10:22.929340153Z",
+  "generated_at": "2026-09-23T05:21:03.216034129Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3431,32 +3431,6 @@
       ]
     },
     {
-      "title": "Update codecov/codecov-action action to v7.1.1 (main)",
-      "url": "https://github.com/conforma/review-rot/pull/263",
-      "number": 263,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-23T03:12:06Z",
-      "updated_at": "2026-09-23T03:13:00Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -4857,7 +4831,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T05:07:57Z",
+    "since": "2026-06-25T05:18:21Z",
     "reviewers": [
       {
         "login": "robnester-rh",
