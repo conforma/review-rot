@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T02:13:34.273105016Z",
+  "generated_at": "2026-09-23T02:45:02.217524975Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1108,7 +1108,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-09-22T02:10:04Z",
+      "updated_at": "2026-09-23T02:28:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1311,7 +1311,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-22T15:04:03Z",
+      "updated_at": "2026-09-23T02:20:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1534,7 +1534,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-09-22T03:02:29Z",
+      "updated_at": "2026-09-23T02:32:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1837,7 +1837,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-09-17T03:33:29Z",
+      "updated_at": "2026-09-23T02:19:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1867,7 +1867,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-09-22T02:22:14Z",
+      "updated_at": "2026-09-23T02:31:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1986,7 +1986,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-09-20T01:47:00Z",
+      "updated_at": "2026-09-23T02:19:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2017,7 +2017,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-29T01:22:52Z",
-      "updated_at": "2026-09-17T04:10:59Z",
+      "updated_at": "2026-09-23T02:31:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2923,7 +2923,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-17T03:26:55Z",
-      "updated_at": "2026-09-20T01:38:14Z",
+      "updated_at": "2026-09-23T02:35:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3279,7 +3279,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 984df0a (main)",
+      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 8ebe2ad (main)",
       "url": "https://github.com/conforma/golden-container/pull/1508",
       "number": 1508,
       "repo": "conforma/golden-container",
@@ -3288,10 +3288,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-27T01:11:57Z",
-      "updated_at": "2026-09-22T03:50:11Z",
+      "updated_at": "2026-09-23T02:33:25Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4831,7 +4831,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T02:11:13Z",
+    "since": "2026-06-25T02:42:25Z",
     "reviewers": [
       {
         "login": "robnester-rh",
