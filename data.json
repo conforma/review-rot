@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T08:13:39.888994653Z",
+  "generated_at": "2026-09-23T08:44:45.822350344Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4444,13 +4444,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T02:03:26Z",
-      "updated_at": "2026-09-17T03:15:52Z",
+      "updated_at": "2026-09-23T08:29:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4458,6 +4458,28 @@
         "main",
         "renovate"
       ]
+    },
+    {
+      "title": "Disable org-level config",
+      "url": "https://github.com/conforma/.fullsend/pull/17",
+      "number": 17,
+      "repo": "conforma/.fullsend",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-09-23T08:32:46Z",
+      "updated_at": "2026-09-23T08:37:20Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "Update go modules (main) (minor)",
@@ -4831,7 +4853,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T08:10:56Z",
+    "since": "2026-06-25T08:41:50Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7607,8 +7629,16 @@
       },
       {
         "login": "st3penta",
-        "reviews": 77,
+        "reviews": 78,
         "prs": [
+          {
+            "title": "Update fullsend-ai/fullsend digest to d5f3692 (main)",
+            "url": "https://github.com/conforma/.fullsend/pull/15",
+            "repo": "conforma/.fullsend",
+            "number": 15,
+            "author": "renovate",
+            "engaged_at": "2026-09-23T08:29:19Z"
+          },
           {
             "title": "Remove unnecessary secrets: inherit from auto-merge caller",
             "url": "https://github.com/conforma/.github/pull/92",
@@ -10051,8 +10081,16 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 17,
+        "reviews": 18,
         "prs": [
+          {
+            "title": "Disable org-level config",
+            "url": "https://github.com/conforma/.fullsend/pull/17",
+            "repo": "conforma/.fullsend",
+            "number": 17,
+            "author": "st3penta",
+            "engaged_at": "2026-09-23T08:41:45Z"
+          },
           {
             "title": "Mock ec.oci.parsed_blob",
             "url": "https://github.com/conforma/policy/pull/1856",
