@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T17:37:52.974080518Z",
+  "generated_at": "2026-09-23T18:13:49.747005157Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3847,14 +3847,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-23T09:04:48Z",
-      "updated_at": "2026-09-23T09:04:57Z",
+      "updated_at": "2026-09-23T17:46:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5016,7 +5016,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T17:34:59Z",
+    "since": "2026-06-25T18:10:41Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -10030,8 +10030,16 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 30,
+        "reviews": 31,
         "prs": [
+          {
+            "title": "fix: remove upstream-deleted tasks/pipelines during sync",
+            "url": "https://github.com/conforma/tekton-catalog/pull/274",
+            "repo": "conforma/tekton-catalog",
+            "number": 274,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-23T17:46:09Z"
+          },
           {
             "title": "Remove unnecessary secrets: inherit from auto-merge caller",
             "url": "https://github.com/conforma/cli/pull/3577",
