@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:11:29.788674557Z",
+  "generated_at": "2026-09-23T15:41:23.883109928Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3087,10 +3087,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-21T15:22:22Z",
-      "updated_at": "2026-09-23T13:07:27Z",
+      "updated_at": "2026-09-23T15:36:54Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -4874,17 +4874,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-23T14:38:58Z",
+      "updated_at": "2026-09-23T15:28:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 4,
-        "approved_count": 0,
-        "has_new_commits": true
+        "approved_count": 1,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "Review effort 2/5",
         "prod/needs-approval"
@@ -4923,7 +4923,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-11T15:04:42Z",
-      "updated_at": "2026-09-23T15:00:19Z",
+      "updated_at": "2026-09-23T15:18:47Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5016,7 +5016,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T15:08:00Z",
+    "since": "2026-06-25T15:38:03Z",
     "reviewers": [
       {
         "login": "robnester-rh",
