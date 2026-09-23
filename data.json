@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T05:39:54.339404846Z",
+  "generated_at": "2026-09-23T06:16:14.695073846Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1311,7 +1311,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-23T02:20:55Z",
+      "updated_at": "2026-09-23T05:42:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3710,7 +3710,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-08-20T12:57:52Z",
-      "updated_at": "2026-09-22T06:01:36Z",
+      "updated_at": "2026-09-23T06:01:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4469,7 +4469,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-09-23T01:27:54Z",
+      "updated_at": "2026-09-23T05:55:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4522,7 +4522,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-09-21T06:43:19Z",
+      "updated_at": "2026-09-23T05:54:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4548,7 +4548,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-09-21T06:43:26Z",
+      "updated_at": "2026-09-23T05:54:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4790,10 +4790,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-09-07T11:37:19Z",
-      "updated_at": "2026-09-10T11:14:34Z",
+      "updated_at": "2026-09-23T05:54:19Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 1,
@@ -4831,7 +4831,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T05:37:22Z",
+    "since": "2026-06-25T06:13:18Z",
     "reviewers": [
       {
         "login": "robnester-rh",
