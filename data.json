@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T15:41:23.883109928Z",
+  "generated_at": "2026-09-23T16:12:44.959994686Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -844,17 +844,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1614735?v=4"
       },
       "created_at": "2026-09-06T12:03:28Z",
-      "updated_at": "2026-09-18T14:19:25Z",
+      "updated_at": "2026-09-23T15:42:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 3,
+        "count": 4,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "size: XS"
       ]
@@ -3087,10 +3087,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-21T15:22:22Z",
-      "updated_at": "2026-09-23T15:36:54Z",
+      "updated_at": "2026-09-23T15:54:18Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -4923,7 +4923,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-11T15:04:42Z",
-      "updated_at": "2026-09-23T15:18:47Z",
+      "updated_at": "2026-09-23T15:53:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5016,7 +5016,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T15:38:03Z",
+    "since": "2026-06-25T16:09:30Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -10276,8 +10276,16 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 18,
+        "reviews": 19,
         "prs": [
+          {
+            "title": "Add Codecov configuration (100% project and patch coverage)",
+            "url": "https://github.com/conforma/policy/pull/1840",
+            "repo": "conforma/policy",
+            "number": 1840,
+            "author": "eedri",
+            "engaged_at": "2026-09-23T15:42:10Z"
+          },
           {
             "title": "Disable org-level config",
             "url": "https://github.com/conforma/.fullsend/pull/17",
