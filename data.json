@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T09:11:47.870624446Z",
+  "generated_at": "2026-09-23T09:40:38.433435562Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3002,7 +3002,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-22T09:00:20Z",
-      "updated_at": "2026-09-23T08:59:27Z",
+      "updated_at": "2026-09-23T09:14:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4468,7 +4468,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T02:03:26Z",
-      "updated_at": "2026-09-23T08:29:19Z",
+      "updated_at": "2026-09-23T09:15:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -4482,28 +4482,6 @@
         "main",
         "renovate"
       ]
-    },
-    {
-      "title": "Disable org-level config",
-      "url": "https://github.com/conforma/.fullsend/pull/17",
-      "number": 17,
-      "repo": "conforma/.fullsend",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-09-23T08:32:46Z",
-      "updated_at": "2026-09-23T09:00:49Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "Update go modules (main) (minor)",
@@ -4788,7 +4766,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-11T15:04:42Z",
-      "updated_at": "2026-09-23T01:12:36Z",
+      "updated_at": "2026-09-23T09:12:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4827,6 +4805,32 @@
       ]
     },
     {
+      "title": "EC-1793: Add production environment overlay for enterprise-contract",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13955",
+      "number": 13955,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "Acepresso",
+        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
+      },
+      "created_at": "2026-09-07T11:37:19Z",
+      "updated_at": "2026-09-23T06:18:44Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "has_new_commits": true
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "environment/production",
+        "infra/hold-production",
+        "prod/needs-approval"
+      ]
+    },
+    {
       "title": "Add a week to git-clone task deadline",
       "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/271",
       "number": 271,
@@ -4851,7 +4855,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T09:08:58Z",
+    "since": "2026-06-25T09:37:57Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8794,20 +8798,20 @@
         "reviews": 54,
         "prs": [
           {
+            "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
+            "url": "https://github.com/conforma/cli/pull/3575",
+            "repo": "conforma/cli",
+            "number": 3575,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-23T09:14:13Z"
+          },
+          {
             "title": "Disable org-level config",
             "url": "https://github.com/conforma/.fullsend/pull/17",
             "repo": "conforma/.fullsend",
             "number": 17,
             "author": "st3penta",
             "engaged_at": "2026-09-23T09:00:49Z"
-          },
-          {
-            "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
-            "url": "https://github.com/conforma/cli/pull/3575",
-            "repo": "conforma/cli",
-            "number": 3575,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-23T08:59:27Z"
           },
           {
             "title": "test(#3515): increase unit test timeout to 30s",
