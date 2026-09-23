@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T20:11:35.642477414Z",
+  "generated_at": "2026-09-23T20:39:29.004575669Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4669,7 +4669,7 @@
       "updated_at": "2026-09-23T20:07:49Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
         "count": 1,
@@ -5016,7 +5016,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T20:08:45Z",
+    "since": "2026-06-25T20:36:31Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6410,7 +6410,7 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 172,
+        "reviews": 171,
         "prs": [
           {
             "title": "Remove unnecessary secrets: inherit from auto-merge caller",
@@ -7779,14 +7779,6 @@
             "number": 3640,
             "author": "webbnh",
             "engaged_at": "2026-06-26T19:34:25Z"
-          },
-          {
-            "title": "fix cve-2026-42499: Upgrade Go to 1.26.3",
-            "url": "https://github.com/conforma/cli/pull/3356",
-            "repo": "conforma/cli",
-            "number": 3356,
-            "author": "fghanmi",
-            "engaged_at": "2026-06-25T20:35:15Z"
           }
         ]
       },
