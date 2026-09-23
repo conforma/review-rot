@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T08:44:45.822350344Z",
+  "generated_at": "2026-09-23T09:11:47.870624446Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3002,16 +3002,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-22T09:00:20Z",
-      "updated_at": "2026-09-22T09:16:15Z",
+      "updated_at": "2026-09-23T08:59:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": "S",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "size: S",
         "requires-manual-review",
@@ -3029,7 +3029,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-22T09:02:59Z",
-      "updated_at": "2026-09-22T10:30:56Z",
+      "updated_at": "2026-09-23T08:55:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3721,6 +3721,30 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "fix: remove upstream-deleted tasks/pipelines during sync",
+      "url": "https://github.com/conforma/tekton-catalog/pull/274",
+      "number": 274,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-09-23T09:04:48Z",
+      "updated_at": "2026-09-23T09:04:57Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
     },
     {
       "title": "Update npm dependencies (main) (minor)",
@@ -4469,13 +4493,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-23T08:32:46Z",
-      "updated_at": "2026-09-23T08:37:20Z",
+      "updated_at": "2026-09-23T09:00:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
+        "count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4803,32 +4827,6 @@
       ]
     },
     {
-      "title": "EC-1793: Add production environment overlay for enterprise-contract",
-      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13955",
-      "number": 13955,
-      "repo": "redhat-appstudio/infra-deployments",
-      "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
-      },
-      "created_at": "2026-09-07T11:37:19Z",
-      "updated_at": "2026-09-23T06:18:44Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "has_new_commits": true
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "environment/production",
-        "infra/hold-production",
-        "prod/needs-approval"
-      ]
-    },
-    {
       "title": "Add a week to git-clone task deadline",
       "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/271",
       "number": 271,
@@ -4853,7 +4851,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T08:41:50Z",
+    "since": "2026-06-25T09:08:58Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8793,8 +8791,32 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 52,
+        "reviews": 54,
         "prs": [
+          {
+            "title": "Disable org-level config",
+            "url": "https://github.com/conforma/.fullsend/pull/17",
+            "repo": "conforma/.fullsend",
+            "number": 17,
+            "author": "st3penta",
+            "engaged_at": "2026-09-23T09:00:49Z"
+          },
+          {
+            "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
+            "url": "https://github.com/conforma/cli/pull/3575",
+            "repo": "conforma/cli",
+            "number": 3575,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-23T08:59:27Z"
+          },
+          {
+            "title": "test(#3515): increase unit test timeout to 30s",
+            "url": "https://github.com/conforma/cli/pull/3576",
+            "repo": "conforma/cli",
+            "number": 3576,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-23T08:55:03Z"
+          },
           {
             "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
             "url": "https://github.com/conforma/cli/pull/3581",
@@ -8922,14 +8944,6 @@
             "number": 3577,
             "author": "robnester-rh",
             "engaged_at": "2026-09-22T14:23:53Z"
-          },
-          {
-            "title": "test(#3515): increase unit test timeout to 30s",
-            "url": "https://github.com/conforma/cli/pull/3576",
-            "repo": "conforma/cli",
-            "number": 3576,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-22T10:30:56Z"
           },
           {
             "title": "fix: switch to GitHub Actions deployment for Pages",
