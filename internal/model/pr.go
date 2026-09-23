@@ -3,10 +3,11 @@ package model
 import "time"
 
 type Output struct {
-	GeneratedAt  time.Time     `json:"generated_at"`
-	UISettings   *UISettings   `json:"ui_settings,omitempty"`
-	PullRequests []PullRequest `json:"pull_requests"`
-	Leaderboard  *Leaderboard  `json:"leaderboard,omitempty"`
+	GeneratedAt       time.Time     `json:"generated_at"`
+	UISettings        *UISettings   `json:"ui_settings,omitempty"`
+	RequiredApprovals int           `json:"required_approvals"`
+	PullRequests      []PullRequest `json:"pull_requests"`
+	Leaderboard       *Leaderboard  `json:"leaderboard,omitempty"`
 }
 
 // Leaderboard ranks reviewers by how many pull requests they reviewed or
@@ -92,5 +93,6 @@ type Author struct {
 
 type Reviews struct {
 	Count         int  `json:"count"`
+	ApprovedCount int  `json:"approved_count"`
 	HasNewCommits bool `json:"has_new_commits"`
 }

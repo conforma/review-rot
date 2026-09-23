@@ -89,6 +89,7 @@ func TestExtractSize(t *testing.T) {
 	}
 }
 
+// makeReviewNode builds an APPROVED review node.
 func makeReviewNode(authorType, login, oid string) struct {
 	Author struct {
 		TypeName string `graphql:"__typename"`
@@ -97,6 +98,20 @@ func makeReviewNode(authorType, login, oid string) struct {
 	Commit struct {
 		OID string `graphql:"oid"`
 	}
+	State string
+} {
+	return makeReviewNodeState(authorType, login, oid, "APPROVED")
+}
+
+func makeReviewNodeState(authorType, login, oid, state string) struct {
+	Author struct {
+		TypeName string `graphql:"__typename"`
+		Login    string
+	} `graphql:"author"`
+	Commit struct {
+		OID string `graphql:"oid"`
+	}
+	State string
 } {
 	var n struct {
 		Author struct {
@@ -106,10 +121,12 @@ func makeReviewNode(authorType, login, oid string) struct {
 		Commit struct {
 			OID string `graphql:"oid"`
 		}
+		State string
 	}
 	n.Author.TypeName = authorType
 	n.Author.Login = login
 	n.Commit.OID = oid
+	n.State = state
 	return n
 }
 
@@ -532,6 +549,54 @@ func TestExtractReviewsDeduplicatesByAuthor(t *testing.T) {
 	r := extractReviews(node)
 	if r.Count != 3 {
 		t.Errorf("Count = %d, want 3 (alice, bob, charlie)", r.Count)
+	}
+}
+
+func TestExtractReviewsApprovedCount(t *testing.T) {
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	node.Reviews.Nodes = append(node.Reviews.Nodes,
+		makeReviewNodeState("User", "alice", "head", "APPROVED"),
+		makeReviewNodeState("User", "bob", "head", "CHANGES_REQUESTED"),
+		makeReviewNodeState("User", "carol", "head", "COMMENTED"),
+	)
+
+	r := extractReviews(node)
+	if r.Count != 3 {
+		t.Errorf("Count = %d, want 3", r.Count)
+	}
+	if r.ApprovedCount != 1 {
+		t.Errorf("ApprovedCount = %d, want 1 (only alice approved)", r.ApprovedCount)
+	}
+}
+
+func TestExtractReviewsApprovalSupersededByChangesRequested(t *testing.T) {
+	// Later CHANGES_REQUESTED should override an earlier APPROVED.
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	node.Reviews.Nodes = append(node.Reviews.Nodes,
+		makeReviewNodeState("User", "alice", "old", "APPROVED"),
+		makeReviewNodeState("User", "alice", "head", "CHANGES_REQUESTED"),
+	)
+
+	r := extractReviews(node)
+	if r.ApprovedCount != 0 {
+		t.Errorf("ApprovedCount = %d, want 0 (stale approval superseded by changes requested)", r.ApprovedCount)
+	}
+}
+
+func TestExtractReviewsChangesRequestedThenApproved(t *testing.T) {
+	// Later APPROVED should override an earlier CHANGES_REQUESTED.
+	node := prNode{HeadRefOid: "head"}
+	node.Author.Login = "author"
+	node.Reviews.Nodes = append(node.Reviews.Nodes,
+		makeReviewNodeState("User", "alice", "old", "CHANGES_REQUESTED"),
+		makeReviewNodeState("User", "alice", "head", "APPROVED"),
+	)
+
+	r := extractReviews(node)
+	if r.ApprovedCount != 1 {
+		t.Errorf("ApprovedCount = %d, want 1 (latest review is an approval)", r.ApprovedCount)
 	}
 }
 

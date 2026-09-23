@@ -10,17 +10,21 @@ import (
 )
 
 type Config struct {
-	GitHub      GitHubConfig      `yaml:"github"`
-	Sources     SourcesConfig     `yaml:"sources"`
-	Authors     []string          `yaml:"authors"`
-	Leaderboard LeaderboardConfig `yaml:"leaderboard"`
-	UI          UIConfig          `yaml:"-"`
+	GitHub            GitHubConfig      `yaml:"github"`
+	Sources           SourcesConfig     `yaml:"sources"`
+	Authors           []string          `yaml:"authors"`
+	Leaderboard       LeaderboardConfig `yaml:"leaderboard"`
+	RequiredApprovals int               `yaml:"required_approvals"`
+	UI                UIConfig          `yaml:"-"`
 }
 
 // defaultLeaderboardWindowDays is the data horizon used when
 // leaderboard.window_days is omitted. The frontend interval selector can narrow
 // this further, so it is the widest range the leaderboard can show.
 const defaultLeaderboardWindowDays = 90
+
+// defaultRequiredApprovals is used when required_approvals is omitted.
+const defaultRequiredApprovals = 2
 
 type LeaderboardConfig struct {
 	WindowDays int `yaml:"window_days"`
@@ -134,7 +138,6 @@ func validate(cfg *Config) (*Config, error) {
 	if cfg.Leaderboard.WindowDays <= 0 {
 		cfg.Leaderboard.WindowDays = defaultLeaderboardWindowDays
 	}
-
 	// Parse repo entries and separate watch-all (+prefix) from normal repos
 	for i, repo := range cfg.Sources.Repos {
 		// Trim whitespace first to handle quoted entries with leading/trailing spaces
@@ -160,6 +163,9 @@ func validate(cfg *Config) (*Config, error) {
 		}
 	}
 
+	if cfg.RequiredApprovals <= 0 {
+		cfg.RequiredApprovals = defaultRequiredApprovals
+	}
 	return cfg, nil
 }
 

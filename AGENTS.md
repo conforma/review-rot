@@ -96,6 +96,8 @@ See `config/sources.yaml` for the full backend configuration. Key sections:
 - `leaderboard.window_days` — data horizon: days of review history to aggregate
   for the reviewer leaderboard (default 90). The frontend interval selector
   narrows this further client-side, so it is the widest range shown
+- `required_approvals` — approvals needed to hide a PR from "Ready for
+  review" (default 2)
 
 See `config/ui.yaml` for appearance settings:
 - `title` — dashboard title (shown in header and browser tab)
