@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T11:39:01.527126559Z",
+  "generated_at": "2026-09-24T12:15:21.35741775Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1234,7 +1234,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-24T02:02:37Z",
+      "updated_at": "2026-09-24T11:59:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1266,7 +1266,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-09-24T02:21:55Z",
+      "updated_at": "2026-09-24T11:59:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1298,7 +1298,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-09-22T15:08:50Z",
+      "updated_at": "2026-09-24T12:06:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1331,7 +1331,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:48Z",
-      "updated_at": "2026-09-24T01:57:29Z",
+      "updated_at": "2026-09-24T12:01:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1348,7 +1348,8 @@
         "renovate",
         "major",
         "main",
-        "size: L"
+        "size: L",
+        "risk/moderate"
       ]
     },
     {
@@ -1361,7 +1362,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-24T08:08:25Z",
+      "updated_at": "2026-09-24T11:51:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1392,7 +1393,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-09-24T02:07:48Z",
+      "updated_at": "2026-09-24T11:52:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1425,7 +1426,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-09-24T02:25:22Z",
+      "updated_at": "2026-09-24T11:53:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1843,7 +1844,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-09-22T20:11:26Z",
+      "updated_at": "2026-09-24T11:51:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1968,7 +1969,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-09-24T02:02:40Z",
+      "updated_at": "2026-09-24T11:55:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2236,7 +2237,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-09-24T02:02:49Z",
+      "updated_at": "2026-09-24T11:58:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2295,7 +2296,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T01:53:10Z",
-      "updated_at": "2026-09-22T14:59:43Z",
+      "updated_at": "2026-09-24T11:50:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2356,7 +2357,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T02:23:49Z",
-      "updated_at": "2026-09-24T02:02:59Z",
+      "updated_at": "2026-09-24T11:51:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2889,7 +2890,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-10T03:03:08Z",
-      "updated_at": "2026-09-10T03:12:07Z",
+      "updated_at": "2026-09-24T11:55:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2904,7 +2905,8 @@
         "renovate",
         "main",
         "size: XS",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/moderate"
       ]
     },
     {
@@ -2917,7 +2919,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-10T03:03:17Z",
-      "updated_at": "2026-09-19T11:09:36Z",
+      "updated_at": "2026-09-24T11:55:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2946,7 +2948,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T02:39:03Z",
-      "updated_at": "2026-09-11T02:44:15Z",
+      "updated_at": "2026-09-24T11:59:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2961,7 +2963,8 @@
         "renovate",
         "release-v0.7",
         "size: XS",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -2974,7 +2977,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T02:39:11Z",
-      "updated_at": "2026-09-19T11:09:33Z",
+      "updated_at": "2026-09-24T12:00:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3002,7 +3005,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T03:04:00Z",
-      "updated_at": "2026-09-24T02:03:13Z",
+      "updated_at": "2026-09-24T11:53:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3157,31 +3160,6 @@
         "requires-manual-review",
         "risk/moderate",
         "ready-for-review"
-      ]
-    },
-    {
-      "title": "chore: initialize fullsend per-repo installation",
-      "url": "https://github.com/conforma/cli/pull/3582",
-      "number": 3582,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-09-22T15:12:24Z",
-      "updated_at": "2026-09-24T10:34:50Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "XL",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XL"
       ]
     },
     {
@@ -3572,14 +3550,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-24T02:06:46Z",
-      "updated_at": "2026-09-24T02:06:55Z",
+      "updated_at": "2026-09-24T11:50:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3626,14 +3604,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-09-24T04:19:47Z",
+      "updated_at": "2026-09-24T11:58:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3959,14 +3937,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-24T00:05:17Z",
-      "updated_at": "2026-09-24T00:05:26Z",
+      "updated_at": "2026-09-24T12:07:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4492,14 +4470,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-24T03:04:37Z",
-      "updated_at": "2026-09-24T03:04:43Z",
+      "updated_at": "2026-09-24T12:04:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5205,7 +5183,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T11:36:14Z",
+    "since": "2026-06-26T12:12:12Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9575,8 +9553,16 @@
       },
       {
         "login": "dheerajodha",
-        "reviews": 47,
+        "reviews": 48,
         "prs": [
+          {
+            "title": "chore: initialize fullsend per-repo installation",
+            "url": "https://github.com/conforma/cli/pull/3582",
+            "repo": "conforma/cli",
+            "number": 3582,
+            "author": "st3penta",
+            "engaged_at": "2026-09-24T11:40:44Z"
+          },
           {
             "title": "test(#3515): increase unit test timeout to 30s",
             "url": "https://github.com/conforma/cli/pull/3576",
@@ -9957,8 +9943,40 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 32,
+        "reviews": 36,
         "prs": [
+          {
+            "title": "Update github/codeql-action action to v4.38.1 (main)",
+            "url": "https://github.com/conforma/hacks/pull/220",
+            "repo": "conforma/hacks",
+            "number": 220,
+            "author": "renovate",
+            "engaged_at": "2026-09-24T12:07:38Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.1 (main)",
+            "url": "https://github.com/conforma/crds/pull/38",
+            "repo": "conforma/crds",
+            "number": 38,
+            "author": "renovate",
+            "engaged_at": "2026-09-24T12:04:02Z"
+          },
+          {
+            "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
+            "url": "https://github.com/conforma/review-rot/pull/246",
+            "repo": "conforma/review-rot",
+            "number": 246,
+            "author": "renovate",
+            "engaged_at": "2026-09-24T11:58:50Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.1 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1518",
+            "repo": "conforma/golden-container",
+            "number": 1518,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-24T11:50:57Z"
+          },
           {
             "title": "chore: initialize fullsend per-repo installation",
             "url": "https://github.com/conforma/cli/pull/3582",
