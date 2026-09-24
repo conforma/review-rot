@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T12:49:43.335530622Z",
+  "generated_at": "2026-09-24T13:10:51.338473955Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -108,10 +108,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T00:39:19Z",
-      "updated_at": "2026-09-22T03:57:03Z",
+      "updated_at": "2026-09-24T12:56:13Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -166,7 +166,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-09-23T23:07:43Z",
+      "updated_at": "2026-09-24T12:52:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -227,10 +227,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:35:50Z",
-      "updated_at": "2026-09-04T22:41:03Z",
+      "updated_at": "2026-09-24T12:52:42Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -306,10 +306,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:27Z",
-      "updated_at": "2026-09-09T02:51:23Z",
+      "updated_at": "2026-09-24T12:53:52Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -334,7 +334,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-09-23T23:09:29Z",
+      "updated_at": "2026-09-24T12:53:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -924,19 +924,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-22T15:12:27Z",
-      "updated_at": "2026-09-22T15:17:01Z",
+      "updated_at": "2026-09-24T12:56:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
-      "size": "L",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 0,
       "labels": [
-        "size: L"
+        "size: XL"
       ]
     },
     {
@@ -3116,21 +3116,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-22T09:00:20Z",
-      "updated_at": "2026-09-24T12:44:05Z",
+      "updated_at": "2026-09-24T13:01:17Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
         "count": 1,
         "approved_count": 0,
         "has_new_commits": true
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 5,
       "labels": [
         "size: M",
-        "requires-manual-review",
-        "risk/moderate",
+        "risk/low",
         "ready-for-review"
       ]
     },
@@ -3276,7 +3275,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-22T15:05:01Z",
+      "updated_at": "2026-09-24T12:56:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3335,10 +3334,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-09-15T18:03:25Z",
+      "updated_at": "2026-09-24T12:58:45Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 1,
@@ -3417,11 +3416,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-22T15:12:21Z",
-      "updated_at": "2026-09-22T15:27:13Z",
+      "updated_at": "2026-09-24T12:56:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
-      "size": "L",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "approved_count": 0,
@@ -3429,7 +3428,7 @@
       },
       "unresolved_conversations": 1,
       "labels": [
-        "size: L"
+        "size: XL"
       ]
     },
     {
@@ -3835,10 +3834,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-16T01:36:55Z",
-      "updated_at": "2026-09-16T20:40:21Z",
+      "updated_at": "2026-09-24T12:56:24Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3889,19 +3888,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-22T15:12:30Z",
-      "updated_at": "2026-09-22T15:14:55Z",
+      "updated_at": "2026-09-24T12:54:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
-      "size": "L",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
-        "size: L"
+        "size: XL"
       ]
     },
     {
@@ -5130,7 +5129,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T12:46:38Z",
+    "since": "2026-06-26T13:07:58Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9070,7 +9069,7 @@
             "repo": "conforma/cli",
             "number": 3575,
             "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-24T12:46:15Z"
+            "engaged_at": "2026-09-24T12:36:37Z"
           },
           {
             "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 8ebe2ad (main)",
