@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T20:12:24.033641636Z",
+  "generated_at": "2026-09-24T20:41:06.410022955Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5103,11 +5103,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T20:09:15Z",
+    "since": "2026-06-26T20:38:00Z",
     "reviewers": [
       {
         "login": "robnester-rh",
-        "reviews": 172,
+        "reviews": 171,
         "prs": [
           {
             "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
@@ -6476,20 +6476,12 @@
             "number": 3354,
             "author": "fghanmi",
             "engaged_at": "2026-06-29T14:11:41Z"
-          },
-          {
-            "title": "Konflux task refs and other dependency updates (main)",
-            "url": "https://github.com/conforma/cli/pull/3357",
-            "repo": "conforma/cli",
-            "number": 3357,
-            "author": "simonbaird",
-            "engaged_at": "2026-06-26T20:20:41Z"
           }
         ]
       },
       {
         "login": "simonbaird",
-        "reviews": 170,
+        "reviews": 169,
         "prs": [
           {
             "title": "Remove unnecessary secrets: inherit from auto-merge caller",
@@ -7842,14 +7834,6 @@
             "number": 6,
             "author": "ggallen",
             "engaged_at": "2026-07-06T21:03:46Z"
-          },
-          {
-            "title": "ART-21342: expose EFFECTIVE_TIME param in enterprise-contract pipeline",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3622",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3622,
-            "author": "ashwindasr",
-            "engaged_at": "2026-06-26T20:37:10Z"
           }
         ]
       },
