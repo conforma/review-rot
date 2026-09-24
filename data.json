@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T13:10:51.338473955Z",
+  "generated_at": "2026-09-24T13:41:45.989669837Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3090,10 +3090,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-21T15:22:22Z",
-      "updated_at": "2026-09-23T15:54:18Z",
+      "updated_at": "2026-09-24T13:30:09Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -3116,19 +3116,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-22T09:00:20Z",
-      "updated_at": "2026-09-24T13:01:17Z",
+      "updated_at": "2026-09-24T13:17:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
         "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
+        "approved_count": 1,
+        "has_new_commits": false
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 6,
       "labels": [
         "size: M",
+        "requires-manual-review",
         "risk/low",
         "ready-for-review"
       ]
@@ -3426,7 +3427,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XL"
       ]
@@ -3901,6 +3902,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XL"
+      ]
+    },
+    {
+      "title": "docs: document AsciiDoc content conventions (EC-2178)",
+      "url": "https://github.com/conforma/user-guide/pull/260",
+      "number": 260,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "BohdanMar",
+        "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
+      },
+      "created_at": "2026-09-24T13:09:14Z",
+      "updated_at": "2026-09-24T13:09:25Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -4645,7 +4671,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-08-25T13:41:38Z",
-      "updated_at": "2026-09-22T12:59:36Z",
+      "updated_at": "2026-09-24T13:31:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4653,7 +4679,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 2,
       "labels": [
@@ -5035,7 +5061,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-11T15:04:42Z",
-      "updated_at": "2026-09-24T03:24:18Z",
+      "updated_at": "2026-09-24T13:24:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5060,8 +5086,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-22T13:26:52Z",
-      "updated_at": "2026-09-22T13:27:13Z",
-      "is_draft": true,
+      "updated_at": "2026-09-24T13:23:26Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
@@ -5129,7 +5155,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T13:07:58Z",
+    "since": "2026-06-26T13:38:34Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9069,7 +9095,7 @@
             "repo": "conforma/cli",
             "number": 3575,
             "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-24T12:36:37Z"
+            "engaged_at": "2026-09-24T13:17:32Z"
           },
           {
             "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 8ebe2ad (main)",
