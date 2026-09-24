@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T19:37:06.474189742Z",
+  "generated_at": "2026-09-24T20:12:24.033641636Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5103,7 +5103,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T19:34:11Z",
+    "since": "2026-06-26T20:09:15Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6489,7 +6489,7 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 171,
+        "reviews": 170,
         "prs": [
           {
             "title": "Remove unnecessary secrets: inherit from auto-merge caller",
@@ -7850,14 +7850,6 @@
             "number": 3622,
             "author": "ashwindasr",
             "engaged_at": "2026-06-26T20:37:10Z"
-          },
-          {
-            "title": "Typographical fixes",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3640",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3640,
-            "author": "webbnh",
-            "engaged_at": "2026-06-26T19:34:25Z"
           }
         ]
       },
