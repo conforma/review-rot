@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T15:12:05.875886382Z",
+  "generated_at": "2026-09-24T15:41:01.377717014Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3417,14 +3417,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-22T15:12:21Z",
-      "updated_at": "2026-09-24T12:56:48Z",
+      "updated_at": "2026-09-24T15:27:06Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3862,14 +3862,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-22T15:12:30Z",
-      "updated_at": "2026-09-24T12:54:32Z",
+      "updated_at": "2026-09-24T15:28:18Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5025,31 +5025,6 @@
       "labels": []
     },
     {
-      "title": "chore: bump Conforma version",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2545",
-      "number": 2545,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-09-11T15:04:42Z",
-      "updated_at": "2026-09-24T13:24:24Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 6,
-        "approved_count": 4,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "prod/approved"
-      ]
-    },
-    {
       "title": "chore(EC-2070): retire trusted task updates",
       "url": "https://github.com/konflux-ci/release-service-catalog/pull/2581",
       "number": 2581,
@@ -5128,7 +5103,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T15:08:45Z",
+    "since": "2026-06-26T15:37:24Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9936,8 +9911,24 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 37,
+        "reviews": 39,
         "prs": [
+          {
+            "title": "chore: initialize fullsend per-repo installation",
+            "url": "https://github.com/conforma/user-guide/pull/259",
+            "repo": "conforma/user-guide",
+            "number": 259,
+            "author": "st3penta",
+            "engaged_at": "2026-09-24T15:28:18Z"
+          },
+          {
+            "title": "chore: initialize fullsend per-repo installation",
+            "url": "https://github.com/conforma/conforma.github.io/pull/573",
+            "repo": "conforma/conforma.github.io",
+            "number": 573,
+            "author": "st3penta",
+            "engaged_at": "2026-09-24T15:27:06Z"
+          },
           {
             "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 8ebe2ad (main)",
             "url": "https://github.com/conforma/golden-container/pull/1508",
