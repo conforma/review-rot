@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T17:10:50.173650797Z",
+  "generated_at": "2026-09-24T17:38:01.968664338Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5103,11 +5103,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T17:07:45Z",
+    "since": "2026-06-26T17:35:00Z",
     "reviewers": [
       {
         "login": "robnester-rh",
-        "reviews": 173,
+        "reviews": 172,
         "prs": [
           {
             "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
@@ -6484,14 +6484,6 @@
             "number": 3357,
             "author": "simonbaird",
             "engaged_at": "2026-06-26T20:20:41Z"
-          },
-          {
-            "title": "fix: treat .local domains as local (use HTTP instead of HTTPS)",
-            "url": "https://github.com/conforma/go-containerregistry/pull/7",
-            "repo": "conforma/go-containerregistry",
-            "number": 7,
-            "author": "simonbaird",
-            "engaged_at": "2026-06-26T17:27:35Z"
           }
         ]
       },
