@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T12:15:21.35741775Z",
+  "generated_at": "2026-09-24T12:49:43.335530622Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3116,19 +3116,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-22T09:00:20Z",
-      "updated_at": "2026-09-24T09:11:28Z",
+      "updated_at": "2026-09-24T12:44:05Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "S",
+      "ci_status": "PENDING",
+      "size": "M",
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
-        "size: S",
+        "size: M",
         "requires-manual-review",
         "risk/moderate",
         "ready-for-review"
@@ -3469,14 +3469,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-27T01:11:57Z",
-      "updated_at": "2026-09-23T02:33:25Z",
+      "updated_at": "2026-09-24T12:21:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 2,
+        "approved_count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3604,14 +3604,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-09-24T11:58:50Z",
+      "updated_at": "2026-09-24T12:19:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 2,
+        "approved_count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3928,33 +3928,6 @@
       "labels": []
     },
     {
-      "title": "Update github/codeql-action action to v4.38.1 (main)",
-      "url": "https://github.com/conforma/hacks/pull/220",
-      "number": 220,
-      "repo": "conforma/hacks",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-24T00:05:17Z",
-      "updated_at": "2026-09-24T12:07:38Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "chore: sync task and pipeline definitions to release-v0.7",
       "url": "https://github.com/conforma/tekton-catalog/pull/262",
       "number": 262,
@@ -3987,15 +3960,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-23T09:04:48Z",
-      "updated_at": "2026-09-24T11:33:43Z",
+      "updated_at": "2026-09-24T12:40:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
+        "approved_count": 0,
+        "has_new_commits": true
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -4458,32 +4431,6 @@
         "main",
         "renovate",
         "major"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.38.1 (main)",
-      "url": "https://github.com/conforma/crds/pull/38",
-      "number": 38,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-24T03:04:37Z",
-      "updated_at": "2026-09-24T12:04:03Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
       ]
     },
     {
@@ -5183,7 +5130,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T12:12:12Z",
+    "since": "2026-06-26T12:46:38Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9115,7 +9062,7 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 54,
+        "reviews": 58,
         "prs": [
           {
             "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
@@ -9123,7 +9070,39 @@
             "repo": "conforma/cli",
             "number": 3575,
             "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-24T09:11:28Z"
+            "engaged_at": "2026-09-24T12:46:15Z"
+          },
+          {
+            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 8ebe2ad (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1508",
+            "repo": "conforma/golden-container",
+            "number": 1508,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-24T12:21:01Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.1 (main)",
+            "url": "https://github.com/conforma/hacks/pull/220",
+            "repo": "conforma/hacks",
+            "number": 220,
+            "author": "renovate",
+            "engaged_at": "2026-09-24T12:20:51Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.1 (main)",
+            "url": "https://github.com/conforma/crds/pull/38",
+            "repo": "conforma/crds",
+            "number": 38,
+            "author": "renovate",
+            "engaged_at": "2026-09-24T12:19:35Z"
+          },
+          {
+            "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
+            "url": "https://github.com/conforma/review-rot/pull/246",
+            "repo": "conforma/review-rot",
+            "number": 246,
+            "author": "renovate",
+            "engaged_at": "2026-09-24T12:19:22Z"
           },
           {
             "title": "Disable org-level config",
@@ -9943,8 +9922,16 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 36,
+        "reviews": 37,
         "prs": [
+          {
+            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 8ebe2ad (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1508",
+            "repo": "conforma/golden-container",
+            "number": 1508,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-24T12:15:27Z"
+          },
           {
             "title": "Update github/codeql-action action to v4.38.1 (main)",
             "url": "https://github.com/conforma/hacks/pull/220",
