@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T14:12:19.723270691Z",
+  "generated_at": "2026-09-24T14:42:17.847875751Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3090,20 +3090,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-21T15:22:22Z",
-      "updated_at": "2026-09-24T14:02:25Z",
+      "updated_at": "2026-09-24T14:17:20Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "S",
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 15,
+      "unresolved_conversations": 24,
       "labels": [
         "size: S",
-        "risk/low"
+        "risk/moderate"
       ]
     },
     {
@@ -3147,7 +3147,7 @@
       "updated_at": "2026-09-24T13:55:57Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 2,
@@ -3442,14 +3442,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-07-25T05:32:08Z",
-      "updated_at": "2026-09-19T03:57:04Z",
+      "updated_at": "2026-09-24T14:29:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5155,7 +5155,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-26T14:09:28Z",
+    "since": "2026-06-26T14:39:10Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7923,8 +7923,16 @@
       },
       {
         "login": "st3penta",
-        "reviews": 78,
+        "reviews": 79,
         "prs": [
+          {
+            "title": "Replace quay.io/konflux-ci/konflux-vanguard/task-rpms-signature-scan Docker tag with quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan 0.2 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1504",
+            "repo": "conforma/golden-container",
+            "number": 1504,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-24T14:29:26Z"
+          },
           {
             "title": "feat(EC-2212): show PRs waiting for a 2nd approval in 'Ready for review'",
             "url": "https://github.com/conforma/review-rot/pull/262",
