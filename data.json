@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T23:37:07.55843129Z",
+  "generated_at": "2026-09-24T00:21:56.58200518Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3246,7 +3246,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-09-23T01:43:57Z",
+      "updated_at": "2026-09-23T23:47:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3813,6 +3813,33 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.1 (main)",
+      "url": "https://github.com/conforma/hacks/pull/220",
+      "number": 220,
+      "repo": "conforma/hacks",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-24T00:05:17Z",
+      "updated_at": "2026-09-24T00:05:26Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
     },
     {
       "title": "chore: sync task and pipeline definitions to release-v0.7",
@@ -5016,7 +5043,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-25T23:34:11Z",
+    "since": "2026-06-26T00:19:20Z",
     "reviewers": [
       {
         "login": "robnester-rh",
