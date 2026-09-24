@@ -21,9 +21,10 @@ A GitHub Actions workflow (`.github/workflows/publish.yaml`) runs every
 1. Builds the Go CLI
 2. Runs it with the `config/` directory to produce `web/data.json`
 3. Copies the static frontend files into `web/`
-4. Pushes `web/` to the `gh-pages` branch
+4. Uploads the `web/` directory as a Pages artifact
+5. Deploys the artifact to GitHub Pages
 
-GitHub Pages is configured to serve from the `gh-pages` branch.
+GitHub Pages is configured to deploy via GitHub Actions.
 
 The CLI authenticates as a GitHub App using a private key passed via the
 `GITHUB_PRIVATE_KEY` environment variable. In this repository the workflow
@@ -107,7 +108,8 @@ To use review-rot for your own team:
 5. Add the App's private key as a repository secret and update the
    `GITHUB_PRIVATE_KEY` env var in `.github/workflows/publish.yaml` to
    reference it (this repo uses `EC_AUTOMATION_KEY`)
-6. Configure GitHub Pages to serve from the `gh-pages` branch
+6. Configure GitHub Pages to deploy via GitHub Actions (Settings → Pages →
+   Source: "GitHub Actions")
 
 If `ui.yaml` is omitted, the dashboard uses the default title ("Review Rot"),
 no logo, and a neutral blue-grey color scheme.
