@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T10:11:28.386182154Z",
+  "generated_at": "2026-09-25T10:40:09.110763293Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -923,14 +923,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-25T09:42:46Z",
-      "updated_at": "2026-09-25T09:46:32Z",
+      "updated_at": "2026-09-25T10:20:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3256,14 +3256,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-25T09:42:46Z",
-      "updated_at": "2026-09-25T09:58:59Z",
+      "updated_at": "2026-09-25T10:19:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3445,14 +3445,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-25T09:42:48Z",
-      "updated_at": "2026-09-25T09:46:33Z",
+      "updated_at": "2026-09-25T10:20:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3861,14 +3861,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-25T09:42:47Z",
-      "updated_at": "2026-09-25T09:45:45Z",
+      "updated_at": "2026-09-25T10:20:29Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4833,7 +4833,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T02:03:26Z",
-      "updated_at": "2026-09-24T22:18:10Z",
+      "updated_at": "2026-09-25T10:18:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -5213,7 +5213,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-27T10:08:30Z",
+    "since": "2026-06-27T10:37:43Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9591,8 +9591,40 @@
       },
       {
         "login": "dheerajodha",
-        "reviews": 49,
+        "reviews": 53,
         "prs": [
+          {
+            "title": "chore: update fullsend per-repo installation",
+            "url": "https://github.com/conforma/conforma.github.io/pull/574",
+            "repo": "conforma/conforma.github.io",
+            "number": 574,
+            "author": "st3penta",
+            "engaged_at": "2026-09-25T10:20:44Z"
+          },
+          {
+            "title": "chore: update fullsend per-repo installation",
+            "url": "https://github.com/conforma/user-guide/pull/261",
+            "repo": "conforma/user-guide",
+            "number": 261,
+            "author": "st3penta",
+            "engaged_at": "2026-09-25T10:20:28Z"
+          },
+          {
+            "title": "chore: update fullsend per-repo installation",
+            "url": "https://github.com/conforma/policy/pull/1859",
+            "repo": "conforma/policy",
+            "number": 1859,
+            "author": "st3penta",
+            "engaged_at": "2026-09-25T10:20:14Z"
+          },
+          {
+            "title": "chore: update fullsend per-repo installation",
+            "url": "https://github.com/conforma/cli/pull/3586",
+            "repo": "conforma/cli",
+            "number": 3586,
+            "author": "st3penta",
+            "engaged_at": "2026-09-25T10:19:53Z"
+          },
           {
             "title": "chore: initialize fullsend per-repo installation",
             "url": "https://github.com/conforma/policy/pull/1858",
