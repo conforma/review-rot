@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T01:10:16.083092714Z",
+  "generated_at": "2026-09-25T01:46:14.777374665Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4010,7 +4010,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:16:14Z",
-      "updated_at": "2026-09-23T01:40:49Z",
+      "updated_at": "2026-09-25T01:18:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4037,7 +4037,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-09-24T05:17:08Z",
+      "updated_at": "2026-09-25T01:19:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4832,7 +4832,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-09-23T05:54:10Z",
+      "updated_at": "2026-09-25T01:32:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4859,7 +4859,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-09-23T05:54:16Z",
+      "updated_at": "2026-09-25T01:32:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4886,7 +4886,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:47:19Z",
-      "updated_at": "2026-09-02T00:16:08Z",
+      "updated_at": "2026-09-25T01:33:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4904,7 +4904,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.0 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.1 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/755",
       "number": 755,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -4913,7 +4913,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:47:23Z",
-      "updated_at": "2026-09-19T12:45:19Z",
+      "updated_at": "2026-09-25T01:33:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5130,7 +5130,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-27T01:07:36Z",
+    "since": "2026-06-27T01:43:50Z",
     "reviewers": [
       {
         "login": "robnester-rh",
