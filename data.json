@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T13:40:44.477971209Z",
+  "generated_at": "2026-09-25T14:12:32.266193845Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3927,33 +3927,6 @@
       ]
     },
     {
-      "title": "Update github/codeql-action action to v4.38.1 (main)",
-      "url": "https://github.com/conforma/config/pull/243",
-      "number": 243,
-      "repo": "conforma/config",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-25T00:58:28Z",
-      "updated_at": "2026-09-25T00:58:38Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/policy-builder/pull/43",
       "number": 43,
@@ -5019,7 +4992,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-25T13:16:25Z",
+      "updated_at": "2026-09-25T13:52:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5138,7 +5111,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-27T13:37:33Z",
+    "since": "2026-06-27T14:09:30Z",
     "reviewers": [
       {
         "login": "robnester-rh",
