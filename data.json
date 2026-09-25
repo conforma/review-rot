@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T16:42:12.917685502Z",
+  "generated_at": "2026-09-25T17:09:46.475639831Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3873,60 +3873,6 @@
       ]
     },
     {
-      "title": "Update github/codeql-action action to v4.38.1 (main)",
-      "url": "https://github.com/conforma/tekton-catalog/pull/275",
-      "number": 275,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-25T01:47:25Z",
-      "updated_at": "2026-09-25T01:47:33Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.38.1 (release-v0.7)",
-      "url": "https://github.com/conforma/tekton-catalog/pull/276",
-      "number": 276,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-25T01:47:33Z",
-      "updated_at": "2026-09-25T01:47:43Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "release-v0.7",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/policy-builder/pull/43",
       "number": 43,
@@ -4730,7 +4676,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-09-24T05:17:34Z",
+      "updated_at": "2026-09-25T16:41:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4785,7 +4731,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-09-25T01:32:35Z",
+      "updated_at": "2026-09-25T16:39:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4812,7 +4758,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-09-25T01:32:40Z",
+      "updated_at": "2026-09-25T16:39:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5084,7 +5030,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-27T16:39:08Z",
+    "since": "2026-06-27T17:06:42Z",
     "reviewers": [
       {
         "login": "robnester-rh",
