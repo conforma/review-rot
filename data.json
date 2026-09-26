@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T23:36:29.740627984Z",
+  "generated_at": "2026-09-26T05:17:57.206406277Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-09-25T21:37:49Z",
+      "updated_at": "2026-09-26T00:29:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -53,7 +53,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-09-25T21:38:02Z",
+      "updated_at": "2026-09-26T00:29:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -130,7 +130,7 @@
       ]
     },
     {
-      "title": "trusted_task_rules: Add per-allow-rule signature verification",
+      "title": "trusted_task_rules: Verify signatures for selected task bundles",
       "url": "https://github.com/conforma/policy/pull/1680",
       "number": 1680,
       "repo": "conforma/policy",
@@ -139,7 +139,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/16674323?u=9ef4d96dcf3c70562fba1fcad7607476f0de0262\u0026v=4"
       },
       "created_at": "2026-02-27T21:32:00Z",
-      "updated_at": "2026-08-05T19:26:17Z",
+      "updated_at": "2026-09-26T04:55:15Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -147,7 +147,7 @@
       "reviews": {
         "count": 1,
         "approved_count": 0,
-        "has_new_commits": false
+        "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
@@ -814,7 +814,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-09-25T21:38:10Z",
+      "updated_at": "2026-09-26T00:29:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -911,6 +911,60 @@
       "labels": [
         "size: L",
         "ready-for-review"
+      ]
+    },
+    {
+      "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+      "url": "https://github.com/conforma/policy/pull/1860",
+      "number": 1860,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-26T00:29:02Z",
+      "updated_at": "2026-09-26T00:32:11Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.1 (main)",
+      "url": "https://github.com/conforma/policy/pull/1861",
+      "number": 1861,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-26T00:29:11Z",
+      "updated_at": "2026-09-26T00:33:09Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
       ]
     },
     {
@@ -1335,7 +1389,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-25T09:47:17Z",
+      "updated_at": "2026-09-26T04:48:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1345,14 +1399,14 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 9,
       "labels": [
         "dependencies",
         "go",
         "renovate",
         "release-v0.7",
         "size: XXL",
-        "requires-manual-review",
+        "ready-for-merge",
         "risk/elevated"
       ]
     },
@@ -1566,7 +1620,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-09-25T02:21:54Z",
+      "updated_at": "2026-09-26T03:25:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2211,7 +2265,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-09-25T20:49:47Z",
+      "updated_at": "2026-09-26T04:48:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2981,7 +3035,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T03:04:00Z",
-      "updated_at": "2026-09-25T20:50:10Z",
+      "updated_at": "2026-09-26T04:49:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3411,6 +3465,60 @@
       ]
     },
     {
+      "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+      "url": "https://github.com/conforma/conforma.github.io/pull/575",
+      "number": 575,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-26T01:01:23Z",
+      "updated_at": "2026-09-26T01:02:56Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.1 (main)",
+      "url": "https://github.com/conforma/conforma.github.io/pull/576",
+      "number": 576,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-26T01:01:32Z",
+      "updated_at": "2026-09-26T01:02:46Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 8ebe2ad (main)",
       "url": "https://github.com/conforma/golden-container/pull/1508",
       "number": 1508,
@@ -3474,7 +3582,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-29T06:57:38Z",
-      "updated_at": "2026-09-19T03:57:38Z",
+      "updated_at": "2026-09-26T03:14:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3798,6 +3906,60 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+      "url": "https://github.com/conforma/user-guide/pull/262",
+      "number": 262,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-26T01:37:48Z",
+      "updated_at": "2026-09-26T01:37:56Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.1 (main)",
+      "url": "https://github.com/conforma/user-guide/pull/263",
+      "number": 263,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-26T01:37:56Z",
+      "updated_at": "2026-09-26T01:38:07Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
         "size: XS"
       ]
     },
@@ -4305,6 +4467,33 @@
       "labels": []
     },
     {
+      "title": "Update github/codeql-action action to v4.38.1 (main)",
+      "url": "https://github.com/conforma/.github/pull/93",
+      "number": 93,
+      "repo": "conforma/.github",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-26T01:41:52Z",
+      "updated_at": "2026-09-26T01:42:02Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -4676,7 +4865,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-09-25T16:41:29Z",
+      "updated_at": "2026-09-26T04:46:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4731,7 +4920,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-09-25T16:39:48Z",
+      "updated_at": "2026-09-26T04:44:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4758,7 +4947,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-09-25T16:39:58Z",
+      "updated_at": "2026-09-26T04:44:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5030,7 +5219,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-27T23:33:51Z",
+    "since": "2026-06-28T05:15:03Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7403,7 +7592,7 @@
             "engaged_at": "2026-08-06T17:21:59Z"
           },
           {
-            "title": "trusted_task_rules: Add per-allow-rule signature verification",
+            "title": "trusted_task_rules: Verify signatures for selected task bundles",
             "url": "https://github.com/conforma/policy/pull/1680",
             "repo": "conforma/policy",
             "number": 1680,
