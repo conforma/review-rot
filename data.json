@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:45:19.65445772Z",
+  "generated_at": "2026-09-28T14:13:41.501231867Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1234,7 +1234,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-28T13:27:23Z",
+      "updated_at": "2026-09-28T14:02:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1845,7 +1845,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-09-28T13:19:18Z",
+      "updated_at": "2026-09-28T13:58:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1876,7 +1876,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-09-28T13:20:44Z",
+      "updated_at": "2026-09-28T13:58:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1970,10 +1970,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-09-28T13:28:14Z",
+      "updated_at": "2026-09-28T14:03:14Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2238,10 +2238,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-09-28T13:30:09Z",
+      "updated_at": "2026-09-28T14:03:58Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -2362,7 +2362,7 @@
       "updated_at": "2026-09-28T13:39:28Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -3245,31 +3245,6 @@
       "labels": [
         "renovate",
         "main",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "chore: update fullsend per-repo installation",
-      "url": "https://github.com/conforma/cli/pull/3586",
-      "number": 3586,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-09-25T09:42:46Z",
-      "updated_at": "2026-09-28T13:39:57Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 2,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
         "size: XS"
       ]
     },
@@ -4961,29 +4936,6 @@
       ]
     },
     {
-      "title": "Decommision the acceptable bundles update/push CI",
-      "url": "https://github.com/konflux-ci/build-definitions/pull/3834",
-      "number": 3834,
-      "repo": "konflux-ci/build-definitions",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-09-10T13:36:58Z",
-      "updated_at": "2026-09-22T13:20:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "feat(EC-1794): replace ec-defaults ConfigMap with hardcoded bundle ref",
       "url": "https://github.com/konflux-ci/e2e-tests/pull/1885",
       "number": 1885,
@@ -5042,7 +4994,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-28T13:31:22Z",
+      "updated_at": "2026-09-28T13:56:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5161,7 +5113,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-30T13:41:53Z",
+    "since": "2026-06-30T14:09:55Z",
     "reviewers": [
       {
         "login": "robnester-rh",
