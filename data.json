@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T12:17:03.38226261Z",
+  "generated_at": "2026-09-28T12:55:20.924960317Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3093,17 +3093,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-21T15:22:22Z",
-      "updated_at": "2026-09-28T12:11:39Z",
+      "updated_at": "2026-09-28T12:25:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "S",
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 32,
+      "unresolved_conversations": 39,
       "labels": [
         "size: S",
         "risk/moderate"
@@ -3283,7 +3283,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-28T10:52:59Z",
-      "updated_at": "2026-09-28T11:27:50Z",
+      "updated_at": "2026-09-28T12:47:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5089,104 +5089,6 @@
       ]
     },
     {
-      "title": "new policy source param",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2160",
-      "number": 2160,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-04-16T04:03:04Z",
-      "updated_at": "2026-05-29T00:31:32Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "feat(EC-1794): remove dead verify_ec_task params from managed pipelines",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2379",
-      "number": 2379,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-28T06:54:11Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 4,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "Review effort 2/5",
-        "prod/approved"
-      ]
-    },
-    {
-      "title": "fix(EC-1994): bump conforma.workerCount fallback default from 4 to 5",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2463",
-      "number": 2463,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-09-22T20:07:37Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 4,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore(EC-2070): retire trusted task updates",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2581",
-      "number": 2581,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-09-22T13:26:52Z",
-      "updated_at": "2026-09-27T08:45:32Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 3,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "ai-assisted",
-        "prod/approved"
-      ]
-    },
-    {
       "title": "EC-1793: Add production environment overlay for enterprise-contract",
       "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13955",
       "number": 13955,
@@ -5240,7 +5142,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-30T12:13:56Z",
+    "since": "2026-06-30T12:52:03Z",
     "reviewers": [
       {
         "login": "robnester-rh",
