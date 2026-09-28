@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T09:17:58.098538906Z",
+  "generated_at": "2026-09-28T09:51:19.319324779Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2210,14 +2210,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-07-20T20:19:16Z",
-      "updated_at": "2026-09-15T18:38:05Z",
+      "updated_at": "2026-09-28T09:20:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 3,
-        "approved_count": 2,
+        "count": 4,
+        "approved_count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -2754,14 +2754,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-09-02T18:15:26Z",
-      "updated_at": "2026-09-15T13:26:23Z",
+      "updated_at": "2026-09-28T09:17:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 2,
-        "approved_count": 2,
+        "count": 3,
+        "approved_count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3938,14 +3938,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-23T09:04:48Z",
-      "updated_at": "2026-09-27T09:16:05Z",
+      "updated_at": "2026-09-28T09:21:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 2,
-        "approved_count": 2,
+        "count": 3,
+        "approved_count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5134,7 +5134,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-30T09:14:39Z",
+    "since": "2026-06-30T09:48:02Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9472,8 +9472,32 @@
       },
       {
         "login": "dheerajodha",
-        "reviews": 52,
+        "reviews": 55,
         "prs": [
+          {
+            "title": "fix: remove upstream-deleted tasks/pipelines during sync",
+            "url": "https://github.com/conforma/tekton-catalog/pull/274",
+            "repo": "conforma/tekton-catalog",
+            "number": 274,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-28T09:21:15Z"
+          },
+          {
+            "title": "fix(EC-1994): correct off-by-one in validate image worker loop",
+            "url": "https://github.com/conforma/cli/pull/3425",
+            "repo": "conforma/cli",
+            "number": 3425,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-28T09:20:12Z"
+          },
+          {
+            "title": "Find roxctl reports also using benchmark offliner",
+            "url": "https://github.com/conforma/cli/pull/3530",
+            "repo": "conforma/cli",
+            "number": 3530,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-28T09:17:58Z"
+          },
           {
             "title": "chore: update fullsend per-repo installation",
             "url": "https://github.com/conforma/conforma.github.io/pull/574",
