@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T13:13:52.55797504Z",
+  "generated_at": "2026-09-28T13:45:19.65445772Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1234,7 +1234,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-27T16:50:42Z",
+      "updated_at": "2026-09-28T13:27:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1362,7 +1362,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-26T23:06:57Z",
+      "updated_at": "2026-09-28T13:40:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1393,7 +1393,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-09-25T01:53:55Z",
+      "updated_at": "2026-09-28T13:39:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1845,7 +1845,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-09-25T01:48:57Z",
+      "updated_at": "2026-09-28T13:19:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1876,7 +1876,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-09-25T01:57:12Z",
+      "updated_at": "2026-09-28T13:20:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1970,7 +1970,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-09-25T01:49:17Z",
+      "updated_at": "2026-09-28T13:28:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2238,7 +2238,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-09-27T05:59:20Z",
+      "updated_at": "2026-09-28T13:30:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2297,7 +2297,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T01:53:10Z",
-      "updated_at": "2026-09-25T01:53:20Z",
+      "updated_at": "2026-09-28T13:32:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2328,7 +2328,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T01:53:18Z",
-      "updated_at": "2026-09-25T02:04:12Z",
+      "updated_at": "2026-09-28T13:33:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2359,10 +2359,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T02:23:49Z",
-      "updated_at": "2026-09-25T01:53:40Z",
+      "updated_at": "2026-09-28T13:39:28Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -3008,7 +3008,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T03:04:00Z",
-      "updated_at": "2026-09-27T05:59:44Z",
+      "updated_at": "2026-09-28T13:39:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3258,10 +3258,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-09-25T09:42:46Z",
-      "updated_at": "2026-09-25T12:52:29Z",
+      "updated_at": "2026-09-28T13:39:57Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 2,
@@ -3274,112 +3274,6 @@
       ]
     },
     {
-      "title": "chore(deps): Update ubi-minimal base image (main)",
-      "url": "https://github.com/conforma/cli/pull/3587",
-      "number": 3587,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-09-28T10:52:59Z",
-      "updated_at": "2026-09-28T13:08:51Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 2,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
-      "url": "https://github.com/conforma/cli/pull/3588",
-      "number": 3588,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-09-28T10:53:06Z",
-      "updated_at": "2026-09-28T12:58:06Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "chore(deps): Update ubi-minimal base image (release-v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3589",
-      "number": 3589,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-09-28T10:53:13Z",
-      "updated_at": "2026-09-28T12:57:53Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
-      "url": "https://github.com/conforma/cli/pull/3590",
-      "number": 3590,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-09-28T10:53:20Z",
-      "updated_at": "2026-09-28T12:57:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "test: add acceptance coverage for the ITS pipeline",
       "url": "https://github.com/conforma/cli/pull/3591",
       "number": 3591,
@@ -3389,10 +3283,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-28T12:56:51Z",
-      "updated_at": "2026-09-28T13:09:21Z",
+      "updated_at": "2026-09-28T13:14:06Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
         "count": 0,
@@ -5148,7 +5042,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-07-13T17:29:20Z",
-      "updated_at": "2026-09-28T12:40:58Z",
+      "updated_at": "2026-09-28T13:31:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5267,7 +5161,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-06-30T13:10:38Z",
+    "since": "2026-06-30T13:41:53Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -10083,8 +9977,32 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 41,
+        "reviews": 44,
         "prs": [
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3590",
+            "repo": "conforma/cli",
+            "number": 3590,
+            "author": "st3penta",
+            "engaged_at": "2026-09-28T13:22:14Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3589",
+            "repo": "conforma/cli",
+            "number": 3589,
+            "author": "st3penta",
+            "engaged_at": "2026-09-28T13:21:58Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3588",
+            "repo": "conforma/cli",
+            "number": 3588,
+            "author": "st3penta",
+            "engaged_at": "2026-09-28T13:21:27Z"
+          },
           {
             "title": "chore(deps): Update ubi-minimal base image (main)",
             "url": "https://github.com/conforma/cli/pull/3587",
