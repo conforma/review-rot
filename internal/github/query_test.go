@@ -1,6 +1,7 @@
 package github
 
 import (
+	"encoding/json"
 	"net/url"
 	"testing"
 	"time"
@@ -89,20 +90,6 @@ func TestExtractSize(t *testing.T) {
 	}
 }
 
-// makeReviewNode builds an APPROVED review node.
-func makeReviewNode(authorType, login, oid string) struct {
-	Author struct {
-		TypeName string `graphql:"__typename"`
-		Login    string
-	} `graphql:"author"`
-	Commit struct {
-		OID string `graphql:"oid"`
-	}
-	State string
-} {
-	return makeReviewNodeState(authorType, login, oid, "APPROVED")
-}
-
 func makeReviewNodeState(authorType, login, oid, state string) struct {
 	Author struct {
 		TypeName string `graphql:"__typename"`
@@ -161,129 +148,6 @@ func setHeadCommitDate(node *prNode, t time.Time) {
 			CommittedDate     time.Time
 			StatusCheckRollup *struct{ State string }
 		}{CommittedDate: t}},
-	}
-}
-
-func TestExtractReviews(t *testing.T) {
-	node := prNode{HeadRefOid: "abc123"}
-	node.Author.Login = "author"
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("User", "reviewer", "aaa"),
-		makeReviewNode("User", "reviewer", "bbb"),
-		makeReviewNode("User", "reviewer", "def456"),
-	)
-
-	r := extractReviews(node)
-	if r.Count != 1 {
-		t.Errorf("Count = %d, want 1 (deduplicated by author)", r.Count)
-	}
-	if !r.HasNewCommits {
-		t.Error("HasNewCommits should be true when last review OID differs from head")
-	}
-
-	node.Reviews.Nodes[2] = makeReviewNode("User", "reviewer", "abc123")
-	r = extractReviews(node)
-	if r.HasNewCommits {
-		t.Error("HasNewCommits should be false when last review OID matches head")
-	}
-}
-
-func TestExtractReviewsZero(t *testing.T) {
-	node := prNode{}
-	r := extractReviews(node)
-	if r.Count != 0 || r.HasNewCommits {
-		t.Errorf("expected zero reviews, got count=%d has_new=%v", r.Count, r.HasNewCommits)
-	}
-}
-
-func TestExtractReviewsExcludesBots(t *testing.T) {
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("User", "reviewer", "aaa"),
-		makeReviewNode("Bot", "botuser", "bbb"),
-		makeReviewNode("Bot", "botuser", "head"),
-	)
-
-	r := extractReviews(node)
-	if r.Count != 1 {
-		t.Errorf("Count = %d, want 1 (bots excluded)", r.Count)
-	}
-	if !r.HasNewCommits {
-		t.Error("HasNewCommits should be true: last human review (aaa) differs from head")
-	}
-
-	node.Reviews.Nodes = append(node.Reviews.Nodes[:0],
-		makeReviewNode("User", "reviewer", "head"),
-		makeReviewNode("Bot", "botuser", "other"),
-	)
-	r = extractReviews(node)
-	if r.Count != 1 {
-		t.Errorf("Count = %d, want 1", r.Count)
-	}
-	if r.HasNewCommits {
-		t.Error("HasNewCommits should be false: last human review matches head")
-	}
-}
-
-func TestExtractReviewsOnlyBots(t *testing.T) {
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("Bot", "botuser", "head"),
-		makeReviewNode("Bot", "botuser", "old"),
-	)
-
-	r := extractReviews(node)
-	if r.Count != 0 {
-		t.Errorf("Count = %d, want 0 (only bot reviews)", r.Count)
-	}
-	if r.HasNewCommits {
-		t.Error("HasNewCommits should be false when there are no human reviews")
-	}
-}
-
-func TestExtractReviewsExcludesPRAuthor(t *testing.T) {
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("User", "author", "head"),
-		makeReviewNode("User", "author", "old"),
-	)
-
-	r := extractReviews(node)
-	if r.Count != 0 {
-		t.Errorf("Count = %d, want 0 (PR author reviews excluded)", r.Count)
-	}
-	if r.HasNewCommits {
-		t.Error("HasNewCommits should be false when there are no peer reviews")
-	}
-}
-
-func TestExtractReviewsAuthorAndBotsMixed(t *testing.T) {
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("Bot", "fullsend", "head"),
-		makeReviewNode("User", "author", "head"),
-		makeReviewNode("Bot", "coderabbit", "old"),
-		makeReviewNode("User", "author", "old"),
-	)
-
-	r := extractReviews(node)
-	if r.Count != 0 {
-		t.Errorf("Count = %d, want 0 (only bot and PR author reviews)", r.Count)
-	}
-
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("User", "teammate", "head"),
-	)
-	r = extractReviews(node)
-	if r.Count != 1 {
-		t.Errorf("Count = %d, want 1 (one peer review)", r.Count)
-	}
-	if r.HasNewCommits {
-		t.Error("HasNewCommits should be false: peer review matches head")
 	}
 }
 
@@ -380,223 +244,213 @@ func TestTransformPRBotAuthor(t *testing.T) {
 	}
 }
 
-func TestExtractReviewsCountsComments(t *testing.T) {
+type reviewEvent struct {
+	authorType, login, oid, state string
+}
+
+func addReviewEvents(node *prNode, events []reviewEvent) {
+	for _, event := range events {
+		node.Reviews.Nodes = append(node.Reviews.Nodes,
+			makeReviewNodeState(event.authorType, event.login, event.oid, event.state))
+	}
+}
+
+func reviewPRNode() prNode {
+	node := prNode{HeadRefOid: "head"}
+	node.URL = makeURI("https://github.com/conforma/policy/pull/1")
+	node.Author.Login = "author"
+	node.Author.AvatarURL = makeURI("https://avatars.githubusercontent.com/u/123")
+	return node
+}
+
+func TestTransformPRCurrentHeadReviews(t *testing.T) {
+	tests := []struct {
+		name              string
+		events            []reviewEvent
+		wantApprovals     int
+		wantHasNewCommits bool
+	}{
+		{"no decisions", nil, 0, true},
+		{"stale approval", []reviewEvent{{"User", "alice", "old", "APPROVED"}}, 0, true},
+		{"distinct approvals despite repeated and neutral reviews", []reviewEvent{
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "bob", "head", "APPROVED"},
+			{"User", "bob", "old", "COMMENTED"},
+		}, 2, false},
+		{"later change request replaces approval", []reviewEvent{
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "alice", "head", "CHANGES_REQUESTED"},
+		}, 0, false},
+		{"change request covers head", []reviewEvent{{"User", "alice", "head", "CHANGES_REQUESTED"}}, 0, false},
+		{"commented review cannot cover head", []reviewEvent{
+			{"User", "alice", "old", "APPROVED"},
+			{"User", "alice", "head", "COMMENTED"},
+		}, 0, true},
+		{"dismissed approval does not cover head", []reviewEvent{{"User", "alice", "head", "DISMISSED"}}, 0, true},
+		{"dismissed later review does not revoke earlier approval", []reviewEvent{
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "alice", "head", "DISMISSED"},
+		}, 1, false},
+		{"bots, author and unknown accounts are not reviewers", []reviewEvent{
+			{"Bot", "app", "head", "APPROVED"},
+			{"User", "machine-bot", "head", "APPROVED"},
+			{"User", "author", "head", "APPROVED"},
+			{"User", "", "head", "APPROVED"},
+			{"Mannequin", "unknown", "head", "APPROVED"},
+		}, 0, true},
+		{"human reviewer alongside ineligible accounts", []reviewEvent{
+			{"Bot", "app", "head", "APPROVED"},
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "author", "head", "APPROVED"},
+		}, 1, false},
+		{"GitHub login casing cannot double-count or self-approve", []reviewEvent{
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "Alice", "head", "APPROVED"},
+			{"User", "AUTHOR", "head", "APPROVED"},
+		}, 1, false},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			node := reviewPRNode()
+			addReviewEvents(&node, tt.events)
+			reviews := transformPR(node, "conforma/policy").Reviews
+			if reviews.ApprovedCount != tt.wantApprovals || reviews.HasNewCommits != tt.wantHasNewCommits {
+				t.Errorf("reviews = %+v, want approvals=%d has_new_commits=%t",
+					reviews, tt.wantApprovals, tt.wantHasNewCommits)
+			}
+		})
+	}
+}
+
+func TestTransformPRConversationCommentsAreNeutral(t *testing.T) {
 	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
-	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
-
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	setHeadCommitDate(&node, commitDate)
-	node.Comments.Nodes = append(node.Comments.Nodes,
-		makeCommentNode("User", "reviewer", commentDate),
-	)
-
-	r := extractReviews(node)
-	if r.Count != 1 {
-		t.Errorf("Count = %d, want 1 (one human comment)", r.Count)
+	for _, tt := range []struct {
+		name              string
+		events            []reviewEvent
+		wantApprovals     int
+		wantHasNewCommits bool
+	}{
+		{"comment after head commit", nil, 0, true},
+		{"comment after stale approval and head commented review", []reviewEvent{
+			{"User", "alice", "old", "APPROVED"},
+			{"User", "alice", "head", "COMMENTED"},
+		}, 0, true},
+		{"comment after head approval and old commented review", []reviewEvent{
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "alice", "old", "COMMENTED"},
+		}, 1, false},
+	} {
+		t.Run(tt.name, func(t *testing.T) {
+			node := reviewPRNode()
+			setHeadCommitDate(&node, commitDate)
+			addReviewEvents(&node, tt.events)
+			node.Comments.Nodes = append(node.Comments.Nodes,
+				makeCommentNode("User", "alice", commitDate.Add(time.Hour)))
+			reviews := transformPR(node, "conforma/policy").Reviews
+			if reviews.ApprovedCount != tt.wantApprovals || reviews.HasNewCommits != tt.wantHasNewCommits {
+				t.Errorf("reviews = %+v, want approvals=%d has_new_commits=%t",
+					reviews, tt.wantApprovals, tt.wantHasNewCommits)
+			}
+		})
 	}
 }
 
-func TestExtractReviewsCommentsExcludesBots(t *testing.T) {
-	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
-	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
-
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	setHeadCommitDate(&node, commitDate)
-	node.Comments.Nodes = append(node.Comments.Nodes,
-		makeCommentNode("User", "reviewer", commentDate),
-		makeCommentNode("Bot", "codecov", commentDate),
-	)
-
-	r := extractReviews(node)
-	if r.Count != 1 {
-		t.Errorf("Count = %d, want 1 (bot comment excluded)", r.Count)
+func TestTransformPROutstandingChangeRequests(t *testing.T) {
+	tests := []struct {
+		name              string
+		events            []reviewEvent
+		threads           []bool
+		wantUnresolved    int
+		wantOnHead        bool
+		wantApprovals     int
+		wantHasNewCommits bool
+	}{
+		{"current request", []reviewEvent{{"User", "alice", "head", "CHANGES_REQUESTED"}}, nil, 1, true, 0, false},
+		{"old request", []reviewEvent{{"User", "alice", "old", "CHANGES_REQUESTED"}}, nil, 1, false, 0, true},
+		{"ineligible requests do not count", []reviewEvent{
+			{"Bot", "app", "head", "CHANGES_REQUESTED"},
+			{"User", "machine-bot", "head", "CHANGES_REQUESTED"},
+			{"User", "author", "head", "CHANGES_REQUESTED"},
+			{"User", "", "head", "CHANGES_REQUESTED"},
+			{"Mannequin", "unknown", "head", "CHANGES_REQUESTED"},
+		}, []bool{false}, 1, false, 0, true},
+		{"each outstanding review plus unresolved threads", []reviewEvent{
+			{"User", "alice", "old", "CHANGES_REQUESTED"},
+			{"User", "alice", "head", "CHANGES_REQUESTED"},
+			{"User", "bob", "head", "CHANGES_REQUESTED"},
+		}, []bool{false, false, true}, 5, true, 0, false},
+		{"commented review and resolved thread do not clear request", []reviewEvent{
+			{"User", "alice", "old", "CHANGES_REQUESTED"},
+			{"User", "alice", "head", "COMMENTED"},
+		}, []bool{true}, 1, false, 0, true},
+		{"another reviewer approving does not clear request", []reviewEvent{
+			{"User", "alice", "head", "CHANGES_REQUESTED"},
+			{"User", "bob", "head", "APPROVED"},
+		}, nil, 1, true, 1, false},
+		{"approval on old SHA clears same reviewer request", []reviewEvent{
+			{"User", "alice", "head", "CHANGES_REQUESTED"},
+			{"User", "alice", "old", "APPROVED"},
+		}, nil, 0, false, 0, false},
+		{"approval on head clears old request", []reviewEvent{
+			{"User", "alice", "old", "CHANGES_REQUESTED"},
+			{"User", "alice", "head", "APPROVED"},
+		}, nil, 0, false, 1, false},
+		{"approval clears same reviewer request across login casing", []reviewEvent{
+			{"User", "alice", "head", "CHANGES_REQUESTED"},
+			{"User", "ALICE", "old", "APPROVED"},
+		}, nil, 0, false, 0, false},
+		{"request after approval remains outstanding", []reviewEvent{
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "alice", "head", "CHANGES_REQUESTED"},
+		}, nil, 1, true, 0, false},
+		{"dismissal only affects dismissed review", []reviewEvent{
+			{"User", "alice", "old", "CHANGES_REQUESTED"},
+			{"User", "alice", "head", "DISMISSED"},
+		}, nil, 1, false, 0, true},
+		{"dismissed request alone", []reviewEvent{{"User", "alice", "head", "DISMISSED"}}, nil, 0, false, 0, true},
 	}
-}
 
-func TestExtractReviewsCommentsExcludesAuthor(t *testing.T) {
-	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
-	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			node := reviewPRNode()
+			addReviewEvents(&node, tt.events)
+			for _, resolved := range tt.threads {
+				node.ReviewThreads.Nodes = append(node.ReviewThreads.Nodes, struct{ IsResolved bool }{resolved})
+			}
+			// A normal comment cannot settle a review-level request.
+			node.Comments.Nodes = append(node.Comments.Nodes,
+				makeCommentNode("User", "alice", time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)))
+			pr := transformPR(node, "conforma/policy")
+			if pr.UnresolvedConversations != tt.wantUnresolved ||
+				pr.Reviews.ApprovedCount != tt.wantApprovals || pr.Reviews.HasNewCommits != tt.wantHasNewCommits {
+				t.Errorf("PR = %+v, want unresolved=%d approvals=%d has_new_commits=%t",
+					pr, tt.wantUnresolved, tt.wantApprovals, tt.wantHasNewCommits)
+			}
 
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	setHeadCommitDate(&node, commitDate)
-	node.Comments.Nodes = append(node.Comments.Nodes,
-		makeCommentNode("User", "author", commentDate),
-	)
-
-	r := extractReviews(node)
-	if r.Count != 0 {
-		t.Errorf("Count = %d, want 0 (PR author comment excluded)", r.Count)
-	}
-}
-
-func TestExtractReviewsMixedReviewsAndComments(t *testing.T) {
-	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
-	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
-
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	setHeadCommitDate(&node, commitDate)
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("User", "reviewer-a", "head"),
-	)
-	node.Comments.Nodes = append(node.Comments.Nodes,
-		makeCommentNode("User", "reviewer-b", commentDate),
-		makeCommentNode("Bot", "ci-bot", commentDate),
-		makeCommentNode("User", "author", commentDate),
-	)
-
-	r := extractReviews(node)
-	if r.Count != 2 {
-		t.Errorf("Count = %d, want 2 (1 review + 1 human comment)", r.Count)
-	}
-}
-
-func TestExtractReviewsCommentAfterHeadCommit(t *testing.T) {
-	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
-	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
-
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	setHeadCommitDate(&node, commitDate)
-	node.Comments.Nodes = append(node.Comments.Nodes,
-		makeCommentNode("User", "reviewer", commentDate),
-	)
-
-	r := extractReviews(node)
-	if r.HasNewCommits {
-		t.Error("HasNewCommits should be false: comment was posted after HEAD commit")
-	}
-}
-
-func TestExtractReviewsCommentBeforeHeadCommit(t *testing.T) {
-	commitDate := time.Date(2025, 3, 15, 14, 0, 0, 0, time.UTC)
-	commentDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
-
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	setHeadCommitDate(&node, commitDate)
-	node.Comments.Nodes = append(node.Comments.Nodes,
-		makeCommentNode("User", "reviewer", commentDate),
-	)
-
-	r := extractReviews(node)
-	if !r.HasNewCommits {
-		t.Error("HasNewCommits should be true: comment was posted before HEAD commit")
-	}
-}
-
-func TestExtractReviewsCommentCoversHeadDespiteStaleReview(t *testing.T) {
-	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
-	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
-
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	setHeadCommitDate(&node, commitDate)
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("User", "reviewer", "old-commit"),
-	)
-	node.Comments.Nodes = append(node.Comments.Nodes,
-		makeCommentNode("User", "reviewer", commentDate),
-	)
-
-	r := extractReviews(node)
-	if r.HasNewCommits {
-		t.Error("HasNewCommits should be false: comment covers HEAD even though review is stale")
-	}
-}
-
-func TestExtractReviewsReviewCoversHeadDespiteStaleComment(t *testing.T) {
-	commitDate := time.Date(2025, 3, 15, 14, 0, 0, 0, time.UTC)
-	commentDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
-
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	setHeadCommitDate(&node, commitDate)
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("User", "reviewer", "head"),
-	)
-	node.Comments.Nodes = append(node.Comments.Nodes,
-		makeCommentNode("User", "reviewer", commentDate),
-	)
-
-	r := extractReviews(node)
-	if r.HasNewCommits {
-		t.Error("HasNewCommits should be false: review covers HEAD even though comment is stale")
-	}
-}
-
-func TestExtractReviewsDeduplicatesByAuthor(t *testing.T) {
-	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
-	commentDate := time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)
-
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	setHeadCommitDate(&node, commitDate)
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNode("User", "alice", "head"),
-		makeReviewNode("User", "alice", "old"),
-		makeReviewNode("User", "bob", "head"),
-	)
-	node.Comments.Nodes = append(node.Comments.Nodes,
-		makeCommentNode("User", "alice", commentDate),
-		makeCommentNode("User", "bob", commentDate),
-		makeCommentNode("User", "charlie", commentDate),
-	)
-
-	r := extractReviews(node)
-	if r.Count != 3 {
-		t.Errorf("Count = %d, want 3 (alice, bob, charlie)", r.Count)
-	}
-}
-
-func TestExtractReviewsApprovedCount(t *testing.T) {
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNodeState("User", "alice", "head", "APPROVED"),
-		makeReviewNodeState("User", "bob", "head", "CHANGES_REQUESTED"),
-		makeReviewNodeState("User", "carol", "head", "COMMENTED"),
-	)
-
-	r := extractReviews(node)
-	if r.Count != 3 {
-		t.Errorf("Count = %d, want 3", r.Count)
-	}
-	if r.ApprovedCount != 1 {
-		t.Errorf("ApprovedCount = %d, want 1 (only alice approved)", r.ApprovedCount)
-	}
-}
-
-func TestExtractReviewsApprovalSupersededByChangesRequested(t *testing.T) {
-	// Later CHANGES_REQUESTED should override an earlier APPROVED.
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNodeState("User", "alice", "old", "APPROVED"),
-		makeReviewNodeState("User", "alice", "head", "CHANGES_REQUESTED"),
-	)
-
-	r := extractReviews(node)
-	if r.ApprovedCount != 0 {
-		t.Errorf("ApprovedCount = %d, want 0 (stale approval superseded by changes requested)", r.ApprovedCount)
-	}
-}
-
-func TestExtractReviewsChangesRequestedThenApproved(t *testing.T) {
-	// Later APPROVED should override an earlier CHANGES_REQUESTED.
-	node := prNode{HeadRefOid: "head"}
-	node.Author.Login = "author"
-	node.Reviews.Nodes = append(node.Reviews.Nodes,
-		makeReviewNodeState("User", "alice", "old", "CHANGES_REQUESTED"),
-		makeReviewNodeState("User", "alice", "head", "APPROVED"),
-	)
-
-	r := extractReviews(node)
-	if r.ApprovedCount != 1 {
-		t.Errorf("ApprovedCount = %d, want 1 (latest review is an approval)", r.ApprovedCount)
+			data, err := json.Marshal(pr)
+			if err != nil {
+				t.Fatal(err)
+			}
+			var output struct {
+				Reviews map[string]json.RawMessage `json:"reviews"`
+			}
+			if err := json.Unmarshal(data, &output); err != nil {
+				t.Fatal(err)
+			}
+			value, exists := output.Reviews["outstanding_change_requests_on_head"]
+			if !exists {
+				t.Fatal("reviews.outstanding_change_requests_on_head missing from JSON")
+			}
+			var onHead bool
+			if err := json.Unmarshal(value, &onHead); err != nil {
+				t.Fatal(err)
+			}
+			if onHead != tt.wantOnHead {
+				t.Errorf("outstanding_change_requests_on_head = %t, want %t", onHead, tt.wantOnHead)
+			}
+		})
 	}
 }
 
