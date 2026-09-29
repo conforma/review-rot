@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T03:45:25.060063138Z",
+  "generated_at": "2026-09-29T04:12:37.071580347Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4753,7 +4753,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T02:44:30Z",
-      "updated_at": "2026-09-28T22:29:02Z",
+      "updated_at": "2026-09-29T03:45:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4796,6 +4796,33 @@
         "main",
         "renovate",
         "major"
+      ]
+    },
+    {
+      "title": "Update go modules to v0.36.5 (main)",
+      "url": "https://github.com/conforma/e2e-tests/pull/28",
+      "number": 28,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-29T03:45:04Z",
+      "updated_at": "2026-09-29T03:45:15Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
       ]
     },
     {
@@ -5162,7 +5189,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T03:42:32Z",
+    "since": "2026-07-01T04:09:52Z",
     "reviewers": [
       {
         "login": "simonbaird",
