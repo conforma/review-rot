@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T10:12:29.980656625Z",
+  "generated_at": "2026-09-29T10:42:30.242578454Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -843,17 +843,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1614735?v=4"
       },
       "created_at": "2026-09-06T12:03:28Z",
-      "updated_at": "2026-09-28T14:26:49Z",
+      "updated_at": "2026-09-29T10:34:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 4,
-        "approved_count": 0,
+        "approved_count": 1,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XS"
       ]
@@ -1234,7 +1234,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-29T01:40:26Z",
+      "updated_at": "2026-09-29T10:32:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3571,6 +3571,31 @@
       ]
     },
     {
+      "title": "Count head approvals and outstanding review requests",
+      "url": "https://github.com/conforma/review-rot/pull/265",
+      "number": 265,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-09-29T10:37:44Z",
+      "updated_at": "2026-09-29T10:38:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XXL",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
+      ]
+    },
+    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -5055,7 +5080,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T10:09:09Z",
+    "since": "2026-07-01T10:39:42Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -10579,7 +10604,7 @@
             "repo": "conforma/policy",
             "number": 1840,
             "author": "eedri",
-            "engaged_at": "2026-09-27T09:31:25Z"
+            "engaged_at": "2026-09-29T10:34:42Z"
           },
           {
             "title": "fix: remove upstream-deleted tasks/pipelines during sync",
