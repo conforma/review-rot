@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T08:48:11.512716521Z",
+  "generated_at": "2026-09-29T09:12:54.9393372Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3476,73 +3476,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-09-29T03:32:12Z",
-      "updated_at": "2026-09-29T08:33:12Z",
+      "updated_at": "2026-09-29T08:53:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "count": 2,
-        "approved_count": 2,
+        "count": 3,
+        "approved_count": 3,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "size: S"
-      ]
-    },
-    {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to beeada7 (main)",
-      "url": "https://github.com/conforma/golden-container/pull/1508",
-      "number": 1508,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-08-27T01:11:57Z",
-      "updated_at": "2026-09-29T08:33:55Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 7fbeae1 (main)",
-      "url": "https://github.com/conforma/golden-container/pull/1509",
-      "number": 1509,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-08-27T01:12:47Z",
-      "updated_at": "2026-09-07T10:36:52Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
       ]
     },
     {
@@ -3954,31 +3900,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "fix: remove upstream-deleted tasks/pipelines during sync",
-      "url": "https://github.com/conforma/tekton-catalog/pull/274",
-      "number": 274,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-09-23T09:04:48Z",
-      "updated_at": "2026-09-28T09:21:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 3,
-        "approved_count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
     },
     {
       "title": "Update npm dependencies (main) (minor)",
@@ -5069,7 +4990,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-09-29T08:00:03Z",
+      "updated_at": "2026-09-29T09:03:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5162,7 +5083,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T08:44:58Z",
+    "since": "2026-07-01T09:09:55Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9532,8 +9453,24 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 57,
+        "reviews": 59,
         "prs": [
+          {
+            "title": "Add DevConf.US 2026 talk to resources and blog",
+            "url": "https://github.com/conforma/conforma.github.io/pull/577",
+            "repo": "conforma/conforma.github.io",
+            "number": 577,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-29T08:53:44Z"
+          },
+          {
+            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to beeada7 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1508",
+            "repo": "conforma/golden-container",
+            "number": 1508,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-29T08:53:30Z"
+          },
           {
             "title": "test(#3515): increase unit test timeout to 30s",
             "url": "https://github.com/conforma/cli/pull/3576",
@@ -10662,7 +10599,7 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 19,
+        "reviews": 18,
         "prs": [
           {
             "title": "Add Codecov configuration (100% project and patch coverage)",
@@ -10807,14 +10744,6 @@
             "number": 8,
             "author": "st3penta",
             "engaged_at": "2026-07-09T10:01:54Z"
-          },
-          {
-            "title": "fix(EC-1971): set GEMINI_CLI_TRUST_WORKSPACE in release workflow",
-            "url": "https://github.com/conforma/policy/pull/1763",
-            "repo": "conforma/policy",
-            "number": 1763,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-01T08:53:29Z"
           }
         ]
       }
