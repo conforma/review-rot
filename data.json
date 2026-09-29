@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:42:44.607780847Z",
+  "generated_at": "2026-09-29T16:13:28.332836954Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5030,7 +5030,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T15:39:32Z",
+    "since": "2026-07-01T16:09:54Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7742,7 +7742,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 77,
+        "reviews": 76,
         "prs": [
           {
             "title": "Pin conforma tekton task to digest",
@@ -8351,14 +8351,6 @@
             "number": 3329,
             "author": "fullsend-ai-coder",
             "engaged_at": "2026-07-06T09:13:03Z"
-          },
-          {
-            "title": "EC-1963: Switch push-data-bundle workflow to task-runner image",
-            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/235",
-            "repo": "release-engineering/rhtap-ec-policy",
-            "number": 235,
-            "author": "BohdanMar",
-            "engaged_at": "2026-07-01T16:02:18Z"
           }
         ]
       },
