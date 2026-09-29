@@ -61,6 +61,7 @@ type prNode struct {
 
 	Reviews struct {
 		Nodes []struct {
+			ID     string
 			Author struct {
 				TypeName string `graphql:"__typename"`
 				Login    string
@@ -183,9 +184,19 @@ func extractReviews(node prNode) (model.Reviews, int) {
 		requestsOnHead bool
 	}
 	reviewers := make(map[string]*reviewerState)
-	// Review nodes are oldest-first. DISMISSED is the state of that review,
-	// not an event that clears another outstanding request.
+	// A dismissal affects only its review ID, even if another review by the
+	// same author is still requesting changes.
+	dismissed := make(map[string]struct{})
 	for _, review := range node.Reviews.Nodes {
+		if review.State == "DISMISSED" && review.ID != "" {
+			dismissed[review.ID] = struct{}{}
+		}
+	}
+	// Review nodes are oldest-first; later approvals clear earlier requests.
+	for _, review := range node.Reviews.Nodes {
+		if _, isDismissed := dismissed[review.ID]; isDismissed {
+			continue
+		}
 		if review.Author.TypeName != "User" || review.Author.Login == "" ||
 			isBotLogin(review.Author.Login, review.Author.TypeName) ||
 			strings.EqualFold(review.Author.Login, node.Author.Login) {
@@ -203,13 +214,12 @@ func extractReviews(node prNode) (model.Reviews, int) {
 		onHead := node.HeadRefOid != "" && review.Commit.OID == node.HeadRefOid
 		if onHead {
 			r.HasNewCommits = false
+			status.approvedOnHead = review.State == "APPROVED"
 		}
 		if review.State == "APPROVED" {
-			status.approvedOnHead = onHead
 			status.requests = 0
 			status.requestsOnHead = false
 		} else {
-			status.approvedOnHead = false
 			status.requests++
 			status.requestsOnHead = status.requestsOnHead || onHead
 		}

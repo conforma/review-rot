@@ -3,6 +3,7 @@ package github
 import (
 	"encoding/json"
 	"net/url"
+	"strconv"
 	"testing"
 	"time"
 
@@ -91,6 +92,7 @@ func TestExtractSize(t *testing.T) {
 }
 
 func makeReviewNodeState(authorType, login, oid, state string) struct {
+	ID     string
 	Author struct {
 		TypeName string `graphql:"__typename"`
 		Login    string
@@ -101,6 +103,7 @@ func makeReviewNodeState(authorType, login, oid, state string) struct {
 	State string
 } {
 	var n struct {
+		ID     string
 		Author struct {
 			TypeName string `graphql:"__typename"`
 			Login    string
@@ -250,8 +253,9 @@ type reviewEvent struct {
 
 func addReviewEvents(node *prNode, events []reviewEvent) {
 	for _, event := range events {
-		node.Reviews.Nodes = append(node.Reviews.Nodes,
-			makeReviewNodeState(event.authorType, event.login, event.oid, event.state))
+		review := makeReviewNodeState(event.authorType, event.login, event.oid, event.state)
+		review.ID = strconv.Itoa(len(node.Reviews.Nodes) + 1)
+		node.Reviews.Nodes = append(node.Reviews.Nodes, review)
 	}
 }
 
@@ -278,10 +282,14 @@ func TestTransformPRCurrentHeadReviews(t *testing.T) {
 			{"User", "bob", "head", "APPROVED"},
 			{"User", "bob", "old", "COMMENTED"},
 		}, 2, false},
-		{"later change request replaces approval", []reviewEvent{
+		{"later current-head request supersedes head approval", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 		}, 0, false},
+		{"later approval on an old SHA does not revoke head approval", []reviewEvent{
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "alice", "old", "APPROVED"},
+		}, 1, false},
 		{"change request covers head", []reviewEvent{{"User", "alice", "head", "CHANGES_REQUESTED"}}, 0, false},
 		{"commented review cannot cover head", []reviewEvent{
 			{"User", "alice", "old", "APPROVED"},
@@ -393,6 +401,11 @@ func TestTransformPROutstandingChangeRequests(t *testing.T) {
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 			{"User", "alice", "old", "APPROVED"},
 		}, nil, 0, false, 0, false},
+		{"old-SHA approval clears request but cannot restore superseded head approval", []reviewEvent{
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "alice", "head", "CHANGES_REQUESTED"},
+			{"User", "alice", "old", "APPROVED"},
+		}, nil, 0, false, 0, false},
 		{"approval on head clears old request", []reviewEvent{
 			{"User", "alice", "old", "CHANGES_REQUESTED"},
 			{"User", "alice", "head", "APPROVED"},
@@ -401,10 +414,14 @@ func TestTransformPROutstandingChangeRequests(t *testing.T) {
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 			{"User", "ALICE", "old", "APPROVED"},
 		}, nil, 0, false, 0, false},
-		{"request after approval remains outstanding", []reviewEvent{
+		{"current-head request after approval supersedes it and remains outstanding", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 		}, nil, 1, true, 0, false},
+		{"old-SHA request after head approval leaves approval counted", []reviewEvent{
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "alice", "old", "CHANGES_REQUESTED"},
+		}, nil, 1, false, 1, false},
 		{"dismissal only affects dismissed review", []reviewEvent{
 			{"User", "alice", "old", "CHANGES_REQUESTED"},
 			{"User", "alice", "head", "DISMISSED"},
@@ -449,6 +466,56 @@ func TestTransformPROutstandingChangeRequests(t *testing.T) {
 			}
 			if onHead != tt.wantOnHead {
 				t.Errorf("outstanding_change_requests_on_head = %t, want %t", onHead, tt.wantOnHead)
+			}
+		})
+	}
+}
+
+func TestTransformPRDismissedReviewID(t *testing.T) {
+	for _, tt := range []struct {
+		name              string
+		events            []reviewEvent
+		dismissedReview   int
+		wantUnresolved    int
+		wantOnHead        bool
+		wantApprovals     int
+		wantHasNewCommits bool
+	}{
+		{"dismissed head request no longer counts or covers head", []reviewEvent{
+			{"User", "alice", "head", "CHANGES_REQUESTED"},
+			{"User", "alice", "head", "DISMISSED"},
+		}, 0, 0, false, 0, true},
+		{"dismissal leaves another old request by same reviewer", []reviewEvent{
+			{"User", "alice", "head", "CHANGES_REQUESTED"},
+			{"User", "alice", "old", "CHANGES_REQUESTED"},
+			{"User", "alice", "head", "DISMISSED"},
+		}, 0, 1, false, 0, true},
+		{"dismissing old request leaves another current-head request", []reviewEvent{
+			{"User", "alice", "head", "CHANGES_REQUESTED"},
+			{"User", "alice", "old", "CHANGES_REQUESTED"},
+			{"User", "alice", "old", "DISMISSED"},
+		}, 1, 1, true, 0, false},
+		{"dismissing same-head request restores earlier approval", []reviewEvent{
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "alice", "head", "CHANGES_REQUESTED"},
+			{"User", "alice", "head", "DISMISSED"},
+		}, 1, 0, false, 1, false},
+		{"dismissed head approval no longer counts or covers head", []reviewEvent{
+			{"User", "alice", "head", "APPROVED"},
+			{"User", "alice", "head", "DISMISSED"},
+		}, 0, 0, false, 0, true},
+	} {
+		t.Run(tt.name, func(t *testing.T) {
+			node := reviewPRNode()
+			addReviewEvents(&node, tt.events)
+			node.Reviews.Nodes[len(node.Reviews.Nodes)-1].ID = node.Reviews.Nodes[tt.dismissedReview].ID
+			pr := transformPR(node, "conforma/policy")
+			if pr.UnresolvedConversations != tt.wantUnresolved ||
+				pr.Reviews.OutstandingChangeRequestsOnHead != tt.wantOnHead ||
+				pr.Reviews.ApprovedCount != tt.wantApprovals ||
+				pr.Reviews.HasNewCommits != tt.wantHasNewCommits {
+				t.Errorf("PR = %+v, want unresolved=%d on_head=%t approvals=%d has_new_commits=%t",
+					pr, tt.wantUnresolved, tt.wantOnHead, tt.wantApprovals, tt.wantHasNewCommits)
 			}
 		})
 	}

@@ -50,7 +50,9 @@ test('Ready uses draft, CI, current-head requests and approval threshold only', 
         ['pending CI', { ci_status: 'PENDING' }, false],
         ['missing CI', { ci_status: null }, false],
         ['outstanding current-head request', { reviews: { outstanding_change_requests_on_head: true } }, false],
-        ['old-head request only', { unresolved_conversations: 1 }, true]
+        ['approval and current-head request', { reviews: { approved_count: 1, outstanding_change_requests_on_head: true } }, false],
+        ['old-head request only', { unresolved_conversations: 1 }, true],
+        ['approval and old-head request', { reviews: { approved_count: 1 }, unresolved_conversations: 1 }, true]
     ]) {
         assert.equal(context.filterPRs([makePR(fields)], filters).length === 1, wantReady, name);
     }
