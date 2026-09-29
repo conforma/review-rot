@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T17:41:50.197583528Z",
+  "generated_at": "2026-09-29T18:14:18.496031179Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-09-28T01:53:08Z",
+      "updated_at": "2026-09-29T17:59:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -53,7 +53,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-09-28T01:54:33Z",
+      "updated_at": "2026-09-29T18:00:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -166,7 +166,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-09-29T11:58:03Z",
+      "updated_at": "2026-09-29T17:59:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -196,7 +196,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-28T17:59:15Z",
+      "updated_at": "2026-09-29T18:09:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -333,7 +333,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-09-29T11:58:11Z",
+      "updated_at": "2026-09-29T18:00:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -814,7 +814,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-09-28T01:56:02Z",
+      "updated_at": "2026-09-29T18:01:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3993,7 +3993,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-21T01:38:10Z",
-      "updated_at": "2026-09-25T16:06:31Z",
+      "updated_at": "2026-09-29T18:09:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4001,33 +4001,6 @@
       "reviews": {
         "count": 0,
         "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "fix(deps): update github/codeql-action action to v4.38.2 (main)",
-      "url": "https://github.com/conforma/go-gather/pull/349",
-      "number": 349,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-25T03:49:04Z",
-      "updated_at": "2026-09-29T12:06:18Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5030,7 +5003,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T17:38:31Z",
+    "since": "2026-07-01T18:10:52Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -6392,7 +6365,7 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 168,
+        "reviews": 167,
         "prs": [
           {
             "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
@@ -7729,14 +7702,6 @@
             "number": 12,
             "author": "joejstuart",
             "engaged_at": "2026-07-29T20:47:56Z"
-          },
-          {
-            "title": "feat:  pass custom cli params to e2e pipeline for pull requests",
-            "url": "https://github.com/conforma/cli/pull/3376",
-            "repo": "conforma/cli",
-            "number": 3376,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-07-01T18:00:57Z"
           }
         ]
       },
