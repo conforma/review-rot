@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T01:16:36.22857854Z",
+  "generated_at": "2026-09-29T01:54:05.414578381Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1152,7 +1152,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-09-28T01:51:27Z",
+      "updated_at": "2026-09-29T01:48:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1234,7 +1234,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-29T01:06:04Z",
+      "updated_at": "2026-09-29T01:40:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1362,7 +1362,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-09-29T01:09:30Z",
+      "updated_at": "2026-09-29T01:40:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1908,7 +1908,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-09-25T01:55:16Z",
+      "updated_at": "2026-09-29T01:43:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2062,7 +2062,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-09-25T01:55:59Z",
+      "updated_at": "2026-09-29T01:44:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3028,7 +3028,7 @@
       ]
     },
     {
-      "title": "Update github/codeql-action action to v4.38.1 (main)",
+      "title": "Pin dependencies (main)",
       "url": "https://github.com/conforma/cli/pull/3572",
       "number": 3572,
       "repo": "conforma/cli",
@@ -3037,10 +3037,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-17T03:26:55Z",
-      "updated_at": "2026-09-25T02:15:39Z",
+      "updated_at": "2026-09-29T01:43:41Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3202,10 +3202,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-24T01:58:31Z",
-      "updated_at": "2026-09-25T02:12:27Z",
+      "updated_at": "2026-09-29T01:48:47Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -3467,7 +3467,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 8ebe2ad (main)",
+      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to beeada7 (main)",
       "url": "https://github.com/conforma/golden-container/pull/1508",
       "number": 1508,
       "repo": "conforma/golden-container",
@@ -3476,14 +3476,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-27T01:11:57Z",
-      "updated_at": "2026-09-24T12:21:01Z",
+      "updated_at": "2026-09-29T01:50:21Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "count": 2,
-        "approved_count": 2,
+        "count": 0,
+        "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5110,7 +5110,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T01:13:36Z",
+    "since": "2026-07-01T01:51:10Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9456,7 +9456,7 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 58,
+        "reviews": 57,
         "prs": [
           {
             "title": "test(#3515): increase unit test timeout to 30s",
@@ -9473,14 +9473,6 @@
             "number": 3575,
             "author": "fullsend-ai-coder",
             "engaged_at": "2026-09-24T13:17:32Z"
-          },
-          {
-            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 8ebe2ad (main)",
-            "url": "https://github.com/conforma/golden-container/pull/1508",
-            "repo": "conforma/golden-container",
-            "number": 1508,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-09-24T12:21:01Z"
           },
           {
             "title": "Update github/codeql-action action to v4.38.1 (main)",
@@ -10284,7 +10276,7 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 39,
+        "reviews": 38,
         "prs": [
           {
             "title": "chore: initialize fullsend per-repo installation",
@@ -10301,14 +10293,6 @@
             "number": 573,
             "author": "st3penta",
             "engaged_at": "2026-09-24T15:27:06Z"
-          },
-          {
-            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 8ebe2ad (main)",
-            "url": "https://github.com/conforma/golden-container/pull/1508",
-            "repo": "conforma/golden-container",
-            "number": 1508,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-09-24T12:15:27Z"
           },
           {
             "title": "Update github/codeql-action action to v4.38.1 (main)",
