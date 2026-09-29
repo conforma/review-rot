@@ -19,12 +19,10 @@ func TestExtractCIStatusSuccess(t *testing.T) {
 	node := prNode{}
 	node.Commits.Nodes = []struct {
 		Commit struct {
-			CommittedDate     time.Time
 			StatusCheckRollup *struct{ State string }
 		}
 	}{
 		{Commit: struct {
-			CommittedDate     time.Time
 			StatusCheckRollup *struct{ State string }
 		}{StatusCheckRollup: &struct{ State string }{State: "SUCCESS"}}},
 	}
@@ -39,12 +37,10 @@ func TestExtractCIStatusNull(t *testing.T) {
 	node := prNode{}
 	node.Commits.Nodes = []struct {
 		Commit struct {
-			CommittedDate     time.Time
 			StatusCheckRollup *struct{ State string }
 		}
 	}{
 		{Commit: struct {
-			CommittedDate     time.Time
 			StatusCheckRollup *struct{ State string }
 		}{StatusCheckRollup: nil}},
 	}
@@ -118,40 +114,6 @@ func makeReviewNodeState(authorType, login, oid, state string) struct {
 	n.Commit.OID = oid
 	n.State = state
 	return n
-}
-
-func makeCommentNode(authorType, login string, createdAt time.Time) struct {
-	Author struct {
-		TypeName string `graphql:"__typename"`
-		Login    string
-	} `graphql:"author"`
-	CreatedAt time.Time
-} {
-	var n struct {
-		Author struct {
-			TypeName string `graphql:"__typename"`
-			Login    string
-		} `graphql:"author"`
-		CreatedAt time.Time
-	}
-	n.Author.TypeName = authorType
-	n.Author.Login = login
-	n.CreatedAt = createdAt
-	return n
-}
-
-func setHeadCommitDate(node *prNode, t time.Time) {
-	node.Commits.Nodes = []struct {
-		Commit struct {
-			CommittedDate     time.Time
-			StatusCheckRollup *struct{ State string }
-		}
-	}{
-		{Commit: struct {
-			CommittedDate     time.Time
-			StatusCheckRollup *struct{ State string }
-		}{CommittedDate: t}},
-	}
 }
 
 func TestCountUnresolved(t *testing.T) {
@@ -247,6 +209,34 @@ func TestTransformPRBotAuthor(t *testing.T) {
 	}
 }
 
+func TestTransformPRReviewsJSONContract(t *testing.T) {
+	node := reviewPRNode()
+	addReviewEvents(&node, []reviewEvent{
+		{"User", "alice", "head", "APPROVED"},
+		{"User", "bob", "head", "CHANGES_REQUESTED"},
+		{"User", "carol", "old", "CHANGES_REQUESTED"},
+	})
+	pr := transformPR(node, "conforma/policy")
+	if pr.Reviews.ApprovedCount != 1 || !pr.Reviews.OutstandingChangeRequestsOnHead || pr.UnresolvedConversations != 2 {
+		t.Errorf("PR = %+v, want one head approval, a head request and two outstanding requests", pr)
+	}
+
+	data, err := json.Marshal(pr)
+	if err != nil {
+		t.Fatal(err)
+	}
+	var output struct {
+		Reviews json.RawMessage `json:"reviews"`
+	}
+	if err := json.Unmarshal(data, &output); err != nil {
+		t.Fatal(err)
+	}
+	want := `{"approved_count":1,"outstanding_change_requests_on_head":true}`
+	if string(output.Reviews) != want {
+		t.Errorf("reviews JSON = %s, want %s", output.Reviews, want)
+	}
+}
+
 type reviewEvent struct {
 	authorType, login, oid, state string
 }
@@ -269,54 +259,53 @@ func reviewPRNode() prNode {
 
 func TestTransformPRCurrentHeadReviews(t *testing.T) {
 	tests := []struct {
-		name              string
-		events            []reviewEvent
-		wantApprovals     int
-		wantHasNewCommits bool
+		name          string
+		events        []reviewEvent
+		wantApprovals int
 	}{
-		{"no decisions", nil, 0, true},
-		{"stale approval", []reviewEvent{{"User", "alice", "old", "APPROVED"}}, 0, true},
+		{"no decisions", nil, 0},
+		{"stale approval", []reviewEvent{{"User", "alice", "old", "APPROVED"}}, 0},
 		{"distinct approvals despite repeated and neutral reviews", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "bob", "head", "APPROVED"},
 			{"User", "bob", "old", "COMMENTED"},
-		}, 2, false},
+		}, 2},
 		{"later current-head request supersedes head approval", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
-		}, 0, false},
+		}, 0},
 		{"later approval on an old SHA does not revoke head approval", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "alice", "old", "APPROVED"},
-		}, 1, false},
-		{"change request covers head", []reviewEvent{{"User", "alice", "head", "CHANGES_REQUESTED"}}, 0, false},
-		{"commented review cannot cover head", []reviewEvent{
+		}, 1},
+		{"change request does not add approval", []reviewEvent{{"User", "alice", "head", "CHANGES_REQUESTED"}}, 0},
+		{"commented review does not add approval", []reviewEvent{
 			{"User", "alice", "old", "APPROVED"},
 			{"User", "alice", "head", "COMMENTED"},
-		}, 0, true},
-		{"dismissed approval does not cover head", []reviewEvent{{"User", "alice", "head", "DISMISSED"}}, 0, true},
+		}, 0},
+		{"dismissed review does not add approval", []reviewEvent{{"User", "alice", "head", "DISMISSED"}}, 0},
 		{"dismissed later review does not revoke earlier approval", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "alice", "head", "DISMISSED"},
-		}, 1, false},
+		}, 1},
 		{"bots, author and unknown accounts are not reviewers", []reviewEvent{
 			{"Bot", "app", "head", "APPROVED"},
 			{"User", "machine-bot", "head", "APPROVED"},
 			{"User", "author", "head", "APPROVED"},
 			{"User", "", "head", "APPROVED"},
 			{"Mannequin", "unknown", "head", "APPROVED"},
-		}, 0, true},
+		}, 0},
 		{"human reviewer alongside ineligible accounts", []reviewEvent{
 			{"Bot", "app", "head", "APPROVED"},
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "author", "head", "APPROVED"},
-		}, 1, false},
+		}, 1},
 		{"GitHub login casing cannot double-count or self-approve", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "Alice", "head", "APPROVED"},
 			{"User", "AUTHOR", "head", "APPROVED"},
-		}, 1, false},
+		}, 1},
 	}
 
 	for _, tt := range tests {
@@ -324,42 +313,8 @@ func TestTransformPRCurrentHeadReviews(t *testing.T) {
 			node := reviewPRNode()
 			addReviewEvents(&node, tt.events)
 			reviews := transformPR(node, "conforma/policy").Reviews
-			if reviews.ApprovedCount != tt.wantApprovals || reviews.HasNewCommits != tt.wantHasNewCommits {
-				t.Errorf("reviews = %+v, want approvals=%d has_new_commits=%t",
-					reviews, tt.wantApprovals, tt.wantHasNewCommits)
-			}
-		})
-	}
-}
-
-func TestTransformPRConversationCommentsAreNeutral(t *testing.T) {
-	commitDate := time.Date(2025, 3, 15, 10, 0, 0, 0, time.UTC)
-	for _, tt := range []struct {
-		name              string
-		events            []reviewEvent
-		wantApprovals     int
-		wantHasNewCommits bool
-	}{
-		{"comment after head commit", nil, 0, true},
-		{"comment after stale approval and head commented review", []reviewEvent{
-			{"User", "alice", "old", "APPROVED"},
-			{"User", "alice", "head", "COMMENTED"},
-		}, 0, true},
-		{"comment after head approval and old commented review", []reviewEvent{
-			{"User", "alice", "head", "APPROVED"},
-			{"User", "alice", "old", "COMMENTED"},
-		}, 1, false},
-	} {
-		t.Run(tt.name, func(t *testing.T) {
-			node := reviewPRNode()
-			setHeadCommitDate(&node, commitDate)
-			addReviewEvents(&node, tt.events)
-			node.Comments.Nodes = append(node.Comments.Nodes,
-				makeCommentNode("User", "alice", commitDate.Add(time.Hour)))
-			reviews := transformPR(node, "conforma/policy").Reviews
-			if reviews.ApprovedCount != tt.wantApprovals || reviews.HasNewCommits != tt.wantHasNewCommits {
-				t.Errorf("reviews = %+v, want approvals=%d has_new_commits=%t",
-					reviews, tt.wantApprovals, tt.wantHasNewCommits)
+			if reviews.ApprovedCount != tt.wantApprovals {
+				t.Errorf("reviews = %+v, want approvals=%d", reviews, tt.wantApprovals)
 			}
 		})
 	}
@@ -367,66 +322,65 @@ func TestTransformPRConversationCommentsAreNeutral(t *testing.T) {
 
 func TestTransformPROutstandingChangeRequests(t *testing.T) {
 	tests := []struct {
-		name              string
-		events            []reviewEvent
-		threads           []bool
-		wantUnresolved    int
-		wantOnHead        bool
-		wantApprovals     int
-		wantHasNewCommits bool
+		name           string
+		events         []reviewEvent
+		threads        []bool
+		wantUnresolved int
+		wantOnHead     bool
+		wantApprovals  int
 	}{
-		{"current request", []reviewEvent{{"User", "alice", "head", "CHANGES_REQUESTED"}}, nil, 1, true, 0, false},
-		{"old request", []reviewEvent{{"User", "alice", "old", "CHANGES_REQUESTED"}}, nil, 1, false, 0, true},
+		{"current request", []reviewEvent{{"User", "alice", "head", "CHANGES_REQUESTED"}}, nil, 1, true, 0},
+		{"old request", []reviewEvent{{"User", "alice", "old", "CHANGES_REQUESTED"}}, nil, 1, false, 0},
 		{"ineligible requests do not count", []reviewEvent{
 			{"Bot", "app", "head", "CHANGES_REQUESTED"},
 			{"User", "machine-bot", "head", "CHANGES_REQUESTED"},
 			{"User", "author", "head", "CHANGES_REQUESTED"},
 			{"User", "", "head", "CHANGES_REQUESTED"},
 			{"Mannequin", "unknown", "head", "CHANGES_REQUESTED"},
-		}, []bool{false}, 1, false, 0, true},
+		}, []bool{false}, 1, false, 0},
 		{"each outstanding review plus unresolved threads", []reviewEvent{
 			{"User", "alice", "old", "CHANGES_REQUESTED"},
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 			{"User", "bob", "head", "CHANGES_REQUESTED"},
-		}, []bool{false, false, true}, 5, true, 0, false},
+		}, []bool{false, false, true}, 5, true, 0},
 		{"commented review and resolved thread do not clear request", []reviewEvent{
 			{"User", "alice", "old", "CHANGES_REQUESTED"},
 			{"User", "alice", "head", "COMMENTED"},
-		}, []bool{true}, 1, false, 0, true},
+		}, []bool{true}, 1, false, 0},
 		{"another reviewer approving does not clear request", []reviewEvent{
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 			{"User", "bob", "head", "APPROVED"},
-		}, nil, 1, true, 1, false},
+		}, nil, 1, true, 1},
 		{"approval on old SHA clears same reviewer request", []reviewEvent{
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 			{"User", "alice", "old", "APPROVED"},
-		}, nil, 0, false, 0, false},
+		}, nil, 0, false, 0},
 		{"old-SHA approval clears request but cannot restore superseded head approval", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 			{"User", "alice", "old", "APPROVED"},
-		}, nil, 0, false, 0, false},
+		}, nil, 0, false, 0},
 		{"approval on head clears old request", []reviewEvent{
 			{"User", "alice", "old", "CHANGES_REQUESTED"},
 			{"User", "alice", "head", "APPROVED"},
-		}, nil, 0, false, 1, false},
+		}, nil, 0, false, 1},
 		{"approval clears same reviewer request across login casing", []reviewEvent{
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 			{"User", "ALICE", "old", "APPROVED"},
-		}, nil, 0, false, 0, false},
+		}, nil, 0, false, 0},
 		{"current-head request after approval supersedes it and remains outstanding", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
-		}, nil, 1, true, 0, false},
+		}, nil, 1, true, 0},
 		{"old-SHA request after head approval leaves approval counted", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "alice", "old", "CHANGES_REQUESTED"},
-		}, nil, 1, false, 1, false},
+		}, nil, 1, false, 1},
 		{"dismissal only affects dismissed review", []reviewEvent{
 			{"User", "alice", "old", "CHANGES_REQUESTED"},
 			{"User", "alice", "head", "DISMISSED"},
-		}, nil, 1, false, 0, true},
-		{"dismissed request alone", []reviewEvent{{"User", "alice", "head", "DISMISSED"}}, nil, 0, false, 0, true},
+		}, nil, 1, false, 0},
+		{"dismissed request alone", []reviewEvent{{"User", "alice", "head", "DISMISSED"}}, nil, 0, false, 0},
 	}
 
 	for _, tt := range tests {
@@ -436,14 +390,9 @@ func TestTransformPROutstandingChangeRequests(t *testing.T) {
 			for _, resolved := range tt.threads {
 				node.ReviewThreads.Nodes = append(node.ReviewThreads.Nodes, struct{ IsResolved bool }{resolved})
 			}
-			// A normal comment cannot settle a review-level request.
-			node.Comments.Nodes = append(node.Comments.Nodes,
-				makeCommentNode("User", "alice", time.Date(2025, 3, 15, 12, 0, 0, 0, time.UTC)))
 			pr := transformPR(node, "conforma/policy")
-			if pr.UnresolvedConversations != tt.wantUnresolved ||
-				pr.Reviews.ApprovedCount != tt.wantApprovals || pr.Reviews.HasNewCommits != tt.wantHasNewCommits {
-				t.Errorf("PR = %+v, want unresolved=%d approvals=%d has_new_commits=%t",
-					pr, tt.wantUnresolved, tt.wantApprovals, tt.wantHasNewCommits)
+			if pr.UnresolvedConversations != tt.wantUnresolved || pr.Reviews.ApprovedCount != tt.wantApprovals {
+				t.Errorf("PR = %+v, want unresolved=%d approvals=%d", pr, tt.wantUnresolved, tt.wantApprovals)
 			}
 
 			data, err := json.Marshal(pr)
@@ -473,37 +422,36 @@ func TestTransformPROutstandingChangeRequests(t *testing.T) {
 
 func TestTransformPRDismissedReviewID(t *testing.T) {
 	for _, tt := range []struct {
-		name              string
-		events            []reviewEvent
-		dismissedReview   int
-		wantUnresolved    int
-		wantOnHead        bool
-		wantApprovals     int
-		wantHasNewCommits bool
+		name            string
+		events          []reviewEvent
+		dismissedReview int
+		wantUnresolved  int
+		wantOnHead      bool
+		wantApprovals   int
 	}{
-		{"dismissed head request no longer counts or covers head", []reviewEvent{
+		{"dismissed head request no longer counts", []reviewEvent{
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 			{"User", "alice", "head", "DISMISSED"},
-		}, 0, 0, false, 0, true},
+		}, 0, 0, false, 0},
 		{"dismissal leaves another old request by same reviewer", []reviewEvent{
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 			{"User", "alice", "old", "CHANGES_REQUESTED"},
 			{"User", "alice", "head", "DISMISSED"},
-		}, 0, 1, false, 0, true},
+		}, 0, 1, false, 0},
 		{"dismissing old request leaves another current-head request", []reviewEvent{
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 			{"User", "alice", "old", "CHANGES_REQUESTED"},
 			{"User", "alice", "old", "DISMISSED"},
-		}, 1, 1, true, 0, false},
+		}, 1, 1, true, 0},
 		{"dismissing same-head request restores earlier approval", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "alice", "head", "CHANGES_REQUESTED"},
 			{"User", "alice", "head", "DISMISSED"},
-		}, 1, 0, false, 1, false},
-		{"dismissed head approval no longer counts or covers head", []reviewEvent{
+		}, 1, 0, false, 1},
+		{"dismissed head approval no longer counts", []reviewEvent{
 			{"User", "alice", "head", "APPROVED"},
 			{"User", "alice", "head", "DISMISSED"},
-		}, 0, 0, false, 0, true},
+		}, 0, 0, false, 0},
 	} {
 		t.Run(tt.name, func(t *testing.T) {
 			node := reviewPRNode()
@@ -512,10 +460,9 @@ func TestTransformPRDismissedReviewID(t *testing.T) {
 			pr := transformPR(node, "conforma/policy")
 			if pr.UnresolvedConversations != tt.wantUnresolved ||
 				pr.Reviews.OutstandingChangeRequestsOnHead != tt.wantOnHead ||
-				pr.Reviews.ApprovedCount != tt.wantApprovals ||
-				pr.Reviews.HasNewCommits != tt.wantHasNewCommits {
-				t.Errorf("PR = %+v, want unresolved=%d on_head=%t approvals=%d has_new_commits=%t",
-					pr, tt.wantUnresolved, tt.wantOnHead, tt.wantApprovals, tt.wantHasNewCommits)
+				pr.Reviews.ApprovedCount != tt.wantApprovals {
+				t.Errorf("PR = %+v, want unresolved=%d on_head=%t approvals=%d",
+					pr, tt.wantUnresolved, tt.wantOnHead, tt.wantApprovals)
 			}
 		})
 	}

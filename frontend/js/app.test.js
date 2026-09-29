@@ -30,12 +30,29 @@ function makePR({ reviews = {}, ...fields } = {}) {
         is_draft: false, is_automated: false, ci_status: 'SUCCESS',
         unresolved_conversations: 0,
         reviews: {
-            approved_count: 0, has_new_commits: true,
-            outstanding_change_requests_on_head: false, ...reviews
+            approved_count: 0, outstanding_change_requests_on_head: false, ...reviews
         },
         ...fields
     };
 }
+
+test('PR table has six columns while Ready keeps its predicate', () => {
+    const { context, state } = loadApp();
+    const html = readFileSync(join(__dirname, '..', 'index.html'), 'utf8');
+    const header = html.split('<table class="pr-table">')[1].split('</thead>')[0];
+    assert.equal((header.match(/<th\b/g) || []).length, 6);
+    assert.match(header, /data-sort="reviews"><span class="col-tooltip-wrap">Approvals/);
+
+    const pr = makePR({ unresolved_conversations: 2, reviews: { approved_count: 1 } });
+    const row = context.renderRow(pr);
+    assert.equal((row.match(/<td\b/g) || []).length, 6);
+    assert.match(row, /<td>2<\/td>\s*<td class="reviews-cell">1<\/td>/);
+
+    state.requiredApprovals = 2;
+    const filters = { type: 'all', author: 'all', repo: 'all', readyForReview: true };
+    assert.equal(context.filterPRs([pr], filters).length, 1);
+    assert.equal(context.filterPRs([makePR({ reviews: { outstanding_change_requests_on_head: true } })], filters).length, 0);
+});
 
 test('Ready uses draft, CI, current-head requests and approval threshold only', () => {
     const { context, state } = loadApp();
@@ -43,7 +60,7 @@ test('Ready uses draft, CI, current-head requests and approval threshold only', 
     const filters = { type: 'all', author: 'all', repo: 'all', readyForReview: true };
     for (const [name, fields, wantReady] of [
         ['no review yet', {}, true],
-        ['one approval', { reviews: { approved_count: 1, has_new_commits: false } }, true],
+        ['one approval', { reviews: { approved_count: 1 } }, true],
         ['approval threshold reached', { reviews: { approved_count: 2 } }, false],
         ['draft', { is_draft: true }, false],
         ['failing CI', { ci_status: 'FAILURE' }, false],
@@ -57,10 +74,6 @@ test('Ready uses draft, CI, current-head requests and approval threshold only', 
         assert.equal(context.filterPRs([makePR(fields)], filters).length === 1, wantReady, name);
     }
 
-    const reviewed = makePR({ reviews: { has_new_commits: false } });
-    const unreviewed = makePR({ reviews: { has_new_commits: true } });
-    assert.equal(context.filterPRs([reviewed], filters).length, 1);
-    assert.equal(context.filterPRs([unreviewed], filters).length, 1);
     state.requiredApprovals = 1;
     assert.equal(context.filterPRs([makePR({ reviews: { approved_count: 1 } })], filters).length, 0);
 });
@@ -77,27 +90,23 @@ test('Ready keeps type, author and repo filters', () => {
     assert.equal(context.filterPRs([makePR({ title: 'WIP: not done' })], { ...filters, type: 'all' }).length, 1);
 });
 
-test('table renders and sorts approvals, unresolved total and head coverage separately', () => {
+test('table renders and sorts approvals and unresolved total', () => {
     const { context } = loadApp();
     const oneApproval = makePR({
         title: 'one', unresolved_conversations: 3,
-        reviews: { count: 99, approved_count: 1, has_new_commits: false }
+        reviews: { count: 99, approved_count: 1 }
     });
     const twoApprovals = makePR({
-        title: 'two', reviews: { count: 0, approved_count: 2, has_new_commits: true }
+        title: 'two', reviews: { count: 0, approved_count: 2 }
     });
     const prs = [twoApprovals, oneApproval];
     assert.deepEqual(Array.from(context.sortPRs(prs, { field: 'reviews', direction: 'asc' }), pr => pr.title), ['one', 'two']);
     assert.deepEqual(Array.from(context.sortPRs(prs, { field: 'reviews', direction: 'desc' }), pr => pr.title), ['two', 'one']);
-    assert.deepEqual(Array.from(context.sortPRs(prs, { field: 're_review', direction: 'asc' }), pr => pr.title), ['one', 'two']);
 
     const oneRow = context.renderRow(oneApproval);
     assert.match(oneRow, /<td>3<\/td>\s*<td class="reviews-cell">1<\/td>/);
-    assert.doesNotMatch(oneRow, /class="re-review-yes"/);
     const twoRow = context.renderRow(twoApprovals);
     assert.match(twoRow, /<td class="reviews-cell">2<\/td>/);
-    assert.match(twoRow, /class="re-review-yes"[^>]*aria-label="Unreviewed changes"/);
-    assert.match(twoRow, /title="No eligible approval or change request was submitted on the current head"/);
 });
 
 test('ready=1 restores the checkbox and sort key, and survives URL updates', () => {
@@ -124,6 +133,5 @@ test('column and filter tooltips describe current-head approvals and combined un
     assert.ok(html.includes('data-sort="reviews"><span class="col-tooltip-wrap">Approvals'));
     assert.ok(html.includes('data-sort="threads">Unresolved <span class="col-tooltip-wrap">threads + requests'));
     assert.ok(html.includes('Unresolved inline review threads plus outstanding change requests, including requests on older commits'));
-    assert.ok(html.includes('No eligible reviewer has submitted an approval or change request on the current head'));
     assert.ok(html.includes('no outstanding change requests on the current head, and fewer than the required current-head approvals'));
 });

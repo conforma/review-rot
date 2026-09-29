@@ -51,7 +51,6 @@ type prNode struct {
 	Commits struct {
 		Nodes []struct {
 			Commit struct {
-				CommittedDate     time.Time
 				StatusCheckRollup *struct {
 					State string
 				}
@@ -72,16 +71,6 @@ type prNode struct {
 			State string
 		}
 	} `graphql:"reviews(last: 100, states: [APPROVED, CHANGES_REQUESTED, COMMENTED, DISMISSED])"`
-
-	Comments struct {
-		Nodes []struct {
-			Author struct {
-				TypeName string `graphql:"__typename"`
-				Login    string
-			} `graphql:"author"`
-			CreatedAt time.Time
-		}
-	} `graphql:"comments(last: 100)"`
 
 	ReviewThreads struct {
 		Nodes []struct {
@@ -177,7 +166,7 @@ func extractSize(node prNode) *string {
 }
 
 func extractReviews(node prNode) (model.Reviews, int) {
-	r := model.Reviews{HasNewCommits: true}
+	r := model.Reviews{}
 	type reviewerState struct {
 		approvedOnHead bool
 		requests       int
@@ -213,7 +202,6 @@ func extractReviews(node prNode) (model.Reviews, int) {
 		}
 		onHead := node.HeadRefOid != "" && review.Commit.OID == node.HeadRefOid
 		if onHead {
-			r.HasNewCommits = false
 			status.approvedOnHead = review.State == "APPROVED"
 		}
 		if review.State == "APPROVED" {
