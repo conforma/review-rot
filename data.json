@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T14:12:03.913212079Z",
+  "generated_at": "2026-09-29T14:43:15.619383975Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4966,7 +4966,7 @@
       "updated_at": "2026-09-29T14:07:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "count": 4,
@@ -5030,7 +5030,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T14:08:30Z",
+    "since": "2026-07-01T14:39:55Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9886,7 +9886,7 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 44,
+        "reviews": 43,
         "prs": [
           {
             "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
@@ -10231,14 +10231,6 @@
             "number": 3401,
             "author": "simonbaird",
             "engaged_at": "2026-07-13T19:10:10Z"
-          },
-          {
-            "title": "Update https://github.com/conforma/e2e-tests digest to f49f4a2 (main)",
-            "url": "https://github.com/conforma/cli/pull/3374",
-            "repo": "conforma/cli",
-            "number": 3374,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-07-01T14:28:45Z"
           }
         ]
       },
