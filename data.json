@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T13:45:31.985805525Z",
+  "generated_at": "2026-09-29T14:12:03.913212079Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4366,7 +4366,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-09-28T23:51:34Z",
+      "updated_at": "2026-09-29T13:42:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4963,18 +4963,20 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-09-29T13:29:21Z",
+      "updated_at": "2026-09-29T14:07:48Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
-        "approved_count": 1,
+        "approved_count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
-      "labels": []
+      "labels": [
+        "prod/needs-approval"
+      ]
     },
     {
       "title": "chore(EC-2070): retire trusted task updates",
@@ -5028,7 +5030,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T13:41:59Z",
+    "since": "2026-07-01T14:08:30Z",
     "reviewers": [
       {
         "login": "simonbaird",
