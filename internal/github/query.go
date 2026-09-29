@@ -70,7 +70,7 @@ type prNode struct {
 			}
 			State string
 		}
-	} `graphql:"reviews(last: 100, states: [APPROVED, CHANGES_REQUESTED, COMMENTED, DISMISSED])"`
+	} `graphql:"reviews(last: 100, states: [APPROVED, CHANGES_REQUESTED, DISMISSED])"`
 
 	ReviewThreads struct {
 		Nodes []struct {
