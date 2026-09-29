@@ -246,13 +246,6 @@ function attachEventListeners() {
     });
 }
 
-// Whether a PR still needs review attention.
-function needsReview(reviews) {
-    if (!reviews) return true;
-    const needsMoreApprovals = (reviews.approved_count || 0) < state.requiredApprovals;
-    return needsMoreApprovals || reviews.has_new_commits;
-}
-
 function filterPRs(prs, filters) {
     return prs.filter(pr => {
         const isWip = pr.is_draft || /\bWIP\b/i.test(pr.title);
@@ -266,7 +259,8 @@ function filterPRs(prs, filters) {
         if (filters.readyForReview) {
             if (pr.is_draft) return false;
             if (pr.ci_status !== 'SUCCESS') return false;
-            if (!needsReview(pr.reviews)) return false;
+            if (pr.reviews?.outstanding_change_requests_on_head) return false;
+            if ((pr.reviews?.approved_count || 0) >= state.requiredApprovals) return false;
         }
 
         return true;
@@ -281,13 +275,13 @@ function sortPRs(prs, sort) {
         switch (sort.field) {
             case 'created_at': cmp = new Date(a.created_at) - new Date(b.created_at); break;
             case 'updated_at': cmp = new Date(a.updated_at) - new Date(b.updated_at); break;
-            case 'reviews': cmp = a.reviews.count - b.reviews.count; break;
+            case 'reviews': cmp = (a.reviews?.approved_count || 0) - (b.reviews?.approved_count || 0); break;
             case 'title': cmp = a.title.localeCompare(b.title); break;
             case 'ci_status': cmp = (ciOrder[a.ci_status] ?? 3) - (ciOrder[b.ci_status] ?? 3); break;
             case 'threads': cmp = a.unresolved_conversations - b.unresolved_conversations; break;
             case 're_review': {
-                const needsA = needsReview(a.reviews) ? 1 : 0;
-                const needsB = needsReview(b.reviews) ? 1 : 0;
+                const needsA = a.reviews?.has_new_commits ? 1 : 0;
+                const needsB = b.reviews?.has_new_commits ? 1 : 0;
                 cmp = needsA - needsB;
                 break;
             }
@@ -355,16 +349,16 @@ function renderSize(size) {
     return `<span class="size-badge ${cls}">${escapeHtml(size)}</span>`;
 }
 
-function renderReReview(reviews) {
-    if (needsReview(reviews)) {
-        return '<span class="re-review-yes">&#x1F440;</span>';
+function renderUnreviewedChanges(reviews) {
+    if (reviews?.has_new_commits) {
+        return '<span class="re-review-yes" role="img" aria-label="Unreviewed changes" title="No eligible approval or change request was submitted on the current head">&#x1F440;</span>';
     }
     return '';
 }
 
 function renderRow(pr) {
     const author = pr.author || {};
-    const reviews = pr.reviews || { count: 0, has_new_commits: false };
+    const reviews = pr.reviews || { approved_count: 0, has_new_commits: false };
     const draftBadge = pr.is_draft ? '<span class="draft-badge">Draft</span>' : '';
     const ageCls = ageColorClass(pr.created_at);
     const ageClass = ageCls ? ` ${ageCls}` : '';
@@ -384,8 +378,8 @@ function renderRow(pr) {
         <td class="age-cell">${pr.updated_at ? formatElapsed(pr.updated_at) : ''}</td>
         <td class="age-cell${ageClass}">${pr.created_at ? formatElapsed(pr.created_at) : ''}</td>
         <td>${pr.unresolved_conversations || 0}</td>
-        <td class="reviews-cell">${reviews.count}</td>
-        <td>${renderReReview(reviews)}</td>
+        <td class="reviews-cell">${reviews.approved_count || 0}</td>
+        <td>${renderUnreviewedChanges(reviews)}</td>
     </tr>`;
 }
 

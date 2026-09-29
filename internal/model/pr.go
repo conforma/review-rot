@@ -92,7 +92,6 @@ type Author struct {
 }
 
 type Reviews struct {
-	Count                           int  `json:"count"`
 	ApprovedCount                   int  `json:"approved_count"`
 	HasNewCommits                   bool `json:"has_new_commits"`
 	OutstandingChangeRequestsOnHead bool `json:"outstanding_change_requests_on_head"`

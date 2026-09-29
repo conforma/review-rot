@@ -183,7 +183,6 @@ func extractReviews(node prNode) (model.Reviews, int) {
 		requestsOnHead bool
 	}
 	reviewers := make(map[string]*reviewerState)
-	seen := make(map[string]struct{})
 	// Review nodes are oldest-first. DISMISSED is the state of that review,
 	// not an event that clears another outstanding request.
 	for _, review := range node.Reviews.Nodes {
@@ -193,9 +192,6 @@ func extractReviews(node prNode) (model.Reviews, int) {
 			continue
 		}
 		login := strings.ToLower(review.Author.Login)
-		if review.State != "DISMISSED" {
-			seen[login] = struct{}{}
-		}
 		if review.State != "APPROVED" && review.State != "CHANGES_REQUESTED" {
 			continue
 		}
@@ -218,15 +214,6 @@ func extractReviews(node prNode) (model.Reviews, int) {
 			status.requestsOnHead = status.requestsOnHead || onHead
 		}
 	}
-	// Keep the existing participation count until the PR table switches to approvals.
-	for _, comment := range node.Comments.Nodes {
-		if comment.Author.Login == "" || isBotLogin(comment.Author.Login, comment.Author.TypeName) ||
-			strings.EqualFold(comment.Author.Login, node.Author.Login) {
-			continue
-		}
-		seen[strings.ToLower(comment.Author.Login)] = struct{}{}
-	}
-	r.Count = len(seen)
 	var outstandingRequests int
 	for _, status := range reviewers {
 		if status.approvedOnHead {
