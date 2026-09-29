@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:44:17.060074692Z",
+  "generated_at": "2026-09-29T17:10:47.642348401Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4882,6 +4882,29 @@
       ]
     },
     {
+      "title": "Decommision the acceptable bundles update/push CI",
+      "url": "https://github.com/konflux-ci/build-definitions/pull/3834",
+      "number": 3834,
+      "repo": "konflux-ci/build-definitions",
+      "author": {
+        "login": "dheerajodha",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
+      },
+      "created_at": "2026-09-10T13:36:58Z",
+      "updated_at": "2026-09-22T13:20:47Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 1,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "feat(EC-1794): replace ec-defaults ConfigMap with hardcoded bundle ref",
       "url": "https://github.com/konflux-ci/e2e-tests/pull/1885",
       "number": 1885,
@@ -5007,7 +5030,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T16:40:56Z",
+    "since": "2026-07-01T17:07:31Z",
     "reviewers": [
       {
         "login": "simonbaird",
