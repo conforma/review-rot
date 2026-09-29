@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T07:47:33.024882808Z",
+  "generated_at": "2026-09-29T08:15:31.78681921Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3476,14 +3476,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-09-29T03:32:12Z",
-      "updated_at": "2026-09-29T03:38:02Z",
+      "updated_at": "2026-09-29T08:06:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -5069,10 +5069,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-09-22T20:07:37Z",
+      "updated_at": "2026-09-29T08:00:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "count": 4,
@@ -5162,7 +5162,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T07:44:31Z",
+    "since": "2026-07-01T08:12:15Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7874,8 +7874,16 @@
       },
       {
         "login": "st3penta",
-        "reviews": 77,
+        "reviews": 78,
         "prs": [
+          {
+            "title": "Add DevConf.US 2026 talk to resources and blog",
+            "url": "https://github.com/conforma/conforma.github.io/pull/577",
+            "repo": "conforma/conforma.github.io",
+            "number": 577,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-29T08:06:48Z"
+          },
           {
             "title": "Pin conforma tekton task to digest",
             "url": "https://github.com/conforma/cli/pull/3491",
