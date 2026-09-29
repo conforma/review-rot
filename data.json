@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T22:11:28.754761902Z",
+  "generated_at": "2026-09-29T22:40:08.728581115Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -941,7 +941,7 @@
       ]
     },
     {
-      "title": "Add opt-in violation grace period helper",
+      "title": "Grandfather pre-cutoff builds across trusted task checks",
       "url": "https://github.com/conforma/policy/pull/1862",
       "number": 1862,
       "repo": "conforma/policy",
@@ -950,11 +950,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-29T20:19:26Z",
-      "updated_at": "2026-09-29T21:24:49Z",
+      "updated_at": "2026-09-29T22:32:55Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": "L",
+      "size": "XL",
       "reviews": {
         "count": 0,
         "approved_count": 0,
@@ -962,7 +962,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: L"
+        "size: XL"
       ]
     },
     {
@@ -5028,7 +5028,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T22:08:19Z",
+    "since": "2026-07-01T22:37:18Z",
     "reviewers": [
       {
         "login": "simonbaird",
