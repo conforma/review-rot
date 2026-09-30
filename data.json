@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T11:40:06.496394792Z",
+  "generated_at": "2026-09-30T12:16:04.896416303Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -196,7 +196,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-30T10:46:07Z",
+      "updated_at": "2026-09-30T12:01:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -537,33 +537,6 @@
       ]
     },
     {
-      "title": "docs(#1797): add product and tool name casing conventions",
-      "url": "https://github.com/conforma/policy/pull/1798",
-      "number": 1798,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "fullsend-ai-coder",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
-      },
-      "created_at": "2026-08-07T20:08:27Z",
-      "updated_at": "2026-08-07T20:23:23Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "documentation",
-        "size: XS",
-        "requires-manual-review"
-      ]
-    },
-    {
       "title": "docs(#1799): add CycloneDX/SPDX parity checklist item",
       "url": "https://github.com/conforma/policy/pull/1800",
       "number": 1800,
@@ -722,33 +695,6 @@
         "size: XL",
         "ready-for-merge",
         "feature"
-      ]
-    },
-    {
-      "title": "docs(#1818): add opt-in/fail-closed exception to effective_on guidance",
-      "url": "https://github.com/conforma/policy/pull/1819",
-      "number": 1819,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "fullsend-ai-coder",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
-      },
-      "created_at": "2026-08-20T07:49:25Z",
-      "updated_at": "2026-08-21T16:03:43Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "documentation",
-        "size: XS",
-        "requires-manual-review"
       ]
     },
     {
@@ -948,10 +894,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-30T02:31:43Z",
-      "updated_at": "2026-09-30T10:46:49Z",
+      "updated_at": "2026-09-30T12:10:34Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 1,
@@ -3272,6 +3218,31 @@
       ]
     },
     {
+      "title": "fix: pin compatible Fullsend workflows",
+      "url": "https://github.com/conforma/cli/pull/3592",
+      "number": 3592,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-09-30T11:55:10Z",
+      "updated_at": "2026-09-30T12:09:22Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -4997,7 +4968,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T11:37:10Z",
+    "since": "2026-07-02T12:13:03Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8347,8 +8318,16 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 69,
+        "reviews": 70,
         "prs": [
+          {
+            "title": "docs(#1797): add product and tool name casing conventions",
+            "url": "https://github.com/conforma/policy/pull/1798",
+            "repo": "conforma/policy",
+            "number": 1798,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-30T12:03:28Z"
+          },
           {
             "title": "test(#3515): increase unit test timeout to 30s",
             "url": "https://github.com/conforma/cli/pull/3576",
@@ -10585,8 +10564,24 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 18,
+        "reviews": 20,
         "prs": [
+          {
+            "title": "docs(#1818): add opt-in/fail-closed exception to effective_on guidance",
+            "url": "https://github.com/conforma/policy/pull/1819",
+            "repo": "conforma/policy",
+            "number": 1819,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-30T11:56:38Z"
+          },
+          {
+            "title": "docs(#1797): add product and tool name casing conventions",
+            "url": "https://github.com/conforma/policy/pull/1798",
+            "repo": "conforma/policy",
+            "number": 1798,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-30T11:41:41Z"
+          },
           {
             "title": "Add Codecov configuration (100% project and patch coverage)",
             "url": "https://github.com/conforma/policy/pull/1840",
