@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T14:13:07.666425915Z",
+  "generated_at": "2026-09-30T14:44:50.96870419Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -856,6 +856,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XL"
+      ]
+    },
+    {
+      "title": "fix: pin compatible Fullsend workflows",
+      "url": "https://github.com/conforma/policy/pull/1864",
+      "number": 1864,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-09-30T14:24:03Z",
+      "updated_at": "2026-09-30T14:28:58Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 1,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -1763,7 +1788,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-09-30T08:46:18Z",
+      "updated_at": "2026-09-30T14:39:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3165,31 +3190,6 @@
       ]
     },
     {
-      "title": "fix: pin compatible Fullsend workflows",
-      "url": "https://github.com/conforma/cli/pull/3592",
-      "number": 3592,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-09-30T11:55:10Z",
-      "updated_at": "2026-09-30T13:54:07Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 2,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -3351,6 +3351,31 @@
       "labels": [
         "size: XS",
         "risk/moderate"
+      ]
+    },
+    {
+      "title": "fix: pin compatible Fullsend workflows",
+      "url": "https://github.com/conforma/conforma.github.io/pull/579",
+      "number": 579,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-09-30T14:24:11Z",
+      "updated_at": "2026-09-30T14:28:27Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 1,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
       ]
     },
     {
@@ -3686,6 +3711,31 @@
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "fix: pin compatible Fullsend workflows",
+      "url": "https://github.com/conforma/user-guide/pull/265",
+      "number": 265,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-09-30T14:24:07Z",
+      "updated_at": "2026-09-30T14:28:11Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 1,
+        "approved_count": 1,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
       "labels": [
         "size: XS"
       ]
@@ -4610,31 +4660,6 @@
       "labels": []
     },
     {
-      "title": "fix(EC-1994): bump conforma.workerCount fallback default from 4 to 5",
-      "url": "https://github.com/konflux-ci/release-service-catalog/pull/2463",
-      "number": 2463,
-      "repo": "konflux-ci/release-service-catalog",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-09-30T07:16:05Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "count": 5,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "prod/approved"
-      ]
-    },
-    {
       "title": "chore(EC-2070): retire trusted task updates",
       "url": "https://github.com/konflux-ci/release-service-catalog/pull/2581",
       "number": 2581,
@@ -4686,7 +4711,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T14:09:48Z",
+    "since": "2026-07-02T14:41:23Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -4698,7 +4723,7 @@
             "repo": "conforma/cli",
             "number": 3592,
             "author": "jsmid1",
-            "engaged_at": "2026-09-30T13:54:06Z"
+            "engaged_at": "2026-09-30T14:23:53Z"
           },
           {
             "title": "Integrate golden RPM validation to acceptance tests",
@@ -7422,8 +7447,40 @@
       },
       {
         "login": "st3penta",
-        "reviews": 85,
+        "reviews": 89,
         "prs": [
+          {
+            "title": "fix: pin compatible Fullsend workflows",
+            "url": "https://github.com/conforma/policy/pull/1864",
+            "repo": "conforma/policy",
+            "number": 1864,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T14:28:47Z"
+          },
+          {
+            "title": "fix: pin compatible Fullsend workflows",
+            "url": "https://github.com/conforma/conforma.github.io/pull/579",
+            "repo": "conforma/conforma.github.io",
+            "number": 579,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T14:28:27Z"
+          },
+          {
+            "title": "fix: pin compatible Fullsend workflows",
+            "url": "https://github.com/conforma/user-guide/pull/265",
+            "repo": "conforma/user-guide",
+            "number": 265,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T14:28:10Z"
+          },
+          {
+            "title": "fix: pin compatible Fullsend workflows",
+            "url": "https://github.com/conforma/cli/pull/3592",
+            "repo": "conforma/cli",
+            "number": 3592,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T14:18:24Z"
+          },
           {
             "title": "chore(EC-2153): remove RH-specific policy digest defaults",
             "url": "https://github.com/conforma/cli/pull/3573",
@@ -9702,7 +9759,7 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 46,
+        "reviews": 45,
         "prs": [
           {
             "title": "chore(EC-2153): inject policy digest into released tasks",
@@ -9719,14 +9776,6 @@
             "number": 3573,
             "author": "jsmid1",
             "engaged_at": "2026-09-30T13:49:17Z"
-          },
-          {
-            "title": "fix: pin compatible Fullsend workflows",
-            "url": "https://github.com/conforma/cli/pull/3592",
-            "repo": "conforma/cli",
-            "number": 3592,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-30T13:00:46Z"
           },
           {
             "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
