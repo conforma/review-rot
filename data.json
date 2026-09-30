@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T06:57:38.143038518Z",
+  "generated_at": "2026-09-30T07:18:16.586406781Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3985,33 +3985,6 @@
       "labels": []
     },
     {
-      "title": "Update github/codeql-action action to v4.38.2 (main)",
-      "url": "https://github.com/conforma/hacks/pull/221",
-      "number": 221,
-      "repo": "conforma/hacks",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-30T03:17:23Z",
-      "updated_at": "2026-09-30T03:18:55Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "chore: sync task and pipeline definitions to release-v0.7",
       "url": "https://github.com/conforma/tekton-catalog/pull/262",
       "number": 262,
@@ -5190,7 +5163,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T06:54:53Z",
+    "since": "2026-07-02T07:15:31Z",
     "reviewers": [
       {
         "login": "simonbaird",
