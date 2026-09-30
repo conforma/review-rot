@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T23:38:11.890911738Z",
+  "generated_at": "2026-09-30T00:25:14.771908315Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1259,7 +1259,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-29T19:44:04Z",
+      "updated_at": "2026-09-29T23:42:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1418,7 +1418,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-09-29T19:48:16Z",
+      "updated_at": "2026-09-29T23:43:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -3881,6 +3881,33 @@
       ]
     },
     {
+      "title": "Update github/codeql-action action to v4.38.2 (main)",
+      "url": "https://github.com/conforma/user-guide/pull/264",
+      "number": 264,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-30T00:02:38Z",
+      "updated_at": "2026-09-30T00:03:50Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Scripts to create and test fetching attestations",
       "url": "https://github.com/conforma/hacks/pull/162",
       "number": 162,
@@ -3925,6 +3952,60 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.2 (main)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/277",
+      "number": 277,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-30T00:15:38Z",
+      "updated_at": "2026-09-30T00:17:19Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.2 (release-v0.7)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/278",
+      "number": 278,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-30T00:15:49Z",
+      "updated_at": "2026-09-30T00:15:57Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "release-v0.7",
+        "size: XS"
+      ]
     },
     {
       "title": "Update npm dependencies (main) (minor)",
@@ -4353,6 +4434,33 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.2 (main)",
+      "url": "https://github.com/conforma/.github/pull/94",
+      "number": 94,
+      "repo": "conforma/.github",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-30T00:13:55Z",
+      "updated_at": "2026-09-30T00:16:13Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
     },
     {
       "title": "Update go modules (main) (minor)",
@@ -4961,7 +5069,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-08-13T15:17:24Z",
-      "updated_at": "2026-09-29T20:35:08Z",
+      "updated_at": "2026-09-29T23:42:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5028,7 +5136,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-01T23:35:09Z",
+    "since": "2026-07-02T00:22:20Z",
     "reviewers": [
       {
         "login": "simonbaird",
