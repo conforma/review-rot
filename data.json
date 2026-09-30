@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T13:15:35.419624967Z",
+  "generated_at": "2026-09-30T13:42:35.061259918Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3174,14 +3174,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-30T11:55:10Z",
-      "updated_at": "2026-09-30T13:00:46Z",
+      "updated_at": "2026-09-30T13:13:11Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 2,
+        "approved_count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3519,15 +3519,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-08-18T13:29:35Z",
-      "updated_at": "2026-09-29T13:05:22Z",
+      "updated_at": "2026-09-30T13:15:37Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
-        "count": 3,
-        "approved_count": 0,
-        "has_new_commits": true
+        "count": 4,
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -3594,14 +3594,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-17T13:09:46Z",
-      "updated_at": "2026-09-23T09:57:08Z",
+      "updated_at": "2026-09-30T13:33:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4138,29 +4138,6 @@
       "labels": []
     },
     {
-      "title": "fix: use pinned sha for label-pr-size",
-      "url": "https://github.com/conforma/go-containerregistry/pull/25",
-      "number": 25,
-      "repo": "conforma/go-containerregistry",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-09-30T13:08:21Z",
-      "updated_at": "2026-09-30T13:10:20Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -4276,169 +4253,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-30T11:34:04Z",
-      "updated_at": "2026-09-30T11:34:16Z",
+      "updated_at": "2026-09-30T13:37:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "size: M"
-      ]
-    },
-    {
-      "title": "Update actions/checkout action to v6.0.3",
-      "url": "https://github.com/conforma/golden-rpm/pull/8",
-      "number": 8,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-06-18T14:24:28Z",
-      "updated_at": "2026-07-20T18:39:34Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update actions/upload-artifact action to v7.0.1",
-      "url": "https://github.com/conforma/golden-rpm/pull/9",
-      "number": 9,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-06-18T14:24:35Z",
-      "updated_at": "2026-06-25T22:28:02Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update conforma/pr-size-label-action action to v1.2.0",
-      "url": "https://github.com/conforma/golden-rpm/pull/10",
-      "number": 10,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-06-18T19:23:27Z",
-      "updated_at": "2026-06-25T22:28:04Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.37.1",
-      "url": "https://github.com/conforma/golden-rpm/pull/11",
-      "number": 11,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-06-18T19:23:34Z",
-      "updated_at": "2026-07-19T17:17:12Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update step-security/harden-runner action to v2.20.0",
-      "url": "https://github.com/conforma/golden-rpm/pull/12",
-      "number": 12,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-06-18T22:30:54Z",
-      "updated_at": "2026-07-10T09:31:40Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update actions/checkout action to v7",
-      "url": "https://github.com/conforma/golden-rpm/pull/13",
-      "number": 13,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-06-20T18:33:11Z",
-      "updated_at": "2026-07-20T21:29:45Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
       ]
     },
     {
@@ -4859,12 +4686,28 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T13:12:35Z",
+    "since": "2026-07-02T13:39:17Z",
     "reviewers": [
       {
         "login": "robnester-rh",
-        "reviews": 169,
+        "reviews": 171,
         "prs": [
+          {
+            "title": "Integrate golden RPM validation to acceptance tests",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/226",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 226,
+            "author": "Acepresso",
+            "engaged_at": "2026-09-30T13:15:37Z"
+          },
+          {
+            "title": "fix: pin compatible Fullsend workflows",
+            "url": "https://github.com/conforma/cli/pull/3592",
+            "repo": "conforma/cli",
+            "number": 3592,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T13:13:10Z"
+          },
           {
             "title": "docs(#1827): document input.image contract in AGENTS.md",
             "url": "https://github.com/conforma/policy/pull/1828",
@@ -7579,8 +7422,24 @@
       },
       {
         "login": "st3penta",
-        "reviews": 82,
+        "reviews": 84,
         "prs": [
+          {
+            "title": "feat(EC-2226): publish StepAction bundle",
+            "url": "https://github.com/conforma/step-actions/pull/17",
+            "repo": "conforma/step-actions",
+            "number": 17,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T13:37:55Z"
+          },
+          {
+            "title": "chore(EC-2153): inject policy digest into released tasks",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/236",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 236,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T13:33:59Z"
+          },
           {
             "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
             "url": "https://github.com/conforma/cli/pull/3575",
@@ -8823,7 +8682,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 65,
+        "reviews": 64,
         "prs": [
           {
             "title": "Replace quay.io/konflux-ci/konflux-vanguard/task-rpms-signature-scan Docker tag with quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan 0.2 (main)",
@@ -9336,14 +9195,6 @@
             "number": 218,
             "author": "simonbaird",
             "engaged_at": "2026-07-07T14:31:26Z"
-          },
-          {
-            "title": "fix: use REST API for PR creation on forked repo",
-            "url": "https://github.com/conforma/go-containerregistry/pull/10",
-            "repo": "conforma/go-containerregistry",
-            "number": 10,
-            "author": "robnester-rh",
-            "engaged_at": "2026-07-02T13:37:36Z"
           }
         ]
       },
