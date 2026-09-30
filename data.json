@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:16:04.896416303Z",
+  "generated_at": "2026-09-30T12:28:20.62675597Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -196,7 +196,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-09-30T12:01:35Z",
+      "updated_at": "2026-09-30T12:14:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -882,33 +882,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XL"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.38.2 (main)",
-      "url": "https://github.com/conforma/policy/pull/1863",
-      "number": 1863,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-30T02:31:43Z",
-      "updated_at": "2026-09-30T12:10:34Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS"
       ]
     },
     {
@@ -3144,14 +3117,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-24T01:58:31Z",
-      "updated_at": "2026-09-29T02:11:29Z",
+      "updated_at": "2026-09-30T12:22:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3434,33 +3407,6 @@
       ]
     },
     {
-      "title": "Update github/codeql-action action to v4.38.2 (main)",
-      "url": "https://github.com/conforma/golden-container/pull/1520",
-      "number": 1520,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-09-30T02:08:39Z",
-      "updated_at": "2026-09-30T08:32:29Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
       "url": "https://github.com/conforma/review-rot/pull/246",
       "number": 246,
@@ -3535,33 +3481,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XXL"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.38.2 (main)",
-      "url": "https://github.com/conforma/review-rot/pull/266",
-      "number": 266,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-30T03:50:17Z",
-      "updated_at": "2026-09-30T08:33:08Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
       ]
     },
     {
@@ -4358,14 +4277,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-14T01:04:12Z",
-      "updated_at": "2026-09-25T03:58:38Z",
+      "updated_at": "2026-09-30T12:24:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4968,7 +4887,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T12:13:03Z",
+    "since": "2026-07-02T12:25:22Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -10564,8 +10483,48 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 20,
+        "reviews": 25,
         "prs": [
+          {
+            "title": "🚨 Update npm dependencies (main) (major)",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/16",
+            "repo": "conforma/pr-size-label-action",
+            "number": 16,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T12:24:05Z"
+          },
+          {
+            "title": "Update jlumbroso/free-disk-space action to v1.3.2 (main)",
+            "url": "https://github.com/conforma/cli/pull/3584",
+            "repo": "conforma/cli",
+            "number": 3584,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-30T12:22:46Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.2 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1520",
+            "repo": "conforma/golden-container",
+            "number": 1520,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-30T12:20:26Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.2 (main)",
+            "url": "https://github.com/conforma/review-rot/pull/266",
+            "repo": "conforma/review-rot",
+            "number": 266,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T12:19:57Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.2 (main)",
+            "url": "https://github.com/conforma/policy/pull/1863",
+            "repo": "conforma/policy",
+            "number": 1863,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T12:19:14Z"
+          },
           {
             "title": "docs(#1818): add opt-in/fail-closed exception to effective_on guidance",
             "url": "https://github.com/conforma/policy/pull/1819",
