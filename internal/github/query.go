@@ -51,7 +51,6 @@ type prNode struct {
 	Commits struct {
 		Nodes []struct {
 			Commit struct {
-				CommittedDate     time.Time
 				StatusCheckRollup *struct {
 					State string
 				}
@@ -61,6 +60,7 @@ type prNode struct {
 
 	Reviews struct {
 		Nodes []struct {
+			ID     string
 			Author struct {
 				TypeName string `graphql:"__typename"`
 				Login    string
@@ -70,17 +70,7 @@ type prNode struct {
 			}
 			State string
 		}
-	} `graphql:"reviews(last: 100, states: [APPROVED, CHANGES_REQUESTED, COMMENTED])"`
-
-	Comments struct {
-		Nodes []struct {
-			Author struct {
-				TypeName string `graphql:"__typename"`
-				Login    string
-			} `graphql:"author"`
-			CreatedAt time.Time
-		}
-	} `graphql:"comments(last: 100)"`
+	} `graphql:"reviews(last: 100, states: [APPROVED, CHANGES_REQUESTED, DISMISSED])"`
 
 	ReviewThreads struct {
 		Nodes []struct {
@@ -145,8 +135,9 @@ func transformPR(node prNode, repo string) model.PullRequest {
 
 	pr.CIStatus = extractCIStatus(node)
 	pr.Size = extractSize(node)
-	pr.Reviews = extractReviews(node)
-	pr.UnresolvedConversations = countUnresolved(node)
+	reviews, changeRequests := extractReviews(node)
+	pr.Reviews = reviews
+	pr.UnresolvedConversations = countUnresolved(node) + changeRequests
 	pr.Labels = extractLabels(node)
 
 	return pr
@@ -174,49 +165,64 @@ func extractSize(node prNode) *string {
 	return nil
 }
 
-func extractReviews(node prNode) model.Reviews {
-	var r model.Reviews
-	var lastHumanReviewOID string
-	seen := make(map[string]struct{})
-	// Nodes are oldest-first, so the last state per author wins.
-	latestState := make(map[string]string)
+func extractReviews(node prNode) (model.Reviews, int) {
+	r := model.Reviews{}
+	type reviewerState struct {
+		approvedOnHead bool
+		requests       int
+		requestsOnHead bool
+	}
+	reviewers := make(map[string]*reviewerState)
+	// A dismissal affects only its review ID, even if another review by the
+	// same author is still requesting changes.
+	dismissed := make(map[string]struct{})
 	for _, review := range node.Reviews.Nodes {
-		if isBotLogin(review.Author.Login, review.Author.TypeName) {
-			continue
-		}
-		if review.Author.Login == node.Author.Login {
-			continue
-		}
-		seen[review.Author.Login] = struct{}{}
-		latestState[review.Author.Login] = review.State
-		lastHumanReviewOID = review.Commit.OID
-	}
-	var lastHumanCommentAt time.Time
-	for _, comment := range node.Comments.Nodes {
-		if isBotLogin(comment.Author.Login, comment.Author.TypeName) {
-			continue
-		}
-		if comment.Author.Login == node.Author.Login {
-			continue
-		}
-		seen[comment.Author.Login] = struct{}{}
-		if comment.CreatedAt.After(lastHumanCommentAt) {
-			lastHumanCommentAt = comment.CreatedAt
+		if review.State == "DISMISSED" && review.ID != "" {
+			dismissed[review.ID] = struct{}{}
 		}
 	}
-	r.Count = len(seen)
-	for _, state := range latestState {
-		if state == "APPROVED" {
+	// Review nodes are oldest-first; later approvals clear earlier requests.
+	for _, review := range node.Reviews.Nodes {
+		if _, isDismissed := dismissed[review.ID]; isDismissed {
+			continue
+		}
+		if review.Author.TypeName != "User" || review.Author.Login == "" ||
+			isBotLogin(review.Author.Login, review.Author.TypeName) ||
+			strings.EqualFold(review.Author.Login, node.Author.Login) {
+			continue
+		}
+		login := strings.ToLower(review.Author.Login)
+		if review.State != "APPROVED" && review.State != "CHANGES_REQUESTED" {
+			continue
+		}
+		status := reviewers[login]
+		if status == nil {
+			status = &reviewerState{}
+			reviewers[login] = status
+		}
+		onHead := node.HeadRefOid != "" && review.Commit.OID == node.HeadRefOid
+		if onHead {
+			status.approvedOnHead = review.State == "APPROVED"
+		}
+		if review.State == "APPROVED" {
+			status.requests = 0
+			status.requestsOnHead = false
+		} else {
+			status.requests++
+			status.requestsOnHead = status.requestsOnHead || onHead
+		}
+	}
+	var outstandingRequests int
+	for _, status := range reviewers {
+		if status.approvedOnHead {
 			r.ApprovedCount++
 		}
+		outstandingRequests += status.requests
+		if status.requestsOnHead {
+			r.OutstandingChangeRequestsOnHead = true
+		}
 	}
-	if r.Count > 0 {
-		reviewCoversHead := lastHumanReviewOID == node.HeadRefOid
-		commentCoversHead := !lastHumanCommentAt.IsZero() && len(node.Commits.Nodes) > 0 &&
-			!lastHumanCommentAt.Before(node.Commits.Nodes[0].Commit.CommittedDate)
-		r.HasNewCommits = !reviewCoversHead && !commentCoversHead
-	}
-	return r
+	return r, outstandingRequests
 }
 
 // isBotLogin reports whether an account belongs to a bot. GitHub App bots carry
