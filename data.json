@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:14:21.397622159Z",
+  "generated_at": "2026-09-30T08:48:42.942756761Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -914,33 +914,6 @@
       ]
     },
     {
-      "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
-      "url": "https://github.com/conforma/policy/pull/1860",
-      "number": 1860,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-26T00:29:02Z",
-      "updated_at": "2026-09-26T06:03:30Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Grandfather pre-cutoff builds across trusted task checks",
       "url": "https://github.com/conforma/policy/pull/1862",
       "number": 1862,
@@ -975,14 +948,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-30T02:31:43Z",
-      "updated_at": "2026-09-30T02:35:04Z",
+      "updated_at": "2026-09-30T08:32:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -1286,7 +1259,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-30T01:39:13Z",
+      "updated_at": "2026-09-30T08:30:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1478,7 +1451,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-09-30T01:39:48Z",
+      "updated_at": "2026-09-30T08:31:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1897,7 +1870,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-09-28T13:58:15Z",
+      "updated_at": "2026-09-30T08:31:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1928,7 +1901,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-09-28T13:58:22Z",
+      "updated_at": "2026-09-30T08:30:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1938,7 +1911,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 50,
+      "unresolved_conversations": 51,
       "labels": [
         "dependencies",
         "go",
@@ -2022,7 +1995,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-09-28T14:03:14Z",
+      "updated_at": "2026-09-30T08:34:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2290,7 +2263,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-09-28T14:03:58Z",
+      "updated_at": "2026-09-30T08:38:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3080,35 +3053,6 @@
       ]
     },
     {
-      "title": "Pin dependencies (main)",
-      "url": "https://github.com/conforma/cli/pull/3572",
-      "number": 3572,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-09-17T03:26:55Z",
-      "updated_at": "2026-09-30T02:50:18Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "chore(EC-2153): remove RH-specific policy digest defaults",
       "url": "https://github.com/conforma/cli/pull/3573",
       "number": 3573,
@@ -3492,33 +3436,6 @@
       ]
     },
     {
-      "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
-      "url": "https://github.com/conforma/conforma.github.io/pull/575",
-      "number": 575,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-26T01:01:23Z",
-      "updated_at": "2026-09-30T05:40:19Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update Konflux references (main) (patch)",
       "url": "https://github.com/conforma/golden-container/pull/1510",
       "number": 1510,
@@ -3555,14 +3472,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-30T02:08:39Z",
-      "updated_at": "2026-09-30T02:09:56Z",
+      "updated_at": "2026-09-30T08:32:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3659,14 +3576,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-30T03:50:17Z",
-      "updated_at": "2026-09-30T03:52:30Z",
+      "updated_at": "2026-09-30T08:33:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3935,33 +3852,6 @@
       ]
     },
     {
-      "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
-      "url": "https://github.com/conforma/user-guide/pull/262",
-      "number": 262,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-26T01:37:48Z",
-      "updated_at": "2026-09-30T02:10:56Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Scripts to create and test fetching attestations",
       "url": "https://github.com/conforma/hacks/pull/162",
       "number": 162,
@@ -4006,33 +3896,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "Update github/codeql-action action to v4.38.2 (main)",
-      "url": "https://github.com/conforma/config/pull/244",
-      "number": 244,
-      "repo": "conforma/config",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-30T01:42:23Z",
-      "updated_at": "2026-09-30T08:05:03Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
     },
     {
       "title": "Update npm dependencies (main) (minor)",
@@ -5136,7 +4999,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T08:11:28Z",
+    "since": "2026-07-02T08:45:55Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7840,8 +7703,40 @@
       },
       {
         "login": "st3penta",
-        "reviews": 76,
+        "reviews": 80,
         "prs": [
+          {
+            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+            "url": "https://github.com/conforma/conforma.github.io/pull/575",
+            "repo": "conforma/conforma.github.io",
+            "number": 575,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:26:18Z"
+          },
+          {
+            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+            "url": "https://github.com/conforma/user-guide/pull/262",
+            "repo": "conforma/user-guide",
+            "number": 262,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:26:10Z"
+          },
+          {
+            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+            "url": "https://github.com/conforma/policy/pull/1860",
+            "repo": "conforma/policy",
+            "number": 1860,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:26:00Z"
+          },
+          {
+            "title": "Pin dependencies (main)",
+            "url": "https://github.com/conforma/cli/pull/3572",
+            "repo": "conforma/cli",
+            "number": 3572,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-30T08:25:17Z"
+          },
           {
             "title": "Pin conforma tekton task to digest",
             "url": "https://github.com/conforma/cli/pull/3491",
@@ -8454,8 +8349,32 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 66,
+        "reviews": 69,
         "prs": [
+          {
+            "title": "Update github/codeql-action action to v4.38.2 (main)",
+            "url": "https://github.com/conforma/review-rot/pull/266",
+            "repo": "conforma/review-rot",
+            "number": 266,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:33:08Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.2 (main)",
+            "url": "https://github.com/conforma/policy/pull/1863",
+            "repo": "conforma/policy",
+            "number": 1863,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:32:44Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.2 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1520",
+            "repo": "conforma/golden-container",
+            "number": 1520,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-30T08:32:29Z"
+          },
           {
             "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
             "url": "https://github.com/conforma/user-guide/pull/262",
