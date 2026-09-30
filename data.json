@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T01:18:10.687091632Z",
+  "generated_at": "2026-09-30T01:57:23.284576086Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1259,7 +1259,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-09-29T23:42:34Z",
+      "updated_at": "2026-09-30T01:39:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1291,7 +1291,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-09-29T19:47:14Z",
+      "updated_at": "2026-09-30T01:39:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1451,7 +1451,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-09-29T19:40:40Z",
+      "updated_at": "2026-09-30T01:39:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4035,6 +4035,33 @@
       ]
     },
     {
+      "title": "Update github/codeql-action action to v4.38.2 (main)",
+      "url": "https://github.com/conforma/config/pull/244",
+      "number": 244,
+      "repo": "conforma/config",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-30T01:42:23Z",
+      "updated_at": "2026-09-30T01:43:52Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/policy-builder/pull/43",
       "number": 43,
@@ -4499,7 +4526,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-09-29T13:42:26Z",
+      "updated_at": "2026-09-30T01:52:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4540,6 +4567,32 @@
         "main",
         "renovate",
         "major"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.2 (main)",
+      "url": "https://github.com/conforma/crds/pull/39",
+      "number": 39,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-30T01:52:47Z",
+      "updated_at": "2026-09-30T01:53:22Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
       ]
     },
     {
@@ -5069,6 +5122,33 @@
       ]
     },
     {
+      "title": "Update github/codeql-action action to v4.38.2 (main)",
+      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/784",
+      "number": 784,
+      "repo": "enterprise-contract/enterprise-contract-controller",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-09-30T01:50:03Z",
+      "updated_at": "2026-09-30T01:53:07Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 1,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Decommision the acceptable bundles update/push CI",
       "url": "https://github.com/konflux-ci/build-definitions/pull/3834",
       "number": 3834,
@@ -5217,7 +5297,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-02T01:15:30Z",
+    "since": "2026-07-02T01:54:20Z",
     "reviewers": [
       {
         "login": "simonbaird",
