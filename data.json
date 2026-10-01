@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T08:14:46.452030836Z",
+  "generated_at": "2026-10-01T08:49:44.176750088Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3007,7 +3007,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-22T09:02:59Z",
-      "updated_at": "2026-09-30T11:35:23Z",
+      "updated_at": "2026-10-01T08:30:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3223,7 +3223,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-09-30T05:38:32Z",
+      "updated_at": "2026-10-01T08:14:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3252,7 +3252,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-09-30T00:35:13Z",
+      "updated_at": "2026-10-01T08:14:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4739,7 +4739,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T08:11:34Z",
+    "since": "2026-07-03T08:46:37Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8220,6 +8220,14 @@
         "reviews": 72,
         "prs": [
           {
+            "title": "test(#3515): increase unit test timeout to 30s",
+            "url": "https://github.com/conforma/cli/pull/3576",
+            "repo": "conforma/cli",
+            "number": 3576,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-10-01T08:28:30Z"
+          },
+          {
             "title": "fix: use pinned sha for label-pr-size",
             "url": "https://github.com/conforma/go-containerregistry/pull/25",
             "repo": "conforma/go-containerregistry",
@@ -8242,14 +8250,6 @@
             "number": 1798,
             "author": "fullsend-ai-coder",
             "engaged_at": "2026-09-30T12:03:28Z"
-          },
-          {
-            "title": "test(#3515): increase unit test timeout to 30s",
-            "url": "https://github.com/conforma/cli/pull/3576",
-            "repo": "conforma/cli",
-            "number": 3576,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-30T11:35:23Z"
           },
           {
             "title": "Update github/codeql-action action to v4.38.2 (main)",
