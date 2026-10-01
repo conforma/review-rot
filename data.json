@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T11:10:41.751072648Z",
+  "generated_at": "2026-10-01T11:41:07.714488096Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1788,7 +1788,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-10-01T10:04:49Z",
+      "updated_at": "2026-10-01T11:36:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2979,7 +2979,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-22T09:00:20Z",
-      "updated_at": "2026-09-30T13:04:54Z",
+      "updated_at": "2026-10-01T11:36:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2989,39 +2989,11 @@
         "approved_count": 2,
         "has_new_commits": false
       },
-      "unresolved_conversations": 6,
+      "unresolved_conversations": 5,
       "labels": [
         "size: M",
         "requires-manual-review",
         "risk/low",
-        "ready-for-review"
-      ]
-    },
-    {
-      "title": "test(#3515): increase unit test timeout to 30s",
-      "url": "https://github.com/conforma/cli/pull/3576",
-      "number": 3576,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "fullsend-ai-coder",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
-      },
-      "created_at": "2026-09-22T09:02:59Z",
-      "updated_at": "2026-10-01T10:23:17Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "count": 2,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate",
         "ready-for-review"
       ]
     },
@@ -4714,7 +4686,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T11:07:49Z",
+    "since": "2026-07-03T11:38:11Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8195,6 +8167,14 @@
         "reviews": 72,
         "prs": [
           {
+            "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
+            "url": "https://github.com/conforma/cli/pull/3575",
+            "repo": "conforma/cli",
+            "number": 3575,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-10-01T11:36:33Z"
+          },
+          {
             "title": "test(#3515): increase unit test timeout to 30s",
             "url": "https://github.com/conforma/cli/pull/3576",
             "repo": "conforma/cli",
@@ -8321,14 +8301,6 @@
             "number": 1508,
             "author": "red-hat-konflux",
             "engaged_at": "2026-09-29T08:53:30Z"
-          },
-          {
-            "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
-            "url": "https://github.com/conforma/cli/pull/3575",
-            "repo": "conforma/cli",
-            "number": 3575,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-24T13:17:32Z"
           },
           {
             "title": "Update github/codeql-action action to v4.38.1 (main)",
