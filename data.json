@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:12:15.905066691Z",
+  "generated_at": "2026-10-01T16:42:17.437256952Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3735,6 +3735,31 @@
       "labels": []
     },
     {
+      "title": "ci: add actionlint workflow",
+      "url": "https://github.com/conforma/github-workflows/pull/10",
+      "number": 10,
+      "repo": "conforma/github-workflows",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-10-01T16:37:15Z",
+      "updated_at": "2026-10-01T16:37:56Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/policy-builder/pull/43",
       "number": 43,
@@ -4134,6 +4159,31 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "ci: add actionlint workflow",
+      "url": "https://github.com/conforma/.github/pull/95",
+      "number": 95,
+      "repo": "conforma/.github",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-10-01T16:37:11Z",
+      "updated_at": "2026-10-01T16:38:23Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS"
+      ]
     },
     {
       "title": "Update go modules (main) (minor)",
@@ -4605,7 +4655,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T16:08:59Z",
+    "since": "2026-07-03T16:39:09Z",
     "reviewers": [
       {
         "login": "simonbaird",
