@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T18:14:55.936298177Z",
+  "generated_at": "2026-10-01T18:46:59.526661242Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1150,7 +1150,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-01T11:40:32Z",
+      "updated_at": "2026-10-01T18:37:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1182,7 +1182,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-10-01T11:39:43Z",
+      "updated_at": "2026-10-01T18:37:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1342,7 +1342,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-10-01T11:40:32Z",
+      "updated_at": "2026-10-01T18:37:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2394,7 +2394,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-08-11T15:56:16Z",
-      "updated_at": "2026-09-29T08:14:33Z",
+      "updated_at": "2026-10-01T18:28:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3744,7 +3744,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-01T16:37:15Z",
-      "updated_at": "2026-10-01T16:49:26Z",
+      "updated_at": "2026-10-01T18:17:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4170,19 +4170,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-01T16:37:11Z",
-      "updated_at": "2026-10-01T16:52:44Z",
+      "updated_at": "2026-10-01T18:20:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": "XS",
+      "size": "S",
       "reviews": {
         "count": 0,
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
+        "size: S"
       ]
     },
     {
@@ -4275,14 +4275,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-30T11:34:04Z",
-      "updated_at": "2026-09-30T13:37:55Z",
+      "updated_at": "2026-10-01T18:13:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 2,
+        "approved_count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4655,7 +4655,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T18:11:36Z",
+    "since": "2026-07-03T18:43:50Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -6081,8 +6081,24 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 174,
+        "reviews": 175,
         "prs": [
+          {
+            "title": "Pin conforma tekton task to digest",
+            "url": "https://github.com/conforma/cli/pull/3491",
+            "repo": "conforma/cli",
+            "number": 3491,
+            "author": "joejstuart",
+            "engaged_at": "2026-10-01T18:27:53Z"
+          },
+          {
+            "title": "feat(EC-2226): publish StepAction bundle",
+            "url": "https://github.com/conforma/step-actions/pull/17",
+            "repo": "conforma/step-actions",
+            "number": 17,
+            "author": "jsmid1",
+            "engaged_at": "2026-10-01T18:13:53Z"
+          },
           {
             "title": "Lock file maintenance (main)",
             "url": "https://github.com/conforma/cli/pull/3370",
@@ -7346,14 +7362,6 @@
             "number": 249,
             "author": "st3penta",
             "engaged_at": "2026-08-12T12:43:41Z"
-          },
-          {
-            "title": "Pin conforma tekton task to digest",
-            "url": "https://github.com/conforma/cli/pull/3491",
-            "repo": "conforma/cli",
-            "number": 3491,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-12T12:42:41Z"
           },
           {
             "title": "chore(deps): Update ubi-minimal base image (main)",
