@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T14:44:37.032239636Z",
+  "generated_at": "2026-10-01T15:12:33.538777427Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2926,14 +2926,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-21T15:22:22Z",
-      "updated_at": "2026-09-29T08:39:00Z",
+      "updated_at": "2026-10-01T14:47:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "S",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 39,
@@ -4276,15 +4276,15 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-08-25T13:41:38Z",
-      "updated_at": "2026-09-24T13:58:45Z",
+      "updated_at": "2026-10-01T14:43:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 1,
-        "approved_count": 0,
-        "has_new_commits": true
+        "count": 2,
+        "approved_count": 1,
+        "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
@@ -4659,7 +4659,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T14:41:04Z",
+    "since": "2026-07-03T15:09:12Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7419,8 +7419,24 @@
       },
       {
         "login": "st3penta",
-        "reviews": 90,
+        "reviews": 92,
         "prs": [
+          {
+            "title": "test: run ITS pipeline e2e checks on pull requests",
+            "url": "https://github.com/conforma/cli/pull/3574",
+            "repo": "conforma/cli",
+            "number": 3574,
+            "author": "dheerajodha",
+            "engaged_at": "2026-10-01T14:47:23Z"
+          },
+          {
+            "title": "feat: add e2e test coverage for the ITS pipeline",
+            "url": "https://github.com/conforma/e2e-tests/pull/12",
+            "repo": "conforma/e2e-tests",
+            "number": 12,
+            "author": "dheerajodha",
+            "engaged_at": "2026-10-01T14:43:12Z"
+          },
           {
             "title": "fix: pin Fullsend with OpenShell 0.1.2",
             "url": "https://github.com/conforma/cli/pull/3595",
