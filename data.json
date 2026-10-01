@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T05:42:00.948554902Z",
+  "generated_at": "2026-10-01T06:17:30.776269978Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4462,7 +4462,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-09-29T20:10:45Z",
+      "updated_at": "2026-10-01T05:57:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4489,7 +4489,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-28T02:09:34Z",
-      "updated_at": "2026-09-23T20:07:49Z",
+      "updated_at": "2026-10-01T05:57:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4544,7 +4544,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-09-30T08:04:58Z",
+      "updated_at": "2026-10-01T05:56:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4589,7 +4589,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.1 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.0 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/755",
       "number": 755,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -4598,7 +4598,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:47:23Z",
-      "updated_at": "2026-09-25T01:33:44Z",
+      "updated_at": "2026-10-01T05:56:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4739,7 +4739,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T05:39:26Z",
+    "since": "2026-07-03T06:14:25Z",
     "reviewers": [
       {
         "login": "simonbaird",
