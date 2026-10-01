@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T02:02:11.843487569Z",
+  "generated_at": "2026-10-01T02:41:46.178059902Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1095,7 +1095,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-09-30T02:47:03Z",
+      "updated_at": "2026-10-01T02:34:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1112,7 +1112,7 @@
         "renovate",
         "main",
         "size: XXL",
-        "risk/elevated"
+        "risk/moderate"
       ]
     },
     {
@@ -1851,7 +1851,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-09-29T01:43:52Z",
+      "updated_at": "2026-10-01T02:27:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1861,7 +1861,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": [
         "dependencies",
         "go",
@@ -1882,10 +1882,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-09-29T01:58:55Z",
+      "updated_at": "2026-10-01T02:35:08Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -2005,7 +2005,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-09-29T01:44:00Z",
+      "updated_at": "2026-10-01T02:36:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2037,10 +2037,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-29T01:22:52Z",
-      "updated_at": "2026-09-29T01:58:40Z",
+      "updated_at": "2026-10-01T02:32:08Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "count": 0,
@@ -2502,7 +2502,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-20T02:43:52Z",
-      "updated_at": "2026-09-24T01:58:58Z",
+      "updated_at": "2026-10-01T02:35:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3061,10 +3061,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-24T01:58:31Z",
-      "updated_at": "2026-09-30T12:22:46Z",
+      "updated_at": "2026-10-01T02:37:27Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "count": 1,
@@ -3130,6 +3130,35 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XL",
+        "requires-manual-review",
+        "risk/moderate"
+      ]
+    },
+    {
+      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 1d7c551 (main)",
+      "url": "https://github.com/conforma/cli/pull/3593",
+      "number": 3593,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-10-01T02:19:14Z",
+      "updated_at": "2026-10-01T02:36:56Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS",
         "requires-manual-review",
         "risk/moderate"
       ]
@@ -3348,6 +3377,33 @@
         "main",
         "renovate",
         "size: M"
+      ]
+    },
+    {
+      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 1d7c551 (main)",
+      "url": "https://github.com/conforma/golden-container/pull/1522",
+      "number": 1522,
+      "repo": "conforma/golden-container",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-10-01T02:21:32Z",
+      "updated_at": "2026-10-01T02:23:21Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
       ]
     },
     {
@@ -4656,7 +4712,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T01:59:19Z",
+    "since": "2026-07-03T02:38:49Z",
     "reviewers": [
       {
         "login": "simonbaird",
