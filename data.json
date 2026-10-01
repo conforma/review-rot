@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T15:12:33.538777427Z",
+  "generated_at": "2026-10-01T15:43:18.901937296Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -108,14 +108,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T00:39:19Z",
-      "updated_at": "2026-10-01T14:39:37Z",
+      "updated_at": "2026-10-01T15:37:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 7,
@@ -3542,14 +3542,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-09-16T15:21:30Z",
-      "updated_at": "2026-09-16T22:01:59Z",
+      "updated_at": "2026-10-01T15:10:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3619,10 +3619,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-16T01:36:55Z",
-      "updated_at": "2026-09-24T12:56:24Z",
+      "updated_at": "2026-10-01T15:30:39Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "count": 0,
@@ -4204,8 +4204,8 @@
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4224,14 +4224,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-14T01:04:12Z",
-      "updated_at": "2026-10-01T14:08:31Z",
+      "updated_at": "2026-10-01T15:38:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4328,14 +4328,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-17T02:13:15Z",
-      "updated_at": "2026-10-01T14:18:13Z",
+      "updated_at": "2026-10-01T15:37:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4659,7 +4659,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-03T15:09:12Z",
+    "since": "2026-07-03T15:39:49Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7419,8 +7419,56 @@
       },
       {
         "login": "st3penta",
-        "reviews": 92,
+        "reviews": 98,
         "prs": [
+          {
+            "title": "Lock file maintenance (main)",
+            "url": "https://github.com/conforma/cli/pull/3370",
+            "repo": "conforma/cli",
+            "number": 3370,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-10-01T15:39:31Z"
+          },
+          {
+            "title": "Update npm dependencies (main) (minor)",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/15",
+            "repo": "conforma/pr-size-label-action",
+            "number": 15,
+            "author": "renovate",
+            "engaged_at": "2026-10-01T15:39:02Z"
+          },
+          {
+            "title": "🚨 Update npm dependencies (main) (major)",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/16",
+            "repo": "conforma/pr-size-label-action",
+            "number": 16,
+            "author": "renovate",
+            "engaged_at": "2026-10-01T15:38:21Z"
+          },
+          {
+            "title": "🚨 Update module gopkg.in/yaml.v2 to v3 (main)",
+            "url": "https://github.com/conforma/e2e-tests/pull/23",
+            "repo": "conforma/e2e-tests",
+            "number": 23,
+            "author": "renovate",
+            "engaged_at": "2026-10-01T15:37:55Z"
+          },
+          {
+            "title": "🚨 Update github actions (main) (major)",
+            "url": "https://github.com/conforma/policy/pull/1679",
+            "repo": "conforma/policy",
+            "number": 1679,
+            "author": "renovate",
+            "engaged_at": "2026-10-01T15:37:25Z"
+          },
+          {
+            "title": "feat(changelog): compare policy behavior across releases",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/235",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 235,
+            "author": "joejstuart",
+            "engaged_at": "2026-10-01T15:10:02Z"
+          },
           {
             "title": "test: run ITS pipeline e2e checks on pull requests",
             "url": "https://github.com/conforma/cli/pull/3574",
