@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T14:11:56.890001409Z",
+  "generated_at": "2026-10-02T14:44:34.817352359Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3135,6 +3135,31 @@
       ]
     },
     {
+      "title": "Fix shell interpolation in task reports",
+      "url": "https://github.com/conforma/cli/pull/3596",
+      "number": 3596,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-10-02T14:33:30Z",
+      "updated_at": "2026-10-02T14:37:24Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -3196,7 +3221,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-10-01T08:14:36Z",
+      "updated_at": "2026-10-02T14:34:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3870,6 +3895,31 @@
       },
       "unresolved_conversations": 1,
       "labels": []
+    },
+    {
+      "title": "Fix shell interpolation in task reports",
+      "url": "https://github.com/conforma/tekton-catalog/pull/287",
+      "number": 287,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-10-02T14:24:15Z",
+      "updated_at": "2026-10-02T14:38:11Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS"
+      ]
     },
     {
       "title": "Update npm dependencies (main) (minor)",
@@ -4717,7 +4767,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-04T14:08:53Z",
+    "since": "2026-07-04T14:41:02Z",
     "reviewers": [
       {
         "login": "simonbaird",
