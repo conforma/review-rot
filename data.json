@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T02:48:56.358441466Z",
+  "generated_at": "2026-10-02T03:12:47.9130873Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1855,7 +1855,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-10-02T02:34:33Z",
+      "updated_at": "2026-10-02T02:49:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3583,6 +3583,33 @@
       ]
     },
     {
+      "title": "Update github/codeql-action action to v4.38.2 (main)",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/240",
+      "number": 240,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-02T03:02:43Z",
+      "updated_at": "2026-10-02T03:05:05Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "docs(#243): replace enterprisecontract.dev URLs and GitHub org link",
       "url": "https://github.com/conforma/user-guide/pull/244",
       "number": 244,
@@ -3735,27 +3762,56 @@
       "labels": []
     },
     {
-      "title": "ci: add actionlint workflow",
-      "url": "https://github.com/conforma/github-workflows/pull/10",
-      "number": 10,
-      "repo": "conforma/github-workflows",
+      "title": "Update conforma/github-workflows digest to ec01494 (main)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/279",
+      "number": 279,
+      "repo": "conforma/tekton-catalog",
       "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
-      "created_at": "2026-10-01T16:37:15Z",
-      "updated_at": "2026-10-01T21:29:45Z",
+      "created_at": "2026-10-02T03:03:18Z",
+      "updated_at": "2026-10-02T03:05:30Z",
       "is_draft": false,
-      "is_automated": false,
+      "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 0,
+        "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
       "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update conforma/github-workflows digest to ec01494 (release-v0.7)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/280",
+      "number": 280,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-02T03:03:27Z",
+      "updated_at": "2026-10-02T03:03:52Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "release-v0.7",
         "size: XS"
       ]
     },
@@ -4159,31 +4215,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "ci: add actionlint workflow",
-      "url": "https://github.com/conforma/.github/pull/95",
-      "number": 95,
-      "repo": "conforma/.github",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-10-01T16:37:11Z",
-      "updated_at": "2026-10-01T21:29:33Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: S"
-      ]
     },
     {
       "title": "Update go modules (main) (minor)",
@@ -4655,7 +4686,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-04T02:46:18Z",
+    "since": "2026-07-04T03:10:10Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -9895,8 +9926,32 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 49,
+        "reviews": 52,
         "prs": [
+          {
+            "title": "feat(changelog): compare policy behavior across releases",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/235",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 235,
+            "author": "joejstuart",
+            "engaged_at": "2026-10-02T03:10:08Z"
+          },
+          {
+            "title": "ci: add actionlint workflow",
+            "url": "https://github.com/conforma/github-workflows/pull/10",
+            "repo": "conforma/github-workflows",
+            "number": 10,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-02T02:52:31Z"
+          },
+          {
+            "title": "ci: add actionlint workflow",
+            "url": "https://github.com/conforma/.github/pull/95",
+            "repo": "conforma/.github",
+            "number": 95,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-02T02:52:01Z"
+          },
           {
             "title": "fix(#3482): exclude vulnerability PRs from grouped patch updates",
             "url": "https://github.com/conforma/cli/pull/3485",
