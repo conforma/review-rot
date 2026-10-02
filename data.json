@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T04:44:31.57332185Z",
+  "generated_at": "2026-10-02T05:10:46.22720439Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3583,33 +3583,6 @@
       ]
     },
     {
-      "title": "Update github/codeql-action action to v4.38.2 (main)",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/240",
-      "number": 240,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-02T03:02:43Z",
-      "updated_at": "2026-10-02T03:05:05Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs(#243): replace enterprisecontract.dev URLs and GitHub org link",
       "url": "https://github.com/conforma/user-guide/pull/244",
       "number": 244,
@@ -3760,60 +3733,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "Update conforma/github-workflows digest to ec01494 (main)",
-      "url": "https://github.com/conforma/tekton-catalog/pull/279",
-      "number": 279,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-02T03:03:18Z",
-      "updated_at": "2026-10-02T03:05:30Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update conforma/github-workflows digest to ec01494 (release-v0.7)",
-      "url": "https://github.com/conforma/tekton-catalog/pull/280",
-      "number": 280,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-02T03:03:27Z",
-      "updated_at": "2026-10-02T03:03:52Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "release-v0.7",
-        "size: XS"
-      ]
     },
     {
       "title": "Update npm dependencies (main) (minor)",
@@ -4686,7 +4605,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-04T04:41:54Z",
+    "since": "2026-07-04T05:08:22Z",
     "reviewers": [
       {
         "login": "simonbaird",
