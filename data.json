@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T23:37:37.985360435Z",
+  "generated_at": "2026-10-03T04:49:48.42918073Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -857,6 +857,33 @@
       ]
     },
     {
+      "title": "Update conforma/github-workflows digest to ec01494 (main)",
+      "url": "https://github.com/conforma/policy/pull/1865",
+      "number": 1865,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-03T00:46:08Z",
+      "updated_at": "2026-10-03T00:49:49Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1068,7 +1095,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-10-02T02:05:33Z",
+      "updated_at": "2026-10-03T01:39:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1508,7 +1535,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-10-02T02:35:11Z",
+      "updated_at": "2026-10-03T02:02:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3349,6 +3376,33 @@
       ]
     },
     {
+      "title": "Update conforma/github-workflows digest to ec01494 (main)",
+      "url": "https://github.com/conforma/conforma.github.io/pull/580",
+      "number": 580,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-03T02:24:57Z",
+      "updated_at": "2026-10-03T02:27:11Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update Konflux references (main) (patch)",
       "url": "https://github.com/conforma/golden-container/pull/1510",
       "number": 1510,
@@ -3358,7 +3412,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-29T06:57:38Z",
-      "updated_at": "2026-09-26T03:14:54Z",
+      "updated_at": "2026-10-03T02:42:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3368,7 +3422,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "main",
         "renovate",
@@ -3386,6 +3440,33 @@
       },
       "created_at": "2026-10-01T02:21:32Z",
       "updated_at": "2026-10-01T02:23:21Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update conforma/github-workflows digest to ec01494 (main)",
+      "url": "https://github.com/conforma/golden-container/pull/1524",
+      "number": 1524,
+      "repo": "conforma/golden-container",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-10-03T02:17:48Z",
+      "updated_at": "2026-10-03T02:20:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3604,6 +3685,33 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: S"
+      ]
+    },
+    {
+      "title": "Update conforma/github-workflows digest to ec01494 (main)",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/241",
+      "number": 241,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-03T02:15:15Z",
+      "updated_at": "2026-10-03T02:17:53Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
       ]
     },
     {
@@ -4002,6 +4110,33 @@
       ]
     },
     {
+      "title": "Update conforma/github-workflows digest to ec01494 (main)",
+      "url": "https://github.com/conforma/policy-builder/pull/66",
+      "number": 66,
+      "repo": "conforma/policy-builder",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-03T00:56:07Z",
+      "updated_at": "2026-10-03T00:58:44Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "fix(deps): update go version to v1.27.1 (main)",
       "url": "https://github.com/conforma/go-gather/pull/315",
       "number": 315,
@@ -4348,6 +4483,33 @@
       "labels": []
     },
     {
+      "title": "Update conforma/github-workflows digest to ec01494 (main)",
+      "url": "https://github.com/conforma/.github/pull/96",
+      "number": 96,
+      "repo": "conforma/.github",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-03T01:43:30Z",
+      "updated_at": "2026-10-03T01:46:53Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -4401,6 +4563,32 @@
       ]
     },
     {
+      "title": "Update conforma/github-workflows digest to ec01494 (main)",
+      "url": "https://github.com/conforma/crds/pull/40",
+      "number": 40,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-03T01:44:05Z",
+      "updated_at": "2026-10-03T01:47:26Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
       "title": "🚨 Update npm dependencies (main) (major)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/16",
       "number": 16,
@@ -4450,6 +4638,61 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "🚨 Update actions/checkout action to v7 (main)",
+      "url": "https://github.com/conforma/step-actions/pull/18",
+      "number": 18,
+      "repo": "conforma/step-actions",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-03T00:52:15Z",
+      "updated_at": "2026-10-03T01:00:36Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate",
+        "major"
+      ]
+    },
+    {
+      "title": "Update conforma/github-workflows digest to ec01494 (main)",
+      "url": "https://github.com/conforma/golden-rpm/pull/27",
+      "number": 27,
+      "repo": "conforma/golden-rpm",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-03T00:34:28Z",
+      "updated_at": "2026-10-03T00:37:27Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
       ]
     },
     {
@@ -4817,7 +5060,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-04T23:34:59Z",
+    "since": "2026-07-05T04:46:58Z",
     "reviewers": [
       {
         "login": "simonbaird",
