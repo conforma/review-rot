@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T08:03:45.616623303Z",
+  "generated_at": "2026-10-05T08:43:12.146565013Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-10-05T06:33:47Z",
+      "updated_at": "2026-10-05T08:32:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -53,7 +53,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-10-05T06:10:48Z",
+      "updated_at": "2026-10-05T08:32:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -707,7 +707,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-10-05T06:12:28Z",
+      "updated_at": "2026-10-05T08:32:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4845,7 +4845,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T08:00:34Z",
+    "since": "2026-07-07T08:39:55Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -10547,7 +10547,7 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 40,
+        "reviews": 39,
         "prs": [
           {
             "title": "fix: use pinned sha for label-pr-size",
@@ -10860,14 +10860,6 @@
             "number": 7,
             "author": "st3penta",
             "engaged_at": "2026-07-08T15:01:07Z"
-          },
-          {
-            "title": "sigstore: Cache verify_image results across policy evaluations",
-            "url": "https://github.com/conforma/cli/pull/3136",
-            "repo": "conforma/cli",
-            "number": 3136,
-            "author": "arewm",
-            "engaged_at": "2026-07-07T08:27:43Z"
           }
         ]
       },
