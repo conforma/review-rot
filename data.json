@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T00:26:29.552062952Z",
+  "generated_at": "2026-10-05T01:21:10.454785092Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3607,6 +3607,33 @@
       ]
     },
     {
+      "title": "Update mikefarah/yq action to v4.54.1 (main)",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/242",
+      "number": 242,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-05T00:53:33Z",
+      "updated_at": "2026-10-05T00:55:06Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "docs(#243): replace enterprisecontract.dev URLs and GitHub org link",
       "url": "https://github.com/conforma/user-guide/pull/244",
       "number": 244,
@@ -4845,7 +4872,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T00:23:35Z",
+    "since": "2026-07-07T01:18:31Z",
     "reviewers": [
       {
         "login": "simonbaird",
