@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T09:19:10.429577045Z",
+  "generated_at": "2026-10-05T09:54:33.617611118Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -854,6 +854,31 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "Support flexible disallowed date formats",
+      "url": "https://github.com/conforma/policy/pull/1866",
+      "number": 1866,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-05T09:38:46Z",
+      "updated_at": "2026-10-05T09:43:12Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XL"
       ]
     },
     {
@@ -3160,6 +3185,31 @@
       ]
     },
     {
+      "title": "Bump conforma/go-containerregistry",
+      "url": "https://github.com/conforma/cli/pull/3597",
+      "number": 3597,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-10-05T09:49:23Z",
+      "updated_at": "2026-10-05T09:49:35Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -4695,7 +4745,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.0 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.1 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/755",
       "number": 755,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -4704,7 +4754,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:47:23Z",
-      "updated_at": "2026-10-01T05:56:09Z",
+      "updated_at": "2026-10-05T09:46:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4845,7 +4895,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T09:16:20Z",
+    "since": "2026-07-07T09:51:15Z",
     "reviewers": [
       {
         "login": "simonbaird",
