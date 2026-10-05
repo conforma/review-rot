@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:45:44.781528224Z",
+  "generated_at": "2026-10-05T15:12:51.310750816Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3163,14 +3163,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-02T14:33:30Z",
-      "updated_at": "2026-10-02T14:52:31Z",
+      "updated_at": "2026-10-05T15:03:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3456,7 +3456,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-09-30T20:51:08Z",
+      "updated_at": "2026-10-05T14:50:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4863,7 +4863,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T14:42:42Z",
+    "since": "2026-07-07T15:09:20Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7695,8 +7695,16 @@
       },
       {
         "login": "st3penta",
-        "reviews": 95,
+        "reviews": 96,
         "prs": [
+          {
+            "title": "Fix shell interpolation in task reports",
+            "url": "https://github.com/conforma/cli/pull/3596",
+            "repo": "conforma/cli",
+            "number": 3596,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-05T15:03:27Z"
+          },
           {
             "title": "🚨 Update github actions (main) (major)",
             "url": "https://github.com/conforma/cli/pull/3132",
