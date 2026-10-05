@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T14:15:00.045735723Z",
+  "generated_at": "2026-10-05T14:45:44.781528224Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4863,7 +4863,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-07T14:11:35Z",
+    "since": "2026-07-07T14:42:42Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9115,7 +9115,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 66,
+        "reviews": 65,
         "prs": [
           {
             "title": "ci: add actionlint workflow",
@@ -9636,14 +9636,6 @@
             "number": 1765,
             "author": "robnester-rh",
             "engaged_at": "2026-07-08T21:05:00Z"
-          },
-          {
-            "title": "Seed new trusted task data",
-            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/218",
-            "repo": "release-engineering/rhtap-ec-policy",
-            "number": 218,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-07T14:31:26Z"
           }
         ]
       },
