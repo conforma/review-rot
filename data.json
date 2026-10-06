@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T11:41:19.864262855Z",
+  "generated_at": "2026-10-06T12:15:23.362375815Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2948,7 +2948,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-22T09:00:20Z",
-      "updated_at": "2026-10-01T11:57:13Z",
+      "updated_at": "2026-10-06T12:05:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3511,19 +3511,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-16T08:29:42Z",
-      "updated_at": "2026-10-06T11:37:44Z",
-      "is_draft": true,
+      "updated_at": "2026-10-06T12:02:44Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": "XS",
+      "size": "L",
       "reviews": {
-        "count": 2,
-        "approved_count": 1,
+        "count": 1,
+        "approved_count": 0,
         "has_new_commits": true
       },
       "unresolved_conversations": 1,
       "labels": [
-        "size: XS"
+        "size: L"
       ]
     },
     {
@@ -4742,7 +4742,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T11:38:35Z",
+    "since": "2026-07-08T12:12:17Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -6168,7 +6168,7 @@
       },
       {
         "login": "robnester-rh",
-        "reviews": 176,
+        "reviews": 175,
         "prs": [
           {
             "title": "Pin Fullsend references to upstream commits",
@@ -6337,14 +6337,6 @@
             "number": 1689,
             "author": "renovate",
             "engaged_at": "2026-09-16T17:44:10Z"
-          },
-          {
-            "title": "Publish step-actions to the tekton-catalog konflux branch",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/234",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 234,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-16T15:42:42Z"
           },
           {
             "title": "EC-2162: Verify ITS PipelineRuns use trusted tasks",
