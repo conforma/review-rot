@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:42:47.904224624Z",
+  "generated_at": "2026-10-06T21:10:42.711627145Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4764,7 +4764,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T20:39:53Z",
+    "since": "2026-07-08T21:07:39Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6198,7 +6198,7 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 173,
+        "reviews": 169,
         "prs": [
           {
             "title": "fix: harden composite action input handling",
@@ -7551,38 +7551,6 @@
             "number": 3378,
             "author": "renovate",
             "engaged_at": "2026-07-08T21:32:45Z"
-          },
-          {
-            "title": "fix(#1768): remove stale .adoc files before doc generation",
-            "url": "https://github.com/conforma/policy/pull/1769",
-            "repo": "conforma/policy",
-            "number": 1769,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-08T21:07:23Z"
-          },
-          {
-            "title": "Update go modules (release-v0.7) (minor)",
-            "url": "https://github.com/conforma/policy/pull/1634",
-            "repo": "conforma/policy",
-            "number": 1634,
-            "author": "renovate",
-            "engaged_at": "2026-07-08T20:57:51Z"
-          },
-          {
-            "title": "feat: add Claude Code AI skills for conforma e2e-tests",
-            "url": "https://github.com/conforma/e2e-tests/pull/10",
-            "repo": "conforma/e2e-tests",
-            "number": 10,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-07-08T20:52:57Z"
-          },
-          {
-            "title": "Add release changelog tooling with machine-readable image inputs",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/221",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 221,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-08T20:51:07Z"
           }
         ]
       },
@@ -9056,7 +9024,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 67,
+        "reviews": 66,
         "prs": [
           {
             "title": "Publish step-actions to the tekton-catalog konflux branch",
@@ -9585,14 +9553,6 @@
             "number": 3391,
             "author": "simonbaird",
             "engaged_at": "2026-07-09T15:25:04Z"
-          },
-          {
-            "title": "feat(EC-1950): bring test_attestation to feature parity with test package",
-            "url": "https://github.com/conforma/policy/pull/1765",
-            "repo": "conforma/policy",
-            "number": 1765,
-            "author": "robnester-rh",
-            "engaged_at": "2026-07-08T21:05:00Z"
           }
         ]
       },
