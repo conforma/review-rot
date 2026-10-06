@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T14:42:52.201547294Z",
+  "generated_at": "2026-10-06T15:12:11.671556646Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3030,14 +3030,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-28T12:56:51Z",
-      "updated_at": "2026-10-06T14:25:32Z",
+      "updated_at": "2026-10-06T14:46:24Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 2,
+        "approved_count": 2,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3127,6 +3127,31 @@
       ]
     },
     {
+      "title": "Pin Fullsend references to upstream commits",
+      "url": "https://github.com/conforma/cli/pull/3599",
+      "number": 3599,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-06T14:58:40Z",
+      "updated_at": "2026-10-06T15:03:37Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -3188,7 +3213,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-10-05T21:44:32Z",
+      "updated_at": "2026-10-06T14:39:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3308,6 +3333,31 @@
       "reviews": {
         "count": 3,
         "approved_count": 3,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Pin Fullsend references to upstream commits",
+      "url": "https://github.com/conforma/conforma.github.io/pull/581",
+      "number": 581,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-06T15:06:00Z",
+      "updated_at": "2026-10-06T15:07:59Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3651,6 +3701,29 @@
       "labels": [
         "size: XS"
       ]
+    },
+    {
+      "title": "Pin Fullsend references to upstream commits",
+      "url": "https://github.com/conforma/user-guide/pull/267",
+      "number": 267,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-06T15:06:00Z",
+      "updated_at": "2026-10-06T15:06:02Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": null,
+      "size": null,
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     },
     {
       "title": "Scripts to create and test fetching attestations",
@@ -4689,7 +4762,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T14:39:10Z",
+    "since": "2026-07-08T15:08:51Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7521,7 +7594,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 99,
+        "reviews": 98,
         "prs": [
           {
             "title": "test: add acceptance coverage for the ITS pipeline",
@@ -8306,14 +8379,6 @@
             "number": 547,
             "author": "fullsend-ai-fullsend",
             "engaged_at": "2026-07-08T15:19:49Z"
-          },
-          {
-            "title": "feat(#1512): remove abandoned generated documentation files",
-            "url": "https://github.com/conforma/cli/pull/3383",
-            "repo": "conforma/cli",
-            "number": 3383,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-08T14:56:21Z"
           }
         ]
       },
@@ -10033,8 +10098,16 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 55,
+        "reviews": 56,
         "prs": [
+          {
+            "title": "test: add acceptance coverage for the ITS pipeline",
+            "url": "https://github.com/conforma/cli/pull/3591",
+            "repo": "conforma/cli",
+            "number": 3591,
+            "author": "dheerajodha",
+            "engaged_at": "2026-10-06T14:46:24Z"
+          },
           {
             "title": "fix(#3482): exclude vulnerability PRs from grouped patch updates",
             "url": "https://github.com/conforma/cli/pull/3485",
@@ -10479,7 +10552,7 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 39,
+        "reviews": 38,
         "prs": [
           {
             "title": "fix: use pinned sha for label-pr-size",
@@ -10784,14 +10857,6 @@
             "number": 15,
             "author": "joejstuart",
             "engaged_at": "2026-07-15T11:45:33Z"
-          },
-          {
-            "title": "Enable conforma.github.io repo",
-            "url": "https://github.com/conforma/.fullsend/pull/7",
-            "repo": "conforma/.fullsend",
-            "number": 7,
-            "author": "st3penta",
-            "engaged_at": "2026-07-08T15:01:07Z"
           }
         ]
       },
