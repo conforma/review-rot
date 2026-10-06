@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T20:12:12.241036034Z",
+  "generated_at": "2026-10-06T20:42:47.904224624Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4764,7 +4764,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T20:09:01Z",
+    "since": "2026-07-08T20:39:53Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6198,7 +6198,7 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 177,
+        "reviews": 173,
         "prs": [
           {
             "title": "fix: harden composite action input handling",
@@ -7583,38 +7583,6 @@
             "number": 221,
             "author": "joejstuart",
             "engaged_at": "2026-07-08T20:51:07Z"
-          },
-          {
-            "title": "Fix broken links to Konflux documentation",
-            "url": "https://github.com/conforma/user-guide/pull/237",
-            "repo": "conforma/user-guide",
-            "number": 237,
-            "author": "jsmid1",
-            "engaged_at": "2026-07-08T20:31:35Z"
-          },
-          {
-            "title": "Fix broken links to Konflux documentation",
-            "url": "https://github.com/conforma/config/pull/235",
-            "repo": "conforma/config",
-            "number": 235,
-            "author": "jsmid1",
-            "engaged_at": "2026-07-08T20:27:56Z"
-          },
-          {
-            "title": "update to test",
-            "url": "https://github.com/conforma/cli/pull/3388",
-            "repo": "conforma/cli",
-            "number": 3388,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-08T20:26:48Z"
-          },
-          {
-            "title": "fix(EC-1977): migrate tenant-release SA to konflux-bot-0",
-            "url": "https://github.com/conforma/cli/pull/3385",
-            "repo": "conforma/cli",
-            "number": 3385,
-            "author": "robnester-rh",
-            "engaged_at": "2026-07-08T20:26:01Z"
           }
         ]
       },
