@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T09:12:43.251386125Z",
+  "generated_at": "2026-10-06T09:43:55.750467897Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3299,13 +3299,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-14T07:04:16Z",
-      "updated_at": "2026-09-14T07:16:24Z",
+      "updated_at": "2026-10-06T09:25:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "count": 0,
+        "count": 1,
         "approved_count": 0,
         "has_new_commits": false
       },
@@ -4791,7 +4791,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T09:09:48Z",
+    "since": "2026-07-08T09:40:49Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8429,8 +8429,16 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 84,
+        "reviews": 85,
         "prs": [
+          {
+            "title": "docs(#566): document video embed convention for resource entries",
+            "url": "https://github.com/conforma/conforma.github.io/pull/567",
+            "repo": "conforma/conforma.github.io",
+            "number": 567,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-10-06T09:25:55Z"
+          },
           {
             "title": "Update go toolchain directive to v1.27.1 (release-v0.8)",
             "url": "https://github.com/conforma/policy/pull/1841",
