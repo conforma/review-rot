@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T13:42:43.31270288Z",
+  "generated_at": "2026-10-06T14:12:36.81335646Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1147,7 +1147,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-06T10:28:01Z",
+      "updated_at": "2026-10-06T14:06:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1179,7 +1179,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-10-06T10:28:14Z",
+      "updated_at": "2026-10-06T14:08:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1757,7 +1757,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-10-05T21:16:07Z",
+      "updated_at": "2026-10-06T14:01:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1882,7 +1882,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-10-05T21:19:39Z",
+      "updated_at": "2026-10-06T14:07:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3030,7 +3030,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-28T12:56:51Z",
-      "updated_at": "2026-10-06T13:34:41Z",
+      "updated_at": "2026-10-06T13:45:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3077,32 +3077,6 @@
       ]
     },
     {
-      "title": "EC-2071: Remove the `ec track bundle` command",
-      "url": "https://github.com/conforma/cli/pull/3594",
-      "number": 3594,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-10-01T03:47:13Z",
-      "updated_at": "2026-10-01T04:01:33Z",
-      "is_draft": true,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "XXL",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XXL",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Bump conforma/go-containerregistry",
       "url": "https://github.com/conforma/cli/pull/3597",
       "number": 3597,
@@ -3125,6 +3099,31 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "EC-2071: Deprecate the `ec track bundle` command (docs)",
+      "url": "https://github.com/conforma/cli/pull/3598",
+      "number": 3598,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-10-06T13:39:07Z",
+      "updated_at": "2026-10-06T14:06:59Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "S",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S"
       ]
     },
     {
@@ -4616,29 +4615,6 @@
       ]
     },
     {
-      "title": "Decommision the acceptable bundles update/push CI",
-      "url": "https://github.com/konflux-ci/build-definitions/pull/3834",
-      "number": 3834,
-      "repo": "konflux-ci/build-definitions",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-09-10T13:36:58Z",
-      "updated_at": "2026-09-22T13:20:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "count": 1,
-        "approved_count": 1,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "feat(EC-1794): replace ec-defaults ConfigMap with hardcoded bundle ref",
       "url": "https://github.com/konflux-ci/e2e-tests/pull/1885",
       "number": 1885,
@@ -4713,7 +4689,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T13:39:35Z",
+    "since": "2026-07-08T14:09:13Z",
     "reviewers": [
       {
         "login": "simonbaird",
