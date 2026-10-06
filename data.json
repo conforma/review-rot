@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T13:13:10.397184598Z",
+  "generated_at": "2026-10-06T13:42:43.31270288Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2294,35 +2294,6 @@
       ]
     },
     {
-      "title": "fix(#3482): exclude vulnerability PRs from grouped patch updates",
-      "url": "https://github.com/conforma/cli/pull/3485",
-      "number": 3485,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "fullsend-ai-coder",
-        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
-      },
-      "created_at": "2026-08-08T14:27:45Z",
-      "updated_at": "2026-10-06T13:05:04Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 2,
-        "approved_count": 2,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "renovate",
-        "size: XS",
-        "config",
-        "requires-manual-review",
-        "risk/low"
-      ]
-    },
-    {
       "title": "Lock file maintenance (release-v0.7)",
       "url": "https://github.com/conforma/cli/pull/3487",
       "number": 3487,
@@ -3059,14 +3030,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-28T12:56:51Z",
-      "updated_at": "2026-10-06T10:16:26Z",
+      "updated_at": "2026-10-06T13:34:41Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XL",
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 0,
+        "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 2,
@@ -4491,7 +4462,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-10-06T06:00:14Z",
+      "updated_at": "2026-10-06T13:18:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4742,7 +4713,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T13:09:58Z",
+    "since": "2026-07-08T13:39:35Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -7574,16 +7545,8 @@
       },
       {
         "login": "st3penta",
-        "reviews": 100,
+        "reviews": 99,
         "prs": [
-          {
-            "title": "test: add acceptance coverage for the ITS pipeline",
-            "url": "https://github.com/conforma/cli/pull/3591",
-            "repo": "conforma/cli",
-            "number": 3591,
-            "author": "dheerajodha",
-            "engaged_at": "2026-10-06T10:16:26Z"
-          },
           {
             "title": "fix(#3482): exclude vulnerability PRs from grouped patch updates",
             "url": "https://github.com/conforma/cli/pull/3485",
@@ -10102,7 +10065,7 @@
             "repo": "conforma/cli",
             "number": 3485,
             "author": "fullsend-ai-coder",
-            "engaged_at": "2026-10-06T13:05:04Z"
+            "engaged_at": "2026-10-06T13:11:05Z"
           },
           {
             "title": "Fix shell interpolation in task reports",
