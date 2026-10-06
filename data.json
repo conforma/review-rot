@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T10:42:55.261678104Z",
+  "generated_at": "2026-10-06T11:11:18.172922791Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -165,7 +165,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-06T06:16:20Z",
+      "updated_at": "2026-10-06T11:04:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -182,6 +182,7 @@
         "renovate",
         "main",
         "size: XXL",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -835,10 +836,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-05T09:38:46Z",
-      "updated_at": "2026-10-05T20:04:02Z",
+      "updated_at": "2026-10-06T11:04:01Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "count": 1,
@@ -848,31 +849,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XL"
-      ]
-    },
-    {
-      "title": "Pin Fullsend references to upstream commits",
-      "url": "https://github.com/conforma/policy/pull/1867",
-      "number": 1867,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-05T12:10:06Z",
-      "updated_at": "2026-10-06T10:37:32Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 3,
-        "approved_count": 3,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
       ]
     },
     {
@@ -3395,33 +3371,6 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 1d7c551 (main)",
-      "url": "https://github.com/conforma/golden-container/pull/1522",
-      "number": 1522,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-10-01T02:21:32Z",
-      "updated_at": "2026-10-01T02:23:21Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
       "url": "https://github.com/conforma/review-rot/pull/246",
       "number": 246,
@@ -4326,7 +4275,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-10-06T01:49:46Z",
+      "updated_at": "2026-10-06T11:03:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4459,14 +4408,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T02:44:30Z",
-      "updated_at": "2026-10-06T05:43:39Z",
+      "updated_at": "2026-10-06T10:57:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "count": 0,
-        "approved_count": 0,
+        "count": 1,
+        "approved_count": 1,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -4791,7 +4740,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T10:39:50Z",
+    "since": "2026-07-08T11:08:20Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -10915,8 +10864,16 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 28,
+        "reviews": 29,
         "prs": [
+          {
+            "title": "Update go modules (main)",
+            "url": "https://github.com/conforma/e2e-tests/pull/15",
+            "repo": "conforma/e2e-tests",
+            "number": 15,
+            "author": "renovate",
+            "engaged_at": "2026-10-06T10:57:53Z"
+          },
           {
             "title": "🚨 Update actions/checkout action to v7 (main)",
             "url": "https://github.com/conforma/user-guide/pull/255",
