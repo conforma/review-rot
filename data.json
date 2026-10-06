@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T05:42:06.478108817Z",
+  "generated_at": "2026-10-06T06:16:08.00742899Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3764,14 +3764,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-08-20T12:57:52Z",
-      "updated_at": "2026-10-05T06:06:22Z",
+      "updated_at": "2026-10-06T06:01:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 0,
+        "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 0,
@@ -3787,7 +3787,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:03Z",
-      "updated_at": "2026-10-05T06:06:10Z",
+      "updated_at": "2026-10-06T06:01:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3810,7 +3810,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:07Z",
-      "updated_at": "2026-10-05T06:06:11Z",
+      "updated_at": "2026-10-06T06:01:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3833,7 +3833,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:12Z",
-      "updated_at": "2026-10-05T06:06:14Z",
+      "updated_at": "2026-10-06T06:01:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3856,7 +3856,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:17Z",
-      "updated_at": "2026-10-05T06:06:15Z",
+      "updated_at": "2026-10-06T06:01:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3879,7 +3879,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:22Z",
-      "updated_at": "2026-10-05T06:06:17Z",
+      "updated_at": "2026-10-06T06:01:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3902,14 +3902,14 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:31Z",
-      "updated_at": "2026-10-05T06:06:33Z",
+      "updated_at": "2026-10-06T06:02:06Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "count": 1,
-        "approved_count": 1,
+        "count": 0,
+        "approved_count": 0,
         "has_new_commits": false
       },
       "unresolved_conversations": 1,
@@ -4459,7 +4459,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T02:44:30Z",
-      "updated_at": "2026-10-02T09:31:29Z",
+      "updated_at": "2026-10-06T05:43:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4477,33 +4477,6 @@
       ]
     },
     {
-      "title": "Update module github.com/conforma/crds/api to v0.1.25 (main)",
-      "url": "https://github.com/conforma/e2e-tests/pull/30",
-      "number": 30,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-06T01:38:50Z",
-      "updated_at": "2026-10-06T01:42:27Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "count": 0,
-        "approved_count": 0,
-        "has_new_commits": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "🚨 Update module gopkg.in/yaml.v2 to v3 (main)",
       "url": "https://github.com/conforma/e2e-tests/pull/31",
       "number": 31,
@@ -4513,7 +4486,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-06T01:39:01Z",
-      "updated_at": "2026-10-06T01:42:43Z",
+      "updated_at": "2026-10-06T05:45:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4523,7 +4496,7 @@
         "approved_count": 0,
         "has_new_commits": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
         "size: XS",
         "main",
@@ -4567,7 +4540,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-10-06T02:00:29Z",
+      "updated_at": "2026-10-06T06:00:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4622,7 +4595,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-10-05T05:06:08Z",
+      "updated_at": "2026-10-06T05:58:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4649,7 +4622,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-10-05T05:06:15Z",
+      "updated_at": "2026-10-06T05:58:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4694,7 +4667,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.1 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.0 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/755",
       "number": 755,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -4703,7 +4676,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:47:23Z",
-      "updated_at": "2026-10-05T09:46:00Z",
+      "updated_at": "2026-10-06T05:59:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4818,7 +4791,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T05:39:38Z",
+    "since": "2026-07-08T06:13:38Z",
     "reviewers": [
       {
         "login": "simonbaird",
@@ -8456,7 +8429,7 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 81,
+        "reviews": 79,
         "prs": [
           {
             "title": "Pin Fullsend references to upstream commits",
@@ -8465,14 +8438,6 @@
             "number": 1867,
             "author": "st3penta",
             "engaged_at": "2026-10-05T12:26:08Z"
-          },
-          {
-            "title": "chore: sync task and pipeline definitions to main",
-            "url": "https://github.com/conforma/tekton-catalog/pull/286",
-            "repo": "conforma/tekton-catalog",
-            "number": 286,
-            "author": "github-actions",
-            "engaged_at": "2026-10-02T08:02:38Z"
           },
           {
             "title": "chore: sync task and pipeline definitions to release-v0.6",
@@ -8513,14 +8478,6 @@
             "number": 281,
             "author": "github-actions",
             "engaged_at": "2026-10-02T08:01:49Z"
-          },
-          {
-            "title": "chore: sync task and pipeline definitions to release-v0.7",
-            "url": "https://github.com/conforma/tekton-catalog/pull/262",
-            "repo": "conforma/tekton-catalog",
-            "number": 262,
-            "author": "github-actions",
-            "engaged_at": "2026-10-02T08:01:44Z"
           },
           {
             "title": "docs(#1820): document test attestation input contract in AGENTS.md",
