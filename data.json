@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T17:40:17.870899553Z",
+  "generated_at": "2026-10-06T18:12:57.657926064Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3597,6 +3597,31 @@
       ]
     },
     {
+      "title": "feat(ci): check new policy rule lead time on release PRs",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/243",
+      "number": 243,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-10-06T17:48:14Z",
+      "updated_at": "2026-10-06T17:58:06Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "count": 0,
+        "approved_count": 0,
+        "has_new_commits": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XL"
+      ]
+    },
+    {
       "title": "docs(#243): replace enterprisecontract.dev URLs and GitHub org link",
       "url": "https://github.com/conforma/user-guide/pull/244",
       "number": 244,
@@ -4764,7 +4789,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-08T17:37:18Z",
+    "since": "2026-07-08T18:10:01Z",
     "reviewers": [
       {
         "login": "robnester-rh",
