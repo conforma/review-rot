@@ -383,11 +383,6 @@ select:focus {
     white-space: nowrap;
 }
 
-.re-review-yes {
-    font-size: var(--font-size-sm);
-    line-height: 1;
-}
-
 .age-cell {
     white-space: nowrap;
 }
