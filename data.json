@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T17:18:23.344229769Z",
+  "generated_at": "2026-10-07T17:42:11.580241625Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3155,18 +3155,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-07T16:35:23Z",
-      "updated_at": "2026-10-07T17:14:28Z",
+      "updated_at": "2026-10-07T17:32:35Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "XS",
+      "ci_status": "SUCCESS",
+      "size": "S",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
-        "size: XS",
+        "size: S",
         "requires-manual-review",
         "risk/moderate"
       ]
@@ -3662,18 +3662,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-07T16:35:23Z",
-      "updated_at": "2026-10-07T17:12:01Z",
+      "updated_at": "2026-10-07T17:30:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": "XS",
+      "size": "S",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
+        "size: S"
       ]
     },
     {
@@ -4018,7 +4018,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-10-07T09:55:38Z",
+      "updated_at": "2026-10-07T17:35:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4443,7 +4443,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T17:15:11Z",
+    "since": "2026-07-09T17:38:53Z",
     "reviewers": [
       {
         "login": "robnester-rh",
