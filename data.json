@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T08:54:28.565237066Z",
+  "generated_at": "2026-10-07T09:13:07.316835577Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2990,30 +2990,6 @@
       ]
     },
     {
-      "title": "Pin Fullsend references to upstream commits",
-      "url": "https://github.com/conforma/cli/pull/3599",
-      "number": 3599,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-06T14:58:40Z",
-      "updated_at": "2026-10-07T08:15:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -3188,30 +3164,6 @@
       "size": "XS",
       "reviews": {
         "approved_count": 3,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Pin Fullsend references to upstream commits",
-      "url": "https://github.com/conforma/conforma.github.io/pull/581",
-      "number": 581,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-06T15:06:00Z",
-      "updated_at": "2026-10-07T08:14:38Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -3538,30 +3490,6 @@
       "size": "XS",
       "reviews": {
         "approved_count": 3,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Pin Fullsend references to upstream commits",
-      "url": "https://github.com/conforma/user-guide/pull/267",
-      "number": 267,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-06T15:06:00Z",
-      "updated_at": "2026-10-07T08:13:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4565,7 +4493,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T08:51:35Z",
+    "since": "2026-07-09T09:10:11Z",
     "reviewers": [
       {
         "login": "robnester-rh",
