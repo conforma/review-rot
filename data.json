@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T09:45:03.740701271Z",
+  "generated_at": "2026-10-07T10:11:15.06795894Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1079,7 +1079,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-07T01:44:54Z",
+      "updated_at": "2026-10-07T10:02:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1203,7 +1203,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-10-07T05:48:28Z",
+      "updated_at": "2026-10-07T09:44:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1668,7 +1668,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-10-07T09:38:37Z",
+      "updated_at": "2026-10-07T09:58:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1789,7 +1789,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-10-06T14:07:19Z",
+      "updated_at": "2026-10-07T10:03:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2021,7 +2021,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-10-06T14:11:01Z",
+      "updated_at": "2026-10-07T10:02:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2764,13 +2764,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-22T09:00:20Z",
-      "updated_at": "2026-10-07T09:36:36Z",
+      "updated_at": "2026-10-07T09:58:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
-        "approved_count": 2,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 5,
@@ -2995,7 +2995,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-10-05T21:43:06Z",
+      "updated_at": "2026-10-07T09:53:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3233,7 +3233,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/15952?v=4"
       },
       "created_at": "2026-09-17T20:24:33Z",
-      "updated_at": "2026-09-18T15:03:38Z",
+      "updated_at": "2026-10-07T10:06:13Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3331,13 +3331,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-10-06T17:48:14Z",
-      "updated_at": "2026-10-06T21:25:50Z",
+      "updated_at": "2026-10-07T09:59:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
@@ -4018,7 +4018,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-10-07T00:55:16Z",
+      "updated_at": "2026-10-07T09:55:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4443,7 +4443,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T09:41:43Z",
+    "since": "2026-07-09T10:08:31Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7219,7 +7219,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 96,
+        "reviews": 95,
         "prs": [
           {
             "title": "test: add acceptance coverage for the ITS pipeline",
@@ -7980,21 +7980,29 @@
             "number": 241,
             "author": "fullsend-ai-coder",
             "engaged_at": "2026-07-09T13:45:43Z"
-          },
-          {
-            "title": "chore: update fullsend shim workflow",
-            "url": "https://github.com/conforma/user-guide/pull/238",
-            "repo": "conforma/user-guide",
-            "number": 238,
-            "author": "fullsend-ai-fullsend",
-            "engaged_at": "2026-07-09T10:08:20Z"
           }
         ]
       },
       {
         "login": "jsmid1",
-        "reviews": 90,
+        "reviews": 91,
         "prs": [
+          {
+            "title": "fix: switch to GitHub Actions deployment for Pages",
+            "url": "https://github.com/conforma/review-rot/pull/259",
+            "repo": "conforma/review-rot",
+            "number": 259,
+            "author": "lance",
+            "engaged_at": "2026-10-07T10:06:13Z"
+          },
+          {
+            "title": "feat(ci): check new policy rule lead time on release PRs",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/243",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 243,
+            "author": "joejstuart",
+            "engaged_at": "2026-10-07T09:59:14Z"
+          },
           {
             "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
             "url": "https://github.com/conforma/cli/pull/3575",
@@ -8434,14 +8442,6 @@
             "number": 3577,
             "author": "robnester-rh",
             "engaged_at": "2026-09-22T14:23:53Z"
-          },
-          {
-            "title": "fix: switch to GitHub Actions deployment for Pages",
-            "url": "https://github.com/conforma/review-rot/pull/259",
-            "repo": "conforma/review-rot",
-            "number": 259,
-            "author": "lance",
-            "engaged_at": "2026-09-18T13:03:32Z"
           },
           {
             "title": "🚨 Update actions/checkout action to v7 (main)",
@@ -10559,7 +10559,7 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 28,
+        "reviews": 27,
         "prs": [
           {
             "title": "🚨 Update actions/checkout action to v7 (main)",
@@ -10776,14 +10776,6 @@
             "number": 1766,
             "author": "st3penta",
             "engaged_at": "2026-07-15T09:15:18Z"
-          },
-          {
-            "title": "Enable user-guide repo to fullsend",
-            "url": "https://github.com/conforma/.fullsend/pull/8",
-            "repo": "conforma/.fullsend",
-            "number": 8,
-            "author": "st3penta",
-            "engaged_at": "2026-07-09T10:01:54Z"
           }
         ]
       }
