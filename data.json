@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T11:42:16.746422126Z",
+  "generated_at": "2026-10-07T12:15:42.356906051Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3146,6 +3146,32 @@
       ]
     },
     {
+      "title": "Update Konflux references (main) (patch)",
+      "url": "https://github.com/conforma/golden-container/pull/1510",
+      "number": 1510,
+      "repo": "conforma/golden-container",
+      "author": {
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
+      },
+      "created_at": "2026-08-29T06:57:38Z",
+      "updated_at": "2026-10-07T12:06:23Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "M",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "main",
+        "renovate",
+        "size: M"
+      ]
+    },
+    {
       "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
       "url": "https://github.com/conforma/review-rot/pull/246",
       "number": 246,
@@ -4391,7 +4417,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T11:39:00Z",
+    "since": "2026-07-09T12:12:41Z",
     "reviewers": [
       {
         "login": "robnester-rh",
