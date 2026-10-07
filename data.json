@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T14:42:55.043634039Z",
+  "generated_at": "2026-10-07T15:48:26.787862226Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -794,6 +794,32 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "Set Codecov coverage targets to 100%",
+      "url": "https://github.com/conforma/policy/pull/1868",
+      "number": 1868,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-07T15:17:26Z",
+      "updated_at": "2026-10-07T15:30:38Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -4367,7 +4393,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T14:39:32Z",
+    "since": "2026-07-09T15:44:50Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -5793,7 +5819,7 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 168,
+        "reviews": 165,
         "prs": [
           {
             "title": "feat: add e2e test coverage for the ITS pipeline",
@@ -7114,30 +7140,6 @@
             "number": 1770,
             "author": "joejstuart",
             "engaged_at": "2026-07-09T19:52:06Z"
-          },
-          {
-            "title": "Update quay.io references from enterprise-contract to conforma",
-            "url": "https://github.com/conforma/policy/pull/1771",
-            "repo": "conforma/policy",
-            "number": 1771,
-            "author": "jsmid1",
-            "engaged_at": "2026-07-09T15:38:20Z"
-          },
-          {
-            "title": "Update quay.io references from enterprise-contract to conforma",
-            "url": "https://github.com/conforma/cli/pull/3393",
-            "repo": "conforma/cli",
-            "number": 3393,
-            "author": "jsmid1",
-            "engaged_at": "2026-07-09T15:37:26Z"
-          },
-          {
-            "title": "Update quay.io references from enterprise-contract to conforma",
-            "url": "https://github.com/conforma/user-guide/pull/242",
-            "repo": "conforma/user-guide",
-            "number": 242,
-            "author": "jsmid1",
-            "engaged_at": "2026-07-09T15:37:00Z"
           }
         ]
       },
@@ -8651,7 +8653,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 66,
+        "reviews": 65,
         "prs": [
           {
             "title": "Publish step-actions to the tekton-catalog konflux branch",
@@ -9172,14 +9174,6 @@
             "number": 3396,
             "author": "simonbaird",
             "engaged_at": "2026-07-09T20:49:25Z"
-          },
-          {
-            "title": "chore(deps): Update oras.land/oras-go/v2",
-            "url": "https://github.com/conforma/cli/pull/3391",
-            "repo": "conforma/cli",
-            "number": 3391,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-09T15:25:04Z"
           }
         ]
       },
