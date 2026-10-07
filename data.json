@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T21:11:08.204911983Z",
+  "generated_at": "2026-10-07T21:42:03.275085439Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2765,7 +2765,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-21T15:22:22Z",
-      "updated_at": "2026-10-02T12:53:16Z",
+      "updated_at": "2026-10-07T21:31:36Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -2774,7 +2774,7 @@
         "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 39,
+      "unresolved_conversations": 40,
       "labels": [
         "size: S",
         "risk/moderate"
@@ -2949,16 +2949,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-10-06T13:39:07Z",
-      "updated_at": "2026-10-06T14:06:59Z",
+      "updated_at": "2026-10-07T21:28:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "S",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "size: S"
       ]
@@ -3307,7 +3307,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-16T08:29:42Z",
-      "updated_at": "2026-10-07T14:36:00Z",
+      "updated_at": "2026-10-07T21:23:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3635,7 +3635,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-10-07T02:47:57Z",
+      "updated_at": "2026-10-07T21:28:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4443,7 +4443,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T21:07:43Z",
+    "since": "2026-07-09T21:38:50Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -5869,8 +5869,32 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 164,
+        "reviews": 166,
         "prs": [
+          {
+            "title": "test: run ITS pipeline e2e checks on pull requests",
+            "url": "https://github.com/conforma/cli/pull/3574",
+            "repo": "conforma/cli",
+            "number": 3574,
+            "author": "dheerajodha",
+            "engaged_at": "2026-10-07T21:31:36Z"
+          },
+          {
+            "title": "EC-2071: Deprecate the `ec track bundle` command (docs)",
+            "url": "https://github.com/conforma/cli/pull/3598",
+            "repo": "conforma/cli",
+            "number": 3598,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-10-07T21:28:31Z"
+          },
+          {
+            "title": "Publish step-actions to the tekton-catalog konflux branch",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/234",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 234,
+            "author": "jsmid1",
+            "engaged_at": "2026-10-07T21:23:48Z"
+          },
           {
             "title": "feat: add e2e test coverage for the ITS pipeline",
             "url": "https://github.com/conforma/e2e-tests/pull/12",
@@ -6022,14 +6046,6 @@
             "number": 2545,
             "author": "joejstuart",
             "engaged_at": "2026-09-16T17:32:12Z"
-          },
-          {
-            "title": "Publish step-actions to the tekton-catalog konflux branch",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/234",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 234,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-16T17:27:37Z"
           },
           {
             "title": "docs(#1808): add THREAT_MODEL.md to change checklist for trust-boundary mods",
