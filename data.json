@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T11:10:48.554633911Z",
+  "generated_at": "2026-10-07T11:42:16.746422126Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3146,32 +3146,6 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 5ed244b (main)",
-      "url": "https://github.com/conforma/golden-container/pull/1525",
-      "number": 1525,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "red-hat-konflux",
-        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
-      },
-      "created_at": "2026-10-07T01:47:39Z",
-      "updated_at": "2026-10-07T11:05:06Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
       "url": "https://github.com/conforma/review-rot/pull/246",
       "number": 246,
@@ -4417,7 +4391,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T11:07:30Z",
+    "since": "2026-07-09T11:39:00Z",
     "reviewers": [
       {
         "login": "robnester-rh",
