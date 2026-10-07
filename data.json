@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T20:43:33.079043276Z",
+  "generated_at": "2026-10-07T21:11:08.204911983Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4443,7 +4443,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T20:40:12Z",
+    "since": "2026-07-09T21:07:43Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8695,7 +8695,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 65,
+        "reviews": 63,
         "prs": [
           {
             "title": "Publish step-actions to the tekton-catalog konflux branch",
@@ -9200,22 +9200,6 @@
             "number": 3386,
             "author": "simonbaird",
             "engaged_at": "2026-07-13T22:18:37Z"
-          },
-          {
-            "title": "Misc deps updates (for release-v0.8 branch)",
-            "url": "https://github.com/conforma/cli/pull/3397",
-            "repo": "conforma/cli",
-            "number": 3397,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-09T20:49:37Z"
-          },
-          {
-            "title": "Misc deps updates (for release-v0.7 branch)",
-            "url": "https://github.com/conforma/cli/pull/3396",
-            "repo": "conforma/cli",
-            "number": 3396,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-09T20:49:25Z"
           }
         ]
       },
