@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T09:13:07.316835577Z",
+  "generated_at": "2026-10-07T09:45:03.740701271Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -160,7 +160,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-07T02:58:32Z",
+      "updated_at": "2026-10-07T09:24:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1668,7 +1668,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-10-06T14:01:13Z",
+      "updated_at": "2026-10-07T09:38:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2730,32 +2730,6 @@
       ]
     },
     {
-      "title": "chore(EC-2153): remove RH-specific policy digest defaults",
-      "url": "https://github.com/conforma/cli/pull/3573",
-      "number": 3573,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-09-17T13:09:01Z",
-      "updated_at": "2026-10-07T08:40:54Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "M",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "test: run ITS pipeline e2e checks on pull requests",
       "url": "https://github.com/conforma/cli/pull/3574",
       "number": 3574,
@@ -2790,7 +2764,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
       "created_at": "2026-09-22T09:00:20Z",
-      "updated_at": "2026-10-06T12:05:14Z",
+      "updated_at": "2026-10-07T09:36:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3333,42 +3307,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-16T08:29:42Z",
-      "updated_at": "2026-10-06T19:28:32Z",
+      "updated_at": "2026-10-07T09:29:12Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: L"
-      ]
-    },
-    {
-      "title": "chore(EC-2153): inject policy digest into released tasks",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/236",
-      "number": 236,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
-      },
-      "created_at": "2026-09-17T13:09:46Z",
-      "updated_at": "2026-10-07T08:29:26Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "approved_count": 3,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: S"
+        "size: L"
       ]
     },
     {
@@ -4493,20 +4443,12 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T09:10:11Z",
+    "since": "2026-07-09T09:41:43Z",
     "reviewers": [
       {
         "login": "robnester-rh",
-        "reviews": 178,
+        "reviews": 177,
         "prs": [
-          {
-            "title": "Publish step-actions to the tekton-catalog konflux branch",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/234",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 234,
-            "author": "jsmid1",
-            "engaged_at": "2026-10-06T15:37:11Z"
-          },
           {
             "title": "Count head approvals and outstanding review requests",
             "url": "https://github.com/conforma/review-rot/pull/265",
@@ -7277,7 +7219,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 97,
+        "reviews": 96,
         "prs": [
           {
             "title": "test: add acceptance coverage for the ITS pipeline",
@@ -7454,14 +7396,6 @@
             "number": 236,
             "author": "jsmid1",
             "engaged_at": "2026-09-30T13:33:59Z"
-          },
-          {
-            "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
-            "url": "https://github.com/conforma/cli/pull/3575",
-            "repo": "conforma/cli",
-            "number": 3575,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-30T13:04:54Z"
           },
           {
             "title": "docs(#1827): document input.image contract in AGENTS.md",
@@ -8062,6 +7996,14 @@
         "reviews": 90,
         "prs": [
           {
+            "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
+            "url": "https://github.com/conforma/cli/pull/3575",
+            "repo": "conforma/cli",
+            "number": 3575,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-10-07T09:36:36Z"
+          },
+          {
             "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 5ed244b (main)",
             "url": "https://github.com/conforma/golden-container/pull/1525",
             "repo": "conforma/golden-container",
@@ -8204,14 +8146,6 @@
             "number": 1821,
             "author": "fullsend-ai-coder",
             "engaged_at": "2026-10-01T13:33:03Z"
-          },
-          {
-            "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
-            "url": "https://github.com/conforma/cli/pull/3575",
-            "repo": "conforma/cli",
-            "number": 3575,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-10-01T11:36:33Z"
           },
           {
             "title": "test(#3515): increase unit test timeout to 30s",
@@ -8793,7 +8727,7 @@
             "repo": "conforma/infra-deployments-ci",
             "number": 234,
             "author": "jsmid1",
-            "engaged_at": "2026-10-06T19:28:32Z"
+            "engaged_at": "2026-10-06T19:26:00Z"
           },
           {
             "title": "chore(EC-2153): inject policy digest into released tasks",
