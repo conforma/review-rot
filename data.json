@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T16:13:15.051539143Z",
+  "generated_at": "2026-10-07T16:44:54.790163491Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-10-06T15:32:16Z",
+      "updated_at": "2026-10-07T16:34:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -52,7 +52,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-10-06T15:33:54Z",
+      "updated_at": "2026-10-07T16:34:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -160,7 +160,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-07T09:24:57Z",
+      "updated_at": "2026-10-07T16:34:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -653,7 +653,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-10-06T15:35:30Z",
+      "updated_at": "2026-10-07T16:34:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3146,6 +3146,30 @@
       ]
     },
     {
+      "title": "Harden Cloudflare preview deployments",
+      "url": "https://github.com/conforma/conforma.github.io/pull/582",
+      "number": 582,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-10-07T16:35:23Z",
+      "updated_at": "2026-10-07T16:36:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update Konflux references (main) (patch)",
       "url": "https://github.com/conforma/golden-container/pull/1510",
       "number": 1510,
@@ -3623,6 +3647,30 @@
         "main",
         "renovate",
         "major",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Harden Cloudflare preview deployments",
+      "url": "https://github.com/conforma/policy-builder/pull/67",
+      "number": 67,
+      "repo": "conforma/policy-builder",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-10-07T16:35:23Z",
+      "updated_at": "2026-10-07T16:36:29Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
         "size: XS"
       ]
     },
@@ -4393,7 +4441,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T16:09:55Z",
+    "since": "2026-07-09T16:41:23Z",
     "reviewers": [
       {
         "login": "robnester-rh",
