@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T14:11:26.67957159Z",
+  "generated_at": "2026-10-07T14:42:55.043634039Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2997,7 +2997,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-10-07T14:02:32Z",
+      "updated_at": "2026-10-07T14:13:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3255,7 +3255,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-16T08:29:42Z",
-      "updated_at": "2026-10-07T12:40:49Z",
+      "updated_at": "2026-10-07T14:36:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -3264,33 +3264,9 @@
         "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "size: L"
-      ]
-    },
-    {
-      "title": "feat(ci): check new policy rule lead time on release PRs",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/243",
-      "number": 243,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "joejstuart",
-        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
-      },
-      "created_at": "2026-10-06T17:48:14Z",
-      "updated_at": "2026-10-07T09:59:15Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: XL"
       ]
     },
     {
@@ -4070,13 +4046,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-08-25T13:41:38Z",
-      "updated_at": "2026-10-01T14:43:12Z",
+      "updated_at": "2026-10-07T14:21:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4391,7 +4367,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T14:08:05Z",
+    "since": "2026-07-09T14:39:32Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -5820,6 +5796,14 @@
         "reviews": 168,
         "prs": [
           {
+            "title": "feat: add e2e test coverage for the ITS pipeline",
+            "url": "https://github.com/conforma/e2e-tests/pull/12",
+            "repo": "conforma/e2e-tests",
+            "number": 12,
+            "author": "dheerajodha",
+            "engaged_at": "2026-10-07T14:21:48Z"
+          },
+          {
             "title": "fix: harden composite action input handling",
             "url": "https://github.com/conforma/action-validate-image/pull/443",
             "repo": "conforma/action-validate-image",
@@ -5954,14 +5938,6 @@
             "number": 3579,
             "author": "st3penta",
             "engaged_at": "2026-09-22T14:36:20Z"
-          },
-          {
-            "title": "feat: add e2e test coverage for the ITS pipeline",
-            "url": "https://github.com/conforma/e2e-tests/pull/12",
-            "repo": "conforma/e2e-tests",
-            "number": 12,
-            "author": "dheerajodha",
-            "engaged_at": "2026-09-22T12:59:36Z"
           },
           {
             "title": "chore: bump Conforma version",
@@ -7167,8 +7143,16 @@
       },
       {
         "login": "st3penta",
-        "reviews": 94,
+        "reviews": 95,
         "prs": [
+          {
+            "title": "Publish step-actions to the tekton-catalog konflux branch",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/234",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 234,
+            "author": "jsmid1",
+            "engaged_at": "2026-10-07T14:36:00Z"
+          },
           {
             "title": "test: add acceptance coverage for the ITS pipeline",
             "url": "https://github.com/conforma/cli/pull/3591",
