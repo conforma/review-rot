@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:15:42.356906051Z",
+  "generated_at": "2026-10-07T12:54:41.642719386Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -681,7 +681,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/1614735?v=4"
       },
       "created_at": "2026-09-06T12:03:28Z",
-      "updated_at": "2026-10-06T08:38:33Z",
+      "updated_at": "2026-10-07T12:39:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -2021,7 +2021,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-10-07T10:02:57Z",
+      "updated_at": "2026-10-07T12:42:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2711,7 +2711,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T03:04:00Z",
-      "updated_at": "2026-10-06T14:11:58Z",
+      "updated_at": "2026-10-07T12:42:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2871,10 +2871,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-28T12:56:51Z",
-      "updated_at": "2026-10-06T14:46:24Z",
+      "updated_at": "2026-10-07T12:44:47Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XL",
       "reviews": {
         "approved_count": 2,
@@ -3281,13 +3281,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-16T08:29:42Z",
-      "updated_at": "2026-10-07T09:29:12Z",
+      "updated_at": "2026-10-07T12:40:49Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4417,7 +4417,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T12:12:41Z",
+    "since": "2026-07-09T12:51:23Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8701,7 +8701,7 @@
             "repo": "conforma/infra-deployments-ci",
             "number": 234,
             "author": "jsmid1",
-            "engaged_at": "2026-10-06T19:26:00Z"
+            "engaged_at": "2026-10-07T12:40:48Z"
           },
           {
             "title": "chore(EC-2153): inject policy digest into released tasks",
