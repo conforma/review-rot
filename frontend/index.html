@@ -36,7 +36,7 @@
     <div id="prs-view">
         <div class="filters">
             <div class="filter-group">
-                <label class="toggle-label" title="Show only PRs that are not drafts, have passing CI, and have unreviewed changes">
+                <label class="toggle-label" title="Show only non-draft PRs with passing CI, no outstanding change requests on the current head, and fewer than the required current-head approvals">
                     <input type="checkbox" id="ready-filter">
                     <span>Ready for review</span>
                 </label>
@@ -72,9 +72,8 @@
                         <th class="sortable" data-sort="ci_status">CI</th>
                         <th class="sortable" data-sort="updated_at"><span class="col-tooltip-wrap">Updated <span class="col-tooltip" title="Time since last activity">?</span></span></th>
                         <th class="sortable" data-sort="created_at"><span class="col-tooltip-wrap">Age <span class="col-tooltip" title="Time since PR was created">?</span></span></th>
-                        <th class="sortable" data-sort="threads">Unresolved <span class="col-tooltip-wrap">threads <span class="col-tooltip" title="Unresolved review threads">?</span></span></th>
-                        <th class="sortable" data-sort="reviews"><span class="col-tooltip-wrap">Reviews <span class="col-tooltip" title="Number of completed reviews">?</span></span></th>
-                        <th class="sortable" data-sort="re_review">Unreviewed <span class="col-tooltip-wrap">changes <span class="col-tooltip" title="PR has no reviews yet, or new commits were pushed since the last review">?</span></span></th>
+                        <th class="sortable" data-sort="threads">Unresolved <span class="col-tooltip-wrap">threads + requests <span class="col-tooltip" title="Unresolved inline review threads plus outstanding change requests, including requests on older commits; resolving a thread does not clear a change request">?</span></span></th>
+                        <th class="sortable" data-sort="reviews"><span class="col-tooltip-wrap">Approvals <span class="col-tooltip" title="Distinct human, non-author reviewers with an effective approval on the current head">?</span></span></th>
                     </tr>
                 </thead>
                 <tbody id="pr-table-body">
