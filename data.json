@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T12:54:41.642719386Z",
+  "generated_at": "2026-10-07T13:16:07.377864491Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1079,7 +1079,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-07T10:02:03Z",
+      "updated_at": "2026-10-07T13:02:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1668,7 +1668,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-10-07T09:58:25Z",
+      "updated_at": "2026-10-07T13:08:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1789,13 +1789,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-10-07T10:03:12Z",
+      "updated_at": "2026-10-07T13:11:36Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2021,7 +2021,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-10-07T12:42:08Z",
+      "updated_at": "2026-10-07T13:04:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2859,32 +2859,6 @@
         "renovate",
         "main",
         "size: XS"
-      ]
-    },
-    {
-      "title": "test: add acceptance coverage for the ITS pipeline",
-      "url": "https://github.com/conforma/cli/pull/3591",
-      "number": 3591,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-09-28T12:56:51Z",
-      "updated_at": "2026-10-07T12:44:47Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": "XL",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XL",
-        "requires-manual-review",
-        "risk/moderate"
       ]
     },
     {
@@ -4417,7 +4391,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-09T12:51:23Z",
+    "since": "2026-07-09T13:12:52Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7959,8 +7933,16 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 91,
+        "reviews": 92,
         "prs": [
+          {
+            "title": "Update module github.com/tektoncd/pipeline to v1.12.2 (main)",
+            "url": "https://github.com/conforma/cli/pull/3369",
+            "repo": "conforma/cli",
+            "number": 3369,
+            "author": "renovate",
+            "engaged_at": "2026-10-07T13:04:24Z"
+          },
           {
             "title": "fix: switch to GitHub Actions deployment for Pages",
             "url": "https://github.com/conforma/review-rot/pull/259",
