@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T05:12:02.011548883Z",
+  "generated_at": "2026-10-08T05:42:42.482531748Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3224,32 +3224,6 @@
       ]
     },
     {
-      "title": "Update anchore/sbom-action action to v0.24.3 (main)",
-      "url": "https://github.com/conforma/golden-container/pull/1527",
-      "number": 1527,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-08T01:07:56Z",
-      "updated_at": "2026-10-08T01:08:17Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
       "url": "https://github.com/conforma/review-rot/pull/246",
       "number": 246,
@@ -4251,7 +4225,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T02:03:26Z",
-      "updated_at": "2026-10-08T02:31:34Z",
+      "updated_at": "2026-10-08T05:10:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -4495,7 +4469,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T05:09:19Z",
+    "since": "2026-07-10T05:40:07Z",
     "reviewers": [
       {
         "login": "robnester-rh",
