@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T20:43:57.018796342Z",
+  "generated_at": "2026-10-08T21:10:54.839273508Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -820,6 +820,30 @@
         "size: XS",
         "requires-manual-review",
         "risk/moderate"
+      ]
+    },
+    {
+      "title": "Remove PRIVILEGED_NESTED deny rule from buildah_build_task",
+      "url": "https://github.com/conforma/policy/pull/1869",
+      "number": 1869,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "redhat-chai-bot",
+        "avatar_url": "https://avatars.githubusercontent.com/u/273475629?u=5bbc0cf2481fafd1d8dab028b432443effd05caf\u0026v=4"
+      },
+      "created_at": "2026-10-08T20:50:25Z",
+      "updated_at": "2026-10-08T20:51:26Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M"
       ]
     },
     {
@@ -4545,7 +4569,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T20:40:29Z",
+    "since": "2026-07-10T21:07:46Z",
     "reviewers": [
       {
         "login": "robnester-rh",
