@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T18:48:06.408223548Z",
+  "generated_at": "2026-10-08T19:11:03.561964287Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4088,6 +4088,28 @@
       ]
     },
     {
+      "title": "Update Go dependencies with patched releases",
+      "url": "https://github.com/conforma/crds/pull/41",
+      "number": 41,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-10-08T19:01:16Z",
+      "updated_at": "2026-10-08T19:06:35Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "🚨 Update npm dependencies (main) (major)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/16",
       "number": 16,
@@ -4523,7 +4545,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T18:44:40Z",
+    "since": "2026-07-10T19:07:58Z",
     "reviewers": [
       {
         "login": "robnester-rh",
