@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T17:41:53.42774923Z",
+  "generated_at": "2026-10-08T18:13:40.72352427Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4203,13 +4203,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-10-08T13:09:57Z",
-      "updated_at": "2026-10-08T13:12:07Z",
+      "updated_at": "2026-10-08T18:08:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4523,7 +4523,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T17:38:44Z",
+    "since": "2026-07-10T18:10:12Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -5949,8 +5949,16 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 166,
+        "reviews": 167,
         "prs": [
+          {
+            "title": "fix: align Kubernetes dependencies and compile E2E tests in CI",
+            "url": "https://github.com/conforma/e2e-tests/pull/33",
+            "repo": "conforma/e2e-tests",
+            "number": 33,
+            "author": "dheerajodha",
+            "engaged_at": "2026-10-08T18:08:34Z"
+          },
           {
             "title": "test: run ITS pipeline e2e checks on pull requests",
             "url": "https://github.com/conforma/cli/pull/3574",
