@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T12:54:38.493695186Z",
+  "generated_at": "2026-10-08T13:16:31.600162038Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4044,7 +4044,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-10-07T17:35:44Z",
+      "updated_at": "2026-10-08T12:51:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4189,6 +4189,30 @@
         "main",
         "renovate",
         "major"
+      ]
+    },
+    {
+      "title": "fix: align Kubernetes dependencies and compile E2E tests in CI",
+      "url": "https://github.com/conforma/e2e-tests/pull/33",
+      "number": 33,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "dheerajodha",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
+      },
+      "created_at": "2026-10-08T13:09:57Z",
+      "updated_at": "2026-10-08T13:12:07Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "M",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M"
       ]
     },
     {
@@ -4445,7 +4469,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T12:51:16Z",
+    "since": "2026-07-10T13:13:24Z",
     "reviewers": [
       {
         "login": "robnester-rh",
