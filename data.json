@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T11:11:00.636763534Z",
+  "generated_at": "2026-10-08T11:42:29.575062677Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2765,19 +2765,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-21T15:22:22Z",
-      "updated_at": "2026-10-08T11:06:17Z",
+      "updated_at": "2026-10-08T11:36:57Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "S",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 40,
+      "unresolved_conversations": 37,
       "labels": [
         "size: S",
-        "risk/moderate"
+        "risk/low"
       ]
     },
     {
@@ -3333,18 +3333,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-16T08:29:42Z",
-      "updated_at": "2026-10-07T21:23:48Z",
+      "updated_at": "2026-10-08T11:26:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": "L",
+      "size": "XL",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
       "labels": [
-        "size: L"
+        "size: XL"
       ]
     },
     {
@@ -4445,7 +4445,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T11:07:57Z",
+    "since": "2026-07-10T11:39:14Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8713,7 +8713,7 @@
             "repo": "conforma/infra-deployments-ci",
             "number": 234,
             "author": "jsmid1",
-            "engaged_at": "2026-10-07T12:40:48Z"
+            "engaged_at": "2026-10-06T19:26:00Z"
           },
           {
             "title": "chore(EC-2153): inject policy digest into released tasks",
