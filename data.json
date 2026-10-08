@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T14:12:49.615715618Z",
+  "generated_at": "2026-10-08T14:45:11.078226686Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1014,13 +1014,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-07T16:35:23Z",
-      "updated_at": "2026-10-07T17:32:35Z",
+      "updated_at": "2026-10-08T14:28:32Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -1192,13 +1192,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-09-16T08:29:42Z",
-      "updated_at": "2026-10-08T11:26:38Z",
+      "updated_at": "2026-10-08T14:25:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
@@ -1547,13 +1547,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-07T16:35:23Z",
-      "updated_at": "2026-10-07T17:30:12Z",
+      "updated_at": "2026-10-08T14:28:42Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -2328,7 +2328,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-10T14:09:15Z",
+    "since": "2026-07-10T14:41:27Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -5846,15 +5846,31 @@
       },
       {
         "login": "st3penta",
-        "reviews": 92,
+        "reviews": 94,
         "prs": [
+          {
+            "title": "Harden Cloudflare preview deployments",
+            "url": "https://github.com/conforma/policy-builder/pull/67",
+            "repo": "conforma/policy-builder",
+            "number": 67,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-08T14:28:42Z"
+          },
+          {
+            "title": "Harden Cloudflare preview deployments",
+            "url": "https://github.com/conforma/conforma.github.io/pull/582",
+            "repo": "conforma/conforma.github.io",
+            "number": 582,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-08T14:28:32Z"
+          },
           {
             "title": "Publish step-actions to the tekton-catalog konflux branch",
             "url": "https://github.com/conforma/infra-deployments-ci/pull/234",
             "repo": "conforma/infra-deployments-ci",
             "number": 234,
             "author": "jsmid1",
-            "engaged_at": "2026-10-07T14:36:00Z"
+            "engaged_at": "2026-10-08T14:25:09Z"
           },
           {
             "title": "test: add acceptance coverage for the ITS pipeline",
