@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T20:11:26.253457295Z",
+  "generated_at": "2026-10-09T20:43:23.288779832Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4568,11 +4568,33 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Effectively anchor disallowed_platform_patterns regex",
+      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/288",
+      "number": 288,
+      "repo": "release-engineering/rhtap-ec-policy",
+      "author": {
+        "login": "simonbaird",
+        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
+      },
+      "created_at": "2026-10-09T20:25:29Z",
+      "updated_at": "2026-10-09T20:25:30Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T20:08:28Z",
+    "since": "2026-07-11T20:40:08Z",
     "reviewers": [
       {
         "login": "robnester-rh",
