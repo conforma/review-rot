@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T09:15:51.161495779Z",
+  "generated_at": "2026-10-09T09:46:01.63449858Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4520,7 +4520,7 @@
       ]
     },
     {
-      "title": "EC-2254: Enable SLSA v1.0 attestations on stone-prd-rh01",
+      "title": "Enable SLSA v1.0 attestations on stone-prd-rh01",
       "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14702",
       "number": 14702,
       "repo": "redhat-appstudio/infra-deployments",
@@ -4529,7 +4529,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:46Z",
-      "updated_at": "2026-10-08T15:47:33Z",
+      "updated_at": "2026-10-09T09:19:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4570,7 +4570,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T09:12:25Z",
+    "since": "2026-07-11T09:42:52Z",
     "reviewers": [
       {
         "login": "robnester-rh",
