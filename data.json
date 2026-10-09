@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T02:38:30.947453957Z",
+  "generated_at": "2026-10-09T03:16:31.865676714Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -705,7 +705,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-07T01:37:18Z",
-      "updated_at": "2026-10-08T22:59:44Z",
+      "updated_at": "2026-10-09T02:37:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1050,7 +1050,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-10-08T02:29:06Z",
+      "updated_at": "2026-10-09T03:05:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1130,7 +1130,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-09T00:25:27Z",
+      "updated_at": "2026-10-09T02:46:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1476,7 +1476,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-10-08T03:06:44Z",
+      "updated_at": "2026-10-09T03:03:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1780,7 +1780,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-10-08T02:21:09Z",
+      "updated_at": "2026-10-09T02:45:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1801,7 +1801,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.7-1791275853 (main)",
+      "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.7-1791479310 (main)",
       "url": "https://github.com/conforma/cli/pull/3368",
       "number": 3368,
       "repo": "conforma/cli",
@@ -1810,13 +1810,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-10-08T13:33:23Z",
+      "updated_at": "2026-10-09T03:11:21Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "approved_count": 2,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 37,
@@ -1827,7 +1827,7 @@
         "main",
         "size: XS",
         "requires-manual-review",
-        "risk/moderate"
+        "risk/low"
       ]
     },
     {
@@ -1920,7 +1920,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.26.8 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.26.9 (main)",
       "url": "https://github.com/conforma/cli/pull/3372",
       "number": 3372,
       "repo": "conforma/cli",
@@ -1929,7 +1929,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-10-08T02:23:46Z",
+      "updated_at": "2026-10-09T03:00:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1946,6 +1946,7 @@
         "renovate",
         "main",
         "size: XS",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -2372,7 +2373,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.1 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.2 (main)",
       "url": "https://github.com/conforma/cli/pull/3512",
       "number": 3512,
       "repo": "conforma/cli",
@@ -2381,7 +2382,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-20T02:43:52Z",
-      "updated_at": "2026-10-07T02:16:59Z",
+      "updated_at": "2026-10-09T03:12:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2390,7 +2391,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 5,
       "labels": [
         "dependencies",
         "docker",
@@ -2832,7 +2833,7 @@
       ]
     },
     {
-      "title": "Update registry.access.redhat.com/ubi9/go-toolset:1.26.7 Docker digest to 890b54e (main)",
+      "title": "Update registry.access.redhat.com/ubi9/go-toolset:1.26.7 Docker digest to 6f246e8 (main)",
       "url": "https://github.com/conforma/cli/pull/3583",
       "number": 3583,
       "repo": "conforma/cli",
@@ -2841,10 +2842,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-24T01:49:23Z",
-      "updated_at": "2026-10-07T01:57:24Z",
+      "updated_at": "2026-10-09T03:07:43Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -2854,7 +2855,9 @@
       "labels": [
         "renovate",
         "main",
-        "size: XS"
+        "size: XS",
+        "requires-manual-review",
+        "risk/low"
       ]
     },
     {
@@ -2895,7 +2898,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-24T02:14:20Z",
-      "updated_at": "2026-09-24T02:14:30Z",
+      "updated_at": "2026-10-09T02:55:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4595,7 +4598,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T02:35:51Z",
+    "since": "2026-07-11T03:13:34Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7362,764 +7365,6 @@
         ]
       },
       {
-        "login": "jsmid1",
-        "reviews": 94,
-        "prs": [
-          {
-            "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.7-1791275853 (main)",
-            "url": "https://github.com/conforma/cli/pull/3368",
-            "repo": "conforma/cli",
-            "number": 3368,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-10-08T13:33:22Z"
-          },
-          {
-            "title": "Set Codecov coverage targets to 100%",
-            "url": "https://github.com/conforma/policy/pull/1868",
-            "repo": "conforma/policy",
-            "number": 1868,
-            "author": "st3penta",
-            "engaged_at": "2026-10-08T10:51:30Z"
-          },
-          {
-            "title": "Update module github.com/tektoncd/pipeline to v1.12.2 (main)",
-            "url": "https://github.com/conforma/cli/pull/3369",
-            "repo": "conforma/cli",
-            "number": 3369,
-            "author": "renovate",
-            "engaged_at": "2026-10-07T13:04:24Z"
-          },
-          {
-            "title": "fix: switch to GitHub Actions deployment for Pages",
-            "url": "https://github.com/conforma/review-rot/pull/259",
-            "repo": "conforma/review-rot",
-            "number": 259,
-            "author": "lance",
-            "engaged_at": "2026-10-07T10:06:13Z"
-          },
-          {
-            "title": "feat(ci): check new policy rule lead time on release PRs",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/243",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 243,
-            "author": "joejstuart",
-            "engaged_at": "2026-10-07T09:59:14Z"
-          },
-          {
-            "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
-            "url": "https://github.com/conforma/cli/pull/3575",
-            "repo": "conforma/cli",
-            "number": 3575,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-10-07T09:36:36Z"
-          },
-          {
-            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 5ed244b (main)",
-            "url": "https://github.com/conforma/golden-container/pull/1525",
-            "repo": "conforma/golden-container",
-            "number": 1525,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-10-07T08:40:28Z"
-          },
-          {
-            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 5ed244b (main)",
-            "url": "https://github.com/conforma/cli/pull/3593",
-            "repo": "conforma/cli",
-            "number": 3593,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-10-07T08:33:25Z"
-          },
-          {
-            "title": "Pin Fullsend references to upstream commits",
-            "url": "https://github.com/conforma/cli/pull/3599",
-            "repo": "conforma/cli",
-            "number": 3599,
-            "author": "st3penta",
-            "engaged_at": "2026-10-07T08:15:00Z"
-          },
-          {
-            "title": "Pin Fullsend references to upstream commits",
-            "url": "https://github.com/conforma/conforma.github.io/pull/581",
-            "repo": "conforma/conforma.github.io",
-            "number": 581,
-            "author": "st3penta",
-            "engaged_at": "2026-10-07T08:14:37Z"
-          },
-          {
-            "title": "Pin Fullsend references to upstream commits",
-            "url": "https://github.com/conforma/user-guide/pull/267",
-            "repo": "conforma/user-guide",
-            "number": 267,
-            "author": "st3penta",
-            "engaged_at": "2026-10-07T08:13:25Z"
-          },
-          {
-            "title": "docs(#566): document video embed convention for resource entries",
-            "url": "https://github.com/conforma/conforma.github.io/pull/567",
-            "repo": "conforma/conforma.github.io",
-            "number": 567,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-10-06T09:25:55Z"
-          },
-          {
-            "title": "Update go toolchain directive to v1.27.1 (release-v0.8)",
-            "url": "https://github.com/conforma/policy/pull/1841",
-            "repo": "conforma/policy",
-            "number": 1841,
-            "author": "renovate",
-            "engaged_at": "2026-10-06T08:56:56Z"
-          },
-          {
-            "title": "🚨 Update actions/checkout action to v7 (main)",
-            "url": "https://github.com/conforma/user-guide/pull/255",
-            "repo": "conforma/user-guide",
-            "number": 255,
-            "author": "renovate",
-            "engaged_at": "2026-10-06T08:56:36Z"
-          },
-          {
-            "title": "🚨 Update actions/checkout action to v7 (main)",
-            "url": "https://github.com/conforma/step-actions/pull/18",
-            "repo": "conforma/step-actions",
-            "number": 18,
-            "author": "renovate",
-            "engaged_at": "2026-10-06T08:54:11Z"
-          },
-          {
-            "title": "Count head approvals and outstanding review requests",
-            "url": "https://github.com/conforma/review-rot/pull/265",
-            "repo": "conforma/review-rot",
-            "number": 265,
-            "author": "st3penta",
-            "engaged_at": "2026-10-06T08:52:34Z"
-          },
-          {
-            "title": "Add Codecov configuration (100% project and patch coverage)",
-            "url": "https://github.com/conforma/policy/pull/1840",
-            "repo": "conforma/policy",
-            "number": 1840,
-            "author": "eedri",
-            "engaged_at": "2026-10-06T08:38:33Z"
-          },
-          {
-            "title": "Pin Fullsend references to upstream commits",
-            "url": "https://github.com/conforma/policy/pull/1867",
-            "repo": "conforma/policy",
-            "number": 1867,
-            "author": "st3penta",
-            "engaged_at": "2026-10-05T12:26:08Z"
-          },
-          {
-            "title": "chore: sync task and pipeline definitions to release-v0.6",
-            "url": "https://github.com/conforma/tekton-catalog/pull/285",
-            "repo": "conforma/tekton-catalog",
-            "number": 285,
-            "author": "github-actions",
-            "engaged_at": "2026-10-02T08:02:23Z"
-          },
-          {
-            "title": "chore: sync task and pipeline definitions to release-v0.5",
-            "url": "https://github.com/conforma/tekton-catalog/pull/284",
-            "repo": "conforma/tekton-catalog",
-            "number": 284,
-            "author": "github-actions",
-            "engaged_at": "2026-10-02T08:02:15Z"
-          },
-          {
-            "title": "chore: sync task and pipeline definitions to release-v0.4",
-            "url": "https://github.com/conforma/tekton-catalog/pull/283",
-            "repo": "conforma/tekton-catalog",
-            "number": 283,
-            "author": "github-actions",
-            "engaged_at": "2026-10-02T08:02:09Z"
-          },
-          {
-            "title": "chore: sync task and pipeline definitions to release-v0.2",
-            "url": "https://github.com/conforma/tekton-catalog/pull/282",
-            "repo": "conforma/tekton-catalog",
-            "number": 282,
-            "author": "github-actions",
-            "engaged_at": "2026-10-02T08:01:59Z"
-          },
-          {
-            "title": "chore: sync task and pipeline definitions to release-v0.1-alpha",
-            "url": "https://github.com/conforma/tekton-catalog/pull/281",
-            "repo": "conforma/tekton-catalog",
-            "number": 281,
-            "author": "github-actions",
-            "engaged_at": "2026-10-02T08:01:49Z"
-          },
-          {
-            "title": "docs(#1820): document test attestation input contract in AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1821",
-            "repo": "conforma/policy",
-            "number": 1821,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-10-01T13:33:03Z"
-          },
-          {
-            "title": "test(#3515): increase unit test timeout to 30s",
-            "url": "https://github.com/conforma/cli/pull/3576",
-            "repo": "conforma/cli",
-            "number": 3576,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-10-01T10:02:00Z"
-          },
-          {
-            "title": "fix: use pinned sha for label-pr-size",
-            "url": "https://github.com/conforma/go-containerregistry/pull/25",
-            "repo": "conforma/go-containerregistry",
-            "number": 25,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-30T13:12:13Z"
-          },
-          {
-            "title": "fix: use pinned sha for action/stale",
-            "url": "https://github.com/conforma/go-containerregistry/pull/24",
-            "repo": "conforma/go-containerregistry",
-            "number": 24,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-30T13:08:14Z"
-          },
-          {
-            "title": "docs(#1797): add product and tool name casing conventions",
-            "url": "https://github.com/conforma/policy/pull/1798",
-            "repo": "conforma/policy",
-            "number": 1798,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-30T12:03:28Z"
-          },
-          {
-            "title": "Update github/codeql-action action to v4.38.2 (main)",
-            "url": "https://github.com/conforma/review-rot/pull/266",
-            "repo": "conforma/review-rot",
-            "number": 266,
-            "author": "renovate",
-            "engaged_at": "2026-09-30T08:33:08Z"
-          },
-          {
-            "title": "Update github/codeql-action action to v4.38.2 (main)",
-            "url": "https://github.com/conforma/policy/pull/1863",
-            "repo": "conforma/policy",
-            "number": 1863,
-            "author": "renovate",
-            "engaged_at": "2026-09-30T08:32:44Z"
-          },
-          {
-            "title": "Update github/codeql-action action to v4.38.2 (main)",
-            "url": "https://github.com/conforma/golden-container/pull/1520",
-            "repo": "conforma/golden-container",
-            "number": 1520,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-09-30T08:32:29Z"
-          },
-          {
-            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
-            "url": "https://github.com/conforma/user-guide/pull/262",
-            "repo": "conforma/user-guide",
-            "number": 262,
-            "author": "renovate",
-            "engaged_at": "2026-09-30T08:10:47Z"
-          },
-          {
-            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
-            "url": "https://github.com/conforma/conforma.github.io/pull/575",
-            "repo": "conforma/conforma.github.io",
-            "number": 575,
-            "author": "renovate",
-            "engaged_at": "2026-09-30T08:10:40Z"
-          },
-          {
-            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
-            "url": "https://github.com/conforma/policy/pull/1860",
-            "repo": "conforma/policy",
-            "number": 1860,
-            "author": "renovate",
-            "engaged_at": "2026-09-30T08:10:33Z"
-          },
-          {
-            "title": "Pin dependencies (main)",
-            "url": "https://github.com/conforma/cli/pull/3572",
-            "repo": "conforma/cli",
-            "number": 3572,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-09-30T08:10:25Z"
-          },
-          {
-            "title": "Update github/codeql-action action to v4.38.2 (main)",
-            "url": "https://github.com/conforma/config/pull/244",
-            "repo": "conforma/config",
-            "number": 244,
-            "author": "renovate",
-            "engaged_at": "2026-09-30T08:05:03Z"
-          },
-          {
-            "title": "fix(deps): update codecov/codecov-action action to v7.1.1 (main)",
-            "url": "https://github.com/conforma/go-gather/pull/348",
-            "repo": "conforma/go-gather",
-            "number": 348,
-            "author": "renovate",
-            "engaged_at": "2026-09-30T08:03:14Z"
-          },
-          {
-            "title": "fix(deps): update github/codeql-action action to v4.38.2 (main)",
-            "url": "https://github.com/conforma/go-gather/pull/349",
-            "repo": "conforma/go-gather",
-            "number": 349,
-            "author": "renovate",
-            "engaged_at": "2026-09-29T12:06:17Z"
-          },
-          {
-            "title": "Add DevConf.US 2026 talk to resources and blog",
-            "url": "https://github.com/conforma/conforma.github.io/pull/577",
-            "repo": "conforma/conforma.github.io",
-            "number": 577,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-09-29T08:53:44Z"
-          },
-          {
-            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to beeada7 (main)",
-            "url": "https://github.com/conforma/golden-container/pull/1508",
-            "repo": "conforma/golden-container",
-            "number": 1508,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-09-29T08:53:30Z"
-          },
-          {
-            "title": "Update github/codeql-action action to v4.38.1 (main)",
-            "url": "https://github.com/conforma/hacks/pull/220",
-            "repo": "conforma/hacks",
-            "number": 220,
-            "author": "renovate",
-            "engaged_at": "2026-09-24T12:20:51Z"
-          },
-          {
-            "title": "Update github/codeql-action action to v4.38.1 (main)",
-            "url": "https://github.com/conforma/crds/pull/38",
-            "repo": "conforma/crds",
-            "number": 38,
-            "author": "renovate",
-            "engaged_at": "2026-09-24T12:19:35Z"
-          },
-          {
-            "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
-            "url": "https://github.com/conforma/review-rot/pull/246",
-            "repo": "conforma/review-rot",
-            "number": 246,
-            "author": "renovate",
-            "engaged_at": "2026-09-24T12:19:22Z"
-          },
-          {
-            "title": "Disable org-level config",
-            "url": "https://github.com/conforma/.fullsend/pull/17",
-            "repo": "conforma/.fullsend",
-            "number": 17,
-            "author": "st3penta",
-            "engaged_at": "2026-09-23T09:00:49Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
-            "url": "https://github.com/conforma/cli/pull/3581",
-            "repo": "conforma/cli",
-            "number": 3581,
-            "author": "st3penta",
-            "engaged_at": "2026-09-22T14:32:03Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image (release-v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3580",
-            "repo": "conforma/cli",
-            "number": 3580,
-            "author": "st3penta",
-            "engaged_at": "2026-09-22T14:32:00Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3579",
-            "repo": "conforma/cli",
-            "number": 3579,
-            "author": "st3penta",
-            "engaged_at": "2026-09-22T14:31:56Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image (main)",
-            "url": "https://github.com/conforma/cli/pull/3578",
-            "repo": "conforma/cli",
-            "number": 3578,
-            "author": "st3penta",
-            "engaged_at": "2026-09-22T14:31:53Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/config/pull/242",
-            "repo": "conforma/config",
-            "number": 242,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:24:45Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/.github/pull/92",
-            "repo": "conforma/.github",
-            "number": 92,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:24:41Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/tekton-catalog/pull/273",
-            "repo": "conforma/tekton-catalog",
-            "number": 273,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:24:37Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/hacks/pull/219",
-            "repo": "conforma/hacks",
-            "number": 219,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:24:34Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/237",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 237,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:24:30Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/policy-builder/pull/65",
-            "repo": "conforma/policy-builder",
-            "number": 65,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:24:26Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/conforma.github.io/pull/572",
-            "repo": "conforma/conforma.github.io",
-            "number": 572,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:24:22Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/crds/pull/37",
-            "repo": "conforma/crds",
-            "number": 37,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:24:16Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/user-guide/pull/258",
-            "repo": "conforma/user-guide",
-            "number": 258,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:24:13Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/golden-container/pull/1517",
-            "repo": "conforma/golden-container",
-            "number": 1517,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:24:08Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/policy/pull/1857",
-            "repo": "conforma/policy",
-            "number": 1857,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:24:05Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/cli/pull/3577",
-            "repo": "conforma/cli",
-            "number": 3577,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:53Z"
-          },
-          {
-            "title": "🚨 Update actions/checkout action to v7 (main)",
-            "url": "https://github.com/conforma/.fullsend/pull/14",
-            "repo": "conforma/.fullsend",
-            "number": 14,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:54:35Z"
-          },
-          {
-            "title": "🚨 Update actions/checkout action to v7 (main)",
-            "url": "https://github.com/conforma/golden-rpm/pull/22",
-            "repo": "conforma/golden-rpm",
-            "number": 22,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:54:00Z"
-          },
-          {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/action-validate-image/pull/440",
-            "repo": "conforma/action-validate-image",
-            "number": 440,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:53:38Z"
-          },
-          {
-            "title": "🚨 Update github actions to v7 (release-v0.7)",
-            "url": "https://github.com/conforma/tekton-catalog/pull/243",
-            "repo": "conforma/tekton-catalog",
-            "number": 243,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:53:19Z"
-          },
-          {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/golden-container/pull/1495",
-            "repo": "conforma/golden-container",
-            "number": 1495,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:53:06Z"
-          },
-          {
-            "title": "docs(EC-2103): fix stale trusted_task_rules architecture in THREAT_MODEL.md",
-            "url": "https://github.com/conforma/policy/pull/1847",
-            "repo": "conforma/policy",
-            "number": 1847,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-09-15T13:14:36Z"
-          },
-          {
-            "title": "🚨 Update github actions to v7 (main)",
-            "url": "https://github.com/conforma/review-rot/pull/247",
-            "repo": "conforma/review-rot",
-            "number": 247,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T13:05:04Z"
-          },
-          {
-            "title": "chore: sync task and pipeline definitions to main",
-            "url": "https://github.com/conforma/tekton-catalog/pull/264",
-            "repo": "conforma/tekton-catalog",
-            "number": 264,
-            "author": "github-actions",
-            "engaged_at": "2026-09-15T11:32:26Z"
-          },
-          {
-            "title": "Update github actions (release-v0.5) (patch) - abandoned",
-            "url": "https://github.com/conforma/tekton-catalog/pull/229",
-            "repo": "conforma/tekton-catalog",
-            "number": 229,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T11:15:05Z"
-          },
-          {
-            "title": "Update github actions (release-v0.5) (minor) - abandoned",
-            "url": "https://github.com/conforma/tekton-catalog/pull/230",
-            "repo": "conforma/tekton-catalog",
-            "number": 230,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T11:15:01Z"
-          },
-          {
-            "title": "🚨 Update github actions (release-v0.5) (major) - abandoned",
-            "url": "https://github.com/conforma/tekton-catalog/pull/231",
-            "repo": "conforma/tekton-catalog",
-            "number": 231,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T11:14:58Z"
-          },
-          {
-            "title": "Update github actions (release-v0.6) (minor) - abandoned",
-            "url": "https://github.com/conforma/tekton-catalog/pull/237",
-            "repo": "conforma/tekton-catalog",
-            "number": 237,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T11:14:53Z"
-          },
-          {
-            "title": "🚨 Update actions/upload-artifact action to v7 (release-v0.6) - abandoned",
-            "url": "https://github.com/conforma/tekton-catalog/pull/240",
-            "repo": "conforma/tekton-catalog",
-            "number": 240,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T11:14:49Z"
-          },
-          {
-            "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
-            "url": "https://github.com/conforma/e2e-tests/pull/20",
-            "repo": "conforma/e2e-tests",
-            "number": 20,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T08:54:09Z"
-          },
-          {
-            "title": "fix(deps): update github/codeql-action action to v4.38.0 (main)",
-            "url": "https://github.com/conforma/go-gather/pull/347",
-            "repo": "conforma/go-gather",
-            "number": 347,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T08:52:43Z"
-          },
-          {
-            "title": "docs(EC-2104): add THREAT_MODEL.md to change checklist for trust-boundary modifications",
-            "url": "https://github.com/conforma/policy/pull/1851",
-            "repo": "conforma/policy",
-            "number": 1851,
-            "author": "BohdanMar",
-            "engaged_at": "2026-09-15T08:44:02Z"
-          },
-          {
-            "title": "docs(policy): document signing identity configuration",
-            "url": "https://github.com/conforma/policy/pull/1848",
-            "repo": "conforma/policy",
-            "number": 1848,
-            "author": "joejstuart",
-            "engaged_at": "2026-09-15T08:30:37Z"
-          },
-          {
-            "title": "docs(EC-2039): document expected skill format in AGENTS.md",
-            "url": "https://github.com/conforma/cli/pull/3540",
-            "repo": "conforma/cli",
-            "number": 3540,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-09-14T11:46:03Z"
-          },
-          {
-            "title": "Find roxctl reports also using benchmark offliner",
-            "url": "https://github.com/conforma/cli/pull/3530",
-            "repo": "conforma/cli",
-            "number": 3530,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-14T11:38:51Z"
-          },
-          {
-            "title": "fix(#3394): add explicit gomod fileMatch for all go.mod files",
-            "url": "https://github.com/conforma/cli/pull/3395",
-            "repo": "conforma/cli",
-            "number": 3395,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-08T10:43:20Z"
-          },
-          {
-            "title": "Update dependency golang to v1.25.14 (main)",
-            "url": "https://github.com/conforma/policy/pull/1695",
-            "repo": "conforma/policy",
-            "number": 1695,
-            "author": "renovate",
-            "engaged_at": "2026-09-08T10:30:03Z"
-          },
-          {
-            "title": "docs(#1772): document dual test-result architecture and trust chain",
-            "url": "https://github.com/conforma/policy/pull/1773",
-            "repo": "conforma/policy",
-            "number": 1773,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-08T08:53:46Z"
-          },
-          {
-            "title": "Update npm dependencies (main) (minor)",
-            "url": "https://github.com/conforma/policy-builder/pull/43",
-            "repo": "conforma/policy-builder",
-            "number": 43,
-            "author": "renovate",
-            "engaged_at": "2026-09-08T08:24:49Z"
-          },
-          {
-            "title": "Update Konflux references (main)",
-            "url": "https://github.com/conforma/golden-container/pull/1496",
-            "repo": "conforma/golden-container",
-            "number": 1496,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-08-26T14:49:32Z"
-          },
-          {
-            "title": "Restrict reviewer leaderboard to configured team members",
-            "url": "https://github.com/conforma/review-rot/pull/251",
-            "repo": "conforma/review-rot",
-            "number": 251,
-            "author": "st3penta",
-            "engaged_at": "2026-08-19T14:56:20Z"
-          },
-          {
-            "title": "Add reviewer leaderboard tab",
-            "url": "https://github.com/conforma/review-rot/pull/250",
-            "repo": "conforma/review-rot",
-            "number": 250,
-            "author": "st3penta",
-            "engaged_at": "2026-08-19T13:11:16Z"
-          },
-          {
-            "title": "docs(#1784): correct collection-registration guidance in AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1785",
-            "repo": "conforma/policy",
-            "number": 1785,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-18T10:57:43Z"
-          },
-          {
-            "title": "feat(EC-2031): remove data.trusted_task_rules in favor of rule_data only",
-            "url": "https://github.com/conforma/policy/pull/1806",
-            "repo": "conforma/policy",
-            "number": 1806,
-            "author": "BohdanMar",
-            "engaged_at": "2026-08-13T11:00:24Z"
-          },
-          {
-            "title": "docs(#1776): add collection change pattern to AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1777",
-            "repo": "conforma/policy",
-            "number": 1777,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-06T12:16:19Z"
-          },
-          {
-            "title": "docs(#1782): fix make ci description in AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1783",
-            "repo": "conforma/policy",
-            "number": 1783,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-06T11:48:56Z"
-          },
-          {
-            "title": "feat(EC-1941): add enterprise-contract pipeline definition",
-            "url": "https://github.com/conforma/cli/pull/3416",
-            "repo": "conforma/cli",
-            "number": 3416,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-04T09:07:57Z"
-          },
-          {
-            "title": "docs(EC-1980): add product naming guidance to AGENTS.md",
-            "url": "https://github.com/conforma/cli/pull/3457",
-            "repo": "conforma/cli",
-            "number": 3457,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-08-04T09:02:13Z"
-          },
-          {
-            "title": "docs(EC-1932): add Rego evaluation model guidance to AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1790",
-            "repo": "conforma/policy",
-            "number": 1790,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-08-04T08:54:58Z"
-          },
-          {
-            "title": "chore(deps): Remove Renovate annotations from .tekton files",
-            "url": "https://github.com/conforma/cli/pull/3439",
-            "repo": "conforma/cli",
-            "number": 3439,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-07-28T14:27:43Z"
-          }
-        ]
-      },
-      {
         "login": "st3penta",
         "reviews": 94,
         "prs": [
@@ -8874,6 +8119,756 @@
             "number": 3386,
             "author": "simonbaird",
             "engaged_at": "2026-07-13T09:50:45Z"
+          }
+        ]
+      },
+      {
+        "login": "jsmid1",
+        "reviews": 93,
+        "prs": [
+          {
+            "title": "Set Codecov coverage targets to 100%",
+            "url": "https://github.com/conforma/policy/pull/1868",
+            "repo": "conforma/policy",
+            "number": 1868,
+            "author": "st3penta",
+            "engaged_at": "2026-10-08T10:51:30Z"
+          },
+          {
+            "title": "Update module github.com/tektoncd/pipeline to v1.12.2 (main)",
+            "url": "https://github.com/conforma/cli/pull/3369",
+            "repo": "conforma/cli",
+            "number": 3369,
+            "author": "renovate",
+            "engaged_at": "2026-10-07T13:04:24Z"
+          },
+          {
+            "title": "fix: switch to GitHub Actions deployment for Pages",
+            "url": "https://github.com/conforma/review-rot/pull/259",
+            "repo": "conforma/review-rot",
+            "number": 259,
+            "author": "lance",
+            "engaged_at": "2026-10-07T10:06:13Z"
+          },
+          {
+            "title": "feat(ci): check new policy rule lead time on release PRs",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/243",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 243,
+            "author": "joejstuart",
+            "engaged_at": "2026-10-07T09:59:14Z"
+          },
+          {
+            "title": "docs(#3503): document RPM lockfile scope for UBI bump PRs",
+            "url": "https://github.com/conforma/cli/pull/3575",
+            "repo": "conforma/cli",
+            "number": 3575,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-10-07T09:36:36Z"
+          },
+          {
+            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 5ed244b (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1525",
+            "repo": "conforma/golden-container",
+            "number": 1525,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-10-07T08:40:28Z"
+          },
+          {
+            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 5ed244b (main)",
+            "url": "https://github.com/conforma/cli/pull/3593",
+            "repo": "conforma/cli",
+            "number": 3593,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-10-07T08:33:25Z"
+          },
+          {
+            "title": "Pin Fullsend references to upstream commits",
+            "url": "https://github.com/conforma/cli/pull/3599",
+            "repo": "conforma/cli",
+            "number": 3599,
+            "author": "st3penta",
+            "engaged_at": "2026-10-07T08:15:00Z"
+          },
+          {
+            "title": "Pin Fullsend references to upstream commits",
+            "url": "https://github.com/conforma/conforma.github.io/pull/581",
+            "repo": "conforma/conforma.github.io",
+            "number": 581,
+            "author": "st3penta",
+            "engaged_at": "2026-10-07T08:14:37Z"
+          },
+          {
+            "title": "Pin Fullsend references to upstream commits",
+            "url": "https://github.com/conforma/user-guide/pull/267",
+            "repo": "conforma/user-guide",
+            "number": 267,
+            "author": "st3penta",
+            "engaged_at": "2026-10-07T08:13:25Z"
+          },
+          {
+            "title": "docs(#566): document video embed convention for resource entries",
+            "url": "https://github.com/conforma/conforma.github.io/pull/567",
+            "repo": "conforma/conforma.github.io",
+            "number": 567,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-10-06T09:25:55Z"
+          },
+          {
+            "title": "Update go toolchain directive to v1.27.1 (release-v0.8)",
+            "url": "https://github.com/conforma/policy/pull/1841",
+            "repo": "conforma/policy",
+            "number": 1841,
+            "author": "renovate",
+            "engaged_at": "2026-10-06T08:56:56Z"
+          },
+          {
+            "title": "🚨 Update actions/checkout action to v7 (main)",
+            "url": "https://github.com/conforma/user-guide/pull/255",
+            "repo": "conforma/user-guide",
+            "number": 255,
+            "author": "renovate",
+            "engaged_at": "2026-10-06T08:56:36Z"
+          },
+          {
+            "title": "🚨 Update actions/checkout action to v7 (main)",
+            "url": "https://github.com/conforma/step-actions/pull/18",
+            "repo": "conforma/step-actions",
+            "number": 18,
+            "author": "renovate",
+            "engaged_at": "2026-10-06T08:54:11Z"
+          },
+          {
+            "title": "Count head approvals and outstanding review requests",
+            "url": "https://github.com/conforma/review-rot/pull/265",
+            "repo": "conforma/review-rot",
+            "number": 265,
+            "author": "st3penta",
+            "engaged_at": "2026-10-06T08:52:34Z"
+          },
+          {
+            "title": "Add Codecov configuration (100% project and patch coverage)",
+            "url": "https://github.com/conforma/policy/pull/1840",
+            "repo": "conforma/policy",
+            "number": 1840,
+            "author": "eedri",
+            "engaged_at": "2026-10-06T08:38:33Z"
+          },
+          {
+            "title": "Pin Fullsend references to upstream commits",
+            "url": "https://github.com/conforma/policy/pull/1867",
+            "repo": "conforma/policy",
+            "number": 1867,
+            "author": "st3penta",
+            "engaged_at": "2026-10-05T12:26:08Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to release-v0.6",
+            "url": "https://github.com/conforma/tekton-catalog/pull/285",
+            "repo": "conforma/tekton-catalog",
+            "number": 285,
+            "author": "github-actions",
+            "engaged_at": "2026-10-02T08:02:23Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to release-v0.5",
+            "url": "https://github.com/conforma/tekton-catalog/pull/284",
+            "repo": "conforma/tekton-catalog",
+            "number": 284,
+            "author": "github-actions",
+            "engaged_at": "2026-10-02T08:02:15Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to release-v0.4",
+            "url": "https://github.com/conforma/tekton-catalog/pull/283",
+            "repo": "conforma/tekton-catalog",
+            "number": 283,
+            "author": "github-actions",
+            "engaged_at": "2026-10-02T08:02:09Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to release-v0.2",
+            "url": "https://github.com/conforma/tekton-catalog/pull/282",
+            "repo": "conforma/tekton-catalog",
+            "number": 282,
+            "author": "github-actions",
+            "engaged_at": "2026-10-02T08:01:59Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to release-v0.1-alpha",
+            "url": "https://github.com/conforma/tekton-catalog/pull/281",
+            "repo": "conforma/tekton-catalog",
+            "number": 281,
+            "author": "github-actions",
+            "engaged_at": "2026-10-02T08:01:49Z"
+          },
+          {
+            "title": "docs(#1820): document test attestation input contract in AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1821",
+            "repo": "conforma/policy",
+            "number": 1821,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-10-01T13:33:03Z"
+          },
+          {
+            "title": "test(#3515): increase unit test timeout to 30s",
+            "url": "https://github.com/conforma/cli/pull/3576",
+            "repo": "conforma/cli",
+            "number": 3576,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-10-01T10:02:00Z"
+          },
+          {
+            "title": "fix: use pinned sha for label-pr-size",
+            "url": "https://github.com/conforma/go-containerregistry/pull/25",
+            "repo": "conforma/go-containerregistry",
+            "number": 25,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-30T13:12:13Z"
+          },
+          {
+            "title": "fix: use pinned sha for action/stale",
+            "url": "https://github.com/conforma/go-containerregistry/pull/24",
+            "repo": "conforma/go-containerregistry",
+            "number": 24,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-30T13:08:14Z"
+          },
+          {
+            "title": "docs(#1797): add product and tool name casing conventions",
+            "url": "https://github.com/conforma/policy/pull/1798",
+            "repo": "conforma/policy",
+            "number": 1798,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-30T12:03:28Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.2 (main)",
+            "url": "https://github.com/conforma/review-rot/pull/266",
+            "repo": "conforma/review-rot",
+            "number": 266,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:33:08Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.2 (main)",
+            "url": "https://github.com/conforma/policy/pull/1863",
+            "repo": "conforma/policy",
+            "number": 1863,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:32:44Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.2 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1520",
+            "repo": "conforma/golden-container",
+            "number": 1520,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-30T08:32:29Z"
+          },
+          {
+            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+            "url": "https://github.com/conforma/user-guide/pull/262",
+            "repo": "conforma/user-guide",
+            "number": 262,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:10:47Z"
+          },
+          {
+            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+            "url": "https://github.com/conforma/conforma.github.io/pull/575",
+            "repo": "conforma/conforma.github.io",
+            "number": 575,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:10:40Z"
+          },
+          {
+            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+            "url": "https://github.com/conforma/policy/pull/1860",
+            "repo": "conforma/policy",
+            "number": 1860,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:10:33Z"
+          },
+          {
+            "title": "Pin dependencies (main)",
+            "url": "https://github.com/conforma/cli/pull/3572",
+            "repo": "conforma/cli",
+            "number": 3572,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-30T08:10:25Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.2 (main)",
+            "url": "https://github.com/conforma/config/pull/244",
+            "repo": "conforma/config",
+            "number": 244,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:05:03Z"
+          },
+          {
+            "title": "fix(deps): update codecov/codecov-action action to v7.1.1 (main)",
+            "url": "https://github.com/conforma/go-gather/pull/348",
+            "repo": "conforma/go-gather",
+            "number": 348,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:03:14Z"
+          },
+          {
+            "title": "fix(deps): update github/codeql-action action to v4.38.2 (main)",
+            "url": "https://github.com/conforma/go-gather/pull/349",
+            "repo": "conforma/go-gather",
+            "number": 349,
+            "author": "renovate",
+            "engaged_at": "2026-09-29T12:06:17Z"
+          },
+          {
+            "title": "Add DevConf.US 2026 talk to resources and blog",
+            "url": "https://github.com/conforma/conforma.github.io/pull/577",
+            "repo": "conforma/conforma.github.io",
+            "number": 577,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-29T08:53:44Z"
+          },
+          {
+            "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to beeada7 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1508",
+            "repo": "conforma/golden-container",
+            "number": 1508,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-29T08:53:30Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.1 (main)",
+            "url": "https://github.com/conforma/hacks/pull/220",
+            "repo": "conforma/hacks",
+            "number": 220,
+            "author": "renovate",
+            "engaged_at": "2026-09-24T12:20:51Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.1 (main)",
+            "url": "https://github.com/conforma/crds/pull/38",
+            "repo": "conforma/crds",
+            "number": 38,
+            "author": "renovate",
+            "engaged_at": "2026-09-24T12:19:35Z"
+          },
+          {
+            "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
+            "url": "https://github.com/conforma/review-rot/pull/246",
+            "repo": "conforma/review-rot",
+            "number": 246,
+            "author": "renovate",
+            "engaged_at": "2026-09-24T12:19:22Z"
+          },
+          {
+            "title": "Disable org-level config",
+            "url": "https://github.com/conforma/.fullsend/pull/17",
+            "repo": "conforma/.fullsend",
+            "number": 17,
+            "author": "st3penta",
+            "engaged_at": "2026-09-23T09:00:49Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3581",
+            "repo": "conforma/cli",
+            "number": 3581,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:32:03Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3580",
+            "repo": "conforma/cli",
+            "number": 3580,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:32:00Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3579",
+            "repo": "conforma/cli",
+            "number": 3579,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:31:56Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (main)",
+            "url": "https://github.com/conforma/cli/pull/3578",
+            "repo": "conforma/cli",
+            "number": 3578,
+            "author": "st3penta",
+            "engaged_at": "2026-09-22T14:31:53Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/config/pull/242",
+            "repo": "conforma/config",
+            "number": 242,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:45Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/.github/pull/92",
+            "repo": "conforma/.github",
+            "number": 92,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:41Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/tekton-catalog/pull/273",
+            "repo": "conforma/tekton-catalog",
+            "number": 273,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:37Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/hacks/pull/219",
+            "repo": "conforma/hacks",
+            "number": 219,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:34Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/237",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 237,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:30Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/policy-builder/pull/65",
+            "repo": "conforma/policy-builder",
+            "number": 65,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:26Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/conforma.github.io/pull/572",
+            "repo": "conforma/conforma.github.io",
+            "number": 572,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:22Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/crds/pull/37",
+            "repo": "conforma/crds",
+            "number": 37,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:16Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/user-guide/pull/258",
+            "repo": "conforma/user-guide",
+            "number": 258,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:13Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/golden-container/pull/1517",
+            "repo": "conforma/golden-container",
+            "number": 1517,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:08Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/policy/pull/1857",
+            "repo": "conforma/policy",
+            "number": 1857,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:24:05Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/cli/pull/3577",
+            "repo": "conforma/cli",
+            "number": 3577,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:53Z"
+          },
+          {
+            "title": "🚨 Update actions/checkout action to v7 (main)",
+            "url": "https://github.com/conforma/.fullsend/pull/14",
+            "repo": "conforma/.fullsend",
+            "number": 14,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:54:35Z"
+          },
+          {
+            "title": "🚨 Update actions/checkout action to v7 (main)",
+            "url": "https://github.com/conforma/golden-rpm/pull/22",
+            "repo": "conforma/golden-rpm",
+            "number": 22,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:54:00Z"
+          },
+          {
+            "title": "🚨 Update github actions (main) (major)",
+            "url": "https://github.com/conforma/action-validate-image/pull/440",
+            "repo": "conforma/action-validate-image",
+            "number": 440,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:53:38Z"
+          },
+          {
+            "title": "🚨 Update github actions to v7 (release-v0.7)",
+            "url": "https://github.com/conforma/tekton-catalog/pull/243",
+            "repo": "conforma/tekton-catalog",
+            "number": 243,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:53:19Z"
+          },
+          {
+            "title": "🚨 Update github actions (main) (major)",
+            "url": "https://github.com/conforma/golden-container/pull/1495",
+            "repo": "conforma/golden-container",
+            "number": 1495,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:53:06Z"
+          },
+          {
+            "title": "docs(EC-2103): fix stale trusted_task_rules architecture in THREAT_MODEL.md",
+            "url": "https://github.com/conforma/policy/pull/1847",
+            "repo": "conforma/policy",
+            "number": 1847,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-15T13:14:36Z"
+          },
+          {
+            "title": "🚨 Update github actions to v7 (main)",
+            "url": "https://github.com/conforma/review-rot/pull/247",
+            "repo": "conforma/review-rot",
+            "number": 247,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T13:05:04Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to main",
+            "url": "https://github.com/conforma/tekton-catalog/pull/264",
+            "repo": "conforma/tekton-catalog",
+            "number": 264,
+            "author": "github-actions",
+            "engaged_at": "2026-09-15T11:32:26Z"
+          },
+          {
+            "title": "Update github actions (release-v0.5) (patch) - abandoned",
+            "url": "https://github.com/conforma/tekton-catalog/pull/229",
+            "repo": "conforma/tekton-catalog",
+            "number": 229,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T11:15:05Z"
+          },
+          {
+            "title": "Update github actions (release-v0.5) (minor) - abandoned",
+            "url": "https://github.com/conforma/tekton-catalog/pull/230",
+            "repo": "conforma/tekton-catalog",
+            "number": 230,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T11:15:01Z"
+          },
+          {
+            "title": "🚨 Update github actions (release-v0.5) (major) - abandoned",
+            "url": "https://github.com/conforma/tekton-catalog/pull/231",
+            "repo": "conforma/tekton-catalog",
+            "number": 231,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T11:14:58Z"
+          },
+          {
+            "title": "Update github actions (release-v0.6) (minor) - abandoned",
+            "url": "https://github.com/conforma/tekton-catalog/pull/237",
+            "repo": "conforma/tekton-catalog",
+            "number": 237,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T11:14:53Z"
+          },
+          {
+            "title": "🚨 Update actions/upload-artifact action to v7 (release-v0.6) - abandoned",
+            "url": "https://github.com/conforma/tekton-catalog/pull/240",
+            "repo": "conforma/tekton-catalog",
+            "number": 240,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T11:14:49Z"
+          },
+          {
+            "title": "Update conforma/pr-size-label-action action to v1.2.0 (main)",
+            "url": "https://github.com/conforma/e2e-tests/pull/20",
+            "repo": "conforma/e2e-tests",
+            "number": 20,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T08:54:09Z"
+          },
+          {
+            "title": "fix(deps): update github/codeql-action action to v4.38.0 (main)",
+            "url": "https://github.com/conforma/go-gather/pull/347",
+            "repo": "conforma/go-gather",
+            "number": 347,
+            "author": "renovate",
+            "engaged_at": "2026-09-15T08:52:43Z"
+          },
+          {
+            "title": "docs(EC-2104): add THREAT_MODEL.md to change checklist for trust-boundary modifications",
+            "url": "https://github.com/conforma/policy/pull/1851",
+            "repo": "conforma/policy",
+            "number": 1851,
+            "author": "BohdanMar",
+            "engaged_at": "2026-09-15T08:44:02Z"
+          },
+          {
+            "title": "docs(policy): document signing identity configuration",
+            "url": "https://github.com/conforma/policy/pull/1848",
+            "repo": "conforma/policy",
+            "number": 1848,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-15T08:30:37Z"
+          },
+          {
+            "title": "docs(EC-2039): document expected skill format in AGENTS.md",
+            "url": "https://github.com/conforma/cli/pull/3540",
+            "repo": "conforma/cli",
+            "number": 3540,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-14T11:46:03Z"
+          },
+          {
+            "title": "Find roxctl reports also using benchmark offliner",
+            "url": "https://github.com/conforma/cli/pull/3530",
+            "repo": "conforma/cli",
+            "number": 3530,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-14T11:38:51Z"
+          },
+          {
+            "title": "fix(#3394): add explicit gomod fileMatch for all go.mod files",
+            "url": "https://github.com/conforma/cli/pull/3395",
+            "repo": "conforma/cli",
+            "number": 3395,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-08T10:43:20Z"
+          },
+          {
+            "title": "Update dependency golang to v1.25.14 (main)",
+            "url": "https://github.com/conforma/policy/pull/1695",
+            "repo": "conforma/policy",
+            "number": 1695,
+            "author": "renovate",
+            "engaged_at": "2026-09-08T10:30:03Z"
+          },
+          {
+            "title": "docs(#1772): document dual test-result architecture and trust chain",
+            "url": "https://github.com/conforma/policy/pull/1773",
+            "repo": "conforma/policy",
+            "number": 1773,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-08T08:53:46Z"
+          },
+          {
+            "title": "Update npm dependencies (main) (minor)",
+            "url": "https://github.com/conforma/policy-builder/pull/43",
+            "repo": "conforma/policy-builder",
+            "number": 43,
+            "author": "renovate",
+            "engaged_at": "2026-09-08T08:24:49Z"
+          },
+          {
+            "title": "Update Konflux references (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1496",
+            "repo": "conforma/golden-container",
+            "number": 1496,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-08-26T14:49:32Z"
+          },
+          {
+            "title": "Restrict reviewer leaderboard to configured team members",
+            "url": "https://github.com/conforma/review-rot/pull/251",
+            "repo": "conforma/review-rot",
+            "number": 251,
+            "author": "st3penta",
+            "engaged_at": "2026-08-19T14:56:20Z"
+          },
+          {
+            "title": "Add reviewer leaderboard tab",
+            "url": "https://github.com/conforma/review-rot/pull/250",
+            "repo": "conforma/review-rot",
+            "number": 250,
+            "author": "st3penta",
+            "engaged_at": "2026-08-19T13:11:16Z"
+          },
+          {
+            "title": "docs(#1784): correct collection-registration guidance in AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1785",
+            "repo": "conforma/policy",
+            "number": 1785,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-18T10:57:43Z"
+          },
+          {
+            "title": "feat(EC-2031): remove data.trusted_task_rules in favor of rule_data only",
+            "url": "https://github.com/conforma/policy/pull/1806",
+            "repo": "conforma/policy",
+            "number": 1806,
+            "author": "BohdanMar",
+            "engaged_at": "2026-08-13T11:00:24Z"
+          },
+          {
+            "title": "docs(#1776): add collection change pattern to AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1777",
+            "repo": "conforma/policy",
+            "number": 1777,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-06T12:16:19Z"
+          },
+          {
+            "title": "docs(#1782): fix make ci description in AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1783",
+            "repo": "conforma/policy",
+            "number": 1783,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-06T11:48:56Z"
+          },
+          {
+            "title": "feat(EC-1941): add enterprise-contract pipeline definition",
+            "url": "https://github.com/conforma/cli/pull/3416",
+            "repo": "conforma/cli",
+            "number": 3416,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-04T09:07:57Z"
+          },
+          {
+            "title": "docs(EC-1980): add product naming guidance to AGENTS.md",
+            "url": "https://github.com/conforma/cli/pull/3457",
+            "repo": "conforma/cli",
+            "number": 3457,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-08-04T09:02:13Z"
+          },
+          {
+            "title": "docs(EC-1932): add Rego evaluation model guidance to AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1790",
+            "repo": "conforma/policy",
+            "number": 1790,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-08-04T08:54:58Z"
+          },
+          {
+            "title": "chore(deps): Remove Renovate annotations from .tekton files",
+            "url": "https://github.com/conforma/cli/pull/3439",
+            "repo": "conforma/cli",
+            "number": 3439,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-07-28T14:27:43Z"
           }
         ]
       },
@@ -10687,16 +10682,8 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 29,
+        "reviews": 28,
         "prs": [
-          {
-            "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.7-1791275853 (main)",
-            "url": "https://github.com/conforma/cli/pull/3368",
-            "repo": "conforma/cli",
-            "number": 3368,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-10-08T13:15:27Z"
-          },
           {
             "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 5ed244b (main)",
             "url": "https://github.com/conforma/golden-container/pull/1525",
