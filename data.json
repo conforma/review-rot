@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T19:40:52.544766894Z",
+  "generated_at": "2026-10-09T20:11:26.253457295Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -704,7 +704,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-07T01:37:18Z",
-      "updated_at": "2026-10-09T02:37:36Z",
+      "updated_at": "2026-10-09T19:53:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1129,7 +1129,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-09T12:51:17Z",
+      "updated_at": "2026-10-09T19:55:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1160,7 +1160,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-10-09T13:05:34Z",
+      "updated_at": "2026-10-09T19:58:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1177,7 +1177,6 @@
         "main",
         "size: XXL",
         "Review effort 1/5",
-        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -1253,7 +1252,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-10-08T15:12:31Z",
+      "updated_at": "2026-10-09T19:58:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1315,7 +1314,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-10-09T13:10:06Z",
+      "updated_at": "2026-10-09T19:58:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1331,6 +1330,7 @@
         "renovate",
         "release-v0.7",
         "size: XXL",
+        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -2974,7 +2974,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-10-06T13:39:07Z",
-      "updated_at": "2026-10-08T14:18:55Z",
+      "updated_at": "2026-10-09T19:50:55Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4071,7 +4071,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-10-09T06:35:31Z",
+      "updated_at": "2026-10-09T20:06:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4572,7 +4572,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T19:37:35Z",
+    "since": "2026-07-11T20:08:28Z",
     "reviewers": [
       {
         "login": "robnester-rh",
