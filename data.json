@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T06:17:00.229185568Z",
+  "generated_at": "2026-10-09T07:00:23.955030533Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4071,7 +4071,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-10-08T12:51:26Z",
+      "updated_at": "2026-10-09T06:35:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4265,32 +4265,6 @@
       ]
     },
     {
-      "title": "Update module github.com/conforma/crds/api to v0.1.26 (main)",
-      "url": "https://github.com/conforma/e2e-tests/pull/34",
-      "number": 34,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-09T00:45:55Z",
-      "updated_at": "2026-10-09T00:46:20Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "Update fullsend-ai/fullsend digest to 3454a2e (main)",
       "url": "https://github.com/conforma/.fullsend/pull/15",
       "number": 15,
@@ -4325,7 +4299,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-10-08T04:28:03Z",
+      "updated_at": "2026-10-09T06:27:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4378,7 +4352,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-10-08T04:26:34Z",
+      "updated_at": "2026-10-09T06:25:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4404,7 +4378,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-10-08T04:26:41Z",
+      "updated_at": "2026-10-09T06:25:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4596,7 +4570,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T06:13:55Z",
+    "since": "2026-07-11T06:57:14Z",
     "reviewers": [
       {
         "login": "robnester-rh",
