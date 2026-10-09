@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T00:25:22.722751485Z",
+  "generated_at": "2026-10-09T01:20:43.980230621Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1130,7 +1130,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-08T19:38:03Z",
+      "updated_at": "2026-10-09T00:25:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4264,6 +4264,32 @@
       ]
     },
     {
+      "title": "Update module github.com/conforma/crds/api to v0.1.26 (main)",
+      "url": "https://github.com/conforma/e2e-tests/pull/34",
+      "number": 34,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-09T00:45:55Z",
+      "updated_at": "2026-10-09T00:46:20Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
+      ]
+    },
+    {
       "title": "Update fullsend-ai/fullsend digest to 3454a2e (main)",
       "url": "https://github.com/conforma/.fullsend/pull/15",
       "number": 15,
@@ -4569,7 +4595,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T00:22:31Z",
+    "since": "2026-07-11T01:17:53Z",
     "reviewers": [
       {
         "login": "robnester-rh",
