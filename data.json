@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T09:06:18.510678478Z",
+  "generated_at": "2026-10-12T09:59:26.641140804Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2948,10 +2948,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-10-05T09:49:23Z",
-      "updated_at": "2026-10-05T10:05:47Z",
+      "updated_at": "2026-10-12T09:53:59Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4612,7 +4612,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:36Z",
-      "updated_at": "2026-10-09T11:37:20Z",
+      "updated_at": "2026-10-12T09:12:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4703,7 +4703,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T09:02:59Z",
+    "since": "2026-07-14T09:56:11Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8173,7 +8173,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 93,
+        "reviews": 92,
         "prs": [
           {
             "title": "Harden Cloudflare preview deployments",
@@ -8910,14 +8910,6 @@
             "number": 3411,
             "author": "fullsend-ai-coder",
             "engaged_at": "2026-07-14T14:35:48Z"
-          },
-          {
-            "title": "fix(#3360): add missing \"go version\" group to Renovate config",
-            "url": "https://github.com/conforma/cli/pull/3361",
-            "repo": "conforma/cli",
-            "number": 3361,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-14T09:12:09Z"
           }
         ]
       },
