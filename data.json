@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T11:12:50.937410107Z",
+  "generated_at": "2026-10-12T11:43:22.047798176Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -52,7 +52,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-10-12T05:31:24Z",
+      "updated_at": "2026-10-12T11:13:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "title": "Update github actions (release-v0.7) (minor)",
+      "title": "Update github actions (release-v0.7)",
       "url": "https://github.com/conforma/policy/pull/1683",
       "number": 1683,
       "repo": "conforma/policy",
@@ -131,7 +131,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-11T09:54:23Z",
+      "updated_at": "2026-10-12T11:24:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -292,7 +292,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-10-11T09:54:35Z",
+      "updated_at": "2026-10-12T11:22:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -653,7 +653,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-10-12T05:31:31Z",
+      "updated_at": "2026-10-12T11:13:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3199,7 +3199,7 @@
       ]
     },
     {
-      "title": "Update step-security/harden-runner action to v2.22.0 (main)",
+      "title": "Update github actions (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/585",
       "number": 585,
       "repo": "conforma/conforma.github.io",
@@ -3208,10 +3208,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-12T02:27:12Z",
-      "updated_at": "2026-10-12T02:35:30Z",
+      "updated_at": "2026-10-12T11:17:05Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -3222,6 +3222,7 @@
         "main",
         "renovate",
         "size: XS",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -3428,7 +3429,7 @@
       ]
     },
     {
-      "title": "Update step-security/harden-runner action to v2.22.0 (main)",
+      "title": "Update github actions (main)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/246",
       "number": 246,
       "repo": "conforma/infra-deployments-ci",
@@ -3437,7 +3438,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-12T00:42:26Z",
-      "updated_at": "2026-10-12T04:53:33Z",
+      "updated_at": "2026-10-12T11:14:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4613,7 +4614,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:36Z",
-      "updated_at": "2026-10-12T10:55:19Z",
+      "updated_at": "2026-10-12T11:22:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4622,7 +4623,7 @@
         "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "approved",
         "environment/production",
@@ -4704,7 +4705,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T11:09:43Z",
+    "since": "2026-07-14T11:40:08Z",
     "reviewers": [
       {
         "login": "robnester-rh",
