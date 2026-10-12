@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T10:47:11.709707299Z",
+  "generated_at": "2026-10-12T11:12:50.937410107Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -831,7 +831,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/273475629?u=5bbc0cf2481fafd1d8dab028b432443effd05caf\u0026v=4"
       },
       "created_at": "2026-10-08T20:50:25Z",
-      "updated_at": "2026-10-08T20:51:26Z",
+      "updated_at": "2026-10-12T10:57:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4229,13 +4229,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-08T19:01:16Z",
-      "updated_at": "2026-10-11T12:31:00Z",
+      "updated_at": "2026-10-12T10:46:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4613,7 +4613,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:36Z",
-      "updated_at": "2026-10-12T10:38:22Z",
+      "updated_at": "2026-10-12T10:55:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4624,7 +4624,6 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "lgtm",
         "approved",
         "environment/production",
         "infra/hold-production",
@@ -4641,7 +4640,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:46Z",
-      "updated_at": "2026-10-12T10:16:32Z",
+      "updated_at": "2026-10-12T10:52:27Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4652,7 +4651,6 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "lgtm",
         "approved",
         "environment/production",
         "infra/hold-production",
@@ -4691,13 +4689,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-10-09T20:25:29Z",
-      "updated_at": "2026-10-11T12:26:44Z",
+      "updated_at": "2026-10-12T10:48:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4706,7 +4704,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T10:43:49Z",
+    "since": "2026-07-14T11:09:43Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7426,8 +7424,32 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 94,
+        "reviews": 97,
         "prs": [
+          {
+            "title": "Remove PRIVILEGED_NESTED deny rule from buildah_build_task",
+            "url": "https://github.com/conforma/policy/pull/1869",
+            "repo": "conforma/policy",
+            "number": 1869,
+            "author": "redhat-chai-bot",
+            "engaged_at": "2026-10-12T10:57:56Z"
+          },
+          {
+            "title": "Effectively anchor disallowed_platform_patterns regex",
+            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/288",
+            "repo": "release-engineering/rhtap-ec-policy",
+            "number": 288,
+            "author": "simonbaird",
+            "engaged_at": "2026-10-12T10:48:07Z"
+          },
+          {
+            "title": "Update Go dependencies with patched releases",
+            "url": "https://github.com/conforma/crds/pull/41",
+            "repo": "conforma/crds",
+            "number": 41,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-12T10:46:28Z"
+          },
           {
             "title": "fix(deps): update step-security/harden-runner action to v2.22.0 (main)",
             "url": "https://github.com/conforma/go-gather/pull/351",
