@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T01:27:21.893495851Z",
+  "generated_at": "2026-10-12T02:08:21.41720101Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1078,7 +1078,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-10-12T01:19:59Z",
+      "updated_at": "2026-10-12T01:57:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1505,7 +1505,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-10-11T02:04:37Z",
+      "updated_at": "2026-10-12T02:01:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1520,8 +1520,7 @@
         "go",
         "renovate",
         "main",
-        "size: XXL",
-        "risk/moderate"
+        "size: XXL"
       ]
     },
     {
@@ -3293,7 +3292,7 @@
       "updated_at": "2026-10-12T01:13:16Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -3319,7 +3318,7 @@
       "updated_at": "2026-10-12T01:11:40Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -3918,6 +3917,32 @@
       ]
     },
     {
+      "title": "Update dependency vite to v6.4.4 (main)",
+      "url": "https://github.com/conforma/policy-builder/pull/68",
+      "number": 68,
+      "repo": "conforma/policy-builder",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-12T01:53:12Z",
+      "updated_at": "2026-10-12T01:53:21Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "fix(deps): update go version to v1.27.1 (main)",
       "url": "https://github.com/conforma/go-gather/pull/315",
       "number": 315,
@@ -4401,6 +4426,31 @@
       "labels": []
     },
     {
+      "title": "Update step-security/harden-runner action to v2.22.0 (main)",
+      "url": "https://github.com/conforma/crds/pull/42",
+      "number": 42,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-12T02:02:44Z",
+      "updated_at": "2026-10-12T02:03:14Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
       "title": "🚨 Update npm dependencies (main) (major)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/16",
       "number": 16,
@@ -4451,6 +4501,32 @@
         "main",
         "renovate",
         "major"
+      ]
+    },
+    {
+      "title": "Update step-security/harden-runner action to v2.22.0 (main)",
+      "url": "https://github.com/conforma/golden-rpm/pull/28",
+      "number": 28,
+      "repo": "conforma/golden-rpm",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-12T01:52:28Z",
+      "updated_at": "2026-10-12T01:52:38Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
       ]
     },
     {
@@ -4889,7 +4965,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T01:24:16Z",
+    "since": "2026-07-14T02:05:16Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -10113,7 +10189,7 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 57,
+        "reviews": 55,
         "prs": [
           {
             "title": "feat(ci): check new policy rule lead time on release PRs",
@@ -10554,22 +10630,6 @@
             "number": 3406,
             "author": "simonbaird",
             "engaged_at": "2026-07-14T19:53:20Z"
-          },
-          {
-            "title": "deps: Update github.com/sigstore/rekor (v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3404",
-            "repo": "conforma/cli",
-            "number": 3404,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-14T01:55:38Z"
-          },
-          {
-            "title": "deps: Update github.com/sigstore/rekor (v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3405",
-            "repo": "conforma/cli",
-            "number": 3405,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-14T01:54:43Z"
           }
         ]
       },
