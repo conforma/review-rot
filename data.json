@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:33:18.021152469Z",
+  "generated_at": "2026-10-12T14:55:55.515673212Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-10-11T22:11:46Z",
+      "updated_at": "2026-10-12T14:45:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -52,7 +52,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-10-12T11:13:37Z",
+      "updated_at": "2026-10-12T14:48:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -131,7 +131,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-12T11:24:32Z",
+      "updated_at": "2026-10-12T14:45:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -160,7 +160,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-12T05:42:22Z",
+      "updated_at": "2026-10-12T14:43:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -292,7 +292,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-10-12T11:22:15Z",
+      "updated_at": "2026-10-12T14:46:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -653,10 +653,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-10-12T11:13:53Z",
+      "updated_at": "2026-10-12T14:49:50Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "approved_count": 0,
@@ -704,7 +704,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-07T01:37:18Z",
-      "updated_at": "2026-10-11T22:04:51Z",
+      "updated_at": "2026-10-12T14:48:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1128,7 +1128,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-11T04:31:27Z",
+      "updated_at": "2026-10-12T14:49:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1159,7 +1159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-10-12T10:10:55Z",
+      "updated_at": "2026-10-12T14:49:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1190,13 +1190,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-10-08T05:50:44Z",
+      "updated_at": "2026-10-12T14:50:17Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
-        "approved_count": 3,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
@@ -1282,7 +1282,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-10-12T10:10:08Z",
+      "updated_at": "2026-10-12T14:50:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1313,7 +1313,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-10-12T10:13:08Z",
+      "updated_at": "2026-10-12T14:50:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4683,11 +4683,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T14:29:56Z",
+    "since": "2026-07-14T14:52:15Z",
     "reviewers": [
       {
         "login": "robnester-rh",
-        "reviews": 177,
+        "reviews": 176,
         "prs": [
           {
             "title": "Count head approvals and outstanding review requests",
@@ -4752,14 +4752,6 @@
             "number": 23,
             "author": "renovate",
             "engaged_at": "2026-10-01T15:51:58Z"
-          },
-          {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/cli/pull/3132",
-            "repo": "conforma/cli",
-            "number": 3132,
-            "author": "renovate",
-            "engaged_at": "2026-10-01T15:51:47Z"
           },
           {
             "title": "fix: pin compatible Fullsend workflows",
@@ -6109,7 +6101,7 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 161,
+        "reviews": 160,
         "prs": [
           {
             "title": "fix: align Kubernetes dependencies and compile E2E tests in CI",
@@ -6190,14 +6182,6 @@
             "number": 23,
             "author": "renovate",
             "engaged_at": "2026-10-01T15:53:04Z"
-          },
-          {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/cli/pull/3132",
-            "repo": "conforma/cli",
-            "number": 3132,
-            "author": "renovate",
-            "engaged_at": "2026-10-01T15:52:49Z"
           },
           {
             "title": "docs(#1820): document test attestation input contract in AGENTS.md",
@@ -8185,7 +8169,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 92,
+        "reviews": 90,
         "prs": [
           {
             "title": "Harden Cloudflare preview deployments",
@@ -8258,14 +8242,6 @@
             "number": 3596,
             "author": "robnester-rh",
             "engaged_at": "2026-10-05T15:03:27Z"
-          },
-          {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/cli/pull/3132",
-            "repo": "conforma/cli",
-            "number": 3132,
-            "author": "renovate",
-            "engaged_at": "2026-10-01T15:42:11Z"
           },
           {
             "title": "Lock file maintenance (main)",
@@ -8914,14 +8890,6 @@
             "number": 236,
             "author": "joejstuart",
             "engaged_at": "2026-07-16T14:17:58Z"
-          },
-          {
-            "title": "docs(#3410): add Kubernetes manifest guidance to AGENTS.md",
-            "url": "https://github.com/conforma/cli/pull/3411",
-            "repo": "conforma/cli",
-            "number": 3411,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-14T14:35:48Z"
           }
         ]
       },
@@ -9429,7 +9397,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 62,
+        "reviews": 61,
         "prs": [
           {
             "title": "Publish step-actions to the tekton-catalog konflux branch",
@@ -9918,14 +9886,6 @@
             "number": 13,
             "author": "renovate",
             "engaged_at": "2026-07-14T17:01:17Z"
-          },
-          {
-            "title": "Configure Renovate",
-            "url": "https://github.com/conforma/claude-skills/pull/11",
-            "repo": "conforma/claude-skills",
-            "number": 11,
-            "author": "renovate",
-            "engaged_at": "2026-07-14T14:44:12Z"
           }
         ]
       },
