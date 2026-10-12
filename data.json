@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T21:09:52.736998561Z",
+  "generated_at": "2026-10-12T21:41:05.528751199Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4709,7 +4709,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T21:07:03Z",
+    "since": "2026-07-14T21:37:55Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9909,7 +9909,7 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 54,
+        "reviews": 53,
         "prs": [
           {
             "title": "feat(ci): check new policy rule lead time on release PRs",
@@ -10334,14 +10334,6 @@
             "number": 3408,
             "author": "red-hat-konflux",
             "engaged_at": "2026-07-16T18:21:39Z"
-          },
-          {
-            "title": "chore(deps): Upgrade golang to 1.26.4 (v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3413",
-            "repo": "conforma/cli",
-            "number": 3413,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-14T21:07:37Z"
           }
         ]
       },
