@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T23:40:42.913206942Z",
+  "generated_at": "2026-10-12T00:27:23.225766548Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-10-09T13:49:41Z",
+      "updated_at": "2026-10-11T22:11:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -52,7 +52,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-10-07T16:34:34Z",
+      "updated_at": "2026-10-11T22:16:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -131,7 +131,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-08T16:43:38Z",
+      "updated_at": "2026-10-11T09:54:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -160,7 +160,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-09T11:15:44Z",
+      "updated_at": "2026-10-11T22:10:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -176,6 +176,7 @@
         "renovate",
         "main",
         "size: XXL",
+        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -292,7 +293,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-10-08T16:43:43Z",
+      "updated_at": "2026-10-11T09:54:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -308,7 +309,8 @@
         "renovate",
         "size: XS",
         "release-v0.8",
-        "requires-manual-review"
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -652,7 +654,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-10-07T16:34:40Z",
+      "updated_at": "2026-10-11T22:15:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -661,12 +663,11 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 8,
+      "unresolved_conversations": 10,
       "labels": [
         "renovate",
         "size: XXL",
         "release-v0.8",
-        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -704,7 +705,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-07T01:37:18Z",
-      "updated_at": "2026-10-09T19:53:49Z",
+      "updated_at": "2026-10-11T22:04:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -805,13 +806,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-07T15:17:26Z",
-      "updated_at": "2026-10-08T10:51:30Z",
+      "updated_at": "2026-10-11T12:32:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -1049,7 +1050,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-10-09T03:05:33Z",
+      "updated_at": "2026-10-11T01:55:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1129,7 +1130,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-09T21:13:59Z",
+      "updated_at": "2026-10-11T04:31:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1160,7 +1161,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-10-09T19:58:22Z",
+      "updated_at": "2026-10-11T21:53:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1177,6 +1178,7 @@
         "main",
         "size: XXL",
         "Review effort 1/5",
+        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -1252,7 +1254,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-10-09T21:14:23Z",
+      "updated_at": "2026-10-11T08:28:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1282,10 +1284,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-10-08T15:12:37Z",
+      "updated_at": "2026-10-11T13:30:14Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "approved_count": 0,
@@ -1314,7 +1316,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-10-09T19:58:55Z",
+      "updated_at": "2026-10-11T21:54:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1475,7 +1477,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-10-09T03:15:43Z",
+      "updated_at": "2026-10-11T02:04:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1748,7 +1750,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-10-05T21:16:12Z",
+      "updated_at": "2026-10-11T22:02:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1757,7 +1759,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 51,
+      "unresolved_conversations": 52,
       "labels": [
         "dependencies",
         "go",
@@ -1765,7 +1767,6 @@
         "renovate",
         "main",
         "size: XS",
-        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -1869,7 +1870,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T04:47:04Z",
-      "updated_at": "2026-10-06T04:26:59Z",
+      "updated_at": "2026-10-10T04:24:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1928,7 +1929,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-10-09T03:00:40Z",
+      "updated_at": "2026-10-11T01:50:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1945,7 +1946,6 @@
         "renovate",
         "main",
         "size: XS",
-        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -2071,7 +2071,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-10-09T11:02:40Z",
+      "updated_at": "2026-10-11T13:30:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2158,7 +2158,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T01:53:18Z",
-      "updated_at": "2026-10-05T09:51:13Z",
+      "updated_at": "2026-10-11T21:53:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2401,7 +2401,7 @@
       ]
     },
     {
-      "title": "Update Konflux references (release-v0.7)",
+      "title": "Update Konflux references (release-v0.7) (patch)",
       "url": "https://github.com/conforma/cli/pull/3514",
       "number": 3514,
       "repo": "conforma/cli",
@@ -2410,21 +2410,22 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-22T06:39:46Z",
-      "updated_at": "2026-10-09T21:13:51Z",
+      "updated_at": "2026-10-10T04:20:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "L",
+      "size": "M",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 3,
       "labels": [
         "renovate",
         "release-v0.7",
-        "size: L",
-        "risk/moderate"
+        "size: M",
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -2667,7 +2668,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.0 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.1 (main)",
       "url": "https://github.com/conforma/cli/pull/3555",
       "number": 3555,
       "repo": "conforma/cli",
@@ -2676,7 +2677,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-10T03:03:17Z",
-      "updated_at": "2026-10-08T19:38:09Z",
+      "updated_at": "2026-10-11T22:01:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2723,7 +2724,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.0 (release-v0.7)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.1 (release-v0.7)",
       "url": "https://github.com/conforma/cli/pull/3563",
       "number": 3563,
       "repo": "conforma/cli",
@@ -2732,7 +2733,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T02:39:11Z",
-      "updated_at": "2026-10-08T19:38:31Z",
+      "updated_at": "2026-10-11T22:01:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2760,7 +2761,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T03:04:00Z",
-      "updated_at": "2026-10-09T11:03:48Z",
+      "updated_at": "2026-10-11T13:30:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3022,7 +3023,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-10-07T09:53:19Z",
+      "updated_at": "2026-10-11T12:49:19Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3050,7 +3051,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-10-07T14:13:13Z",
+      "updated_at": "2026-10-11T21:09:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3173,29 +3174,30 @@
       ]
     },
     {
-      "title": "Harden Cloudflare preview deployments",
-      "url": "https://github.com/conforma/conforma.github.io/pull/582",
-      "number": 582,
+      "title": "chore(#583): inherit upstream REVIEW_FINDING_SEVERITY_THRESHOLD",
+      "url": "https://github.com/conforma/conforma.github.io/pull/584",
+      "number": 584,
       "repo": "conforma/conforma.github.io",
       "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+        "login": "fullsend-ai-coder",
+        "avatar_url": "https://avatars.githubusercontent.com/in/3478495?v=4"
       },
-      "created_at": "2026-10-07T16:35:23Z",
-      "updated_at": "2026-10-08T14:28:32Z",
+      "created_at": "2026-10-11T12:55:55Z",
+      "updated_at": "2026-10-11T13:05:13Z",
       "is_draft": false,
-      "is_automated": false,
+      "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": "S",
+      "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: S",
-        "requires-manual-review",
-        "risk/moderate"
+        "size: XS",
+        "ready-for-merge",
+        "risk/low",
+        "ready-for-review"
       ]
     },
     {
@@ -3208,7 +3210,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-29T06:57:38Z",
-      "updated_at": "2026-10-07T12:06:23Z",
+      "updated_at": "2026-10-10T03:31:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3508,7 +3510,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-08-20T12:57:52Z",
-      "updated_at": "2026-10-09T06:02:22Z",
+      "updated_at": "2026-10-11T06:01:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3530,7 +3532,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:03Z",
-      "updated_at": "2026-10-09T06:02:07Z",
+      "updated_at": "2026-10-11T06:01:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3552,7 +3554,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:07Z",
-      "updated_at": "2026-10-09T06:02:09Z",
+      "updated_at": "2026-10-11T06:01:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3574,7 +3576,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:12Z",
-      "updated_at": "2026-10-09T06:02:11Z",
+      "updated_at": "2026-10-11T06:01:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3596,7 +3598,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:17Z",
-      "updated_at": "2026-10-09T06:02:13Z",
+      "updated_at": "2026-10-11T06:01:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3618,7 +3620,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:22Z",
-      "updated_at": "2026-10-09T06:02:16Z",
+      "updated_at": "2026-10-11T06:01:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3640,7 +3642,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:31Z",
-      "updated_at": "2026-10-09T06:02:25Z",
+      "updated_at": "2026-10-11T06:01:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3688,7 +3690,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-10-09T13:02:11Z",
+      "updated_at": "2026-10-11T05:31:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3706,30 +3708,6 @@
       ]
     },
     {
-      "title": "Harden Cloudflare preview deployments",
-      "url": "https://github.com/conforma/policy-builder/pull/67",
-      "number": 67,
-      "repo": "conforma/policy-builder",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-10-07T16:35:23Z",
-      "updated_at": "2026-10-08T14:28:42Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: S"
-      ]
-    },
-    {
       "title": "fix(deps): update go version to v1.27.1 (main)",
       "url": "https://github.com/conforma/go-gather/pull/315",
       "number": 315,
@@ -3739,7 +3717,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-09T01:31:46Z",
-      "updated_at": "2026-10-09T19:05:10Z",
+      "updated_at": "2026-10-11T21:45:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3753,6 +3731,32 @@
         "main",
         "renovate",
         "size: XS"
+      ]
+    },
+    {
+      "title": "fix(deps): update module github.com/go-git/go-git/v5 to v5.19.3 (main)",
+      "url": "https://github.com/conforma/go-gather/pull/350",
+      "number": 350,
+      "repo": "conforma/go-gather",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-10T00:48:39Z",
+      "updated_at": "2026-10-10T00:50:50Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: S"
       ]
     },
     {
@@ -4071,7 +4075,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-10-09T20:06:04Z",
+      "updated_at": "2026-10-10T01:08:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4122,13 +4126,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-08T19:01:16Z",
-      "updated_at": "2026-10-08T19:06:35Z",
+      "updated_at": "2026-10-11T12:31:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4197,18 +4201,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-05T02:44:30Z",
-      "updated_at": "2026-10-07T06:33:24Z",
+      "updated_at": "2026-10-11T12:44:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": "M",
+      "size": "XS",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: M",
+        "size: XS",
         "main",
         "renovate"
       ]
@@ -4223,7 +4227,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-06T01:39:01Z",
-      "updated_at": "2026-10-06T08:55:34Z",
+      "updated_at": "2026-10-11T12:44:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4238,30 +4242,6 @@
         "main",
         "renovate",
         "major"
-      ]
-    },
-    {
-      "title": "fix: align Kubernetes dependencies and compile E2E tests in CI",
-      "url": "https://github.com/conforma/e2e-tests/pull/33",
-      "number": 33,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "dheerajodha",
-        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
-      },
-      "created_at": "2026-10-08T13:09:57Z",
-      "updated_at": "2026-10-08T18:08:34Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
       ]
     },
     {
@@ -4299,7 +4279,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-10-09T06:27:22Z",
+      "updated_at": "2026-10-10T06:10:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4325,7 +4305,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-28T02:09:34Z",
-      "updated_at": "2026-10-05T13:56:02Z",
+      "updated_at": "2026-10-10T14:01:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4352,7 +4332,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-10-09T06:25:44Z",
+      "updated_at": "2026-10-10T06:08:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4378,7 +4358,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-10-09T06:25:51Z",
+      "updated_at": "2026-10-10T06:08:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4421,7 +4401,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.0 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.1 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/755",
       "number": 755,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -4430,7 +4410,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:47:23Z",
-      "updated_at": "2026-10-08T21:09:57Z",
+      "updated_at": "2026-10-11T20:37:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4579,13 +4559,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
       },
       "created_at": "2026-10-09T20:25:29Z",
-      "updated_at": "2026-10-09T20:25:30Z",
+      "updated_at": "2026-10-11T12:26:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4594,7 +4574,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-11T23:37:58Z",
+    "since": "2026-07-14T00:24:41Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6020,7 +6000,7 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 167,
+        "reviews": 161,
         "prs": [
           {
             "title": "fix: align Kubernetes dependencies and compile E2E tests in CI",
@@ -6783,7 +6763,7 @@
             "engaged_at": "2026-09-02T18:17:07Z"
           },
           {
-            "title": "Update Konflux references (release-v0.7)",
+            "title": "Update Konflux references (release-v0.7) (patch)",
             "url": "https://github.com/conforma/cli/pull/3514",
             "repo": "conforma/cli",
             "number": 3514,
@@ -7309,812 +7289,6 @@
             "number": 1777,
             "author": "fullsend-ai-coder",
             "engaged_at": "2026-07-21T13:54:19Z"
-          },
-          {
-            "title": "Migrate Renovate config",
-            "url": "https://github.com/conforma/cli/pull/3353",
-            "repo": "conforma/cli",
-            "number": 3353,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-07-13T21:12:27Z"
-          },
-          {
-            "title": "fix(#3360): add missing \"go version\" group to Renovate config",
-            "url": "https://github.com/conforma/cli/pull/3361",
-            "repo": "conforma/cli",
-            "number": 3361,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-13T21:04:00Z"
-          },
-          {
-            "title": "Update module github.com/sigstore/rekor to v1.5.2 [SECURITY] (main)",
-            "url": "https://github.com/conforma/cli/pull/3362",
-            "repo": "conforma/cli",
-            "number": 3362,
-            "author": "renovate",
-            "engaged_at": "2026-07-13T20:58:15Z"
-          },
-          {
-            "title": "Update module github.com/sigstore/rekor to v1.5.2 [SECURITY] (release-v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3364",
-            "repo": "conforma/cli",
-            "number": 3364,
-            "author": "renovate",
-            "engaged_at": "2026-07-13T20:55:40Z"
-          },
-          {
-            "title": "Update module github.com/sigstore/rekor to v1.5.2 [SECURITY] (release-v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3363",
-            "repo": "conforma/cli",
-            "number": 3363,
-            "author": "renovate",
-            "engaged_at": "2026-07-13T20:51:41Z"
-          },
-          {
-            "title": "Add redhat_security policy collection",
-            "url": "https://github.com/conforma/policy/pull/1766",
-            "repo": "conforma/policy",
-            "number": 1766,
-            "author": "st3penta",
-            "engaged_at": "2026-07-13T12:36:40Z"
-          }
-        ]
-      },
-      {
-        "login": "st3penta",
-        "reviews": 94,
-        "prs": [
-          {
-            "title": "Harden Cloudflare preview deployments",
-            "url": "https://github.com/conforma/policy-builder/pull/67",
-            "repo": "conforma/policy-builder",
-            "number": 67,
-            "author": "robnester-rh",
-            "engaged_at": "2026-10-08T14:28:42Z"
-          },
-          {
-            "title": "Harden Cloudflare preview deployments",
-            "url": "https://github.com/conforma/conforma.github.io/pull/582",
-            "repo": "conforma/conforma.github.io",
-            "number": 582,
-            "author": "robnester-rh",
-            "engaged_at": "2026-10-08T14:28:32Z"
-          },
-          {
-            "title": "Publish step-actions to the tekton-catalog konflux branch",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/234",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 234,
-            "author": "jsmid1",
-            "engaged_at": "2026-10-08T14:25:09Z"
-          },
-          {
-            "title": "test: add acceptance coverage for the ITS pipeline",
-            "url": "https://github.com/conforma/cli/pull/3591",
-            "repo": "conforma/cli",
-            "number": 3591,
-            "author": "dheerajodha",
-            "engaged_at": "2026-10-06T14:25:32Z"
-          },
-          {
-            "title": "fix(#3482): exclude vulnerability PRs from grouped patch updates",
-            "url": "https://github.com/conforma/cli/pull/3485",
-            "repo": "conforma/cli",
-            "number": 3485,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-10-06T08:27:43Z"
-          },
-          {
-            "title": "Fix shell interpolation in task reports",
-            "url": "https://github.com/conforma/tekton-catalog/pull/287",
-            "repo": "conforma/tekton-catalog",
-            "number": 287,
-            "author": "robnester-rh",
-            "engaged_at": "2026-10-05T15:19:14Z"
-          },
-          {
-            "title": "fix(commands): harden handling of untrusted command content",
-            "url": "https://github.com/conforma/claude-skills/pull/28",
-            "repo": "conforma/claude-skills",
-            "number": 28,
-            "author": "robnester-rh",
-            "engaged_at": "2026-10-05T15:18:51Z"
-          },
-          {
-            "title": "fix: harden composite action input handling",
-            "url": "https://github.com/conforma/action-validate-image/pull/443",
-            "repo": "conforma/action-validate-image",
-            "number": 443,
-            "author": "robnester-rh",
-            "engaged_at": "2026-10-05T15:13:01Z"
-          },
-          {
-            "title": "Fix shell interpolation in task reports",
-            "url": "https://github.com/conforma/cli/pull/3596",
-            "repo": "conforma/cli",
-            "number": 3596,
-            "author": "robnester-rh",
-            "engaged_at": "2026-10-05T15:03:27Z"
-          },
-          {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/cli/pull/3132",
-            "repo": "conforma/cli",
-            "number": 3132,
-            "author": "renovate",
-            "engaged_at": "2026-10-01T15:42:11Z"
-          },
-          {
-            "title": "Lock file maintenance (main)",
-            "url": "https://github.com/conforma/cli/pull/3370",
-            "repo": "conforma/cli",
-            "number": 3370,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-10-01T15:39:31Z"
-          },
-          {
-            "title": "Update npm dependencies (main) (minor)",
-            "url": "https://github.com/conforma/pr-size-label-action/pull/15",
-            "repo": "conforma/pr-size-label-action",
-            "number": 15,
-            "author": "renovate",
-            "engaged_at": "2026-10-01T15:39:02Z"
-          },
-          {
-            "title": "🚨 Update module gopkg.in/yaml.v2 to v3 (main)",
-            "url": "https://github.com/conforma/e2e-tests/pull/23",
-            "repo": "conforma/e2e-tests",
-            "number": 23,
-            "author": "renovate",
-            "engaged_at": "2026-10-01T15:37:55Z"
-          },
-          {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/policy/pull/1679",
-            "repo": "conforma/policy",
-            "number": 1679,
-            "author": "renovate",
-            "engaged_at": "2026-10-01T15:37:25Z"
-          },
-          {
-            "title": "feat(changelog): compare policy behavior across releases",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/235",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 235,
-            "author": "joejstuart",
-            "engaged_at": "2026-10-01T15:10:02Z"
-          },
-          {
-            "title": "feat: add e2e test coverage for the ITS pipeline",
-            "url": "https://github.com/conforma/e2e-tests/pull/12",
-            "repo": "conforma/e2e-tests",
-            "number": 12,
-            "author": "dheerajodha",
-            "engaged_at": "2026-10-01T14:43:12Z"
-          },
-          {
-            "title": "fix: pin Fullsend with OpenShell 0.1.2",
-            "url": "https://github.com/conforma/cli/pull/3595",
-            "repo": "conforma/cli",
-            "number": 3595,
-            "author": "jsmid1",
-            "engaged_at": "2026-10-01T09:37:04Z"
-          },
-          {
-            "title": "fix: pin compatible Fullsend workflows",
-            "url": "https://github.com/conforma/policy/pull/1864",
-            "repo": "conforma/policy",
-            "number": 1864,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-30T14:28:47Z"
-          },
-          {
-            "title": "fix: pin compatible Fullsend workflows",
-            "url": "https://github.com/conforma/conforma.github.io/pull/579",
-            "repo": "conforma/conforma.github.io",
-            "number": 579,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-30T14:28:27Z"
-          },
-          {
-            "title": "fix: pin compatible Fullsend workflows",
-            "url": "https://github.com/conforma/user-guide/pull/265",
-            "repo": "conforma/user-guide",
-            "number": 265,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-30T14:28:10Z"
-          },
-          {
-            "title": "fix: pin compatible Fullsend workflows",
-            "url": "https://github.com/conforma/cli/pull/3592",
-            "repo": "conforma/cli",
-            "number": 3592,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-30T14:18:24Z"
-          },
-          {
-            "title": "chore(EC-2153): remove RH-specific policy digest defaults",
-            "url": "https://github.com/conforma/cli/pull/3573",
-            "repo": "conforma/cli",
-            "number": 3573,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-30T13:43:00Z"
-          },
-          {
-            "title": "feat(EC-2226): publish StepAction bundle",
-            "url": "https://github.com/conforma/step-actions/pull/17",
-            "repo": "conforma/step-actions",
-            "number": 17,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-30T13:37:55Z"
-          },
-          {
-            "title": "chore(EC-2153): inject policy digest into released tasks",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/236",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 236,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-30T13:33:59Z"
-          },
-          {
-            "title": "docs(#1827): document input.image contract in AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1828",
-            "repo": "conforma/policy",
-            "number": 1828,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-30T12:56:42Z"
-          },
-          {
-            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
-            "url": "https://github.com/conforma/conforma.github.io/pull/575",
-            "repo": "conforma/conforma.github.io",
-            "number": 575,
-            "author": "renovate",
-            "engaged_at": "2026-09-30T08:26:18Z"
-          },
-          {
-            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
-            "url": "https://github.com/conforma/user-guide/pull/262",
-            "repo": "conforma/user-guide",
-            "number": 262,
-            "author": "renovate",
-            "engaged_at": "2026-09-30T08:26:10Z"
-          },
-          {
-            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
-            "url": "https://github.com/conforma/policy/pull/1860",
-            "repo": "conforma/policy",
-            "number": 1860,
-            "author": "renovate",
-            "engaged_at": "2026-09-30T08:26:00Z"
-          },
-          {
-            "title": "Pin dependencies (main)",
-            "url": "https://github.com/conforma/cli/pull/3572",
-            "repo": "conforma/cli",
-            "number": 3572,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-09-30T08:25:17Z"
-          },
-          {
-            "title": "Pin conforma tekton task to digest",
-            "url": "https://github.com/conforma/cli/pull/3491",
-            "repo": "conforma/cli",
-            "number": 3491,
-            "author": "joejstuart",
-            "engaged_at": "2026-09-29T08:14:33Z"
-          },
-          {
-            "title": "Add DevConf.US 2026 talk to resources and blog",
-            "url": "https://github.com/conforma/conforma.github.io/pull/577",
-            "repo": "conforma/conforma.github.io",
-            "number": 577,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-09-29T08:06:48Z"
-          },
-          {
-            "title": "Add Codecov configuration (100% project and patch coverage)",
-            "url": "https://github.com/conforma/policy/pull/1840",
-            "repo": "conforma/policy",
-            "number": 1840,
-            "author": "eedri",
-            "engaged_at": "2026-09-28T14:26:49Z"
-          },
-          {
-            "title": "Replace quay.io/konflux-ci/konflux-vanguard/task-rpms-signature-scan Docker tag with quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan 0.2 (main)",
-            "url": "https://github.com/conforma/golden-container/pull/1504",
-            "repo": "conforma/golden-container",
-            "number": 1504,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-09-24T14:29:26Z"
-          },
-          {
-            "title": "feat(EC-2212): show PRs waiting for a 2nd approval in 'Ready for review'",
-            "url": "https://github.com/conforma/review-rot/pull/262",
-            "repo": "conforma/review-rot",
-            "number": 262,
-            "author": "jsmid1",
-            "engaged_at": "2026-09-23T10:35:02Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/.github/pull/92",
-            "repo": "conforma/.github",
-            "number": 92,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:52Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/tekton-catalog/pull/273",
-            "repo": "conforma/tekton-catalog",
-            "number": 273,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:49Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/hacks/pull/219",
-            "repo": "conforma/hacks",
-            "number": 219,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:45Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/237",
-            "repo": "conforma/infra-deployments-ci",
-            "number": 237,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:40Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/policy-builder/pull/65",
-            "repo": "conforma/policy-builder",
-            "number": 65,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:36Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/conforma.github.io/pull/572",
-            "repo": "conforma/conforma.github.io",
-            "number": 572,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:33Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/crds/pull/37",
-            "repo": "conforma/crds",
-            "number": 37,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:28Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/user-guide/pull/258",
-            "repo": "conforma/user-guide",
-            "number": 258,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:25Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/golden-container/pull/1517",
-            "repo": "conforma/golden-container",
-            "number": 1517,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:21Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/policy/pull/1857",
-            "repo": "conforma/policy",
-            "number": 1857,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:17Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/cli/pull/3577",
-            "repo": "conforma/cli",
-            "number": 3577,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:23:13Z"
-          },
-          {
-            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
-            "url": "https://github.com/conforma/config/pull/242",
-            "repo": "conforma/config",
-            "number": 242,
-            "author": "robnester-rh",
-            "engaged_at": "2026-09-22T14:22:21Z"
-          },
-          {
-            "title": "feat: Allow watching all PRs on non-org repositories",
-            "url": "https://github.com/conforma/review-rot/pull/258",
-            "repo": "conforma/review-rot",
-            "number": 258,
-            "author": "jannfis",
-            "engaged_at": "2026-09-21T09:29:42Z"
-          },
-          {
-            "title": "feat: Retry queries on transient failures",
-            "url": "https://github.com/conforma/review-rot/pull/260",
-            "repo": "conforma/review-rot",
-            "number": 260,
-            "author": "jannfis",
-            "engaged_at": "2026-09-21T09:25:00Z"
-          },
-          {
-            "title": "fix: switch to GitHub Actions deployment for Pages",
-            "url": "https://github.com/conforma/review-rot/pull/259",
-            "repo": "conforma/review-rot",
-            "number": 259,
-            "author": "lance",
-            "engaged_at": "2026-09-18T08:14:54Z"
-          },
-          {
-            "title": "Add Codecov configuration (80% patch coverage, informational)",
-            "url": "https://github.com/conforma/crds/pull/33",
-            "repo": "conforma/crds",
-            "number": 33,
-            "author": "eedri",
-            "engaged_at": "2026-09-17T08:07:47Z"
-          },
-          {
-            "title": "feat: Expand GitHub groups in authors list",
-            "url": "https://github.com/conforma/review-rot/pull/257",
-            "repo": "conforma/review-rot",
-            "number": 257,
-            "author": "jannfis",
-            "engaged_at": "2026-09-17T08:05:30Z"
-          },
-          {
-            "title": "Mock ec.oci.parsed_blob",
-            "url": "https://github.com/conforma/policy/pull/1856",
-            "repo": "conforma/policy",
-            "number": 1856,
-            "author": "joejstuart",
-            "engaged_at": "2026-09-17T07:39:14Z"
-          },
-          {
-            "title": "fix: Unblock step-action Conforma validation",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3845",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3845,
-            "author": "slimreaper35",
-            "engaged_at": "2026-09-16T10:54:08Z"
-          },
-          {
-            "title": "EC-2162: Verify ITS PipelineRuns use trusted tasks",
-            "url": "https://github.com/conforma/policy/pull/1829",
-            "repo": "conforma/policy",
-            "number": 1829,
-            "author": "joejstuart",
-            "engaged_at": "2026-09-15T15:50:50Z"
-          },
-          {
-            "title": "feat(validation): add lightweight AsciiDoc validation for agent and CI use",
-            "url": "https://github.com/conforma/user-guide/pull/251",
-            "repo": "conforma/user-guide",
-            "number": 251,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-09-15T14:52:46Z"
-          },
-          {
-            "title": "🚨 Update actions/checkout action to v7 (main)",
-            "url": "https://github.com/conforma/.fullsend/pull/14",
-            "repo": "conforma/.fullsend",
-            "number": 14,
-            "author": "renovate",
-            "engaged_at": "2026-09-15T14:28:30Z"
-          },
-          {
-            "title": "docs(EC-2103): fix stale trusted_task_rules architecture in THREAT_MODEL.md",
-            "url": "https://github.com/conforma/policy/pull/1847",
-            "repo": "conforma/policy",
-            "number": 1847,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-09-15T09:24:38Z"
-          },
-          {
-            "title": "feat(EC-2081): use ec.oci.parsed_blob builtin in parsed_blob wrapper",
-            "url": "https://github.com/conforma/policy/pull/1844",
-            "repo": "conforma/policy",
-            "number": 1844,
-            "author": "BohdanMar",
-            "engaged_at": "2026-09-14T09:06:36Z"
-          },
-          {
-            "title": "Add resource limits to archive expanders and HTTP gatherer",
-            "url": "https://github.com/conforma/go-gather/pull/339",
-            "repo": "conforma/go-gather",
-            "number": 339,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-20T10:59:14Z"
-          },
-          {
-            "title": "Deduplicate test-result attestations by test name",
-            "url": "https://github.com/conforma/policy/pull/1817",
-            "repo": "conforma/policy",
-            "number": 1817,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-20T10:33:11Z"
-          },
-          {
-            "title": "Create PRs instead of pushing directly to protected branches",
-            "url": "https://github.com/conforma/tekton-catalog/pull/261",
-            "repo": "conforma/tekton-catalog",
-            "number": 261,
-            "author": "jsmid1",
-            "engaged_at": "2026-08-19T13:41:48Z"
-          },
-          {
-            "title": "Allow PNC SLSA build type for PipelineRun attestations",
-            "url": "https://github.com/conforma/policy/pull/1816",
-            "repo": "conforma/policy",
-            "number": 1816,
-            "author": "vnadempa",
-            "engaged_at": "2026-08-19T12:53:39Z"
-          },
-          {
-            "title": "Restore commented out acceptance test scenario",
-            "url": "https://github.com/conforma/cli/pull/3505",
-            "repo": "conforma/cli",
-            "number": 3505,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-19T09:30:07Z"
-          },
-          {
-            "title": "Add attended scripts for multi-branch UBI bump and module update PRs",
-            "url": "https://github.com/conforma/cli/pull/3430",
-            "repo": "conforma/cli",
-            "number": 3430,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-19T08:38:35Z"
-          },
-          {
-            "title": "Skip test_data_found when test-result attestations exist",
-            "url": "https://github.com/conforma/policy/pull/1805",
-            "repo": "conforma/policy",
-            "number": 1805,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-13T14:42:46Z"
-          },
-          {
-            "title": "Warn when regex patterns in rule data lack anchoring",
-            "url": "https://github.com/conforma/policy/pull/1781",
-            "repo": "conforma/policy",
-            "number": 1781,
-            "author": "jsmid1",
-            "engaged_at": "2026-08-12T08:42:20Z"
-          },
-          {
-            "title": "Include enforcement date in warnings for future effective_on violations",
-            "url": "https://github.com/conforma/cli/pull/3412",
-            "repo": "conforma/cli",
-            "number": 3412,
-            "author": "Acepresso",
-            "engaged_at": "2026-08-10T10:58:48Z"
-          },
-          {
-            "title": "feat(EC-1941): add enterprise-contract pipeline definition",
-            "url": "https://github.com/conforma/cli/pull/3416",
-            "repo": "conforma/cli",
-            "number": 3416,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-10T10:49:59Z"
-          },
-          {
-            "title": "Fix path traversal in git gatherer subdir handling",
-            "url": "https://github.com/conforma/go-gather/pull/336",
-            "repo": "conforma/go-gather",
-            "number": 336,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-10T09:34:47Z"
-          },
-          {
-            "title": "Merge trusted task rules instead of first-found",
-            "url": "https://github.com/conforma/policy/pull/1792",
-            "repo": "conforma/policy",
-            "number": 1792,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-10T09:06:34Z"
-          },
-          {
-            "title": "[DNM] Add dummy task, pipeline, and ITS for EC-2011 POC",
-            "url": "https://github.com/conforma/cli/pull/3476",
-            "repo": "conforma/cli",
-            "number": 3476,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-10T08:47:40Z"
-          },
-          {
-            "title": "Add imagePullPolicy: IfNotPresent to step action and test task",
-            "url": "https://github.com/conforma/step-actions/pull/5",
-            "repo": "conforma/step-actions",
-            "number": 5,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-10T08:36:23Z"
-          },
-          {
-            "title": "Pin third-party action to immutable ref in release workflow",
-            "url": "https://github.com/conforma/cli/pull/3463",
-            "repo": "conforma/cli",
-            "number": 3463,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-07T07:44:11Z"
-          },
-          {
-            "title": "feat(EC-1957): verify base image release signatures",
-            "url": "https://github.com/conforma/policy/pull/1780",
-            "repo": "conforma/policy",
-            "number": 1780,
-            "author": "joejstuart",
-            "engaged_at": "2026-08-06T15:28:14Z"
-          },
-          {
-            "title": "Extend sync script to also sync pipeline definitions",
-            "url": "https://github.com/conforma/tekton-catalog/pull/260",
-            "repo": "conforma/tekton-catalog",
-            "number": 260,
-            "author": "jsmid1",
-            "engaged_at": "2026-08-06T13:59:59Z"
-          },
-          {
-            "title": "fix(#1768): remove stale .adoc files before doc generation",
-            "url": "https://github.com/conforma/policy/pull/1769",
-            "repo": "conforma/policy",
-            "number": 1769,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-08-06T08:46:03Z"
-          },
-          {
-            "title": "Add Jira links for some trusted task todos",
-            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/248",
-            "repo": "release-engineering/rhtap-ec-policy",
-            "number": 248,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-05T09:29:09Z"
-          },
-          {
-            "title": "docs(EC-1954): add effective_on review checklist to AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1789",
-            "repo": "conforma/policy",
-            "number": 1789,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-08-03T14:51:38Z"
-          },
-          {
-            "title": "Add enterprise-contract pipeline definition to cli/pipelines",
-            "url": "https://github.com/conforma/cli/pull/3435",
-            "repo": "conforma/cli",
-            "number": 3435,
-            "author": "jsmid1",
-            "engaged_at": "2026-07-29T12:58:41Z"
-          },
-          {
-            "title": "Add pin-policy-bundle acceptance tests for TA task",
-            "url": "https://github.com/conforma/cli/pull/3324",
-            "repo": "conforma/cli",
-            "number": 3324,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-28T07:48:22Z"
-          },
-          {
-            "title": "Fix pinned ref cache miss to avoid policy refetch",
-            "url": "https://github.com/conforma/cli/pull/3431",
-            "repo": "conforma/cli",
-            "number": 3431,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-24T09:27:01Z"
-          },
-          {
-            "title": "chore(deps): Upgrade golang to 1.26.4 (v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3414",
-            "repo": "conforma/cli",
-            "number": 3414,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-23T13:23:06Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image (main)",
-            "url": "https://github.com/conforma/cli/pull/3429",
-            "repo": "conforma/cli",
-            "number": 3429,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-22T16:12:47Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image (v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3428",
-            "repo": "conforma/cli",
-            "number": 3428,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-22T16:12:32Z"
-          },
-          {
-            "title": "chore(deps): Update ubi-minimal base image (v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3427",
-            "repo": "conforma/cli",
-            "number": 3427,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-22T16:12:20Z"
-          },
-          {
-            "title": "chore(deps): Pin Go builder image by digest",
-            "url": "https://github.com/conforma/cli/pull/3423",
-            "repo": "conforma/cli",
-            "number": 3423,
-            "author": "iRayans",
-            "engaged_at": "2026-07-20T09:55:29Z"
-          },
-          {
-            "title": "fix(EC-1912): validate in-toto statement type in bundle attestation path",
-            "url": "https://github.com/conforma/cli/pull/3418",
-            "repo": "conforma/cli",
-            "number": 3418,
-            "author": "BohdanMar",
-            "engaged_at": "2026-07-20T09:55:05Z"
-          },
-          {
-            "title": "feat: add /scaffold-repo command for AgentReady scaffolding",
-            "url": "https://github.com/conforma/claude-skills/pull/16",
-            "repo": "conforma/claude-skills",
-            "number": 16,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-17T09:24:15Z"
-          },
-          {
-            "title": "chore: add AgentReady scaffolding for AI-assisted development",
-            "url": "https://github.com/conforma/policy/pull/1779",
-            "repo": "conforma/policy",
-            "number": 1779,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-17T09:23:47Z"
-          },
-          {
-            "title": "chore: add AgentReady scaffolding for AI-assisted development",
-            "url": "https://github.com/conforma/cli/pull/3415",
-            "repo": "conforma/cli",
-            "number": 3415,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-17T08:01:01Z"
-          },
-          {
-            "title": "Add ITS policy config for early release-violation visibility",
-            "url": "https://github.com/conforma/config/pull/236",
-            "repo": "conforma/config",
-            "number": 236,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-16T14:17:58Z"
-          },
-          {
-            "title": "docs(#3410): add Kubernetes manifest guidance to AGENTS.md",
-            "url": "https://github.com/conforma/cli/pull/3411",
-            "repo": "conforma/cli",
-            "number": 3411,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-14T14:35:48Z"
-          },
-          {
-            "title": "fix(#3360): add missing \"go version\" group to Renovate config",
-            "url": "https://github.com/conforma/cli/pull/3361",
-            "repo": "conforma/cli",
-            "number": 3361,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-14T09:12:09Z"
-          },
-          {
-            "title": "Add validate input --server flag for persistent HTTP/REST",
-            "url": "https://github.com/conforma/cli/pull/3386",
-            "repo": "conforma/cli",
-            "number": 3386,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-13T09:50:45Z"
           }
         ]
       },
@@ -8869,16 +8043,192 @@
         ]
       },
       {
-        "login": "joejstuart",
-        "reviews": 63,
+        "login": "st3penta",
+        "reviews": 93,
         "prs": [
+          {
+            "title": "Harden Cloudflare preview deployments",
+            "url": "https://github.com/conforma/policy-builder/pull/67",
+            "repo": "conforma/policy-builder",
+            "number": 67,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-08T14:28:42Z"
+          },
+          {
+            "title": "Harden Cloudflare preview deployments",
+            "url": "https://github.com/conforma/conforma.github.io/pull/582",
+            "repo": "conforma/conforma.github.io",
+            "number": 582,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-08T14:28:32Z"
+          },
           {
             "title": "Publish step-actions to the tekton-catalog konflux branch",
             "url": "https://github.com/conforma/infra-deployments-ci/pull/234",
             "repo": "conforma/infra-deployments-ci",
             "number": 234,
             "author": "jsmid1",
-            "engaged_at": "2026-10-06T19:26:00Z"
+            "engaged_at": "2026-10-08T14:25:09Z"
+          },
+          {
+            "title": "test: add acceptance coverage for the ITS pipeline",
+            "url": "https://github.com/conforma/cli/pull/3591",
+            "repo": "conforma/cli",
+            "number": 3591,
+            "author": "dheerajodha",
+            "engaged_at": "2026-10-06T14:25:32Z"
+          },
+          {
+            "title": "fix(#3482): exclude vulnerability PRs from grouped patch updates",
+            "url": "https://github.com/conforma/cli/pull/3485",
+            "repo": "conforma/cli",
+            "number": 3485,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-10-06T08:27:43Z"
+          },
+          {
+            "title": "Fix shell interpolation in task reports",
+            "url": "https://github.com/conforma/tekton-catalog/pull/287",
+            "repo": "conforma/tekton-catalog",
+            "number": 287,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-05T15:19:14Z"
+          },
+          {
+            "title": "fix(commands): harden handling of untrusted command content",
+            "url": "https://github.com/conforma/claude-skills/pull/28",
+            "repo": "conforma/claude-skills",
+            "number": 28,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-05T15:18:51Z"
+          },
+          {
+            "title": "fix: harden composite action input handling",
+            "url": "https://github.com/conforma/action-validate-image/pull/443",
+            "repo": "conforma/action-validate-image",
+            "number": 443,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-05T15:13:01Z"
+          },
+          {
+            "title": "Fix shell interpolation in task reports",
+            "url": "https://github.com/conforma/cli/pull/3596",
+            "repo": "conforma/cli",
+            "number": 3596,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-05T15:03:27Z"
+          },
+          {
+            "title": "🚨 Update github actions (main) (major)",
+            "url": "https://github.com/conforma/cli/pull/3132",
+            "repo": "conforma/cli",
+            "number": 3132,
+            "author": "renovate",
+            "engaged_at": "2026-10-01T15:42:11Z"
+          },
+          {
+            "title": "Lock file maintenance (main)",
+            "url": "https://github.com/conforma/cli/pull/3370",
+            "repo": "conforma/cli",
+            "number": 3370,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-10-01T15:39:31Z"
+          },
+          {
+            "title": "Update npm dependencies (main) (minor)",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/15",
+            "repo": "conforma/pr-size-label-action",
+            "number": 15,
+            "author": "renovate",
+            "engaged_at": "2026-10-01T15:39:02Z"
+          },
+          {
+            "title": "🚨 Update module gopkg.in/yaml.v2 to v3 (main)",
+            "url": "https://github.com/conforma/e2e-tests/pull/23",
+            "repo": "conforma/e2e-tests",
+            "number": 23,
+            "author": "renovate",
+            "engaged_at": "2026-10-01T15:37:55Z"
+          },
+          {
+            "title": "🚨 Update github actions (main) (major)",
+            "url": "https://github.com/conforma/policy/pull/1679",
+            "repo": "conforma/policy",
+            "number": 1679,
+            "author": "renovate",
+            "engaged_at": "2026-10-01T15:37:25Z"
+          },
+          {
+            "title": "feat(changelog): compare policy behavior across releases",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/235",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 235,
+            "author": "joejstuart",
+            "engaged_at": "2026-10-01T15:10:02Z"
+          },
+          {
+            "title": "feat: add e2e test coverage for the ITS pipeline",
+            "url": "https://github.com/conforma/e2e-tests/pull/12",
+            "repo": "conforma/e2e-tests",
+            "number": 12,
+            "author": "dheerajodha",
+            "engaged_at": "2026-10-01T14:43:12Z"
+          },
+          {
+            "title": "fix: pin Fullsend with OpenShell 0.1.2",
+            "url": "https://github.com/conforma/cli/pull/3595",
+            "repo": "conforma/cli",
+            "number": 3595,
+            "author": "jsmid1",
+            "engaged_at": "2026-10-01T09:37:04Z"
+          },
+          {
+            "title": "fix: pin compatible Fullsend workflows",
+            "url": "https://github.com/conforma/policy/pull/1864",
+            "repo": "conforma/policy",
+            "number": 1864,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T14:28:47Z"
+          },
+          {
+            "title": "fix: pin compatible Fullsend workflows",
+            "url": "https://github.com/conforma/conforma.github.io/pull/579",
+            "repo": "conforma/conforma.github.io",
+            "number": 579,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T14:28:27Z"
+          },
+          {
+            "title": "fix: pin compatible Fullsend workflows",
+            "url": "https://github.com/conforma/user-guide/pull/265",
+            "repo": "conforma/user-guide",
+            "number": 265,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T14:28:10Z"
+          },
+          {
+            "title": "fix: pin compatible Fullsend workflows",
+            "url": "https://github.com/conforma/cli/pull/3592",
+            "repo": "conforma/cli",
+            "number": 3592,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T14:18:24Z"
+          },
+          {
+            "title": "chore(EC-2153): remove RH-specific policy digest defaults",
+            "url": "https://github.com/conforma/cli/pull/3573",
+            "repo": "conforma/cli",
+            "number": 3573,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T13:43:00Z"
+          },
+          {
+            "title": "feat(EC-2226): publish StepAction bundle",
+            "url": "https://github.com/conforma/step-actions/pull/17",
+            "repo": "conforma/step-actions",
+            "number": 17,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-30T13:37:55Z"
           },
           {
             "title": "chore(EC-2153): inject policy digest into released tasks",
@@ -8886,23 +8236,71 @@
             "repo": "conforma/infra-deployments-ci",
             "number": 236,
             "author": "jsmid1",
-            "engaged_at": "2026-10-06T18:30:24Z"
+            "engaged_at": "2026-09-30T13:33:59Z"
           },
           {
-            "title": "ci: add actionlint workflow",
-            "url": "https://github.com/conforma/github-workflows/pull/10",
-            "repo": "conforma/github-workflows",
-            "number": 10,
-            "author": "robnester-rh",
-            "engaged_at": "2026-10-01T21:29:45Z"
+            "title": "docs(#1827): document input.image contract in AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1828",
+            "repo": "conforma/policy",
+            "number": 1828,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-30T12:56:42Z"
           },
           {
-            "title": "ci: add actionlint workflow",
-            "url": "https://github.com/conforma/.github/pull/95",
-            "repo": "conforma/.github",
-            "number": 95,
-            "author": "robnester-rh",
-            "engaged_at": "2026-10-01T21:29:33Z"
+            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+            "url": "https://github.com/conforma/conforma.github.io/pull/575",
+            "repo": "conforma/conforma.github.io",
+            "number": 575,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:26:18Z"
+          },
+          {
+            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+            "url": "https://github.com/conforma/user-guide/pull/262",
+            "repo": "conforma/user-guide",
+            "number": 262,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:26:10Z"
+          },
+          {
+            "title": "Pin fullsend-ai/fullsend action to d5f3692 (main)",
+            "url": "https://github.com/conforma/policy/pull/1860",
+            "repo": "conforma/policy",
+            "number": 1860,
+            "author": "renovate",
+            "engaged_at": "2026-09-30T08:26:00Z"
+          },
+          {
+            "title": "Pin dependencies (main)",
+            "url": "https://github.com/conforma/cli/pull/3572",
+            "repo": "conforma/cli",
+            "number": 3572,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-30T08:25:17Z"
+          },
+          {
+            "title": "Pin conforma tekton task to digest",
+            "url": "https://github.com/conforma/cli/pull/3491",
+            "repo": "conforma/cli",
+            "number": 3491,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-29T08:14:33Z"
+          },
+          {
+            "title": "Add DevConf.US 2026 talk to resources and blog",
+            "url": "https://github.com/conforma/conforma.github.io/pull/577",
+            "repo": "conforma/conforma.github.io",
+            "number": 577,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-29T08:06:48Z"
+          },
+          {
+            "title": "Add Codecov configuration (100% project and patch coverage)",
+            "url": "https://github.com/conforma/policy/pull/1840",
+            "repo": "conforma/policy",
+            "number": 1840,
+            "author": "eedri",
+            "engaged_at": "2026-09-28T14:26:49Z"
           },
           {
             "title": "Replace quay.io/konflux-ci/konflux-vanguard/task-rpms-signature-scan Docker tag with quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan 0.2 (main)",
@@ -8910,351 +8308,351 @@
             "repo": "conforma/golden-container",
             "number": 1504,
             "author": "red-hat-konflux",
-            "engaged_at": "2026-09-24T14:44:07Z"
+            "engaged_at": "2026-09-24T14:29:26Z"
           },
           {
-            "title": "Integrate golden RPM validation to acceptance tests",
-            "url": "https://github.com/conforma/infra-deployments-ci/pull/226",
+            "title": "feat(EC-2212): show PRs waiting for a 2nd approval in 'Ready for review'",
+            "url": "https://github.com/conforma/review-rot/pull/262",
+            "repo": "conforma/review-rot",
+            "number": 262,
+            "author": "jsmid1",
+            "engaged_at": "2026-09-23T10:35:02Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/.github/pull/92",
+            "repo": "conforma/.github",
+            "number": 92,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:52Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/tekton-catalog/pull/273",
+            "repo": "conforma/tekton-catalog",
+            "number": 273,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:49Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/hacks/pull/219",
+            "repo": "conforma/hacks",
+            "number": 219,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:45Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/237",
             "repo": "conforma/infra-deployments-ci",
-            "number": 226,
-            "author": "Acepresso",
-            "engaged_at": "2026-09-16T16:00:18Z"
+            "number": 237,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:40Z"
           },
           {
-            "title": "Reduce low-value Fullsend bot output",
-            "url": "https://github.com/conforma/.fullsend/pull/16",
-            "repo": "conforma/.fullsend",
-            "number": 16,
-            "author": "st3penta",
-            "engaged_at": "2026-09-16T14:02:20Z"
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/policy-builder/pull/65",
+            "repo": "conforma/policy-builder",
+            "number": 65,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:36Z"
           },
           {
-            "title": "chore(deps): Update ubi-minimal base image (v0.9)",
-            "url": "https://github.com/conforma/cli/pull/3571",
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/conforma.github.io/pull/572",
+            "repo": "conforma/conforma.github.io",
+            "number": 572,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:33Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/crds/pull/37",
+            "repo": "conforma/crds",
+            "number": 37,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:28Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/user-guide/pull/258",
+            "repo": "conforma/user-guide",
+            "number": 258,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:25Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/golden-container/pull/1517",
+            "repo": "conforma/golden-container",
+            "number": 1517,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:21Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/policy/pull/1857",
+            "repo": "conforma/policy",
+            "number": 1857,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:17Z"
+          },
+          {
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/cli/pull/3577",
             "repo": "conforma/cli",
-            "number": 3571,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-15T19:47:30Z"
+            "number": 3577,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:23:13Z"
           },
           {
-            "title": "chore(deps): Update ubi-minimal base image (v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3569",
-            "repo": "conforma/cli",
-            "number": 3569,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-15T19:47:20Z"
+            "title": "Remove unnecessary secrets: inherit from auto-merge caller",
+            "url": "https://github.com/conforma/config/pull/242",
+            "repo": "conforma/config",
+            "number": 242,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-22T14:22:21Z"
           },
           {
-            "title": "Update registry.access.redhat.com/ubi9/go-toolset:1.26.7 Docker digest to 685ccca (main)",
-            "url": "https://github.com/conforma/cli/pull/3566",
-            "repo": "conforma/cli",
-            "number": 3566,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-09-15T15:43:20Z"
+            "title": "feat: Allow watching all PRs on non-org repositories",
+            "url": "https://github.com/conforma/review-rot/pull/258",
+            "repo": "conforma/review-rot",
+            "number": 258,
+            "author": "jannfis",
+            "engaged_at": "2026-09-21T09:29:42Z"
           },
           {
-            "title": "fix(EC-1994): bump conforma.workerCount fallback default from 4 to 5",
-            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2463",
-            "repo": "konflux-ci/release-service-catalog",
-            "number": 2463,
+            "title": "feat: Retry queries on transient failures",
+            "url": "https://github.com/conforma/review-rot/pull/260",
+            "repo": "conforma/review-rot",
+            "number": 260,
+            "author": "jannfis",
+            "engaged_at": "2026-09-21T09:25:00Z"
+          },
+          {
+            "title": "fix: switch to GitHub Actions deployment for Pages",
+            "url": "https://github.com/conforma/review-rot/pull/259",
+            "repo": "conforma/review-rot",
+            "number": 259,
+            "author": "lance",
+            "engaged_at": "2026-09-18T08:14:54Z"
+          },
+          {
+            "title": "Add Codecov configuration (80% patch coverage, informational)",
+            "url": "https://github.com/conforma/crds/pull/33",
+            "repo": "conforma/crds",
+            "number": 33,
+            "author": "eedri",
+            "engaged_at": "2026-09-17T08:07:47Z"
+          },
+          {
+            "title": "feat: Expand GitHub groups in authors list",
+            "url": "https://github.com/conforma/review-rot/pull/257",
+            "repo": "conforma/review-rot",
+            "number": 257,
+            "author": "jannfis",
+            "engaged_at": "2026-09-17T08:05:30Z"
+          },
+          {
+            "title": "Mock ec.oci.parsed_blob",
+            "url": "https://github.com/conforma/policy/pull/1856",
+            "repo": "conforma/policy",
+            "number": 1856,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-17T07:39:14Z"
+          },
+          {
+            "title": "fix: Unblock step-action Conforma validation",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3845",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3845,
+            "author": "slimreaper35",
+            "engaged_at": "2026-09-16T10:54:08Z"
+          },
+          {
+            "title": "EC-2162: Verify ITS PipelineRuns use trusted tasks",
+            "url": "https://github.com/conforma/policy/pull/1829",
+            "repo": "conforma/policy",
+            "number": 1829,
+            "author": "joejstuart",
+            "engaged_at": "2026-09-15T15:50:50Z"
+          },
+          {
+            "title": "feat(validation): add lightweight AsciiDoc validation for agent and CI use",
+            "url": "https://github.com/conforma/user-guide/pull/251",
+            "repo": "conforma/user-guide",
+            "number": 251,
             "author": "cuipinghuo",
-            "engaged_at": "2026-09-15T13:52:12Z"
+            "engaged_at": "2026-09-15T14:52:46Z"
           },
           {
-            "title": "Establish performance baselines and regression detection",
-            "url": "https://github.com/conforma/cli/pull/3441",
-            "repo": "conforma/cli",
-            "number": 3441,
-            "author": "dheerajodha",
-            "engaged_at": "2026-09-15T13:49:21Z"
-          },
-          {
-            "title": "🚨 Update dependency toml to v5 (main)",
-            "url": "https://github.com/conforma/conforma.github.io/pull/565",
-            "repo": "conforma/conforma.github.io",
-            "number": 565,
+            "title": "🚨 Update actions/checkout action to v7 (main)",
+            "url": "https://github.com/conforma/.fullsend/pull/14",
+            "repo": "conforma/.fullsend",
+            "number": 14,
             "author": "renovate",
-            "engaged_at": "2026-09-14T14:07:10Z"
+            "engaged_at": "2026-09-15T14:28:30Z"
           },
           {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/policy-builder/pull/50",
-            "repo": "conforma/policy-builder",
-            "number": 50,
-            "author": "renovate",
-            "engaged_at": "2026-09-14T14:06:17Z"
+            "title": "docs(EC-2103): fix stale trusted_task_rules architecture in THREAT_MODEL.md",
+            "url": "https://github.com/conforma/policy/pull/1847",
+            "repo": "conforma/policy",
+            "number": 1847,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-15T09:24:38Z"
           },
           {
-            "title": "fix(#560): drop unused mermaid npm dep to end CDN version drift",
-            "url": "https://github.com/conforma/conforma.github.io/pull/564",
-            "repo": "conforma/conforma.github.io",
-            "number": 564,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-09-14T13:41:39Z"
+            "title": "feat(EC-2081): use ec.oci.parsed_blob builtin in parsed_blob wrapper",
+            "url": "https://github.com/conforma/policy/pull/1844",
+            "repo": "conforma/policy",
+            "number": 1844,
+            "author": "BohdanMar",
+            "engaged_at": "2026-09-14T09:06:36Z"
           },
           {
-            "title": "Update dependency node to v24.21.0 (main)",
-            "url": "https://github.com/conforma/conforma.github.io/pull/514",
-            "repo": "conforma/conforma.github.io",
-            "number": 514,
-            "author": "renovate",
-            "engaged_at": "2026-09-14T13:39:56Z"
+            "title": "Add resource limits to archive expanders and HTTP gatherer",
+            "url": "https://github.com/conforma/go-gather/pull/339",
+            "repo": "conforma/go-gather",
+            "number": 339,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-20T10:59:14Z"
           },
           {
-            "title": "🚨 Update github actions (main) (major)",
-            "url": "https://github.com/conforma/conforma.github.io/pull/528",
-            "repo": "conforma/conforma.github.io",
-            "number": 528,
-            "author": "renovate",
-            "engaged_at": "2026-09-14T13:37:56Z"
+            "title": "Deduplicate test-result attestations by test name",
+            "url": "https://github.com/conforma/policy/pull/1817",
+            "repo": "conforma/policy",
+            "number": 1817,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-20T10:33:11Z"
           },
           {
-            "title": "Update dependency vite to v6.4.3 [SECURITY] (main)",
-            "url": "https://github.com/conforma/policy-builder/pull/41",
-            "repo": "conforma/policy-builder",
-            "number": 41,
-            "author": "renovate",
-            "engaged_at": "2026-09-14T13:32:16Z"
+            "title": "Create PRs instead of pushing directly to protected branches",
+            "url": "https://github.com/conforma/tekton-catalog/pull/261",
+            "repo": "conforma/tekton-catalog",
+            "number": 261,
+            "author": "jsmid1",
+            "engaged_at": "2026-08-19T13:41:48Z"
           },
           {
             "title": "Allow PNC SLSA build type for PipelineRun attestations",
-            "url": "https://github.com/conforma/policy/pull/1826",
+            "url": "https://github.com/conforma/policy/pull/1816",
             "repo": "conforma/policy",
-            "number": 1826,
+            "number": 1816,
             "author": "vnadempa",
-            "engaged_at": "2026-09-11T19:49:00Z"
+            "engaged_at": "2026-08-19T12:53:39Z"
           },
           {
-            "title": "chore(deps): Update testcontainers-go and moby/go-archive (v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3561",
+            "title": "Restore commented out acceptance test scenario",
+            "url": "https://github.com/conforma/cli/pull/3505",
             "repo": "conforma/cli",
-            "number": 3561,
+            "number": 3505,
             "author": "simonbaird",
-            "engaged_at": "2026-09-11T14:54:26Z"
+            "engaged_at": "2026-08-19T09:30:07Z"
           },
           {
-            "title": "chore(deps): Update testcontainers-go and moby/go-archive (v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3560",
+            "title": "Add attended scripts for multi-branch UBI bump and module update PRs",
+            "url": "https://github.com/conforma/cli/pull/3430",
             "repo": "conforma/cli",
-            "number": 3560,
+            "number": 3430,
             "author": "simonbaird",
-            "engaged_at": "2026-09-11T14:54:15Z"
+            "engaged_at": "2026-08-19T08:38:35Z"
           },
           {
-            "title": "chore(deps): Update testcontainers-go and moby/go-archive (v0.9)",
-            "url": "https://github.com/conforma/cli/pull/3559",
-            "repo": "conforma/cli",
-            "number": 3559,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-11T14:54:04Z"
-          },
-          {
-            "title": "chore(deps): Update testcontainers-go and moby/go-archive (main)",
-            "url": "https://github.com/conforma/cli/pull/3558",
-            "repo": "conforma/cli",
-            "number": 3558,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-11T14:53:49Z"
-          },
-          {
-            "title": "docs(EC-2061): document dependency management strategy in AGENTS.md",
-            "url": "https://github.com/conforma/cli/pull/3539",
-            "repo": "conforma/cli",
-            "number": 3539,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-09-11T13:47:00Z"
-          },
-          {
-            "title": "chore(deps): Update golang module CVE fixes (main)",
-            "url": "https://github.com/conforma/cli/pull/3551",
-            "repo": "conforma/cli",
-            "number": 3551,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-10T01:37:17Z"
-          },
-          {
-            "title": "chore(deps): Update golang module CVE fixes (v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3549",
-            "repo": "conforma/cli",
-            "number": 3549,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-10T01:37:06Z"
-          },
-          {
-            "title": "chore(deps): Update golang module CVE fixes (v0.9)",
-            "url": "https://github.com/conforma/cli/pull/3550",
-            "repo": "conforma/cli",
-            "number": 3550,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-10T01:36:56Z"
-          },
-          {
-            "title": "chore(deps): Update golang module CVE fixes (v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3548",
-            "repo": "conforma/cli",
-            "number": 3548,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-10T01:36:36Z"
-          },
-          {
-            "title": "chore(EC-2174): bump conforma/cli and fix transitive dependency conflicts",
-            "url": "https://github.com/conforma/policy/pull/1831",
+            "title": "Skip test_data_found when test-result attestations exist",
+            "url": "https://github.com/conforma/policy/pull/1805",
             "repo": "conforma/policy",
-            "number": 1831,
-            "author": "BohdanMar",
-            "engaged_at": "2026-09-09T13:33:39Z"
-          },
-          {
-            "title": "Use plain strings for chains hint step results",
-            "url": "https://github.com/conforma/step-actions/pull/14",
-            "repo": "conforma/step-actions",
-            "number": 14,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-08T19:04:39Z"
-          },
-          {
-            "title": "chore: auto-merge safe GitHub Actions updates with a release-age cooldown",
-            "url": "https://github.com/conforma/.github/pull/89",
-            "repo": "conforma/.github",
-            "number": 89,
+            "number": 1805,
             "author": "robnester-rh",
-            "engaged_at": "2026-09-08T14:09:54Z"
+            "engaged_at": "2026-08-13T14:42:46Z"
           },
           {
-            "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3517",
-            "repo": "conforma/cli",
-            "number": 3517,
-            "author": "simonbaird",
-            "engaged_at": "2026-09-01T15:34:58Z"
-          },
-          {
-            "title": "Add CODEOWNERS designating the devs team as code owners",
-            "url": "https://github.com/enterprise-contract/go-gather/pull/1",
-            "repo": "enterprise-contract/go-gather",
-            "number": 1,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-31T20:12:49Z"
-          },
-          {
-            "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3518",
-            "repo": "conforma/cli",
-            "number": 3518,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-31T18:50:19Z"
-          },
-          {
-            "title": "EC-1793: Restructure enterprise-contract into dev/staging overlays",
-            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13323",
-            "repo": "redhat-appstudio/infra-deployments",
-            "number": 13323,
-            "author": "Acepresso",
-            "engaged_at": "2026-08-26T15:34:47Z"
-          },
-          {
-            "title": "ci: drop breaking-change marker from Renovate major-update prefix",
-            "url": "https://github.com/conforma/go-gather/pull/343",
-            "repo": "conforma/go-gather",
-            "number": 343,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-26T14:53:23Z"
-          },
-          {
-            "title": "ci: guard release workflow to the canonical repository",
-            "url": "https://github.com/conforma/go-gather/pull/342",
-            "repo": "conforma/go-gather",
-            "number": 342,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-26T14:40:05Z"
-          },
-          {
-            "title": "Update security policy for CRA",
-            "url": "https://github.com/conforma/.github/pull/84",
-            "repo": "conforma/.github",
-            "number": 84,
-            "author": "nmars",
-            "engaged_at": "2026-08-24T21:28:58Z"
-          },
-          {
-            "title": "Update SKILL.md to add SLSA provenance domain and iterative refinement",
-            "url": "https://github.com/conforma/claude-skills/pull/21",
-            "repo": "conforma/claude-skills",
-            "number": 21,
-            "author": "dheerajodha",
-            "engaged_at": "2026-08-21T13:33:23Z"
-          },
-          {
-            "title": "Harden git subdir copy against symlink traversal",
-            "url": "https://github.com/conforma/go-gather/pull/338",
-            "repo": "conforma/go-gather",
-            "number": 338,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-19T18:17:37Z"
-          },
-          {
-            "title": "Verify SBOM signatures from OCI referrers and tag refs",
-            "url": "https://github.com/conforma/policy/pull/1787",
+            "title": "Warn when regex patterns in rule data lack anchoring",
+            "url": "https://github.com/conforma/policy/pull/1781",
             "repo": "conforma/policy",
-            "number": 1787,
-            "author": "st3penta",
-            "engaged_at": "2026-08-19T15:32:24Z"
-          },
-          {
-            "title": "Add SLSA provenance data access patterns to rego-patterns.md (EC-1936)",
-            "url": "https://github.com/conforma/claude-skills/pull/20",
-            "repo": "conforma/claude-skills",
-            "number": 20,
-            "author": "robnester-rh",
-            "engaged_at": "2026-08-17T18:16:52Z"
-          },
-          {
-            "title": "chore(deps): update quay.io/conforma/tekton-task:konflux docker digest to 775cbfa",
-            "url": "https://github.com/konflux-ci/build-definitions/pull/3787",
-            "repo": "konflux-ci/build-definitions",
-            "number": 3787,
-            "author": "renovate",
-            "engaged_at": "2026-08-14T13:02:34Z"
-          },
-          {
-            "title": "Skip volatile config items when timestamp parsing fails",
-            "url": "https://github.com/conforma/cli/pull/3486",
-            "repo": "conforma/cli",
-            "number": 3486,
-            "author": "st3penta",
-            "engaged_at": "2026-08-12T21:18:52Z"
-          },
-          {
-            "title": "Use konflux-ci/oras as task runner, plus a fix for using the correct push credential",
-            "url": "https://github.com/conforma/step-actions/pull/6",
-            "repo": "conforma/step-actions",
-            "number": 6,
-            "author": "simonbaird",
-            "engaged_at": "2026-08-11T23:42:33Z"
-          },
-          {
-            "title": "[EC-1864] Add AI skills for ec-policies",
-            "url": "https://github.com/conforma/policy/pull/1793",
-            "repo": "conforma/policy",
-            "number": 1793,
+            "number": 1781,
             "author": "jsmid1",
-            "engaged_at": "2026-08-11T17:26:33Z"
+            "engaged_at": "2026-08-12T08:42:20Z"
           },
           {
-            "title": "Add threat model for the policy repo",
-            "url": "https://github.com/conforma/policy/pull/1794",
-            "repo": "conforma/policy",
-            "number": 1794,
-            "author": "st3penta",
-            "engaged_at": "2026-08-06T16:14:13Z"
-          },
-          {
-            "title": "Add threat model for the CLI",
-            "url": "https://github.com/conforma/cli/pull/3466",
+            "title": "Include enforcement date in warnings for future effective_on violations",
+            "url": "https://github.com/conforma/cli/pull/3412",
             "repo": "conforma/cli",
-            "number": 3466,
-            "author": "st3penta",
-            "engaged_at": "2026-08-06T15:13:47Z"
+            "number": 3412,
+            "author": "Acepresso",
+            "engaged_at": "2026-08-10T10:58:48Z"
+          },
+          {
+            "title": "feat(EC-1941): add enterprise-contract pipeline definition",
+            "url": "https://github.com/conforma/cli/pull/3416",
+            "repo": "conforma/cli",
+            "number": 3416,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-10T10:49:59Z"
+          },
+          {
+            "title": "Fix path traversal in git gatherer subdir handling",
+            "url": "https://github.com/conforma/go-gather/pull/336",
+            "repo": "conforma/go-gather",
+            "number": 336,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-10T09:34:47Z"
+          },
+          {
+            "title": "Merge trusted task rules instead of first-found",
+            "url": "https://github.com/conforma/policy/pull/1792",
+            "repo": "conforma/policy",
+            "number": 1792,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-10T09:06:34Z"
+          },
+          {
+            "title": "[DNM] Add dummy task, pipeline, and ITS for EC-2011 POC",
+            "url": "https://github.com/conforma/cli/pull/3476",
+            "repo": "conforma/cli",
+            "number": 3476,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-10T08:47:40Z"
+          },
+          {
+            "title": "Add imagePullPolicy: IfNotPresent to step action and test task",
+            "url": "https://github.com/conforma/step-actions/pull/5",
+            "repo": "conforma/step-actions",
+            "number": 5,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-10T08:36:23Z"
+          },
+          {
+            "title": "Pin third-party action to immutable ref in release workflow",
+            "url": "https://github.com/conforma/cli/pull/3463",
+            "repo": "conforma/cli",
+            "number": 3463,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-07T07:44:11Z"
+          },
+          {
+            "title": "feat(EC-1957): verify base image release signatures",
+            "url": "https://github.com/conforma/policy/pull/1780",
+            "repo": "conforma/policy",
+            "number": 1780,
+            "author": "joejstuart",
+            "engaged_at": "2026-08-06T15:28:14Z"
+          },
+          {
+            "title": "Extend sync script to also sync pipeline definitions",
+            "url": "https://github.com/conforma/tekton-catalog/pull/260",
+            "repo": "conforma/tekton-catalog",
+            "number": 260,
+            "author": "jsmid1",
+            "engaged_at": "2026-08-06T13:59:59Z"
+          },
+          {
+            "title": "fix(#1768): remove stale .adoc files before doc generation",
+            "url": "https://github.com/conforma/policy/pull/1769",
+            "repo": "conforma/policy",
+            "number": 1769,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-08-06T08:46:03Z"
           },
           {
             "title": "Add Jira links for some trusted task todos",
@@ -9262,119 +8660,135 @@
             "repo": "release-engineering/rhtap-ec-policy",
             "number": 248,
             "author": "simonbaird",
-            "engaged_at": "2026-08-05T00:42:41Z"
+            "engaged_at": "2026-08-05T09:29:09Z"
           },
           {
-            "title": "Make sure build-dm-verity-image is trusted",
-            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/247",
-            "repo": "release-engineering/rhtap-ec-policy",
-            "number": 247,
+            "title": "docs(EC-1954): add effective_on review checklist to AGENTS.md",
+            "url": "https://github.com/conforma/policy/pull/1789",
+            "repo": "conforma/policy",
+            "number": 1789,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-08-03T14:51:38Z"
+          },
+          {
+            "title": "Add enterprise-contract pipeline definition to cli/pipelines",
+            "url": "https://github.com/conforma/cli/pull/3435",
+            "repo": "conforma/cli",
+            "number": 3435,
+            "author": "jsmid1",
+            "engaged_at": "2026-07-29T12:58:41Z"
+          },
+          {
+            "title": "Add pin-policy-bundle acceptance tests for TA task",
+            "url": "https://github.com/conforma/cli/pull/3324",
+            "repo": "conforma/cli",
+            "number": 3324,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-28T07:48:22Z"
+          },
+          {
+            "title": "Fix pinned ref cache miss to avoid policy refetch",
+            "url": "https://github.com/conforma/cli/pull/3431",
+            "repo": "conforma/cli",
+            "number": 3431,
             "author": "simonbaird",
-            "engaged_at": "2026-08-04T17:02:40Z"
+            "engaged_at": "2026-07-24T09:27:01Z"
+          },
+          {
+            "title": "chore(deps): Upgrade golang to 1.26.4 (v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3414",
+            "repo": "conforma/cli",
+            "number": 3414,
+            "author": "simonbaird",
+            "engaged_at": "2026-07-23T13:23:06Z"
           },
           {
             "title": "chore(deps): Update ubi-minimal base image (main)",
-            "url": "https://github.com/conforma/cli/pull/3454",
+            "url": "https://github.com/conforma/cli/pull/3429",
             "repo": "conforma/cli",
-            "number": 3454,
+            "number": 3429,
             "author": "simonbaird",
-            "engaged_at": "2026-08-04T00:27:10Z"
+            "engaged_at": "2026-07-22T16:12:47Z"
           },
           {
             "title": "chore(deps): Update ubi-minimal base image (v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3453",
+            "url": "https://github.com/conforma/cli/pull/3428",
             "repo": "conforma/cli",
-            "number": 3453,
+            "number": 3428,
             "author": "simonbaird",
-            "engaged_at": "2026-08-04T00:27:01Z"
+            "engaged_at": "2026-07-22T16:12:32Z"
           },
           {
             "title": "chore(deps): Update ubi-minimal base image (v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3452",
+            "url": "https://github.com/conforma/cli/pull/3427",
             "repo": "conforma/cli",
-            "number": 3452,
+            "number": 3427,
             "author": "simonbaird",
-            "engaged_at": "2026-08-04T00:26:52Z"
+            "engaged_at": "2026-07-22T16:12:20Z"
           },
           {
-            "title": "chore(deps): UBI bump \u0026 update oras.land/oras-go/v2 (main)",
-            "url": "https://github.com/conforma/cli/pull/3447",
+            "title": "chore(deps): Pin Go builder image by digest",
+            "url": "https://github.com/conforma/cli/pull/3423",
             "repo": "conforma/cli",
-            "number": 3447,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-31T17:03:06Z"
+            "number": 3423,
+            "author": "iRayans",
+            "engaged_at": "2026-07-20T09:55:29Z"
           },
           {
-            "title": "chore(deps): UBI bump \u0026 update oras.land/oras-go/v2 (v0.8)",
-            "url": "https://github.com/conforma/cli/pull/3446",
+            "title": "fix(EC-1912): validate in-toto statement type in bundle attestation path",
+            "url": "https://github.com/conforma/cli/pull/3418",
             "repo": "conforma/cli",
-            "number": 3446,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-31T17:02:51Z"
-          },
-          {
-            "title": "chore(deps): UBI bump \u0026 update oras.land/oras-go/v2 (v0.7)",
-            "url": "https://github.com/conforma/cli/pull/3445",
-            "repo": "conforma/cli",
-            "number": 3445,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-31T17:02:40Z"
-          },
-          {
-            "title": "Add mid-sprint tracking skills and commands (EC-1899)",
-            "url": "https://github.com/conforma/claude-skills/pull/18",
-            "repo": "conforma/claude-skills",
-            "number": 18,
-            "author": "robnester-rh",
-            "engaged_at": "2026-07-28T17:00:08Z"
-          },
-          {
-            "title": "feat(EC-1862): add AI skills for ec-cli",
-            "url": "https://github.com/conforma/cli/pull/3434",
-            "repo": "conforma/cli",
-            "number": 3434,
+            "number": 3418,
             "author": "BohdanMar",
-            "engaged_at": "2026-07-27T15:31:05Z"
+            "engaged_at": "2026-07-20T09:55:05Z"
           },
           {
-            "title": "fix(EC-1994): correct off-by-one in validate image worker loop",
-            "url": "https://github.com/conforma/cli/pull/3425",
-            "repo": "conforma/cli",
-            "number": 3425,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-07-23T18:19:27Z"
+            "title": "feat: add /scaffold-repo command for AgentReady scaffolding",
+            "url": "https://github.com/conforma/claude-skills/pull/16",
+            "repo": "conforma/claude-skills",
+            "number": 16,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-17T09:24:15Z"
           },
           {
-            "title": "ci(EC-1928): add regal-test target for custom lint rule tests",
-            "url": "https://github.com/conforma/policy/pull/1778",
+            "title": "chore: add AgentReady scaffolding for AI-assisted development",
+            "url": "https://github.com/conforma/policy/pull/1779",
             "repo": "conforma/policy",
-            "number": 1778,
-            "author": "robnester-rh",
-            "engaged_at": "2026-07-16T12:48:29Z"
+            "number": 1779,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-17T09:23:47Z"
           },
           {
-            "title": "Update conforma/pr-size-label-action action to v1.2.0",
-            "url": "https://github.com/conforma/claude-skills/pull/13",
-            "repo": "conforma/claude-skills",
-            "number": 13,
-            "author": "renovate",
-            "engaged_at": "2026-07-14T17:01:17Z"
-          },
-          {
-            "title": "Configure Renovate",
-            "url": "https://github.com/conforma/claude-skills/pull/11",
-            "repo": "conforma/claude-skills",
-            "number": 11,
-            "author": "renovate",
-            "engaged_at": "2026-07-14T14:44:12Z"
-          },
-          {
-            "title": "Add validate input --server flag for persistent HTTP/REST",
-            "url": "https://github.com/conforma/cli/pull/3386",
+            "title": "chore: add AgentReady scaffolding for AI-assisted development",
+            "url": "https://github.com/conforma/cli/pull/3415",
             "repo": "conforma/cli",
-            "number": 3386,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-13T22:18:37Z"
+            "number": 3415,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-17T08:01:01Z"
+          },
+          {
+            "title": "Add ITS policy config for early release-violation visibility",
+            "url": "https://github.com/conforma/config/pull/236",
+            "repo": "conforma/config",
+            "number": 236,
+            "author": "joejstuart",
+            "engaged_at": "2026-07-16T14:17:58Z"
+          },
+          {
+            "title": "docs(#3410): add Kubernetes manifest guidance to AGENTS.md",
+            "url": "https://github.com/conforma/cli/pull/3411",
+            "repo": "conforma/cli",
+            "number": 3411,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-07-14T14:35:48Z"
+          },
+          {
+            "title": "fix(#3360): add missing \"go version\" group to Renovate config",
+            "url": "https://github.com/conforma/cli/pull/3361",
+            "repo": "conforma/cli",
+            "number": 3361,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-07-14T09:12:09Z"
           }
         ]
       },
@@ -9881,8 +9295,510 @@
         ]
       },
       {
+        "login": "joejstuart",
+        "reviews": 62,
+        "prs": [
+          {
+            "title": "Publish step-actions to the tekton-catalog konflux branch",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/234",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 234,
+            "author": "jsmid1",
+            "engaged_at": "2026-10-06T19:26:00Z"
+          },
+          {
+            "title": "chore(EC-2153): inject policy digest into released tasks",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/236",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 236,
+            "author": "jsmid1",
+            "engaged_at": "2026-10-06T18:30:24Z"
+          },
+          {
+            "title": "ci: add actionlint workflow",
+            "url": "https://github.com/conforma/github-workflows/pull/10",
+            "repo": "conforma/github-workflows",
+            "number": 10,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-01T21:29:45Z"
+          },
+          {
+            "title": "ci: add actionlint workflow",
+            "url": "https://github.com/conforma/.github/pull/95",
+            "repo": "conforma/.github",
+            "number": 95,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-01T21:29:33Z"
+          },
+          {
+            "title": "Replace quay.io/konflux-ci/konflux-vanguard/task-rpms-signature-scan Docker tag with quay.io/konflux-ci/tekton-catalog/task-rpms-signature-scan 0.2 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1504",
+            "repo": "conforma/golden-container",
+            "number": 1504,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-24T14:44:07Z"
+          },
+          {
+            "title": "Integrate golden RPM validation to acceptance tests",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/226",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 226,
+            "author": "Acepresso",
+            "engaged_at": "2026-09-16T16:00:18Z"
+          },
+          {
+            "title": "Reduce low-value Fullsend bot output",
+            "url": "https://github.com/conforma/.fullsend/pull/16",
+            "repo": "conforma/.fullsend",
+            "number": 16,
+            "author": "st3penta",
+            "engaged_at": "2026-09-16T14:02:20Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3571",
+            "repo": "conforma/cli",
+            "number": 3571,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-15T19:47:30Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3569",
+            "repo": "conforma/cli",
+            "number": 3569,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-15T19:47:20Z"
+          },
+          {
+            "title": "Update registry.access.redhat.com/ubi9/go-toolset:1.26.7 Docker digest to 685ccca (main)",
+            "url": "https://github.com/conforma/cli/pull/3566",
+            "repo": "conforma/cli",
+            "number": 3566,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-09-15T15:43:20Z"
+          },
+          {
+            "title": "fix(EC-1994): bump conforma.workerCount fallback default from 4 to 5",
+            "url": "https://github.com/konflux-ci/release-service-catalog/pull/2463",
+            "repo": "konflux-ci/release-service-catalog",
+            "number": 2463,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-15T13:52:12Z"
+          },
+          {
+            "title": "Establish performance baselines and regression detection",
+            "url": "https://github.com/conforma/cli/pull/3441",
+            "repo": "conforma/cli",
+            "number": 3441,
+            "author": "dheerajodha",
+            "engaged_at": "2026-09-15T13:49:21Z"
+          },
+          {
+            "title": "🚨 Update dependency toml to v5 (main)",
+            "url": "https://github.com/conforma/conforma.github.io/pull/565",
+            "repo": "conforma/conforma.github.io",
+            "number": 565,
+            "author": "renovate",
+            "engaged_at": "2026-09-14T14:07:10Z"
+          },
+          {
+            "title": "🚨 Update github actions (main) (major)",
+            "url": "https://github.com/conforma/policy-builder/pull/50",
+            "repo": "conforma/policy-builder",
+            "number": 50,
+            "author": "renovate",
+            "engaged_at": "2026-09-14T14:06:17Z"
+          },
+          {
+            "title": "fix(#560): drop unused mermaid npm dep to end CDN version drift",
+            "url": "https://github.com/conforma/conforma.github.io/pull/564",
+            "repo": "conforma/conforma.github.io",
+            "number": 564,
+            "author": "fullsend-ai-coder",
+            "engaged_at": "2026-09-14T13:41:39Z"
+          },
+          {
+            "title": "Update dependency node to v24.21.0 (main)",
+            "url": "https://github.com/conforma/conforma.github.io/pull/514",
+            "repo": "conforma/conforma.github.io",
+            "number": 514,
+            "author": "renovate",
+            "engaged_at": "2026-09-14T13:39:56Z"
+          },
+          {
+            "title": "🚨 Update github actions (main) (major)",
+            "url": "https://github.com/conforma/conforma.github.io/pull/528",
+            "repo": "conforma/conforma.github.io",
+            "number": 528,
+            "author": "renovate",
+            "engaged_at": "2026-09-14T13:37:56Z"
+          },
+          {
+            "title": "Update dependency vite to v6.4.3 [SECURITY] (main)",
+            "url": "https://github.com/conforma/policy-builder/pull/41",
+            "repo": "conforma/policy-builder",
+            "number": 41,
+            "author": "renovate",
+            "engaged_at": "2026-09-14T13:32:16Z"
+          },
+          {
+            "title": "Allow PNC SLSA build type for PipelineRun attestations",
+            "url": "https://github.com/conforma/policy/pull/1826",
+            "repo": "conforma/policy",
+            "number": 1826,
+            "author": "vnadempa",
+            "engaged_at": "2026-09-11T19:49:00Z"
+          },
+          {
+            "title": "chore(deps): Update testcontainers-go and moby/go-archive (v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3561",
+            "repo": "conforma/cli",
+            "number": 3561,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-11T14:54:26Z"
+          },
+          {
+            "title": "chore(deps): Update testcontainers-go and moby/go-archive (v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3560",
+            "repo": "conforma/cli",
+            "number": 3560,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-11T14:54:15Z"
+          },
+          {
+            "title": "chore(deps): Update testcontainers-go and moby/go-archive (v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3559",
+            "repo": "conforma/cli",
+            "number": 3559,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-11T14:54:04Z"
+          },
+          {
+            "title": "chore(deps): Update testcontainers-go and moby/go-archive (main)",
+            "url": "https://github.com/conforma/cli/pull/3558",
+            "repo": "conforma/cli",
+            "number": 3558,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-11T14:53:49Z"
+          },
+          {
+            "title": "docs(EC-2061): document dependency management strategy in AGENTS.md",
+            "url": "https://github.com/conforma/cli/pull/3539",
+            "repo": "conforma/cli",
+            "number": 3539,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-09-11T13:47:00Z"
+          },
+          {
+            "title": "chore(deps): Update golang module CVE fixes (main)",
+            "url": "https://github.com/conforma/cli/pull/3551",
+            "repo": "conforma/cli",
+            "number": 3551,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-10T01:37:17Z"
+          },
+          {
+            "title": "chore(deps): Update golang module CVE fixes (v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3549",
+            "repo": "conforma/cli",
+            "number": 3549,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-10T01:37:06Z"
+          },
+          {
+            "title": "chore(deps): Update golang module CVE fixes (v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3550",
+            "repo": "conforma/cli",
+            "number": 3550,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-10T01:36:56Z"
+          },
+          {
+            "title": "chore(deps): Update golang module CVE fixes (v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3548",
+            "repo": "conforma/cli",
+            "number": 3548,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-10T01:36:36Z"
+          },
+          {
+            "title": "chore(EC-2174): bump conforma/cli and fix transitive dependency conflicts",
+            "url": "https://github.com/conforma/policy/pull/1831",
+            "repo": "conforma/policy",
+            "number": 1831,
+            "author": "BohdanMar",
+            "engaged_at": "2026-09-09T13:33:39Z"
+          },
+          {
+            "title": "Use plain strings for chains hint step results",
+            "url": "https://github.com/conforma/step-actions/pull/14",
+            "repo": "conforma/step-actions",
+            "number": 14,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-08T19:04:39Z"
+          },
+          {
+            "title": "chore: auto-merge safe GitHub Actions updates with a release-age cooldown",
+            "url": "https://github.com/conforma/.github/pull/89",
+            "repo": "conforma/.github",
+            "number": 89,
+            "author": "robnester-rh",
+            "engaged_at": "2026-09-08T14:09:54Z"
+          },
+          {
+            "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3517",
+            "repo": "conforma/cli",
+            "number": 3517,
+            "author": "simonbaird",
+            "engaged_at": "2026-09-01T15:34:58Z"
+          },
+          {
+            "title": "Add CODEOWNERS designating the devs team as code owners",
+            "url": "https://github.com/enterprise-contract/go-gather/pull/1",
+            "repo": "enterprise-contract/go-gather",
+            "number": 1,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-31T20:12:49Z"
+          },
+          {
+            "title": "chore(deps): Update google.golang.org/grpc and ubi base image (v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3518",
+            "repo": "conforma/cli",
+            "number": 3518,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-31T18:50:19Z"
+          },
+          {
+            "title": "EC-1793: Restructure enterprise-contract into dev/staging overlays",
+            "url": "https://github.com/redhat-appstudio/infra-deployments/pull/13323",
+            "repo": "redhat-appstudio/infra-deployments",
+            "number": 13323,
+            "author": "Acepresso",
+            "engaged_at": "2026-08-26T15:34:47Z"
+          },
+          {
+            "title": "ci: drop breaking-change marker from Renovate major-update prefix",
+            "url": "https://github.com/conforma/go-gather/pull/343",
+            "repo": "conforma/go-gather",
+            "number": 343,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-26T14:53:23Z"
+          },
+          {
+            "title": "ci: guard release workflow to the canonical repository",
+            "url": "https://github.com/conforma/go-gather/pull/342",
+            "repo": "conforma/go-gather",
+            "number": 342,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-26T14:40:05Z"
+          },
+          {
+            "title": "Update security policy for CRA",
+            "url": "https://github.com/conforma/.github/pull/84",
+            "repo": "conforma/.github",
+            "number": 84,
+            "author": "nmars",
+            "engaged_at": "2026-08-24T21:28:58Z"
+          },
+          {
+            "title": "Update SKILL.md to add SLSA provenance domain and iterative refinement",
+            "url": "https://github.com/conforma/claude-skills/pull/21",
+            "repo": "conforma/claude-skills",
+            "number": 21,
+            "author": "dheerajodha",
+            "engaged_at": "2026-08-21T13:33:23Z"
+          },
+          {
+            "title": "Harden git subdir copy against symlink traversal",
+            "url": "https://github.com/conforma/go-gather/pull/338",
+            "repo": "conforma/go-gather",
+            "number": 338,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-19T18:17:37Z"
+          },
+          {
+            "title": "Verify SBOM signatures from OCI referrers and tag refs",
+            "url": "https://github.com/conforma/policy/pull/1787",
+            "repo": "conforma/policy",
+            "number": 1787,
+            "author": "st3penta",
+            "engaged_at": "2026-08-19T15:32:24Z"
+          },
+          {
+            "title": "Add SLSA provenance data access patterns to rego-patterns.md (EC-1936)",
+            "url": "https://github.com/conforma/claude-skills/pull/20",
+            "repo": "conforma/claude-skills",
+            "number": 20,
+            "author": "robnester-rh",
+            "engaged_at": "2026-08-17T18:16:52Z"
+          },
+          {
+            "title": "chore(deps): update quay.io/conforma/tekton-task:konflux docker digest to 775cbfa",
+            "url": "https://github.com/konflux-ci/build-definitions/pull/3787",
+            "repo": "konflux-ci/build-definitions",
+            "number": 3787,
+            "author": "renovate",
+            "engaged_at": "2026-08-14T13:02:34Z"
+          },
+          {
+            "title": "Skip volatile config items when timestamp parsing fails",
+            "url": "https://github.com/conforma/cli/pull/3486",
+            "repo": "conforma/cli",
+            "number": 3486,
+            "author": "st3penta",
+            "engaged_at": "2026-08-12T21:18:52Z"
+          },
+          {
+            "title": "Use konflux-ci/oras as task runner, plus a fix for using the correct push credential",
+            "url": "https://github.com/conforma/step-actions/pull/6",
+            "repo": "conforma/step-actions",
+            "number": 6,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-11T23:42:33Z"
+          },
+          {
+            "title": "[EC-1864] Add AI skills for ec-policies",
+            "url": "https://github.com/conforma/policy/pull/1793",
+            "repo": "conforma/policy",
+            "number": 1793,
+            "author": "jsmid1",
+            "engaged_at": "2026-08-11T17:26:33Z"
+          },
+          {
+            "title": "Add threat model for the policy repo",
+            "url": "https://github.com/conforma/policy/pull/1794",
+            "repo": "conforma/policy",
+            "number": 1794,
+            "author": "st3penta",
+            "engaged_at": "2026-08-06T16:14:13Z"
+          },
+          {
+            "title": "Add threat model for the CLI",
+            "url": "https://github.com/conforma/cli/pull/3466",
+            "repo": "conforma/cli",
+            "number": 3466,
+            "author": "st3penta",
+            "engaged_at": "2026-08-06T15:13:47Z"
+          },
+          {
+            "title": "Add Jira links for some trusted task todos",
+            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/248",
+            "repo": "release-engineering/rhtap-ec-policy",
+            "number": 248,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-05T00:42:41Z"
+          },
+          {
+            "title": "Make sure build-dm-verity-image is trusted",
+            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/247",
+            "repo": "release-engineering/rhtap-ec-policy",
+            "number": 247,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-04T17:02:40Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (main)",
+            "url": "https://github.com/conforma/cli/pull/3454",
+            "repo": "conforma/cli",
+            "number": 3454,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-04T00:27:10Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3453",
+            "repo": "conforma/cli",
+            "number": 3453,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-04T00:27:01Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3452",
+            "repo": "conforma/cli",
+            "number": 3452,
+            "author": "simonbaird",
+            "engaged_at": "2026-08-04T00:26:52Z"
+          },
+          {
+            "title": "chore(deps): UBI bump \u0026 update oras.land/oras-go/v2 (main)",
+            "url": "https://github.com/conforma/cli/pull/3447",
+            "repo": "conforma/cli",
+            "number": 3447,
+            "author": "simonbaird",
+            "engaged_at": "2026-07-31T17:03:06Z"
+          },
+          {
+            "title": "chore(deps): UBI bump \u0026 update oras.land/oras-go/v2 (v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3446",
+            "repo": "conforma/cli",
+            "number": 3446,
+            "author": "simonbaird",
+            "engaged_at": "2026-07-31T17:02:51Z"
+          },
+          {
+            "title": "chore(deps): UBI bump \u0026 update oras.land/oras-go/v2 (v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3445",
+            "repo": "conforma/cli",
+            "number": 3445,
+            "author": "simonbaird",
+            "engaged_at": "2026-07-31T17:02:40Z"
+          },
+          {
+            "title": "Add mid-sprint tracking skills and commands (EC-1899)",
+            "url": "https://github.com/conforma/claude-skills/pull/18",
+            "repo": "conforma/claude-skills",
+            "number": 18,
+            "author": "robnester-rh",
+            "engaged_at": "2026-07-28T17:00:08Z"
+          },
+          {
+            "title": "feat(EC-1862): add AI skills for ec-cli",
+            "url": "https://github.com/conforma/cli/pull/3434",
+            "repo": "conforma/cli",
+            "number": 3434,
+            "author": "BohdanMar",
+            "engaged_at": "2026-07-27T15:31:05Z"
+          },
+          {
+            "title": "fix(EC-1994): correct off-by-one in validate image worker loop",
+            "url": "https://github.com/conforma/cli/pull/3425",
+            "repo": "conforma/cli",
+            "number": 3425,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-07-23T18:19:27Z"
+          },
+          {
+            "title": "ci(EC-1928): add regal-test target for custom lint rule tests",
+            "url": "https://github.com/conforma/policy/pull/1778",
+            "repo": "conforma/policy",
+            "number": 1778,
+            "author": "robnester-rh",
+            "engaged_at": "2026-07-16T12:48:29Z"
+          },
+          {
+            "title": "Update conforma/pr-size-label-action action to v1.2.0",
+            "url": "https://github.com/conforma/claude-skills/pull/13",
+            "repo": "conforma/claude-skills",
+            "number": 13,
+            "author": "renovate",
+            "engaged_at": "2026-07-14T17:01:17Z"
+          },
+          {
+            "title": "Configure Renovate",
+            "url": "https://github.com/conforma/claude-skills/pull/11",
+            "repo": "conforma/claude-skills",
+            "number": 11,
+            "author": "renovate",
+            "engaged_at": "2026-07-14T14:44:12Z"
+          }
+        ]
+      },
+      {
         "login": "cuipinghuo",
-        "reviews": 60,
+        "reviews": 57,
         "prs": [
           {
             "title": "feat(ci): check new policy rule lead time on release PRs",
@@ -10339,30 +10255,6 @@
             "number": 3405,
             "author": "simonbaird",
             "engaged_at": "2026-07-14T01:54:43Z"
-          },
-          {
-            "title": "Build output fix for kubectl version plus deps updates",
-            "url": "https://github.com/conforma/cli/pull/3403",
-            "repo": "conforma/cli",
-            "number": 3403,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-13T19:11:15Z"
-          },
-          {
-            "title": "chore(deps): Update konflux refs",
-            "url": "https://github.com/conforma/cli/pull/3402",
-            "repo": "conforma/cli",
-            "number": 3402,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-13T19:10:47Z"
-          },
-          {
-            "title": "Update ubi and konflux refs again (v07)",
-            "url": "https://github.com/conforma/cli/pull/3401",
-            "repo": "conforma/cli",
-            "number": 3401,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-13T19:10:10Z"
           }
         ]
       },
@@ -10678,8 +10570,56 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 28,
+        "reviews": 34,
         "prs": [
+          {
+            "title": "fix: align Kubernetes dependencies and compile E2E tests in CI",
+            "url": "https://github.com/conforma/e2e-tests/pull/33",
+            "repo": "conforma/e2e-tests",
+            "number": 33,
+            "author": "dheerajodha",
+            "engaged_at": "2026-10-11T12:43:17Z"
+          },
+          {
+            "title": "Harden Cloudflare preview deployments",
+            "url": "https://github.com/conforma/policy-builder/pull/67",
+            "repo": "conforma/policy-builder",
+            "number": 67,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-11T12:38:10Z"
+          },
+          {
+            "title": "Harden Cloudflare preview deployments",
+            "url": "https://github.com/conforma/conforma.github.io/pull/582",
+            "repo": "conforma/conforma.github.io",
+            "number": 582,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-11T12:37:36Z"
+          },
+          {
+            "title": "Set Codecov coverage targets to 100%",
+            "url": "https://github.com/conforma/policy/pull/1868",
+            "repo": "conforma/policy",
+            "number": 1868,
+            "author": "st3penta",
+            "engaged_at": "2026-10-11T12:32:51Z"
+          },
+          {
+            "title": "Update Go dependencies with patched releases",
+            "url": "https://github.com/conforma/crds/pull/41",
+            "repo": "conforma/crds",
+            "number": 41,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-11T12:31:00Z"
+          },
+          {
+            "title": "Effectively anchor disallowed_platform_patterns regex",
+            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/288",
+            "repo": "release-engineering/rhtap-ec-policy",
+            "number": 288,
+            "author": "simonbaird",
+            "engaged_at": "2026-10-11T12:26:44Z"
+          },
           {
             "title": "Update registry.access.redhat.com/ubi9/ubi-minimal:latest Docker digest to 5ed244b (main)",
             "url": "https://github.com/conforma/golden-container/pull/1525",
