@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T16:43:14.154021523Z",
+  "generated_at": "2026-10-12T17:10:59.237672774Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4566,7 +4566,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:36Z",
-      "updated_at": "2026-10-12T15:36:08Z",
+      "updated_at": "2026-10-12T16:39:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -4683,7 +4683,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T16:39:58Z",
+    "since": "2026-07-14T17:07:49Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9397,7 +9397,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 61,
+        "reviews": 60,
         "prs": [
           {
             "title": "Publish step-actions to the tekton-catalog konflux branch",
@@ -9878,14 +9878,6 @@
             "number": 1778,
             "author": "robnester-rh",
             "engaged_at": "2026-07-16T12:48:29Z"
-          },
-          {
-            "title": "Update conforma/pr-size-label-action action to v1.2.0",
-            "url": "https://github.com/conforma/claude-skills/pull/13",
-            "repo": "conforma/claude-skills",
-            "number": 13,
-            "author": "renovate",
-            "engaged_at": "2026-07-14T17:01:17Z"
           }
         ]
       },
