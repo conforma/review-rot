@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T06:24:12.896091784Z",
+  "generated_at": "2026-10-12T07:19:16.474158397Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3303,7 +3303,7 @@
       ]
     },
     {
-      "title": "Update step-security/harden-runner action to v2.22.0 (main)",
+      "title": "Update github actions (main)",
       "url": "https://github.com/conforma/golden-container/pull/1529",
       "number": 1529,
       "repo": "conforma/golden-container",
@@ -3312,7 +3312,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-12T01:11:11Z",
-      "updated_at": "2026-10-12T01:11:40Z",
+      "updated_at": "2026-10-12T06:48:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3755,32 +3755,6 @@
       },
       "unresolved_conversations": 1,
       "labels": []
-    },
-    {
-      "title": "Update step-security/harden-runner action to v2.22.0 (main)",
-      "url": "https://github.com/conforma/github-workflows/pull/11",
-      "number": 11,
-      "repo": "conforma/github-workflows",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-12T02:23:29Z",
-      "updated_at": "2026-10-12T02:23:51Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
     },
     {
       "title": "Update npm dependencies (main) (minor)",
@@ -4755,7 +4729,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T06:21:18Z",
+    "since": "2026-07-14T07:16:07Z",
     "reviewers": [
       {
         "login": "robnester-rh",
