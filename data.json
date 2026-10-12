@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T05:49:23.537449828Z",
+  "generated_at": "2026-10-12T06:05:41.158026361Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3379,32 +3379,6 @@
       ]
     },
     {
-      "title": "Update step-security/harden-runner action to v2.22.0 (main)",
-      "url": "https://github.com/conforma/review-rot/pull/268",
-      "number": 268,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-12T00:59:03Z",
-      "updated_at": "2026-10-12T01:00:02Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -4781,7 +4755,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T05:46:39Z",
+    "since": "2026-07-14T06:02:23Z",
     "reviewers": [
       {
         "login": "robnester-rh",
