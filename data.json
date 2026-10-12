@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T04:23:03.275280716Z",
+  "generated_at": "2026-10-12T04:56:22.303118172Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3508,32 +3508,6 @@
       ]
     },
     {
-      "title": "Update helm/kind-action action to v1.15.1 (main)",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/245",
-      "number": 245,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-12T00:42:15Z",
-      "updated_at": "2026-10-12T00:42:39Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update step-security/harden-runner action to v2.22.0 (main)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/246",
       "number": 246,
@@ -3659,34 +3633,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
-      ]
-    },
-    {
-      "title": "Update step-security/harden-runner action to v2.22.0 (main)",
-      "url": "https://github.com/conforma/user-guide/pull/268",
-      "number": 268,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-12T02:08:23Z",
-      "updated_at": "2026-10-12T02:17:44Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
       ]
     },
     {
@@ -4459,32 +4405,6 @@
       "labels": []
     },
     {
-      "title": "Update step-security/harden-runner action to v2.22.0 (main)",
-      "url": "https://github.com/conforma/.github/pull/97",
-      "number": 97,
-      "repo": "conforma/.github",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-12T00:37:40Z",
-      "updated_at": "2026-10-12T00:37:49Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -4633,32 +4553,6 @@
         "main",
         "renovate",
         "major"
-      ]
-    },
-    {
-      "title": "Update step-security/harden-runner action to v2.22.0 (main)",
-      "url": "https://github.com/conforma/golden-rpm/pull/28",
-      "number": 28,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-12T01:52:28Z",
-      "updated_at": "2026-10-12T01:52:38Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
       ]
     },
     {
@@ -5097,7 +4991,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T04:20:04Z",
+    "since": "2026-07-14T04:53:40Z",
     "reviewers": [
       {
         "login": "robnester-rh",
