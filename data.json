@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T19:41:23.39079592Z",
+  "generated_at": "2026-10-12T20:11:43.140023574Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4709,7 +4709,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-14T19:38:18Z",
+    "since": "2026-07-14T20:08:39Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9909,7 +9909,7 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 55,
+        "reviews": 54,
         "prs": [
           {
             "title": "feat(ci): check new policy rule lead time on release PRs",
@@ -10342,14 +10342,6 @@
             "number": 3413,
             "author": "simonbaird",
             "engaged_at": "2026-07-14T21:07:37Z"
-          },
-          {
-            "title": "deps: Update github.com/sigstore/rekor (main)",
-            "url": "https://github.com/conforma/cli/pull/3406",
-            "repo": "conforma/cli",
-            "number": 3406,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-14T19:53:20Z"
           }
         ]
       },
