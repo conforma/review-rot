@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T18:15:50.6101539Z",
+  "generated_at": "2026-10-13T18:48:34.262146517Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2040,7 +2040,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-12T14:49:43Z",
+      "updated_at": "2026-10-13T18:29:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2057,7 +2057,7 @@
         "main",
         "size: XXL",
         "Review effort 1/5",
-        "ready-for-merge",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -2071,7 +2071,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-10-12T14:49:54Z",
+      "updated_at": "2026-10-13T18:32:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2102,7 +2102,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-10-13T06:43:03Z",
+      "updated_at": "2026-10-13T18:23:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2163,7 +2163,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-10-13T02:51:18Z",
+      "updated_at": "2026-10-13T18:29:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2193,10 +2193,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-10-13T02:29:17Z",
+      "updated_at": "2026-10-13T18:39:22Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
         "approved_count": 0,
@@ -2620,7 +2620,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.8 (main)",
+      "title": "Update dependency golang to v1.26.9 (main)",
       "url": "https://github.com/conforma/cli/pull/3365",
       "number": 3365,
       "repo": "conforma/cli",
@@ -2629,7 +2629,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-10-08T19:37:57Z",
+      "updated_at": "2026-10-13T18:21:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3028,7 +3028,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.26.8 (release-v0.7)",
+      "title": "Update dependency golang to v1.26.9 (release-v0.7)",
       "url": "https://github.com/conforma/cli/pull/3459",
       "number": 3459,
       "repo": "conforma/cli",
@@ -3037,7 +3037,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-08-05T01:53:10Z",
-      "updated_at": "2026-10-08T19:38:22Z",
+      "updated_at": "2026-10-13T18:28:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3549,7 +3549,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.27.1 (main)",
+      "title": "Update dependency golang to v1.27.2 (main)",
       "url": "https://github.com/conforma/cli/pull/3554",
       "number": 3554,
       "repo": "conforma/cli",
@@ -3558,7 +3558,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-10T03:03:08Z",
-      "updated_at": "2026-10-09T12:51:20Z",
+      "updated_at": "2026-10-13T18:26:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3573,7 +3573,7 @@
         "main",
         "size: XS",
         "ready-for-merge",
-        "risk/moderate"
+        "risk/low"
       ]
     },
     {
@@ -3605,7 +3605,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.27.1 (release-v0.7)",
+      "title": "Update dependency golang to v1.27.2 (release-v0.7)",
       "url": "https://github.com/conforma/cli/pull/3562",
       "number": 3562,
       "repo": "conforma/cli",
@@ -3614,7 +3614,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-11T02:39:03Z",
-      "updated_at": "2026-10-09T12:55:51Z",
+      "updated_at": "2026-10-13T18:29:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3979,6 +3979,222 @@
         "size: XS",
         "requires-manual-review",
         "risk/moderate"
+      ]
+    },
+    {
+      "title": "Update module github.com/containerd/containerd to v1.7.36 [SECURITY] (main)",
+      "url": "https://github.com/conforma/cli/pull/3604",
+      "number": 3604,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T18:11:14Z",
+      "updated_at": "2026-10-13T18:27:28Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "ready-for-merge",
+        "risk/moderate",
+        "security"
+      ]
+    },
+    {
+      "title": "Update module github.com/containerd/containerd/v2 to v2.3.6 [SECURITY] (main)",
+      "url": "https://github.com/conforma/cli/pull/3605",
+      "number": 3605,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T18:12:29Z",
+      "updated_at": "2026-10-13T18:21:37Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "ready-for-merge",
+        "risk/moderate",
+        "security"
+      ]
+    },
+    {
+      "title": "Update module go.mongodb.org/mongo-driver to v1.17.7 [SECURITY] (main)",
+      "url": "https://github.com/conforma/cli/pull/3606",
+      "number": 3606,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T18:13:03Z",
+      "updated_at": "2026-10-13T18:31:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "ready-for-merge",
+        "risk/moderate",
+        "security"
+      ]
+    },
+    {
+      "title": "Update module github.com/google/cel-go to v0.29.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/cli/pull/3607",
+      "number": 3607,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T18:13:47Z",
+      "updated_at": "2026-10-13T18:28:37Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "ready-for-merge",
+        "risk/moderate",
+        "security"
+      ]
+    },
+    {
+      "title": "Update module github.com/containerd/containerd to v1.7.36 [SECURITY] (release-v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3608",
+      "number": 3608,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T18:25:46Z",
+      "updated_at": "2026-10-13T18:32:21Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "security"
+      ]
+    },
+    {
+      "title": "Update module github.com/containerd/containerd/v2 to v2.3.6 [SECURITY] (release-v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3609",
+      "number": 3609,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T18:26:17Z",
+      "updated_at": "2026-10-13T18:26:28Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "security"
+      ]
+    },
+    {
+      "title": "Update module go.mongodb.org/mongo-driver to v1.17.7 [SECURITY] (release-v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3610",
+      "number": 3610,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T18:26:48Z",
+      "updated_at": "2026-10-13T18:26:59Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "security"
+      ]
+    },
+    {
+      "title": "Update module github.com/google/cel-go to v0.29.0 [SECURITY] (release-v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3611",
+      "number": 3611,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T18:27:53Z",
+      "updated_at": "2026-10-13T18:35:01Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "security"
       ]
     },
     {
@@ -5946,7 +6162,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T18:11:31Z",
+    "since": "2026-07-15T18:44:41Z",
     "reviewers": [
       {
         "login": "robnester-rh",
