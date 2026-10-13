@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T10:12:26.946719879Z",
+  "generated_at": "2026-10-13T10:45:42.081359984Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3662,32 +3662,6 @@
       "labels": []
     },
     {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/hacks/pull/225",
-      "number": 225,
-      "repo": "conforma/hacks",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T01:13:01Z",
-      "updated_at": "2026-10-13T05:42:23Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "chore: sync task and pipeline definitions to release-v0.7",
       "url": "https://github.com/conforma/tekton-catalog/pull/262",
       "number": 262,
@@ -4922,7 +4896,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T10:09:53Z",
+    "since": "2026-07-15T10:41:56Z",
     "reviewers": [
       {
         "login": "robnester-rh",
