@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T04:17:05.133827005Z",
+  "generated_at": "2026-10-13T04:50:23.656172256Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3445,32 +3445,6 @@
       ]
     },
     {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/golden-container/pull/1531",
-      "number": 1531,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T02:21:26Z",
-      "updated_at": "2026-10-13T02:21:48Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
       "url": "https://github.com/conforma/review-rot/pull/246",
       "number": 246,
@@ -3647,32 +3621,6 @@
       ]
     },
     {
-      "title": "Update github actions (main)",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/246",
-      "number": 246,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-12T00:42:26Z",
-      "updated_at": "2026-10-13T02:23:53Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/247",
       "number": 247,
@@ -3682,7 +3630,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T02:23:50Z",
-      "updated_at": "2026-10-13T02:23:59Z",
+      "updated_at": "2026-10-13T04:45:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4242,7 +4190,7 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to 51213ed (main)",
+      "title": "Update github actions (main)",
       "url": "https://github.com/conforma/policy-builder/pull/69",
       "number": 69,
       "repo": "conforma/policy-builder",
@@ -4251,36 +4199,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T02:48:34Z",
-      "updated_at": "2026-10-13T02:48:59Z",
+      "updated_at": "2026-10-13T04:41:13Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/policy-builder/pull/70",
-      "number": 70,
-      "repo": "conforma/policy-builder",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T02:48:44Z",
-      "updated_at": "2026-10-13T02:49:57Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4678,33 +4600,7 @@
       "labels": []
     },
     {
-      "title": "Update conforma/github-workflows digest to 51213ed (main)",
-      "url": "https://github.com/conforma/.github/pull/98",
-      "number": 98,
-      "repo": "conforma/.github",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T00:42:53Z",
-      "updated_at": "2026-10-13T00:43:24Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update actions/upload-artifact action to v7.0.2 (main)",
+      "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/.github/pull/99",
       "number": 99,
       "repo": "conforma/.github",
@@ -4713,7 +4609,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T00:43:02Z",
-      "updated_at": "2026-10-13T00:43:11Z",
+      "updated_at": "2026-10-13T04:42:44Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5371,7 +5267,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T04:14:01Z",
+    "since": "2026-07-15T04:47:28Z",
     "reviewers": [
       {
         "login": "robnester-rh",
