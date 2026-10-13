@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T15:11:52.615240276Z",
+  "generated_at": "2026-10-13T15:44:49.479411598Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1241,13 +1241,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-13T14:23:37Z",
-      "updated_at": "2026-10-13T14:32:58Z",
+      "updated_at": "2026-10-13T15:31:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -3964,13 +3964,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-13T14:23:29Z",
-      "updated_at": "2026-10-13T14:40:25Z",
+      "updated_at": "2026-10-13T15:32:09Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4303,13 +4303,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-13T14:23:31Z",
-      "updated_at": "2026-10-13T14:41:24Z",
+      "updated_at": "2026-10-13T15:31:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5243,13 +5243,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-13T14:23:39Z",
-      "updated_at": "2026-10-13T14:25:59Z",
+      "updated_at": "2026-10-13T15:30:54Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5291,13 +5291,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-13T14:23:34Z",
-      "updated_at": "2026-10-13T14:25:31Z",
+      "updated_at": "2026-10-13T15:31:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5848,7 +5848,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T15:08:59Z",
+    "since": "2026-07-15T15:40:46Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9334,8 +9334,48 @@
       },
       {
         "login": "st3penta",
-        "reviews": 90,
+        "reviews": 95,
         "prs": [
+          {
+            "title": "ci: guard release workflow against forks",
+            "url": "https://github.com/conforma/cli/pull/3603",
+            "repo": "conforma/cli",
+            "number": 3603,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-13T15:32:08Z"
+          },
+          {
+            "title": "Guard release workflow against fork execution",
+            "url": "https://github.com/conforma/golden-container/pull/1532",
+            "repo": "conforma/golden-container",
+            "number": 1532,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-13T15:31:59Z"
+          },
+          {
+            "title": "Guard release workflow against fork execution",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/29",
+            "repo": "conforma/pr-size-label-action",
+            "number": 29,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-13T15:31:22Z"
+          },
+          {
+            "title": "Guard release workflow against fork execution",
+            "url": "https://github.com/conforma/policy/pull/1886",
+            "repo": "conforma/policy",
+            "number": 1886,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-13T15:31:10Z"
+          },
+          {
+            "title": "Guard release workflow against fork execution",
+            "url": "https://github.com/conforma/crds/pull/45",
+            "repo": "conforma/crds",
+            "number": 45,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-13T15:30:53Z"
+          },
           {
             "title": "Harden Cloudflare preview deployments",
             "url": "https://github.com/conforma/policy-builder/pull/67",
