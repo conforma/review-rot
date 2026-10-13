@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T00:25:52.901879163Z",
+  "generated_at": "2026-10-13T01:22:32.797397925Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1216,7 +1216,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-10-12T15:07:19Z",
+      "updated_at": "2026-10-13T00:33:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3253,6 +3253,36 @@
       ]
     },
     {
+      "title": "Update github actions (main) (patch)",
+      "url": "https://github.com/conforma/conforma.github.io/pull/586",
+      "number": 586,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T01:08:40Z",
+      "updated_at": "2026-10-13T01:18:15Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "dependencies",
+        "github_actions",
+        "main",
+        "renovate",
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
+      ]
+    },
+    {
       "title": "Update Konflux references (main) (patch)",
       "url": "https://github.com/conforma/golden-container/pull/1510",
       "number": 1510,
@@ -3583,6 +3613,62 @@
       ]
     },
     {
+      "title": "Update conforma/github-workflows digest to 51213ed (main)",
+      "url": "https://github.com/conforma/user-guide/pull/269",
+      "number": 269,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T00:55:29Z",
+      "updated_at": "2026-10-13T01:04:04Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
+      ]
+    },
+    {
+      "title": "Update actions/upload-artifact action to v7.0.2 (main)",
+      "url": "https://github.com/conforma/user-guide/pull/270",
+      "number": 270,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T00:55:38Z",
+      "updated_at": "2026-10-13T01:02:40Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
+      ]
+    },
+    {
       "title": "Scripts to create and test fetching attestations",
       "url": "https://github.com/conforma/hacks/pull/162",
       "number": 162,
@@ -3603,6 +3689,58 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Update conforma/github-workflows digest to 51213ed (main)",
+      "url": "https://github.com/conforma/hacks/pull/224",
+      "number": 224,
+      "repo": "conforma/hacks",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T01:12:51Z",
+      "updated_at": "2026-10-13T01:13:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update actions/upload-artifact action to v7.0.2 (main)",
+      "url": "https://github.com/conforma/hacks/pull/225",
+      "number": 225,
+      "repo": "conforma/hacks",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T01:13:01Z",
+      "updated_at": "2026-10-13T01:13:10Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
     },
     {
       "title": "chore: sync task and pipeline definitions to release-v0.7",
@@ -4170,6 +4308,58 @@
       "labels": []
     },
     {
+      "title": "Update conforma/github-workflows digest to 51213ed (main)",
+      "url": "https://github.com/conforma/.github/pull/98",
+      "number": 98,
+      "repo": "conforma/.github",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T00:42:53Z",
+      "updated_at": "2026-10-13T00:43:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update actions/upload-artifact action to v7.0.2 (main)",
+      "url": "https://github.com/conforma/.github/pull/99",
+      "number": 99,
+      "repo": "conforma/.github",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T00:43:02Z",
+      "updated_at": "2026-10-13T00:43:11Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -4709,7 +4899,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T00:23:19Z",
+    "since": "2026-07-15T01:19:30Z",
     "reviewers": [
       {
         "login": "robnester-rh",
