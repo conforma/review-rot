@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T08:19:27.122792239Z",
+  "generated_at": "2026-10-13T08:54:37.156907922Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3371,13 +3371,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-10-12T01:10:49Z",
-      "updated_at": "2026-10-12T13:48:12Z",
+      "updated_at": "2026-10-13T08:23:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -3564,32 +3564,6 @@
       ]
     },
     {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/247",
-      "number": 247,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T02:23:50Z",
-      "updated_at": "2026-10-13T04:45:11Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs(#243): replace enterprisecontract.dev URLs and GitHub org link",
       "url": "https://github.com/conforma/user-guide/pull/244",
       "number": 244,
@@ -3689,34 +3663,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/user-guide/pull/270",
-      "number": 270,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T00:55:38Z",
-      "updated_at": "2026-10-13T06:06:11Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
       ]
     },
     {
@@ -3920,32 +3866,6 @@
       },
       "unresolved_conversations": 1,
       "labels": []
-    },
-    {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/tekton-catalog/pull/291",
-      "number": 291,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T01:21:55Z",
-      "updated_at": "2026-10-13T06:34:31Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
     },
     {
       "title": "Update github actions (main) (patch)",
@@ -4446,13 +4366,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T00:43:02Z",
-      "updated_at": "2026-10-13T04:42:44Z",
+      "updated_at": "2026-10-13T08:28:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5053,7 +4973,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T08:15:59Z",
+    "since": "2026-07-15T08:51:27Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7757,8 +7677,24 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 95,
+        "reviews": 97,
         "prs": [
+          {
+            "title": "Update github actions (main) (patch)",
+            "url": "https://github.com/conforma/.github/pull/99",
+            "repo": "conforma/.github",
+            "number": 99,
+            "author": "renovate",
+            "engaged_at": "2026-10-13T08:28:34Z"
+          },
+          {
+            "title": "Update step-security/harden-runner action to v2.22.0 (main)",
+            "url": "https://github.com/conforma/golden-container/pull/1528",
+            "repo": "conforma/golden-container",
+            "number": 1528,
+            "author": "red-hat-konflux",
+            "engaged_at": "2026-10-13T08:23:39Z"
+          },
           {
             "title": "Remove PRIVILEGED_NESTED deny rule from buildah_build_task",
             "url": "https://github.com/conforma/policy/pull/1869",
