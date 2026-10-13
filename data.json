@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T14:46:58.03588631Z",
+  "generated_at": "2026-10-13T15:11:52.615240276Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -291,7 +291,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-10-13T14:41:30Z",
+      "updated_at": "2026-10-13T14:49:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -1433,7 +1433,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:30:04Z",
-      "updated_at": "2026-10-13T14:32:13Z",
+      "updated_at": "2026-10-13T14:43:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1442,11 +1442,12 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "renovate",
         "release-v0.7",
-        "size: L"
+        "size: L",
+        "risk/moderate"
       ]
     },
     {
@@ -1514,7 +1515,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:34:50Z",
-      "updated_at": "2026-10-13T14:36:38Z",
+      "updated_at": "2026-10-13T14:43:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1527,7 +1528,9 @@
       "labels": [
         "renovate",
         "size: XL",
-        "release-v0.8"
+        "release-v0.8",
+        "ready-for-merge",
+        "risk/moderate"
       ]
     },
     {
@@ -1540,10 +1543,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:35:31Z",
-      "updated_at": "2026-10-13T14:37:22Z",
+      "updated_at": "2026-10-13T14:44:27Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -1553,7 +1556,9 @@
       "labels": [
         "renovate",
         "size: XS",
-        "release-v0.8"
+        "release-v0.8",
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -1566,7 +1571,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:35:59Z",
-      "updated_at": "2026-10-13T14:37:53Z",
+      "updated_at": "2026-10-13T14:47:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1575,11 +1580,12 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "renovate",
         "size: XS",
-        "release-v0.8"
+        "release-v0.8",
+        "risk/low"
       ]
     },
     {
@@ -1592,7 +1598,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:36:37Z",
-      "updated_at": "2026-10-13T14:38:44Z",
+      "updated_at": "2026-10-13T14:48:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1605,7 +1611,8 @@
       "labels": [
         "renovate",
         "size: XS",
-        "release-v0.8"
+        "release-v0.8",
+        "risk/moderate"
       ]
     },
     {
@@ -1618,7 +1625,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:37:04Z",
-      "updated_at": "2026-10-13T14:39:08Z",
+      "updated_at": "2026-10-13T14:45:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1631,7 +1638,9 @@
       "labels": [
         "renovate",
         "size: L",
-        "release-v0.8"
+        "release-v0.8",
+        "ready-for-merge",
+        "risk/moderate"
       ]
     },
     {
@@ -1644,7 +1653,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:37:45Z",
-      "updated_at": "2026-10-13T14:39:40Z",
+      "updated_at": "2026-10-13T14:47:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1657,7 +1666,9 @@
       "labels": [
         "renovate",
         "size: XL",
-        "release-v0.8"
+        "release-v0.8",
+        "ready-for-merge",
+        "risk/moderate"
       ]
     },
     {
@@ -1670,7 +1681,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:38:12Z",
-      "updated_at": "2026-10-13T14:40:17Z",
+      "updated_at": "2026-10-13T14:45:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1683,7 +1694,9 @@
       "labels": [
         "renovate",
         "size: XL",
-        "release-v0.8"
+        "release-v0.8",
+        "ready-for-merge",
+        "risk/moderate"
       ]
     },
     {
@@ -1696,7 +1709,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:38:50Z",
-      "updated_at": "2026-10-13T14:40:46Z",
+      "updated_at": "2026-10-13T14:47:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1709,7 +1722,9 @@
       "labels": [
         "renovate",
         "size: XL",
-        "release-v0.8"
+        "release-v0.8",
+        "ready-for-merge",
+        "risk/moderate"
       ]
     },
     {
@@ -1722,7 +1737,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:39:15Z",
-      "updated_at": "2026-10-13T14:41:19Z",
+      "updated_at": "2026-10-13T14:48:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1735,7 +1750,9 @@
       "labels": [
         "renovate",
         "size: M",
-        "release-v0.8"
+        "release-v0.8",
+        "ready-for-merge",
+        "risk/moderate"
       ]
     },
     {
@@ -5827,33 +5844,11 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "Effectively anchor disallowed_platform_patterns regex",
-      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/288",
-      "number": 288,
-      "repo": "release-engineering/rhtap-ec-policy",
-      "author": {
-        "login": "simonbaird",
-        "avatar_url": "https://avatars.githubusercontent.com/u/17822?u=40eb50d5b0de5fa398f5fc944023d4f4f476e477\u0026v=4"
-      },
-      "created_at": "2026-10-09T20:25:29Z",
-      "updated_at": "2026-10-12T10:48:07Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T14:43:54Z",
+    "since": "2026-07-15T15:08:59Z",
     "reviewers": [
       {
         "login": "robnester-rh",
