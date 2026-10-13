@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T13:50:14.870854122Z",
+  "generated_at": "2026-10-13T14:14:22.819138182Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4379,32 +4379,6 @@
       ]
     },
     {
-      "title": "Update go modules (main)",
-      "url": "https://github.com/conforma/e2e-tests/pull/15",
-      "number": 15,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-05T02:44:30Z",
-      "updated_at": "2026-10-13T13:07:00Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "🚨 Update module gopkg.in/yaml.v2 to v3 (main)",
       "url": "https://github.com/conforma/e2e-tests/pull/31",
       "number": 31,
@@ -4441,10 +4415,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-12T01:12:41Z",
-      "updated_at": "2026-10-12T13:49:41Z",
+      "updated_at": "2026-10-13T14:08:56Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 1,
@@ -4456,6 +4430,136 @@
         "main",
         "renovate",
         "major"
+      ]
+    },
+    {
+      "title": "Update module github.com/go-git/go-git/v5 to v5.19.2 [SECURITY] (main)",
+      "url": "https://github.com/conforma/e2e-tests/pull/37",
+      "number": 37,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T14:07:40Z",
+      "updated_at": "2026-10-13T14:07:55Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace to v1.45.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/e2e-tests/pull/38",
+      "number": 38,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T14:07:58Z",
+      "updated_at": "2026-10-13T14:08:25Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "S",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: S"
+      ]
+    },
+    {
+      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/e2e-tests/pull/39",
+      "number": 39,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T14:08:12Z",
+      "updated_at": "2026-10-13T14:08:26Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "M",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M",
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp to v1.45.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/e2e-tests/pull/40",
+      "number": 40,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T14:08:23Z",
+      "updated_at": "2026-10-13T14:08:48Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "M",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: M",
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/e2e-tests/pull/41",
+      "number": 41,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T14:08:36Z",
+      "updated_at": "2026-10-13T14:09:09Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "S",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: S"
       ]
     },
     {
@@ -4814,7 +4918,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T13:46:46Z",
+    "since": "2026-07-15T14:10:31Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -10022,8 +10126,16 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 53,
+        "reviews": 54,
         "prs": [
+          {
+            "title": "Update go modules (main)",
+            "url": "https://github.com/conforma/e2e-tests/pull/15",
+            "repo": "conforma/e2e-tests",
+            "number": 15,
+            "author": "renovate",
+            "engaged_at": "2026-10-13T14:04:12Z"
+          },
           {
             "title": "feat(ci): check new policy rule lead time on release PRs",
             "url": "https://github.com/conforma/infra-deployments-ci/pull/243",
