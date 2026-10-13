@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T10:45:42.081359984Z",
+  "generated_at": "2026-10-13T11:12:03.128401984Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3071,6 +3071,32 @@
       ]
     },
     {
+      "title": "fix(EC-2188): limit release PR builds to linux amd64",
+      "url": "https://github.com/conforma/cli/pull/3602",
+      "number": 3602,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "jsmid1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+      },
+      "created_at": "2026-10-13T10:53:40Z",
+      "updated_at": "2026-10-13T11:02:45Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "ready-for-merge",
+        "risk/low"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -3102,7 +3128,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-10-12T13:17:46Z",
+      "updated_at": "2026-10-13T10:58:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3277,36 +3303,6 @@
         "ready-for-merge",
         "risk/low",
         "ready-for-review"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/conforma.github.io/pull/586",
-      "number": 586,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T01:08:40Z",
-      "updated_at": "2026-10-13T05:00:18Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "github_actions",
-        "main",
-        "renovate",
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
       ]
     },
     {
@@ -4896,7 +4892,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T10:41:56Z",
+    "since": "2026-07-15T11:08:43Z",
     "reviewers": [
       {
         "login": "robnester-rh",
