@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T19:10:19.769002447Z",
+  "generated_at": "2026-10-13T19:39:34.807687441Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4210,7 +4210,7 @@
       "updated_at": "2026-10-13T19:00:47Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4262,7 +4262,7 @@
       "updated_at": "2026-10-13T19:02:00Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4285,10 +4285,114 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:02:51Z",
-      "updated_at": "2026-10-13T19:03:19Z",
+      "updated_at": "2026-10-13T19:20:45Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "security"
+      ]
+    },
+    {
+      "title": "Update module github.com/containerd/containerd to v1.7.36 [SECURITY] (release-v0.9)",
+      "url": "https://github.com/conforma/cli/pull/3616",
+      "number": 3616,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:05:55Z",
+      "updated_at": "2026-10-13T19:22:10Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "security"
+      ]
+    },
+    {
+      "title": "Update module github.com/containerd/containerd/v2 to v2.3.6 [SECURITY] (release-v0.9)",
+      "url": "https://github.com/conforma/cli/pull/3617",
+      "number": 3617,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:07:07Z",
+      "updated_at": "2026-10-13T19:07:40Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "security"
+      ]
+    },
+    {
+      "title": "Update module go.mongodb.org/mongo-driver to v1.17.7 [SECURITY] (release-v0.9)",
+      "url": "https://github.com/conforma/cli/pull/3618",
+      "number": 3618,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:07:37Z",
+      "updated_at": "2026-10-13T19:24:15Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "security"
+      ]
+    },
+    {
+      "title": "Update module github.com/google/cel-go to v0.29.0 [SECURITY] (release-v0.9)",
+      "url": "https://github.com/conforma/cli/pull/3619",
+      "number": 3619,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:08:15Z",
+      "updated_at": "2026-10-13T19:25:20Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4772,13 +4876,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-13T15:48:45Z",
-      "updated_at": "2026-10-13T15:57:48Z",
+      "updated_at": "2026-10-13T19:20:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4899,13 +5003,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-13T15:48:45Z",
-      "updated_at": "2026-10-13T15:59:03Z",
+      "updated_at": "2026-10-13T19:20:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5101,13 +5205,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-13T15:48:46Z",
-      "updated_at": "2026-10-13T15:50:47Z",
+      "updated_at": "2026-10-13T19:21:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5588,7 +5692,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-10-12T12:56:28Z",
+      "updated_at": "2026-10-13T19:12:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5613,7 +5717,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-24T00:55:44Z",
-      "updated_at": "2026-10-06T15:27:05Z",
+      "updated_at": "2026-10-13T19:12:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5650,6 +5754,231 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Update module github.com/buger/jsonparser to v1.1.2 [SECURITY] (main)",
+      "url": "https://github.com/conforma/crds/pull/46",
+      "number": 46,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:09:16Z",
+      "updated_at": "2026-10-13T19:09:45Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update module go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc to v0.46.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/crds/pull/47",
+      "number": 47,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:09:43Z",
+      "updated_at": "2026-10-13T19:10:09Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace to v1.45.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/crds/pull/48",
+      "number": 48,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:10:05Z",
+      "updated_at": "2026-10-13T19:10:16Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/crds/pull/49",
+      "number": 49,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:10:20Z",
+      "updated_at": "2026-10-13T19:10:52Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/crds/pull/50",
+      "number": 50,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:10:31Z",
+      "updated_at": "2026-10-13T19:11:04Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update module golang.org/x/crypto to v0.52.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/crds/pull/51",
+      "number": 51,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:10:46Z",
+      "updated_at": "2026-10-13T19:10:57Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update module golang.org/x/net to v0.55.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/crds/pull/52",
+      "number": 52,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:11:12Z",
+      "updated_at": "2026-10-13T19:11:37Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update module golang.org/x/oauth2 to v0.27.0 [SECURITY] (main)",
+      "url": "https://github.com/conforma/crds/pull/53",
+      "number": 53,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:11:27Z",
+      "updated_at": "2026-10-13T19:11:54Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update module google.golang.org/grpc to v1.83.1 [SECURITY] (main)",
+      "url": "https://github.com/conforma/crds/pull/54",
+      "number": 54,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-13T19:11:39Z",
+      "updated_at": "2026-10-13T19:12:07Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
     },
     {
       "title": "🚨 Update npm dependencies (main) (major)",
@@ -5736,13 +6065,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-13T15:48:46Z",
-      "updated_at": "2026-10-13T15:50:56Z",
+      "updated_at": "2026-10-13T19:21:44Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -6266,7 +6595,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T19:06:48Z",
+    "since": "2026-07-15T19:36:09Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -11538,8 +11867,40 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 54,
+        "reviews": 58,
         "prs": [
+          {
+            "title": "Guard RPM repository sync against forks",
+            "url": "https://github.com/conforma/rhtap-ec-policy/pull/1",
+            "repo": "conforma/rhtap-ec-policy",
+            "number": 1,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-13T19:21:44Z"
+          },
+          {
+            "title": "ci: guard task sync against forks",
+            "url": "https://github.com/conforma/tekton-catalog/pull/292",
+            "repo": "conforma/tekton-catalog",
+            "number": 292,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-13T19:21:16Z"
+          },
+          {
+            "title": "ci: guard privileged automation against forks",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/248",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 248,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-13T19:20:52Z"
+          },
+          {
+            "title": "ci: guard documentation dispatch against forks",
+            "url": "https://github.com/conforma/user-guide/pull/271",
+            "repo": "conforma/user-guide",
+            "number": 271,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-13T19:20:16Z"
+          },
           {
             "title": "Update go modules (main)",
             "url": "https://github.com/conforma/e2e-tests/pull/15",
