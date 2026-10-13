@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T16:44:59.301605453Z",
+  "generated_at": "2026-10-13T17:11:02.206368519Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4013,7 +4013,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-10-13T10:58:56Z",
+      "updated_at": "2026-10-13T16:59:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4041,7 +4041,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-10-11T21:09:57Z",
+      "updated_at": "2026-10-13T17:00:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4061,7 +4061,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.27.1 (main)",
+      "title": "Update dependency golang to v1.27.2 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/531",
       "number": 531,
       "repo": "conforma/conforma.github.io",
@@ -4070,13 +4070,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T00:52:34Z",
-      "updated_at": "2026-10-09T13:08:51Z",
+      "updated_at": "2026-10-13T17:06:41Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4085,7 +4085,7 @@
         "renovate",
         "size: XS",
         "ready-for-merge",
-        "risk/moderate"
+        "risk/low"
       ]
     },
     {
@@ -5946,11 +5946,11 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T16:41:56Z",
+    "since": "2026-07-15T17:07:51Z",
     "reviewers": [
       {
         "login": "robnester-rh",
-        "reviews": 176,
+        "reviews": 175,
         "prs": [
           {
             "title": "Count head approvals and outstanding review requests",
@@ -6359,14 +6359,6 @@
             "number": 565,
             "author": "renovate",
             "engaged_at": "2026-09-14T13:45:40Z"
-          },
-          {
-            "title": "Update dependency golang to v1.27.1 (main)",
-            "url": "https://github.com/conforma/conforma.github.io/pull/531",
-            "repo": "conforma/conforma.github.io",
-            "number": 531,
-            "author": "renovate",
-            "engaged_at": "2026-09-14T13:43:28Z"
           },
           {
             "title": "Update dependency node to v24.21.0 (main)",
