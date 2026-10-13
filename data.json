@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T06:19:08.431700218Z",
+  "generated_at": "2026-10-13T07:04:36.621155704Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-13T06:07:44Z",
+      "updated_at": "2026-10-13T06:18:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -880,10 +880,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T02:07:50Z",
-      "updated_at": "2026-10-13T06:08:54Z",
+      "updated_at": "2026-10-13T06:17:25Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -1243,7 +1243,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-10-13T00:33:02Z",
+      "updated_at": "2026-10-13T06:43:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1261,7 +1261,6 @@
         "main",
         "size: M",
         "ci",
-        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -3923,32 +3922,6 @@
       "labels": []
     },
     {
-      "title": "Update conforma/github-workflows digest to 51213ed (main)",
-      "url": "https://github.com/conforma/tekton-catalog/pull/290",
-      "number": 290,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T01:21:46Z",
-      "updated_at": "2026-10-13T01:22:16Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/tekton-catalog/pull/291",
       "number": 291,
@@ -3958,7 +3931,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T01:21:55Z",
-      "updated_at": "2026-10-13T01:22:28Z",
+      "updated_at": "2026-10-13T06:34:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4619,32 +4592,6 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to 51213ed (main)",
-      "url": "https://github.com/conforma/golden-rpm/pull/29",
-      "number": 29,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T01:29:05Z",
-      "updated_at": "2026-10-13T01:29:16Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/golden-rpm/pull/30",
       "number": 30,
@@ -4654,7 +4601,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T01:29:15Z",
-      "updated_at": "2026-10-13T01:29:43Z",
+      "updated_at": "2026-10-13T06:35:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5106,7 +5053,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T06:15:33Z",
+    "since": "2026-07-15T07:01:23Z",
     "reviewers": [
       {
         "login": "robnester-rh",
