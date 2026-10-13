@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T17:11:02.206368519Z",
+  "generated_at": "2026-10-13T17:42:35.778238584Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4041,7 +4041,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-10-13T17:00:10Z",
+      "updated_at": "2026-10-13T17:08:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4073,7 +4073,7 @@
       "updated_at": "2026-10-13T17:06:41Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4831,7 +4831,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-10-13T11:26:53Z",
+      "updated_at": "2026-10-13T17:08:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4858,7 +4858,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T02:48:34Z",
-      "updated_at": "2026-10-13T11:25:33Z",
+      "updated_at": "2026-10-13T17:08:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -5673,7 +5673,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-28T02:09:34Z",
-      "updated_at": "2026-10-10T14:01:13Z",
+      "updated_at": "2026-10-13T17:09:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5743,7 +5743,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.27.1 (main)",
+      "title": "Update dependency golang to v1.27.2 (main)",
       "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/754",
       "number": 754,
       "repo": "enterprise-contract/enterprise-contract-controller",
@@ -5752,7 +5752,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:47:19Z",
-      "updated_at": "2026-10-09T14:06:21Z",
+      "updated_at": "2026-10-13T17:08:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5946,7 +5946,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T17:07:51Z",
+    "since": "2026-07-15T17:39:21Z",
     "reviewers": [
       {
         "login": "robnester-rh",
