@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T19:39:34.807687441Z",
+  "generated_at": "2026-10-13T20:11:27.790937731Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-10-13T14:21:35Z",
+      "updated_at": "2026-10-13T20:01:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -131,7 +131,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-13T14:40:36Z",
+      "updated_at": "2026-10-13T20:01:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-13T06:18:59Z",
+      "updated_at": "2026-10-13T19:59:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -179,7 +179,7 @@
       ]
     },
     {
-      "title": "Update dependency golang to v1.27.1 (release-v0.7)",
+      "title": "Update dependency golang to v1.27.2 (release-v0.7)",
       "url": "https://github.com/conforma/policy/pull/1692",
       "number": 1692,
       "repo": "conforma/policy",
@@ -188,7 +188,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:35:50Z",
-      "updated_at": "2026-10-09T13:49:43Z",
+      "updated_at": "2026-10-13T20:01:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -880,10 +880,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T02:07:50Z",
-      "updated_at": "2026-10-13T14:21:23Z",
+      "updated_at": "2026-10-13T20:02:58Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -898,34 +898,6 @@
       ]
     },
     {
-      "title": "Update module github.com/containerd/containerd/v2 to v2.3.6 [SECURITY] (main)",
-      "url": "https://github.com/conforma/policy/pull/1874",
-      "number": 1874,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:15:31Z",
-      "updated_at": "2026-10-13T14:24:17Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: M",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update module github.com/sigstore/rekor to v1.5.2 [SECURITY] (main)",
       "url": "https://github.com/conforma/policy/pull/1875",
       "number": 1875,
@@ -935,7 +907,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:16:09Z",
-      "updated_at": "2026-10-13T14:27:50Z",
+      "updated_at": "2026-10-13T19:57:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -962,7 +934,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:16:39Z",
-      "updated_at": "2026-10-13T14:24:58Z",
+      "updated_at": "2026-10-13T20:06:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1475,34 +1447,6 @@
         "renovate",
         "size: XXL",
         "release-v0.8",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update module go.mongodb.org/mongo-driver to v1.17.7 [SECURITY] (release-v0.8)",
-      "url": "https://github.com/conforma/policy/pull/1895",
-      "number": 1895,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:33:41Z",
-      "updated_at": "2026-10-13T14:41:07Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XS",
-        "release-v0.8",
-        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -3885,13 +3829,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-10-06T13:39:07Z",
-      "updated_at": "2026-10-09T19:50:55Z",
+      "updated_at": "2026-10-13T19:53:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5299,7 +5243,7 @@
       ]
     },
     {
-      "title": "fix(deps): update go version (main) (minor)",
+      "title": "fix(deps): update dependency golang to v1.27.2 (main)",
       "url": "https://github.com/conforma/go-gather/pull/315",
       "number": 315,
       "repo": "conforma/go-gather",
@@ -5308,10 +5252,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-09T01:31:46Z",
-      "updated_at": "2026-10-13T02:26:13Z",
+      "updated_at": "2026-10-13T19:40:48Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -5325,32 +5269,6 @@
       ]
     },
     {
-      "title": "fix(deps): update module github.com/go-git/go-git/v5 to v5.19.3 (main)",
-      "url": "https://github.com/conforma/go-gather/pull/350",
-      "number": 350,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-10T00:48:39Z",
-      "updated_at": "2026-10-13T13:04:34Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: S"
-      ]
-    },
-    {
       "title": "fix(deps): update github actions (main) (patch)",
       "url": "https://github.com/conforma/go-gather/pull/352",
       "number": 352,
@@ -5360,13 +5278,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T02:23:42Z",
-      "updated_at": "2026-10-13T11:26:44Z",
+      "updated_at": "2026-10-13T19:40:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -6132,32 +6050,6 @@
       ]
     },
     {
-      "title": "Update module github.com/go-git/go-git/v5 to v5.19.2 [SECURITY] (main)",
-      "url": "https://github.com/conforma/e2e-tests/pull/37",
-      "number": 37,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:07:40Z",
-      "updated_at": "2026-10-13T14:07:55Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace to v1.45.0 [SECURITY] (main)",
       "url": "https://github.com/conforma/e2e-tests/pull/38",
       "number": 38,
@@ -6167,10 +6059,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:07:58Z",
-      "updated_at": "2026-10-13T14:08:25Z",
+      "updated_at": "2026-10-13T20:03:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "approved_count": 0,
@@ -6193,10 +6085,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:08:12Z",
-      "updated_at": "2026-10-13T14:08:26Z",
+      "updated_at": "2026-10-13T20:03:38Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "approved_count": 0,
@@ -6219,10 +6111,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:08:23Z",
-      "updated_at": "2026-10-13T14:08:48Z",
+      "updated_at": "2026-10-13T20:03:46Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "approved_count": 0,
@@ -6245,10 +6137,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:08:36Z",
-      "updated_at": "2026-10-13T14:09:09Z",
+      "updated_at": "2026-10-13T20:03:54Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "S",
       "reviews": {
         "approved_count": 0,
@@ -6595,7 +6487,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-15T19:36:09Z",
+    "since": "2026-07-15T20:08:19Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8008,6 +7900,14 @@
         "reviews": 162,
         "prs": [
           {
+            "title": "docs(EC-2071): deprecate the ec track bundle command",
+            "url": "https://github.com/conforma/cli/pull/3598",
+            "repo": "conforma/cli",
+            "number": 3598,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-10-13T19:53:35Z"
+          },
+          {
             "title": "Guard release workflow against fork execution",
             "url": "https://github.com/conforma/golden-container/pull/1532",
             "repo": "conforma/golden-container",
@@ -8038,14 +7938,6 @@
             "number": 3574,
             "author": "dheerajodha",
             "engaged_at": "2026-10-07T21:31:36Z"
-          },
-          {
-            "title": "docs(EC-2071): deprecate the ec track bundle command",
-            "url": "https://github.com/conforma/cli/pull/3598",
-            "repo": "conforma/cli",
-            "number": 3598,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-10-07T21:27:15Z"
           },
           {
             "title": "Publish step-actions to the tekton-catalog konflux branch",
@@ -12337,7 +12229,7 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 47,
+        "reviews": 46,
         "prs": [
           {
             "title": "Update go modules (main) (minor)",
@@ -12386,14 +12278,6 @@
             "number": 1530,
             "author": "red-hat-konflux",
             "engaged_at": "2026-10-13T11:27:23Z"
-          },
-          {
-            "title": "fix(deps): update github actions (main) (patch)",
-            "url": "https://github.com/conforma/go-gather/pull/352",
-            "repo": "conforma/go-gather",
-            "number": 352,
-            "author": "renovate",
-            "engaged_at": "2026-10-13T11:26:44Z"
           },
           {
             "title": "Update github actions (main) (patch)",
