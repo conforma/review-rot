@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T11:42:23.867730698Z",
+  "generated_at": "2026-10-14T12:15:01.167318015Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1600,13 +1600,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-14T02:13:24Z",
-      "updated_at": "2026-10-14T05:49:13Z",
+      "updated_at": "2026-10-14T11:46:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4292,31 +4292,6 @@
       ]
     },
     {
-      "title": "chore(deps): Update ubi-minimal base image (main)",
-      "url": "https://github.com/conforma/cli/pull/3621",
-      "number": 3621,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-14T09:56:38Z",
-      "updated_at": "2026-10-14T11:29:25Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
       "url": "https://github.com/conforma/cli/pull/3622",
       "number": 3622,
@@ -4326,13 +4301,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-14T09:56:46Z",
-      "updated_at": "2026-10-14T11:28:56Z",
+      "updated_at": "2026-10-14T11:50:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4350,13 +4325,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-14T09:56:56Z",
-      "updated_at": "2026-10-14T11:20:15Z",
+      "updated_at": "2026-10-14T11:50:23Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4374,13 +4349,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-14T09:57:04Z",
-      "updated_at": "2026-10-14T11:19:53Z",
+      "updated_at": "2026-10-14T11:50:33Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4598,7 +4573,7 @@
       ]
     },
     {
-      "title": "Update actions/setup-node action to v7.1.0 (main)",
+      "title": "Update github actions (main) (minor)",
       "url": "https://github.com/conforma/conforma.github.io/pull/588",
       "number": 588,
       "repo": "conforma/conforma.github.io",
@@ -4607,10 +4582,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-14T01:32:28Z",
-      "updated_at": "2026-10-14T05:00:12Z",
+      "updated_at": "2026-10-14T12:04:52Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -6159,13 +6134,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:08:36Z",
-      "updated_at": "2026-10-13T20:03:54Z",
+      "updated_at": "2026-10-14T11:50:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -6509,7 +6484,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T11:38:16Z",
+    "since": "2026-07-16T12:11:37Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9237,8 +9212,40 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 97,
+        "reviews": 101,
         "prs": [
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3624",
+            "repo": "conforma/cli",
+            "number": 3624,
+            "author": "st3penta",
+            "engaged_at": "2026-10-14T11:50:33Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3623",
+            "repo": "conforma/cli",
+            "number": 3623,
+            "author": "st3penta",
+            "engaged_at": "2026-10-14T11:50:22Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3622",
+            "repo": "conforma/cli",
+            "number": 3622,
+            "author": "st3penta",
+            "engaged_at": "2026-10-14T11:50:15Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (main)",
+            "url": "https://github.com/conforma/cli/pull/3621",
+            "repo": "conforma/cli",
+            "number": 3621,
+            "author": "st3penta",
+            "engaged_at": "2026-10-14T11:50:07Z"
+          },
           {
             "title": "Update github actions (main) (patch)",
             "url": "https://github.com/conforma/.github/pull/99",
@@ -12299,8 +12306,24 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 47,
+        "reviews": 49,
         "prs": [
+          {
+            "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (main)",
+            "url": "https://github.com/conforma/e2e-tests/pull/41",
+            "repo": "conforma/e2e-tests",
+            "number": 41,
+            "author": "renovate",
+            "engaged_at": "2026-10-14T11:50:54Z"
+          },
+          {
+            "title": "Update github/codeql-action action to v4.38.3 (main)",
+            "url": "https://github.com/conforma/policy/pull/1906",
+            "repo": "conforma/policy",
+            "number": 1906,
+            "author": "renovate",
+            "engaged_at": "2026-10-14T11:46:22Z"
+          },
           {
             "title": "chore(deps): Update ubi-minimal base image (main)",
             "url": "https://github.com/conforma/cli/pull/3621",
