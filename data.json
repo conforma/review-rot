@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T23:09:39.582577855Z",
+  "generated_at": "2026-10-14T23:36:28.847589925Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1827,7 +1827,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-10-14T18:57:10Z",
+      "updated_at": "2026-10-14T23:30:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1981,7 +1981,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-10-14T18:49:40Z",
+      "updated_at": "2026-10-14T23:21:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2385,7 +2385,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-10-14T18:51:08Z",
+      "updated_at": "2026-10-14T23:22:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2415,7 +2415,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-10-14T18:51:58Z",
+      "updated_at": "2026-10-14T23:24:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2432,6 +2432,7 @@
         "renovate",
         "main",
         "size: XS",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -2504,7 +2505,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-10-14T18:55:03Z",
+      "updated_at": "2026-10-14T23:26:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2735,7 +2736,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-10-14T19:01:06Z",
+      "updated_at": "2026-10-14T23:31:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3696,7 +3697,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T18:12:29Z",
-      "updated_at": "2026-10-14T18:49:34Z",
+      "updated_at": "2026-10-14T23:22:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3711,34 +3712,6 @@
         "size: XS",
         "ready-for-merge",
         "risk/moderate",
-        "security"
-      ]
-    },
-    {
-      "title": "Update module go.mongodb.org/mongo-driver to v1.17.7 [SECURITY] (main)",
-      "url": "https://github.com/conforma/cli/pull/3606",
-      "number": 3606,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T18:13:03Z",
-      "updated_at": "2026-10-14T18:57:53Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XS",
-        "ready-for-merge",
-        "risk/low",
         "security"
       ]
     },
@@ -3767,32 +3740,6 @@
         "size: XS",
         "ready-for-merge",
         "risk/moderate",
-        "security"
-      ]
-    },
-    {
-      "title": "Update module github.com/containerd/containerd to v1.7.36 [SECURITY] (release-v0.7)",
-      "url": "https://github.com/conforma/cli/pull/3608",
-      "number": 3608,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T18:25:46Z",
-      "updated_at": "2026-10-14T13:48:29Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XS",
         "security"
       ]
     },
@@ -3875,32 +3822,6 @@
       ]
     },
     {
-      "title": "Update module github.com/containerd/containerd to v1.7.36 [SECURITY] (release-v0.8)",
-      "url": "https://github.com/conforma/cli/pull/3612",
-      "number": 3612,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T19:00:17Z",
-      "updated_at": "2026-10-14T14:33:20Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XS",
-        "security"
-      ]
-    },
-    {
       "title": "Update module github.com/containerd/containerd/v2 to v2.3.6 [SECURITY] (release-v0.8)",
       "url": "https://github.com/conforma/cli/pull/3613",
       "number": 3613,
@@ -3963,32 +3884,6 @@
       },
       "created_at": "2026-10-13T19:02:51Z",
       "updated_at": "2026-10-13T19:20:45Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XS",
-        "security"
-      ]
-    },
-    {
-      "title": "Update module github.com/containerd/containerd to v1.7.36 [SECURITY] (release-v0.9)",
-      "url": "https://github.com/conforma/cli/pull/3616",
-      "number": 3616,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T19:05:55Z",
-      "updated_at": "2026-10-14T14:33:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6104,7 +5999,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T23:06:41Z",
+    "since": "2026-07-16T23:33:18Z",
     "reviewers": [
       {
         "login": "robnester-rh",
