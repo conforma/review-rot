@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T02:44:27.950077657Z",
+  "generated_at": "2026-10-14T03:12:28.798358792Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2303,7 +2303,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-10-14T02:34:24Z",
+      "updated_at": "2026-10-14T02:47:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2319,7 +2319,6 @@
         "renovate",
         "main",
         "size: XXL",
-        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -2636,10 +2635,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-10-14T02:32:58Z",
+      "updated_at": "2026-10-14T02:46:48Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -3207,7 +3206,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-20T02:43:52Z",
-      "updated_at": "2026-10-14T02:33:20Z",
+      "updated_at": "2026-10-14T02:45:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3223,7 +3222,6 @@
         "renovate",
         "main",
         "size: XS",
-        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -3671,7 +3669,7 @@
       "updated_at": "2026-10-14T02:39:19Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4651,7 +4649,7 @@
       "updated_at": "2026-10-14T02:35:54Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4703,7 +4701,7 @@
       "updated_at": "2026-10-14T02:37:35Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4814,6 +4812,32 @@
       "unresolved_conversations": 1,
       "labels": [
         "size: S"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.3 (main)",
+      "url": "https://github.com/conforma/review-rot/pull/271",
+      "number": 271,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-14T02:51:51Z",
+      "updated_at": "2026-10-14T02:53:28Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
       ]
     },
     {
@@ -5320,6 +5344,58 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.3 (main)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/293",
+      "number": 293,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-14T02:52:54Z",
+      "updated_at": "2026-10-14T02:53:18Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update conforma/github-workflows digest to 51213ed (release-v0.7)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/294",
+      "number": 294,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-14T02:53:04Z",
+      "updated_at": "2026-10-14T02:53:27Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "release-v0.7",
         "size: XS"
       ]
     },
@@ -6755,7 +6831,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T02:41:37Z",
+    "since": "2026-07-16T03:09:14Z",
     "reviewers": [
       {
         "login": "robnester-rh",
