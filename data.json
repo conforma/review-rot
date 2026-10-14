@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T09:42:30.631390789Z",
+  "generated_at": "2026-10-14T10:12:21.374673127Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2054,10 +2054,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-10-13T18:53:42Z",
+      "updated_at": "2026-10-14T10:06:57Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "approved_count": 0,
@@ -4292,6 +4292,103 @@
       ]
     },
     {
+      "title": "chore(deps): Update ubi-minimal base image (main)",
+      "url": "https://github.com/conforma/cli/pull/3621",
+      "number": 3621,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-14T09:56:38Z",
+      "updated_at": "2026-10-14T10:05:05Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: XS",
+        "risk/moderate"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3622",
+      "number": 3622,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-14T09:56:46Z",
+      "updated_at": "2026-10-14T09:56:56Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image (release-v0.8)",
+      "url": "https://github.com/conforma/cli/pull/3623",
+      "number": 3623,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-14T09:56:56Z",
+      "updated_at": "2026-10-14T09:57:05Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
+      "url": "https://github.com/conforma/cli/pull/3624",
+      "number": 3624,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-14T09:57:04Z",
+      "updated_at": "2026-10-14T09:57:14Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -6412,7 +6509,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T09:39:07Z",
+    "since": "2026-07-16T10:08:26Z",
     "reviewers": [
       {
         "login": "robnester-rh",
