@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T14:11:42.183650698Z",
+  "generated_at": "2026-10-14T14:42:36.271176178Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -854,10 +854,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
       },
       "created_at": "2026-10-12T17:55:00Z",
-      "updated_at": "2026-10-14T14:03:17Z",
+      "updated_at": "2026-10-14T14:11:06Z",
       "is_draft": true,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
         "approved_count": 0,
@@ -1873,7 +1873,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-14T13:52:30Z",
+      "updated_at": "2026-10-14T14:32:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2462,7 +2462,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-10-14T13:49:05Z",
+      "updated_at": "2026-10-14T14:37:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2492,7 +2492,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-10-14T13:49:14Z",
+      "updated_at": "2026-10-14T14:37:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2582,10 +2582,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-10-14T13:55:05Z",
+      "updated_at": "2026-10-14T14:33:01Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 1,
@@ -2813,7 +2813,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-10-14T13:57:38Z",
+      "updated_at": "2026-10-14T14:34:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3711,32 +3711,6 @@
       ]
     },
     {
-      "title": "docs(EC-2071): deprecate the ec track bundle command",
-      "url": "https://github.com/conforma/cli/pull/3598",
-      "number": 3598,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "cuipinghuo",
-        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
-      },
-      "created_at": "2026-10-06T13:39:07Z",
-      "updated_at": "2026-10-13T19:53:35Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "chore: sync deprecated ITS pipeline copy",
       "url": "https://github.com/conforma/cli/pull/3600",
       "number": 3600,
@@ -3746,7 +3720,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-10-12T12:16:19Z",
-      "updated_at": "2026-10-14T14:06:34Z",
+      "updated_at": "2026-10-14T14:07:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -3800,7 +3774,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T18:11:14Z",
-      "updated_at": "2026-10-14T13:54:27Z",
+      "updated_at": "2026-10-14T14:36:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -3828,7 +3802,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T18:12:29Z",
-      "updated_at": "2026-10-14T13:46:12Z",
+      "updated_at": "2026-10-14T14:37:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3856,7 +3830,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T18:13:03Z",
-      "updated_at": "2026-10-14T13:53:28Z",
+      "updated_at": "2026-10-14T14:37:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -4016,7 +3990,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:00:17Z",
-      "updated_at": "2026-10-13T19:00:47Z",
+      "updated_at": "2026-10-14T14:33:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4042,7 +4016,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:00:53Z",
-      "updated_at": "2026-10-13T19:01:05Z",
+      "updated_at": "2026-10-14T14:14:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4068,7 +4042,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:01:26Z",
-      "updated_at": "2026-10-13T19:02:00Z",
+      "updated_at": "2026-10-14T14:37:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4120,7 +4094,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:05:55Z",
-      "updated_at": "2026-10-13T19:22:10Z",
+      "updated_at": "2026-10-14T14:33:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4146,7 +4120,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:07:07Z",
-      "updated_at": "2026-10-13T19:07:40Z",
+      "updated_at": "2026-10-14T14:17:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4172,7 +4146,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:07:37Z",
-      "updated_at": "2026-10-13T19:24:15Z",
+      "updated_at": "2026-10-14T14:35:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4614,10 +4588,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-14T00:41:46Z",
-      "updated_at": "2026-10-14T00:42:18Z",
+      "updated_at": "2026-10-14T14:18:58Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -6292,7 +6266,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T14:07:51Z",
+    "since": "2026-07-16T14:38:37Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9845,6 +9819,14 @@
         "reviews": 97,
         "prs": [
           {
+            "title": "docs(EC-2071): deprecate the ec track bundle command",
+            "url": "https://github.com/conforma/cli/pull/3598",
+            "repo": "conforma/cli",
+            "number": 3598,
+            "author": "cuipinghuo",
+            "engaged_at": "2026-10-14T14:20:53Z"
+          },
+          {
             "title": "Update golden-container UBI image",
             "url": "https://github.com/conforma/golden-container/pull/1534",
             "repo": "conforma/golden-container",
@@ -10611,14 +10593,6 @@
             "number": 3415,
             "author": "joejstuart",
             "engaged_at": "2026-07-17T08:01:01Z"
-          },
-          {
-            "title": "Add ITS policy config for early release-violation visibility",
-            "url": "https://github.com/conforma/config/pull/236",
-            "repo": "conforma/config",
-            "number": 236,
-            "author": "joejstuart",
-            "engaged_at": "2026-07-16T14:17:58Z"
           }
         ]
       },
