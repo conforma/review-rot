@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T05:42:40.880686702Z",
+  "generated_at": "2026-10-14T06:15:56.25572691Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-14T02:25:20Z",
+      "updated_at": "2026-10-14T05:54:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -168,7 +168,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 49,
+      "unresolved_conversations": 50,
       "labels": [
         "dependencies",
         "go",
@@ -880,7 +880,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:16:09Z",
-      "updated_at": "2026-10-14T02:21:11Z",
+      "updated_at": "2026-10-14T05:49:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -889,7 +889,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "renovate",
         "main",
@@ -1228,34 +1228,6 @@
         "renovate",
         "release-v0.7",
         "size: XXL",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update module go.mongodb.org/mongo-driver to v1.17.7 [SECURITY] (release-v0.7)",
-      "url": "https://github.com/conforma/policy/pull/1890",
-      "number": 1890,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:28:09Z",
-      "updated_at": "2026-10-13T14:35:48Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "release-v0.7",
-        "size: XS",
-        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -1600,7 +1572,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-14T02:13:13Z",
-      "updated_at": "2026-10-14T02:20:26Z",
+      "updated_at": "2026-10-14T05:48:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -1628,7 +1600,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-14T02:13:24Z",
-      "updated_at": "2026-10-14T02:22:40Z",
+      "updated_at": "2026-10-14T05:49:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4885,32 +4857,6 @@
       ]
     },
     {
-      "title": "Update github/codeql-action action to v4.38.3 (main)",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/249",
-      "number": 249,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T01:34:23Z",
-      "updated_at": "2026-10-14T01:34:33Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs(#243): replace enterprisecontract.dev URLs and GitHub org link",
       "url": "https://github.com/conforma/user-guide/pull/244",
       "number": 244,
@@ -5099,7 +5045,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-08-20T12:57:52Z",
-      "updated_at": "2026-10-13T06:03:24Z",
+      "updated_at": "2026-10-14T06:01:39Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5121,7 +5067,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:03Z",
-      "updated_at": "2026-10-13T06:03:15Z",
+      "updated_at": "2026-10-14T06:01:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5143,7 +5089,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:07Z",
-      "updated_at": "2026-10-13T06:03:15Z",
+      "updated_at": "2026-10-14T06:01:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5165,7 +5111,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:12Z",
-      "updated_at": "2026-10-13T06:03:18Z",
+      "updated_at": "2026-10-14T06:01:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5187,7 +5133,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:17Z",
-      "updated_at": "2026-10-13T06:03:21Z",
+      "updated_at": "2026-10-14T06:01:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5209,7 +5155,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:22Z",
-      "updated_at": "2026-10-13T06:03:21Z",
+      "updated_at": "2026-10-14T06:01:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5231,7 +5177,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:31Z",
-      "updated_at": "2026-10-13T06:03:26Z",
+      "updated_at": "2026-10-14T06:01:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5264,32 +5210,6 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update step-security/harden-runner action to v2.22.1 (main)",
-      "url": "https://github.com/conforma/github-workflows/pull/12",
-      "number": 12,
-      "repo": "conforma/github-workflows",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T01:36:58Z",
-      "updated_at": "2026-10-14T01:37:30Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
         "size: XS"
       ]
     },
@@ -6596,7 +6516,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T05:39:23Z",
+    "since": "2026-07-16T06:12:47Z",
     "reviewers": [
       {
         "login": "robnester-rh",
