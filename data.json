@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T17:41:55.331888263Z",
+  "generated_at": "2026-10-14T18:13:23.847118779Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4167,7 +4167,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-10-14T16:15:52Z",
+      "updated_at": "2026-10-14T18:06:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4342,34 +4342,6 @@
         "ready-for-merge",
         "risk/low",
         "ready-for-review"
-      ]
-    },
-    {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/conforma.github.io/pull/588",
-      "number": 588,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T01:32:28Z",
-      "updated_at": "2026-10-14T16:17:33Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
       ]
     },
     {
@@ -5454,7 +5426,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:10:05Z",
-      "updated_at": "2026-10-13T19:10:16Z",
+      "updated_at": "2026-10-14T17:40:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5479,7 +5451,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:10:20Z",
-      "updated_at": "2026-10-13T19:10:52Z",
+      "updated_at": "2026-10-14T17:40:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5504,7 +5476,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:10:31Z",
-      "updated_at": "2026-10-13T19:11:04Z",
+      "updated_at": "2026-10-14T17:40:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6186,7 +6158,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T17:38:19Z",
+    "since": "2026-07-16T18:09:43Z",
     "reviewers": [
       {
         "login": "robnester-rh",
