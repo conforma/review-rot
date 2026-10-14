@@ -14,6 +14,7 @@ permissions:
 
 jobs:
   publish:
+    if: github.repository == 'conforma/review-rot'
     runs-on: ubuntu-latest
 
     permissions:
