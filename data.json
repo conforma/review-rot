@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T08:13:31.440193653Z",
+  "generated_at": "2026-10-14T08:46:47.747027808Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4807,30 +4807,6 @@
       ]
     },
     {
-      "title": "ci: guard privileged automation against forks",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/248",
-      "number": 248,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-10-13T15:48:45Z",
-      "updated_at": "2026-10-13T19:20:53Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs(#243): replace enterprisecontract.dev URLs and GitHub org link",
       "url": "https://github.com/conforma/user-guide/pull/244",
       "number": 244,
@@ -4931,32 +4907,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
-      ]
-    },
-    {
-      "title": "ci: guard documentation dispatch against forks",
-      "url": "https://github.com/conforma/user-guide/pull/271",
-      "number": 271,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-10-13T15:48:45Z",
-      "updated_at": "2026-10-13T19:20:16Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
       ]
     },
     {
@@ -5145,13 +5095,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-13T15:48:46Z",
-      "updated_at": "2026-10-13T19:21:16Z",
+      "updated_at": "2026-10-14T08:12:10Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5958,13 +5908,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-13T15:48:46Z",
-      "updated_at": "2026-10-13T19:21:44Z",
+      "updated_at": "2026-10-14T08:12:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -6462,7 +6412,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T08:09:58Z",
+    "since": "2026-07-16T08:43:11Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9972,8 +9922,40 @@
       },
       {
         "login": "st3penta",
-        "reviews": 92,
+        "reviews": 96,
         "prs": [
+          {
+            "title": "ci: guard documentation dispatch against forks",
+            "url": "https://github.com/conforma/user-guide/pull/271",
+            "repo": "conforma/user-guide",
+            "number": 271,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-14T08:12:33Z"
+          },
+          {
+            "title": "ci: guard privileged automation against forks",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/248",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 248,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-14T08:12:22Z"
+          },
+          {
+            "title": "ci: guard task sync against forks",
+            "url": "https://github.com/conforma/tekton-catalog/pull/292",
+            "repo": "conforma/tekton-catalog",
+            "number": 292,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-14T08:12:10Z"
+          },
+          {
+            "title": "Guard RPM repository sync against forks",
+            "url": "https://github.com/conforma/rhtap-ec-policy/pull/1",
+            "repo": "conforma/rhtap-ec-policy",
+            "number": 1,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-14T08:12:01Z"
+          },
           {
             "title": "Guard release workflow against fork execution",
             "url": "https://github.com/conforma/golden-container/pull/1532",
