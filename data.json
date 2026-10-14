@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T01:07:35.518058325Z",
+  "generated_at": "2026-10-14T01:45:26.005435348Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2053,7 +2053,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-10-13T18:53:31Z",
+      "updated_at": "2026-10-14T01:31:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4530,6 +4530,60 @@
       ]
     },
     {
+      "title": "Update github/codeql-action action to v4.38.3 (main)",
+      "url": "https://github.com/conforma/conforma.github.io/pull/587",
+      "number": 587,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-14T01:32:15Z",
+      "updated_at": "2026-10-14T01:40:36Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "requires-manual-review",
+        "risk/low"
+      ]
+    },
+    {
+      "title": "Update actions/setup-node action to v7.1.0 (main)",
+      "url": "https://github.com/conforma/conforma.github.io/pull/588",
+      "number": 588,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-14T01:32:28Z",
+      "updated_at": "2026-10-14T01:41:17Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update Konflux references (main) (patch)",
       "url": "https://github.com/conforma/golden-container/pull/1510",
       "number": 1510,
@@ -4670,7 +4724,7 @@
       "updated_at": "2026-10-14T00:42:18Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4828,6 +4882,32 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.3 (main)",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/249",
+      "number": 249,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-14T01:34:23Z",
+      "updated_at": "2026-10-14T01:34:33Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
         "size: XS"
       ]
     },
@@ -5185,6 +5265,32 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update step-security/harden-runner action to v2.22.1 (main)",
+      "url": "https://github.com/conforma/github-workflows/pull/12",
+      "number": 12,
+      "repo": "conforma/github-workflows",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-14T01:36:58Z",
+      "updated_at": "2026-10-14T01:37:30Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
         "size: XS"
       ]
     },
@@ -5624,6 +5730,32 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Update github/codeql-action action to v4.38.3 (main)",
+      "url": "https://github.com/conforma/.github/pull/100",
+      "number": 100,
+      "repo": "conforma/.github",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-14T01:23:46Z",
+      "updated_at": "2026-10-14T01:24:18Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
     },
     {
       "title": "Update go modules (main) (minor)",
@@ -6490,7 +6622,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T01:04:33Z",
+    "since": "2026-07-16T01:42:24Z",
     "reviewers": [
       {
         "login": "robnester-rh",
