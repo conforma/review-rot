@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T22:10:39.928914883Z",
+  "generated_at": "2026-10-14T22:38:00.308916937Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4421,32 +4421,6 @@
       ]
     },
     {
-      "title": "Update github actions (main) (patch)",
-      "url": "https://github.com/conforma/golden-container/pull/1533",
-      "number": 1533,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T00:41:46Z",
-      "updated_at": "2026-10-14T18:29:36Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
       "url": "https://github.com/conforma/review-rot/pull/246",
       "number": 246,
@@ -6130,7 +6104,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T22:07:11Z",
+    "since": "2026-07-16T22:35:06Z",
     "reviewers": [
       {
         "login": "robnester-rh",
