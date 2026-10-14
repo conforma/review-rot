@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T12:48:53.915130602Z",
+  "generated_at": "2026-10-14T13:11:26.457909686Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2492,7 +2492,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-10-14T12:33:58Z",
+      "updated_at": "2026-10-14T12:46:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3881,7 +3881,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T18:13:03Z",
-      "updated_at": "2026-10-14T12:42:45Z",
+      "updated_at": "2026-10-14T12:50:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5059,30 +5059,6 @@
       "labels": []
     },
     {
-      "title": "ci: guard task sync against forks",
-      "url": "https://github.com/conforma/tekton-catalog/pull/292",
-      "number": 292,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-10-13T15:48:46Z",
-      "updated_at": "2026-10-14T08:12:10Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/policy-builder/pull/43",
       "number": 43,
@@ -5823,28 +5799,6 @@
       ]
     },
     {
-      "title": "Guard release workflow against fork execution",
-      "url": "https://github.com/conforma/pr-size-label-action/pull/29",
-      "number": 29,
-      "repo": "conforma/pr-size-label-action",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-10-13T14:23:34Z",
-      "updated_at": "2026-10-13T15:56:19Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "🚨 Update actions/checkout action to v7 (main)",
       "url": "https://github.com/conforma/step-actions/pull/18",
       "number": 18,
@@ -5870,28 +5824,6 @@
         "renovate",
         "major"
       ]
-    },
-    {
-      "title": "Guard RPM repository sync against forks",
-      "url": "https://github.com/conforma/rhtap-ec-policy/pull/1",
-      "number": 1,
-      "repo": "conforma/rhtap-ec-policy",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-10-13T15:48:46Z",
-      "updated_at": "2026-10-14T08:12:01Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
     },
     {
       "title": "🚨 Update module gopkg.in/yaml.v2 to v3 (main)",
@@ -6385,7 +6317,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T12:45:45Z",
+    "since": "2026-07-16T13:07:38Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -10701,7 +10633,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 65,
+        "reviews": 64,
         "prs": [
           {
             "title": "Guard release workflow against fork execution",
@@ -11214,14 +11146,6 @@
             "number": 3425,
             "author": "cuipinghuo",
             "engaged_at": "2026-07-23T18:19:27Z"
-          },
-          {
-            "title": "ci(EC-1928): add regal-test target for custom lint rule tests",
-            "url": "https://github.com/conforma/policy/pull/1778",
-            "repo": "conforma/policy",
-            "number": 1778,
-            "author": "robnester-rh",
-            "engaged_at": "2026-07-16T12:48:29Z"
           }
         ]
       },
