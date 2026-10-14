@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T11:11:19.267138164Z",
+  "generated_at": "2026-10-14T11:42:23.867730698Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4301,13 +4301,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-14T09:56:38Z",
-      "updated_at": "2026-10-14T10:11:29Z",
+      "updated_at": "2026-10-14T11:29:25Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
@@ -4326,13 +4326,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-14T09:56:46Z",
-      "updated_at": "2026-10-14T09:56:56Z",
+      "updated_at": "2026-10-14T11:28:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4350,13 +4350,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-14T09:56:56Z",
-      "updated_at": "2026-10-14T10:16:15Z",
+      "updated_at": "2026-10-14T11:20:15Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4374,13 +4374,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-14T09:57:04Z",
-      "updated_at": "2026-10-14T10:14:38Z",
+      "updated_at": "2026-10-14T11:19:53Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -6509,7 +6509,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T11:07:53Z",
+    "since": "2026-07-16T11:38:16Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -12299,8 +12299,40 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 43,
+        "reviews": 47,
         "prs": [
+          {
+            "title": "chore(deps): Update ubi-minimal base image (main)",
+            "url": "https://github.com/conforma/cli/pull/3621",
+            "repo": "conforma/cli",
+            "number": 3621,
+            "author": "st3penta",
+            "engaged_at": "2026-10-14T11:29:25Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.7)",
+            "url": "https://github.com/conforma/cli/pull/3622",
+            "repo": "conforma/cli",
+            "number": 3622,
+            "author": "st3penta",
+            "engaged_at": "2026-10-14T11:28:56Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.8)",
+            "url": "https://github.com/conforma/cli/pull/3623",
+            "repo": "conforma/cli",
+            "number": 3623,
+            "author": "st3penta",
+            "engaged_at": "2026-10-14T11:20:15Z"
+          },
+          {
+            "title": "chore(deps): Update ubi-minimal base image (release-v0.9)",
+            "url": "https://github.com/conforma/cli/pull/3624",
+            "repo": "conforma/cli",
+            "number": 3624,
+            "author": "st3penta",
+            "engaged_at": "2026-10-14T11:19:52Z"
+          },
           {
             "title": "Update go modules (main) (minor)",
             "url": "https://github.com/conforma/infra-deployments-ci/pull/216",
