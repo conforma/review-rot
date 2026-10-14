@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T04:12:29.347880014Z",
+  "generated_at": "2026-10-14T04:43:57.895157341Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5348,84 +5348,6 @@
       ]
     },
     {
-      "title": "Update github/codeql-action action to v4.38.3 (main)",
-      "url": "https://github.com/conforma/tekton-catalog/pull/293",
-      "number": 293,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T02:52:54Z",
-      "updated_at": "2026-10-14T02:53:18Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update conforma/github-workflows digest to 51213ed (release-v0.7)",
-      "url": "https://github.com/conforma/tekton-catalog/pull/294",
-      "number": 294,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T02:53:04Z",
-      "updated_at": "2026-10-14T02:53:27Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "release-v0.7",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.38.3 (main)",
-      "url": "https://github.com/conforma/config/pull/249",
-      "number": 249,
-      "repo": "conforma/config",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T01:42:47Z",
-      "updated_at": "2026-10-14T01:43:05Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update step-security/harden-runner action to v2.22.1 (main)",
       "url": "https://github.com/conforma/github-workflows/pull/12",
       "number": 12,
@@ -5915,32 +5837,6 @@
       "labels": []
     },
     {
-      "title": "Update github/codeql-action action to v4.38.3 (main)",
-      "url": "https://github.com/conforma/.github/pull/100",
-      "number": 100,
-      "repo": "conforma/.github",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T01:23:46Z",
-      "updated_at": "2026-10-14T01:24:18Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -6192,31 +6088,6 @@
       ]
     },
     {
-      "title": "Update github/codeql-action action to v4.38.3 (main)",
-      "url": "https://github.com/conforma/crds/pull/55",
-      "number": 55,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T02:27:47Z",
-      "updated_at": "2026-10-14T02:28:19Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "🚨 Update npm dependencies (main) (major)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/16",
       "number": 16,
@@ -6289,32 +6160,6 @@
         "main",
         "renovate",
         "major"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.38.3 (main)",
-      "url": "https://github.com/conforma/golden-rpm/pull/31",
-      "number": 31,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T02:08:27Z",
-      "updated_at": "2026-10-14T02:09:05Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
       ]
     },
     {
@@ -6585,10 +6430,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-10-13T05:55:09Z",
+      "updated_at": "2026-10-14T04:40:22Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -6831,7 +6676,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T04:09:25Z",
+    "since": "2026-07-16T04:40:54Z",
     "reviewers": [
       {
         "login": "robnester-rh",
