@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T18:13:23.847118779Z",
+  "generated_at": "2026-10-14T18:46:58.978504039Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-10-14T02:25:12Z",
+      "updated_at": "2026-10-14T18:10:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -52,7 +52,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-10-13T14:30:39Z",
+      "updated_at": "2026-10-14T18:10:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -652,7 +652,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-10-13T20:59:10Z",
+      "updated_at": "2026-10-14T18:10:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3687,34 +3687,6 @@
       ]
     },
     {
-      "title": "Update module github.com/containerd/containerd to v1.7.36 [SECURITY] (main)",
-      "url": "https://github.com/conforma/cli/pull/3604",
-      "number": 3604,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T18:11:14Z",
-      "updated_at": "2026-10-14T14:40:23Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XS",
-        "ready-for-merge",
-        "risk/moderate",
-        "security"
-      ]
-    },
-    {
       "title": "Update module github.com/containerd/containerd/v2 to v2.3.6 [SECURITY] (main)",
       "url": "https://github.com/conforma/cli/pull/3605",
       "number": 3605,
@@ -3724,7 +3696,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T18:12:29Z",
-      "updated_at": "2026-10-14T14:37:20Z",
+      "updated_at": "2026-10-14T18:41:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4167,7 +4139,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-10-14T18:06:22Z",
+      "updated_at": "2026-10-14T18:14:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4449,7 +4421,7 @@
       ]
     },
     {
-      "title": "Update github/codeql-action action to v4.38.3 (main)",
+      "title": "Update github actions (main) (patch)",
       "url": "https://github.com/conforma/golden-container/pull/1533",
       "number": 1533,
       "repo": "conforma/golden-container",
@@ -4458,7 +4430,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-14T00:41:46Z",
-      "updated_at": "2026-10-14T14:59:58Z",
+      "updated_at": "2026-10-14T18:29:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -6158,7 +6130,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T18:09:43Z",
+    "since": "2026-07-16T18:43:17Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -11614,7 +11586,7 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 58,
+        "reviews": 57,
         "prs": [
           {
             "title": "Guard RPM repository sync against forks",
@@ -12071,14 +12043,6 @@
             "number": 3417,
             "author": "jsmid1",
             "engaged_at": "2026-07-21T13:13:04Z"
-          },
-          {
-            "title": "Update https://github.com/conforma/e2e-tests digest to 2f3c802 (main)",
-            "url": "https://github.com/conforma/cli/pull/3408",
-            "repo": "conforma/cli",
-            "number": 3408,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-07-16T18:21:39Z"
           }
         ]
       },
