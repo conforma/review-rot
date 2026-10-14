@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T06:15:56.25572691Z",
+  "generated_at": "2026-10-14T06:39:12.763041635Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4733,32 +4733,6 @@
       ]
     },
     {
-      "title": "Update github/codeql-action action to v4.38.3 (main)",
-      "url": "https://github.com/conforma/review-rot/pull/271",
-      "number": 271,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T02:51:51Z",
-      "updated_at": "2026-10-14T02:53:28Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -4980,34 +4954,6 @@
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: XS",
-        "requires-manual-review",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.38.3 (main)",
-      "url": "https://github.com/conforma/user-guide/pull/272",
-      "number": 272,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-14T00:31:32Z",
-      "updated_at": "2026-10-14T00:41:17Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
         "size: XS",
         "requires-manual-review",
         "risk/moderate"
@@ -6516,7 +6462,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T06:12:47Z",
+    "since": "2026-07-16T06:36:22Z",
     "reviewers": [
       {
         "login": "robnester-rh",
