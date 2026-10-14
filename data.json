@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T18:46:58.978504039Z",
+  "generated_at": "2026-10-14T19:10:26.619173399Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1796,7 +1796,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-14T14:43:07Z",
+      "updated_at": "2026-10-14T19:02:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1827,7 +1827,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-10-14T13:46:41Z",
+      "updated_at": "2026-10-14T18:57:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1981,7 +1981,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-10-14T13:53:12Z",
+      "updated_at": "2026-10-14T18:49:40Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2385,7 +2385,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-10-14T14:38:02Z",
+      "updated_at": "2026-10-14T18:51:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2415,7 +2415,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-10-14T14:37:45Z",
+      "updated_at": "2026-10-14T18:51:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2424,7 +2424,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 52,
+      "unresolved_conversations": 53,
       "labels": [
         "dependencies",
         "go",
@@ -2504,7 +2504,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-10-14T14:41:38Z",
+      "updated_at": "2026-10-14T18:55:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2735,7 +2735,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-10-14T14:45:59Z",
+      "updated_at": "2026-10-14T19:01:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2751,7 +2751,7 @@
         "renovate",
         "main",
         "size: XXL",
-        "ready-for-merge",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -3696,7 +3696,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T18:12:29Z",
-      "updated_at": "2026-10-14T18:41:27Z",
+      "updated_at": "2026-10-14T18:49:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3724,7 +3724,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T18:13:03Z",
-      "updated_at": "2026-10-14T14:41:21Z",
+      "updated_at": "2026-10-14T18:57:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -3738,7 +3738,7 @@
         "renovate",
         "size: XS",
         "ready-for-merge",
-        "risk/moderate",
+        "risk/low",
         "security"
       ]
     },
@@ -4885,7 +4885,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-10-14T16:06:56Z",
+      "updated_at": "2026-10-14T18:50:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6130,7 +6130,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-16T18:43:17Z",
+    "since": "2026-07-16T19:06:59Z",
     "reviewers": [
       {
         "login": "robnester-rh",
