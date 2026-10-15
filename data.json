@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T22:38:46.046491914Z",
+  "generated_at": "2026-10-15T23:36:19.308895521Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -131,7 +131,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-15T17:51:00Z",
+      "updated_at": "2026-10-15T23:02:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -292,7 +292,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-10-15T17:51:12Z",
+      "updated_at": "2026-10-15T23:02:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4722,7 +4722,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T02:23:42Z",
-      "updated_at": "2026-10-15T17:01:29Z",
+      "updated_at": "2026-10-15T22:57:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4748,7 +4748,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-14T02:08:39Z",
-      "updated_at": "2026-10-15T17:01:25Z",
+      "updated_at": "2026-10-15T22:57:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -6084,7 +6084,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-17T22:35:56Z",
+    "since": "2026-07-17T23:33:21Z",
     "reviewers": [
       {
         "login": "robnester-rh",
