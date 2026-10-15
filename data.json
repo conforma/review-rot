@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T11:40:33.209875502Z",
+  "generated_at": "2026-10-15T12:14:22.727426161Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3458,7 +3458,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-21T15:22:22Z",
-      "updated_at": "2026-10-14T12:35:51Z",
+      "updated_at": "2026-10-15T11:46:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -4438,138 +4438,6 @@
       "labels": []
     },
     {
-      "title": "chore: sync task and pipeline definitions to release-v0.7",
-      "url": "https://github.com/conforma/tekton-catalog/pull/262",
-      "number": 262,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "github-actions",
-        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
-      },
-      "created_at": "2026-08-20T12:57:52Z",
-      "updated_at": "2026-10-15T06:01:54Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: sync task and pipeline definitions to release-v0.1-alpha",
-      "url": "https://github.com/conforma/tekton-catalog/pull/281",
-      "number": 281,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "github-actions",
-        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
-      },
-      "created_at": "2026-10-02T07:39:03Z",
-      "updated_at": "2026-10-15T06:01:41Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: sync task and pipeline definitions to release-v0.2",
-      "url": "https://github.com/conforma/tekton-catalog/pull/282",
-      "number": 282,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "github-actions",
-        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
-      },
-      "created_at": "2026-10-02T07:39:07Z",
-      "updated_at": "2026-10-15T06:01:43Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: sync task and pipeline definitions to release-v0.4",
-      "url": "https://github.com/conforma/tekton-catalog/pull/283",
-      "number": 283,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "github-actions",
-        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
-      },
-      "created_at": "2026-10-02T07:39:12Z",
-      "updated_at": "2026-10-15T06:01:46Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: sync task and pipeline definitions to release-v0.5",
-      "url": "https://github.com/conforma/tekton-catalog/pull/284",
-      "number": 284,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "github-actions",
-        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
-      },
-      "created_at": "2026-10-02T07:39:17Z",
-      "updated_at": "2026-10-15T06:01:48Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
-      "title": "chore: sync task and pipeline definitions to release-v0.6",
-      "url": "https://github.com/conforma/tekton-catalog/pull/285",
-      "number": 285,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "github-actions",
-        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
-      },
-      "created_at": "2026-10-02T07:39:22Z",
-      "updated_at": "2026-10-15T06:01:50Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "chore: sync task and pipeline definitions to main",
       "url": "https://github.com/conforma/tekton-catalog/pull/286",
       "number": 286,
@@ -4579,40 +4447,162 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:31Z",
-      "updated_at": "2026-10-15T06:01:58Z",
+      "updated_at": "2026-10-15T11:54:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": null,
+      "size": "XL",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
-      "labels": []
+      "labels": [
+        "size: XL"
+      ]
     },
     {
-      "title": "Sign automated task sync commits",
-      "url": "https://github.com/conforma/tekton-catalog/pull/295",
-      "number": 295,
+      "title": "chore: sync task and pipeline definitions to release-v0.4",
+      "url": "https://github.com/conforma/tekton-catalog/pull/296",
+      "number": 296,
       "repo": "conforma/tekton-catalog",
       "author": {
-        "login": "jsmid1",
-        "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
-      "created_at": "2026-10-15T09:12:10Z",
-      "updated_at": "2026-10-15T09:26:30Z",
+      "created_at": "2026-10-15T12:09:54Z",
+      "updated_at": "2026-10-15T12:10:03Z",
       "is_draft": false,
-      "is_automated": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S"
+      ]
+    },
+    {
+      "title": "chore: sync task and pipeline definitions to release-v0.2",
+      "url": "https://github.com/conforma/tekton-catalog/pull/297",
+      "number": 297,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-10-15T12:09:56Z",
+      "updated_at": "2026-10-15T12:10:05Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S"
+      ]
+    },
+    {
+      "title": "chore: sync task and pipeline definitions to release-v0.5",
+      "url": "https://github.com/conforma/tekton-catalog/pull/298",
+      "number": 298,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-10-15T12:09:58Z",
+      "updated_at": "2026-10-15T12:10:09Z",
+      "is_draft": false,
+      "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
       "labels": [
         "size: L"
+      ]
+    },
+    {
+      "title": "chore: sync task and pipeline definitions to release-v0.7",
+      "url": "https://github.com/conforma/tekton-catalog/pull/299",
+      "number": 299,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-10-15T12:10:01Z",
+      "updated_at": "2026-10-15T12:10:10Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XL"
+      ]
+    },
+    {
+      "title": "chore: sync task and pipeline definitions to release-v0.1-alpha",
+      "url": "https://github.com/conforma/tekton-catalog/pull/300",
+      "number": 300,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-10-15T12:10:01Z",
+      "updated_at": "2026-10-15T12:10:11Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S"
+      ]
+    },
+    {
+      "title": "chore: sync task and pipeline definitions to release-v0.6",
+      "url": "https://github.com/conforma/tekton-catalog/pull/301",
+      "number": 301,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-10-15T12:10:04Z",
+      "updated_at": "2026-10-15T12:10:13Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XL"
       ]
     },
     {
@@ -5874,7 +5864,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-17T11:37:21Z",
+    "since": "2026-07-17T12:11:17Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -11776,8 +11766,16 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 53,
+        "reviews": 54,
         "prs": [
+          {
+            "title": "Sign automated task sync commits",
+            "url": "https://github.com/conforma/tekton-catalog/pull/295",
+            "repo": "conforma/tekton-catalog",
+            "number": 295,
+            "author": "jsmid1",
+            "engaged_at": "2026-10-15T11:40:16Z"
+          },
           {
             "title": "Update registry.access.redhat.com/ubi9/go-toolset Docker tag to v1.26.7-1792010711 (main)",
             "url": "https://github.com/conforma/cli/pull/3368",
