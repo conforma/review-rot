@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T12:14:22.727426161Z",
+  "generated_at": "2026-10-15T12:50:43.041309653Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4447,13 +4447,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:31Z",
-      "updated_at": "2026-10-15T11:54:49Z",
+      "updated_at": "2026-10-15T12:20:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
@@ -4471,13 +4471,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-10-15T12:09:54Z",
-      "updated_at": "2026-10-15T12:10:03Z",
+      "updated_at": "2026-10-15T12:20:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4495,13 +4495,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-10-15T12:09:56Z",
-      "updated_at": "2026-10-15T12:10:05Z",
+      "updated_at": "2026-10-15T12:20:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4519,13 +4519,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-10-15T12:09:58Z",
-      "updated_at": "2026-10-15T12:10:09Z",
+      "updated_at": "2026-10-15T12:20:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4543,13 +4543,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-10-15T12:10:01Z",
-      "updated_at": "2026-10-15T12:10:10Z",
+      "updated_at": "2026-10-15T12:20:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4567,13 +4567,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-10-15T12:10:01Z",
-      "updated_at": "2026-10-15T12:10:11Z",
+      "updated_at": "2026-10-15T12:20:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4591,13 +4591,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-10-15T12:10:04Z",
-      "updated_at": "2026-10-15T12:10:13Z",
+      "updated_at": "2026-10-15T12:20:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5864,7 +5864,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-17T12:11:17Z",
+    "since": "2026-07-17T12:47:35Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8648,8 +8648,64 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 101,
+        "reviews": 108,
         "prs": [
+          {
+            "title": "chore: sync task and pipeline definitions to main",
+            "url": "https://github.com/conforma/tekton-catalog/pull/286",
+            "repo": "conforma/tekton-catalog",
+            "number": 286,
+            "author": "github-actions",
+            "engaged_at": "2026-10-15T12:20:52Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to release-v0.4",
+            "url": "https://github.com/conforma/tekton-catalog/pull/296",
+            "repo": "conforma/tekton-catalog",
+            "number": 296,
+            "author": "ec-automation",
+            "engaged_at": "2026-10-15T12:20:42Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to release-v0.2",
+            "url": "https://github.com/conforma/tekton-catalog/pull/297",
+            "repo": "conforma/tekton-catalog",
+            "number": 297,
+            "author": "ec-automation",
+            "engaged_at": "2026-10-15T12:20:37Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to release-v0.5",
+            "url": "https://github.com/conforma/tekton-catalog/pull/298",
+            "repo": "conforma/tekton-catalog",
+            "number": 298,
+            "author": "ec-automation",
+            "engaged_at": "2026-10-15T12:20:32Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to release-v0.1-alpha",
+            "url": "https://github.com/conforma/tekton-catalog/pull/300",
+            "repo": "conforma/tekton-catalog",
+            "number": 300,
+            "author": "ec-automation",
+            "engaged_at": "2026-10-15T12:20:28Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to release-v0.7",
+            "url": "https://github.com/conforma/tekton-catalog/pull/299",
+            "repo": "conforma/tekton-catalog",
+            "number": 299,
+            "author": "ec-automation",
+            "engaged_at": "2026-10-15T12:20:21Z"
+          },
+          {
+            "title": "chore: sync task and pipeline definitions to release-v0.6",
+            "url": "https://github.com/conforma/tekton-catalog/pull/301",
+            "repo": "conforma/tekton-catalog",
+            "number": 301,
+            "author": "ec-automation",
+            "engaged_at": "2026-10-15T12:20:09Z"
+          },
           {
             "title": "Update golden-container UBI image",
             "url": "https://github.com/conforma/golden-container/pull/1534",
@@ -9462,8 +9518,16 @@
       },
       {
         "login": "st3penta",
-        "reviews": 101,
+        "reviews": 102,
         "prs": [
+          {
+            "title": "fix: use current tooling for release syncs",
+            "url": "https://github.com/conforma/tekton-catalog/pull/302",
+            "repo": "conforma/tekton-catalog",
+            "number": 302,
+            "author": "jsmid1",
+            "engaged_at": "2026-10-15T12:25:33Z"
+          },
           {
             "title": "fix: switch to GitHub Actions deployment for Pages",
             "url": "https://github.com/conforma/review-rot/pull/259",
@@ -12204,8 +12268,16 @@
       },
       {
         "login": "BohdanMar",
-        "reviews": 37,
+        "reviews": 38,
         "prs": [
+          {
+            "title": "fix: use current tooling for release syncs",
+            "url": "https://github.com/conforma/tekton-catalog/pull/302",
+            "repo": "conforma/tekton-catalog",
+            "number": 302,
+            "author": "jsmid1",
+            "engaged_at": "2026-10-15T12:22:40Z"
+          },
           {
             "title": "fix: use pinned sha for label-pr-size",
             "url": "https://github.com/conforma/go-containerregistry/pull/25",
