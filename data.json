@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T05:10:47.694135352Z",
+  "generated_at": "2026-10-15T06:15:31.432374248Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4188,32 +4188,6 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
-      "url": "https://github.com/conforma/golden-container/pull/1535",
-      "number": 1535,
-      "repo": "conforma/golden-container",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-15T03:41:41Z",
-      "updated_at": "2026-10-15T03:41:51Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update module github.com/bradleyfalzon/ghinstallation/v2 to v2.19.0 (main)",
       "url": "https://github.com/conforma/review-rot/pull/246",
       "number": 246,
@@ -4472,7 +4446,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-08-20T12:57:52Z",
-      "updated_at": "2026-10-14T06:01:39Z",
+      "updated_at": "2026-10-15T06:01:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4494,7 +4468,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:03Z",
-      "updated_at": "2026-10-14T06:01:32Z",
+      "updated_at": "2026-10-15T06:01:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4516,7 +4490,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:07Z",
-      "updated_at": "2026-10-14T06:01:32Z",
+      "updated_at": "2026-10-15T06:01:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4538,7 +4512,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:12Z",
-      "updated_at": "2026-10-14T06:01:33Z",
+      "updated_at": "2026-10-15T06:01:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4560,7 +4534,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:17Z",
-      "updated_at": "2026-10-14T06:01:35Z",
+      "updated_at": "2026-10-15T06:01:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4582,7 +4556,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:22Z",
-      "updated_at": "2026-10-14T06:01:36Z",
+      "updated_at": "2026-10-15T06:01:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4604,7 +4578,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:31Z",
-      "updated_at": "2026-10-14T06:01:43Z",
+      "updated_at": "2026-10-15T06:01:58Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5624,7 +5598,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-28T02:09:34Z",
-      "updated_at": "2026-10-13T17:09:26Z",
+      "updated_at": "2026-10-15T05:38:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5897,7 +5871,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-17T05:07:58Z",
+    "since": "2026-07-17T06:12:44Z",
     "reviewers": [
       {
         "login": "robnester-rh",
