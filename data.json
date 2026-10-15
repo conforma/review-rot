@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:11:24.660267587Z",
+  "generated_at": "2026-10-15T14:42:23.169428618Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5840,6 +5840,222 @@
       ]
     },
     {
+      "title": "EC-2255: enable SLSA v1 on kflux-fedora-01",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14881",
+      "number": 14881,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-15T14:09:26Z",
+      "updated_at": "2026-10-15T14:13:05Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "environment/production",
+        "infra/hold-production",
+        "prod/needs-approval"
+      ]
+    },
+    {
+      "title": "EC-2255: enable SLSA v1 on kflux-rhel-p01",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14882",
+      "number": 14882,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-15T14:09:44Z",
+      "updated_at": "2026-10-15T14:12:39Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "environment/production",
+        "infra/hold-production",
+        "prod/needs-approval"
+      ]
+    },
+    {
+      "title": "EC-2255: enable SLSA v1 on kflux-ocp-p01",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14883",
+      "number": 14883,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-15T14:09:59Z",
+      "updated_at": "2026-10-15T14:13:04Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "environment/production",
+        "infra/hold-production",
+        "prod/needs-approval"
+      ]
+    },
+    {
+      "title": "EC-2256: enable SLSA v1 on kflux-osp-p01",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14884",
+      "number": 14884,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-15T14:10:13Z",
+      "updated_at": "2026-10-15T14:12:55Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "environment/production",
+        "infra/hold-production",
+        "prod/needs-approval"
+      ]
+    },
+    {
+      "title": "EC-2256: enable SLSA v1 on kflux-prd-rh03",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14885",
+      "number": 14885,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-15T14:10:29Z",
+      "updated_at": "2026-10-15T14:13:48Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "environment/production",
+        "infra/hold-production",
+        "prod/needs-approval"
+      ]
+    },
+    {
+      "title": "EC-2256: enable SLSA v1 on stone-prod-p02",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14886",
+      "number": 14886,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-15T14:10:43Z",
+      "updated_at": "2026-10-15T14:18:39Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "environment/production",
+        "infra/hold-production",
+        "prod/needs-approval"
+      ]
+    },
+    {
+      "title": "EC-2257: enable SLSA v1 on kflux-prd-rh02",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14887",
+      "number": 14887,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-15T14:10:57Z",
+      "updated_at": "2026-10-15T14:14:01Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "environment/production",
+        "infra/hold-production",
+        "prod/needs-approval"
+      ]
+    },
+    {
+      "title": "EC-2257: enable SLSA v1 on stone-prod-p01",
+      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14888",
+      "number": 14888,
+      "repo": "redhat-appstudio/infra-deployments",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-15T14:11:15Z",
+      "updated_at": "2026-10-15T14:14:25Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "do-not-merge/work-in-progress",
+        "environment/production",
+        "infra/hold-production",
+        "prod/needs-approval"
+      ]
+    },
+    {
       "title": "Add a week to git-clone task deadline",
       "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/271",
       "number": 271,
@@ -5864,7 +6080,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-17T14:08:15Z",
+    "since": "2026-07-17T14:38:20Z",
     "reviewers": [
       {
         "login": "robnester-rh",
