@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T06:15:45.178395196Z",
+  "generated_at": "2026-10-16T06:54:48.554019773Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4467,32 +4467,6 @@
       "labels": []
     },
     {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
-      "url": "https://github.com/conforma/hacks/pull/227",
-      "number": 227,
-      "repo": "conforma/hacks",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T03:09:47Z",
-      "updated_at": "2026-10-16T03:12:37Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "chore: sync task and pipeline definitions to main",
       "url": "https://github.com/conforma/tekton-catalog/pull/286",
       "number": 286,
@@ -4658,32 +4632,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XL"
-      ]
-    },
-    {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
-      "url": "https://github.com/conforma/tekton-catalog/pull/303",
-      "number": 303,
-      "repo": "conforma/tekton-catalog",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T03:30:55Z",
-      "updated_at": "2026-10-16T03:34:24Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
       ]
     },
     {
@@ -5481,32 +5429,6 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
-      "url": "https://github.com/conforma/golden-rpm/pull/32",
-      "number": 32,
-      "repo": "conforma/golden-rpm",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T02:23:46Z",
-      "updated_at": "2026-10-16T02:27:15Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "🚨 Update module gopkg.in/yaml.v2 to v3 (main)",
       "url": "https://github.com/conforma/e2e-tests/pull/31",
       "number": 31,
@@ -5699,7 +5621,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-10-15T20:07:06Z",
+      "updated_at": "2026-10-16T06:26:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5752,7 +5674,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-10-14T04:40:22Z",
+      "updated_at": "2026-10-16T06:25:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5778,7 +5700,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-10-14T04:40:30Z",
+      "updated_at": "2026-10-16T06:25:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -6216,7 +6138,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T06:12:33Z",
+    "since": "2026-07-18T06:51:53Z",
     "reviewers": [
       {
         "login": "robnester-rh",
