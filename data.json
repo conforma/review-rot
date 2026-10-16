@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T13:11:43.943709932Z",
+  "generated_at": "2026-10-16T13:41:16.864748629Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3458,13 +3458,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-09-21T15:22:22Z",
-      "updated_at": "2026-10-15T11:46:34Z",
+      "updated_at": "2026-10-16T13:33:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 38,
@@ -5944,7 +5944,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T13:08:14Z",
+    "since": "2026-07-18T13:38:25Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -11512,8 +11512,16 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 57,
+        "reviews": 58,
         "prs": [
+          {
+            "title": "test: run ITS pipeline e2e checks on pull requests",
+            "url": "https://github.com/conforma/cli/pull/3574",
+            "repo": "conforma/cli",
+            "number": 3574,
+            "author": "dheerajodha",
+            "engaged_at": "2026-10-16T13:33:06Z"
+          },
           {
             "title": "Guard RPM repository sync against forks",
             "url": "https://github.com/conforma/rhtap-ec-policy/pull/1",
