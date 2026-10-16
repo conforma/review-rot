@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T02:45:06.344010101Z",
+  "generated_at": "2026-10-16T03:12:03.624410027Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2199,7 +2199,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-10-16T02:40:33Z",
+      "updated_at": "2026-10-16T03:06:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4717,6 +4717,32 @@
       ]
     },
     {
+      "title": "Update conforma/github-workflows digest to ff1126b (main)",
+      "url": "https://github.com/conforma/config/pull/250",
+      "number": 250,
+      "repo": "conforma/config",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-16T03:07:57Z",
+      "updated_at": "2026-10-16T03:08:32Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/policy-builder/pull/43",
       "number": 43,
@@ -5457,6 +5483,31 @@
       ]
     },
     {
+      "title": "Update conforma/github-workflows digest to ff1126b (main)",
+      "url": "https://github.com/conforma/crds/pull/57",
+      "number": 57,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-16T02:47:07Z",
+      "updated_at": "2026-10-16T02:49:58Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
       "title": "🚨 Update npm dependencies (main) (major)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/16",
       "number": 16,
@@ -5902,58 +5953,6 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
-      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/798",
-      "number": 798,
-      "repo": "enterprise-contract/enterprise-contract-controller",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T02:38:42Z",
-      "updated_at": "2026-10-16T02:38:52Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update module github.com/enterprise-contract/enterprise-contract-controller/api to v0.1.318 (main)",
-      "url": "https://github.com/enterprise-contract/enterprise-contract-controller/pull/799",
-      "number": 799,
-      "repo": "enterprise-contract/enterprise-contract-controller",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T02:39:13Z",
-      "updated_at": "2026-10-16T02:39:23Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "PENDING",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS"
-      ]
-    },
-    {
       "title": "feat(EC-1794): replace ec-defaults ConfigMap with hardcoded bundle ref",
       "url": "https://github.com/konflux-ci/e2e-tests/pull/1885",
       "number": 1885,
@@ -6323,7 +6322,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T02:42:05Z",
+    "since": "2026-07-18T03:09:14Z",
     "reviewers": [
       {
         "login": "robnester-rh",
