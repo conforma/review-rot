@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T10:41:44.452307366Z",
+  "generated_at": "2026-10-16T11:11:05.567886941Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-16T05:07:51Z",
+      "updated_at": "2026-10-16T11:05:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -175,6 +175,7 @@
         "renovate",
         "main",
         "size: XXL",
+        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -830,7 +831,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:16:09Z",
-      "updated_at": "2026-10-16T05:05:57Z",
+      "updated_at": "2026-10-16T11:01:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -839,7 +840,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 3,
+      "unresolved_conversations": 4,
       "labels": [
         "dependencies",
         "renovate",
@@ -1510,34 +1511,6 @@
         "size: M",
         "release-v0.8",
         "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
-      "url": "https://github.com/conforma/policy/pull/1908",
-      "number": 1908,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T01:13:53Z",
-      "updated_at": "2026-10-16T05:06:30Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS",
-        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -5971,7 +5944,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T10:38:30Z",
+    "since": "2026-07-18T11:07:48Z",
     "reviewers": [
       {
         "login": "robnester-rh",
