@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T01:45:50.455397302Z",
+  "generated_at": "2026-10-16T02:12:56.469864248Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4473,6 +4473,34 @@
       ]
     },
     {
+      "title": "Update conforma/github-workflows digest to ff1126b (main)",
+      "url": "https://github.com/conforma/user-guide/pull/273",
+      "number": 273,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-16T01:44:11Z",
+      "updated_at": "2026-10-16T01:53:14Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "requires-manual-review",
+        "risk/low"
+      ]
+    },
+    {
       "title": "Scripts to create and test fetching attestations",
       "url": "https://github.com/conforma/hacks/pull/162",
       "number": 162,
@@ -6139,7 +6167,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T01:42:52Z",
+    "since": "2026-07-18T02:10:08Z",
     "reviewers": [
       {
         "login": "robnester-rh",
