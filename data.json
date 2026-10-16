@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T05:41:46.718112143Z",
+  "generated_at": "2026-10-16T06:15:45.178395196Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4502,7 +4502,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4"
       },
       "created_at": "2026-10-02T07:39:31Z",
-      "updated_at": "2026-10-15T12:58:18Z",
+      "updated_at": "2026-10-16T06:02:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4710,32 +4710,6 @@
         "main",
         "renovate",
         "major",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
-      "url": "https://github.com/conforma/config/pull/250",
-      "number": 250,
-      "repo": "conforma/config",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T03:07:57Z",
-      "updated_at": "2026-10-16T03:10:40Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
         "size: XS"
       ]
     },
@@ -6242,7 +6216,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T05:38:49Z",
+    "since": "2026-07-18T06:12:33Z",
     "reviewers": [
       {
         "login": "robnester-rh",
