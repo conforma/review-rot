@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T14:42:45.66359335Z",
+  "generated_at": "2026-10-16T15:09:55.888239225Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-10-15T17:50:55Z",
+      "updated_at": "2026-10-16T14:40:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3619,10 +3619,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
       },
       "created_at": "2026-10-12T12:16:19Z",
-      "updated_at": "2026-10-14T14:07:01Z",
+      "updated_at": "2026-10-16T14:53:25Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
         "approved_count": 0,
@@ -3633,7 +3633,7 @@
         "documentation",
         "size: L",
         "tooling",
-        "ready-for-merge",
+        "requires-manual-review",
         "risk/low"
       ]
     },
@@ -4106,6 +4106,32 @@
         "ready-for-merge",
         "risk/low",
         "ready-for-review"
+      ]
+    },
+    {
+      "title": "Separate Go toolchain validation from site builds",
+      "url": "https://github.com/conforma/conforma.github.io/pull/590",
+      "number": 590,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-10-16T14:39:16Z",
+      "updated_at": "2026-10-16T14:53:51Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
       ]
     },
     {
@@ -5179,6 +5205,28 @@
       ]
     },
     {
+      "title": "Support ESM action dependencies",
+      "url": "https://github.com/conforma/pr-size-label-action/pull/30",
+      "number": 30,
+      "repo": "conforma/pr-size-label-action",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-10-16T14:59:22Z",
+      "updated_at": "2026-10-16T15:05:52Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "🚨 Update actions/checkout action to v7 (main)",
       "url": "https://github.com/conforma/step-actions/pull/18",
       "number": 18,
@@ -5916,7 +5964,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T14:39:14Z",
+    "since": "2026-07-18T15:07:03Z",
     "reviewers": [
       {
         "login": "robnester-rh",
