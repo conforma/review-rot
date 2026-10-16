@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T05:10:51.274492355Z",
+  "generated_at": "2026-10-16T05:34:27.652833802Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-16T04:57:18Z",
+      "updated_at": "2026-10-16T05:07:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -175,7 +175,6 @@
         "renovate",
         "main",
         "size: XXL",
-        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -1527,7 +1526,7 @@
       "updated_at": "2026-10-16T05:06:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4267,32 +4266,6 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
-      "url": "https://github.com/conforma/review-rot/pull/273",
-      "number": 273,
-      "repo": "conforma/review-rot",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T03:22:06Z",
-      "updated_at": "2026-10-16T03:28:12Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -5228,32 +5201,6 @@
       },
       "unresolved_conversations": 0,
       "labels": []
-    },
-    {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
-      "url": "https://github.com/conforma/.github/pull/101",
-      "number": 101,
-      "repo": "conforma/.github",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T02:21:19Z",
-      "updated_at": "2026-10-16T02:23:27Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
     },
     {
       "title": "Update go modules (main) (minor)",
@@ -6295,7 +6242,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T05:07:51Z",
+    "since": "2026-07-18T05:31:20Z",
     "reviewers": [
       {
         "login": "robnester-rh",
