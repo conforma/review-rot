@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:42:55.93920747Z",
+  "generated_at": "2026-10-16T05:10:51.274492355Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-15T17:50:48Z",
+      "updated_at": "2026-10-16T04:57:18Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -831,7 +831,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:16:09Z",
-      "updated_at": "2026-10-14T16:14:11Z",
+      "updated_at": "2026-10-16T05:05:57Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -840,7 +840,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": [
         "dependencies",
         "renovate",
@@ -1524,10 +1524,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-16T01:13:53Z",
-      "updated_at": "2026-10-16T01:31:27Z",
+      "updated_at": "2026-10-16T05:06:30Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -1538,35 +1538,8 @@
         "renovate",
         "main",
         "size: XS",
+        "requires-manual-review",
         "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update go toolchain directive to v1.27.2 (main)",
-      "url": "https://github.com/conforma/policy/pull/1909",
-      "number": 1909,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T01:27:47Z",
-      "updated_at": "2026-10-16T01:36:34Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS",
-        "ready-for-merge",
-        "risk/low"
       ]
     },
     {
@@ -4394,32 +4367,6 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/250",
-      "number": 250,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T02:09:58Z",
-      "updated_at": "2026-10-16T02:12:22Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "docs(#243): replace enterprisecontract.dev URLs and GitHub org link",
       "url": "https://github.com/conforma/user-guide/pull/244",
       "number": 244,
@@ -4522,34 +4469,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
-      ]
-    },
-    {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
-      "url": "https://github.com/conforma/user-guide/pull/273",
-      "number": 273,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T01:44:11Z",
-      "updated_at": "2026-10-16T01:53:14Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS",
-        "requires-manual-review",
-        "risk/low"
       ]
     },
     {
@@ -5825,32 +5744,6 @@
       ]
     },
     {
-      "title": "Update module github.com/onsi/ginkgo/v2 to v2.33.1 (main)",
-      "url": "https://github.com/conforma/e2e-tests/pull/42",
-      "number": 42,
-      "repo": "conforma/e2e-tests",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-16T02:14:21Z",
-      "updated_at": "2026-10-16T02:16:51Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "Update fullsend-ai/fullsend digest to 3454a2e (main)",
       "url": "https://github.com/conforma/.fullsend/pull/15",
       "number": 15,
@@ -6402,7 +6295,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T04:40:01Z",
+    "since": "2026-07-18T05:07:51Z",
     "reviewers": [
       {
         "login": "robnester-rh",
