@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T03:12:03.624410027Z",
+  "generated_at": "2026-10-16T03:43:53.489727677Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4294,6 +4294,32 @@
       ]
     },
     {
+      "title": "Update conforma/github-workflows digest to ff1126b (main)",
+      "url": "https://github.com/conforma/review-rot/pull/273",
+      "number": 273,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-16T03:22:06Z",
+      "updated_at": "2026-10-16T03:28:12Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -4549,6 +4575,32 @@
       "labels": []
     },
     {
+      "title": "Update conforma/github-workflows digest to ff1126b (main)",
+      "url": "https://github.com/conforma/hacks/pull/227",
+      "number": 227,
+      "repo": "conforma/hacks",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-16T03:09:47Z",
+      "updated_at": "2026-10-16T03:12:37Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "chore: sync task and pipeline definitions to main",
       "url": "https://github.com/conforma/tekton-catalog/pull/286",
       "number": 286,
@@ -4718,6 +4770,59 @@
     },
     {
       "title": "Update conforma/github-workflows digest to ff1126b (main)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/303",
+      "number": 303,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-16T03:30:55Z",
+      "updated_at": "2026-10-16T03:34:24Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "🚨 Update actions/create-github-app-token action to v3 (main)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/304",
+      "number": 304,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-16T03:31:04Z",
+      "updated_at": "2026-10-16T03:40:34Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "main",
+        "renovate",
+        "major",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update conforma/github-workflows digest to ff1126b (main)",
       "url": "https://github.com/conforma/config/pull/250",
       "number": 250,
       "repo": "conforma/config",
@@ -4726,10 +4831,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-16T03:07:57Z",
-      "updated_at": "2026-10-16T03:08:32Z",
+      "updated_at": "2026-10-16T03:10:40Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -6322,7 +6427,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T03:09:14Z",
+    "since": "2026-07-18T03:41:09Z",
     "reviewers": [
       {
         "login": "robnester-rh",
