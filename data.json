@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T23:36:27.504338198Z",
+  "generated_at": "2026-10-18T04:44:28.088165047Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-10-16T18:48:54Z",
+      "updated_at": "2026-10-17T21:56:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -131,7 +131,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-15T23:02:45Z",
+      "updated_at": "2026-10-17T08:41:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -292,7 +292,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-10-15T23:02:49Z",
+      "updated_at": "2026-10-17T08:41:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -653,7 +653,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-10-14T18:10:51Z",
+      "updated_at": "2026-10-17T21:51:03Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1515,6 +1515,86 @@
       ]
     },
     {
+      "title": "Update actions/upload-artifact action to v7.0.2 (release-v0.7)",
+      "url": "https://github.com/conforma/policy/pull/1910",
+      "number": 1910,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-17T02:01:04Z",
+      "updated_at": "2026-10-17T02:01:29Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "release-v0.7",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update actions/upload-artifact action to v7.0.2 (release-v0.8)",
+      "url": "https://github.com/conforma/policy/pull/1911",
+      "number": 1911,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-17T02:01:16Z",
+      "updated_at": "2026-10-17T02:01:44Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "size: XS",
+        "release-v0.8"
+      ]
+    },
+    {
+      "title": "Update ossf/scorecard-action action to v2.5.0 (main)",
+      "url": "https://github.com/conforma/policy/pull/1912",
+      "number": 1912,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-18T01:42:46Z",
+      "updated_at": "2026-10-18T01:50:02Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
+      ]
+    },
+    {
       "title": "Script for timing large snapshot",
       "url": "https://github.com/conforma/cli/pull/2217",
       "number": 2217,
@@ -1571,7 +1651,7 @@
       "updated_at": "2025-08-29T04:29:15Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": null,
       "size": null,
       "reviews": {
         "approved_count": 0,
@@ -1718,7 +1798,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-10-15T02:04:37Z",
+      "updated_at": "2026-10-18T01:57:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1734,7 +1814,6 @@
         "renovate",
         "main",
         "size: XXL",
-        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -1798,7 +1877,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-15T02:16:05Z",
+      "updated_at": "2026-10-18T01:25:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1816,7 +1895,7 @@
         "size: XXL",
         "Review effort 1/5",
         "ready-for-merge",
-        "risk/elevated"
+        "risk/moderate"
       ]
     },
     {
@@ -1829,7 +1908,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:18:14Z",
-      "updated_at": "2026-10-16T17:50:33Z",
+      "updated_at": "2026-10-17T21:40:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1860,10 +1939,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-10-15T15:52:52Z",
+      "updated_at": "2026-10-18T00:50:24Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "approved_count": 0,
@@ -1878,6 +1957,7 @@
         "main",
         "size: M",
         "ci",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -1921,7 +2001,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-02T02:08:37Z",
-      "updated_at": "2026-10-15T02:33:29Z",
+      "updated_at": "2026-10-18T01:25:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1951,7 +2031,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-10-15T19:04:58Z",
+      "updated_at": "2026-10-17T08:40:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1983,7 +2063,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-10-16T17:43:46Z",
+      "updated_at": "2026-10-17T21:30:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2144,7 +2224,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-10-16T03:06:37Z",
+      "updated_at": "2026-10-18T02:05:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3079,7 +3159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-22T06:39:46Z",
-      "updated_at": "2026-10-10T04:20:44Z",
+      "updated_at": "2026-10-17T06:44:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3910,10 +3990,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-10-15T01:47:02Z",
-      "updated_at": "2026-10-15T02:05:15Z",
+      "updated_at": "2026-10-17T03:26:59Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -3924,6 +4004,7 @@
         "renovate",
         "main",
         "size: XS",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -3959,7 +4040,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-10-16T15:33:38Z",
+      "updated_at": "2026-10-18T00:38:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4109,6 +4190,34 @@
       ]
     },
     {
+      "title": "Update ossf/scorecard-action action to v2.5.0 (main)",
+      "url": "https://github.com/conforma/conforma.github.io/pull/591",
+      "number": 591,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-18T00:31:37Z",
+      "updated_at": "2026-10-18T00:40:00Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
+      ]
+    },
+    {
       "title": "Update Konflux references (main) (patch)",
       "url": "https://github.com/conforma/golden-container/pull/1510",
       "number": 1510,
@@ -4118,10 +4227,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-29T06:57:38Z",
-      "updated_at": "2026-10-10T03:31:22Z",
+      "updated_at": "2026-10-17T02:39:24Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
         "approved_count": 0,
@@ -4135,7 +4244,7 @@
       ]
     },
     {
-      "title": "Update conforma/github-workflows digest to ff1126b (main)",
+      "title": "Update ossf/scorecard-action action to v2.5.0 (main)",
       "url": "https://github.com/conforma/golden-container/pull/1528",
       "number": 1528,
       "repo": "conforma/golden-container",
@@ -4144,13 +4253,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-10-12T01:10:49Z",
-      "updated_at": "2026-10-15T08:09:03Z",
+      "updated_at": "2026-10-18T01:24:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4390,6 +4499,34 @@
       ]
     },
     {
+      "title": "Update ossf/scorecard-action action to v2.5.0 (main)",
+      "url": "https://github.com/conforma/user-guide/pull/274",
+      "number": 274,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-18T02:09:26Z",
+      "updated_at": "2026-10-18T02:16:45Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "requires-manual-review",
+        "risk/moderate"
+      ]
+    },
+    {
       "title": "Scripts to create and test fetching attestations",
       "url": "https://github.com/conforma/hacks/pull/162",
       "number": 162,
@@ -4421,13 +4558,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-16T03:31:04Z",
-      "updated_at": "2026-10-16T09:15:33Z",
+      "updated_at": "2026-10-18T01:45:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
@@ -4435,6 +4572,32 @@
         "main",
         "renovate",
         "major",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update ossf/scorecard-action action to v2.5.0 (main)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/307",
+      "number": 307,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-18T01:42:29Z",
+      "updated_at": "2026-10-18T01:45:33Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
         "size: XS"
       ]
     },
@@ -4570,7 +4733,7 @@
       ]
     },
     {
-      "title": "fix(deps): update actions/setup-node digest to 949feb2 (main)",
+      "title": "fix(deps): update github actions (main)",
       "url": "https://github.com/conforma/go-gather/pull/353",
       "number": 353,
       "repo": "conforma/go-gather",
@@ -4579,10 +4742,36 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-14T02:08:39Z",
-      "updated_at": "2026-10-15T22:57:25Z",
+      "updated_at": "2026-10-17T09:31:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "fix(deps): update module oras.land/oras-go/v2 to v2.6.3 (main)",
+      "url": "https://github.com/conforma/go-gather/pull/354",
+      "number": 354,
+      "repo": "conforma/go-gather",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-18T00:29:30Z",
+      "updated_at": "2026-10-18T00:32:58Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4902,6 +5091,32 @@
       "labels": []
     },
     {
+      "title": "Update ossf/scorecard-action action to v2.5.0 (main)",
+      "url": "https://github.com/conforma/.github/pull/102",
+      "number": 102,
+      "repo": "conforma/.github",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-18T01:36:01Z",
+      "updated_at": "2026-10-18T01:38:27Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update go modules (main) (minor)",
       "url": "https://github.com/conforma/crds/pull/17",
       "number": 17,
@@ -4911,7 +5126,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-10-14T02:29:15Z",
+      "updated_at": "2026-10-18T01:28:50Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5153,6 +5368,31 @@
       ]
     },
     {
+      "title": "Update ossf/scorecard-action action to v2.5.0 (main)",
+      "url": "https://github.com/conforma/crds/pull/58",
+      "number": 58,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-18T01:28:57Z",
+      "updated_at": "2026-10-18T01:33:04Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
       "title": "🚨 Update npm dependencies (main) (major)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/16",
       "number": 16,
@@ -5247,6 +5487,32 @@
         "main",
         "renovate",
         "major"
+      ]
+    },
+    {
+      "title": "Update ossf/scorecard-action action to v2.5.0 (main)",
+      "url": "https://github.com/conforma/golden-rpm/pull/33",
+      "number": 33,
+      "repo": "conforma/golden-rpm",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-18T01:57:28Z",
+      "updated_at": "2026-10-18T01:59:49Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
       ]
     },
     {
@@ -5405,6 +5671,32 @@
         "main",
         "renovate",
         "size: S"
+      ]
+    },
+    {
+      "title": "Update module github.com/conforma/crds/api to v0.1.28 (main)",
+      "url": "https://github.com/conforma/e2e-tests/pull/43",
+      "number": 43,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-18T00:42:01Z",
+      "updated_at": "2026-10-18T00:44:26Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
       ]
     },
     {
@@ -5646,10 +5938,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:36Z",
-      "updated_at": "2026-10-16T08:22:09Z",
+      "updated_at": "2026-10-17T07:56:56Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 1,
@@ -5657,6 +5949,7 @@
       },
       "unresolved_conversations": 1,
       "labels": [
+        "needs-rebase",
         "do-not-merge/hold",
         "approved",
         "environment/production",
@@ -5674,10 +5967,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:46Z",
-      "updated_at": "2026-10-16T08:17:28Z",
+      "updated_at": "2026-10-17T07:56:41Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": null,
       "reviews": {
         "approved_count": 2,
@@ -5685,6 +5978,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "needs-rebase",
         "do-not-merge/hold",
         "approved",
         "environment/production",
@@ -5729,7 +6023,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-15T14:09:26Z",
-      "updated_at": "2026-10-15T14:13:05Z",
+      "updated_at": "2026-10-17T07:56:42Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5741,6 +6035,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "do-not-merge/work-in-progress",
+        "needs-rebase",
         "environment/production",
         "infra/hold-production",
         "prod/needs-approval"
@@ -5756,7 +6051,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-15T14:09:44Z",
-      "updated_at": "2026-10-15T14:12:39Z",
+      "updated_at": "2026-10-17T07:56:42Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5768,6 +6063,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "do-not-merge/work-in-progress",
+        "needs-rebase",
         "environment/production",
         "infra/hold-production",
         "prod/needs-approval"
@@ -5783,7 +6079,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-15T14:09:59Z",
-      "updated_at": "2026-10-15T14:13:04Z",
+      "updated_at": "2026-10-17T07:56:52Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5795,6 +6091,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "do-not-merge/work-in-progress",
+        "needs-rebase",
         "environment/production",
         "infra/hold-production",
         "prod/needs-approval"
@@ -5810,7 +6107,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-15T14:10:13Z",
-      "updated_at": "2026-10-15T14:12:55Z",
+      "updated_at": "2026-10-17T07:56:38Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5822,6 +6119,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "do-not-merge/work-in-progress",
+        "needs-rebase",
         "environment/production",
         "infra/hold-production",
         "prod/needs-approval"
@@ -5837,7 +6135,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-15T14:10:29Z",
-      "updated_at": "2026-10-15T14:13:48Z",
+      "updated_at": "2026-10-17T07:56:38Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5849,6 +6147,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "do-not-merge/work-in-progress",
+        "needs-rebase",
         "environment/production",
         "infra/hold-production",
         "prod/needs-approval"
@@ -5864,7 +6163,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-15T14:10:43Z",
-      "updated_at": "2026-10-15T14:18:39Z",
+      "updated_at": "2026-10-17T07:56:52Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5876,6 +6175,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "do-not-merge/work-in-progress",
+        "needs-rebase",
         "environment/production",
         "infra/hold-production",
         "prod/needs-approval"
@@ -5891,7 +6191,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-15T14:10:57Z",
-      "updated_at": "2026-10-15T14:14:01Z",
+      "updated_at": "2026-10-17T07:56:56Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5903,6 +6203,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "do-not-merge/work-in-progress",
+        "needs-rebase",
         "environment/production",
         "infra/hold-production",
         "prod/needs-approval"
@@ -5918,7 +6219,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-15T14:11:15Z",
-      "updated_at": "2026-10-15T14:14:25Z",
+      "updated_at": "2026-10-17T07:56:46Z",
       "is_draft": true,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -5930,6 +6231,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "do-not-merge/work-in-progress",
+        "needs-rebase",
         "environment/production",
         "infra/hold-production",
         "prod/needs-approval"
@@ -5960,7 +6262,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-18T23:33:30Z",
+    "since": "2026-07-20T04:41:14Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -9638,16 +9940,8 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 109,
+        "reviews": 108,
         "prs": [
-          {
-            "title": "🚨 Update actions/create-github-app-token action to v3 (main)",
-            "url": "https://github.com/conforma/tekton-catalog/pull/304",
-            "repo": "conforma/tekton-catalog",
-            "number": 304,
-            "author": "renovate",
-            "engaged_at": "2026-10-16T09:15:33Z"
-          },
           {
             "title": "chore: sync task and pipeline definitions to main",
             "url": "https://github.com/conforma/tekton-catalog/pull/286",
@@ -12030,7 +12324,7 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 54,
+        "reviews": 53,
         "prs": [
           {
             "title": "Sign automated task sync commits",
@@ -12047,14 +12341,6 @@
             "number": 3368,
             "author": "red-hat-konflux",
             "engaged_at": "2026-10-15T08:10:11Z"
-          },
-          {
-            "title": "Update conforma/github-workflows digest to ff1126b (main)",
-            "url": "https://github.com/conforma/golden-container/pull/1528",
-            "repo": "conforma/golden-container",
-            "number": 1528,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-10-15T08:09:03Z"
           },
           {
             "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace to v1.45.0 [SECURITY] (main)",
