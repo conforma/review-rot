@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T12:52:37.440912548Z",
+  "generated_at": "2026-10-19T13:13:29.517396785Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1850,7 +1850,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-19T09:51:54Z",
+      "updated_at": "2026-10-19T13:00:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2036,7 +2036,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:21:22Z",
-      "updated_at": "2026-10-19T06:02:48Z",
+      "updated_at": "2026-10-19T13:01:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3673,10 +3673,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-10-13T10:53:40Z",
-      "updated_at": "2026-10-19T09:28:21Z",
+      "updated_at": "2026-10-19T13:07:35Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 1,
@@ -5259,7 +5259,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-16T15:42:18Z",
-      "updated_at": "2026-10-19T08:54:24Z",
+      "updated_at": "2026-10-19T12:58:48Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5268,7 +5268,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 4,
+      "unresolved_conversations": 0,
       "labels": []
     },
     {
@@ -6062,11 +6062,33 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "feat(EC-2182): add rh-release signing identity for base image verification",
+      "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/290",
+      "number": 290,
+      "repo": "release-engineering/rhtap-ec-policy",
+      "author": {
+        "login": "BohdanMar",
+        "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
+      },
+      "created_at": "2026-10-19T12:53:13Z",
+      "updated_at": "2026-10-19T12:54:21Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
     }
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T12:49:12Z",
+    "since": "2026-07-21T13:10:19Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -12160,8 +12182,16 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 53,
+        "reviews": 54,
         "prs": [
+          {
+            "title": "fix(deps): update github actions (main) (patch)",
+            "url": "https://github.com/conforma/go-gather/pull/352",
+            "repo": "conforma/go-gather",
+            "number": 352,
+            "author": "renovate",
+            "engaged_at": "2026-10-19T13:09:56Z"
+          },
           {
             "title": "Sign automated task sync commits",
             "url": "https://github.com/conforma/tekton-catalog/pull/295",
