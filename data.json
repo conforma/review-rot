@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T19:39:26.205543678Z",
+  "generated_at": "2026-10-19T20:11:44.520234168Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-19T19:34:20Z",
+      "updated_at": "2026-10-19T19:36:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5318,28 +5318,6 @@
       "labels": []
     },
     {
-      "title": "Create codeql.yml",
-      "url": "https://github.com/conforma/pr-size-label-action/pull/31",
-      "number": 31,
-      "repo": "conforma/pr-size-label-action",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-10-16T15:42:18Z",
-      "updated_at": "2026-10-19T14:21:46Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "feat(vuln-patcher): add vulnerability patch skill",
       "url": "https://github.com/conforma/claude-skills/pull/29",
       "number": 29,
@@ -6156,7 +6134,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T19:35:27Z",
+    "since": "2026-07-21T20:08:10Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7582,8 +7560,16 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 172,
+        "reviews": 173,
         "prs": [
+          {
+            "title": "Create codeql.yml",
+            "url": "https://github.com/conforma/pr-size-label-action/pull/31",
+            "repo": "conforma/pr-size-label-action",
+            "number": 31,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-19T19:37:50Z"
+          },
           {
             "title": "Update CRD dependencies for Go 1.26.7",
             "url": "https://github.com/conforma/crds/pull/59",
