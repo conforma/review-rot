@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:47:06.457169105Z",
+  "generated_at": "2026-10-19T19:09:12.812519319Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1610,6 +1610,54 @@
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
+      "labels": [
+        "size: M"
+      ]
+    },
+    {
+      "title": "chore(deps): Update golang.org/x/crypto (v0.8)",
+      "url": "https://github.com/conforma/policy/pull/1915",
+      "number": 1915,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-10-19T18:59:20Z",
+      "updated_at": "2026-10-19T19:03:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "M",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: M"
+      ]
+    },
+    {
+      "title": "chore(deps): Update golang.org/x/crypto (main)",
+      "url": "https://github.com/conforma/policy/pull/1916",
+      "number": 1916,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "robnester-rh",
+        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
+      },
+      "created_at": "2026-10-19T19:00:11Z",
+      "updated_at": "2026-10-19T19:01:25Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "M",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
       "labels": [
         "size: M"
       ]
@@ -5223,25 +5271,25 @@
       "labels": []
     },
     {
-      "title": "Update golang.org/x/crypto to v0.52.0",
-      "url": "https://github.com/conforma/crds/pull/60",
-      "number": 60,
+      "title": "chore(deps): Update golang.org/x/crypto (main)",
+      "url": "https://github.com/conforma/crds/pull/61",
+      "number": 61,
       "repo": "conforma/crds",
       "author": {
         "login": "robnester-rh",
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
-      "created_at": "2026-10-19T18:17:33Z",
-      "updated_at": "2026-10-19T18:38:31Z",
+      "created_at": "2026-10-19T19:03:37Z",
+      "updated_at": "2026-10-19T19:05:03Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": []
     },
     {
@@ -6131,7 +6179,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T18:43:38Z",
+    "since": "2026-07-21T19:06:13Z",
     "reviewers": [
       {
         "login": "robnester-rh",
