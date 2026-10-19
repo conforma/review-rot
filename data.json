@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:46:34.638936406Z",
+  "generated_at": "2026-10-19T14:12:33.003062639Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5775,17 +5775,19 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-10-12T12:56:06Z",
-      "updated_at": "2026-10-18T09:42:08Z",
+      "updated_at": "2026-10-19T13:48:34Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
       "labels": [
+        "lgtm",
+        "approved",
         "environment/production",
         "infra/hold-production",
         "prod/needs-approval"
@@ -6062,7 +6064,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T13:43:04Z",
+    "since": "2026-07-21T14:08:34Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7480,7 +7482,7 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 171,
+        "reviews": 170,
         "prs": [
           {
             "title": "Guard publication against fork execution",
@@ -8841,14 +8843,6 @@
             "number": 3433,
             "author": "jsmid1",
             "engaged_at": "2026-07-23T20:36:08Z"
-          },
-          {
-            "title": "docs(#1776): add collection change pattern to AGENTS.md",
-            "url": "https://github.com/conforma/policy/pull/1777",
-            "repo": "conforma/policy",
-            "number": 1777,
-            "author": "fullsend-ai-coder",
-            "engaged_at": "2026-07-21T13:54:19Z"
           }
         ]
       },
