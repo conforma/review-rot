@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T12:15:34.012858311Z",
+  "generated_at": "2026-10-19T12:52:37.440912548Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -781,7 +781,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/273475629?u=5bbc0cf2481fafd1d8dab028b432443effd05caf\u0026v=4"
       },
       "created_at": "2026-10-08T20:50:25Z",
-      "updated_at": "2026-10-19T11:59:32Z",
+      "updated_at": "2026-10-19T12:11:45Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5180,6 +5180,28 @@
       ]
     },
     {
+      "title": "Update CRD dependencies for Go 1.26.7",
+      "url": "https://github.com/conforma/crds/pull/59",
+      "number": 59,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-19T12:19:38Z",
+      "updated_at": "2026-10-19T12:29:10Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": []
+    },
+    {
       "title": "🚨 Update npm dependencies (main) (major)",
       "url": "https://github.com/conforma/pr-size-label-action/pull/16",
       "number": 16,
@@ -5248,6 +5270,30 @@
       },
       "unresolved_conversations": 4,
       "labels": []
+    },
+    {
+      "title": "feat(patch-vulns): add vulnerability patch skill",
+      "url": "https://github.com/conforma/claude-skills/pull/29",
+      "number": 29,
+      "repo": "conforma/claude-skills",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-19T12:29:10Z",
+      "updated_at": "2026-10-19T12:33:17Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XL",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: XL"
+      ]
     },
     {
       "title": "🚨 Update actions/checkout action to v7 (main)",
@@ -5699,18 +5745,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:36Z",
-      "updated_at": "2026-10-17T07:56:56Z",
+      "updated_at": "2026-10-19T12:19:55Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
       "labels": [
-        "needs-rebase",
         "do-not-merge/hold",
         "approved",
         "environment/production",
@@ -5728,18 +5773,17 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:46Z",
-      "updated_at": "2026-10-17T07:56:41Z",
+      "updated_at": "2026-10-19T12:20:14Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "approved_count": 2,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "needs-rebase",
         "do-not-merge/hold",
         "approved",
         "environment/production",
@@ -6022,7 +6066,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T12:12:08Z",
+    "since": "2026-07-21T12:49:12Z",
     "reviewers": [
       {
         "login": "robnester-rh",
