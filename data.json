@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T15:11:51.302964689Z",
+  "generated_at": "2026-10-19T15:41:30.510649717Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5163,8 +5163,8 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-19T12:19:38Z",
-      "updated_at": "2026-10-19T12:29:10Z",
-      "is_draft": true,
+      "updated_at": "2026-10-19T15:25:30Z",
+      "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
@@ -5246,7 +5246,7 @@
       "labels": []
     },
     {
-      "title": "feat(patch-vulns): add vulnerability patch skill",
+      "title": "feat(vuln-patcher): add vulnerability patch skill",
       "url": "https://github.com/conforma/claude-skills/pull/29",
       "number": 29,
       "repo": "conforma/claude-skills",
@@ -5255,7 +5255,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-19T12:29:10Z",
-      "updated_at": "2026-10-19T12:33:17Z",
+      "updated_at": "2026-10-19T15:17:59Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -6062,7 +6062,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-21T15:08:08Z",
+    "since": "2026-07-21T15:37:50Z",
     "reviewers": [
       {
         "login": "robnester-rh",
