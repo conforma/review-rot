@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T18:44:44.304865425Z",
+  "generated_at": "2026-10-20T19:10:07.171222481Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1564,80 +1564,6 @@
         "renovate",
         "size: XS",
         "release-v0.8"
-      ]
-    },
-    {
-      "title": "chore(deps): Update golang.org/x/crypto (v0.8)",
-      "url": "https://github.com/conforma/policy/pull/1915",
-      "number": 1915,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-10-19T18:59:20Z",
-      "updated_at": "2026-10-20T18:04:33Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "M",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
-      ]
-    },
-    {
-      "title": "chore(deps): Update golang.org/x/crypto (main)",
-      "url": "https://github.com/conforma/policy/pull/1916",
-      "number": 1916,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-10-19T19:00:11Z",
-      "updated_at": "2026-10-20T18:04:16Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "chore(deps): Update golang.org/x/crypto (v0.7)",
-      "url": "https://github.com/conforma/policy/pull/1917",
-      "number": 1917,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "robnester-rh",
-        "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
-      },
-      "created_at": "2026-10-19T19:18:49Z",
-      "updated_at": "2026-10-20T18:03:57Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "FAILURE",
-      "size": "M",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: M"
       ]
     },
     {
@@ -4597,13 +4523,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-09T01:31:46Z",
-      "updated_at": "2026-10-20T13:08:47Z",
+      "updated_at": "2026-10-20T18:56:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4623,13 +4549,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-14T02:08:39Z",
-      "updated_at": "2026-10-20T13:12:46Z",
+      "updated_at": "2026-10-20T18:56:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5732,12 +5658,44 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T18:41:12Z",
+    "since": "2026-07-22T19:06:46Z",
     "reviewers": [
       {
         "login": "robnester-rh",
-        "reviews": 179,
+        "reviews": 183,
         "prs": [
+          {
+            "title": "feat(EC-2182): add rh-release signing identity for base image verification",
+            "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/290",
+            "repo": "release-engineering/rhtap-ec-policy",
+            "number": 290,
+            "author": "BohdanMar",
+            "engaged_at": "2026-10-20T19:09:55Z"
+          },
+          {
+            "title": "Make Conforma skills harness-agnostic",
+            "url": "https://github.com/conforma/agent-skills/pull/30",
+            "repo": "conforma/agent-skills",
+            "number": 30,
+            "author": "st3penta",
+            "engaged_at": "2026-10-20T19:06:19Z"
+          },
+          {
+            "title": "fix(deps): update github actions (main)",
+            "url": "https://github.com/conforma/go-gather/pull/353",
+            "repo": "conforma/go-gather",
+            "number": 353,
+            "author": "renovate",
+            "engaged_at": "2026-10-20T18:56:59Z"
+          },
+          {
+            "title": "fix(deps): update dependency golang to v1.27.2 (main)",
+            "url": "https://github.com/conforma/go-gather/pull/315",
+            "repo": "conforma/go-gather",
+            "number": 315,
+            "author": "renovate",
+            "engaged_at": "2026-10-20T18:56:10Z"
+          },
           {
             "title": "docs(#1750): document result format and result_helper functions",
             "url": "https://github.com/conforma/policy/pull/1754",
