@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T20:11:33.649523294Z",
+  "generated_at": "2026-10-20T20:42:03.300527343Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-10-20T19:58:02Z",
+      "updated_at": "2026-10-20T20:36:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -131,7 +131,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-20T19:53:46Z",
+      "updated_at": "2026-10-20T20:32:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-20T19:55:33Z",
+      "updated_at": "2026-10-20T20:31:31Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -175,6 +175,7 @@
         "renovate",
         "main",
         "size: XXL",
+        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -831,7 +832,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:16:09Z",
-      "updated_at": "2026-10-20T20:01:46Z",
+      "updated_at": "2026-10-20T20:10:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -840,7 +841,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 6,
       "labels": [
         "dependencies",
         "renovate",
@@ -887,7 +888,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:17:33Z",
-      "updated_at": "2026-10-20T19:47:15Z",
+      "updated_at": "2026-10-20T20:25:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -915,7 +916,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:18:00Z",
-      "updated_at": "2026-10-20T19:48:56Z",
+      "updated_at": "2026-10-20T20:31:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -924,7 +925,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "renovate",
         "main",
@@ -1302,11 +1303,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:35:59Z",
-      "updated_at": "2026-10-13T14:47:14Z",
+      "updated_at": "2026-10-20T20:36:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XS",
+      "size": "XXL",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
@@ -1314,7 +1315,7 @@
       "unresolved_conversations": 2,
       "labels": [
         "renovate",
-        "size: XS",
+        "size: XXL",
         "release-v0.8",
         "risk/low"
       ]
@@ -1329,11 +1330,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:36:37Z",
-      "updated_at": "2026-10-13T14:48:33Z",
+      "updated_at": "2026-10-20T20:37:42Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XS",
+      "size": "XXL",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
@@ -1341,7 +1342,7 @@
       "unresolved_conversations": 0,
       "labels": [
         "renovate",
-        "size: XS",
+        "size: XXL",
         "release-v0.8",
         "risk/moderate"
       ]
@@ -5682,7 +5683,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T20:07:43Z",
+    "since": "2026-07-22T20:38:56Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -10398,7 +10399,7 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 65,
+        "reviews": 64,
         "prs": [
           {
             "title": "chore(deps): Update golang.org/x/crypto (v0.8)",
@@ -10911,14 +10912,6 @@
             "number": 3434,
             "author": "BohdanMar",
             "engaged_at": "2026-07-28T20:09:05Z"
-          },
-          {
-            "title": "Several small tweaks for rpm version check script",
-            "url": "https://github.com/conforma/hacks/pull/212",
-            "repo": "conforma/hacks",
-            "number": 212,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-22T20:19:01Z"
           }
         ]
       },
