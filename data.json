@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T09:42:32.49782456Z",
+  "generated_at": "2026-10-20T10:10:31.510397104Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1985,16 +1985,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-10-20T09:32:03Z",
+      "updated_at": "2026-10-20T09:47:10Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": [
         "dependencies",
         "github_actions",
@@ -2003,7 +2003,6 @@
         "main",
         "size: M",
         "ci",
-        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -2017,7 +2016,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:48Z",
-      "updated_at": "2026-10-20T09:30:34Z",
+      "updated_at": "2026-10-20T09:43:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2026,7 +2025,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 43,
+      "unresolved_conversations": 46,
       "labels": [
         "dependencies",
         "go",
@@ -2034,7 +2033,7 @@
         "major",
         "main",
         "size: L",
-        "risk/elevated"
+        "risk/moderate"
       ]
     },
     {
@@ -2866,7 +2865,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-10-20T09:29:32Z",
+      "updated_at": "2026-10-20T09:40:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3775,10 +3774,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T18:13:47Z",
-      "updated_at": "2026-10-20T09:31:28Z",
+      "updated_at": "2026-10-20T09:41:02Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -3881,7 +3880,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:02:51Z",
-      "updated_at": "2026-10-20T09:36:22Z",
+      "updated_at": "2026-10-20T09:51:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3933,10 +3932,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T19:08:15Z",
-      "updated_at": "2026-10-20T09:37:07Z",
+      "updated_at": "2026-10-20T09:52:53Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -5126,16 +5125,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-20T09:29:25Z",
-      "updated_at": "2026-10-20T09:35:50Z",
+      "updated_at": "2026-10-20T10:06:37Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XXL",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 5,
+      "unresolved_conversations": 1,
       "labels": [
         "size: XXL"
       ]
@@ -5933,7 +5932,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T09:39:13Z",
+    "since": "2026-07-22T10:07:18Z",
     "reviewers": [
       {
         "login": "robnester-rh",
