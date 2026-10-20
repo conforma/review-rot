@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T15:11:23.405106187Z",
+  "generated_at": "2026-10-20T15:42:37.234884502Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1575,7 +1575,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-19T18:59:20Z",
-      "updated_at": "2026-10-19T19:03:00Z",
+      "updated_at": "2026-10-20T15:15:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1584,7 +1584,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: M"
       ]
@@ -1625,7 +1625,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-19T19:18:49Z",
-      "updated_at": "2026-10-19T19:20:10Z",
+      "updated_at": "2026-10-20T15:15:51Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "FAILURE",
@@ -1634,7 +1634,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: M"
       ]
@@ -4955,16 +4955,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-19T19:30:26Z",
-      "updated_at": "2026-10-20T14:58:58Z",
+      "updated_at": "2026-10-20T15:26:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 1,
       "labels": [
         "size: XXL"
       ]
@@ -5534,33 +5534,6 @@
       ]
     },
     {
-      "title": "chore(EC-2190): Add production environment overlay for enterprise-contract",
-      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14786",
-      "number": 14786,
-      "repo": "redhat-appstudio/infra-deployments",
-      "author": {
-        "login": "Acepresso",
-        "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
-      },
-      "created_at": "2026-10-12T12:56:06Z",
-      "updated_at": "2026-10-20T14:46:35Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "lgtm",
-        "approved",
-        "environment/production",
-        "prod/approved"
-      ]
-    },
-    {
       "title": "EC-2255: enable SLSA v1 on kflux-fedora-01",
       "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14881",
       "number": 14881,
@@ -5831,7 +5804,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T15:07:43Z",
+    "since": "2026-07-22T15:38:45Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8655,7 +8628,7 @@
             "repo": "conforma/go-containerregistry",
             "number": 27,
             "author": "robnester-rh",
-            "engaged_at": "2026-10-20T14:08:15Z"
+            "engaged_at": "2026-10-20T15:26:01Z"
           },
           {
             "title": "Update ossf/scorecard-action action to v2.5.0 (main)",
