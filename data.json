@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:10:31.510397104Z",
+  "generated_at": "2026-10-20T10:41:28.609146155Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5125,16 +5125,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-20T09:29:25Z",
-      "updated_at": "2026-10-20T10:06:37Z",
+      "updated_at": "2026-10-20T10:34:26Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
         "size: XXL"
       ]
@@ -5589,7 +5589,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:36Z",
-      "updated_at": "2026-10-19T14:36:36Z",
+      "updated_at": "2026-10-20T10:34:00Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -5600,6 +5600,7 @@
       },
       "unresolved_conversations": 1,
       "labels": [
+        "lgtm",
         "approved",
         "environment/production",
         "prod/approved"
@@ -5932,7 +5933,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T10:07:18Z",
+    "since": "2026-07-22T10:38:10Z",
     "reviewers": [
       {
         "login": "robnester-rh",
