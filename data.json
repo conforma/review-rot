@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T19:10:07.171222481Z",
+  "generated_at": "2026-10-20T19:40:03.131395676Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -989,34 +989,6 @@
       ]
     },
     {
-      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace to v1.45.0 [SECURITY] (main)",
-      "url": "https://github.com/conforma/policy/pull/1882",
-      "number": 1882,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:19:46Z",
-      "updated_at": "2026-10-14T14:02:49Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: L",
-        "requires-manual-review",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (main)",
       "url": "https://github.com/conforma/policy/pull/1883",
       "number": 1883,
@@ -1082,13 +1054,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:21:17Z",
-      "updated_at": "2026-10-14T13:44:00Z",
+      "updated_at": "2026-10-20T19:33:30Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -1564,6 +1536,33 @@
         "renovate",
         "size: XS",
         "release-v0.8"
+      ]
+    },
+    {
+      "title": "Update module github.com/klauspost/compress to v1.18.7 [SECURITY] (main)",
+      "url": "https://github.com/conforma/policy/pull/1920",
+      "number": 1920,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-20T19:17:42Z",
+      "updated_at": "2026-10-20T19:27:03Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS",
+        "risk/moderate"
       ]
     },
     {
@@ -4523,7 +4522,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-09T01:31:46Z",
-      "updated_at": "2026-10-20T18:56:10Z",
+      "updated_at": "2026-10-20T19:17:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4881,13 +4880,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-19T12:29:10Z",
-      "updated_at": "2026-10-19T15:49:07Z",
+      "updated_at": "2026-10-20T19:13:39Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4905,7 +4904,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-20T09:29:25Z",
-      "updated_at": "2026-10-20T10:34:26Z",
+      "updated_at": "2026-10-20T19:06:19Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5643,13 +5642,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
       },
       "created_at": "2026-10-19T12:53:13Z",
-      "updated_at": "2026-10-20T13:12:22Z",
+      "updated_at": "2026-10-20T19:09:56Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": null,
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5658,12 +5657,36 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T19:06:46Z",
+    "since": "2026-07-22T19:36:54Z",
     "reviewers": [
       {
         "login": "robnester-rh",
-        "reviews": 183,
+        "reviews": 186,
         "prs": [
+          {
+            "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (main)",
+            "url": "https://github.com/conforma/policy/pull/1885",
+            "repo": "conforma/policy",
+            "number": 1885,
+            "author": "renovate",
+            "engaged_at": "2026-10-20T19:19:41Z"
+          },
+          {
+            "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace to v1.45.0 [SECURITY] (main)",
+            "url": "https://github.com/conforma/policy/pull/1882",
+            "repo": "conforma/policy",
+            "number": 1882,
+            "author": "renovate",
+            "engaged_at": "2026-10-20T19:14:39Z"
+          },
+          {
+            "title": "feat(vuln-patcher): add vulnerability patch skill",
+            "url": "https://github.com/conforma/agent-skills/pull/29",
+            "repo": "conforma/agent-skills",
+            "number": 29,
+            "author": "st3penta",
+            "engaged_at": "2026-10-20T19:13:39Z"
+          },
           {
             "title": "feat(EC-2182): add rh-release signing identity for base image verification",
             "url": "https://github.com/release-engineering/rhtap-ec-policy/pull/290",
@@ -5694,7 +5717,7 @@
             "repo": "conforma/go-gather",
             "number": 315,
             "author": "renovate",
-            "engaged_at": "2026-10-20T18:56:10Z"
+            "engaged_at": "2026-10-20T18:55:08Z"
           },
           {
             "title": "docs(#1750): document result format and result_helper functions",
