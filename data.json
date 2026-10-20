@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:15:42.305203821Z",
+  "generated_at": "2026-10-20T07:44:58.646414895Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5274,28 +5274,6 @@
       ]
     },
     {
-      "title": "Update CRD dependencies for Go 1.26.7",
-      "url": "https://github.com/conforma/crds/pull/59",
-      "number": 59,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-19T12:19:38Z",
-      "updated_at": "2026-10-19T18:34:59Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": []
-    },
-    {
       "title": "chore(deps): Update golang.org/x/crypto (main)",
       "url": "https://github.com/conforma/crds/pull/61",
       "number": 61,
@@ -6182,7 +6160,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T07:12:22Z",
+    "since": "2026-07-22T07:41:55Z",
     "reviewers": [
       {
         "login": "robnester-rh",
