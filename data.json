@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:44:58.646414895Z",
+  "generated_at": "2026-10-20T08:13:09.506868465Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -5033,13 +5033,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/26954384?u=194027315c4d14ca0edc5f63ab64dec44c667f2a\u0026v=4"
       },
       "created_at": "2026-10-19T19:30:26Z",
-      "updated_at": "2026-10-19T19:34:05Z",
+      "updated_at": "2026-10-20T07:47:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "M",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
@@ -5345,9 +5345,9 @@
     },
     {
       "title": "feat(vuln-patcher): add vulnerability patch skill",
-      "url": "https://github.com/conforma/claude-skills/pull/29",
+      "url": "https://github.com/conforma/agent-skills/pull/29",
       "number": 29,
-      "repo": "conforma/claude-skills",
+      "repo": "conforma/agent-skills",
       "author": {
         "login": "st3penta",
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
@@ -6160,7 +6160,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T07:41:55Z",
+    "since": "2026-07-22T08:09:46Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6504,8 +6504,8 @@
           },
           {
             "title": "docs(EC-1939): document SLSA provenance in generate-policy README",
-            "url": "https://github.com/conforma/claude-skills/pull/27",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/27",
+            "repo": "conforma/agent-skills",
             "number": 27,
             "author": "joejstuart",
             "engaged_at": "2026-09-15T01:59:08Z"
@@ -6696,16 +6696,16 @@
           },
           {
             "title": "feat(groom): add story readiness review command",
-            "url": "https://github.com/conforma/claude-skills/pull/25",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/25",
+            "repo": "conforma/agent-skills",
             "number": 25,
             "author": "joejstuart",
             "engaged_at": "2026-09-10T13:49:37Z"
           },
           {
             "title": "Add validation examples",
-            "url": "https://github.com/conforma/claude-skills/pull/26",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/26",
+            "repo": "conforma/agent-skills",
             "number": 26,
             "author": "joejstuart",
             "engaged_at": "2026-09-10T13:49:13Z"
@@ -6944,8 +6944,8 @@
           },
           {
             "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-            "url": "https://github.com/conforma/claude-skills/pull/22",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/22",
+            "repo": "conforma/agent-skills",
             "number": 22,
             "author": "nmars",
             "engaged_at": "2026-09-09T18:35:59Z"
@@ -7224,8 +7224,8 @@
           },
           {
             "title": "Pin conforma/pr-size-label-action action to 9bff907 (main)",
-            "url": "https://github.com/conforma/claude-skills/pull/23",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/23",
+            "repo": "conforma/agent-skills",
             "number": 23,
             "author": "renovate",
             "engaged_at": "2026-09-04T12:53:02Z"
@@ -7496,8 +7496,8 @@
           },
           {
             "title": "feat: add sprint-triage skill with LLM readiness framework",
-            "url": "https://github.com/conforma/claude-skills/pull/19",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/19",
+            "repo": "conforma/agent-skills",
             "number": 19,
             "author": "joejstuart",
             "engaged_at": "2026-08-03T12:46:11Z"
@@ -7544,8 +7544,8 @@
           },
           {
             "title": "Use org-level renovate.json",
-            "url": "https://github.com/conforma/claude-skills/pull/17",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/17",
+            "repo": "conforma/agent-skills",
             "number": 17,
             "author": "st3penta",
             "engaged_at": "2026-07-31T14:35:37Z"
@@ -7576,8 +7576,8 @@
           },
           {
             "title": "Use application snapshot for multi-component validation in ec-setup",
-            "url": "https://github.com/conforma/claude-skills/pull/12",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/12",
+            "repo": "conforma/agent-skills",
             "number": 12,
             "author": "joejstuart",
             "engaged_at": "2026-07-29T20:47:56Z"
@@ -7982,8 +7982,8 @@
           },
           {
             "title": "docs(EC-1939): document SLSA provenance in generate-policy README",
-            "url": "https://github.com/conforma/claude-skills/pull/27",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/27",
+            "repo": "conforma/agent-skills",
             "number": 27,
             "author": "joejstuart",
             "engaged_at": "2026-09-11T19:21:16Z"
@@ -8190,8 +8190,8 @@
           },
           {
             "title": "feat(KONFLUX-15176): add SECURITY.md for CRA",
-            "url": "https://github.com/conforma/claude-skills/pull/22",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/22",
+            "repo": "conforma/agent-skills",
             "number": 22,
             "author": "nmars",
             "engaged_at": "2026-09-09T18:52:17Z"
@@ -8326,8 +8326,8 @@
           },
           {
             "title": "chore: add CODEOWNERS designating the devs team as code owners",
-            "url": "https://github.com/conforma/claude-skills/pull/24",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/24",
+            "repo": "conforma/agent-skills",
             "number": 24,
             "author": "robnester-rh",
             "engaged_at": "2026-09-03T16:49:00Z"
@@ -8950,8 +8950,8 @@
           },
           {
             "title": "Add mid-sprint tracking skills and commands (EC-1899)",
-            "url": "https://github.com/conforma/claude-skills/pull/18",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/18",
+            "repo": "conforma/agent-skills",
             "number": 18,
             "author": "robnester-rh",
             "engaged_at": "2026-07-29T14:19:47Z"
@@ -8976,8 +8976,16 @@
       },
       {
         "login": "st3penta",
-        "reviews": 113,
+        "reviews": 114,
         "prs": [
+          {
+            "title": "chore(deps): Update golang.org/x/crypto (main)",
+            "url": "https://github.com/conforma/go-containerregistry/pull/27",
+            "repo": "conforma/go-containerregistry",
+            "number": 27,
+            "author": "robnester-rh",
+            "engaged_at": "2026-10-20T07:47:02Z"
+          },
           {
             "title": "Create codeql.yml",
             "url": "https://github.com/conforma/pr-size-label-action/pull/31",
@@ -9276,8 +9284,8 @@
           },
           {
             "title": "fix(commands): harden handling of untrusted command content",
-            "url": "https://github.com/conforma/claude-skills/pull/28",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/28",
+            "repo": "conforma/agent-skills",
             "number": 28,
             "author": "robnester-rh",
             "engaged_at": "2026-10-05T15:18:51Z"
@@ -11654,8 +11662,8 @@
           },
           {
             "title": "Update SKILL.md to add SLSA provenance domain and iterative refinement",
-            "url": "https://github.com/conforma/claude-skills/pull/21",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/21",
+            "repo": "conforma/agent-skills",
             "number": 21,
             "author": "dheerajodha",
             "engaged_at": "2026-08-21T13:33:23Z"
@@ -11678,8 +11686,8 @@
           },
           {
             "title": "Add SLSA provenance data access patterns to rego-patterns.md (EC-1936)",
-            "url": "https://github.com/conforma/claude-skills/pull/20",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/20",
+            "repo": "conforma/agent-skills",
             "number": 20,
             "author": "robnester-rh",
             "engaged_at": "2026-08-17T18:16:52Z"
@@ -11798,8 +11806,8 @@
           },
           {
             "title": "Add mid-sprint tracking skills and commands (EC-1899)",
-            "url": "https://github.com/conforma/claude-skills/pull/18",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/18",
+            "repo": "conforma/agent-skills",
             "number": 18,
             "author": "robnester-rh",
             "engaged_at": "2026-07-28T17:00:08Z"
@@ -12132,8 +12140,8 @@
           },
           {
             "title": "fix(commands): harden handling of untrusted command content",
-            "url": "https://github.com/conforma/claude-skills/pull/28",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/28",
+            "repo": "conforma/agent-skills",
             "number": 28,
             "author": "robnester-rh",
             "engaged_at": "2026-10-05T12:20:21Z"
@@ -12722,8 +12730,8 @@
           },
           {
             "title": "Add validation examples",
-            "url": "https://github.com/conforma/claude-skills/pull/26",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/26",
+            "repo": "conforma/agent-skills",
             "number": 26,
             "author": "joejstuart",
             "engaged_at": "2026-09-10T02:13:42Z"
@@ -12738,8 +12746,8 @@
           },
           {
             "title": "feat(groom): add story readiness review command",
-            "url": "https://github.com/conforma/claude-skills/pull/25",
-            "repo": "conforma/claude-skills",
+            "url": "https://github.com/conforma/agent-skills/pull/25",
+            "repo": "conforma/agent-skills",
             "number": 25,
             "author": "joejstuart",
             "engaged_at": "2026-09-10T02:04:34Z"
