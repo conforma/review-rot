@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T13:12:15.33323848Z",
+  "generated_at": "2026-10-20T13:42:56.393573049Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4597,39 +4597,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-09T01:31:46Z",
-      "updated_at": "2026-10-13T19:40:48Z",
+      "updated_at": "2026-10-20T13:08:47Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "fix(deps): update github actions (main) (patch)",
-      "url": "https://github.com/conforma/go-gather/pull/352",
-      "number": 352,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T02:23:42Z",
-      "updated_at": "2026-10-19T13:11:04Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4649,7 +4623,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-14T02:08:39Z",
-      "updated_at": "2026-10-19T11:30:48Z",
+      "updated_at": "2026-10-20T13:12:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -5569,7 +5543,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/63234468?u=59ef63f8800d6fd6747bf1ad776c0267d6d9d260\u0026v=4"
       },
       "created_at": "2026-10-12T12:56:06Z",
-      "updated_at": "2026-10-19T13:48:34Z",
+      "updated_at": "2026-10-20T13:31:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -5583,8 +5557,7 @@
         "lgtm",
         "approved",
         "environment/production",
-        "infra/hold-production",
-        "prod/needs-approval"
+        "prod/approved"
       ]
     },
     {
@@ -5843,7 +5816,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/68649482?u=9482455e83ab2bcb92e555a8873dc512ed59d8d6\u0026v=4"
       },
       "created_at": "2026-10-19T12:53:13Z",
-      "updated_at": "2026-10-20T13:03:21Z",
+      "updated_at": "2026-10-20T13:12:22Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5858,7 +5831,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T13:08:42Z",
+    "since": "2026-07-22T13:38:57Z",
     "reviewers": [
       {
         "login": "robnester-rh",
