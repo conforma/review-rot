@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T05:42:29.47255338Z",
+  "generated_at": "2026-10-20T06:15:19.919824158Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4513,6 +4513,54 @@
       ]
     },
     {
+      "title": "chore: sync task and pipeline definitions to release-v0.7",
+      "url": "https://github.com/conforma/tekton-catalog/pull/308",
+      "number": 308,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-10-20T06:01:53Z",
+      "updated_at": "2026-10-20T06:02:03Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S"
+      ]
+    },
+    {
+      "title": "chore: sync task and pipeline definitions to main",
+      "url": "https://github.com/conforma/tekton-catalog/pull/309",
+      "number": 309,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "ec-automation",
+        "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
+      },
+      "created_at": "2026-10-20T06:02:00Z",
+      "updated_at": "2026-10-20T06:02:10Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "S",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: S"
+      ]
+    },
+    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/policy-builder/pull/43",
       "number": 43,
@@ -6134,7 +6182,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T05:39:37Z",
+    "since": "2026-07-22T06:12:26Z",
     "reviewers": [
       {
         "login": "robnester-rh",
