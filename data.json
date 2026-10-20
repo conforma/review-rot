@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T08:13:09.506868465Z",
+  "generated_at": "2026-10-20T08:47:26.531419712Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3746,10 +3746,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/124383262?v=4"
       },
       "created_at": "2026-10-13T10:53:40Z",
-      "updated_at": "2026-10-19T20:52:06Z",
+      "updated_at": "2026-10-20T08:42:44Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 2,
@@ -5048,232 +5048,6 @@
       ]
     },
     {
-      "title": "Update go modules (main) (minor)",
-      "url": "https://github.com/conforma/crds/pull/17",
-      "number": 17,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2025-10-23T03:27:17Z",
-      "updated_at": "2026-10-19T18:18:34Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
-      "title": "🚨 Update go modules (main) (major)",
-      "url": "https://github.com/conforma/crds/pull/19",
-      "number": 19,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2025-10-24T00:55:44Z",
-      "updated_at": "2026-10-13T19:12:24Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "main",
-        "renovate",
-        "major"
-      ]
-    },
-    {
-      "title": "Update module go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc to v0.46.0 [SECURITY] (main)",
-      "url": "https://github.com/conforma/crds/pull/47",
-      "number": 47,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T19:09:43Z",
-      "updated_at": "2026-10-13T19:10:09Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
-      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace to v1.45.0 [SECURITY] (main)",
-      "url": "https://github.com/conforma/crds/pull/48",
-      "number": 48,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T19:10:05Z",
-      "updated_at": "2026-10-15T15:49:48Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
-      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (main)",
-      "url": "https://github.com/conforma/crds/pull/49",
-      "number": 49,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T19:10:20Z",
-      "updated_at": "2026-10-15T15:49:50Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
-      "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (main)",
-      "url": "https://github.com/conforma/crds/pull/50",
-      "number": 50,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T19:10:31Z",
-      "updated_at": "2026-10-15T15:49:53Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
-      "title": "Update module golang.org/x/net to v0.55.0 [SECURITY] (main)",
-      "url": "https://github.com/conforma/crds/pull/52",
-      "number": 52,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T19:11:12Z",
-      "updated_at": "2026-10-13T19:11:37Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
-      "title": "Update module golang.org/x/oauth2 to v0.27.0 [SECURITY] (main)",
-      "url": "https://github.com/conforma/crds/pull/53",
-      "number": 53,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T19:11:27Z",
-      "updated_at": "2026-10-13T19:11:54Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
-      "title": "Update module google.golang.org/grpc to v1.83.1 [SECURITY] (main)",
-      "url": "https://github.com/conforma/crds/pull/54",
-      "number": 54,
-      "repo": "conforma/crds",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T19:11:39Z",
-      "updated_at": "2026-10-13T19:12:07Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "chore(deps): Update golang.org/x/crypto (main)",
       "url": "https://github.com/conforma/crds/pull/61",
       "number": 61,
@@ -6160,7 +5934,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T08:09:46Z",
+    "since": "2026-07-22T08:43:52Z",
     "reviewers": [
       {
         "login": "robnester-rh",
