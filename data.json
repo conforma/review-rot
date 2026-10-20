@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T10:41:28.609146155Z",
+  "generated_at": "2026-10-20T11:11:15.368097176Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4033,7 +4033,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-10-18T05:05:40Z",
+      "updated_at": "2026-10-20T11:06:08Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4218,7 +4218,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-12T01:44:36Z",
-      "updated_at": "2026-10-05T14:50:08Z",
+      "updated_at": "2026-10-20T11:05:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4292,7 +4292,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-04-23T01:32:45Z",
-      "updated_at": "2026-10-13T13:08:39Z",
+      "updated_at": "2026-10-20T10:49:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4469,7 +4469,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-16T03:31:04Z",
-      "updated_at": "2026-10-19T13:14:35Z",
+      "updated_at": "2026-10-20T10:43:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5580,33 +5580,6 @@
       "labels": []
     },
     {
-      "title": "Enable SLSA v1.0 attestations on kflux-lw-p01",
-      "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14701",
-      "number": 14701,
-      "repo": "redhat-appstudio/infra-deployments",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-08T15:34:36Z",
-      "updated_at": "2026-10-20T10:34:00Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "PENDING",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "lgtm",
-        "approved",
-        "environment/production",
-        "prod/approved"
-      ]
-    },
-    {
       "title": "Enable SLSA v1.0 attestations on stone-prd-rh01",
       "url": "https://github.com/redhat-appstudio/infra-deployments/pull/14702",
       "number": 14702,
@@ -5933,7 +5906,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T10:38:10Z",
+    "since": "2026-07-22T11:07:58Z",
     "reviewers": [
       {
         "login": "robnester-rh",
