@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T02:17:49.020948819Z",
+  "generated_at": "2026-10-21T02:46:58.632686608Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -2557,7 +2557,7 @@
       "updated_at": "2026-10-21T02:07:27Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4529,7 +4529,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-21T02:14:11Z",
-      "updated_at": "2026-10-21T02:14:20Z",
+      "updated_at": "2026-10-21T02:15:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5134,6 +5134,56 @@
       },
       "unresolved_conversations": 0,
       "labels": []
+    },
+    {
+      "title": "Update module sigs.k8s.io/kustomize/kustomize/v5 to v5.8.3 (main)",
+      "url": "https://github.com/conforma/crds/pull/62",
+      "number": 62,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T02:31:58Z",
+      "updated_at": "2026-10-21T02:33:43Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.39.0 (main)",
+      "url": "https://github.com/conforma/crds/pull/63",
+      "number": 63,
+      "repo": "conforma/crds",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T02:32:09Z",
+      "updated_at": "2026-10-21T02:33:44Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
     },
     {
       "title": "feat(vuln-patcher): add vulnerability patch skill",
@@ -5899,7 +5949,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T02:14:54Z",
+    "since": "2026-07-23T02:43:51Z",
     "reviewers": [
       {
         "login": "robnester-rh",
