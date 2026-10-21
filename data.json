@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:13:35.853763347Z",
+  "generated_at": "2026-10-21T18:45:58.599792402Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3785,6 +3785,32 @@
       ]
     },
     {
+      "title": "feat(validate): warn on deprecated VSA usage",
+      "url": "https://github.com/conforma/cli/pull/3629",
+      "number": 3629,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "joejstuart",
+        "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
+      },
+      "created_at": "2026-10-21T18:26:26Z",
+      "updated_at": "2026-10-21T18:37:13Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "L",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "size: L",
+        "requires-manual-review",
+        "risk/moderate"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -5517,7 +5543,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T18:10:02Z",
+    "since": "2026-07-23T18:42:15Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -11915,7 +11941,7 @@
       },
       {
         "login": "joejstuart",
-        "reviews": 64,
+        "reviews": 63,
         "prs": [
           {
             "title": "Guard release workflow against fork execution",
@@ -12420,14 +12446,6 @@
             "number": 3434,
             "author": "BohdanMar",
             "engaged_at": "2026-07-27T15:31:05Z"
-          },
-          {
-            "title": "fix(EC-1994): correct off-by-one in validate image worker loop",
-            "url": "https://github.com/conforma/cli/pull/3425",
-            "repo": "conforma/cli",
-            "number": 3425,
-            "author": "cuipinghuo",
-            "engaged_at": "2026-07-23T18:19:27Z"
           }
         ]
       },
