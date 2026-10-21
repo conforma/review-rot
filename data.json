@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T02:46:58.632686608Z",
+  "generated_at": "2026-10-21T03:12:36.452742071Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4228,7 +4228,7 @@
       "updated_at": "2026-10-21T01:56:38Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -5136,6 +5136,32 @@
       "labels": []
     },
     {
+      "title": "Update github/codeql-action action to v4.39.0 (main)",
+      "url": "https://github.com/conforma/.github/pull/103",
+      "number": 103,
+      "repo": "conforma/.github",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T02:45:13Z",
+      "updated_at": "2026-10-21T02:46:29Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update module sigs.k8s.io/kustomize/kustomize/v5 to v5.8.3 (main)",
       "url": "https://github.com/conforma/crds/pull/62",
       "number": 62,
@@ -5949,7 +5975,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T02:43:51Z",
+    "since": "2026-07-23T03:09:32Z",
     "reviewers": [
       {
         "login": "robnester-rh",
