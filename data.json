@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T17:10:31.80823914Z",
+  "generated_at": "2026-10-21T17:40:14.624997666Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -131,7 +131,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-20T20:32:34Z",
+      "updated_at": "2026-10-21T17:32:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -292,7 +292,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-10-20T20:40:30Z",
+      "updated_at": "2026-10-21T17:34:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -654,11 +654,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-10-19T19:26:59Z",
+      "updated_at": "2026-10-21T17:35:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XXL",
+      "size": "M",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
@@ -666,36 +666,8 @@
       "unresolved_conversations": 11,
       "labels": [
         "renovate",
-        "size: XXL",
+        "size: M",
         "release-v0.8",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update go toolchain directive to v1.27.2 (release-v0.8)",
-      "url": "https://github.com/conforma/policy/pull/1841",
-      "number": 1841,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-09-07T01:37:18Z",
-      "updated_at": "2026-10-13T14:39:40Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XS",
-        "release-v0.8",
-        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -1046,34 +1018,6 @@
       ]
     },
     {
-      "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (main)",
-      "url": "https://github.com/conforma/policy/pull/1885",
-      "number": 1885,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:21:17Z",
-      "updated_at": "2026-10-20T19:33:30Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: M",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update module github.com/google/cel-go to v0.29.0 [SECURITY] (release-v0.7)",
       "url": "https://github.com/conforma/policy/pull/1887",
       "number": 1887,
@@ -1157,34 +1101,6 @@
       ]
     },
     {
-      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace to v1.45.0 [SECURITY] (release-v0.7)",
-      "url": "https://github.com/conforma/policy/pull/1891",
-      "number": 1891,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:28:45Z",
-      "updated_at": "2026-10-13T14:39:32Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "L",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 4,
-      "labels": [
-        "dependencies",
-        "renovate",
-        "release-v0.7",
-        "size: L",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (release-v0.7)",
       "url": "https://github.com/conforma/policy/pull/1892",
       "number": 1892,
@@ -1208,33 +1124,6 @@
         "renovate",
         "release-v0.7",
         "size: XL",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (release-v0.7)",
-      "url": "https://github.com/conforma/policy/pull/1893",
-      "number": 1893,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:30:04Z",
-      "updated_at": "2026-10-13T14:43:23Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "L",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 1,
-      "labels": [
-        "renovate",
-        "release-v0.7",
-        "size: L",
         "risk/moderate"
       ]
     },
@@ -1376,34 +1265,6 @@
       ]
     },
     {
-      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace to v1.45.0 [SECURITY] (release-v0.8)",
-      "url": "https://github.com/conforma/policy/pull/1901",
-      "number": 1901,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:37:45Z",
-      "updated_at": "2026-10-13T14:47:55Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XL",
-        "release-v0.8",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (release-v0.8)",
       "url": "https://github.com/conforma/policy/pull/1902",
       "number": 1902,
@@ -1460,34 +1321,6 @@
       ]
     },
     {
-      "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (release-v0.8)",
-      "url": "https://github.com/conforma/policy/pull/1904",
-      "number": 1904,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:39:15Z",
-      "updated_at": "2026-10-13T14:48:33Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "M",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: M",
-        "release-v0.8",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update actions/upload-artifact action to v7.0.2 (release-v0.7)",
       "url": "https://github.com/conforma/policy/pull/1910",
       "number": 1910,
@@ -1527,58 +1360,6 @@
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XS",
-        "release-v0.8"
-      ]
-    },
-    {
-      "title": "Update module github.com/klauspost/compress to v1.18.7 [SECURITY] (release-v0.7)",
-      "url": "https://github.com/conforma/policy/pull/1921",
-      "number": 1921,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-20T19:51:18Z",
-      "updated_at": "2026-10-20T19:51:29Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "release-v0.7",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "Update module github.com/klauspost/compress to v1.18.7 [SECURITY] (release-v0.8)",
-      "url": "https://github.com/conforma/policy/pull/1922",
-      "number": 1922,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-20T19:56:15Z",
-      "updated_at": "2026-10-21T13:10:08Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 1,
@@ -5736,7 +5517,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T17:06:55Z",
+    "since": "2026-07-23T17:36:58Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -5775,7 +5556,7 @@
             "engaged_at": "2026-10-21T15:34:18Z"
           },
           {
-            "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (main)",
+            "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (main) - autoclosed",
             "url": "https://github.com/conforma/policy/pull/1885",
             "repo": "conforma/policy",
             "number": 1885,
@@ -11093,7 +10874,7 @@
             "engaged_at": "2026-10-21T13:11:50Z"
           },
           {
-            "title": "Update module github.com/klauspost/compress to v1.18.7 [SECURITY] (release-v0.8)",
+            "title": "Update module github.com/klauspost/compress to v1.18.7 [SECURITY] (release-v0.8) - autoclosed",
             "url": "https://github.com/conforma/policy/pull/1922",
             "repo": "conforma/policy",
             "number": 1922,
@@ -11229,7 +11010,7 @@
             "engaged_at": "2026-10-14T14:02:11Z"
           },
           {
-            "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (main)",
+            "title": "Update module go.opentelemetry.io/otel/sdk to v1.45.0 [SECURITY] (main) - autoclosed",
             "url": "https://github.com/conforma/policy/pull/1885",
             "repo": "conforma/policy",
             "number": 1885,
