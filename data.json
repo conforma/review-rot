@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T05:10:32.633346314Z",
+  "generated_at": "2026-10-21T05:42:31.564540201Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3984,7 +3984,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-10-20T21:07:12Z",
+      "updated_at": "2026-10-21T05:19:04Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4158,34 +4158,6 @@
         "renovate",
         "size: XS",
         "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.39.0 (main)",
-      "url": "https://github.com/conforma/conforma.github.io/pull/593",
-      "number": 593,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-21T01:37:48Z",
-      "updated_at": "2026-10-21T01:46:24Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS",
-        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -5136,32 +5108,6 @@
       "labels": []
     },
     {
-      "title": "Update github/codeql-action action to v4.39.0 (main)",
-      "url": "https://github.com/conforma/.github/pull/103",
-      "number": 103,
-      "repo": "conforma/.github",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-21T02:45:13Z",
-      "updated_at": "2026-10-21T02:46:29Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
       "title": "Update module sigs.k8s.io/kustomize/kustomize/v5 to v5.8.3 (main)",
       "url": "https://github.com/conforma/crds/pull/62",
       "number": 62,
@@ -5949,7 +5895,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T05:07:35Z",
+    "since": "2026-07-23T05:39:31Z",
     "reviewers": [
       {
         "login": "robnester-rh",
