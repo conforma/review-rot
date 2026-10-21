@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T14:12:02.303986966Z",
+  "generated_at": "2026-10-21T14:42:49.493546924Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1589,6 +1589,31 @@
         "renovate",
         "size: XS",
         "release-v0.8"
+      ]
+    },
+    {
+      "title": "Update FullSend workflow pins",
+      "url": "https://github.com/conforma/policy/pull/1923",
+      "number": 1923,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-21T14:25:45Z",
+      "updated_at": "2026-10-21T14:34:36Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 2,
+      "labels": [
+        "size: XS",
+        "risk/moderate"
       ]
     },
     {
@@ -5635,7 +5660,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T14:08:35Z",
+    "since": "2026-07-23T14:38:51Z",
     "reviewers": [
       {
         "login": "robnester-rh",
