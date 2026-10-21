@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:21:16.38750409Z",
+  "generated_at": "2026-10-21T01:08:48.677667696Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4539,6 +4539,84 @@
       ]
     },
     {
+      "title": "Update github/codeql-action action to v4.39.0 (main)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/310",
+      "number": 310,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T00:35:00Z",
+      "updated_at": "2026-10-21T00:35:52Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.39.0 (release-v0.7)",
+      "url": "https://github.com/conforma/tekton-catalog/pull/311",
+      "number": 311,
+      "repo": "conforma/tekton-catalog",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T00:35:10Z",
+      "updated_at": "2026-10-21T00:35:19Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "release-v0.7",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.39.0 (main)",
+      "url": "https://github.com/conforma/config/pull/252",
+      "number": 252,
+      "repo": "conforma/config",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T00:39:01Z",
+      "updated_at": "2026-10-21T00:40:09Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
       "title": "Update npm dependencies (main) (minor)",
       "url": "https://github.com/conforma/policy-builder/pull/43",
       "number": 43,
@@ -5233,6 +5311,32 @@
       ]
     },
     {
+      "title": "Update module github.com/conforma/crds/api to v0.1.34 (main)",
+      "url": "https://github.com/conforma/e2e-tests/pull/46",
+      "number": 46,
+      "repo": "conforma/e2e-tests",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T01:02:59Z",
+      "updated_at": "2026-10-21T01:04:57Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
+      ]
+    },
+    {
       "title": "Update fullsend-ai/fullsend digest to 3454a2e (main)",
       "url": "https://github.com/conforma/.fullsend/pull/15",
       "number": 15,
@@ -5738,7 +5842,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T00:18:07Z",
+    "since": "2026-07-23T01:05:31Z",
     "reviewers": [
       {
         "login": "robnester-rh",
