@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T23:37:24.834397348Z",
+  "generated_at": "2026-10-21T00:21:16.38750409Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4185,6 +4185,59 @@
       ]
     },
     {
+      "title": "Update github/codeql-action action to v4.39.0 (main)",
+      "url": "https://github.com/conforma/review-rot/pull/275",
+      "number": 275,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T00:10:53Z",
+      "updated_at": "2026-10-21T00:13:21Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
+      ]
+    },
+    {
+      "title": "🚨 Update module github.com/cenkalti/backoff/v4 to v7 (main)",
+      "url": "https://github.com/conforma/review-rot/pull/276",
+      "number": 276,
+      "repo": "conforma/review-rot",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T00:11:11Z",
+      "updated_at": "2026-10-21T00:16:35Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "main",
+        "renovate",
+        "major",
+        "size: XS"
+      ]
+    },
+    {
       "title": "docs: add CLAUDE.md for AI coding assistants",
       "url": "https://github.com/conforma/infra-deployments-ci/pull/213",
       "number": 213,
@@ -4256,6 +4309,32 @@
       "unresolved_conversations": 2,
       "labels": [
         "size: XL"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.39.0 (main)",
+      "url": "https://github.com/conforma/infra-deployments-ci/pull/252",
+      "number": 252,
+      "repo": "conforma/infra-deployments-ci",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T00:06:46Z",
+      "updated_at": "2026-10-21T00:07:45Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
       ]
     },
     {
@@ -4897,6 +4976,31 @@
       "labels": []
     },
     {
+      "title": "Update github actions (main) (minor)",
+      "url": "https://github.com/conforma/pr-size-label-action/pull/32",
+      "number": 32,
+      "repo": "conforma/pr-size-label-action",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T00:11:43Z",
+      "updated_at": "2026-10-21T00:12:48Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": null,
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate"
+      ]
+    },
+    {
       "title": "feat(vuln-patcher): add vulnerability patch skill",
       "url": "https://github.com/conforma/agent-skills/pull/29",
       "number": 29,
@@ -4969,6 +5073,32 @@
         "main",
         "renovate",
         "major"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.39.0 (main)",
+      "url": "https://github.com/conforma/golden-rpm/pull/34",
+      "number": 34,
+      "repo": "conforma/golden-rpm",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T00:11:39Z",
+      "updated_at": "2026-10-21T00:12:54Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS",
+        "main",
+        "renovate"
       ]
     },
     {
@@ -5608,7 +5738,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-22T23:34:11Z",
+    "since": "2026-07-23T00:18:07Z",
     "reviewers": [
       {
         "login": "robnester-rh",
