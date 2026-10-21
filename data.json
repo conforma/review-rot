@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:08:48.677667696Z",
+  "generated_at": "2026-10-21T01:50:17.597512582Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1795,7 +1795,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-10-20T02:34:50Z",
+      "updated_at": "2026-10-21T01:44:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1875,7 +1875,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-20T20:42:26Z",
+      "updated_at": "2026-10-21T01:34:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2028,7 +2028,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-10-20T21:04:53Z",
+      "updated_at": "2026-10-21T01:34:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2525,7 +2525,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T01:37:19Z",
-      "updated_at": "2026-10-20T02:21:43Z",
+      "updated_at": "2026-10-21T01:41:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2665,7 +2665,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.26.9 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.26.10 (main)",
       "url": "https://github.com/conforma/cli/pull/3372",
       "number": 3372,
       "repo": "conforma/cli",
@@ -2674,7 +2674,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-28T01:05:26Z",
-      "updated_at": "2026-10-20T02:24:23Z",
+      "updated_at": "2026-10-21T01:42:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3589,7 +3589,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-24T01:58:31Z",
-      "updated_at": "2026-10-20T02:29:12Z",
+      "updated_at": "2026-10-21T01:42:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3600,6 +3600,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
         "renovate",
         "main",
         "size: XS",
@@ -3935,13 +3936,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-10-15T01:47:02Z",
-      "updated_at": "2026-10-20T02:29:40Z",
+      "updated_at": "2026-10-21T01:43:11Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -3949,7 +3950,6 @@
         "renovate",
         "main",
         "size: XS",
-        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -4135,6 +4135,61 @@
       ]
     },
     {
+      "title": "Update dependency node to v24.22.0 (main)",
+      "url": "https://github.com/conforma/conforma.github.io/pull/592",
+      "number": 592,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T01:37:37Z",
+      "updated_at": "2026-10-21T01:44:36Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "ready-for-merge",
+        "risk/moderate"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.39.0 (main)",
+      "url": "https://github.com/conforma/conforma.github.io/pull/593",
+      "number": 593,
+      "repo": "conforma/conforma.github.io",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T01:37:48Z",
+      "updated_at": "2026-10-21T01:46:13Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "risk/moderate"
+      ]
+    },
+    {
       "title": "Update Konflux references (main) (patch)",
       "url": "https://github.com/conforma/golden-container/pull/1510",
       "number": 1510,
@@ -4158,6 +4213,32 @@
         "main",
         "renovate",
         "size: M"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.39.0 (main)",
+      "url": "https://github.com/conforma/golden-container/pull/1537",
+      "number": 1537,
+      "repo": "conforma/golden-container",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T01:28:35Z",
+      "updated_at": "2026-10-21T01:29:36Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS"
       ]
     },
     {
@@ -4439,6 +4520,33 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.39.0 (main)",
+      "url": "https://github.com/conforma/user-guide/pull/275",
+      "number": 275,
+      "repo": "conforma/user-guide",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-21T01:10:16Z",
+      "updated_at": "2026-10-21T01:16:44Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "SUCCESS",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "main",
+        "renovate",
+        "size: XS",
+        "requires-manual-review"
       ]
     },
     {
@@ -5054,31 +5162,6 @@
       "labels": []
     },
     {
-      "title": "Update github actions (main) (minor)",
-      "url": "https://github.com/conforma/pr-size-label-action/pull/32",
-      "number": 32,
-      "repo": "conforma/pr-size-label-action",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-21T00:11:43Z",
-      "updated_at": "2026-10-21T00:12:48Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": null,
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate"
-      ]
-    },
-    {
       "title": "feat(vuln-patcher): add vulnerability patch skill",
       "url": "https://github.com/conforma/agent-skills/pull/29",
       "number": 29,
@@ -5323,7 +5406,7 @@
       "updated_at": "2026-10-21T01:04:57Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -5842,7 +5925,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T01:05:31Z",
+    "since": "2026-07-23T01:46:54Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -12136,7 +12219,7 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 58,
+        "reviews": 57,
         "prs": [
           {
             "title": "Update actions/upload-artifact action to v7.0.2 (release-v0.7)",
@@ -12153,14 +12236,6 @@
             "number": 1911,
             "author": "renovate",
             "engaged_at": "2026-10-19T13:14:28Z"
-          },
-          {
-            "title": "Update github actions (main)",
-            "url": "https://github.com/conforma/cli/pull/3627",
-            "repo": "conforma/cli",
-            "number": 3627,
-            "author": "red-hat-konflux",
-            "engaged_at": "2026-10-19T13:13:58Z"
           },
           {
             "title": "Update ossf/scorecard-action action to v2.5.0 (main)",
