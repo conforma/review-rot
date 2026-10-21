@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T18:45:58.599792402Z",
+  "generated_at": "2026-10-21T19:10:31.58489106Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1382,13 +1382,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-21T14:25:45Z",
-      "updated_at": "2026-10-21T15:34:19Z",
+      "updated_at": "2026-10-21T18:56:02Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
@@ -3768,13 +3768,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-21T14:42:40Z",
-      "updated_at": "2026-10-21T15:34:56Z",
+      "updated_at": "2026-10-21T18:55:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
@@ -3794,7 +3794,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-10-21T18:26:26Z",
-      "updated_at": "2026-10-21T18:37:13Z",
+      "updated_at": "2026-10-21T19:02:07Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
@@ -4029,13 +4029,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-21T14:42:40Z",
-      "updated_at": "2026-10-21T15:34:31Z",
+      "updated_at": "2026-10-21T18:56:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4309,13 +4309,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-21T14:42:40Z",
-      "updated_at": "2026-10-21T15:34:48Z",
+      "updated_at": "2026-10-21T18:56:28Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5543,7 +5543,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T18:42:15Z",
+    "since": "2026-07-23T19:06:48Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -10283,8 +10283,40 @@
       },
       {
         "login": "cuipinghuo",
-        "reviews": 71,
+        "reviews": 75,
         "prs": [
+          {
+            "title": "Update FullSend workflow pins",
+            "url": "https://github.com/conforma/conforma.github.io/pull/594",
+            "repo": "conforma/conforma.github.io",
+            "number": 594,
+            "author": "st3penta",
+            "engaged_at": "2026-10-21T18:56:52Z"
+          },
+          {
+            "title": "Update FullSend workflow pins",
+            "url": "https://github.com/conforma/user-guide/pull/276",
+            "repo": "conforma/user-guide",
+            "number": 276,
+            "author": "st3penta",
+            "engaged_at": "2026-10-21T18:56:28Z"
+          },
+          {
+            "title": "Update FullSend workflow pins",
+            "url": "https://github.com/conforma/policy/pull/1923",
+            "repo": "conforma/policy",
+            "number": 1923,
+            "author": "st3penta",
+            "engaged_at": "2026-10-21T18:56:02Z"
+          },
+          {
+            "title": "Update FullSend workflow pins",
+            "url": "https://github.com/conforma/cli/pull/3628",
+            "repo": "conforma/cli",
+            "number": 3628,
+            "author": "st3penta",
+            "engaged_at": "2026-10-21T18:55:26Z"
+          },
           {
             "title": "🚨 Update module gopkg.in/yaml.v2 to v3 (main)",
             "url": "https://github.com/conforma/e2e-tests/pull/31",
