@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T01:50:17.597512582Z",
+  "generated_at": "2026-10-21T02:14:42.319113993Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1795,7 +1795,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2025-10-31T01:12:32Z",
-      "updated_at": "2026-10-21T01:44:22Z",
+      "updated_at": "2026-10-21T01:49:28Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1811,7 +1811,6 @@
         "renovate",
         "main",
         "size: XXL",
-        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -2221,7 +2220,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-05-11T03:00:37Z",
-      "updated_at": "2026-10-20T02:54:47Z",
+      "updated_at": "2026-10-21T02:03:46Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2555,10 +2554,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-27T02:00:49Z",
-      "updated_at": "2026-10-20T19:48:09Z",
+      "updated_at": "2026-10-21T02:07:27Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "SUCCESS",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -2705,11 +2704,11 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-06-29T01:22:52Z",
-      "updated_at": "2026-10-20T02:49:02Z",
+      "updated_at": "2026-10-21T02:01:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
-      "size": "S",
+      "size": "XS",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
@@ -2720,9 +2719,9 @@
         "go",
         "renovate",
         "main",
-        "size: S",
+        "size: XS",
         "Review effort 1/5",
-        "ready-for-merge",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -3118,7 +3117,7 @@
       ]
     },
     {
-      "title": "Update docker.io/library/golang Docker tag to v1.27.2 (main)",
+      "title": "Update docker.io/library/golang Docker tag to v1.27.3 (main)",
       "url": "https://github.com/conforma/cli/pull/3512",
       "number": 3512,
       "repo": "conforma/cli",
@@ -3127,7 +3126,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-08-20T02:43:52Z",
-      "updated_at": "2026-10-14T02:45:35Z",
+      "updated_at": "2026-10-21T02:00:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3589,7 +3588,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-24T01:58:31Z",
-      "updated_at": "2026-10-21T01:42:36Z",
+      "updated_at": "2026-10-21T01:49:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3617,7 +3616,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-09-24T02:14:20Z",
-      "updated_at": "2026-10-14T02:40:22Z",
+      "updated_at": "2026-10-21T01:51:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3936,7 +3935,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
       "created_at": "2026-10-15T01:47:02Z",
-      "updated_at": "2026-10-21T01:43:11Z",
+      "updated_at": "2026-10-21T01:53:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4172,7 +4171,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-21T01:37:48Z",
-      "updated_at": "2026-10-21T01:46:13Z",
+      "updated_at": "2026-10-21T01:46:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4186,6 +4185,7 @@
         "main",
         "renovate",
         "size: XS",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -4217,15 +4217,15 @@
     },
     {
       "title": "Update github/codeql-action action to v4.39.0 (main)",
-      "url": "https://github.com/conforma/golden-container/pull/1537",
-      "number": 1537,
+      "url": "https://github.com/conforma/golden-container/pull/1538",
+      "number": 1538,
       "repo": "conforma/golden-container",
       "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+        "login": "red-hat-konflux",
+        "avatar_url": "https://avatars.githubusercontent.com/in/296509?v=4"
       },
-      "created_at": "2026-10-21T01:28:35Z",
-      "updated_at": "2026-10-21T01:29:36Z",
+      "created_at": "2026-10-21T01:55:17Z",
+      "updated_at": "2026-10-21T01:56:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -4390,32 +4390,6 @@
       "unresolved_conversations": 2,
       "labels": [
         "size: XL"
-      ]
-    },
-    {
-      "title": "Update github/codeql-action action to v4.39.0 (main)",
-      "url": "https://github.com/conforma/infra-deployments-ci/pull/252",
-      "number": 252,
-      "repo": "conforma/infra-deployments-ci",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-21T00:06:46Z",
-      "updated_at": "2026-10-21T00:07:45Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
       ]
     },
     {
@@ -5925,7 +5899,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T01:46:54Z",
+    "since": "2026-07-23T02:11:48Z",
     "reviewers": [
       {
         "login": "robnester-rh",
