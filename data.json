@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T20:42:37.4017748Z",
+  "generated_at": "2026-10-21T21:10:15.142607296Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1382,13 +1382,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-21T14:25:45Z",
-      "updated_at": "2026-10-21T18:56:02Z",
+      "updated_at": "2026-10-21T20:50:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 2,
+        "approved_count": 3,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
@@ -3768,13 +3768,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-21T14:42:40Z",
-      "updated_at": "2026-10-21T18:55:26Z",
+      "updated_at": "2026-10-21T20:49:46Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 2,
+        "approved_count": 3,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
@@ -3794,13 +3794,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-10-21T18:26:26Z",
-      "updated_at": "2026-10-21T19:21:23Z",
+      "updated_at": "2026-10-21T20:59:38Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
@@ -4029,13 +4029,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-21T14:42:40Z",
-      "updated_at": "2026-10-21T18:56:52Z",
+      "updated_at": "2026-10-21T20:50:16Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 2,
+        "approved_count": 3,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4309,13 +4309,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-21T14:42:40Z",
-      "updated_at": "2026-10-21T18:56:28Z",
+      "updated_at": "2026-10-21T20:50:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 2,
+        "approved_count": 3,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4457,7 +4457,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-10-21T13:51:04Z",
+      "updated_at": "2026-10-21T20:41:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4893,13 +4893,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-19T12:29:10Z",
-      "updated_at": "2026-10-20T19:13:39Z",
+      "updated_at": "2026-10-21T21:03:08Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XL",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4917,13 +4917,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-20T09:29:25Z",
-      "updated_at": "2026-10-20T19:06:19Z",
+      "updated_at": "2026-10-21T21:04:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5543,7 +5543,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-23T20:39:05Z",
+    "since": "2026-07-23T21:06:53Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -7073,8 +7073,64 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 176,
+        "reviews": 183,
         "prs": [
+          {
+            "title": "Make Conforma skills harness-agnostic",
+            "url": "https://github.com/conforma/agent-skills/pull/30",
+            "repo": "conforma/agent-skills",
+            "number": 30,
+            "author": "st3penta",
+            "engaged_at": "2026-10-21T21:04:04Z"
+          },
+          {
+            "title": "feat(vuln-patcher): add vulnerability patch skill",
+            "url": "https://github.com/conforma/agent-skills/pull/29",
+            "repo": "conforma/agent-skills",
+            "number": 29,
+            "author": "st3penta",
+            "engaged_at": "2026-10-21T21:03:08Z"
+          },
+          {
+            "title": "feat(validate): warn on deprecated VSA usage",
+            "url": "https://github.com/conforma/cli/pull/3629",
+            "repo": "conforma/cli",
+            "number": 3629,
+            "author": "joejstuart",
+            "engaged_at": "2026-10-21T20:59:38Z"
+          },
+          {
+            "title": "Update FullSend workflow pins",
+            "url": "https://github.com/conforma/policy/pull/1923",
+            "repo": "conforma/policy",
+            "number": 1923,
+            "author": "st3penta",
+            "engaged_at": "2026-10-21T20:50:38Z"
+          },
+          {
+            "title": "Update FullSend workflow pins",
+            "url": "https://github.com/conforma/conforma.github.io/pull/594",
+            "repo": "conforma/conforma.github.io",
+            "number": 594,
+            "author": "st3penta",
+            "engaged_at": "2026-10-21T20:50:16Z"
+          },
+          {
+            "title": "Update FullSend workflow pins",
+            "url": "https://github.com/conforma/user-guide/pull/276",
+            "repo": "conforma/user-guide",
+            "number": 276,
+            "author": "st3penta",
+            "engaged_at": "2026-10-21T20:50:04Z"
+          },
+          {
+            "title": "Update FullSend workflow pins",
+            "url": "https://github.com/conforma/cli/pull/3628",
+            "repo": "conforma/cli",
+            "number": 3628,
+            "author": "st3penta",
+            "engaged_at": "2026-10-21T20:49:46Z"
+          },
           {
             "title": "🚨 Update npm dependencies (main) (major)",
             "url": "https://github.com/conforma/pr-size-label-action/pull/16",
