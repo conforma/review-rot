@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T05:42:28.177910064Z",
+  "generated_at": "2026-10-22T06:15:59.468363602Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4490,7 +4490,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-10-20T06:01:53Z",
-      "updated_at": "2026-10-21T12:58:45Z",
+      "updated_at": "2026-10-22T06:02:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4514,7 +4514,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-10-20T06:02:00Z",
-      "updated_at": "2026-10-21T12:59:10Z",
+      "updated_at": "2026-10-22T06:02:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -5205,7 +5205,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-10-21T11:13:05Z",
+      "updated_at": "2026-10-22T06:09:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5258,7 +5258,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-10-21T06:58:28Z",
+      "updated_at": "2026-10-22T06:07:54Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5284,7 +5284,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-10-21T06:58:34Z",
+      "updated_at": "2026-10-22T06:08:01Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5676,7 +5676,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T05:39:30Z",
+    "since": "2026-07-24T06:12:33Z",
     "reviewers": [
       {
         "login": "robnester-rh",
