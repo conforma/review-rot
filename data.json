@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T10:11:18.094895336Z",
+  "generated_at": "2026-10-22T10:42:36.891591613Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4822,16 +4822,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-20T09:29:25Z",
-      "updated_at": "2026-10-21T21:04:04Z",
+      "updated_at": "2026-10-22T10:15:35Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 2,
       "labels": [
         "size: XXL"
       ]
@@ -5181,18 +5181,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-08T15:34:46Z",
-      "updated_at": "2026-10-19T12:20:14Z",
+      "updated_at": "2026-10-22T10:22:04Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "PENDING",
       "size": null,
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "do-not-merge/hold",
+        "lgtm",
         "approved",
         "environment/production",
         "infra/hold-production",
@@ -5448,7 +5448,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T10:07:37Z",
+    "since": "2026-07-24T10:39:02Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -6978,16 +6978,8 @@
       },
       {
         "login": "simonbaird",
-        "reviews": 183,
+        "reviews": 182,
         "prs": [
-          {
-            "title": "Make Conforma skills harness-agnostic",
-            "url": "https://github.com/conforma/agent-skills/pull/30",
-            "repo": "conforma/agent-skills",
-            "number": 30,
-            "author": "st3penta",
-            "engaged_at": "2026-10-21T21:04:04Z"
-          },
           {
             "title": "feat(vuln-patcher): add vulnerability patch skill",
             "url": "https://github.com/conforma/agent-skills/pull/29",
