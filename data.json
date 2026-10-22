@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T01:48:56.72459475Z",
+  "generated_at": "2026-10-22T02:15:03.691677155Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1393,6 +1393,61 @@
       },
       "unresolved_conversations": 2,
       "labels": [
+        "size: XS",
+        "risk/moderate"
+      ]
+    },
+    {
+      "title": "Update github/codeql-action action to v4.39.0 (main)",
+      "url": "https://github.com/conforma/policy/pull/1927",
+      "number": 1927,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-22T01:59:02Z",
+      "updated_at": "2026-10-22T02:08:01Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "renovate",
+        "main",
+        "size: XS",
+        "risk/moderate"
+      ]
+    },
+    {
+      "title": "🚨 Update dependency ubuntu to v26 (main)",
+      "url": "https://github.com/conforma/policy/pull/1928",
+      "number": 1928,
+      "repo": "conforma/policy",
+      "author": {
+        "login": "renovate",
+        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
+      },
+      "created_at": "2026-10-22T01:59:14Z",
+      "updated_at": "2026-10-22T02:07:32Z",
+      "is_draft": false,
+      "is_automated": true,
+      "ci_status": "FAILURE",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 1,
+      "labels": [
+        "major",
+        "renovate",
+        "main",
         "size: XS",
         "risk/moderate"
       ]
@@ -5567,7 +5622,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T01:45:35Z",
+    "since": "2026-07-24T02:11:39Z",
     "reviewers": [
       {
         "login": "robnester-rh",
