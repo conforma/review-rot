@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T13:12:46.396952298Z",
+  "generated_at": "2026-10-22T13:43:53.393306926Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3694,13 +3694,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-10-21T18:26:26Z",
-      "updated_at": "2026-10-21T20:59:38Z",
+      "updated_at": "2026-10-22T13:30:50Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "L",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 1,
@@ -3708,6 +3708,30 @@
         "size: L",
         "requires-manual-review",
         "risk/moderate"
+      ]
+    },
+    {
+      "title": "Add browser-safe playground evaluator",
+      "url": "https://github.com/conforma/cli/pull/3630",
+      "number": 3630,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "dheerajodha",
+        "avatar_url": "https://avatars.githubusercontent.com/u/43273420?u=583b90ea9b38ba552b6e6da1860ed517b6eff178\u0026v=4"
+      },
+      "created_at": "2026-10-22T13:30:32Z",
+      "updated_at": "2026-10-22T13:30:42Z",
+      "is_draft": true,
+      "is_automated": false,
+      "ci_status": "FAILURE",
+      "size": "XXL",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XXL"
       ]
     },
     {
@@ -4109,7 +4133,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-10-21T21:49:00Z",
-      "updated_at": "2026-10-21T21:52:18Z",
+      "updated_at": "2026-10-22T13:25:26Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5448,7 +5472,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T13:09:13Z",
+    "since": "2026-07-24T13:40:04Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8440,8 +8464,24 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 116,
+        "reviews": 118,
         "prs": [
+          {
+            "title": "feat(validate): warn on deprecated VSA usage",
+            "url": "https://github.com/conforma/cli/pull/3629",
+            "repo": "conforma/cli",
+            "number": 3629,
+            "author": "joejstuart",
+            "engaged_at": "2026-10-22T13:30:50Z"
+          },
+          {
+            "title": "docs: document Conforma release workflow",
+            "url": "https://github.com/conforma/infra-deployments-ci/pull/253",
+            "repo": "conforma/infra-deployments-ci",
+            "number": 253,
+            "author": "joejstuart",
+            "engaged_at": "2026-10-22T13:25:26Z"
+          },
           {
             "title": "Update module github.com/sigstore/timestamp-authority/v2 to v2.1.0 [SECURITY] (main)",
             "url": "https://github.com/conforma/policy/pull/1881",
