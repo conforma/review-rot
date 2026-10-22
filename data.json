@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T08:47:00.351222572Z",
+  "generated_at": "2026-10-22T09:12:25.124142734Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -131,7 +131,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-21T17:32:14Z",
+      "updated_at": "2026-10-22T08:55:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-20T20:31:31Z",
+      "updated_at": "2026-10-22T09:08:06Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -292,7 +292,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-10-21T17:34:59Z",
+      "updated_at": "2026-10-22T08:55:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -654,7 +654,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-06T01:34:03Z",
-      "updated_at": "2026-10-21T17:35:26Z",
+      "updated_at": "2026-10-22T08:55:20Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -804,7 +804,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:16:09Z",
-      "updated_at": "2026-10-20T20:10:14Z",
+      "updated_at": "2026-10-22T09:06:00Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -819,6 +819,7 @@
         "renovate",
         "main",
         "size: XS",
+        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -860,13 +861,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:17:33Z",
-      "updated_at": "2026-10-21T13:09:28Z",
+      "updated_at": "2026-10-22T08:46:13Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -943,13 +944,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:19:18Z",
-      "updated_at": "2026-10-21T13:16:42Z",
+      "updated_at": "2026-10-22T08:47:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -971,13 +972,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:20:19Z",
-      "updated_at": "2026-10-21T13:17:25Z",
+      "updated_at": "2026-10-22T08:47:27Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -999,13 +1000,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:20:40Z",
-      "updated_at": "2026-10-21T13:11:50Z",
+      "updated_at": "2026-10-22T08:46:36Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -1373,31 +1374,6 @@
       ]
     },
     {
-      "title": "Update FullSend workflow pins",
-      "url": "https://github.com/conforma/policy/pull/1923",
-      "number": 1923,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-21T14:25:45Z",
-      "updated_at": "2026-10-21T20:50:38Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 3,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update github/codeql-action action to v4.39.0 (main)",
       "url": "https://github.com/conforma/policy/pull/1927",
       "number": 1927,
@@ -1407,7 +1383,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-22T01:59:02Z",
-      "updated_at": "2026-10-22T02:17:53Z",
+      "updated_at": "2026-10-22T09:07:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1434,10 +1410,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-22T01:59:14Z",
-      "updated_at": "2026-10-22T02:17:21Z",
+      "updated_at": "2026-10-22T08:55:11Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -1736,7 +1712,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-22T04:51:33Z",
+      "updated_at": "2026-10-22T09:02:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1797,10 +1773,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-10-20T09:47:10Z",
+      "updated_at": "2026-10-22T09:04:55Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "M",
       "reviews": {
         "approved_count": 0,
@@ -1888,7 +1864,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-04T02:18:48Z",
-      "updated_at": "2026-10-22T02:26:16Z",
+      "updated_at": "2026-10-22T09:04:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2324,7 +2300,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-10-20T09:30:50Z",
+      "updated_at": "2026-10-22T08:59:45Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2354,7 +2330,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-10-20T09:33:38Z",
+      "updated_at": "2026-10-22T09:00:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2445,10 +2421,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-10-20T20:42:29Z",
+      "updated_at": "2026-10-22T09:03:34Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 1,
@@ -2677,7 +2653,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-10-20T20:54:49Z",
+      "updated_at": "2026-10-22T09:04:32Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3559,7 +3535,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T18:12:29Z",
-      "updated_at": "2026-10-20T20:42:14Z",
+      "updated_at": "2026-10-22T08:59:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3814,32 +3790,6 @@
       ]
     },
     {
-      "title": "Update FullSend workflow pins",
-      "url": "https://github.com/conforma/cli/pull/3628",
-      "number": 3628,
-      "repo": "conforma/cli",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-21T14:42:40Z",
-      "updated_at": "2026-10-21T20:49:46Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 3,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 2,
-      "labels": [
-        "github_actions",
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "feat(validate): warn on deprecated VSA usage",
       "url": "https://github.com/conforma/cli/pull/3629",
       "number": 3629,
@@ -3897,7 +3847,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-10-21T05:19:04Z",
+      "updated_at": "2026-10-22T08:56:33Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3925,7 +3875,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-10-21T11:02:08Z",
+      "updated_at": "2026-10-22T08:56:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4075,31 +4025,6 @@
       ]
     },
     {
-      "title": "Update FullSend workflow pins",
-      "url": "https://github.com/conforma/conforma.github.io/pull/594",
-      "number": 594,
-      "repo": "conforma/conforma.github.io",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-21T14:42:40Z",
-      "updated_at": "2026-10-21T20:50:16Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 3,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "🚨 Update dependency ubuntu to v26 (main)",
       "url": "https://github.com/conforma/conforma.github.io/pull/595",
       "number": 595,
@@ -4109,10 +4034,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-22T03:29:15Z",
-      "updated_at": "2026-10-22T03:46:52Z",
+      "updated_at": "2026-10-22T08:58:22Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4338,10 +4263,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-16T01:36:55Z",
-      "updated_at": "2026-10-20T16:24:47Z",
+      "updated_at": "2026-10-22T08:56:16Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4404,31 +4329,6 @@
       "unresolved_conversations": 0,
       "labels": [
         "size: XS"
-      ]
-    },
-    {
-      "title": "Update FullSend workflow pins",
-      "url": "https://github.com/conforma/user-guide/pull/276",
-      "number": 276,
-      "repo": "conforma/user-guide",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-21T14:42:40Z",
-      "updated_at": "2026-10-21T20:50:04Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 3,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XS",
-        "risk/moderate"
       ]
     },
     {
@@ -5017,30 +4917,6 @@
       ]
     },
     {
-      "title": "feat(vuln-patcher): add vulnerability patch skill",
-      "url": "https://github.com/conforma/agent-skills/pull/29",
-      "number": 29,
-      "repo": "conforma/agent-skills",
-      "author": {
-        "login": "st3penta",
-        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
-      },
-      "created_at": "2026-10-19T12:29:10Z",
-      "updated_at": "2026-10-21T21:03:08Z",
-      "is_draft": false,
-      "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "size: XL"
-      ]
-    },
-    {
       "title": "Make Conforma skills harness-agnostic",
       "url": "https://github.com/conforma/agent-skills/pull/30",
       "number": 30,
@@ -5101,13 +4977,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-06T01:39:01Z",
-      "updated_at": "2026-10-21T13:07:09Z",
+      "updated_at": "2026-10-22T08:46:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 2,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
@@ -5676,7 +5552,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T08:44:15Z",
+    "since": "2026-07-24T09:08:55Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8676,8 +8552,48 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 112,
+        "reviews": 117,
         "prs": [
+          {
+            "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (main)",
+            "url": "https://github.com/conforma/policy/pull/1883",
+            "repo": "conforma/policy",
+            "number": 1883,
+            "author": "renovate",
+            "engaged_at": "2026-10-22T08:47:27Z"
+          },
+          {
+            "title": "Update module github.com/sigstore/timestamp-authority/v2 to v2.1.0 [SECURITY] (main)",
+            "url": "https://github.com/conforma/policy/pull/1881",
+            "repo": "conforma/policy",
+            "number": 1881,
+            "author": "renovate",
+            "engaged_at": "2026-10-22T08:47:14Z"
+          },
+          {
+            "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp to v1.45.0 [SECURITY] (main)",
+            "url": "https://github.com/conforma/policy/pull/1884",
+            "repo": "conforma/policy",
+            "number": 1884,
+            "author": "renovate",
+            "engaged_at": "2026-10-22T08:46:36Z"
+          },
+          {
+            "title": "🚨 Update module gopkg.in/yaml.v2 to v3 (main)",
+            "url": "https://github.com/conforma/e2e-tests/pull/31",
+            "repo": "conforma/e2e-tests",
+            "number": 31,
+            "author": "renovate",
+            "engaged_at": "2026-10-22T08:46:26Z"
+          },
+          {
+            "title": "Update module github.com/in-toto/go-witness to v0.9.1 [SECURITY] (main)",
+            "url": "https://github.com/conforma/policy/pull/1878",
+            "repo": "conforma/policy",
+            "number": 1878,
+            "author": "renovate",
+            "engaged_at": "2026-10-22T08:46:13Z"
+          },
           {
             "title": "chore(deps): Update golang.org/x/crypto (main)",
             "url": "https://github.com/conforma/go-containerregistry/pull/27",
