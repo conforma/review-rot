@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T15:12:09.048538719Z",
+  "generated_at": "2026-10-22T15:43:07.248033026Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4136,18 +4136,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/13258206?u=2928d669178dda55b23fb6a6f6a4bcc9bdaaf3c4\u0026v=4"
       },
       "created_at": "2026-10-21T21:49:00Z",
-      "updated_at": "2026-10-22T15:02:10Z",
+      "updated_at": "2026-10-22T15:19:58Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
-      "size": "L",
+      "size": "XL",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
       "labels": [
-        "size: L"
+        "size: XL"
       ]
     },
     {
@@ -4361,7 +4361,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-23T03:16:14Z",
-      "updated_at": "2026-10-20T21:14:53Z",
+      "updated_at": "2026-10-22T15:34:56Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4387,7 +4387,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:15:11Z",
-      "updated_at": "2026-10-21T20:41:48Z",
+      "updated_at": "2026-10-22T15:35:23Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4414,7 +4414,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T02:48:34Z",
-      "updated_at": "2026-10-20T21:14:07Z",
+      "updated_at": "2026-10-22T15:34:37Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -4466,39 +4466,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-14T02:08:39Z",
-      "updated_at": "2026-10-21T21:16:51Z",
+      "updated_at": "2026-10-22T15:20:10Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "main",
-        "renovate",
-        "size: XS"
-      ]
-    },
-    {
-      "title": "fix(deps): update module oras.land/oras-go/v2 to v2.6.4 (main)",
-      "url": "https://github.com/conforma/go-gather/pull/355",
-      "number": 355,
-      "repo": "conforma/go-gather",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-22T03:00:58Z",
-      "updated_at": "2026-10-22T09:18:26Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5475,7 +5449,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T15:08:40Z",
+    "since": "2026-07-24T15:39:07Z",
     "reviewers": [
       {
         "login": "robnester-rh",
