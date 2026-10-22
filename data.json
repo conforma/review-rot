@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T09:12:25.124142734Z",
+  "generated_at": "2026-10-22T09:43:42.725368093Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -22,7 +22,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-19T02:14:55Z",
-      "updated_at": "2026-10-20T20:36:47Z",
+      "updated_at": "2026-10-22T09:29:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -131,7 +131,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-22T08:55:02Z",
+      "updated_at": "2026-10-22T09:15:14Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -159,7 +159,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-03T01:36:42Z",
-      "updated_at": "2026-10-22T09:08:06Z",
+      "updated_at": "2026-10-22T09:38:15Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -292,7 +292,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-10-22T08:55:14Z",
+      "updated_at": "2026-10-22T09:15:25Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -804,7 +804,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:16:09Z",
-      "updated_at": "2026-10-22T09:06:00Z",
+      "updated_at": "2026-10-22T09:37:07Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -852,34 +852,6 @@
       ]
     },
     {
-      "title": "Update module github.com/in-toto/go-witness to v0.9.1 [SECURITY] (main)",
-      "url": "https://github.com/conforma/policy/pull/1878",
-      "number": 1878,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:17:33Z",
-      "updated_at": "2026-10-22T08:46:13Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update module github.com/moby/buildkit to v0.31.1 [SECURITY] (main)",
       "url": "https://github.com/conforma/policy/pull/1879",
       "number": 1879,
@@ -889,7 +861,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:18:00Z",
-      "updated_at": "2026-10-20T20:31:04Z",
+      "updated_at": "2026-10-22T09:38:24Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -900,9 +872,12 @@
       },
       "unresolved_conversations": 1,
       "labels": [
+        "dependencies",
+        "go",
         "renovate",
         "main",
         "size: XL",
+        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -916,7 +891,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:18:38Z",
-      "updated_at": "2026-10-20T19:48:25Z",
+      "updated_at": "2026-10-22T09:26:09Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -935,34 +910,6 @@
       ]
     },
     {
-      "title": "Update module github.com/sigstore/timestamp-authority/v2 to v2.1.0 [SECURITY] (main)",
-      "url": "https://github.com/conforma/policy/pull/1881",
-      "number": 1881,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:19:18Z",
-      "updated_at": "2026-10-22T08:47:14Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: XS",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (main)",
       "url": "https://github.com/conforma/policy/pull/1883",
       "number": 1883,
@@ -972,48 +919,22 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:20:19Z",
-      "updated_at": "2026-10-22T08:47:27Z",
+      "updated_at": "2026-10-22T09:30:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
-      "size": "S",
+      "size": "XS",
       "reviews": {
-        "approved_count": 2,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
+        "go",
         "renovate",
         "main",
-        "size: S",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp to v1.45.0 [SECURITY] (main)",
-      "url": "https://github.com/conforma/policy/pull/1884",
-      "number": 1884,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:20:40Z",
-      "updated_at": "2026-10-22T08:46:36Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "S",
-      "reviews": {
-        "approved_count": 2,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "main",
-        "size: S",
+        "size: XS",
         "ready-for-merge",
         "risk/moderate"
       ]
@@ -1294,34 +1215,6 @@
       ]
     },
     {
-      "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp to v1.45.0 [SECURITY] (release-v0.8)",
-      "url": "https://github.com/conforma/policy/pull/1903",
-      "number": 1903,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-13T14:38:50Z",
-      "updated_at": "2026-10-20T20:40:03Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "FAILURE",
-      "size": "XL",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "size: XL",
-        "release-v0.8",
-        "ready-for-merge",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update actions/upload-artifact action to v7.0.2 (release-v0.7)",
       "url": "https://github.com/conforma/policy/pull/1910",
       "number": 1910,
@@ -1331,7 +1224,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-17T02:01:04Z",
-      "updated_at": "2026-10-20T19:53:59Z",
+      "updated_at": "2026-10-22T09:15:17Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1357,7 +1250,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-17T02:01:16Z",
-      "updated_at": "2026-10-20T20:40:09Z",
+      "updated_at": "2026-10-22T09:15:22Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1383,10 +1276,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-22T01:59:02Z",
-      "updated_at": "2026-10-22T09:07:07Z",
+      "updated_at": "2026-10-22T09:28:34Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -1410,17 +1303,18 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-22T01:59:14Z",
-      "updated_at": "2026-10-22T08:55:11Z",
+      "updated_at": "2026-10-22T09:14:49Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 2,
       "labels": [
+        "github_actions",
         "major",
         "renovate",
         "main",
@@ -1712,7 +1606,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-22T09:02:35Z",
+      "updated_at": "2026-10-22T09:16:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1773,10 +1667,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T02:25:45Z",
-      "updated_at": "2026-10-22T09:04:55Z",
+      "updated_at": "2026-10-22T09:22:14Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "M",
       "reviews": {
         "approved_count": 0,
@@ -2300,7 +2194,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:37Z",
-      "updated_at": "2026-10-22T08:59:45Z",
+      "updated_at": "2026-10-22T09:11:21Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2330,7 +2224,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T01:14:44Z",
-      "updated_at": "2026-10-22T09:00:07Z",
+      "updated_at": "2026-10-22T09:14:05Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2339,7 +2233,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 54,
+      "unresolved_conversations": 55,
       "labels": [
         "dependencies",
         "go",
@@ -2347,7 +2241,6 @@
         "renovate",
         "main",
         "size: XS",
-        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -2421,10 +2314,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-06-27T02:05:05Z",
-      "updated_at": "2026-10-22T09:03:34Z",
+      "updated_at": "2026-10-22T09:15:49Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 1,
@@ -2653,7 +2546,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-07-23T02:01:58Z",
-      "updated_at": "2026-10-22T09:04:32Z",
+      "updated_at": "2026-10-22T09:22:55Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -2669,7 +2562,7 @@
         "renovate",
         "main",
         "size: XXL",
-        "ready-for-merge",
+        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -3535,7 +3428,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T18:12:29Z",
-      "updated_at": "2026-10-22T08:59:48Z",
+      "updated_at": "2026-10-22T09:15:34Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3548,7 +3441,7 @@
       "labels": [
         "renovate",
         "size: XS",
-        "ready-for-merge",
+        "requires-manual-review",
         "risk/moderate",
         "security"
       ]
@@ -3847,7 +3740,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-25T01:51:31Z",
-      "updated_at": "2026-10-22T08:56:33Z",
+      "updated_at": "2026-10-22T09:10:16Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3875,7 +3768,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-26T03:42:31Z",
-      "updated_at": "2026-10-22T08:56:56Z",
+      "updated_at": "2026-10-22T09:08:52Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -4034,10 +3927,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-22T03:29:15Z",
-      "updated_at": "2026-10-22T08:58:22Z",
+      "updated_at": "2026-10-22T09:13:09Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4045,6 +3938,7 @@
       },
       "unresolved_conversations": 1,
       "labels": [
+        "github_actions",
         "main",
         "renovate",
         "major",
@@ -4263,10 +4157,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-09-16T01:36:55Z",
-      "updated_at": "2026-10-22T08:56:16Z",
+      "updated_at": "2026-10-22T09:10:00Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -4569,13 +4463,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-22T03:00:58Z",
-      "updated_at": "2026-10-22T03:04:04Z",
+      "updated_at": "2026-10-22T09:18:26Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5004,13 +4898,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:08:23Z",
-      "updated_at": "2026-10-21T13:26:27Z",
+      "updated_at": "2026-10-22T09:17:48Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5552,7 +5446,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-24T09:08:55Z",
+    "since": "2026-07-24T09:39:56Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -8552,16 +8446,8 @@
       },
       {
         "login": "jsmid1",
-        "reviews": 117,
+        "reviews": 116,
         "prs": [
-          {
-            "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (main)",
-            "url": "https://github.com/conforma/policy/pull/1883",
-            "repo": "conforma/policy",
-            "number": 1883,
-            "author": "renovate",
-            "engaged_at": "2026-10-22T08:47:27Z"
-          },
           {
             "title": "Update module github.com/sigstore/timestamp-authority/v2 to v2.1.0 [SECURITY] (main)",
             "url": "https://github.com/conforma/policy/pull/1881",
@@ -9494,7 +9380,7 @@
       },
       {
         "login": "st3penta",
-        "reviews": 110,
+        "reviews": 109,
         "prs": [
           {
             "title": "chore(deps): Update golang.org/x/crypto (main)",
@@ -10367,14 +10253,6 @@
             "number": 3324,
             "author": "joejstuart",
             "engaged_at": "2026-07-28T07:48:22Z"
-          },
-          {
-            "title": "Fix pinned ref cache miss to avoid policy refetch",
-            "url": "https://github.com/conforma/cli/pull/3431",
-            "repo": "conforma/cli",
-            "number": 3431,
-            "author": "simonbaird",
-            "engaged_at": "2026-07-24T09:27:01Z"
           }
         ]
       },
@@ -10986,8 +10864,24 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 69,
+        "reviews": 70,
         "prs": [
+          {
+            "title": "fix(deps): update module oras.land/oras-go/v2 to v2.6.4 (main)",
+            "url": "https://github.com/conforma/go-gather/pull/355",
+            "repo": "conforma/go-gather",
+            "number": 355,
+            "author": "renovate",
+            "engaged_at": "2026-10-22T09:18:26Z"
+          },
+          {
+            "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracehttp to v1.45.0 [SECURITY] (main)",
+            "url": "https://github.com/conforma/e2e-tests/pull/40",
+            "repo": "conforma/e2e-tests",
+            "number": 40,
+            "author": "renovate",
+            "engaged_at": "2026-10-22T09:17:48Z"
+          },
           {
             "title": "chore: sync task and pipeline definitions to release-v0.7",
             "url": "https://github.com/conforma/tekton-catalog/pull/308",
@@ -11011,14 +10905,6 @@
             "number": 1877,
             "author": "renovate",
             "engaged_at": "2026-10-21T13:17:58Z"
-          },
-          {
-            "title": "Update module go.opentelemetry.io/otel/exporters/otlp/otlptrace/otlptracegrpc to v1.45.0 [SECURITY] (main)",
-            "url": "https://github.com/conforma/policy/pull/1883",
-            "repo": "conforma/policy",
-            "number": 1883,
-            "author": "renovate",
-            "engaged_at": "2026-10-21T13:17:25Z"
           },
           {
             "title": "Update module github.com/sigstore/timestamp-authority/v2 to v2.1.0 [SECURITY] (main)",
