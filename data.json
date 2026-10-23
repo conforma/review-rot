@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T14:44:34.037575836Z",
+  "generated_at": "2026-10-23T15:10:56.281701488Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4038,7 +4038,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-21T00:11:11Z",
-      "updated_at": "2026-10-21T00:16:35Z",
+      "updated_at": "2026-10-23T15:04:41Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
@@ -4841,27 +4841,27 @@
       ]
     },
     {
-      "title": "Onboard agent-skills to fullsend",
-      "url": "https://github.com/conforma/agent-skills/pull/31",
-      "number": 31,
+      "title": "chore: initialize fullsend per-repo installation",
+      "url": "https://github.com/conforma/agent-skills/pull/32",
+      "number": 32,
       "repo": "conforma/agent-skills",
       "author": {
         "login": "st3penta",
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
-      "created_at": "2026-10-23T10:35:42Z",
-      "updated_at": "2026-10-23T13:18:04Z",
+      "created_at": "2026-10-23T15:00:45Z",
+      "updated_at": "2026-10-23T15:00:58Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "SUCCESS",
-      "size": "XL",
+      "ci_status": "PENDING",
+      "size": "L",
       "reviews": {
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 1,
+      "unresolved_conversations": 0,
       "labels": [
-        "size: XL"
+        "size: L"
       ]
     },
     {
@@ -5031,7 +5031,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-28T02:09:34Z",
-      "updated_at": "2026-10-20T11:49:01Z",
+      "updated_at": "2026-10-23T14:47:38Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5520,7 +5520,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T14:40:50Z",
+    "since": "2026-07-25T15:07:20Z",
     "reviewers": [
       {
         "login": "robnester-rh",
