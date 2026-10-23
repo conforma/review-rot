@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T05:42:54.919829514Z",
+  "generated_at": "2026-10-23T06:16:01.229817447Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -4371,13 +4371,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-10-20T06:01:53Z",
-      "updated_at": "2026-10-22T08:40:27Z",
+      "updated_at": "2026-10-23T06:01:49Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -4395,13 +4395,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/245286?v=4"
       },
       "created_at": "2026-10-20T06:02:00Z",
-      "updated_at": "2026-10-22T06:02:10Z",
+      "updated_at": "2026-10-23T06:01:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "SUCCESS",
       "size": "S",
       "reviews": {
-        "approved_count": 1,
+        "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 0,
@@ -5036,7 +5036,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2025-10-26T01:17:31Z",
-      "updated_at": "2026-10-22T06:09:06Z",
+      "updated_at": "2026-10-23T06:09:59Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5089,7 +5089,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:32:55Z",
-      "updated_at": "2026-10-22T06:07:54Z",
+      "updated_at": "2026-10-23T06:08:35Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5115,7 +5115,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-05T01:33:00Z",
-      "updated_at": "2026-10-22T06:08:01Z",
+      "updated_at": "2026-10-23T06:08:43Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -5551,7 +5551,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T05:39:39Z",
+    "since": "2026-07-25T06:12:49Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -10977,7 +10977,7 @@
       },
       {
         "login": "Acepresso",
-        "reviews": 70,
+        "reviews": 69,
         "prs": [
           {
             "title": "fix(deps): update module oras.land/oras-go/v2 to v2.6.4 (main)",
@@ -10994,14 +10994,6 @@
             "number": 40,
             "author": "renovate",
             "engaged_at": "2026-10-22T09:17:48Z"
-          },
-          {
-            "title": "chore: sync task and pipeline definitions to release-v0.7",
-            "url": "https://github.com/conforma/tekton-catalog/pull/308",
-            "repo": "conforma/tekton-catalog",
-            "number": 308,
-            "author": "ec-automation",
-            "engaged_at": "2026-10-22T08:40:27Z"
           },
           {
             "title": "fix(deps): update dependency golang to v1.27.2 (main)",
@@ -11076,12 +11068,12 @@
             "engaged_at": "2026-10-21T13:06:54Z"
           },
           {
-            "title": "chore: sync task and pipeline definitions to main",
-            "url": "https://github.com/conforma/tekton-catalog/pull/309",
+            "title": "chore: sync task and pipeline definitions to release-v0.7",
+            "url": "https://github.com/conforma/tekton-catalog/pull/308",
             "repo": "conforma/tekton-catalog",
-            "number": 309,
+            "number": 308,
             "author": "ec-automation",
-            "engaged_at": "2026-10-21T12:59:10Z"
+            "engaged_at": "2026-10-21T12:58:45Z"
           },
           {
             "title": "Update actions/upload-artifact action to v7.0.2 (release-v0.7)",
