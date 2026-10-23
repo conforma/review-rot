@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T18:11:49.731969925Z",
+  "generated_at": "2026-10-23T18:45:23.741839642Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -1587,7 +1587,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-02-27T01:15:43Z",
-      "updated_at": "2026-10-23T15:39:00Z",
+      "updated_at": "2026-10-23T18:37:12Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -3716,6 +3716,78 @@
       ]
     },
     {
+      "title": "Bump UBI base image digest for ca-certificates and openssl updates",
+      "url": "https://github.com/conforma/cli/pull/3632",
+      "number": 3632,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-10-23T18:26:57Z",
+      "updated_at": "2026-10-23T18:40:00Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image (v0.7)",
+      "url": "https://github.com/conforma/cli/pull/3633",
+      "number": 3633,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-10-23T18:35:01Z",
+      "updated_at": "2026-10-23T18:36:49Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
+      "title": "chore(deps): Update ubi-minimal base image (v0.8)",
+      "url": "https://github.com/conforma/cli/pull/3634",
+      "number": 3634,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "cuipinghuo",
+        "avatar_url": "https://avatars.githubusercontent.com/u/46670803?u=b5b91d55989faf80371d7baf4c35cee6cdee4d2e\u0026v=4"
+      },
+      "created_at": "2026-10-23T18:36:16Z",
+      "updated_at": "2026-10-23T18:38:06Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -4801,13 +4873,13 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-20T09:29:25Z",
-      "updated_at": "2026-10-23T09:47:01Z",
+      "updated_at": "2026-10-23T18:34:52Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
       "size": "XXL",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
       "unresolved_conversations": 2,
@@ -5495,7 +5567,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T18:08:39Z",
+    "since": "2026-07-25T18:42:30Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -5507,7 +5579,7 @@
             "repo": "conforma/agent-skills",
             "number": 30,
             "author": "st3penta",
-            "engaged_at": "2026-10-22T14:10:45Z"
+            "engaged_at": "2026-10-23T18:34:52Z"
           },
           {
             "title": "Update FullSend workflow pins",
