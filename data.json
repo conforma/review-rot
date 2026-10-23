@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T09:43:03.068266828Z",
+  "generated_at": "2026-10-23T10:11:06.217024466Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3742,6 +3742,30 @@
       ]
     },
     {
+      "title": "Update README.md",
+      "url": "https://github.com/conforma/cli/pull/3631",
+      "number": 3631,
+      "repo": "conforma/cli",
+      "author": {
+        "login": "dheerajRH",
+        "avatar_url": "https://avatars.githubusercontent.com/u/121310417?v=4"
+      },
+      "created_at": "2026-10-23T10:06:32Z",
+      "updated_at": "2026-10-23T10:06:41Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XS",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XS"
+      ]
+    },
+    {
       "title": "Cosmetic tweaks WIP",
       "url": "https://github.com/conforma/conforma.github.io/pull/424",
       "number": 424,
@@ -4827,7 +4851,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
       },
       "created_at": "2026-10-20T09:29:25Z",
-      "updated_at": "2026-10-22T14:10:46Z",
+      "updated_at": "2026-10-23T09:47:01Z",
       "is_draft": false,
       "is_automated": false,
       "ci_status": "SUCCESS",
@@ -5497,7 +5521,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T09:39:31Z",
+    "since": "2026-07-25T10:07:41Z",
     "reviewers": [
       {
         "login": "robnester-rh",
