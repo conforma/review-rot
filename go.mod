@@ -5,6 +5,7 @@ go 1.25.0
 require (
 	github.com/bradleyfalzon/ghinstallation/v2 v2.19.0
 	github.com/cenkalti/backoff/v4 v4.3.0
+	github.com/cenkalti/backoff/v7 v7.0.1
 	github.com/goccy/go-yaml v1.19.2
 	github.com/shurcooL/githubv4 v0.0.0-20260209031235-2402fdf4a9ed
 )
