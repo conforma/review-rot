@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T12:14:06.774713637Z",
+  "generated_at": "2026-10-23T12:49:50.853341841Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -131,7 +131,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-23T08:12:42Z",
+      "updated_at": "2026-10-23T12:24:02Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "PENDING",
@@ -142,6 +142,7 @@
       },
       "unresolved_conversations": 0,
       "labels": [
+        "dependencies",
         "github_actions",
         "renovate",
         "release-v0.7",
@@ -266,10 +267,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:27Z",
-      "updated_at": "2026-10-20T20:40:18Z",
+      "updated_at": "2026-10-23T12:26:12Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -280,7 +281,8 @@
         "renovate",
         "size: XS",
         "release-v0.8",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -293,10 +295,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-05-17T00:44:38Z",
-      "updated_at": "2026-10-23T00:30:42Z",
+      "updated_at": "2026-10-23T12:29:44Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -309,7 +311,6 @@
         "renovate",
         "size: XS",
         "release-v0.8",
-        "requires-manual-review",
         "risk/moderate"
       ]
     },
@@ -1062,7 +1063,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:32:32Z",
-      "updated_at": "2026-10-20T19:57:27Z",
+      "updated_at": "2026-10-23T12:27:53Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1076,6 +1077,7 @@
         "renovate",
         "size: XL",
         "release-v0.8",
+        "ready-for-merge",
         "risk/moderate"
       ]
     },
@@ -1218,34 +1220,6 @@
       ]
     },
     {
-      "title": "Update actions/upload-artifact action to v7.0.2 (release-v0.7)",
-      "url": "https://github.com/conforma/policy/pull/1910",
-      "number": 1910,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-17T02:01:04Z",
-      "updated_at": "2026-10-23T08:09:10Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 1,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "github_actions",
-        "renovate",
-        "release-v0.7",
-        "size: XS",
-        "risk/moderate"
-      ]
-    },
-    {
       "title": "Update actions/upload-artifact action to v7.0.2 (release-v0.8)",
       "url": "https://github.com/conforma/policy/pull/1911",
       "number": 1911,
@@ -1255,20 +1229,21 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-17T02:01:16Z",
-      "updated_at": "2026-10-23T00:30:28Z",
+      "updated_at": "2026-10-23T12:27:21Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "renovate",
         "size: XS",
-        "release-v0.8"
+        "release-v0.8",
+        "risk/low"
       ]
     },
     {
@@ -5545,7 +5520,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T12:10:36Z",
+    "since": "2026-07-25T12:46:17Z",
     "reviewers": [
       {
         "login": "robnester-rh",
