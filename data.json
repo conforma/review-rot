@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:45:06.732431404Z",
+  "generated_at": "2026-10-23T08:13:19.747049235Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -131,10 +131,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-01T00:46:07Z",
-      "updated_at": "2026-10-23T00:30:04Z",
+      "updated_at": "2026-10-23T07:59:24Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -189,10 +189,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-03-06T00:35:50Z",
-      "updated_at": "2026-10-20T19:54:08Z",
+      "updated_at": "2026-10-23T08:07:36Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "SUCCESS",
       "size": "XS",
       "reviews": {
         "approved_count": 0,
@@ -204,7 +204,8 @@
         "renovate",
         "release-v0.7",
         "size: XS",
-        "ready-for-merge"
+        "ready-for-merge",
+        "risk/low"
       ]
     },
     {
@@ -1226,10 +1227,10 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-17T02:01:04Z",
-      "updated_at": "2026-10-23T00:30:07Z",
+      "updated_at": "2026-10-23T07:59:32Z",
       "is_draft": false,
       "is_automated": true,
-      "ci_status": "FAILURE",
+      "ci_status": "PENDING",
       "size": "XS",
       "reviews": {
         "approved_count": 1,
@@ -1322,63 +1323,6 @@
         "main",
         "size: XS",
         "risk/moderate"
-      ]
-    },
-    {
-      "title": "Update dependency golang to v1.26.9 (release-v0.7)",
-      "url": "https://github.com/conforma/policy/pull/1929",
-      "number": 1929,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-23T00:30:15Z",
-      "updated_at": "2026-10-23T00:40:13Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "renovate",
-        "release-v0.7",
-        "size: XS",
-        "ready-for-merge",
-        "risk/low"
-      ]
-    },
-    {
-      "title": "Update dependency golang to v1.26.9 (release-v0.8)",
-      "url": "https://github.com/conforma/policy/pull/1930",
-      "number": 1930,
-      "repo": "conforma/policy",
-      "author": {
-        "login": "renovate",
-        "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
-      },
-      "created_at": "2026-10-23T00:30:35Z",
-      "updated_at": "2026-10-23T00:42:28Z",
-      "is_draft": false,
-      "is_automated": true,
-      "ci_status": "SUCCESS",
-      "size": "XS",
-      "reviews": {
-        "approved_count": 0,
-        "outstanding_change_requests_on_head": false
-      },
-      "unresolved_conversations": 0,
-      "labels": [
-        "dependencies",
-        "renovate",
-        "size: XS",
-        "release-v0.8",
-        "ready-for-merge",
-        "risk/low"
       ]
     },
     {
@@ -5551,7 +5495,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T07:42:10Z",
+    "since": "2026-07-25T08:09:46Z",
     "reviewers": [
       {
         "login": "robnester-rh",
