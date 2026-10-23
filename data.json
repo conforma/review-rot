@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T10:11:06.217024466Z",
+  "generated_at": "2026-10-23T10:41:04.952634814Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -3751,16 +3751,16 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/121310417?v=4"
       },
       "created_at": "2026-10-23T10:06:32Z",
-      "updated_at": "2026-10-23T10:06:41Z",
+      "updated_at": "2026-10-23T10:23:04Z",
       "is_draft": false,
       "is_automated": false,
-      "ci_status": "PENDING",
+      "ci_status": "FAILURE",
       "size": "XS",
       "reviews": {
-        "approved_count": 0,
+        "approved_count": 1,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 0,
+      "unresolved_conversations": 1,
       "labels": [
         "size: XS"
       ]
@@ -4866,6 +4866,30 @@
       ]
     },
     {
+      "title": "Onboard agent-skills to fullsend",
+      "url": "https://github.com/conforma/agent-skills/pull/31",
+      "number": 31,
+      "repo": "conforma/agent-skills",
+      "author": {
+        "login": "st3penta",
+        "avatar_url": "https://avatars.githubusercontent.com/u/71923697?u=8d4ae31e5d8bc960e68af833bb1fa3e5ecaf8636\u0026v=4"
+      },
+      "created_at": "2026-10-23T10:35:42Z",
+      "updated_at": "2026-10-23T10:35:55Z",
+      "is_draft": false,
+      "is_automated": false,
+      "ci_status": "PENDING",
+      "size": "XL",
+      "reviews": {
+        "approved_count": 0,
+        "outstanding_change_requests_on_head": false
+      },
+      "unresolved_conversations": 0,
+      "labels": [
+        "size: XL"
+      ]
+    },
+    {
       "title": "🚨 Update actions/checkout action to v7 (main)",
       "url": "https://github.com/conforma/step-actions/pull/18",
       "number": 18,
@@ -5521,7 +5545,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T10:07:41Z",
+    "since": "2026-07-25T10:37:36Z",
     "reviewers": [
       {
         "login": "robnester-rh",
@@ -11505,8 +11529,16 @@
       },
       {
         "login": "dheerajodha",
-        "reviews": 64,
+        "reviews": 65,
         "prs": [
+          {
+            "title": "Update README.md",
+            "url": "https://github.com/conforma/cli/pull/3631",
+            "repo": "conforma/cli",
+            "number": 3631,
+            "author": "dheerajRH",
+            "engaged_at": "2026-10-23T10:12:13Z"
+          },
           {
             "title": "Separate Go toolchain validation from site builds",
             "url": "https://github.com/conforma/conforma.github.io/pull/590",
