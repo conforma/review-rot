@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T16:12:29.455178328Z",
+  "generated_at": "2026-10-23T16:44:01.024520987Z",
   "ui_settings": {
     "title": "Conforma Review Rot",
     "logo": "images/logo.svg",
@@ -52,7 +52,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-01-20T00:43:39Z",
-      "updated_at": "2026-10-23T15:54:28Z",
+      "updated_at": "2026-10-23T16:11:29Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1037,7 +1037,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4"
       },
       "created_at": "2026-10-13T14:29:22Z",
-      "updated_at": "2026-10-23T15:53:54Z",
+      "updated_at": "2026-10-23T16:10:51Z",
       "is_draft": false,
       "is_automated": true,
       "ci_status": "FAILURE",
@@ -1046,7 +1046,7 @@
         "approved_count": 0,
         "outstanding_change_requests_on_head": false
       },
-      "unresolved_conversations": 2,
+      "unresolved_conversations": 3,
       "labels": [
         "renovate",
         "release-v0.7",
@@ -5495,7 +5495,7 @@
   ],
   "leaderboard": {
     "window_days": 90,
-    "since": "2026-07-25T16:08:45Z",
+    "since": "2026-07-25T16:40:41Z",
     "reviewers": [
       {
         "login": "robnester-rh",
