@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cenkalti/backoff/v4"
+	"github.com/cenkalti/backoff/v7"
 )
 
 // retryRoundTripper wraps an http.RoundTripper and retries requests
@@ -80,18 +80,23 @@ func (r *retryRoundTripper) RoundTrip(req *http.Request) (*http.Response, error)
 	b := backoff.NewExponentialBackOff()
 	b.InitialInterval = 1 * time.Second
 	b.MaxInterval = 30 * time.Second
-	b.MaxElapsedTime = 0 // No time limit, only retry count
 	b.Multiplier = 2.0
 	b.RandomizationFactor = 0.1 // Add 10% jitter
-
-	retryBackoff := backoff.WithMaxRetries(b, uint64(r.maxRetries))
-	retryBackoff = backoff.WithContext(retryBackoff, req.Context())
 
 	notifyFunc := func(err error, duration time.Duration) {
 		log.Printf("GitHub API request failed (%v), retrying in %s", err, duration)
 	}
 
-	err := backoff.RetryNotify(operation, retryBackoff, notifyFunc)
+	_, err := backoff.Retry(
+		req.Context(),
+		func() (struct{}, error) {
+			return struct{}{}, operation()
+		},
+		backoff.WithBackOff(b),
+		backoff.WithMaxTries(uint(r.maxRetries)+1),
+		backoff.WithMaxElapsedTime(0),
+		backoff.WithNotify(notifyFunc),
+	)
 
 	// Check if context was cancelled
 	if req.Context().Err() != nil {
