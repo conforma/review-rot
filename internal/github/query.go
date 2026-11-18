@@ -18,7 +18,7 @@ type prQueryResult struct {
 				EndCursor   githubv4.String
 			}
 			Nodes []prNode
-		} `graphql:"pullRequests(first: 100, states: OPEN, after: $cursor)"`
+		} `graphql:"pullRequests(first: 50, states: OPEN, after: $cursor)"`
 	} `graphql:"repository(owner: $owner, name: $name)"`
 	RateLimit struct {
 		Cost      int
