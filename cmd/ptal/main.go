@@ -21,7 +21,7 @@ func main() {
 	flag.Parse()
 
 	if *configDir == "" || *outputPath == "" {
-		fmt.Fprintf(os.Stderr, "Usage: review-rot --config-dir=<path> --output=<path>\n")
+		fmt.Fprintf(os.Stderr, "Usage: ptal --config-dir=<path> --output=<path>\n")
 		os.Exit(1)
 	}
 

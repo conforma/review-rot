@@ -37,10 +37,10 @@ jobs:
         with:
           go-version-file: go.mod
 
-      - name: Build and run review-rot
+      - name: Build and run PTAL
         run: |
-          go build -o review-rot ./cmd/review-rot
-          ./review-rot --config-dir=config --output=web/data.json
+          go build -o ptal ./cmd/ptal
+          ./ptal --config-dir=config --output=web/data.json
         env:
           GITHUB_PRIVATE_KEY: ${{ secrets.EC_AUTOMATION_KEY }}
 

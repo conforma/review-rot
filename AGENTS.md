@@ -2,16 +2,16 @@
 
 ## Project overview
 
-review-rot is a PR dashboard. It has three components:
+PTAL is a PR dashboard. It has three components:
 
-1. **Go CLI** (`cmd/review-rot/main.go`) — queries GitHub GraphQL API, outputs `data.json`
+1. **Go CLI** (`cmd/ptal/main.go`) — queries GitHub GraphQL API, outputs `data.json`
 2. **Static frontend** (`frontend/`) — vanilla JS + CSS, no build step
 3. **GitHub Actions** (`.github/workflows/`) — publish to GitHub Pages
 
 ## Repository structure
 
 ```text
-cmd/review-rot/main.go       — CLI entry point
+cmd/ptal/main.go             — CLI entry point
 internal/config/              — YAML config parsing (sources + UI)
 internal/github/              — GitHub API: auth, repo discovery, PR queries, filtering, leaderboard
 internal/model/               — Output data model (Go structs with JSON tags)
@@ -25,7 +25,7 @@ config/ui.yaml                — Dashboard appearance (title, logo, accent colo
 ## Build and test
 
 ```bash
-go build -o review-rot ./cmd/review-rot
+go build -o ptal ./cmd/ptal
 go test ./...
 ```
 
@@ -33,14 +33,14 @@ go test ./...
 
 ```bash
 export GITHUB_PRIVATE_KEY="$(cat private-key.pem)"
-./review-rot --config-dir=config --output=data.json
+./ptal --config-dir=config --output=data.json
 ```
 
 ## Publish process
 
 `.github/workflows/publish.yaml` runs every 30 min on weekdays (and on push to main):
 
-1. Builds the Go CLI (`go build ./cmd/review-rot`)
+1. Builds the Go CLI (`go build ./cmd/ptal`)
 2. Runs it with `config/` to query GitHub and write `web/data.json`
 3. Copies `frontend/*` into `web/`
 4. Pushes `web/` to the `gh-pages` branch via `JamesIves/github-pages-deploy-action`
@@ -74,13 +74,13 @@ secret, passed as the `GITHUB_PRIVATE_KEY` environment variable.
 
 ## Customization
 
-To adapt review-rot for a different team:
+To adapt PTAL for a different team:
 
 1. Edit `config/sources.yaml` with your GitHub App credentials, orgs, repos,
    and team members
 2. Edit `config/ui.yaml` to set your dashboard title, logo, and accent colors
 3. Set the `GITHUB_APP_PRIVATE_KEY` repository secret
-4. If `ui.yaml` is omitted, defaults are used (title "Review Rot", no logo,
+4. If `ui.yaml` is omitted, defaults are used (title "PTAL", no logo,
    neutral blue-grey palette)
 
 ## Config format

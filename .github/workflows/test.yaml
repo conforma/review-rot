@@ -47,4 +47,4 @@ jobs:
           fail_ci_if_error: false
 
       - name: Build
-        run: go build ./cmd/review-rot
+        run: go build ./cmd/ptal
