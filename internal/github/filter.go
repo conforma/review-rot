@@ -3,7 +3,7 @@ package github
 import (
 	"strings"
 
-	"github.com/conforma/review-rot/internal/model"
+	"github.com/conforma/ptal/internal/model"
 )
 
 func FilterPRs(prs []model.PullRequest, coreOrgs []string, watchAllRepos []string, teamAuthors []string) []model.PullRequest {

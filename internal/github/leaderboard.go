@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/conforma/review-rot/internal/model"
+	"github.com/conforma/ptal/internal/model"
 	"github.com/shurcooL/githubv4"
 )
 

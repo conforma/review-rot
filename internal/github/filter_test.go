@@ -3,7 +3,7 @@ package github
 import (
 	"testing"
 
-	"github.com/conforma/review-rot/internal/model"
+	"github.com/conforma/ptal/internal/model"
 )
 
 func makePR(repo, author string) model.PullRequest {

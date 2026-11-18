@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/conforma/review-rot/internal/model"
+	"github.com/conforma/ptal/internal/model"
 )
 
 func makeActivityReview(authorType, login string, submittedAt time.Time) struct {

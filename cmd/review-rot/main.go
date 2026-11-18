@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/conforma/review-rot/internal/config"
-	gh "github.com/conforma/review-rot/internal/github"
-	"github.com/conforma/review-rot/internal/model"
+	"github.com/conforma/ptal/internal/config"
+	gh "github.com/conforma/ptal/internal/github"
+	"github.com/conforma/ptal/internal/model"
 )
 
 func main() {

@@ -1,4 +1,4 @@
-module github.com/conforma/review-rot
+module github.com/conforma/ptal
 
 go 1.25.0
 
