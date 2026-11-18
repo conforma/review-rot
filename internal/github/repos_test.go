@@ -3,7 +3,7 @@ package github
 import "testing"
 
 func TestCollectReposDedup(t *testing.T) {
-	discovered := []string{"conforma/policy", "conforma/cli", "conforma/review-rot"}
+	discovered := []string{"conforma/policy", "conforma/cli", "conforma/ptal"}
 	explicit := []string{"conforma/policy", "konflux-ci/build-definitions"}
 
 	result := collectReposFromLists(discovered, explicit)
@@ -15,7 +15,7 @@ func TestCollectReposDedup(t *testing.T) {
 	expected := map[string]bool{
 		"conforma/policy":              true,
 		"conforma/cli":                 true,
-		"conforma/review-rot":          true,
+		"conforma/ptal":                true,
 		"konflux-ci/build-definitions": true,
 	}
 	seen := make(map[string]bool, len(result))
