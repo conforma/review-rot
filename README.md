@@ -1,4 +1,4 @@
-# review-rot
+# PTAL
 
 PR dashboard that shows open pull requests across monitored GitHub repositories
 so team members can see at a glance which PRs need attention.
@@ -41,7 +41,7 @@ The `config/` directory contains two files:
 
 ### Repo Filtering
 
-review-rot supports three ways to monitor repositories:
+PTAL supports three ways to monitor repositories:
 
 1. **Organizations** (`sources.orgs`) — All PRs from all authors across all
    repos in the org are shown
@@ -98,7 +98,7 @@ instructions on creating and installing a GitHub App.
 
 ## Customization
 
-To use review-rot for your own team:
+To use PTAL for your own team:
 
 1. Fork the repository
 2. Create a GitHub App (see above) and install it on your org
@@ -111,5 +111,5 @@ To use review-rot for your own team:
 6. Configure GitHub Pages to deploy via GitHub Actions (Settings → Pages →
    Source: "GitHub Actions")
 
-If `ui.yaml` is omitted, the dashboard uses the default title ("Review Rot"),
+If `ui.yaml` is omitted, the dashboard uses the default title ("PTAL"),
 no logo, and a neutral blue-grey color scheme.
