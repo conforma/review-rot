@@ -209,6 +209,29 @@ func TestTransformPRBotAuthor(t *testing.T) {
 	}
 }
 
+func TestTransformPRDeletedAuthor(t *testing.T) {
+	// GitHub returns author: null for PRs from deleted accounts, which
+	// zero-values the whole Author struct including AvatarURL (a *url.URL).
+	node := prNode{
+		Title:     "Promote tekton-kueue to staging",
+		Number:    12963,
+		CreatedAt: time.Date(2026, 7, 8, 14, 14, 22, 0, time.UTC),
+		UpdatedAt: time.Date(2026, 7, 8, 14, 14, 22, 0, time.UTC),
+	}
+	node.URL = makeURI("https://github.com/redhat-appstudio/infra-deployments/pull/12963")
+
+	pr := transformPR(node, "redhat-appstudio/infra-deployments")
+	if pr.Author.AvatarURL != "" {
+		t.Errorf("Author.AvatarURL = %q, want empty string", pr.Author.AvatarURL)
+	}
+	if pr.Author.Login != "" {
+		t.Errorf("Author.Login = %q, want empty string", pr.Author.Login)
+	}
+	if pr.IsAutomated {
+		t.Error("IsAutomated should be false for missing author")
+	}
+}
+
 func TestTransformPRReviewsJSONContract(t *testing.T) {
 	node := reviewPRNode()
 	addReviewEvents(&node, []reviewEvent{
