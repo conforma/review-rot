@@ -117,10 +117,17 @@ func FetchRepoPRs(ctx context.Context, client *githubv4.Client, repoFullName str
 	return allPRs, nil
 }
 
+func uriString(u githubv4.URI) string {
+	if u.URL == nil {
+		return ""
+	}
+	return u.String()
+}
+
 func transformPR(node prNode, repo string) model.PullRequest {
 	pr := model.PullRequest{
 		Title:     node.Title,
-		URL:       node.URL.String(),
+		URL:       uriString(node.URL),
 		Number:    node.Number,
 		Repo:      repo,
 		CreatedAt: node.CreatedAt.Format(time.RFC3339),
@@ -128,7 +135,7 @@ func transformPR(node prNode, repo string) model.PullRequest {
 		IsDraft:   node.IsDraft,
 		Author: model.Author{
 			Login:     node.Author.Login,
-			AvatarURL: node.Author.AvatarURL.String(),
+			AvatarURL: uriString(node.Author.AvatarURL),
 		},
 		IsAutomated: node.Author.TypeName == "Bot",
 	}
